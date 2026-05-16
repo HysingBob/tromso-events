@@ -85,6 +85,14 @@ def main():
     if skipped:
         print(f"Skipped {skipped} events with no parseable date")
 
+    # Drop past events (keep anything from yesterday onward)
+    cutoff = datetime.now() - timedelta(days=1)
+    future = [e for e in valid if e["start"] >= cutoff]
+    past = len(valid) - len(future)
+    if past:
+        print(f"Dropped {past} past events (before {cutoff.date()})")
+    valid = future
+
     cal = build_calendar(valid)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
