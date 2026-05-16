@@ -82,6 +82,11 @@ def scrape() -> list[dict]:
             dates = [None]
 
         for dt in dates:
+            time_inferred = False
+            if dt is not None and dt.hour == 0 and dt.minute == 0:
+                dt = dt.replace(hour=18)
+                time_inferred = True
+
             uid = f"{slug}-{dt.strftime('%Y%m%dT%H%M') if dt else 'nodate'}@kulturhuset.tr.no"
             if uid in seen_slugs:
                 continue
@@ -93,6 +98,7 @@ def scrape() -> list[dict]:
                 "start": dt,
                 "venue": f"{venue}, Kulturhuset Tromsø",
                 "source": "kulturhuset",
+                "time_inferred": time_inferred,
             })
 
     return events

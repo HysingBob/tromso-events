@@ -5,13 +5,36 @@ import pathlib
 from datetime import datetime, timedelta, timezone
 
 import pytz
-from icalendar import Calendar, Event, vText
+from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight, vText
 
-from scrapers import kulturhuset, halogalandteater
+from scrapers import kulturhuset, halogalandteater, til, aurora
 
 OSLO = pytz.timezone("Europe/Oslo")
 OUTPUT = pathlib.Path("docs/events.ics")
-SCRAPERS = [kulturhuset, halogalandteater]
+SCRAPERS = [kulturhuset, halogalandteater, til, aurora]
+
+
+def build_vtimezone() -> Timezone:
+    tz = Timezone()
+    tz.add("tzid", "Europe/Oslo")
+
+    standard = TimezoneStandard()
+    standard.add("dtstart", datetime(1970, 10, 25, 3, 0, 0))
+    standard.add("tzoffsetfrom", timedelta(hours=2))
+    standard.add("tzoffsetto", timedelta(hours=1))
+    standard.add("tzname", "CET")
+    standard.add("rrule", {"freq": "yearly", "bymonth": [10], "byday": ["-1SU"]})
+
+    daylight = TimezoneDaylight()
+    daylight.add("dtstart", datetime(1970, 3, 29, 2, 0, 0))
+    daylight.add("tzoffsetfrom", timedelta(hours=1))
+    daylight.add("tzoffsetto", timedelta(hours=2))
+    daylight.add("tzname", "CEST")
+    daylight.add("rrule", {"freq": "yearly", "bymonth": [3], "byday": ["-1SU"]})
+
+    tz.add_component(standard)
+    tz.add_component(daylight)
+    return tz
 
 
 def build_calendar(events: list[dict]) -> Calendar:
@@ -21,6 +44,7 @@ def build_calendar(events: list[dict]) -> Calendar:
     cal.add("x-wr-calname", "Tromsø Events")
     cal.add("x-wr-timezone", "Europe/Oslo")
     cal.add("refresh-interval;value=duration", "PT12H")
+    cal.add_component(build_vtimezone())
 
     for ev in events:
         vevent = Event()
@@ -34,6 +58,8 @@ def build_calendar(events: list[dict]) -> Calendar:
             start = OSLO.localize(ev["start"])
             vevent.add("dtstart", start)
             vevent.add("dtend", start + timedelta(hours=2))
+            if ev.get("time_inferred"):
+                vevent.add("x-tromso-time-inferred", "TRUE")
         else:
             # No time info — use date-only
             vevent.add("dtstart", datetime.now(tz=OSLO).date())
