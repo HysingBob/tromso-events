@@ -2,8 +2,14 @@ name: Scrape events
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC = 08:00 Oslo (summer)
-  workflow_dispatch:        # allow manual runs
+    - cron: "0 6 * * *"   # 06:00 UTC = 08:00 Oslo (CEST, summer)
+    - cron: "0 7 * * *"   # 07:00 UTC = 08:00 Oslo (CET, winter)
+  workflow_dispatch:        # allow manual runs from Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "generate.py"
+      - "scrapers/**"
 
 permissions:
   contents: write
