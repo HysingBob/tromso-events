@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tromsø Events</title>
+  <style>
+    :root {
+      --bg: #f8f8f6;
+      --surface: #ffffff;
+      --border: #e2e2dc;
+      --text: #18181a;
+      --muted: #64646e;
+      --accent: #1a4f8a;
+      --inferred: #92500a;
+      --font: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    /* ── Header ── */
+    header {
+      padding: 2.5rem 0 1.75rem;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+    }
+
+    /* ── Filters ── */
+    #controls {
+      display: flex;
+      gap: 1.25rem;
+      align-items: center;
+      padding-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+
+    #controls label {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    #controls input[type="checkbox"] {
+      accent-color: var(--accent);
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    /* ── Feed ── */
+    #feed {
+      padding-bottom: 4rem;
+    }
+
+    .event {
+      display: grid;
+      grid-template-columns: 110px 1fr 1.5rem;
+      gap: 0 1rem;
+      padding: 0.8rem 0;
+      border-bottom: 1px solid var(--border);
+      align-items: start;
+    }
+
+    /* ── Time column ── */
+    .event-time {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.4;
+      padding-top: 0.1rem;
+    }
+
+    .event-date { display: block; }
+
+    .event-clock {
+      display: block;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* inferred-time marker on the clock cell */
+    .event-clock[data-inferred="true"]::before {
+      content: "~";
+      color: var(--inferred);
+      margin-right: 1px;
+    }
+
+    /* ── Info column ── */
+    .event-title {
+      font-weight: 600;
+      font-size: 0.93rem;
+      color: var(--text);
+      line-height: 1.35;
+    }
+
+    .event-venue {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    /* ── Link column ── */
+    .event-link a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 1rem;
+      line-height: 1;
+      opacity: 0.8;
+    }
+
+    .event-link a:hover { opacity: 1; }
+
+    /* ── Status / empty ── */
+    #status {
+      color: var(--muted);
+      font-size: 0.9rem;
+      padding: 1.5rem 0;
+    }
+
+    /* ── Inferred footnote ── */
+    #footnote {
+      font-size: 0.78rem;
+      color: var(--muted);
+      padding: 1rem 0 0;
+      border-top: 1px solid var(--border);
+      display: none;
+    }
+
+    #footnote span {
+      color: var(--inferred);
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 480px) {
+      .event {
+        grid-template-columns: 1fr 1.5rem;
+        grid-template-rows: auto auto;
+      }
+
+      .event-time {
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        gap: 0.4rem;
+        align-items: baseline;
+      }
+
+      .event-date::after { content: " ·"; }
+
+      .event-info {
+        grid-column: 1;
+        grid-row: 2;
+      }
+
+      .event-link {
+        grid-column: 2;
+        grid-row: 1 / 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1 id="site-heading">Tromsø Events</h1>
+    <p>Upcoming cultural events &mdash; <span lang="no">kommende arrangementer</span></p>
+  </header>
+
+  <div id="controls">
+    <label>
+      <input type="checkbox" id="filter-cinema" checked>
+      Cinema
+    </label>
+    <label>
+      <input type="checkbox" id="filter-other" checked>
+      Other
+    </label>
+  </div>
+
+  <div id="feed">
+    <p id="status">Loading events&hellip;</p>
+  </div>
+
+  <p id="footnote"><span>~</span> Start time is approximate</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js"></script>
+<script>
+'use strict';
+
+const SITE_NAME = 'Tromsø Events';
+const ICS_URL   = './events.ics';
+const DISPLAY_TZ = 'Europe/Oslo';
+
+let allEvents = [];
+
+const feedEl    = document.getElementById('feed');
+const footnoteEl = document.getElementById('footnote');
+const cinemaCb  = document.getElementById('filter-cinema');
+const otherCb   = document.getElementById('filter-other');
+
+// ── Category inference ──────────────────────────────────────────────────────
+
+function inferCategory(vevent, summary, location) {
+  // Prefer explicit CATEGORIES property when scraper emits it
+  const catProp = vevent.getFirstProperty('categories');
+  if (catProp) {
+    const val = catProp.getFirstValue();
+    const label = (Array.isArray(val) ? val[0] : val).toString().toLowerCase();
+    if (label === 'cinema') return 'cinema';
+    return 'other';
+  }
+
+  // Fallback: infer from location and title
+  const loc = (location || '').toLowerCase();
+  const sum = (summary || '').toLowerCase();
+  if (
+    loc.includes('aurora kino') ||
+    loc.includes('cinemateket') ||
+    sum.startsWith('cinemateket')
+  ) return 'cinema';
+
+  return 'other';
+}
+
+// ── Parsing ─────────────────────────────────────────────────────────────────
+
+function parseEvents(icsText) {
+  let jcal;
+  try {
+    jcal = ICAL.parse(icsText);
+  } catch (e) {
+    throw new Error('Could not parse calendar data.');
+  }
+
+  const cal     = new ICAL.Component(jcal);
+  const vevents = cal.getAllSubcomponents('vevent');
+  const now     = new Date();
+
+  const events = [];
+
+  for (const vevent of vevents) {
+    try {
+      const ev    = new ICAL.Event(vevent);
+      const start = ev.startDate.toJSDate();
+
+      if (start < now) continue; // skip past events
+
+      const summary  = ev.summary  || '';
+      const location = vevent.getFirstPropertyValue('location') || '';
+      const url      = vevent.getFirstPropertyValue('url')      || '';
+
+      const inferredProp = vevent.getFirstProperty('x-tromso-time-inferred');
+      const timeInferred = inferredProp
+        ? inferredProp.getFirstValue().toString().toUpperCase() === 'TRUE'
+        : false;
+
+      events.push({
+        title: summary,
+        start,
+        location,
+        url: safeUrl(url),
+        timeInferred,
+        category: inferCategory(vevent, summary, location),
+      });
+    } catch (_) {
+      // skip malformed events silently
+    }
+  }
+
+  events.sort((a, b) => a.start - b.start);
+  return events;
+}
+
+// ── URL safety ───────────────────────────────────────────────────────────────
+
+function safeUrl(url) {
+  if (!url) return '';
+  try {
+    const u = new URL(url);
+    return (u.protocol === 'https:' || u.protocol === 'http:') ? url : '';
+  } catch (_) {
+    return '';
+  }
+}
+
+// ── Formatting ───────────────────────────────────────────────────────────────
+
+const dateFmt = new Intl.DateTimeFormat('en-GB', {
+  weekday: 'short', day: 'numeric', month: 'short', timeZone: DISPLAY_TZ,
+});
+
+const timeFmt = new Intl.DateTimeFormat('en-GB', {
+  hour: '2-digit', minute: '2-digit', timeZone: DISPLAY_TZ, hour12: false,
+});
+
+function esc(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// ── Rendering ────────────────────────────────────────────────────────────────
+
+function renderEvents() {
+  const showCinema = cinemaCb.checked;
+  const showOther  = otherCb.checked;
+
+  const visible = allEvents.filter(e =>
+    e.category === 'cinema' ? showCinema : showOther
+  );
+
+  if (visible.length === 0) {
+    feedEl.innerHTML = '<p id="status">No upcoming events match your filters. / <span lang="no">Ingen kommende arrangementer.</span></p>';
+    footnoteEl.style.display = 'none';
+    return;
+  }
+
+  let hasInferred = false;
+
+  const rows = visible.map(e => {
+    if (e.timeInferred) hasInferred = true;
+
+    const link = e.url
+      ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" aria-label="Go to event page">→</a>`
+      : '';
+
+    return `<div class="event" data-category="${e.category}">
+      <div class="event-time">
+        <span class="event-date">${esc(dateFmt.format(e.start))}</span>
+        <span class="event-clock" data-inferred="${e.timeInferred}">${esc(timeFmt.format(e.start))}</span>
+      </div>
+      <div class="event-info">
+        <div class="event-title">${esc(e.title)}</div>
+        <div class="event-venue">${esc(e.location)}</div>
+      </div>
+      <div class="event-link">${link}</div>
+    </div>`;
+  });
+
+  feedEl.innerHTML = rows.join('');
+  footnoteEl.style.display = hasInferred ? 'block' : 'none';
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+
+cinemaCb.addEventListener('change', renderEvents);
+otherCb.addEventListener('change', renderEvents);
+
+fetch(ICS_URL)
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.text();
+  })
+  .then(text => {
+    allEvents = parseEvents(text);
+    if (allEvents.length === 0) {
+      feedEl.innerHTML = '<p id="status">No upcoming events found.</p>';
+    } else {
+      renderEvents();
+    }
+  })
+  .catch(err => {
+    feedEl.innerHTML = `<p id="status">Could not load events. ${esc(err.message)}</p>`;
+  });
+</script>
+
+</body>
+</html>
