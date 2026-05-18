@@ -39,7 +39,7 @@
     }
 
     .container {
-      max-width: 700px;
+      max-width: 960px;
       margin: 0 auto;
       padding: 0 1.25rem;
     }
@@ -108,27 +108,29 @@
       flex-shrink: 0;
     }
 
-    /* ── Feed ── */
+    /* ── Feed — 2-column card grid ── */
     #feed {
-      padding-bottom: 4rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      padding: 1.25rem 0 4rem;
     }
 
     .event {
-      display: grid;
-      grid-template-columns: 80px 110px 1fr 1.5rem;
-      gap: 0 1rem;
-      padding: 0.8rem 0;
-      border-bottom: 1px solid var(--border);
-      align-items: start;
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
     }
 
-    /* ── Image column ── */
+    /* ── Card image ── */
     .event-img {
-      width: 80px;
-      height: 40px;
-      border-radius: 4px;
-      overflow: hidden;
+      aspect-ratio: 2 / 1;
+      width: 100%;
       background: var(--border);
+      overflow: hidden;
       flex-shrink: 0;
     }
 
@@ -139,58 +141,63 @@
       display: block;
     }
 
-    /* ── Time column ── */
-    .event-time {
-      font-size: 0.82rem;
-      color: var(--muted);
-      line-height: 1.4;
-      padding-top: 0.1rem;
+    /* ── Card body ── */
+    .event-body {
+      padding: 0.75rem 1rem 0.9rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
     }
 
-    .event-date { display: block; }
-
-    .event-clock {
-      display: block;
+    .event-time {
+      display: flex;
+      gap: 0.35rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 0.35rem;
       font-variant-numeric: tabular-nums;
     }
 
-    /* inferred-time marker on the clock cell */
+    .event-date::after { content: " ·"; }
+
     .event-clock[data-inferred="true"]::before {
       content: "~";
       color: var(--inferred);
-      margin-right: 1px;
     }
 
-    /* ── Info column ── */
     .event-title {
       font-weight: 600;
       font-size: 0.93rem;
-      color: var(--text);
       line-height: 1.35;
+      margin-bottom: 0.25rem;
+    }
+
+    .event-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .event-title a:hover { color: var(--accent); }
+
+    .event-title .arrow {
+      color: var(--accent);
+      margin-left: 0.25rem;
+      opacity: 0.8;
     }
 
     .event-venue {
       font-size: 0.8rem;
       color: var(--muted);
-      margin-top: 0.15rem;
+      margin-top: auto;
+      padding-top: 0.25rem;
     }
-
-    /* ── Link column ── */
-    .event-link a {
-      color: var(--accent);
-      text-decoration: none;
-      font-size: 1rem;
-      line-height: 1;
-      opacity: 0.8;
-    }
-
-    .event-link a:hover { opacity: 1; }
 
     /* ── Status / empty ── */
     #status {
       color: var(--muted);
       font-size: 0.9rem;
       padding: 1.5rem 0;
+      grid-column: 1 / -1;
     }
 
     /* ── Inferred footnote ── */
@@ -202,41 +209,11 @@
       display: none;
     }
 
-    #footnote span {
-      color: var(--inferred);
-    }
+    #footnote span { color: var(--inferred); }
 
-    /* ── Mobile ── */
-    @media (max-width: 480px) {
-      .event {
-        grid-template-columns: 1fr 1.5rem;
-        grid-template-rows: auto auto;
-      }
-
-      .event-img { display: none; }
-
-      .event-time {
-        grid-column: 1;
-        grid-row: 1;
-        display: flex;
-        gap: 0.4rem;
-        align-items: baseline;
-      }
-
-      .event-date::after { content: " ·"; }
-
-      .event-info {
-        grid-column: 1;
-        grid-row: 2;
-      }
-
-      .event-link {
-        grid-column: 2;
-        grid-row: 1 / 3;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-      }
+    /* ── Mobile — single column ── */
+    @media (max-width: 560px) {
+      #feed { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -409,25 +386,25 @@ function renderEvents() {
   const rows = visible.map(e => {
     if (e.timeInferred) hasInferred = true;
 
-    const link = e.url
-      ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" aria-label="Go to event page">→</a>`
-      : '';
-
     const imgHtml = e.image
       ? `<img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.parentElement.style.background='var(--border)';this.remove()">`
       : '';
 
+    const arrow = e.url ? `<span class="arrow">→</span>` : '';
+    const titleHtml = e.url
+      ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}${arrow}</a>`
+      : esc(e.title);
+
     return `<div class="event" data-category="${e.category}">
       <div class="event-img">${imgHtml}</div>
-      <div class="event-time">
-        <span class="event-date">${esc(dateFmt.format(e.start))}</span>
-        <span class="event-clock" data-inferred="${e.timeInferred}">${esc(timeFmt.format(e.start))}</span>
-      </div>
-      <div class="event-info">
-        <div class="event-title">${esc(e.title)}</div>
+      <div class="event-body">
+        <div class="event-time">
+          <span class="event-date">${esc(dateFmt.format(e.start))}</span>
+          <span class="event-clock" data-inferred="${e.timeInferred}">${esc(timeFmt.format(e.start))}</span>
+        </div>
+        <div class="event-title">${titleHtml}</div>
         <div class="event-venue">${esc(e.location)}</div>
       </div>
-      <div class="event-link">${link}</div>
     </div>`;
   });
 
