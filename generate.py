@@ -1,17 +1,55 @@
 #!/usr/bin/env python3
 """Fetch events from all scrapers and write docs/events.ics."""
 
+import re
 import pathlib
 from datetime import datetime, timedelta, timezone
 
 import pytz
 from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight, vText
 
-from scrapers import kulturhuset, halogalandteater, til, aurora, kulturskolen
+from scrapers import kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet
 
 OSLO = pytz.timezone("Europe/Oslo")
 OUTPUT = pathlib.Path("docs/events.ics")
-SCRAPERS = [kulturhuset, halogalandteater, til, aurora, kulturskolen]
+SCRAPERS = [kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet]
+
+_STOP_WORDS = {"i", "på", "og", "med", "av", "for", "til", "the", "a", "an", "and", "in", "at"}
+
+
+def _sig_words(title: str) -> set[str]:
+    words = re.findall(r"[a-zæøå0-9]+", title.lower())
+    return {w for w in words if w not in _STOP_WORDS and len(w) > 1}
+
+
+def _deduplicate(events: list[dict]) -> list[dict]:
+    """Remove near-duplicate events (same date, ≥60% title word overlap).
+
+    When two events match, keep the one whose time is not inferred.
+    """
+    kept: list[dict] = []
+    for ev in events:
+        ev_date = ev["start"].date() if ev.get("start") else None
+        ev_words = _sig_words(ev["title"])
+        duplicate = False
+        for i, other in enumerate(kept):
+            other_date = other["start"].date() if other.get("start") else None
+            if ev_date != other_date:
+                continue
+            other_words = _sig_words(other["title"])
+            union = ev_words | other_words
+            if not union:
+                continue
+            overlap = len(ev_words & other_words) / len(union)
+            if overlap >= 0.6:
+                # Prefer the event with a real (non-inferred) time
+                if other.get("time_inferred") and not ev.get("time_inferred"):
+                    kept[i] = ev
+                duplicate = True
+                break
+        if not duplicate:
+            kept.append(ev)
+    return kept
 
 
 def build_vtimezone() -> Timezone:
@@ -94,6 +132,13 @@ def main():
     if past:
         print(f"Dropped {past} past events (before {cutoff.date()})")
     valid = future
+
+    # Deduplicate near-identical events across sources
+    before_dedup = len(valid)
+    valid = _deduplicate(valid)
+    dupes = before_dedup - len(valid)
+    if dupes:
+        print(f"Removed {dupes} duplicate events")
 
     cal = build_calendar(valid)
 
