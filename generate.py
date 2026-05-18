@@ -7,11 +7,11 @@ from datetime import datetime, timedelta, timezone
 import pytz
 from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight, vText
 
-from scrapers import kulturhuset, halogalandteater, til, aurora
+from scrapers import kulturhuset, halogalandteater, til, aurora, kulturskolen
 
 OSLO = pytz.timezone("Europe/Oslo")
 OUTPUT = pathlib.Path("docs/events.ics")
-SCRAPERS = [kulturhuset, halogalandteater, til, aurora]
+SCRAPERS = [kulturhuset, halogalandteater, til, aurora, kulturskolen]
 
 
 def build_vtimezone() -> Timezone:
