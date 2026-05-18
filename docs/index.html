@@ -216,9 +216,13 @@
 
     #footnote span { color: var(--inferred); }
 
+    .mobile-break { display: none; }
+
     /* ── Mobile — single column ── */
     @media (max-width: 560px) {
       #feed { grid-template-columns: 1fr; }
+      .mobile-break { display: inline; }
+      .sep { display: none; }
     }
   </style>
 </head>
@@ -228,7 +232,7 @@
   <header>
     <div class="header-text">
       <h1 id="site-heading">Tromsø Events</h1>
-      <p>Upcoming cultural events<br><span lang="no">kommende arrangementer</span></p>
+      <p>Upcoming cultural events<span class="sep"> &mdash; </span><br class="mobile-break"><span lang="no">Kommende arrangementer</span></p>
     </div>
     <button id="theme-toggle" aria-label="Toggle colour theme">Light</button>
   </header>
