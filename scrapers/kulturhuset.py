@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
 PROGRAM_URL = "https://kulturhuset.tr.no/program"
+BASE_URL = "https://kulturhuset.tr.no"
 
 MONTHS_NO = {
     "januar": 1, "jan": 1,
@@ -25,6 +26,20 @@ DATE_RE = re.compile(
     r"(\d{1,2})\.\s*(\w+)\s+(?:(\d{4})\s+)?kl\.\s*(\d{1,2}):(\d{2})",
     re.IGNORECASE,
 )
+
+
+def _extract_image(article) -> str | None:
+    img = article.find("img")
+    if not img:
+        return None
+    src = img.get("src") or img.get("data-src") or img.get("data-lazy-src") or ""
+    if not src or src.startswith("data:"):
+        return None
+    if src.startswith("//"):
+        return "https:" + src
+    if src.startswith("/"):
+        return BASE_URL + src
+    return src if src.startswith("http") else None
 
 
 def _parse_date(text: str) -> datetime | None:
@@ -73,6 +88,8 @@ def scrape() -> list[dict]:
         venue_el = article.find(class_="chili-scene-header")
         venue = venue_el.get_text(strip=True).title() if venue_el else "Kulturhuset Tromsø"
 
+        image = _extract_image(article)
+
         performances = article.select(".chili-event-performances li")
         dates = [_parse_date(li.get_text(strip=True)) for li in performances]
         dates = [d for d in dates if d is not None]
@@ -99,6 +116,7 @@ def scrape() -> list[dict]:
                 "venue": f"{venue}, Kulturhuset Tromsø",
                 "source": "kulturhuset",
                 "time_inferred": time_inferred,
+                "image": image,
             })
 
     return events

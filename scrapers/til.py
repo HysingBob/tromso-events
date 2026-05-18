@@ -62,6 +62,7 @@ def scrape() -> list[dict]:
             "start": dt,
             "venue": venue,
             "source": "til",
+            "image": None,
         })
 
     return events

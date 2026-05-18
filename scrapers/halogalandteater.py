@@ -4,10 +4,24 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
 PROGRAM_URL = "https://www.halogalandteater.no/forestillinger"
-BASE_URL = "https://www.halogalandteater.no"
+BASE_URL    = "https://www.halogalandteater.no"
 
 # "fre 15.05.2026 19:30" — day abbreviation prefix, then DD.MM.YYYY HH:MM
 DATE_RE = re.compile(r"(\d{2})\.(\d{2})\.(\d{4})\s+(\d{2}):(\d{2})")
+
+
+def _extract_image(article) -> str | None:
+    img = article.find("img")
+    if not img:
+        return None
+    src = img.get("src") or img.get("data-src") or img.get("data-lazy-src") or ""
+    if not src or src.startswith("data:"):
+        return None
+    if src.startswith("//"):
+        return "https:" + src
+    if src.startswith("/"):
+        return BASE_URL + src
+    return src if src.startswith("http") else None
 
 
 def _parse_date(text: str) -> datetime | None:
@@ -57,6 +71,7 @@ def scrape() -> list[dict]:
             "start": dt,
             "venue": "Hålogaland Teater",
             "source": "halogalandteater",
+            "image": _extract_image(article),
         })
 
     return events

@@ -115,11 +115,28 @@
 
     .event {
       display: grid;
-      grid-template-columns: 110px 1fr 1.5rem;
+      grid-template-columns: 80px 110px 1fr 1.5rem;
       gap: 0 1rem;
       padding: 0.8rem 0;
       border-bottom: 1px solid var(--border);
       align-items: start;
+    }
+
+    /* ── Image column ── */
+    .event-img {
+      width: 80px;
+      height: 40px;
+      border-radius: 4px;
+      overflow: hidden;
+      background: var(--border);
+      flex-shrink: 0;
+    }
+
+    .event-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     /* ── Time column ── */
@@ -195,6 +212,8 @@
         grid-template-columns: 1fr 1.5rem;
         grid-template-rows: auto auto;
       }
+
+      .event-img { display: none; }
 
       .event-time {
         grid-column: 1;
@@ -326,6 +345,7 @@ function parseEvents(icsText) {
         start,
         location,
         url: safeUrl(url),
+        image: safeUrl((vevent.getFirstPropertyValue('x-image') || '').toString()),
         timeInferred,
         category: inferCategory(vevent, summary, location),
       });
@@ -393,7 +413,12 @@ function renderEvents() {
       ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" aria-label="Go to event page">→</a>`
       : '';
 
+    const imgHtml = e.image
+      ? `<img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.parentElement.style.background='var(--border)';this.remove()">`
+      : '';
+
     return `<div class="event" data-category="${e.category}">
+      <div class="event-img">${imgHtml}</div>
       <div class="event-time">
         <span class="event-date">${esc(dateFmt.format(e.start))}</span>
         <span class="event-clock" data-inferred="${e.timeInferred}">${esc(timeFmt.format(e.start))}</span>

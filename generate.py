@@ -63,6 +63,8 @@ def build_calendar(events: list[dict]) -> Calendar:
         else:
             # No time info — use date-only
             vevent.add("dtstart", datetime.now(tz=OSLO).date())
+        if ev.get("image"):
+            vevent.add("x-image", ev["image"])
 
         cal.add_component(vevent)
 

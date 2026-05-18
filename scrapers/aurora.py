@@ -47,7 +47,7 @@ def scrape() -> list[dict]:
 
         blocks = _decode_blocks(resp.text)
 
-        # Build movieId → {title, url} from Card2 blocks
+        # Build movieId → {title, url, image} from Card2 blocks
         movie_info: dict[str, dict] = {}
         for block in blocks:
             if block.get("_blockName") != "Card2":
@@ -56,9 +56,26 @@ def scrape() -> list[dict]:
             if "/f/" not in movie_url:
                 continue
             movie_id = movie_url.rstrip("/").rsplit("/", 1)[-1]
+
+            # Try common field names for poster/thumbnail image
+            raw_img = (
+                block.get("imageUrl") or block.get("posterUrl") or
+                block.get("image") or block.get("thumbnail") or
+                block.get("backgroundImage") or block.get("imgSrc") or ""
+            )
+            image_url = None
+            if raw_img:
+                if raw_img.startswith("//"):
+                    image_url = "https:" + raw_img
+                elif raw_img.startswith("/"):
+                    image_url = BASE_URL + raw_img
+                elif raw_img.startswith("http"):
+                    image_url = raw_img
+
             movie_info[movie_id] = {
                 "title": _title_from_url(movie_url),
                 "url": BASE_URL + movie_url,
+                "image": image_url,
             }
 
         for block in blocks:
@@ -93,6 +110,7 @@ def scrape() -> list[dict]:
                         "start": dt,
                         "venue": venue,
                         "source": "aurora",
+                        "image": info.get("image"),
                     })
 
     return events
