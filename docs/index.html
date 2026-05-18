@@ -6,6 +6,18 @@
   <title>Tromsø Events</title>
   <style>
     :root {
+      --bg: #111116;
+      --surface: #1a1a22;
+      --border: #2a2a36;
+      --text: #e4e4ec;
+      --muted: #7878a0;
+      --accent: #7ab3e0;
+      --inferred: #d4903a;
+      --toggle-bg: #2a2a36;
+      --font: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+
+    [data-theme="light"] {
       --bg: #f8f8f6;
       --surface: #ffffff;
       --border: #e2e2dc;
@@ -13,7 +25,7 @@
       --muted: #64646e;
       --accent: #1a4f8a;
       --inferred: #92500a;
-      --font: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+      --toggle-bg: #e2e2dc;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -35,19 +47,39 @@
     /* ── Header ── */
     header {
       padding: 2.5rem 0 1.75rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
-    header h1 {
+    .header-text h1 {
       font-size: 1.4rem;
       font-weight: 700;
       letter-spacing: -0.02em;
     }
 
-    header p {
+    .header-text p {
       color: var(--muted);
       font-size: 0.875rem;
       margin-top: 0.25rem;
     }
+
+    #theme-toggle {
+      flex-shrink: 0;
+      margin-top: 0.25rem;
+      background: var(--toggle-bg);
+      color: var(--muted);
+      border: none;
+      border-radius: 6px;
+      padding: 0.3rem 0.65rem;
+      font-size: 0.78rem;
+      font-family: var(--font);
+      cursor: pointer;
+      transition: color 0.15s;
+    }
+
+    #theme-toggle:hover { color: var(--text); }
 
     /* ── Filters ── */
     #controls {
@@ -193,8 +225,11 @@
 
 <div class="container">
   <header>
-    <h1 id="site-heading">Tromsø Events</h1>
-    <p>Upcoming cultural events &mdash; <span lang="no">kommende arrangementer</span></p>
+    <div class="header-text">
+      <h1 id="site-heading">Tromsø Events</h1>
+      <p>Upcoming cultural events &mdash; <span lang="no">kommende arrangementer</span></p>
+    </div>
+    <button id="theme-toggle" aria-label="Toggle colour theme">Light</button>
   </header>
 
   <div id="controls">
@@ -374,6 +409,29 @@ function renderEvents() {
   feedEl.innerHTML = rows.join('');
   footnoteEl.style.display = hasInferred ? 'block' : 'none';
 }
+
+// ── Theme toggle ─────────────────────────────────────────────────────────────
+
+const toggleBtn = document.getElementById('theme-toggle');
+
+function applyTheme(theme) {
+  if (theme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    toggleBtn.textContent = 'Dark';
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    toggleBtn.textContent = 'Light';
+  }
+}
+
+const savedTheme = localStorage.getItem('theme') || 'dark';
+applyTheme(savedTheme);
+
+toggleBtn.addEventListener('click', () => {
+  const next = document.documentElement.hasAttribute('data-theme') ? 'dark' : 'light';
+  localStorage.setItem('theme', next);
+  applyTheme(next);
+});
 
 // ── Init ─────────────────────────────────────────────────────────────────────
 
