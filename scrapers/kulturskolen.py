@@ -74,11 +74,11 @@ def _parse_detail(booking_id: str) -> dict | None:
     except ValueError:
         return None
 
-    # Image from listing thumbnail (in speedware path)
+    # Image from listing thumbnail (in speedware path) — strip size clamp for full res
     img = soup.find("img", src=re.compile(r"/speedware/Bookings/"))
     image = None
     if img:
-        src = img.get("src", "")
+        src = img.get("src", "").split("?")[0]
         image = BASE_URL + src if src.startswith("/") else src
 
     return {

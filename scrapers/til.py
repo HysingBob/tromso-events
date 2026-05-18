@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 PROGRAM_URL = "https://www.til.no/terminliste"
-TIL_IMAGE   = "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-400/TIL_one_RGB.png"
+TIL_IMAGE   = "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-1200/TIL_one_RGB.png"
 
 # "25.05. 2026 17:00" — trailing dot + space before year
 DATE_RE = re.compile(r"(\d{2})\.(\d{2})\.\s+(\d{4})\s+(\d{2}):(\d{2})")

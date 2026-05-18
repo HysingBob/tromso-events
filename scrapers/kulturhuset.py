@@ -36,10 +36,14 @@ def _extract_image(article) -> str | None:
     if not src or src.startswith("data:"):
         return None
     if src.startswith("//"):
-        return "https:" + src
-    if src.startswith("/"):
-        return BASE_URL + src
-    return src if src.startswith("http") else None
+        src = "https:" + src
+    elif src.startswith("/"):
+        src = BASE_URL + src
+    elif not src.startswith("http"):
+        return None
+    # Strip WordPress thumbnail suffix (-300x169 → original full-size)
+    src = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", src)
+    return src
 
 
 def _parse_date(text: str) -> datetime | None:

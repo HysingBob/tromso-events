@@ -63,7 +63,11 @@ def scrape() -> list[dict]:
             if img:
                 src = img.get("data-src") or img.get("src") or ""
                 if src and not src.startswith("data:"):
-                    image = BASE_URL + src if src.startswith("/") else src
+                    src = BASE_URL + src if src.startswith("/") else src
+                    # Squarespace CDN supports ?format=NNNw for resizing
+                    if "squarespace-cdn.com" in src:
+                        src = src.split("?")[0] + "?format=1500w"
+                    image = src
 
         slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
         uid = f"bryggeriet-{dt.strftime('%Y%m%dT%H%M')}-{slug}@bryggerietscene.no"
