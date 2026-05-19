@@ -37,6 +37,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/events.ics docs/facebook-events-*.ics
+          git add docs/events.ics
+          ls docs/facebook-events-*.ics 1>/dev/null 2>&1 && git add docs/facebook-events-*.ics || true
           git diff --cached --quiet || git commit -m "chore: update events [skip ci]"
           git push
