@@ -80,6 +80,7 @@ def scrape() -> list[dict]:
             "source": "tromso_bibliotek",
             "time_inferred": False,
             "image": image,
+            "free": True,
         })
 
     return events

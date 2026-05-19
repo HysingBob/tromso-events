@@ -79,6 +79,7 @@ def scrape() -> list[dict]:
             "source": "uit",
             "time_inferred": False,
             "image": image,
+            "free": True,
         })
 
     return events

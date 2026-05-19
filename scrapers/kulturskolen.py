@@ -125,6 +125,7 @@ def scrape() -> list[dict]:
             "source": "kulturskolen",
             "image": ev["image"],
             "time_inferred": ev["time_inferred"],
+            "free": True,
         })
 
     return events

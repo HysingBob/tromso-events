@@ -197,6 +197,22 @@
       padding-top: 0.25rem;
     }
 
+    /* ── Free badge ── */
+    .badge-free {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      background: rgba(76, 175, 80, 0.15);
+      color: #4caf50;
+      border: 1px solid rgba(76, 175, 80, 0.35);
+      border-radius: 4px;
+      padding: 0.1em 0.4em;
+      vertical-align: middle;
+      margin-left: 0.4rem;
+      white-space: nowrap;
+    }
+
     /* ── Status / empty ── */
     #status {
       color: var(--muted);
@@ -246,6 +262,10 @@
       <input type="checkbox" id="filter-other" checked>
       Other
     </label>
+    <label>
+      <input type="checkbox" id="filter-free">
+      Free only
+    </label>
   </div>
 
   <div id="feed">
@@ -269,6 +289,9 @@ const feedEl    = document.getElementById('feed');
 const footnoteEl = document.getElementById('footnote');
 const cinemaCb  = document.getElementById('filter-cinema');
 const otherCb   = document.getElementById('filter-other');
+const freeCb    = document.getElementById('filter-free');
+
+const FREE_RE = /gratis|fri inngang|fri entr[eé]e?|free entry|free admission/i;
 
 // ── Category inference ──────────────────────────────────────────────────────
 
@@ -326,6 +349,11 @@ function parseEvents(icsText) {
         ? inferredProp.getFirstValue().toString().toUpperCase() === 'TRUE'
         : false;
 
+      const freeProp = vevent.getFirstProperty('x-tromso-free');
+      const isFree = freeProp
+        ? freeProp.getFirstValue().toString().toUpperCase() === 'TRUE'
+        : FREE_RE.test(summary);
+
       events.push({
         title: summary,
         start,
@@ -333,6 +361,7 @@ function parseEvents(icsText) {
         url: safeUrl(url),
         image: safeUrl((vevent.getFirstPropertyValue('x-image') || '').toString()),
         timeInferred,
+        isFree,
         category: inferCategory(vevent, summary, location),
       });
     } catch (_) {
@@ -377,12 +406,15 @@ function esc(str) {
 // ── Rendering ────────────────────────────────────────────────────────────────
 
 function renderEvents() {
-  const showCinema = cinemaCb.checked;
-  const showOther  = otherCb.checked;
+  const showCinema  = cinemaCb.checked;
+  const showOther   = otherCb.checked;
+  const showFreeOnly = freeCb.checked;
 
-  const visible = allEvents.filter(e =>
-    e.category === 'cinema' ? showCinema : showOther
-  );
+  const visible = allEvents.filter(e => {
+    const catOk  = e.category === 'cinema' ? showCinema : showOther;
+    const freeOk = !showFreeOnly || e.isFree;
+    return catOk && freeOk;
+  });
 
   if (visible.length === 0) {
     feedEl.innerHTML = '<p id="status">No upcoming events match your filters. / <span lang="no">Ingen kommende arrangementer.</span></p>';
@@ -403,6 +435,7 @@ function renderEvents() {
     const titleHtml = e.url
       ? `<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)}${arrow}</a>`
       : esc(e.title);
+    const freeBadge = e.isFree ? `<span class="badge-free">Gratis</span>` : '';
 
     return `<div class="event" data-category="${e.category}">
       <div class="event-img">${imgHtml}</div>
@@ -411,7 +444,7 @@ function renderEvents() {
           <span class="event-date">${esc(dateFmt.format(e.start))}</span>
           <span class="event-clock" data-inferred="${e.timeInferred}">${esc(timeFmt.format(e.start))}</span>
         </div>
-        <div class="event-title">${titleHtml}</div>
+        <div class="event-title">${titleHtml}${freeBadge}</div>
         <div class="event-venue">${esc(e.location)}</div>
       </div>
     </div>`;
@@ -448,6 +481,7 @@ toggleBtn.addEventListener('click', () => {
 
 cinemaCb.addEventListener('change', renderEvents);
 otherCb.addEventListener('change', renderEvents);
+freeCb.addEventListener('change', renderEvents);
 
 fetch(ICS_URL)
   .then(r => {

@@ -107,6 +107,8 @@ def build_calendar(events: list[dict]) -> Calendar:
             vevent.add("dtstart", datetime.now(tz=OSLO).date())
         if ev.get("image"):
             vevent.add("x-image", ev["image"])
+        if ev.get("free"):
+            vevent.add("x-tromso-free", "TRUE")
         if ev.get("source"):
             vevent.add("x-tromso-source", vText(ev["source"]))
 
