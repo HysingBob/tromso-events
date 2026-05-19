@@ -305,7 +305,11 @@ function inferCategory(vevent, summary, location) {
     return 'other';
   }
 
-  // Fallback: infer from location and title
+  // Fallback: infer from source, location, and title
+  const sourceProp = vevent.getFirstProperty('x-tromso-source');
+  const source = sourceProp ? sourceProp.getFirstValue().toString() : '';
+  if (source === 'verdensteatret') return 'cinema';
+
   const loc = (location || '').toLowerCase();
   const sum = (summary || '').toLowerCase();
   if (
