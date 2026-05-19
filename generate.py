@@ -9,14 +9,14 @@ from datetime import datetime, timedelta, timezone
 import pytz
 from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight, vText
 
-from scrapers import kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet, pintofsciencetromso, lovetann, uit
+from scrapers import kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet, pintofsciencetromso, lovetann, uit, verdensteatret
 from scrapers import facebook as facebook_scraper
 from scrapers.config import FB_HASH
 
 OSLO = pytz.timezone("Europe/Oslo")
 OUTPUT = pathlib.Path("docs/events.ics")
 FB_OUTPUT = pathlib.Path(f"docs/facebook-events-{FB_HASH}.ics")
-SCRAPERS = [kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet, pintofsciencetromso, lovetann, uit]
+SCRAPERS = [kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet, pintofsciencetromso, lovetann, uit, verdensteatret]
 
 _STOP_WORDS = {"i", "på", "og", "med", "av", "for", "til", "the", "a", "an", "and", "in", "at"}
 
