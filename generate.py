@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Fetch events from all scrapers and write docs/events.ics."""
+"""Fetch events from all scrapers and write docs/events.ics and docs/facebook-events-{hash}.ics."""
 
 import re
+import sys
 import pathlib
 from datetime import datetime, timedelta, timezone
 
@@ -9,9 +10,12 @@ import pytz
 from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight, vText
 
 from scrapers import kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet
+from scrapers import facebook as facebook_scraper
+from scrapers.config import FB_HASH
 
 OSLO = pytz.timezone("Europe/Oslo")
 OUTPUT = pathlib.Path("docs/events.ics")
+FB_OUTPUT = pathlib.Path(f"docs/facebook-events-{FB_HASH}.ics")
 SCRAPERS = [kulturhuset, halogalandteater, til, aurora, kulturskolen, bryggeriet]
 
 _STOP_WORDS = {"i", "på", "og", "med", "av", "for", "til", "the", "a", "an", "and", "in", "at"}
@@ -103,6 +107,8 @@ def build_calendar(events: list[dict]) -> Calendar:
             vevent.add("dtstart", datetime.now(tz=OSLO).date())
         if ev.get("image"):
             vevent.add("x-image", ev["image"])
+        if ev.get("source"):
+            vevent.add("x-tromso-source", vText(ev["source"]))
 
         cal.add_component(vevent)
 
@@ -145,6 +151,20 @@ def main():
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_bytes(cal.to_ical())
     print(f"Wrote {len(valid)} events to {OUTPUT}")
+
+    # Facebook feed — separate output, does not feed into events.ics
+    try:
+        fb_cal = facebook_scraper.fetch()
+        fb_count = sum(1 for c in fb_cal.walk() if c.name == "VEVENT")
+        FB_OUTPUT.write_bytes(fb_cal.to_ical())
+        print(f"Wrote {fb_count} Facebook events to {FB_OUTPUT}")
+        print(f"Facebook feed URL: https://hysingbob.github.io/tromso-events/facebook-events-{FB_HASH}.ics")
+    except RuntimeError as e:
+        print(f"WARNING: {e}", file=sys.stderr)
+        if FB_OUTPUT.exists():
+            print("Keeping previous Facebook feed unchanged.", file=sys.stderr)
+        else:
+            print("No previous Facebook feed to keep.", file=sys.stderr)
 
 
 if __name__ == "__main__":
