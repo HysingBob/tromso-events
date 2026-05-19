@@ -58,6 +58,14 @@ def scrape() -> list[dict]:
         img_tag = item.find("img", class_="tavla-small")
         image = img_tag["src"] if img_tag and img_tag.get("src") else None
 
+        # UiT-only: skip events without thumbnails.
+        # Image absence at UiT reflects their editorial signal (event not worth promoting
+        # publicly), not a scraper bug. This filter is opt-in per source and should not
+        # be copied to other scrapers without first verifying that imageless events at
+        # that source represent the same editorial signal rather than a parsing failure.
+        if not image:
+            continue
+
         url = link["href"]
         slug = url.rstrip("/").split("/")[-2]  # artikkel ID from .../artikkel/927558/title
         uid = f"uit-{slug}@uit.no"
