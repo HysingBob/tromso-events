@@ -1,0 +1,11 @@
+[
+  {
+    "id": "radhus",
+    "x": 3248,
+    "y": 7788,
+    "sprite": "radhus.png",
+    "map_width_m": 53,
+    "title": "Rådhuset",
+    "body": "Town hall and civic events. The seat of the municipality, down in the city centre."
+  }
+]
