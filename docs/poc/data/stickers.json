@@ -25,5 +25,14 @@
     "map_width_m": 53,
     "title": "Tinghuset",
     "body": "The courthouse at Vervet, on the northern harbour front — seat of the district court."
+  },
+  {
+    "id": "domkirken",
+    "x": 3376,
+    "y": 8041,
+    "sprite": "domkirken.png",
+    "map_width_m": 50,
+    "title": "Tromsø domkirke",
+    "body": "The wooden cathedral at the heart of the city centre — one of Norway's largest wooden churches."
   }
 ]
