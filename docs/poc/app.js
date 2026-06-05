@@ -28,7 +28,7 @@ const MAP_W = 5040, MAP_H = 11040;
 // Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
 // changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
 // step with the ?v= on the CSS/JS links in index.html.
-const BUILD = '8';
+const BUILD = '9';
 
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
@@ -48,11 +48,14 @@ const WHEEL_STEP = 1.0015;                      // desktop wheel zoom per deltaY
 // sets its width in metres; height follows the image's aspect.
 const DEFAULT_STICKER_W_M = 40;
 
-// Glow pools (dim-and-glow layer): each glow's pulse is phase-staggered so
-// adjacent glows don't breathe in sync. Visual params (colour, dim, pulse
-// period/amplitude) live as CSS variables in style.css :root.
-const GLOW_PHASE_STAGGER_S = 0.7;   // seconds between adjacent glows' pulse phase
-const DEFAULT_GLOW_RADIUS_M = 90;   // fallback halo half-width if a glow omits radius_m
+// Glow pools (dim-and-glow layer). Each glow gets BOTH a phase offset and a
+// slightly different period, so neighbours never lock into the same breath
+// (phase offset alone was too subtle to notice on a soft pulse). Colour/dim/
+// amplitude live as CSS variables in style.css :root.
+const GLOW_PHASE_STAGGER_S = 0.7;    // seconds between adjacent glows' start phase
+const GLOW_PULSE_PERIOD_S = 3;       // base breathing period (matches --glow-pulse-period)
+const GLOW_PERIOD_STAGGER_S = 0.5;   // each glow's period grows by this → distinct frequencies
+const DEFAULT_GLOW_RADIUS_M = 90;    // fallback halo half-width if a glow omits radius_m
 
 // ── Initial centre (geo metres): Prestvannet ────────────────────────────────
 const INITIAL_CENTER = { x: 2280, y: 7079 };
@@ -505,6 +508,8 @@ async function init() {
   glowDefs.forEach((g, i) => {
     const el = document.createElement('div');
     el.className = 'glow';
+    // Distinct period + phase per glow so neighbours drift out of sync.
+    el.style.animationDuration = (GLOW_PULSE_PERIOD_S + i * GLOW_PERIOD_STAGGER_S) + 's';
     el.style.animationDelay = (i * GLOW_PHASE_STAGGER_S) + 's';
     const radius_m = (Number.isFinite(g.radius_m) && g.radius_m > 0) ? g.radius_m : DEFAULT_GLOW_RADIUS_M;
     glowsEl.appendChild(el);
