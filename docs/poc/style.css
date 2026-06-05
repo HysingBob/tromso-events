@@ -115,6 +115,70 @@ html, body {
   50%      { opacity: var(--glow-pulse-max); }
 }
 
+/* ── Coordinate picker (?pick mode only) ─────────────────────────────────── */
+#pins {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;   /* taps pass through to the map */
+}
+
+/* A dropped pin: a bright cyan ring (stands out against the warm map) with its
+   index number, centred exactly on the picked map coordinate. */
+.pin {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  transform: translate(-50%, -50%);
+  border: 2px solid #00e5ff;
+  border-radius: 50%;
+  background: rgba(0, 229, 255, 0.15);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6), 0 0 6px rgba(0, 229, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 11px/1 ui-monospace, Menlo, Consolas, monospace;
+  color: #00e5ff;
+  text-shadow: 0 0 3px #000;
+  pointer-events: none;
+}
+
+/* The picker readout panel, pinned to the bottom of the screen. */
+#pickpanel {
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  z-index: 20;
+  background: rgba(15, 17, 22, 0.92);
+  color: #e9eaee;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font: 12px/1.4 ui-monospace, Menlo, Consolas, monospace;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+#pickpanel .hint { color: #9aa0ab; margin-bottom: 6px; }
+#pickpanel pre {
+  margin: 0 0 8px;
+  max-height: 30vh;
+  overflow: auto;
+  white-space: pre;
+  user-select: text;          /* override the page-wide no-select so Copy fallback works */
+  -webkit-user-select: text;
+}
+#pickpanel .row { display: flex; gap: 8px; }
+#pickpanel button {
+  flex: 1;
+  padding: 9px;
+  border: none;
+  border-radius: 6px;
+  background: #2a2f3a;
+  color: #e9eaee;
+  font: 600 13px/1 -apple-system, BlinkMacSystemFont, sans-serif;
+  cursor: pointer;
+}
+#pickpanel button:active { background: #3a4150; }
+
 /* The bird: a solid white dot fixed at the centre of the viewport.
    A soft white halo makes it read on dark map regions; a faint hairline
    gives it an edge on light ones — without the heavy ring that made it

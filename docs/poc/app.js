@@ -58,6 +58,9 @@ const HOLD_DELAY_MS = 180, TAP_MOVE_PX = 12;
 const DRIVE_DEAD_PX = 14, DRIVE_GAIN = 3.0, DRIVE_MAX = 1500;
 
 const DEBUG = new URLSearchParams(location.search).has('debug');
+// ?pick — coordinate-picker mode: tap the map to drop pins; a panel shows their
+// coordinates as paste-ready glows.json. No effect on the normal viewer.
+const PICK = new URLSearchParams(location.search).has('pick');
 
 // ── DOM ─────────────────────────────────────────────────────────────────────
 const viewport  = document.getElementById('viewport');
@@ -65,6 +68,7 @@ const world     = document.getElementById('world');
 const tilesEl   = document.getElementById('tiles');
 const markers   = document.getElementById('markers');
 const glowsEl   = document.getElementById('glows');
+const pinsEl    = document.getElementById('pins');
 const dbg        = document.getElementById('debug');
 const backdrop  = document.getElementById('card-backdrop');
 const cardTitle = document.getElementById('card-title');
@@ -76,6 +80,7 @@ let z = Z_INIT;                 // zoom (screen-px per metre)
 let anim = null;                // active tap-glide
 let stickers = [];
 let glows = [];                 // dim-and-glow pools, map-anchored like stickers
+let pins = [];                  // ?pick mode: dropped coordinate pins, map-anchored
 let cardOpen = false;
 
 let gesture = null;             // single-finger fly/tap
@@ -202,6 +207,11 @@ function render() {
     g.el.style.left = (sx - d / 2) + 'px';
     g.el.style.top  = (sy - d / 2) + 'px';
   }
+  // Picker pins are map-anchored points (fixed screen size, CSS-centred on the spot).
+  for (const p of pins) {
+    p.el.style.left = (v.w / 2 + (p.x - camGeo.x) * z) + 'px';
+    p.el.style.top  = (v.h / 2 + (p.y - camGeo.y) * z) + 'px';
+  }
   updateTiles();    // load/place/cull backdrop tiles for this position + zoom
   if (DEBUG) dbg.textContent = `z ${z.toFixed(2)} · art ${Math.round(camGeo.x)}, ${Math.round(camGeo.y)}`;
 }
@@ -293,8 +303,79 @@ function endGesture(isTap, sx, sy) {
   if (!gesture) return;
   const wasDriving = gesture.driving;
   cancelGesture();
-  if (isTap && !wasDriving) tapJump(sx, sy);
+  if (isTap && !wasDriving) { if (PICK) placePin(sx, sy); else tapJump(sx, sy); }
   else if (wasDriving) hitTest();
+}
+
+// ── Coordinate picker (?pick) ─────────────────────────────────────────────────
+// Tap drops a numbered pin at the tapped map coordinate; the panel shows all pins
+// as paste-ready glows.json. Pan with hold-drag and zoom with pinch as usual.
+function placePin(sx, sy) {
+  const g = screenToGeo(sx, sy);
+  const el = document.createElement('div');
+  el.className = 'pin';
+  el.textContent = String(pins.length + 1);
+  pinsEl.appendChild(el);
+  pins.push({ x: Math.round(g.x), y: Math.round(g.y), el });
+  updatePickPanel();
+  render();
+}
+function pinsJSON() {
+  return JSON.stringify(pins.map(p => ({ x: p.x, y: p.y, radius_m: 90 })), null, 2);
+}
+function updatePickPanel() {
+  const pre = document.getElementById('pickjson');
+  if (pre) pre.textContent = pins.length ? pinsJSON() : '[]';
+}
+function selectPinsText() {
+  const pre = document.getElementById('pickjson');
+  const r = document.createRange();
+  r.selectNodeContents(pre);
+  const sel = getSelection();
+  sel.removeAllRanges();
+  sel.addRange(r);
+}
+function flashCopy(msg) {
+  const b = document.getElementById('pick-copy');
+  const old = b.dataset.label;
+  b.textContent = msg;
+  setTimeout(() => { b.textContent = old; }, 1200);
+}
+function copyPins() {
+  const txt = pinsJSON();
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(() => flashCopy('Copied!'), selectPinsText);
+  } else {
+    selectPinsText();
+  }
+}
+function undoPin() {
+  const p = pins.pop();
+  if (p) p.el.remove();
+  pins.forEach((q, i) => { q.el.textContent = String(i + 1); });
+  updatePickPanel();
+}
+function clearPins() {
+  for (const p of pins) p.el.remove();
+  pins.length = 0;
+  updatePickPanel();
+}
+function initPicker() {
+  const panel = document.createElement('div');
+  panel.id = 'pickpanel';
+  panel.innerHTML =
+    '<div class="hint">Tap the map to drop a pin (pan = hold-drag, zoom = pinch). ' +
+    'Copy the list and send it — tell me which pin is which place.</div>' +
+    '<pre id="pickjson">[]</pre>' +
+    '<div class="row">' +
+      '<button id="pick-copy" data-label="Copy">Copy</button>' +
+      '<button id="pick-undo">Undo</button>' +
+      '<button id="pick-clear">Clear</button>' +
+    '</div>';
+  document.body.appendChild(panel);
+  document.getElementById('pick-copy').addEventListener('click', copyPins);
+  document.getElementById('pick-undo').addEventListener('click', undoPin);
+  document.getElementById('pick-clear').addEventListener('click', clearPins);
 }
 
 // ── Pointer / pinch plumbing ─────────────────────────────────────────────────
@@ -380,6 +461,7 @@ async function init() {
   catch (err) { console.error('pyramid.json not loaded (serve the folder).', err); }
 
   if (DEBUG) dbg.hidden = false;
+  if (PICK) initPicker();
 
   let defs = [];
   try { defs = await (await fetch('data/stickers.json')).json(); }
