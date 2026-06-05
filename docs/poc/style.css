@@ -8,8 +8,8 @@
      The map is dimmed/desaturated globally; glow pools punch warm light back
      through it at points of interest. Conservative starts — dim further if the
      spotlight reads too subtle. */
-  --map-saturation: 0.55;   /* >half-desaturated, keeps the watercolour palette */
-  --map-brightness: 0.88;   /* gentle dim — still a readable map */
+  --map-saturation: 0.3;    /* TEMP (confirmation): clearly desaturated — soften to ~0.55 once visible */
+  --map-brightness: 0.6;    /* TEMP (confirmation): clearly dimmed — soften to ~0.88 once visible */
   --glow-color-center: rgba(255, 176, 74, 0.85);  /* warm amber at the centre */
   --glow-color-edge:   rgba(255, 176, 74, 0);      /* fades to nothing at the rim */
   --glow-pulse-period: 3s;
