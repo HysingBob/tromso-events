@@ -28,7 +28,7 @@ const MAP_W = 5040, MAP_H = 11040;
 // Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
 // changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
 // step with the ?v= on the CSS/JS links in index.html.
-const BUILD = '7';
+const BUILD = '8';
 
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
@@ -233,9 +233,14 @@ function setZoom(nz) {
 function hitTest() {
   // Glows: a circular zone of radius_m metres around the centre — stop anywhere
   // in the pool and its card slides up. (Fixed geographic zone, zoom-independent.)
+  // When pools overlap (e.g. neighbours in the centre), pick the NEAREST centre,
+  // not just the first in the list — otherwise a closer glow can be shadowed.
+  let best = null, bestD = Infinity;
   for (const g of glows) {
-    if (Math.hypot(camGeo.x - g.x, camGeo.y - g.y) <= g.radius_m) { openCard(g); return; }
+    const d = Math.hypot(camGeo.x - g.x, camGeo.y - g.y);
+    if (d <= g.radius_m && d < bestD) { best = g; bestD = d; }
   }
+  if (best) { openCard(best); return; }
   // Stickers (legacy; empty now): fixed screen-size boxes, metres = (px/2)/z.
   for (const s of stickers) {
     if (Math.abs(camGeo.x - s.x) <= s.mw / 2 && Math.abs(camGeo.y - s.y) <= s.mh / 2) { openCard(s); return; }
