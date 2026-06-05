@@ -265,6 +265,20 @@ html, body {
 #card-title { margin: 0 36px 8px 0; font-size: 1.25rem; color: #fff; }
 #card-body  { margin: 0; color: #c2c6cf; line-height: 1.5; }
 
+/* "Events" button — cycles the card image through the venue's upcoming events. */
+#card-events {
+  margin-top: 16px;
+  padding: 11px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #2a2f3a;
+  color: #fff;
+  font: 600 15px/1 -apple-system, BlinkMacSystemFont, sans-serif;
+  cursor: pointer;
+}
+#card-events:active { background: #3a4150; }
+#card-events[hidden] { display: none; }
+
 #card-close {
   position: absolute;
   top: 10px;

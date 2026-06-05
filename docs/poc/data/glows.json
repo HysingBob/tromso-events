@@ -23,7 +23,8 @@
     "y": 7844,
     "radius_m": 40,
     "body": "Tromsø's public library and city archive — a reading room and meeting place in the heart of the centre.",
-    "image": "assets/cards/biblioteket.jpg"
+    "image": "assets/cards/biblioteket.jpg",
+    "events_source": "tromso_bibliotek"
   },
   {
     "id": "ht",

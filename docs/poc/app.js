@@ -28,7 +28,7 @@ const MAP_W = 5040, MAP_H = 11040;
 // Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
 // changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
 // step with the ?v= on the CSS/JS links in index.html.
-const BUILD = '16';
+const BUILD = '17';
 
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
@@ -82,6 +82,7 @@ const backdrop  = document.getElementById('card-backdrop');
 const cardTitle = document.getElementById('card-title');
 const cardBody  = document.getElementById('card-body');
 const cardImg   = document.getElementById('card-img');
+const cardEvents = document.getElementById('card-events');
 
 // ── State ───────────────────────────────────────────────────────────────────
 let camGeo = { x: INITIAL_CENTER.x, y: INITIAL_CENTER.y };  // orb position, metres
@@ -91,6 +92,9 @@ let stickers = [];
 let glows = [];                 // dim-and-glow pools, map-anchored like stickers
 let pins = [];                  // ?pick mode: dropped coordinate pins, map-anchored
 let cardOpen = false;
+let eventsBySource = {};        // source → [event, …] (only events that have an image)
+let cardGlow = null;            // glow whose card is open
+let eventIdx = -1;              // -1 = venue card; 0..n = cycling through its events
 
 let gesture = null;             // single-finger fly/tap
 let driveRaf = 0;
@@ -275,11 +279,40 @@ function glideTo(target) {
 }
 
 // ── Card ─────────────────────────────────────────────────────────────────────
-function openCard(s) {
-  cardTitle.textContent = s.title;
-  cardBody.textContent = s.body;
-  if (s.image) { cardImg.src = s.image; cardImg.alt = s.title; cardImg.hidden = false; }
+function venueEvents(g) {
+  return (g && g.eventsSource && eventsBySource[g.eventsSource]) || [];
+}
+function setCardImage(src, alt) {
+  if (src) { cardImg.src = src; cardImg.alt = alt || ''; cardImg.hidden = false; }
   else { cardImg.hidden = true; cardImg.removeAttribute('src'); }
+}
+function formatEventWhen(ev) {
+  if (!ev.start) return '';
+  const d = new Date(ev.start);
+  if (isNaN(d)) return '';
+  return d.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short',
+                                     hour: '2-digit', minute: '2-digit' });
+}
+// Render the current card state: eventIdx < 0 → the venue's own info/image;
+// otherwise the event at eventIdx (image swapped for the event's image).
+function renderCardState() {
+  const list = venueEvents(cardGlow);
+  if (eventIdx < 0 || !list.length) {
+    cardTitle.textContent = cardGlow.title;
+    cardBody.textContent = cardGlow.body;
+    setCardImage(cardGlow.image, cardGlow.title);
+  } else {
+    const ev = list[eventIdx];
+    cardTitle.textContent = ev.title;
+    cardBody.textContent = [formatEventWhen(ev), ev.venue].filter(Boolean).join(' · ');
+    setCardImage(ev.image, ev.title);
+  }
+}
+function openCard(s) {
+  cardGlow = s;
+  eventIdx = -1;                              // start on the venue's own card
+  cardEvents.hidden = venueEvents(s).length === 0;
+  renderCardState();
   backdrop.hidden = false;
   void backdrop.offsetWidth;
   backdrop.classList.add('open');
@@ -465,6 +498,13 @@ viewport.addEventListener('wheel', (e) => {
 }, { passive: false });
 
 document.getElementById('card-close').addEventListener('click', closeCard);
+// Cycle the card through the venue's events; past the last → back to the venue card.
+cardEvents.addEventListener('click', () => {
+  const list = venueEvents(cardGlow);
+  if (!list.length) return;
+  eventIdx = (eventIdx + 1 >= list.length) ? -1 : eventIdx + 1;
+  renderCardState();
+});
 backdrop.addEventListener('pointerdown', (e) => { if (e.target === backdrop) closeCard(); });
 window.addEventListener('resize', () => { camGeo = clampGeo(camGeo.x, camGeo.y); render(); });
 
@@ -484,6 +524,16 @@ async function init() {
 
   if (DEBUG) dbg.hidden = false;
   if (PICK) initPicker();
+
+  // Events feed (one level up, written by the scraper's generate.py). Group the
+  // image-bearing events by source so a glow can cycle through its venue's events.
+  try {
+    const all = await (await fetch(`../events.json?v=${BUILD}`)).json();
+    for (const ev of all) {
+      if (!ev.image) continue;
+      (eventsBySource[ev.source] ||= []).push(ev);
+    }
+  } catch (err) { console.warn('events.json not loaded.', err); }
 
   let defs = [];
   try { defs = await (await fetch(`data/stickers.json?v=${BUILD}`)).json(); }
@@ -517,7 +567,8 @@ async function init() {
     const radius_m = (Number.isFinite(g.radius_m) && g.radius_m > 0) ? g.radius_m : DEFAULT_GLOW_RADIUS_M;
     glowsEl.appendChild(el);
     glows.push({ id: g.id, x: g.x, y: g.y, radius_m, el,
-                 title: g.name || g.id, body: g.body || '', image: g.image || '' });
+                 title: g.name || g.id, body: g.body || '', image: g.image || '',
+                 eventsSource: g.events_source || '' });
   });
 
   // ?at=mx,my and ?z=level — debug/preview overrides.
