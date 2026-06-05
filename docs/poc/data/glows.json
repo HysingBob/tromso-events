@@ -30,7 +30,8 @@
     "x": 3088,
     "y": 8882,
     "radius_m": 90,
-    "body": "The regional theatre on the southern waterfront — drama, performances and touring productions."
+    "body": "The regional theatre on the southern waterfront — drama, performances and touring productions.",
+    "image": "assets/cards/ht.png"
   },
   {
     "id": "tinghuset",
@@ -38,7 +39,8 @@
     "x": 3537,
     "y": 7293,
     "radius_m": 90,
-    "body": "The courthouse at Vervet, on the northern harbour front — seat of the district court."
+    "body": "The courthouse at Vervet, on the northern harbour front — seat of the district court.",
+    "image": "assets/cards/tinghuset.png"
   },
   {
     "id": "domkirken",
@@ -46,6 +48,7 @@
     "x": 3378,
     "y": 8042,
     "radius_m": 90,
-    "body": "The wooden cathedral at the heart of the city centre — one of Norway's largest wooden churches."
+    "body": "The wooden cathedral at the heart of the city centre — one of Norway's largest wooden churches.",
+    "image": "assets/cards/domkirken.png"
   }
 ]
