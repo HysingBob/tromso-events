@@ -248,6 +248,18 @@ html, body {
 
 #card-backdrop.open #card { transform: translateY(0); }
 
+/* Optional card image (e.g. a building sticker). Full-width, rounded; hidden
+   when the location has no image. */
+#card-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 2px 0 14px;
+  background: #0c0d10;
+}
+#card-img[hidden] { display: none; }   /* author display above would otherwise beat [hidden] */
+
 #card-title { margin: 0 36px 8px 0; font-size: 1.25rem; color: #fff; }
 #card-body  { margin: 0; color: #c2c6cf; line-height: 1.5; }
 
@@ -258,10 +270,11 @@ html, body {
   width: 36px;
   height: 36px;
   border: none;
-  background: transparent;
+  border-radius: 50%;
+  background: rgba(21, 23, 28, 0.6);   /* stays legible when it sits over a card image */
   font-size: 26px;
   line-height: 1;
-  color: #9aa0ab;
+  color: #e9eaee;
   cursor: pointer;
 }
 

@@ -5,7 +5,8 @@
     "x": 3248,
     "y": 7788,
     "radius_m": 40,
-    "body": "Town hall and civic events. The seat of the municipality, down in the city centre."
+    "body": "Town hall and civic events. The seat of the municipality, down in the city centre.",
+    "image": "assets/cards/radhus.png"
   },
   {
     "id": "kulturhuset",

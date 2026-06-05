@@ -28,7 +28,7 @@ const MAP_W = 5040, MAP_H = 11040;
 // Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
 // changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
 // step with the ?v= on the CSS/JS links in index.html.
-const BUILD = '11';
+const BUILD = '12';
 
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
@@ -81,6 +81,7 @@ const dbg        = document.getElementById('debug');
 const backdrop  = document.getElementById('card-backdrop');
 const cardTitle = document.getElementById('card-title');
 const cardBody  = document.getElementById('card-body');
+const cardImg   = document.getElementById('card-img');
 
 // ── State ───────────────────────────────────────────────────────────────────
 let camGeo = { x: INITIAL_CENTER.x, y: INITIAL_CENTER.y };  // orb position, metres
@@ -277,6 +278,8 @@ function glideTo(target) {
 function openCard(s) {
   cardTitle.textContent = s.title;
   cardBody.textContent = s.body;
+  if (s.image) { cardImg.src = s.image; cardImg.alt = s.title; cardImg.hidden = false; }
+  else { cardImg.hidden = true; cardImg.removeAttribute('src'); }
   backdrop.hidden = false;
   void backdrop.offsetWidth;
   backdrop.classList.add('open');
@@ -514,7 +517,7 @@ async function init() {
     const radius_m = (Number.isFinite(g.radius_m) && g.radius_m > 0) ? g.radius_m : DEFAULT_GLOW_RADIUS_M;
     glowsEl.appendChild(el);
     glows.push({ id: g.id, x: g.x, y: g.y, radius_m, el,
-                 title: g.name || g.id, body: g.body || '' });
+                 title: g.name || g.id, body: g.body || '', image: g.image || '' });
   });
 
   // ?at=mx,my and ?z=level — debug/preview overrides.
