@@ -11,9 +11,10 @@
   <!-- The viewport is the phone screen. The world scrolls/zooms beneath a fixed dot. -->
   <div id="viewport">
     <div id="world">
-      <img id="map" alt="Map of Tromsøya" draggable="false">
-      <!-- high-res detail patch over the city centre; src set lazily on zoom-in -->
-      <img id="zoom-patch" alt="" draggable="false">
+      <!-- backdrop: a 256px JPEG tile pyramid, filled on demand by the tile
+           manager in app.js (built by build_pyramid.py). Replaces the old single
+           map.png + the city-centre zoom.png patch. -->
+      <div id="tiles"></div>
     </div>
     <!-- stickers live here (screen-space, never scaled → always crisp) -->
     <div id="markers" aria-hidden="true"></div>

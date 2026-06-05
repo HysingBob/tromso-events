@@ -34,21 +34,19 @@ html, body {
   will-change: transform;
 }
 
-#map {
+/* Tile-pyramid backdrop. Tiles are positioned in metre-space inside #world and
+   scaled with it; finer levels paint over coarser via z-index (set in JS). */
+#tiles {
   position: absolute;
   top: 0;
   left: 0;
-  image-rendering: pixelated; /* crisp pixel art when scaled */
-  display: block;
 }
 
-/* High-res detail patch over the city centre — smooth, scales with the world. */
-#zoom-patch {
+.tile {
   position: absolute;
-  image-rendering: auto;
-  display: none;
+  display: block;
+  image-rendering: auto; /* smooth — it's hand-drawn art, not pixel art */
   pointer-events: none;
-  will-change: opacity;
 }
 
 /* Marker layer: screen-space, never scaled, so stickers stay crisp at any zoom. */

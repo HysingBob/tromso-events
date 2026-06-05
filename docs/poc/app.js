@@ -16,15 +16,21 @@
  * ──────────────────────────────────────────────────────────────────────── */
 
 // ── Base map (metres) ───────────────────────────────────────────────────────
+// The metre-space is the old-map art-pixel space (1 m = 1 art-px); sticker
+// coords in data/stickers.json live here, so it's preserved across the swap.
 const MAP_W = 5040, MAP_H = 11040;
 
-// ── High-res detail patch over the city-centre zone ─────────────────────────
-const ZONE = { x0: 2880, y0: 7200, x1: 3840, y1: 8880 };  // geo metres
-const PATCH_SRC = 'assets/zoom.png';                       // 4800×8400 @ 0.2 m/px
-const PATCH_W = ZONE.x1 - ZONE.x0, PATCH_H = ZONE.y1 - ZONE.y0;  // 960×1680 m
-const PATCH_SHOW_Z = 1.1;        // reveal the (already-decoded) patch once base softens
-const PATCH_LOAD_MARGIN = 150;   // preload + decode the patch when the orb nears the zone
-const PATCH_DROP_MARGIN = 600;   // free it once the orb moves well clear of the zone
+// ── Tile pyramid (the backdrop) ──────────────────────────────────────────────
+// A 256px JPEG pyramid in assets/tiles/ (built by build_pyramid.py) replaces the
+// old single map.png AND the old city-centre zoom.png patch: full-res detail is
+// now available everywhere and the right level is picked per zoom. See the tile
+// manager below.
+const TILES_BASE = 'assets/tiles';
+const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
+const BASE_LEVEL = 2;             // cheap coarse levels (≤2, ~38 tiles) kept as a
+                                  // permanent underlay so nothing flashes blank
+let pyramid = null;               // manifest: {tile, levels:[{i,mpp,w,h,cols,rows}]}
+const tileCache = new Map();      // "i/c/r" -> <img>
 
 // ── Zoom (z = screen-px per metre) ──────────────────────────────────────────
 // Z_MIN low enough to pull the whole 11 km-tall island into view, sitting in the
@@ -50,8 +56,7 @@ const DEBUG = new URLSearchParams(location.search).has('debug');
 // ── DOM ─────────────────────────────────────────────────────────────────────
 const viewport  = document.getElementById('viewport');
 const world     = document.getElementById('world');
-const mapImg    = document.getElementById('map');
-const patchImg  = document.getElementById('zoom-patch');
+const tilesEl   = document.getElementById('tiles');
 const markers   = document.getElementById('markers');
 const dbg        = document.getElementById('debug');
 const backdrop  = document.getElementById('card-backdrop');
@@ -64,7 +69,6 @@ let z = Z_INIT;                 // zoom (screen-px per metre)
 let anim = null;                // active tap-glide
 let stickers = [];
 let cardOpen = false;
-let patchLoaded = false;
 
 let gesture = null;             // single-finger fly/tap
 let driveRaf = 0;
@@ -85,26 +89,84 @@ function screenToGeo(sx, sy) {
   return { x: camGeo.x + (sx - v.w / 2) / z, y: camGeo.y + (sy - v.h / 2) / z };
 }
 
-// ── Render ──────────────────────────────────────────────────────────────────
-function nearZone(m) {
-  return camGeo.x >= ZONE.x0 - m && camGeo.x <= ZONE.x1 + m
-      && camGeo.y >= ZONE.y0 - m && camGeo.y <= ZONE.y1 + m;
+// ── Tile pyramid manager ──────────────────────────────────────────────────────
+// Pick the coarsest level that's still crisp at the current zoom: the largest
+// mpp (metres per tile-pixel) that is ≤ 1/z (metres per screen-pixel). That
+// keeps screen-px-per-source-px ≤ 1 (no upscaling blur) while loading the fewest
+// tiles. Falls back to the finest level when zoomed past native.
+function pickLevel() {
+  const want = 1 / z;                       // metres per screen pixel
+  const L = pyramid.levels;                 // sorted i↑ ⇒ mpp↓
+  for (let k = 0; k < L.length; k++) if (L[k].mpp <= want) return L[k];
+  return L[L.length - 1];
 }
-function updateLayers() {
-  // Load + decode as soon as the orb nears the zone (any zoom), so the detail is
-  // ready the instant you zoom in. Free it again once the orb is well clear.
-  if (!patchLoaded && nearZone(PATCH_LOAD_MARGIN)) {
-    patchImg.src = PATCH_SRC;
-    patchLoaded = true;
-    if (patchImg.decode) patchImg.decode().catch(() => {});   // force decode while hidden
-  } else if (patchLoaded && !nearZone(PATCH_DROP_MARGIN)) {
-    patchImg.removeAttribute('src');
-    patchLoaded = false;
+
+// Visible region in geo metres (viewport corners → geo), padded by the margin.
+function visibleRect() {
+  const v = viewSize();
+  const a = screenToGeo(0, 0), b = screenToGeo(v.w, v.h);
+  return { x0: Math.min(a.x, b.x) - TILE_MARGIN, y0: Math.min(a.y, b.y) - TILE_MARGIN,
+           x1: Math.max(a.x, b.x) + TILE_MARGIN, y1: Math.max(a.y, b.y) + TILE_MARGIN };
+}
+
+// Metre-space bounds of tile (c,r) at level L (edge tiles are < one full tile).
+function tileBounds(L, c, r) {
+  const span = pyramid.tile * L.mpp;        // full-tile span in metres
+  const pxw = Math.min(pyramid.tile, L.w - c * pyramid.tile);
+  const pxh = Math.min(pyramid.tile, L.h - r * pyramid.tile);
+  return { x: c * span, y: r * span, w: pxw * L.mpp, h: pxh * L.mpp };
+}
+
+function ensureTile(L, c, r) {
+  const key = `${L.i}/${c}/${r}`;
+  let el = tileCache.get(key);
+  if (!el) {
+    el = new Image();
+    el.className = 'tile';
+    el.alt = '';
+    el.draggable = false;
+    el.style.zIndex = String(L.i);          // finer levels paint over coarser
+    el._rect = tileBounds(L, c, r);         // static; used for placement + culling
+    el.src = `${TILES_BASE}/${L.i}/${c}_${r}.jpg`;
+    tileCache.set(key, el);
+    tilesEl.appendChild(el);
   }
-  // Show the (already-decoded) patch only once zoomed in enough.
-  const show = patchLoaded && z >= PATCH_SHOW_Z;
-  patchImg.style.display = show ? 'block' : 'none';
-  if (show) patchImg.style.opacity = String(clamp((z - PATCH_SHOW_Z) / 0.6, 0, 1));
+  const b = el._rect;
+  const bleed = L.mpp;                       // ~1 source-px overlap hides seams
+  el.style.left = b.x + 'px';
+  el.style.top = b.y + 'px';
+  el.style.width = (b.w + bleed) + 'px';
+  el.style.height = (b.h + bleed) + 'px';
+}
+
+function loadLevel(L, rect) {
+  const span = pyramid.tile * L.mpp;
+  const c0 = clamp(Math.floor(rect.x0 / span), 0, L.cols - 1);
+  const c1 = clamp(Math.floor(rect.x1 / span), 0, L.cols - 1);
+  const r0 = clamp(Math.floor(rect.y0 / span), 0, L.rows - 1);
+  const r1 = clamp(Math.floor(rect.y1 / span), 0, L.rows - 1);
+  for (let r = r0; r <= r1; r++)
+    for (let c = c0; c <= c1; c++) ensureTile(L, c, r);
+}
+
+function intersects(b, rect) {
+  return b.x < rect.x1 && b.x + b.w > rect.x0 && b.y < rect.y1 && b.y + b.h > rect.y0;
+}
+
+// ── Render ──────────────────────────────────────────────────────────────────
+function updateTiles() {
+  if (!pyramid) return;
+  const rect = visibleRect();
+  // Cheap coarse underlay (always) + the chosen detail level on top. A loading
+  // tile is transparent, so the underlay shows through until it paints — no
+  // blank flash on zoom/pan; in-view tiles from the previous level also linger
+  // beneath the new one during a transition.
+  for (const L of pyramid.levels) if (L.i <= BASE_LEVEL) loadLevel(L, rect);
+  loadLevel(pickLevel(), rect);
+  // Cull anything scrolled out of view to keep the DOM/memory bounded.
+  for (const [key, el] of tileCache) {
+    if (!intersects(el._rect, rect)) { el.remove(); tileCache.delete(key); }
+  }
 }
 
 function render() {
@@ -121,7 +183,7 @@ function render() {
     s.el.style.left = (sx - w / 2) + 'px';
     s.el.style.top  = (sy - h / 2) + 'px';
   }
-  updateLayers();   // load/show the detail patch based on position + zoom, every frame
+  updateTiles();    // load/place/cull backdrop tiles for this position + zoom
   if (DEBUG) dbg.textContent = `z ${z.toFixed(2)} · art ${Math.round(camGeo.x)}, ${Math.round(camGeo.y)}`;
 }
 
@@ -295,11 +357,8 @@ function loadImage(src) {
 }
 
 async function init() {
-  mapImg.src = 'assets/map.png';
-  mapImg.style.width = MAP_W + 'px';
-  mapImg.style.height = MAP_H + 'px';
-  patchImg.style.left = ZONE.x0 + 'px';  patchImg.style.top = ZONE.y0 + 'px';
-  patchImg.style.width = PATCH_W + 'px'; patchImg.style.height = PATCH_H + 'px';
+  try { pyramid = await (await fetch(`${TILES_BASE}/pyramid.json`)).json(); }
+  catch (err) { console.error('pyramid.json not loaded (serve the folder).', err); }
 
   if (DEBUG) dbg.hidden = false;
 
