@@ -10,8 +10,11 @@
      spotlight reads too subtle. */
   --map-saturation: 0.3;    /* TEMP (confirmation): clearly desaturated — soften to ~0.55 once visible */
   --map-brightness: 0.6;    /* TEMP (confirmation): clearly dimmed — soften to ~0.88 once visible */
-  --glow-color-center: rgba(255, 176, 74, 0.85);  /* warm amber at the centre */
-  --glow-color-edge:   rgba(255, 176, 74, 0);      /* fades to nothing at the rim */
+  /* The glow has no colour of its own: it locally re-saturates and re-brightens
+     the dimmed map so the true colours surface in a soft pool. Roughly the
+     inverse of the dim above (a touch beyond, so the pool pops). */
+  --glow-saturate: 3.5;     /* > 1/--map-saturation → vivid pop inside the pool */
+  --glow-brightness: 1.6;   /* > 1/--map-brightness → brighter than surroundings */
   --glow-pulse-period: 3s;
   --glow-pulse-min: 0.5;    /* breathing opacity floor */
   --glow-pulse-max: 0.9;    /* breathing opacity peak */
@@ -91,15 +94,17 @@ html, body {
   pointer-events: none;
 }
 
-/* One glow pool: a soft amber radial gradient that brightens the dimmed map
-   beneath it (screen blend) and breathes on a slow opacity pulse. The element
-   is a square; the gradient's circle fades to transparent before the corners. */
+/* One glow pool: it has NO colour of its own. A backdrop-filter re-saturates and
+   re-brightens the dimmed map directly beneath it, so the map's true colours
+   surface; a soft radial mask fades that effect out toward the rim (a pool, not a
+   hard disc). Breathes on a slow opacity pulse. */
 .glow {
   position: absolute;
-  background: radial-gradient(circle,
-              var(--glow-color-center) 0%,
-              var(--glow-color-edge) 70%);
-  mix-blend-mode: screen;
+  backdrop-filter: saturate(var(--glow-saturate)) brightness(var(--glow-brightness));
+  -webkit-backdrop-filter: saturate(var(--glow-saturate)) brightness(var(--glow-brightness));
+  /* Soft pool: full strength through the core, faded to nothing before the corners. */
+  mask-image: radial-gradient(circle, #000 0%, #000 25%, transparent 72%);
+  -webkit-mask-image: radial-gradient(circle, #000 0%, #000 25%, transparent 72%);
   pointer-events: none;
   will-change: left, top, opacity;
   animation: glow-pulse var(--glow-pulse-period) ease-in-out infinite;
