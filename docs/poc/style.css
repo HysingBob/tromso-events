@@ -236,6 +236,7 @@ html, body {
   height: auto;
   max-width: min(92vw, 520px);
   max-height: 42vh;
+  border-radius: 14px;                              /* rounds full-frame images; no-op on cutouts */
   transform: translate(-50%, calc(-100% - 8px));   /* parked just above the top edge */
   filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.55));
   transition: transform 0.36s cubic-bezier(0.22, 1, 0.36, 1);
