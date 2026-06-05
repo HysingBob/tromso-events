@@ -16,6 +16,14 @@
     "body": "The city's culture house — a main venue for concerts, theatre and cultural events in the centre."
   },
   {
+    "id": "biblioteket",
+    "name": "Biblioteket",
+    "x": 3251,
+    "y": 7844,
+    "radius_m": 90,
+    "body": "Tromsø's public library and city archive — a reading room and meeting place in the heart of the centre."
+  },
+  {
     "id": "ht",
     "name": "Hålogaland Teater",
     "x": 3088,
