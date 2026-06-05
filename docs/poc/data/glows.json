@@ -8,6 +8,14 @@
     "body": "Town hall and civic events. The seat of the municipality, down in the city centre."
   },
   {
+    "id": "kulturhuset",
+    "name": "Kulturhuset",
+    "x": 3306,
+    "y": 7779,
+    "radius_m": 90,
+    "body": "The city's culture house — a main venue for concerts, theatre and cultural events in the centre."
+  },
+  {
     "id": "ht",
     "name": "Hålogaland Teater",
     "x": 3088,
