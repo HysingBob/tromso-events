@@ -4,7 +4,7 @@
     "name": "Rådhuset",
     "x": 3248,
     "y": 7788,
-    "radius_m": 90,
+    "radius_m": 40,
     "body": "Town hall and civic events. The seat of the municipality, down in the city centre."
   },
   {
@@ -12,7 +12,7 @@
     "name": "Kulturhuset",
     "x": 3306,
     "y": 7779,
-    "radius_m": 90,
+    "radius_m": 40,
     "body": "The city's culture house — a main venue for concerts, theatre and cultural events in the centre."
   },
   {
@@ -20,7 +20,7 @@
     "name": "Biblioteket",
     "x": 3251,
     "y": 7844,
-    "radius_m": 90,
+    "radius_m": 40,
     "body": "Tromsø's public library and city archive — a reading room and meeting place in the heart of the centre."
   },
   {
