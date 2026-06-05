@@ -3,6 +3,7 @@
 
 import re
 import sys
+import json
 import pathlib
 from datetime import datetime, timedelta, timezone
 
@@ -153,6 +154,20 @@ def main():
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_bytes(cal.to_ical())
     print(f"Wrote {len(valid)} events to {OUTPUT}")
+
+    # Compact JSON for the map POC (lets the front-end browse events per venue).
+    json_output = pathlib.Path("docs/events.json")
+    payload = [{
+        "title": e["title"],
+        "start": e["start"].strftime("%Y-%m-%dT%H:%M:%S"),
+        "venue": e["venue"],
+        "source": e.get("source", ""),
+        "url": e["url"],
+        "image": e.get("image") or "",
+        "free": bool(e.get("free")),
+    } for e in sorted(valid, key=lambda e: e["start"])]
+    json_output.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Wrote {len(payload)} events to {json_output}")
 
     # Facebook feed — separate output, does not feed into events.ics
     try:
