@@ -1,6 +1,34 @@
 [
-  { "id": "radhus",     "name": "Rådhuset",          "x": 3248, "y": 7788, "radius_m": 90 },
-  { "id": "ht",         "name": "Hålogaland Teater", "x": 3088, "y": 8882, "radius_m": 90 },
-  { "id": "tinghuset",  "name": "Tinghuset",         "x": 3537, "y": 7293, "radius_m": 90 },
-  { "id": "domkirken",  "name": "Tromsø domkirke",   "x": 3378, "y": 8042, "radius_m": 90 }
+  {
+    "id": "radhus",
+    "name": "Rådhuset",
+    "x": 3248,
+    "y": 7788,
+    "radius_m": 90,
+    "body": "Town hall and civic events. The seat of the municipality, down in the city centre."
+  },
+  {
+    "id": "ht",
+    "name": "Hålogaland Teater",
+    "x": 3088,
+    "y": 8882,
+    "radius_m": 90,
+    "body": "The regional theatre on the southern waterfront — drama, performances and touring productions."
+  },
+  {
+    "id": "tinghuset",
+    "name": "Tinghuset",
+    "x": 3537,
+    "y": 7293,
+    "radius_m": 90,
+    "body": "The courthouse at Vervet, on the northern harbour front — seat of the district court."
+  },
+  {
+    "id": "domkirken",
+    "name": "Tromsø domkirke",
+    "x": 3378,
+    "y": 8042,
+    "radius_m": 90,
+    "body": "The wooden cathedral at the heart of the city centre — one of Norway's largest wooden churches."
+  }
 ]

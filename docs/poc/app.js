@@ -28,7 +28,7 @@ const MAP_W = 5040, MAP_H = 11040;
 // Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
 // changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
 // step with the ?v= on the CSS/JS links in index.html.
-const BUILD = '5';
+const BUILD = '6';
 
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
@@ -228,9 +228,15 @@ function setZoom(nz) {
 }
 
 // ── Hit-testing ──────────────────────────────────────────────────────────────
-// Sticker boxes are fixed screen size, so their half-extent in metres is
-// (nativePx/2)/z — you must land more precisely the further you've zoomed in.
+// Called when the drone settles (end of a tap-glide or a hold-drive). If it
+// stopped over a point of interest, open that point's card.
 function hitTest() {
+  // Glows: a circular zone of radius_m metres around the centre — stop anywhere
+  // in the pool and its card slides up. (Fixed geographic zone, zoom-independent.)
+  for (const g of glows) {
+    if (Math.hypot(camGeo.x - g.x, camGeo.y - g.y) <= g.radius_m) { openCard(g); return; }
+  }
+  // Stickers (legacy; empty now): fixed screen-size boxes, metres = (px/2)/z.
   for (const s of stickers) {
     if (Math.abs(camGeo.x - s.x) <= s.mw / 2 && Math.abs(camGeo.y - s.y) <= s.mh / 2) { openCard(s); return; }
   }
@@ -497,7 +503,8 @@ async function init() {
     el.style.animationDelay = (i * GLOW_PHASE_STAGGER_S) + 's';
     const radius_m = (Number.isFinite(g.radius_m) && g.radius_m > 0) ? g.radius_m : DEFAULT_GLOW_RADIUS_M;
     glowsEl.appendChild(el);
-    glows.push({ id: g.id, x: g.x, y: g.y, radius_m, el });
+    glows.push({ id: g.id, x: g.x, y: g.y, radius_m, el,
+                 title: g.name || g.id, body: g.body || '' });
   });
 
   // ?at=mx,my and ?z=level — debug/preview overrides.
