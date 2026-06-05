@@ -1,6 +1,6 @@
 [
   { "id": "radhus",     "name": "Rådhuset",          "x": 3248, "y": 7788, "radius_m": 90 },
-  { "id": "ht",         "name": "Hålogaland Teater", "x": 3076, "y": 8907, "radius_m": 90 },
+  { "id": "ht",         "name": "Hålogaland Teater", "x": 3088, "y": 8882, "radius_m": 90 },
   { "id": "tinghuset",  "name": "Tinghuset",         "x": 3537, "y": 7293, "radius_m": 90 },
-  { "id": "domkirken",  "name": "Tromsø domkirke",   "x": 3376, "y": 7980, "radius_m": 90 }
+  { "id": "domkirken",  "name": "Tromsø domkirke",   "x": 3378, "y": 8042, "radius_m": 90 }
 ]

@@ -25,6 +25,11 @@ const MAP_W = 5040, MAP_H = 11040;
 // old single map.png AND the old city-centre zoom.png patch: full-res detail is
 // now available everywhere and the right level is picked per zoom. See the tile
 // manager below.
+// Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
+// changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
+// step with the ?v= on the CSS/JS links in index.html.
+const BUILD = '5';
+
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
 const BASE_LEVEL = 2;             // cheap coarse levels (≤2, ~38 tiles) kept as a
@@ -457,14 +462,14 @@ function loadImage(src) {
 }
 
 async function init() {
-  try { pyramid = await (await fetch(`${TILES_BASE}/pyramid.json`)).json(); }
+  try { pyramid = await (await fetch(`${TILES_BASE}/pyramid.json?v=${BUILD}`)).json(); }
   catch (err) { console.error('pyramid.json not loaded (serve the folder).', err); }
 
   if (DEBUG) dbg.hidden = false;
   if (PICK) initPicker();
 
   let defs = [];
-  try { defs = await (await fetch('data/stickers.json')).json(); }
+  try { defs = await (await fetch(`data/stickers.json?v=${BUILD}`)).json(); }
   catch (err) { console.warn('stickers.json not loaded (serve the folder).', err); }
   for (const d of defs) {
     let img;
@@ -484,7 +489,7 @@ async function init() {
   // an empty/absent file just means no glows. Each gets a staggered pulse phase
   // via animation-delay so adjacent pools don't breathe in unison.
   let glowDefs = [];
-  try { glowDefs = await (await fetch('data/glows.json')).json(); }
+  try { glowDefs = await (await fetch(`data/glows.json?v=${BUILD}`)).json(); }
   catch (err) { console.warn('glows.json not loaded (serve the folder).', err); }
   glowDefs.forEach((g, i) => {
     const el = document.createElement('div');
