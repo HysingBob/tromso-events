@@ -28,7 +28,7 @@ const MAP_W = 5040, MAP_H = 11040;
 // Cache-bust tag for the JSON data/manifest fetches. Bump on every deploy that
 // changes data so phones (which cache data/*.json ~10 min) fetch fresh. Keep in
 // step with the ?v= on the CSS/JS links in index.html.
-const BUILD = '15';
+const BUILD = '16';
 
 const TILES_BASE = 'assets/tiles';
 const TILE_MARGIN = 384;          // metres of pre-load beyond the viewport edges
