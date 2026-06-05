@@ -215,26 +215,40 @@ html, body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-/* Card sheet. */
+/* Event overlay: a full-screen, TRANSPARENT layer — the middle stays open over
+   the map and dot. It only catches taps to dismiss; the two pieces (top sticker,
+   bottom sheet) sit at the edges and animate in from off-screen. */
 #card-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  background: transparent;
   z-index: 10;
 }
+#card-backdrop[hidden] { display: none; }   /* author rules below beat the UA [hidden] */
 
-/* The [hidden] attribute alone is overridden by the display rule above
-   (author display beats the UA [hidden] rule), which would leave this
-   transparent overlay on top of the map swallowing every tap. Force it. */
-#card-backdrop[hidden] {
-  display: none;
+/* Sticker: rolls DOWN from the top, transparent background, never reaches the
+   middle (capped at 42vh). Taps fall through it to the backdrop → dismiss. */
+#card-img {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  width: auto;
+  height: auto;
+  max-width: min(92vw, 520px);
+  max-height: 42vh;
+  transform: translate(-50%, calc(-100% - 8px));   /* parked just above the top edge */
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.55));
+  transition: transform 0.36s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
 }
+#card-backdrop.open #card-img { transform: translate(-50%, 0); }
+#card-img[hidden] { display: none; }
 
+/* Title + text: slide UP from the bottom. */
 #card {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
   width: 100%;
   max-width: 600px;
   background: #15171c;          /* black sheet (same on every device) */
@@ -242,23 +256,10 @@ html, body {
   border-radius: 16px 16px 0 0;
   padding: 22px 20px 32px;
   box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.5);
-  transform: translateY(100%);
+  transform: translate(-50%, 100%);
   transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 }
-
-#card-backdrop.open #card { transform: translateY(0); }
-
-/* Optional card image (e.g. a building sticker). Full-width, rounded; hidden
-   when the location has no image. */
-#card-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  margin: 2px 0 14px;
-  background: #0c0d10;
-}
-#card-img[hidden] { display: none; }   /* author display above would otherwise beat [hidden] */
+#card-backdrop.open #card { transform: translate(-50%, 0); }
 
 #card-title { margin: 0 36px 8px 0; font-size: 1.25rem; color: #fff; }
 #card-body  { margin: 0; color: #c2c6cf; line-height: 1.5; }
@@ -279,7 +280,7 @@ html, body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #card { transition: none; }
+  #card, #card-img { transition: none; }
   /* Hold glows steady (lit) rather than breathing. */
   .glow { animation: none; opacity: var(--glow-pulse-max); }
 }
