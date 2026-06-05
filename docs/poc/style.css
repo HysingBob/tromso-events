@@ -8,8 +8,8 @@
      The map is dimmed/desaturated globally; glow pools punch warm light back
      through it at points of interest. Conservative starts — dim further if the
      spotlight reads too subtle. */
-  --map-saturation: 0.3;    /* TEMP (confirmation): clearly desaturated — soften to ~0.55 once visible */
-  --map-brightness: 0.6;    /* TEMP (confirmation): clearly dimmed — soften to ~0.88 once visible */
+  --map-saturation: 0.3;    /* chosen: strongly desaturated so the glow pools pop */
+  --map-brightness: 0.6;    /* chosen: strongly dimmed so the glow pools pop */
   /* The glow has no colour of its own: it locally re-saturates and re-brightens
      the dimmed map so the true colours surface in a soft pool. Roughly the
      inverse of the dim above (a touch beyond, so the pool pops). */
