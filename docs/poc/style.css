@@ -3,6 +3,18 @@
   /* Tell the browser this page is dark, so mobile "auto dark mode" doesn't
      re-invert our colours (which turned the white card black on phones). */
   color-scheme: dark;
+
+  /* ── Dim-and-glow presentation layer (tune live in dev tools) ────────────
+     The map is dimmed/desaturated globally; glow pools punch warm light back
+     through it at points of interest. Conservative starts — dim further if the
+     spotlight reads too subtle. */
+  --map-saturation: 0.55;   /* >half-desaturated, keeps the watercolour palette */
+  --map-brightness: 0.88;   /* gentle dim — still a readable map */
+  --glow-color-center: rgba(255, 176, 74, 0.85);  /* warm amber at the centre */
+  --glow-color-edge:   rgba(255, 176, 74, 0);      /* fades to nothing at the rim */
+  --glow-pulse-period: 3s;
+  --glow-pulse-min: 0.5;    /* breathing opacity floor */
+  --glow-pulse-max: 0.9;    /* breathing opacity peak */
 }
 
 * { box-sizing: border-box; }
@@ -32,6 +44,10 @@ html, body {
   left: 0;
   transform-origin: 0 0;
   will-change: transform;
+  /* Global dim + desaturation. Applied to the whole tile container (one
+     composite op, independent of tile count) — glow pools brighten back
+     through it via mix-blend-mode: screen below. */
+  filter: saturate(var(--map-saturation)) brightness(var(--map-brightness));
 }
 
 /* Tile-pyramid backdrop. Tiles are positioned in metre-space inside #world and
@@ -64,6 +80,34 @@ html, body {
   pointer-events: none; /* hit-testing is done in JS against the dot */
   display: block;
   will-change: left, top;
+}
+
+/* Glow layer: screen-space like #markers; each glow is positioned/sized in JS
+   each frame (map-anchored). Sits above the dimmed #world and below the orb. */
+#glows {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* One glow pool: a soft amber radial gradient that brightens the dimmed map
+   beneath it (screen blend) and breathes on a slow opacity pulse. The element
+   is a square; the gradient's circle fades to transparent before the corners. */
+.glow {
+  position: absolute;
+  background: radial-gradient(circle,
+              var(--glow-color-center) 0%,
+              var(--glow-color-edge) 70%);
+  mix-blend-mode: screen;
+  pointer-events: none;
+  will-change: left, top, opacity;
+  animation: glow-pulse var(--glow-pulse-period) ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: var(--glow-pulse-min); }
+  50%      { opacity: var(--glow-pulse-max); }
 }
 
 /* The bird: a solid white dot fixed at the centre of the viewport.
@@ -154,4 +198,6 @@ html, body {
 
 @media (prefers-reduced-motion: reduce) {
   #card { transition: none; }
+  /* Hold glows steady (lit) rather than breathing. */
+  .glow { animation: none; opacity: var(--glow-pulse-max); }
 }

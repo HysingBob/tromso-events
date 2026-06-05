@@ -43,6 +43,12 @@ const WHEEL_STEP = 1.0015;                      // desktop wheel zoom per deltaY
 // sets its width in metres; height follows the image's aspect.
 const DEFAULT_STICKER_W_M = 40;
 
+// Glow pools (dim-and-glow layer): each glow's pulse is phase-staggered so
+// adjacent glows don't breathe in sync. Visual params (colour, dim, pulse
+// period/amplitude) live as CSS variables in style.css :root.
+const GLOW_PHASE_STAGGER_S = 0.7;   // seconds between adjacent glows' pulse phase
+const DEFAULT_GLOW_RADIUS_M = 90;   // fallback halo half-width if a glow omits radius_m
+
 // ── Initial centre (geo metres): Prestvannet ────────────────────────────────
 const INITIAL_CENTER = { x: 2280, y: 7079 };
 
@@ -58,6 +64,7 @@ const viewport  = document.getElementById('viewport');
 const world     = document.getElementById('world');
 const tilesEl   = document.getElementById('tiles');
 const markers   = document.getElementById('markers');
+const glowsEl   = document.getElementById('glows');
 const dbg        = document.getElementById('debug');
 const backdrop  = document.getElementById('card-backdrop');
 const cardTitle = document.getElementById('card-title');
@@ -68,6 +75,7 @@ let camGeo = { x: INITIAL_CENTER.x, y: INITIAL_CENTER.y };  // orb position, met
 let z = Z_INIT;                 // zoom (screen-px per metre)
 let anim = null;                // active tap-glide
 let stickers = [];
+let glows = [];                 // dim-and-glow pools, map-anchored like stickers
 let cardOpen = false;
 
 let gesture = null;             // single-finger fly/tap
@@ -182,6 +190,17 @@ function render() {
     s.el.style.height = h + 'px';
     s.el.style.left = (sx - w / 2) + 'px';
     s.el.style.top  = (sy - h / 2) + 'px';
+  }
+  // Glow pools are map-anchored too: diameter = radius_m × 2 × z, centred on
+  // the point. They scale with zoom, the same as map-anchored stickers.
+  for (const g of glows) {
+    const d = g.radius_m * 2 * z;
+    const sx = v.w / 2 + (g.x - camGeo.x) * z;
+    const sy = v.h / 2 + (g.y - camGeo.y) * z;
+    g.el.style.width = d + 'px';
+    g.el.style.height = d + 'px';
+    g.el.style.left = (sx - d / 2) + 'px';
+    g.el.style.top  = (sy - d / 2) + 'px';
   }
   updateTiles();    // load/place/cull backdrop tiles for this position + zoom
   if (DEBUG) dbg.textContent = `z ${z.toFixed(2)} · art ${Math.round(camGeo.x)}, ${Math.round(camGeo.y)}`;
@@ -378,6 +397,21 @@ async function init() {
     stickers.push({ id: d.id, x: d.x, y: d.y, mw, mh,
                     title: d.title, body: d.body, el: img });
   }
+
+  // Glow pools (dim-and-glow layer). Same load-or-empty pattern as stickers;
+  // an empty/absent file just means no glows. Each gets a staggered pulse phase
+  // via animation-delay so adjacent pools don't breathe in unison.
+  let glowDefs = [];
+  try { glowDefs = await (await fetch('data/glows.json')).json(); }
+  catch (err) { console.warn('glows.json not loaded (serve the folder).', err); }
+  glowDefs.forEach((g, i) => {
+    const el = document.createElement('div');
+    el.className = 'glow';
+    el.style.animationDelay = (i * GLOW_PHASE_STAGGER_S) + 's';
+    const radius_m = (Number.isFinite(g.radius_m) && g.radius_m > 0) ? g.radius_m : DEFAULT_GLOW_RADIUS_M;
+    glowsEl.appendChild(el);
+    glows.push({ id: g.id, x: g.x, y: g.y, radius_m, el });
+  });
 
   // ?at=mx,my and ?z=level — debug/preview overrides.
   const params = new URLSearchParams(location.search);

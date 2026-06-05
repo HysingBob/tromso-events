@@ -16,6 +16,9 @@
            map.png + the city-centre zoom.png patch. -->
       <div id="tiles"></div>
     </div>
+    <!-- glow pools: map-anchored, screen-space, blended over the dimmed world to
+         un-dim points of interest. Reprojected each frame like #markers. -->
+    <div id="glows" aria-hidden="true"></div>
     <!-- stickers live here (screen-space, never scaled → always crisp) -->
     <div id="markers" aria-hidden="true"></div>
     <div id="dot" aria-hidden="true"></div>
