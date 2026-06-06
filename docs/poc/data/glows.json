@@ -1,12 +1,13 @@
 [
   {
     "id": "radhus",
-    "name": "Rådhuset",
+    "name": "Aurora kino og Rådhuset",
     "x": 3248,
     "y": 7788,
     "radius_m": 40,
-    "body": "Town hall and civic events. The seat of the municipality, down in the city centre.",
-    "image": "assets/cards/radhus.png"
+    "body": "One building, two lives: Aurora Kino fills the ground floor and the levels below, while the town hall — the seat of the municipality — sits above. Films and civic events under the same roof in the city centre.",
+    "image": "assets/cards/radhus.jpg",
+    "events_source": "aurora"
   },
   {
     "id": "kulturhuset",
