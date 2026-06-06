@@ -18,60 +18,6 @@
   "free": false
  },
  {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-06-06T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Den Fremmede",
-  "start": "2026-06-06T11:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/den-fremmede/1554",
-  "image": "https://images.filmgrail.com/mediaserver/movies/den-fremmede-8551/backdrop/1780136106225?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Bamse Og Havets Hemmelighet",
-  "start": "2026-06-06T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/bamse-og-havets-hemmelighet/1502",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bamse-og-havets-hemmelighet-8565/backdrop/1773321314446?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sauedetektivene",
-  "start": "2026-06-06T11:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Diplodocus Og Den Mystiske Hokus Pokus",
-  "start": "2026-06-06T11:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/diplodocus-og-den-mystiske-hokus-pokus/1509",
-  "image": "https://images.filmgrail.com/mediaserver/movies/diplodocus-og-den-mystiske-hokus-pokus-6647/backdrop/1779412504729?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-06-06T11:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Kreativ lørdag",
   "start": "2026-06-06T12:00:00",
   "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
@@ -105,6 +51,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/couture/1522",
   "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-06T13:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -153,12 +108,30 @@
   "free": false
  },
  {
+  "title": "Sauedetektivene",
+  "start": "2026-06-06T16:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Vår: Markens lille grøde",
   "start": "2026-06-06T18:00:00",
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/markens-lille-grode",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens-lille-gr%C3%B8de-MFIS3861-1920x1200.jpg.webp?itok=enGqOXbj",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-06T18:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -882,6 +855,15 @@
   "free": false
  },
  {
+  "title": "Byttemarked i  Kroken",
+  "start": "2026-06-10T14:30:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/68-byttemarked-i-kroken",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_byttemarkedkroken.jpg",
+  "free": false
+ },
+ {
   "title": "Super Mario Galaxy Filmen",
   "start": "2026-06-10T17:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -1143,6 +1125,15 @@
   "free": false
  },
  {
+  "title": "Folkeverksted: Symoro",
+  "start": "2026-06-11T15:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-11-15-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
+  "free": false
+ },
+ {
   "title": "Advokatvakta",
   "start": "2026-06-11T16:30:00",
   "venue": "Hovedbiblioteket, Tromsø",
@@ -1185,6 +1176,15 @@
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/fotballquiz-jrgen-hjertsen",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1779453024352-X0R86EP6I3NRGMKVNGCV/Headere+%2810%29.png?format=1500w",
+  "free": false
+ },
+ {
+  "title": "Fiksekveld på Folkeverkstedet",
+  "start": "2026-06-11T18:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-11-18-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
   "free": false
  },
  {
@@ -1284,6 +1284,15 @@
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2024/lille-verksted",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/HT_Lille_verksted_foto_Knut_Aaserud_L1190181.jpeg.webp?itok=OH4woB__",
+  "free": false
+ },
+ {
+  "title": "TROMSØ: Bruktmarked",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/46-tromso-bruktmarked-4",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fivhbruktmarked.png",
   "free": false
  },
  {
@@ -1431,6 +1440,24 @@
   "free": true
  },
  {
+  "title": "Folkeverksted: Symoro",
+  "start": "2026-06-18T14:25:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-18-14-25",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
+  "free": false
+ },
+ {
+  "title": "Sykkelfiks for store og små",
+  "start": "2026-06-18T15:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/69-sykkelfiks-for-store-og-sma",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_sykkelfiks.jpg",
+  "free": false
+ },
+ {
   "title": "Instruktørkurs, humlevandring - Tromsø | Arr: La Humla Suse",
   "start": "2026-06-18T17:00:00",
   "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
@@ -1438,6 +1465,15 @@
   "url": "https://uit.no/tavla/artikkel/930499/instruktorkurs_humlevandring_-_tromso_arr_la",
   "image": "https://uit.no/Content/930498/cache=20260106134153/transformation=scale10000x560/Lahumlasuse_kurs2026.png",
   "free": true
+ },
+ {
+  "title": "Fiksekveld på Folkeverkstedet",
+  "start": "2026-06-18T18:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-18-18-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
+  "free": false
  },
  {
   "title": "PUBLIC SERVICE IMPROV 18.06",
@@ -1501,6 +1537,24 @@
   "url": "https://uit.no/tavla/artikkel/929062/markedsdag_i_botanisk_hage",
   "image": "https://uit.no/Content/881506/cache=20250506143839/transformation=scale10000x560/Markedsdag%202024%2020240622_115859.jpg",
   "free": true
+ },
+ {
+  "title": "Folkeverksted: Symoro",
+  "start": "2026-06-25T14:25:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-25-14-25",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
+  "free": false
+ },
+ {
+  "title": "Fiksekveld på Folkeverkstedet",
+  "start": "2026-06-25T18:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-25-18-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
+  "free": false
  },
  {
   "title": "TIL — Vålerenga",
