@@ -63,6 +63,12 @@ def scrape() -> list[dict]:
         url = (BASE_URL + href) if href.startswith("/") else href
 
         location = loc_el.get_text(strip=True) if loc_el else "Tromsø bibliotek"
+
+        # Skip the Kroken branch (a suburb) — the calendar lists it alongside the
+        # central library, but only Hovedbiblioteket belongs on the city-centre map.
+        if "kroken" in location.lower():
+            continue
+
         venue = f"{location}, Tromsø" if "tromsø" not in location.lower() else location
 
         img_src = img_el.get("src", "") if img_el else ""
