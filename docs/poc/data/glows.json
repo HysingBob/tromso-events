@@ -36,7 +36,9 @@
     "y": 8882,
     "radius_m": 90,
     "body": "The regional theatre on the southern waterfront — drama, performances and touring productions.",
-    "image": "assets/cards/ht.png"
+    "image": "assets/cards/ht.jpg",
+    "type": "glow",
+    "events_source": "halogalandteater"
   },
   {
     "id": "tinghuset",
