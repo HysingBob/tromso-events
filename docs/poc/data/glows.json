@@ -14,7 +14,9 @@
     "x": 3306,
     "y": 7779,
     "radius_m": 40,
-    "body": "The city's culture house — a main venue for concerts, theatre and cultural events in the centre."
+    "body": "The city's culture house — a main venue for concerts, theatre and cultural events in the centre.",
+    "image": "assets/cards/kulturhuset.jpg",
+    "events_source": "kulturhuset"
   },
   {
     "id": "biblioteket",
