@@ -1,293 +1,5 @@
 [
  {
-  "title": "Super Latin Party vol. 2. // Bryggeriet",
-  "start": "2026-06-06T19:00:00",
-  "venue": "Bryggeriet Scene, Tromsø",
-  "source": "bryggeriet",
-  "url": "https://www.bryggerietscene.no/program/lj5iqcwsc1rhok8k782nsr98gaccty",
-  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1780062464700-FFG2F4YJJAQDX6IALRS1/Latino+6.juni.jpg?format=1500w",
-  "free": false
- },
- {
-  "title": "The Mandalorian And Grogu",
-  "start": "2026-06-07T13:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "VISUAL ANTHROPOLOGY MASTER FILM SCREENING - 2026",
-  "start": "2026-06-07T13:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/arrangement/visual-anthropology-master-film-screening-2026",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/uit-7.juni.jpg",
-  "free": false
- },
- {
-  "title": "Søndagsfilm",
-  "start": "2026-06-07T13:00:00",
-  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/sondagsfilm",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
-  "free": true
- },
- {
-  "title": "Backrooms",
-  "start": "2026-06-07T13:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Passenger",
-  "start": "2026-06-07T13:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/passenger/1512",
-  "image": "https://images.filmgrail.com/mediaserver/movies/passenger-8458/backdrop/1779459306698?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-06-07T13:45:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Det Vakre Aret I Provence",
-  "start": "2026-06-07T13:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
-  "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Masters Of The Universe",
-  "start": "2026-06-07T14:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
-  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Diplodocus Og Den Mystiske Hokus Pokus",
-  "start": "2026-06-07T15:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/diplodocus-og-den-mystiske-hokus-pokus/1509",
-  "image": "https://images.filmgrail.com/mediaserver/movies/diplodocus-og-den-mystiske-hokus-pokus-6647/backdrop/1779412504729?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Tidevannet Pa Amrum",
-  "start": "2026-06-07T15:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/tidevannet-pa-amrum/1460",
-  "image": "https://images.filmgrail.com/mediaserver/movies/tidevannet-pa-amrum-7343/backdrop/1778058907354?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Michael",
-  "start": "2026-06-07T16:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sauedetektivene",
-  "start": "2026-06-07T16:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Krolle Bolle",
-  "start": "2026-06-07T16:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/krolle-bolle/1503",
-  "image": "https://images.filmgrail.com/mediaserver/movies/krolle-bolle-6965/backdrop/1776935706454?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-06-07T18:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Project Hail Mary",
-  "start": "2026-06-07T18:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
-  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Devil Wears Prada 2",
-  "start": "2026-06-07T18:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Couture",
-  "start": "2026-06-07T21:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/couture/1522",
-  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Hokum",
-  "start": "2026-06-07T21:20:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/hokum/1533",
-  "image": "https://images.filmgrail.com/1777545246041?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Havkonferansen Blått kompass",
-  "start": "2026-06-08T08:00:00",
-  "venue": "Havneterminalen, UiT Tromsø",
-  "source": "uit",
-  "url": "https://www.blattkompass.no/",
-  "image": "https://uit.no/Content/924177/cache=20261203144456/transformation=scale10000x560/Bla%CC%8AttK%2B%40KL%2B59Foto_Kristoffer%2BLorentzen.jpeg",
-  "free": true
- },
- {
-  "title": "Eksamenskonsert med Markus Bjørkløf-Terjesen, el-gitar (1. avdeling - Bachelor i musikkutøving)",
-  "start": "2026-06-08T11:00:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930043/eksamenskonsert_med_markus_bjorklof-terjesen_el-",
-  "image": "https://uit.no/Content/929738/cache=20262005131122/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
- },
- {
-  "title": "Med verdensrommet som arbeidssted",
-  "start": "2026-06-08T11:00:00",
-  "venue": "Store Aud E-101, NFH-bygget, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930728/med_verdensrommet_som_arbeidssted",
-  "image": "https://uit.no/Content/930725/cache=20260406104250/transformation=scale10000x560/Richard%20Arnolds.jpg",
-  "free": true
- },
- {
-  "title": "Eksamenskonsert med Ihor Vlasenko, el-gitar (1. avdeling - Bachelor i musikkutøving)",
-  "start": "2026-06-08T11:50:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930050/eksamenskonsert_med_ihor_vlasenko_el-gitar_1_a",
-  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
- },
- {
-  "title": "Eksamenskonsert med Håkon Laberg Lindgård, el-gitar (Instrument 2 - Videreutdanning)",
-  "start": "2026-06-08T12:40:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930062/eksamenskonsert_med_hakon_laberg_lindgard_el-git",
-  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
- },
- {
-  "title": "Eksamenskonsert med Jakob Haugstad Struve, el-gitar (Biinstrument - valgemne)",
-  "start": "2026-06-08T13:30:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930082/eksamenskonsert_med_jakob_haugstad_struve_el-git",
-  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
- },
- {
-  "title": "Bachelorkonsert med Martin Jakobsen, el-gitar",
-  "start": "2026-06-08T15:30:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930085/bachelorkonsert_med_martin_jakobsen_el-gitar",
-  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
- },
- {
-  "title": "GUIDE COURSE | Get to know the exhibitions at the Arctic University Museum of Norway | DAY 1",
-  "start": "2026-06-08T16:30:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/925471/guide_course_get_to_know_the_exhibitions_at_the",
-  "image": "https://uit.no/Content/870940/cache=20253001093446/transformation=scale10000x560/David%20Jensen%20%40jensenmedia-02381%20%281%29.jpg",
-  "free": true
- },
- {
-  "title": "Bachelorkonsert med Rasmus Olsen, el-gitar",
-  "start": "2026-06-08T16:40:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930561/bachelorkonsert_med_rasmus_olsen_el-gitar",
-  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
- },
- {
-  "title": "Masters Of The Universe",
-  "start": "2026-06-08T17:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
-  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-06-08T17:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mira",
-  "start": "2026-06-08T17:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mira/1511",
-  "image": "https://images.filmgrail.com/mediaserver/movies/mira-8386/backdrop/1778567289035?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Mandalorian And Grogu",
-  "start": "2026-06-08T17:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Couture",
   "start": "2026-06-08T17:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -304,15 +16,6 @@
   "url": "https://fokus.aurorakino.no/f/backrooms/1521",
   "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Eksamenskonsert med Sander Bringsli, el-gitar (1. år Master i musikkutøving)",
-  "start": "2026-06-08T18:00:00",
-  "venue": "Tvibit, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930565/eksamenskonsert_med_sander_bringsli_el-gitar_1",
-  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
-  "free": true
  },
  {
   "title": "Bokklubb for unge voksne",
@@ -339,6 +42,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/michael/1443",
   "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-08T20:15:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -378,13 +90,22 @@
   "free": true
  },
  {
-  "title": "Couture",
-  "start": "2026-06-09T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/couture/1522",
-  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
-  "free": false
+  "title": "Eksamenskonsert med Eirik Hagtvedt, trommesett (1. avdeling, Bachelor i musikkutøving)",
+  "start": "2026-06-09T11:00:00",
+  "venue": "Tvibit, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930972/eksamenskonsert_med_eirik_hagtvedt_trommesett_1",
+  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
+  "free": true
+ },
+ {
+  "title": "Eksamenskonsert med Remy Christer Holmgren Wærnes, trommesett (1. avdeling - Bachelor i musikkutøving)",
+  "start": "2026-06-09T11:50:00",
+  "venue": "Tvibit, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930982/eksamenskonsert_med_remy_christer_holmgren_waernes",
+  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
+  "free": true
  },
  {
   "title": "Backrooms",
@@ -405,12 +126,21 @@
   "free": false
  },
  {
+  "title": "Couture",
+  "start": "2026-06-09T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Lillesoster",
   "start": "2026-06-09T12:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/lillesoster/1457",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lillesoster-8332/backdrop/1777278659245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lillesoster-8332/backdrop/1780924504769?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -421,6 +151,24 @@
   "url": "https://fokus.aurorakino.no/f/tidevannet-pa-amrum/1460",
   "image": "https://images.filmgrail.com/mediaserver/movies/tidevannet-pa-amrum-7343/backdrop/1778058907354?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Eksamenskonsert med Beatrix Andresen, el-bass (1. avdeling - Bachelor i musikkutøving)",
+  "start": "2026-06-09T12:40:00",
+  "venue": "Tvibit, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930984/eksamenskonsert_med_beatrix_andresen_el-bass_1",
+  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
+  "free": true
+ },
+ {
+  "title": "Eksamenskonsert med Simen Hodal Nordhaug, el-bass (1. avdeling - Bachelor i musikkutøving)",
+  "start": "2026-06-09T14:00:00",
+  "venue": "Tvibit, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930985/eksamenskonsert_med_simen_hodal_nordhaug_el-bass",
+  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
+  "free": true
  },
  {
   "title": "Masters Of The Universe",
@@ -457,6 +205,15 @@
   "url": "https://fokus.aurorakino.no/f/smaken-av-paris/1559",
   "image": "https://images.filmgrail.com/mediaserver/movies/smaken-av-paris-7571/backdrop/1779093457336?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Bachelorkonsert med Elias Lein Staven, el-bass",
+  "start": "2026-06-09T15:00:00",
+  "venue": "Tvibit, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930997/bachelorkonsert_med_elias_lein_staven_el-bass",
+  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
+  "free": true
  },
  {
   "title": "Steinerskolen: Stemmene i oss",
@@ -511,6 +268,15 @@
   "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
   "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Masterkonsert med Lars Birgitsønn Vik, el-bass (Master i musikkutøving)",
+  "start": "2026-06-09T18:00:00",
+  "venue": "Tvibit, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/931003/masterkonsert_med_lars_birgitsonn_vik_el-bass_m",
+  "image": "https://uit.no/Content/927069/cache=20260505144311/transformation=scale10000x560/Lite%20forsidebilde%202026.jpg",
+  "free": true
  },
  {
   "title": "MARY CASSATT: PAINTING THE MODERN WOMAN",
@@ -576,15 +342,6 @@
   "free": true
  },
  {
-  "title": "Couture",
-  "start": "2026-06-10T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/couture/1522",
-  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Backrooms",
   "start": "2026-06-10T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -594,12 +351,21 @@
   "free": false
  },
  {
+  "title": "Couture",
+  "start": "2026-06-10T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Lillesoster",
   "start": "2026-06-10T12:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/lillesoster/1457",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lillesoster-8332/backdrop/1777278659245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lillesoster-8332/backdrop/1780924504769?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -743,7 +509,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1779282915734?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -846,21 +612,21 @@
   "free": true
  },
  {
-  "title": "Couture",
-  "start": "2026-06-11T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/couture/1522",
-  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Backrooms",
   "start": "2026-06-11T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/backrooms/1521",
   "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Couture",
+  "start": "2026-06-11T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -873,21 +639,21 @@
   "free": false
  },
  {
-  "title": "Smaken Av Paris",
-  "start": "2026-06-11T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/smaken-av-paris/1559",
-  "image": "https://images.filmgrail.com/mediaserver/movies/smaken-av-paris-7571/backdrop/1779093457336?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Primavera Vivaldis Venezia",
   "start": "2026-06-11T12:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/primavera-vivaldis-venezia/1553",
   "image": "https://images.filmgrail.com/mediaserver/movies/primavera-vivaldis-venezia-8183/backdrop/1779434109400?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Smaken Av Paris",
+  "start": "2026-06-11T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/smaken-av-paris/1559",
+  "image": "https://images.filmgrail.com/mediaserver/movies/smaken-av-paris-7571/backdrop/1779093457336?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -900,21 +666,21 @@
   "free": true
  },
  {
-  "title": "Masters Of The Universe",
-  "start": "2026-06-11T14:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
-  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Disclosure Day",
   "start": "2026-06-11T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1779282915734?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-11T14:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1044,6 +810,51 @@
   "free": true
  },
  {
+  "title": "Backrooms",
+  "start": "2026-06-12T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-12T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Det Vakre Aret I Provence",
+  "start": "2026-06-12T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
+  "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Lillesoster",
+  "start": "2026-06-12T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/lillesoster/1457",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lillesoster-8332/backdrop/1780924504769?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Primavera Vivaldis Venezia",
+  "start": "2026-06-12T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/primavera-vivaldis-venezia/1553",
+  "image": "https://images.filmgrail.com/mediaserver/movies/primavera-vivaldis-venezia-8183/backdrop/1779434109400?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Disputas Master i psykologi Linda Johansen",
   "start": "2026-06-12T12:15:00",
   "venue": "auditorium Cortex, UiT Tromsø",
@@ -1054,11 +865,74 @@
  },
  {
   "title": "Disclosure Day",
-  "start": "2026-06-12T18:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "start": "2026-06-12T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1779282915734?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Scary Movie",
+  "start": "2026-06-12T14:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
+  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Couture",
+  "start": "2026-06-12T14:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "A Light That Never Goes Out",
+  "start": "2026-06-12T14:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/a-light-that-never-goes-out/1595",
+  "image": "https://images.filmgrail.com/mediaserver/movies/a-light-that-never-goes-out-7472/backdrop/1780655600352?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-12T16:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-12T17:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-06-12T17:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Devil Wears Prada 2",
+  "start": "2026-06-12T18:15:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1071,15 +945,6 @@
   "free": false
  },
  {
-  "title": "Scary Movie",
-  "start": "2026-06-12T19:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
-  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Afterparty Sommernatt 2026",
   "start": "2026-06-12T19:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -1089,12 +954,39 @@
   "free": false
  },
  {
-  "title": "Lille Verksted",
+  "title": "Njámmat – njoarostit, kunstnerisk sluttpresentasjon for PhD-stipendiat Jakop Janssønn",
+  "start": "2026-06-12T19:00:00",
+  "venue": "Kulturhuset Tromsø, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930976/nj_mmat_njoarostit_kunstnerisk_sluttpresentasj",
+  "image": "https://uit.no/Content/930978/cache=20260806140517/transformation=scale10000x560/Jakop%20Janss%C3%B8n.jpg",
+  "free": true
+ },
+ {
+  "title": "The Mandalorian And Grogu",
+  "start": "2026-06-12T20:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Project Hail Mary",
+  "start": "2026-06-12T20:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
+  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Familielørdag",
   "start": "2026-06-13T11:00:00",
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2024/lille-verksted",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/HT_Lille_verksted_foto_Knut_Aaserud_L1190181.jpeg.webp?itok=OH4woB__",
+  "url": "https://www.halogalandteater.no/produksjon/2025/familielordag",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/Bildecollage-familiel%C3%B8rdag_0.jpg.webp?itok=7qRSPcmM",
   "free": false
  },
  {
@@ -1107,12 +999,75 @@
   "free": false
  },
  {
+  "title": "Lille Verksted",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2024/lille-verksted",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/HT_Lille_verksted_foto_Knut_Aaserud_L1190181.jpeg.webp?itok=OH4woB__",
+  "free": false
+ },
+ {
+  "title": "Scary Movie",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
+  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sauedetektivene",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Da Mumbo Jumbo Ble Kjempestor",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/da-mumbo-jumbo-ble-kjempestor/1495",
+  "image": "https://images.filmgrail.com/mediaserver/movies/da-mumbo-jumbo-ble-kjempestor-8347/backdrop/1773149409473?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "TROMSØ: Bruktmarked",
   "start": "2026-06-13T11:00:00",
   "venue": "Tromsø",
   "source": "framtidennord",
   "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/46-tromso-bruktmarked-4",
   "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fivhbruktmarked.png",
+  "free": false
+ },
+ {
+  "title": "Det Vakre Aret I Provence",
+  "start": "2026-06-13T11:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
+  "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-13T11:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Diplodocus Og Den Mystiske Hokus Pokus",
+  "start": "2026-06-13T11:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/diplodocus-og-den-mystiske-hokus-pokus/1509",
+  "image": "https://images.filmgrail.com/mediaserver/movies/diplodocus-og-den-mystiske-hokus-pokus-6647/backdrop/1779412504729?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1125,6 +1080,15 @@
   "free": true
  },
  {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-13T13:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Plast i havet: utfordringer fra fiskeri og oppdrett – og mulige løsninger",
   "start": "2026-06-13T13:00:00",
   "venue": "Festsalen, Rødbanken, UiT Tromsø",
@@ -1132,6 +1096,168 @@
   "url": "https://uit.no/tavla/artikkel/930812/plast_i_havet_utfordringer_fra_fiskeri_og_oppdre",
   "image": "https://uit.no/Content/930813/cache=20260506070215/transformation=scale10000x560/facebook_juni_2026_1920x1080pxl.png",
   "free": true
+ },
+ {
+  "title": "Eventyrkonsert",
+  "start": "2026-06-13T13:00:00",
+  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/eventyrkonsert",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/janitsjar.jpg.webp?itok=tGeh-eVA",
+  "free": true
+ },
+ {
+  "title": "Backrooms",
+  "start": "2026-06-13T13:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Couture",
+  "start": "2026-06-13T13:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Krolle Bolle",
+  "start": "2026-06-13T13:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/krolle-bolle/1503",
+  "image": "https://images.filmgrail.com/mediaserver/movies/krolle-bolle-6965/backdrop/1776935706454?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Disclosure Day",
+  "start": "2026-06-13T14:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Mandalorian And Grogu",
+  "start": "2026-06-13T14:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Kpop Demon Hunters Sing Along",
+  "start": "2026-06-13T16:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kpop-demon-hunters-sing-along/1555",
+  "image": "https://images.filmgrail.com/mediaserver/movies/kpop-demon-hunters-sing-along-9352/backdrop/1778505898258?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Project Hail Mary",
+  "start": "2026-06-13T17:15:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
+  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-06-13T18:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "A Light That Never Goes Out",
+  "start": "2026-06-13T20:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/a-light-that-never-goes-out/1595",
+  "image": "https://images.filmgrail.com/mediaserver/movies/a-light-that-never-goes-out-7472/backdrop/1780655600352?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-13T21:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Devil Wears Prada 2",
+  "start": "2026-06-13T21:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-14T11:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sauedetektivene",
+  "start": "2026-06-14T11:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "A Light That Never Goes Out",
+  "start": "2026-06-14T11:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/a-light-that-never-goes-out/1595",
+  "image": "https://images.filmgrail.com/mediaserver/movies/a-light-that-never-goes-out-7472/backdrop/1780655600352?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Bamse Og Havets Hemmelighet",
+  "start": "2026-06-14T11:15:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/bamse-og-havets-hemmelighet/1502",
+  "image": "https://images.filmgrail.com/mediaserver/movies/bamse-og-havets-hemmelighet-8565/backdrop/1773321314446?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-14T11:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Diplodocus Og Den Mystiske Hokus Pokus",
+  "start": "2026-06-14T11:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/diplodocus-og-den-mystiske-hokus-pokus/1509",
+  "image": "https://images.filmgrail.com/mediaserver/movies/diplodocus-og-den-mystiske-hokus-pokus-6647/backdrop/1779412504729?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Sommer på museet - sesongåpning!",
@@ -1152,6 +1278,87 @@
   "free": true
  },
  {
+  "title": "Mira",
+  "start": "2026-06-14T13:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/mira/1511",
+  "image": "https://images.filmgrail.com/mediaserver/movies/mira-8386/backdrop/1778567289035?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Søndagsfilm",
+  "start": "2026-06-14T13:00:00",
+  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/sondagsfilm",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
+  "free": true
+ },
+ {
+  "title": "Scary Movie",
+  "start": "2026-06-14T13:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
+  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Primavera Vivaldis Venezia",
+  "start": "2026-06-14T13:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/primavera-vivaldis-venezia/1553",
+  "image": "https://images.filmgrail.com/mediaserver/movies/primavera-vivaldis-venezia-8183/backdrop/1779434109400?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Backrooms",
+  "start": "2026-06-14T14:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Mandalorian And Grogu",
+  "start": "2026-06-14T14:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Disclosure Day",
+  "start": "2026-06-14T15:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-14T15:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Smaken Av Paris",
+  "start": "2026-06-14T16:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/smaken-av-paris/1559",
+  "image": "https://images.filmgrail.com/mediaserver/movies/smaken-av-paris-7571/backdrop/1779093457336?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "DIEGO MARADONA",
   "start": "2026-06-14T17:30:00",
   "venue": "Hålogaland Teater, Tromsø",
@@ -1161,12 +1368,48 @@
   "free": false
  },
  {
+  "title": "Michael",
+  "start": "2026-06-14T18:15:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Devil Wears Prada 2",
+  "start": "2026-06-14T18:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Project Hail Mary",
+  "start": "2026-06-14T19:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
+  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "A CLOCKWORK ORANGE",
   "start": "2026-06-14T20:00:00",
   "venue": "Hålogaland Teater, Tromsø",
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/a-clockwork-orange-2-2-1",
   "image": "https://www.verdensteatret.no/img/_movieThumb/orange-10.jpg",
+  "free": false
+ },
+ {
+  "title": "Couture",
+  "start": "2026-06-14T20:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1188,6 +1431,33 @@
   "free": true
  },
  {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-15T16:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Disclosure Day",
+  "start": "2026-06-15T17:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-15T17:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "The English Book Club",
   "start": "2026-06-15T17:15:00",
   "venue": "In person at Tromsdalen Library, UiT Tromsø",
@@ -1195,6 +1465,69 @@
   "url": "https://uit.no/tavla/artikkel/917971/the_english_book_club",
   "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
   "free": true
+ },
+ {
+  "title": "The Mandalorian And Grogu",
+  "start": "2026-06-15T17:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Backrooms",
+  "start": "2026-06-15T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Scary Movie",
+  "start": "2026-06-15T18:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
+  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Project Hail Mary",
+  "start": "2026-06-15T20:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
+  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-15T20:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-06-15T20:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Den Fremmede",
+  "start": "2026-06-15T20:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/den-fremmede/1554",
+  "image": "https://images.filmgrail.com/mediaserver/movies/den-fremmede-8551/backdrop/1780136106225?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Trial lecture and disputation - MSc in Biology Ann Mikaela Simmonds",
@@ -1206,6 +1539,105 @@
   "free": true
  },
  {
+  "title": "Backrooms",
+  "start": "2026-06-16T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-16T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "A Light That Never Goes Out",
+  "start": "2026-06-16T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/a-light-that-never-goes-out/1595",
+  "image": "https://images.filmgrail.com/mediaserver/movies/a-light-that-never-goes-out-7472/backdrop/1780655600352?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Lillesoster",
+  "start": "2026-06-16T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/lillesoster/1457",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lillesoster-8332/backdrop/1780924504769?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Primavera Vivaldis Venezia",
+  "start": "2026-06-16T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/primavera-vivaldis-venezia/1553",
+  "image": "https://images.filmgrail.com/mediaserver/movies/primavera-vivaldis-venezia-8183/backdrop/1779434109400?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Disclosure Day",
+  "start": "2026-06-16T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Scary Movie",
+  "start": "2026-06-16T14:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
+  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Couture",
+  "start": "2026-06-16T14:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Det Vakre Aret I Provence",
+  "start": "2026-06-16T14:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
+  "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-16T16:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Mandalorian And Grogu",
+  "start": "2026-06-16T17:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Hva tenker 15-åringer om 22. juli 15 år etter terrorangrepet skjedde?",
   "start": "2026-06-16T17:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -1213,6 +1645,15 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/hva-tenker-15-aringer-om-22-juli-15-ar-etter-terrorangrepet-skjedde",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/Ut%C3%B8ya.jpg.webp?itok=nP1InEXv",
   "free": true
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-16T17:45:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Mira",
@@ -1224,6 +1665,24 @@
   "free": false
  },
  {
+  "title": "Project Hail Mary",
+  "start": "2026-06-16T20:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
+  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-06-16T20:45:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Prøveforelesning og disputas: Master i pedagogikk, Remi Skytterstad v/ ILP",
   "start": "2026-06-17T10:15:00",
   "venue": "Auditorium Didaktikken (ILP-bygget rom 1.059) eller digitalt, UiT Tromsø",
@@ -1231,6 +1690,51 @@
   "url": "https://uit.no/tavla/artikkel/930556/proveforelesning_og_disputas_master_i_pedagogikk",
   "image": "https://uit.no/Content/748129/cache=20222601171726/transformation=scale10000x560/HSL-disputas2.jpeg",
   "free": true
+ },
+ {
+  "title": "Backrooms",
+  "start": "2026-06-17T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-06-17T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "A Light That Never Goes Out",
+  "start": "2026-06-17T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/a-light-that-never-goes-out/1595",
+  "image": "https://images.filmgrail.com/mediaserver/movies/a-light-that-never-goes-out-7472/backdrop/1780655600352?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Smaken Av Paris",
+  "start": "2026-06-17T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/smaken-av-paris/1559",
+  "image": "https://images.filmgrail.com/mediaserver/movies/smaken-av-paris-7571/backdrop/1779093457336?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Primavera Vivaldis Venezia",
+  "start": "2026-06-17T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/primavera-vivaldis-venezia/1553",
+  "image": "https://images.filmgrail.com/mediaserver/movies/primavera-vivaldis-venezia-8183/backdrop/1779434109400?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Avslutning for masterutdanningene ved IHO våren 2026",
@@ -1251,12 +1755,111 @@
   "free": true
  },
  {
+  "title": "Disclosure Day",
+  "start": "2026-06-17T14:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Scary Movie",
+  "start": "2026-06-17T14:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
+  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Couture",
+  "start": "2026-06-17T14:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/couture/1522",
+  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Det Vakre Aret I Provence",
+  "start": "2026-06-17T14:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
+  "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Devil Wears Prada 2",
+  "start": "2026-06-17T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-17T16:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Diplodocus Og Den Mystiske Hokus Pokus",
+  "start": "2026-06-17T16:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/diplodocus-og-den-mystiske-hokus-pokus/1509",
+  "image": "https://images.filmgrail.com/mediaserver/movies/diplodocus-og-den-mystiske-hokus-pokus-6647/backdrop/1779412504729?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Mandalorian And Grogu",
+  "start": "2026-06-17T17:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Masters Of The Universe",
+  "start": "2026-06-17T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
+  "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Tromsø: Rosévin i mange nyanser",
   "start": "2026-06-17T19:30:00",
   "venue": "Amtmandens, Tromsø",
   "source": "amtmandens",
   "url": "https://nordavin.antitickets.com/event/rosevin-i-mange-nyanser",
   "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiIxZTg2ZjRjMi0wMGU5LTRlMzctODM1Ny03Y2M3NDM1NGFiNTRcLzNFT2dSeHNSTkJtMm1pcHVZd1I0Vll6N080OFwvSU1HXzYzNTAuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImhlaWdodCI6MjAwLCJ3aWR0aCI6MzcwLCJmaXQiOiJjb250YWluIn19fQ==",
+  "free": false
+ },
+ {
+  "title": "Project Hail Mary",
+  "start": "2026-06-17T20:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
+  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-06-17T20:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1303,6 +1906,15 @@
   "url": "https://uit.no/tavla/artikkel/930499/instruktorkurs_humlevandring_-_tromso_arr_la",
   "image": "https://uit.no/Content/930498/cache=20260106134153/transformation=scale10000x560/Lahumlasuse_kurs2026.png",
   "free": true
+ },
+ {
+  "title": "Det Vakre Aret I Provence",
+  "start": "2026-06-18T18:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
+  "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Fiksekveld på Folkeverkstedet",
@@ -1422,6 +2034,15 @@
   "free": true
  },
  {
+  "title": "Kveldsåpent museum med kafe og arrangementer // Experience the museum at night",
+  "start": "2026-08-19T17:00:00",
+  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930975/kveldsapent_museum_med_kafe_og_arrangementer_e",
+  "image": "https://uit.no/Content/856578/cache=20241508112953/transformation=scale10000x560/OPM%20merke.png",
+  "free": true
+ },
+ {
   "title": "First COMICA Workshop",
   "start": "2026-08-20T09:00:00",
   "venue": "UiT-The Arctic University of Norway, UiT Tromsø",
@@ -1467,15 +2088,6 @@
   "free": false
  },
  {
-  "title": "Victor Patrascan – Stand Up Comedy In Broken English",
-  "start": "2026-09-05T20:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/victor-patrascan-stand-up-comedy-in-broken-english/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/03/Digital-Plakat-liggende-1360-x-768-Victor-Patrascan-september.jpg",
-  "free": false
- },
- {
   "title": "Grønnegata",
   "start": "2026-09-09T18:00:00",
   "venue": "Hålogaland Teater",
@@ -1512,6 +2124,15 @@
   "free": false
  },
  {
+  "title": "Arctic Youth frokostforelesning #5 med Trude Haugli: \"Svalbard, barn og rettigheter - et komplekst bilde.\"",
+  "start": "2026-09-11T08:15:00",
+  "venue": "SVHUM B1005, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930927/arctic_youth_frokostforelesning_5_med_trude_haug",
+  "image": "https://uit.no/Content/930925/cache=20260806095222/transformation=scale10000x560/trude%20Haugli-09431.jpg",
+  "free": true
+ },
+ {
   "title": "Chris Kläfford – The Kitchen Session Tour",
   "start": "2026-09-11T19:30:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -1519,6 +2140,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/chris-klafford-the-kitchen-session-tour/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-MAL-34.jpg",
   "free": false
+ },
+ {
+  "title": "Kveldsåpent museum med kafe og arrangementer // Experience the museum at night(16. september)",
+  "start": "2026-09-16T17:00:00",
+  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930977/kveldsapent_museum_med_kafe_og_arrangementer_e",
+  "image": "https://uit.no/Content/856578/cache=20241508112953/transformation=scale10000x560/OPM%20merke.png",
+  "free": true
  },
  {
   "title": "Ikke!",
@@ -1584,6 +2214,15 @@
   "free": false
  },
  {
+  "title": "Lars Vaular - Tankrommet",
+  "start": "2026-09-24T20:00:00",
+  "venue": "Bryggeriet Scene, Tromsø",
+  "source": "bryggeriet",
+  "url": "https://www.bryggerietscene.no/program/lars-vaular-tankrommet",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1780908616253-S0F0WDA04OHJC492RRZ0/R1-08595-0005+%281%29.jpg?format=1500w",
+  "free": false
+ },
+ {
   "title": "Utviklingsprogram for studieprogramledelse ved UiT",
   "start": "2026-09-25T09:00:00",
   "venue": "Fysiske samlinger, campus Tromsø, UiT Tromsø",
@@ -1591,6 +2230,15 @@
   "url": "https://result.uit.no/kurs/studieprogramledelse/",
   "image": "https://uit.no/Content/878296/cache=20252204152921/transformation=scale10000x560/Utviklingsprogram-for-studieprogramledere-300x194.png",
   "free": true
+ },
+ {
+  "title": "Liveshow med Spårtsklubben",
+  "start": "2026-09-25T21:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/liveshow-med-spartsklubben/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Liveshow-med-Spartsklubben.jpg",
+  "free": false
  },
  {
   "title": "Viseklubben Spelts Jubileumskonsert – 20 år",
@@ -1654,6 +2302,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/terje-tysland-75-ar-heile-livet-pa-en-kveld/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Terje-Tysland-75-ar-Heile-livet-pa-en-kveld-1.jpg",
   "free": false
+ },
+ {
+  "title": "Kveldsåpent museum med kafe og arrangementer // Experience the museum at night(14. oktober)",
+  "start": "2026-10-14T17:00:00",
+  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930979/kveldsapent_museum_med_kafe_og_arrangementer_e",
+  "image": "https://uit.no/Content/856578/cache=20241508112953/transformation=scale10000x560/OPM%20merke.png",
+  "free": true
  },
  {
   "title": "Insomnia Festival 2026",
@@ -1807,6 +2464,15 @@
   "url": "https://www.til.no/terminliste",
   "image": "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-1200/TIL_one_RGB.png",
   "free": false
+ },
+ {
+  "title": "Kveldsåpent museum med kafe og arrangementer // Experience the museum at night(11. november)",
+  "start": "2026-11-11T17:00:00",
+  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/930981/kveldsapent_museum_med_kafe_og_arrangementer_e",
+  "image": "https://uit.no/Content/856578/cache=20241508112953/transformation=scale10000x560/OPM%20merke.png",
+  "free": true
  },
  {
   "title": "Janove med strykekvartett",
@@ -2079,6 +2745,15 @@
   "free": false
  },
  {
+  "title": "Jørn Hoel & Steinar Albrigtsen -70+70, to stemmer fra et levd liv",
+  "start": "2027-01-29T19:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/jorn-hoel-steinar-albrigtsen-7070-to-stemmer-fra-et-levd-liv/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Jorn-og-Steinar-7070-1.jpg",
+  "free": false
+ },
+ {
   "title": "Riksteatret: Kakejazz",
   "start": "2027-02-03T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2120,7 +2795,16 @@
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-dark-side-of-the-moon-in-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Dark-Side-of-the-Moon.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Dark-Side-of-the-Moon-1.jpg",
+  "free": false
+ },
+ {
+  "title": "Pink Floyd’s Dark Side Of The Moon – in concert",
+  "start": "2027-02-06T20:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-dark-side-of-the-moon-in-concert/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Dark-Side-of-the-Moon-1.jpg",
   "free": false
  },
  {
@@ -2131,15 +2815,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/per-henrik-stenstrom-slik-takler-du-idiotene-pa-jobben-2/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/04/Digital-Plakat-liggende-1360-x-768-Idiotene-pa-jobben-2-1.jpg",
   "free": false
- },
- {
-  "title": "Lørdags-eventyrstund",
-  "start": "2027-03-07T13:30:00",
-  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/lordags-eventyrstund",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/L%C3%B8rdags%20eventyrstund.png.webp?itok=Yqf7PGOQ",
-  "free": true
  },
  {
   "title": "Internasjonalt seminar:Atomvåpen som forsvar?Om masseødeleggelsesvåpnenes etikk og politikk",
