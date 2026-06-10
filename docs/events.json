@@ -1,14 +1,5 @@
 [
  {
-  "title": "MARY CASSATT: PAINTING THE MODERN WOMAN",
-  "start": "2026-06-09T18:00:00",
-  "venue": "Hålogaland Teater, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/mary-cassatt-painting-the-modern-woman",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Mary_Cassatt_landscape_crop.jpg",
-  "free": false
- },
- {
   "title": "MANDELA: VEIEN TIL FRIHET",
   "start": "2026-06-09T20:00:00",
   "venue": "Hålogaland Teater, Tromsø",
@@ -27,24 +18,6 @@
   "free": false
  },
  {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-06-10T17:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Diplodocus Og Den Mystiske Hokus Pokus",
-  "start": "2026-06-10T17:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/diplodocus-og-den-mystiske-hokus-pokus/1509",
-  "image": "https://images.filmgrail.com/mediaserver/movies/diplodocus-og-den-mystiske-hokus-pokus-6647/backdrop/1779412504729?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Strikkekafé",
   "start": "2026-06-10T17:00:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -52,51 +25,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/strikkekafe",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/Strikkekafe.jpg.webp?itok=g6Qc4_Dt",
   "free": true
- },
- {
-  "title": "Backrooms",
-  "start": "2026-06-10T17:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Disclosure Day",
-  "start": "2026-06-10T18:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Couture",
-  "start": "2026-06-10T18:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/couture/1522",
-  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kpop Demon Hunters Sing Along",
-  "start": "2026-06-10T18:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kpop-demon-hunters-sing-along/1555",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kpop-demon-hunters-sing-along-9352/backdrop/1778505898258?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vår: Markens lille grøde",
-  "start": "2026-06-10T19:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens-lille-gr%C3%B8de-MFIS3861-1920x1200.jpg.webp?itok=enGqOXbj",
-  "free": false
  },
  {
   "title": "Michael",
@@ -150,6 +78,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/obsession/1510",
   "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Backrooms",
+  "start": "2026-06-10T21:15:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -324,15 +261,6 @@
   "free": true
  },
  {
-  "title": "Folkeverksted: Symoro",
-  "start": "2026-06-11T15:00:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-11-15-00",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
-  "free": false
- },
- {
   "title": "Advokatvakta",
   "start": "2026-06-11T16:30:00",
   "venue": "Hovedbiblioteket, Tromsø",
@@ -378,12 +306,12 @@
   "free": false
  },
  {
-  "title": "Fiksekveld på Folkeverkstedet",
-  "start": "2026-06-11T18:00:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-11-18-00",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
+  "title": "Vår: Markens lille grøde",
+  "start": "2026-06-11T19:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens-lille-gr%C3%B8de-MFIS3861-1920x1200.jpg.webp?itok=enGqOXbj",
   "free": false
  },
  {
@@ -630,15 +558,6 @@
   "free": false
  },
  {
-  "title": "Lille Skuespill",
-  "start": "2026-06-13T11:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2024/lille-skuespill",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/DSC09685.JPG.webp?itok=RMWqnnlU",
-  "free": false
- },
- {
   "title": "Lille Verksted",
   "start": "2026-06-13T11:00:00",
   "venue": "Hålogaland Teater",
@@ -654,6 +573,15 @@
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2025/familielordag",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/Bildecollage-familiel%C3%B8rdag_0.jpg.webp?itok=7qRSPcmM",
+  "free": false
+ },
+ {
+  "title": "Lille Skuespill",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2024/lille-skuespill",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/DSC09685.JPG.webp?itok=RMWqnnlU",
   "free": false
  },
  {
@@ -681,15 +609,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/da-mumbo-jumbo-ble-kjempestor/1495",
   "image": "https://images.filmgrail.com/mediaserver/movies/da-mumbo-jumbo-ble-kjempestor-8347/backdrop/1773149409473?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "TROMSØ: Bruktmarked",
-  "start": "2026-06-13T11:00:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/46-tromso-bruktmarked-4",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fivhbruktmarked.png",
   "free": false
  },
  {
@@ -1602,15 +1521,6 @@
   "free": true
  },
  {
-  "title": "Folkeverksted: Symoro",
-  "start": "2026-06-18T14:25:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-18-14-25",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
-  "free": false
- },
- {
   "title": "Scary Movie",
   "start": "2026-06-18T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -1635,15 +1545,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
   "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sykkelfiks for store og små",
-  "start": "2026-06-18T15:00:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/69-sykkelfiks-for-store-og-sma",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_sykkelfiks.jpg",
   "free": false
  },
  {
@@ -1689,15 +1590,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
   "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fiksekveld på Folkeverkstedet",
-  "start": "2026-06-18T18:00:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-18-18-00",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
   "free": false
  },
  {
@@ -1798,24 +1690,6 @@
   "url": "https://uit.no/tavla/artikkel/931041/disputas_cand_med_oda_gabrielle_rikardsen_lekn",
   "image": "https://uit.no/Content/931043/cache=20260906124738/transformation=scale10000x560/Oda%20Leknessud.jpg",
   "free": true
- },
- {
-  "title": "Folkeverksted: Symoro",
-  "start": "2026-06-25T14:25:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-25-14-25",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
-  "free": false
- },
- {
-  "title": "Fiksekveld på Folkeverkstedet",
-  "start": "2026-06-25T18:00:00",
-  "venue": "Tromsø",
-  "source": "framtidennord",
-  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-25-18-00",
-  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
-  "free": false
  },
  {
   "title": "TIL — Vålerenga",
