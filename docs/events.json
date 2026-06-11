@@ -63,15 +63,6 @@
   "free": false
  },
  {
-  "title": "Vår: Markens lille grøde",
-  "start": "2026-06-11T19:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens-lille-gr%C3%B8de-MFIS3861-1920x1200.jpg.webp?itok=enGqOXbj",
-  "free": false
- },
- {
   "title": "VM-feber på Bryggeriet Scene!",
   "start": "2026-06-11T19:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -360,15 +351,6 @@
   "free": false
  },
  {
-  "title": "Lille Verksted",
-  "start": "2026-06-13T11:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2024/lille-verksted",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/HT_Lille_verksted_foto_Knut_Aaserud_L1190181.jpeg.webp?itok=OH4woB__",
-  "free": false
- },
- {
   "title": "Familielørdag",
   "start": "2026-06-13T11:00:00",
   "venue": "Hålogaland Teater",
@@ -384,6 +366,15 @@
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2024/lille-skuespill",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/DSC09685.JPG.webp?itok=RMWqnnlU",
+  "free": false
+ },
+ {
+  "title": "Lille Verksted",
+  "start": "2026-06-13T11:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2024/lille-verksted",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2025-02/HT_Lille_verksted_foto_Knut_Aaserud_L1190181.jpeg.webp?itok=OH4woB__",
   "free": false
  },
  {
@@ -528,6 +519,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/kpop-demon-hunters-sing-along/1555",
   "image": "https://images.filmgrail.com/mediaserver/movies/kpop-demon-hunters-sing-along-9352/backdrop/1778505898258?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Vår: Markens lille grøde",
+  "start": "2026-06-13T17:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens-lille-gr%C3%B8de-MFIS3861-1920x1200.jpg.webp?itok=enGqOXbj",
   "free": false
  },
  {
