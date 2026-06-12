@@ -1,14 +1,5 @@
 [
  {
-  "title": "Engasjementskvelden",
-  "start": "2026-06-11T17:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/engasjementskvelden",
-  "image": "",
-  "free": true
- },
- {
   "title": "FOTBALLQUIZ - Jørgen Hjertsen",
   "start": "2026-06-11T18:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -106,15 +97,6 @@
   "url": "https://www.bryggerietscene.no/program/5vnwoc1coodqukdwjfcsgob9syc9g2",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1779800541830-R3ZM1CU8JCWH2ZSNZ9B3/Afterparty+sommernatt.jpg?format=1500w",
   "free": false
- },
- {
-  "title": "Njámmat – njoarostit, kunstnerisk sluttpresentasjon for PhD-stipendiat Jakop Janssønn",
-  "start": "2026-06-12T19:00:00",
-  "venue": "Kulturhuset Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/930976/nj_mmat_njoarostit_kunstnerisk_sluttpresentasj",
-  "image": "https://uit.no/Content/930978/cache=20260806140517/transformation=scale10000x560/Jakop%20Janss%C3%B8n.jpg",
-  "free": true
  },
  {
   "title": "The Mandalorian And Grogu",
@@ -531,6 +513,15 @@
   "free": false
  },
  {
+  "title": "DIEGO MARADONA",
+  "start": "2026-06-14T17:30:00",
+  "venue": "Hålogaland Teater, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/diego-maradona-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/diego-01.jpg",
+  "free": false
+ },
+ {
   "title": "Michael",
   "start": "2026-06-14T18:15:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -555,6 +546,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
   "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "A CLOCKWORK ORANGE",
+  "start": "2026-06-14T20:00:00",
+  "venue": "Hålogaland Teater, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/a-clockwork-orange-2-2-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/orange-10.jpg",
   "free": false
  },
  {
@@ -747,21 +747,21 @@
   "free": false
  },
  {
-  "title": "Disclosure Day",
-  "start": "2026-06-16T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Scary Movie",
   "start": "2026-06-16T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
   "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Disclosure Day",
+  "start": "2026-06-16T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -927,21 +927,21 @@
   "free": true
  },
  {
-  "title": "Disclosure Day",
-  "start": "2026-06-17T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Scary Movie",
   "start": "2026-06-17T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
   "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Disclosure Day",
+  "start": "2026-06-17T14:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1266,6 +1266,15 @@
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/bryggeriet-standup",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1780513326397-R1TQYA92EHB1O2M8WYW5/Bryggeriet+Scene%3B+eksempler+%282048+x+1152+px%29.jpg?format=1500w",
+  "free": false
+ },
+ {
+  "title": "INSOMNIA",
+  "start": "2026-06-19T20:00:00",
+  "venue": "Hålogaland Teater, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/insomnia-2-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/insomnia_02.jpg",
   "free": false
  },
  {
