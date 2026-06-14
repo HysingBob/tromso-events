@@ -1,14 +1,5 @@
 [
  {
-  "title": "Eventyrkonsert",
-  "start": "2026-06-13T13:00:00",
-  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/eventyrkonsert",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/janitsjar.jpg.webp?itok=tGeh-eVA",
-  "free": true
- },
- {
   "title": "Mira",
   "start": "2026-06-14T13:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -1726,15 +1717,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/per-henrik-stenstrom-slik-takler-du-idiotene-pa-jobben-2/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/04/Digital-Plakat-liggende-1360-x-768-Idiotene-pa-jobben-2-1.jpg",
   "free": false
- },
- {
-  "title": "Lørdagseventyr",
-  "start": "2027-03-28T13:30:00",
-  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/lordagseventyr",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/L%C3%B8rdags%20eventyrstund_0.png.webp?itok=MMbpn6JK",
-  "free": true
  },
  {
   "title": "Lesesirkel: Lausgjengar",
