@@ -243,6 +243,15 @@
   "free": true
  },
  {
+  "title": "Folkeverksted: Symoro",
+  "start": "2026-06-18T14:25:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-18-14-25",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
+  "free": false
+ },
+ {
   "title": "Scary Movie",
   "start": "2026-06-18T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -267,6 +276,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
   "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sykkelfiks for store og små",
+  "start": "2026-06-18T15:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/69-sykkelfiks-for-store-og-sma",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_sykkelfiks.jpg",
   "free": false
  },
  {
@@ -312,6 +330,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/det-vakre-aret-i-provence/1552",
   "image": "https://images.filmgrail.com/mediaserver/movies/det-vakre-aret-i-provence-9267/backdrop/1779801308178?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Fiksekveld på Folkeverkstedet",
+  "start": "2026-06-18T18:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-18-18-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
   "free": false
  },
  {
@@ -1188,6 +1215,15 @@
   "free": true
  },
  {
+  "title": "Folkeverksted: Symoro",
+  "start": "2026-06-25T14:25:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-25-14-25",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
+  "free": false
+ },
+ {
   "title": "Disclosure Day",
   "start": "2026-06-25T14:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -1230,6 +1266,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
   "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Fiksekveld på Folkeverkstedet",
+  "start": "2026-06-25T18:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-25-18-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
   "free": false
  },
  {
