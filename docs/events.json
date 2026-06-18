@@ -45,15 +45,6 @@
   "free": false
  },
  {
-  "title": "Avslutning for avgangstudenter ved sykepleieutdanningen våren 2026",
-  "start": "2026-06-18T13:00:00",
-  "venue": "MH1 Lysgården, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/927450/avslutning_for_avgangstudenter_ved_sykepleieutdan",
-  "image": "https://uit.no/Content/927454/cache=20260805133322/transformation=scale10000x560/bachelor%20lite%20bilde.jpg",
-  "free": true
- },
- {
   "title": "Folkeverksted: Symoro",
   "start": "2026-06-18T14:25:00",
   "venue": "Tromsø",
@@ -1242,6 +1233,15 @@
   "free": true
  },
  {
+  "title": "TIFF Junior 2026",
+  "start": "2026-09-02T12:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/tiff-junior/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
+  "free": false
+ },
+ {
   "title": "Jorda rundt på 60 minutt med Marta Norheim",
   "start": "2026-09-02T19:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -1266,6 +1266,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/creedence-storynight-revisited-med-fortunate-sons/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Creedence-Story-Night.png",
+  "free": false
+ },
+ {
+  "title": "TIFF Junior 2026",
+  "start": "2026-09-06T20:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/tiff-junior/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
   "free": false
  },
  {
