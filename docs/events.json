@@ -72,15 +72,6 @@
   "free": false
  },
  {
-  "title": "Markedsdag i Botanisk hage",
-  "start": "2026-06-20T12:00:00",
-  "venue": "Tromsø arktisk-alpine botaniske hage, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/929062/markedsdag_i_botanisk_hage",
-  "image": "https://uit.no/Content/931614/cache=20261806105213/transformation=scale10000x560/20250621_120801.jpg",
-  "free": true
- },
- {
   "title": "Backrooms",
   "start": "2026-06-20T13:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -720,6 +711,15 @@
   "free": true
  },
  {
+  "title": "Folkeverksted: Symoro",
+  "start": "2026-06-25T14:25:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/59-folkeverksted-symoro-2/2026-06-25-14-25",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_juni-symoro.jpg",
+  "free": false
+ },
+ {
   "title": "Disclosure Day",
   "start": "2026-06-25T14:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -762,6 +762,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/masters-of-the-universe/1523",
   "image": "https://images.filmgrail.com/mediaserver/movies/masters-of-the-universe-8522/backdrop/1779365708163?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Fiksekveld på Folkeverkstedet",
+  "start": "2026-06-25T18:00:00",
+  "venue": "Tromsø",
+  "source": "framtidennord",
+  "url": "https://framtidennord.no/index.php/det-skjer/kommende-arrangementer/51-fiksekveld-pa-folkeverkstedet/2026-06-25-18-00",
+  "image": "https://framtidennord.no/images/icagenda/thumbs/themes/ic_medium_w300h300q100_fiksekvel2026.jpg",
   "free": false
  },
  {
