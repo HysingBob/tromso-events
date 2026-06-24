@@ -27,15 +27,6 @@
   "free": false
  },
  {
-  "title": "Disputas- Master i helsefag Morten Nikolaisen",
-  "start": "2026-06-24T12:15:00",
-  "venue": "Auditorium Cortex, MH2- plan7, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/931341/disputas-_master_i_helsefag_morten_nikolaisen",
-  "image": "https://uit.no/Content/931343/cache=20261506090325/transformation=scale10000x560/Morten.jpg",
-  "free": true
- },
- {
   "title": "Help Desk: Research Data, Coding & HPC",
   "start": "2026-06-24T14:00:00",
   "venue": "UB 338, UiT Tromsø",
@@ -1204,6 +1195,24 @@
   "url": "https://fokus.aurorakino.no/f/obsession/1510",
   "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Trial Lecture - Master of Science Mohsin Khan",
+  "start": "2026-07-03T10:15:00",
+  "venue": "Auditorium 1.022, Teknologibygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/931993/trial_lecture_-_master_of_science_mohsin_khan",
+  "image": "https://uit.no/Content/931992/cache=20262406114737/transformation=scale10000x560/Mohsin%20Khan_Bilde.jpg",
+  "free": true
+ },
+ {
+  "title": "Thesis Defense - Master of Science Mohsin Khan",
+  "start": "2026-07-03T12:15:00",
+  "venue": "Auditorium 1.022, Teknologibygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/931995/thesis_defense_-_master_of_science_mohsin_khan",
+  "image": "https://uit.no/Content/931992/cache=20262406114737/transformation=scale10000x560/Mohsin%20Khan_Bilde.jpg",
+  "free": true
  },
  {
   "title": "TIL — Vålerenga",
