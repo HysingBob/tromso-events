@@ -954,11 +954,20 @@
   "free": false
  },
  {
-  "title": "Soppkontroll høsten 2026 v/ Tromsø sopp- og nyttevekstforening",
+  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening",
   "start": "2026-08-02T15:00:00",
   "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932186/soppkontroll_hosten_2026_v_tromso_sopp-_og_nytte",
+  "url": "https://uit.no/tavla/artikkel/932186/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
+  "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
+  "free": true
+ },
+ {
+  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening(9. august)",
+  "start": "2026-08-09T15:00:00",
+  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/932187/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
   "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
   "free": true
  },
@@ -1008,6 +1017,15 @@
   "free": true
  },
  {
+  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening(16. august)",
+  "start": "2026-08-16T15:00:00",
+  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/932188/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
+  "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
+  "free": true
+ },
+ {
   "title": "StudEXPO 2026 - Utforsk studentlivet!",
   "start": "2026-08-18T11:00:00",
   "venue": "Kraft Sportssenter, UiT Tromsø",
@@ -1041,6 +1059,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/926744/first_comica_workshop",
   "image": "https://uit.no/Content/927468/cache=20260805135258/transformation=scale10000x560/Logo%20test.jpg",
+  "free": true
+ },
+ {
+  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening(23. august)",
+  "start": "2026-08-23T15:00:00",
+  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/932189/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
+  "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
   "free": true
  },
  {
