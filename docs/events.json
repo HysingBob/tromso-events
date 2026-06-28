@@ -180,21 +180,21 @@
   "free": false
  },
  {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-06-29T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Devil Wears Prada 2",
   "start": "2026-06-29T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-29T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -333,21 +333,21 @@
   "free": false
  },
  {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-06-30T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Devil Wears Prada 2",
   "start": "2026-06-30T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Super Mario Galaxy Filmen",
+  "start": "2026-06-30T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
+  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
   "free": false
  },
  {
