@@ -1,150 +1,6 @@
 [
  {
   "title": "Minions And Monstre",
-  "start": "2026-07-06T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Scary Movie",
-  "start": "2026-07-06T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
-  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Den Stjalne Prinsessen",
-  "start": "2026-07-06T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/den-stjalne-prinsessen/1571",
-  "image": "https://images.filmgrail.com/mediaserver/movies/den-stjalne-prinsessen-9375/backdrop/1782371707199?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mira",
-  "start": "2026-07-06T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mira/1511",
-  "image": "https://images.filmgrail.com/mediaserver/movies/mira-8386/backdrop/1778567289035?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Krolle Bolle",
-  "start": "2026-07-06T12:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/krolle-bolle/1503",
-  "image": "https://images.filmgrail.com/mediaserver/movies/krolle-bolle-6965/backdrop/1776935706454?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-07-06T14:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-07-06T14:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Mandalorian And Grogu",
-  "start": "2026-07-06T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Devil Wears Prada 2",
-  "start": "2026-07-06T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sauedetektivene",
-  "start": "2026-07-06T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauedetektivene/1508",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauedetektivene-8415/backdrop/1778483706324?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Michael",
-  "start": "2026-07-06T17:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Couture",
-  "start": "2026-07-06T17:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/couture/1522",
-  "image": "https://images.filmgrail.com/mediaserver/movies/couture-8566/backdrop/1780460105523?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Supergirl",
-  "start": "2026-07-06T19:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/supergirl/1446",
-  "image": "https://images.filmgrail.com/mediaserver/movies/supergirl-8414/backdrop/1780477754839?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-07-06T20:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms",
-  "start": "2026-07-06T20:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Project Hail Mary",
-  "start": "2026-07-06T20:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
-  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
   "start": "2026-07-07T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
@@ -234,21 +90,21 @@
   "free": false
  },
  {
-  "title": "Michael",
-  "start": "2026-07-07T18:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Disclosure Day",
   "start": "2026-07-07T18:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
   "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-07-07T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -275,7 +131,7 @@
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/bone-lake/1442",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783239306280?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783401304468?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -378,21 +234,21 @@
   "free": false
  },
  {
-  "title": "Michael",
-  "start": "2026-07-08T18:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Disclosure Day",
   "start": "2026-07-08T18:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
   "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-07-08T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -419,7 +275,7 @@
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/bone-lake/1442",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783239306280?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783401304468?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -522,21 +378,21 @@
   "free": false
  },
  {
-  "title": "Michael",
-  "start": "2026-07-09T18:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Disclosure Day",
   "start": "2026-07-09T18:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
   "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-07-09T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -563,7 +419,7 @@
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/bone-lake/1442",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783239306280?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783401304468?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -590,7 +446,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783319412355?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -603,12 +459,30 @@
   "free": false
  },
  {
+  "title": "Obsession",
+  "start": "2026-07-10T15:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Toy Story 5",
-  "start": "2026-07-10T14:30:00",
+  "start": "2026-07-10T16:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
   "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Supergirl",
+  "start": "2026-07-10T20:45:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/supergirl/1446",
+  "image": "https://images.filmgrail.com/mediaserver/movies/supergirl-8414/backdrop/1780477754839?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -626,7 +500,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783319412355?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -636,6 +510,15 @@
   "source": "til",
   "url": "https://www.til.no/terminliste",
   "image": "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-1200/TIL_one_RGB.png",
+  "free": false
+ },
+ {
+  "title": "Jackass Best And Last",
+  "start": "2026-07-11T19:45:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/jackass-best-and-last/1558",
+  "image": "https://images.filmgrail.com/mediaserver/movies/jackass-best-and-last-9291/backdrop/1781000106625?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -725,7 +608,7 @@
   "venue": "TEO-H1 AUD1 1.820, UiT Tromsø",
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/931307/_orienteringsmote_for_studenter_ved_iff_og_skk",
-  "image": "https://uit.no/Content/932227/cache=20262606172017/transformation=scale10000x560/Plakat-Orienteringm%C3%B8te_IFF_med%20Pia%20Lauritzen-delbarbanner.jpg",
+  "image": "https://uit.no/Content/932761/cache=20260707105552/transformation=scale10000x560/Tavla-thumbnail-PIA-800x600px.png",
   "free": true
  },
  {
@@ -735,6 +618,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
   "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
+  "free": true
+ },
+ {
+  "title": "Ombruksfest 2026",
+  "start": "2026-08-12T14:00:00",
+  "venue": "Teorifagskafeen, Teorifagbygget Hus 1, Campus Breivika (Tromsø), UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/932743/ombruksfest_2026",
+  "image": "https://uit.no/Content/932742/cache=20260607213025/transformation=scale10000x560/Ombruksfest_2026.png",
   "free": true
  },
  {
