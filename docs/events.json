@@ -288,21 +288,21 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
-  "start": "2026-07-10T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Vaiana",
   "start": "2026-07-10T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/vaiana/1447",
   "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Minions And Monstre",
+  "start": "2026-07-10T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -477,6 +477,15 @@
   "free": false
  },
  {
+  "title": "Disclosure Day",
+  "start": "2026-07-11T17:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
+  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "TIL — Vålerenga",
   "start": "2026-07-11T18:00:00",
   "venue": "Romssa Arena",
@@ -501,15 +510,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/backrooms/1521",
   "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Disclosure Day",
-  "start": "2026-07-11T20:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -594,11 +594,11 @@
   "free": true
  },
  {
-  "title": "Velkommen til studieoppstart ved IFF og SKK!",
+  "title": "Velkommen til studiestart ved IFF og SKK!",
   "start": "2026-08-12T11:45:00",
   "venue": "TEO-H1 AUD1 1.820, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/931307/velkommen_til_studieoppstart_ved_iff_og_skk",
+  "url": "https://uit.no/tavla/artikkel/931307/velkommen_til_studiestart_ved_iff_og_skk",
   "image": "https://uit.no/Content/932761/cache=20260707105552/transformation=scale10000x560/Tavla-thumbnail-PIA-800x600px.png",
   "free": true
  },
