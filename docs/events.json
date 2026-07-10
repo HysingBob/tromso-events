@@ -1,149 +1,5 @@
 [
  {
-  "title": "Minions And Monstre",
-  "start": "2026-07-09T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-07-09T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Den Stjalne Prinsessen",
-  "start": "2026-07-09T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/den-stjalne-prinsessen/1571",
-  "image": "https://images.filmgrail.com/mediaserver/movies/den-stjalne-prinsessen-9375/backdrop/1782371707199?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Bamse Og Havets Hemmelighet",
-  "start": "2026-07-09T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/bamse-og-havets-hemmelighet/1502",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bamse-og-havets-hemmelighet-8565/backdrop/1773321314446?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Primavera Vivaldis Venezia",
-  "start": "2026-07-09T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/primavera-vivaldis-venezia/1553",
-  "image": "https://images.filmgrail.com/mediaserver/movies/primavera-vivaldis-venezia-8183/backdrop/1779434109400?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Project Hail Mary",
-  "start": "2026-07-09T12:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/project-hail-mary/1394",
-  "image": "https://images.filmgrail.com/mediaserver/movies/project-hail-mary-7504/backdrop/1772450110216?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-07-09T14:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Supergirl",
-  "start": "2026-07-09T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/supergirl/1446",
-  "image": "https://images.filmgrail.com/mediaserver/movies/supergirl-8414/backdrop/1780477754839?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Devil Wears Prada 2",
-  "start": "2026-07-09T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-devil-wears-prada-2/1405",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-devil-wears-prada-2-8344/backdrop/1776680108102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Death Of Robin Hood",
-  "start": "2026-07-09T15:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-death-of-robin-hood/1570",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-death-of-robin-hood-8576/backdrop/1781937010012?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Disclosure Day",
-  "start": "2026-07-09T18:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Michael",
-  "start": "2026-07-09T18:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Mandalorian And Grogu",
-  "start": "2026-07-09T18:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-mandalorian-and-grogu/1396",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-mandalorian-and-grogu-7859/backdrop/1778070610012?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Scary Movie",
-  "start": "2026-07-09T18:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/scary-movie/1525",
-  "image": "https://images.filmgrail.com/mediaserver/movies/scary-movie-8451/backdrop/1780607706333?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Bone Lake",
-  "start": "2026-07-09T21:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/bone-lake/1442",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bone-lake-8333/backdrop/1783401304468?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms",
-  "start": "2026-07-09T21:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Vaiana",
   "start": "2026-07-10T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -369,6 +225,15 @@
   "free": false
  },
  {
+  "title": "Fotball Vm Norge Vs England",
+  "start": "2026-07-11T23:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/fotball-vm-norge-vs-england/1611",
+  "image": "https://images.filmgrail.com/1783331124977-Facebook%20england%20norge%20%20(1920%20x%201080%20px)%20(1).jpg?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Minions And Monstre",
   "start": "2026-07-12T11:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -522,21 +387,21 @@
   "free": false
  },
  {
-  "title": "Michael",
-  "start": "2026-07-13T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Den Fremmede",
   "start": "2026-07-13T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/den-fremmede/1554",
   "image": "https://images.filmgrail.com/mediaserver/movies/den-fremmede-8551/backdrop/1780136106225?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Michael",
+  "start": "2026-07-13T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/michael/1443",
+  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
   "free": false
  },
  {
