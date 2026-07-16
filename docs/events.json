@@ -900,6 +900,24 @@
   "free": false
  },
  {
+  "title": "Jurassic Park 1993",
+  "start": "2026-07-24T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/jurassic-park-1993/1613",
+  "image": "https://images.filmgrail.com/1784190273065-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Event Horizon",
+  "start": "2026-07-25T21:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/event-horizon/1614",
+  "image": "https://images.filmgrail.com/1784190179019-samneillscream.jpg?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Spider Man Brand New Day",
   "start": "2026-07-29T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
