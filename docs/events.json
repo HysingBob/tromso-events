@@ -1,122 +1,5 @@
 [
  {
-  "title": "Vaiana",
-  "start": "2026-07-26T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-07-26T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Supergirl",
-  "start": "2026-07-26T11:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/supergirl/1446",
-  "image": "https://images.filmgrail.com/mediaserver/movies/supergirl-8414/backdrop/1780477754839?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Superhunden Charlie",
-  "start": "2026-07-26T11:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kilden I Provence Jean De Florette",
-  "start": "2026-07-26T11:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1784276104984?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-07-26T11:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-07-26T13:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Super Mario Galaxy Filmen",
-  "start": "2026-07-26T13:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/super-mario-galaxy-filmen/1395",
-  "image": "https://images.filmgrail.com/mediaserver/movies/super-mario-galaxy-filmen-7962/backdrop/1775646908861?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms Everything Must Go",
-  "start": "2026-07-26T13:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Disclosure Day",
-  "start": "2026-07-26T14:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Jackass Best And Last",
-  "start": "2026-07-26T20:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/jackass-best-and-last/1558",
-  "image": "https://images.filmgrail.com/1783582799496-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-07-26T21:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Evil Dead Burn",
-  "start": "2026-07-26T21:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/evil-dead-burn/1530",
-  "image": "https://images.filmgrail.com/mediaserver/movies/evil-dead-burn-9268/backdrop/1782908106487?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Odyssey",
   "start": "2026-07-27T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -243,21 +126,21 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
-  "start": "2026-07-28T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Vaiana",
   "start": "2026-07-28T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/vaiana/1447",
   "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Minions And Monstre",
+  "start": "2026-07-28T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -342,15 +225,6 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Vaiana",
   "start": "2026-07-29T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -360,12 +234,12 @@
   "free": false
  },
  {
-  "title": "Toy Story 5",
+  "title": "Minions And Monstre",
   "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -375,6 +249,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/obsession/1510",
   "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Toy Story 5",
+  "start": "2026-07-29T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
+  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -441,21 +324,21 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
-  "start": "2026-07-30T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Vaiana",
   "start": "2026-07-30T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/vaiana/1447",
   "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Minions And Monstre",
+  "start": "2026-07-30T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -504,21 +387,21 @@
   "free": false
  },
  {
-  "title": "Backrooms Everything Must Go",
-  "start": "2026-07-30T20:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Evil Dead Burn",
   "start": "2026-07-30T20:30:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/evil-dead-burn/1530",
   "image": "https://images.filmgrail.com/mediaserver/movies/evil-dead-burn-9268/backdrop/1782908106487?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Backrooms Everything Must Go",
+  "start": "2026-07-30T20:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -774,6 +657,15 @@
   "free": true
  },
  {
+  "title": "Babytreff på biblioteket",
+  "start": "2026-08-18T13:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
+  "free": true
+ },
+ {
   "title": "Lesesirkel: Fars rygg",
   "start": "2026-08-18T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -898,6 +790,15 @@
   "url": "https://www.bryggerietscene.no/program/lxv94a1j4otvmbhhfhvqi7w72uzwlj",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1782739970699-I5VN1XYFE1JQ1ESOJ8YP/16X9.jpg?format=1500w",
   "free": false
+ },
+ {
+  "title": "Fredagseventyret",
+  "start": "2026-09-04T11:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
+  "free": true
  },
  {
   "title": "Creedence StoryNight Revisited med Fortunate Sons",
@@ -1053,6 +954,15 @@
   "free": false
  },
  {
+  "title": "Kreativ lørdag",
+  "start": "2026-09-19T12:00:00",
+  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/kreativ-lordag",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-04/Kreativ%20fargestifter.jpg.webp?itok=4sLIIXv6",
+  "free": true
+ },
+ {
   "title": "Blandakoret Nordaførr – E du Nord",
   "start": "2026-09-19T15:00:00",
   "venue": "Lillescenen, Kulturhuset Tromsø",
@@ -1069,6 +979,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/nordnorske-tilstander/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Nordnorske-Tilstander.jpg",
   "free": false
+ },
+ {
+  "title": "Søndagsfilm",
+  "start": "2026-09-20T13:00:00",
+  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
+  "free": true
  },
  {
   "title": "TIL — HamKam",
@@ -1463,7 +1382,7 @@
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/morten-abel/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Morten-Abel-H26-cleant-1920x1080-1.png",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Morten-Abel.jpg",
   "free": false
  },
  {
@@ -1890,12 +1809,48 @@
   "free": false
  },
  {
+  "title": "Autismeforeningen i Troms: Fagdag",
+  "start": "2027-03-07T11:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/autismeforeningen-i-troms-fagdag",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-02/FAGDAG-1222-e1763555035616.jpg.webp?itok=cAzaLf3v",
+  "free": true
+ },
+ {
+  "title": "Lørdags-eventyrstund",
+  "start": "2027-03-07T13:30:00",
+  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/lordags-eventyrstund",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/L%C3%B8rdags%20eventyrstund.png.webp?itok=Yqf7PGOQ",
+  "free": true
+ },
+ {
   "title": "NERA 2027: Navigating Change, Risk and Resilience in Uncertain Times",
   "start": "2027-03-10T08:00:00",
   "venue": "Teorifagbygget og SVHUM, UiT Tromsø",
   "source": "uit",
   "url": "https://site.uit.no/nera2027/",
   "image": "https://uit.no/Content/861610/cache=20242709105922/transformation=scale10000x560/ILP_bygget_UIT_11867_Foto_Jorn_Berger_Nyvoll.JPG",
+  "free": true
+ },
+ {
+  "title": "Internasjonalt seminar:Atomvåpen som forsvar?Om masseødeleggelsesvåpnenes etikk og politikk",
+  "start": "2027-03-12T19:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/internasjonalt-seminar-atomvapen-som-forsvar-om",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/atomv%C3%A5pen%20som%20forsvar.jpg.webp?itok=GO891jba",
+  "free": true
+ },
+ {
+  "title": "Kosmiske mysterier og spektakulære fenomener",
+  "start": "2027-03-15T12:00:00",
+  "venue": "Plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/02/kosmiske-mysterier-og-spektakulaere-fenomener",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-02/Knut%20j%C3%B8rgen.jpeg.webp?itok=Elat7QDd",
   "free": true
  },
  {
@@ -2043,15 +1998,6 @@
   "free": true
  },
  {
-  "title": "Fredagseventyret",
-  "start": "2027-04-24T11:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/04/fredagseventyret",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
-  "free": true
- },
- {
   "title": "Vidar Hansen – Kunsten å lese kroppsspråk",
   "start": "2027-04-26T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2151,24 +2097,6 @@
   "free": true
  },
  {
-  "title": "Babytreff på biblioteket",
-  "start": "2027-06-02T13:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/babytreff-pa-biblioteket",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
-  "free": true
- },
- {
-  "title": "Kreativ lørdag",
-  "start": "2027-06-06T12:00:00",
-  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/kreativ-lordag",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-04/Kreativ%20fargestifter.jpg.webp?itok=4sLIIXv6",
-  "free": true
- },
- {
   "title": "Bokklubb for unge voksne",
   "start": "2027-06-08T18:00:00",
   "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
@@ -2211,15 +2139,6 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/eventyrkonsert",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/janitsjar.jpg.webp?itok=tGeh-eVA",
-  "free": true
- },
- {
-  "title": "Søndagsfilm",
-  "start": "2027-06-14T13:00:00",
-  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/sondagsfilm",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
   "free": true
  },
  {
