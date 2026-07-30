@@ -1,105 +1,6 @@
 [
  {
   "title": "Spider Man Brand New Day",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Superhunden Charlie",
-  "start": "2026-07-29T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kilden I Provence Jean De Florette",
-  "start": "2026-07-29T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Supergirl",
-  "start": "2026-07-29T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/supergirl/1446",
-  "image": "https://images.filmgrail.com/mediaserver/movies/supergirl-8414/backdrop/1780477754839?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-07-29T18:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Disclosure Day",
-  "start": "2026-07-29T20:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/disclosure-day/1524",
-  "image": "https://images.filmgrail.com/mediaserver/movies/disclosure-day-8430/backdrop/1780928106479?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms Everything Must Go",
-  "start": "2026-07-29T21:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
   "start": "2026-07-30T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
@@ -225,21 +126,21 @@
   "free": false
  },
  {
-  "title": "Superhunden Charlie",
-  "start": "2026-07-31T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Kilden I Provence 2 Manon Og Kilden",
   "start": "2026-07-31T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/kilden-i-provence-2-manon-og-kilden/1597",
   "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-2-manon-og-kilden-9397/backdrop/1785147309143?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Superhunden Charlie",
+  "start": "2026-07-31T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
+  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -263,7 +164,7 @@
  {
   "title": "Toy Story 5",
   "start": "2026-07-31T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
   "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
@@ -294,15 +195,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
   "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-08-01T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -342,21 +234,21 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
+  "title": "Vaiana",
   "start": "2026-08-01T13:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
   "free": false
  },
  {
-  "title": "Superhunden Charlie",
+  "title": "Minions And Monstre",
   "start": "2026-08-01T13:30:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -477,11 +369,11 @@
   "free": false
  },
  {
-  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening",
+  "title": "Soppkontroll søndager i august, september og oktober | Arr: Tromsø sopp- og nyttevekstforening",
   "start": "2026-08-02T15:00:00",
   "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932186/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
+  "url": "https://uit.no/tavla/artikkel/932186/soppkontroll_sondager_i_august_september_og_okto",
   "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
   "free": true
  },
@@ -693,21 +585,21 @@
   "free": false
  },
  {
-  "title": "Superhunden Charlie",
-  "start": "2026-08-04T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Kilden I Provence 2 Manon Og Kilden",
   "start": "2026-08-04T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/kilden-i-provence-2-manon-og-kilden/1597",
   "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-2-manon-og-kilden-9397/backdrop/1785147309143?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Superhunden Charlie",
+  "start": "2026-08-04T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
+  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -873,21 +765,21 @@
   "free": false
  },
  {
-  "title": "Superhunden Charlie",
-  "start": "2026-08-06T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Backrooms Everything Must Go",
   "start": "2026-08-06T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
   "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Superhunden Charlie",
+  "start": "2026-08-06T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
+  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -972,15 +864,6 @@
   "free": false
  },
  {
-  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening(9. august)",
-  "start": "2026-08-09T15:00:00",
-  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932187/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
-  "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
-  "free": true
- },
- {
   "title": "Nine Sparks Riot med Tromsø Storband",
   "start": "2026-08-09T21:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -1053,15 +936,6 @@
   "free": true
  },
  {
-  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening(16. august)",
-  "start": "2026-08-16T15:00:00",
-  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932188/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
-  "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
-  "free": true
- },
- {
   "title": "StudEXPO 2026 - Utforsk studentlivet!",
   "start": "2026-08-18T11:00:00",
   "venue": "Kraft Sportssenter, UiT Tromsø",
@@ -1116,15 +990,6 @@
   "free": true
  },
  {
-  "title": "Soppkontroll | Arr: Tromsø sopp- og nyttevekstforening(23. august)",
-  "start": "2026-08-23T15:00:00",
-  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932189/soppkontroll_arr_tromso_sopp-_og_nyttevekstfor",
-  "image": "https://uit.no/Content/850802/cache=20240507144321/transformation=scale10000x560/Foto%20Kristin%20Hansen.jpg",
-  "free": true
- },
- {
   "title": "Høst: Markens lille grøde",
   "start": "2026-08-27T19:00:00",
   "venue": "Hålogaland Teater",
@@ -1132,6 +997,15 @@
   "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
   "free": false
+ },
+ {
+  "title": "Digital transformasjon? Åpent, faglig avslutningsseminar for Rigmor Furu, HelPed",
+  "start": "2026-08-28T12:15:00",
+  "venue": "MH-bygget auditorium 6 (samme etasje og bygg som MH-kantina), UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/838357/digital_transformasjon_apent_faglig_avslutnings",
+  "image": "https://uit.no/Content/915038/cache=20252411110055/transformation=scale10000x560/uit_labyrint_ovenfra.jpg",
+  "free": true
  },
  {
   "title": "TIL — Sarpsborg 08",
@@ -1231,6 +1105,15 @@
   "url": "https://www.bryggerietscene.no/program/back-to-the-90s-troms",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1784558285266-05ND6AQ2PB5OKQZEXTPU/Mixtape.jpg?format=1500w",
   "free": false
+ },
+ {
+  "title": "Geologiens dag | Bli kjent med jordskorpas bevegelser - aktiviteter for hele familien",
+  "start": "2026-09-06T12:00:00",
+  "venue": "Norges arktiske universitetsmusuem, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/934251/geologiens_dag_bli_kjent_med_jordskorpas_bevege",
+  "image": "https://uit.no/Content/934249/cache=20262907144545/transformation=scale10000x560/GeologiensDag.png",
+  "free": true
  },
  {
   "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
