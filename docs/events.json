@@ -1,101 +1,11 @@
 [
  {
   "title": "Spider Man Brand New Day",
-  "start": "2026-07-30T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-07-30T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-07-30T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-07-30T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Superhunden Charlie",
-  "start": "2026-07-30T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kilden I Provence Jean De Florette",
-  "start": "2026-07-30T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Den Stjalne Prinsessen",
-  "start": "2026-07-30T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/den-stjalne-prinsessen/1571",
-  "image": "https://images.filmgrail.com/mediaserver/movies/den-stjalne-prinsessen-9375/backdrop/1782371707199?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-07-30T17:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Evil Dead Burn",
-  "start": "2026-07-30T20:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/evil-dead-burn/1530",
-  "image": "https://images.filmgrail.com/mediaserver/movies/evil-dead-burn-9268/backdrop/1782908106487?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms Everything Must Go",
-  "start": "2026-07-30T20:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
   "start": "2026-07-31T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -194,7 +104,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -302,7 +212,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -446,7 +356,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -554,7 +464,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -653,7 +563,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -684,21 +594,21 @@
   "free": false
  },
  {
-  "title": "Kilden I Provence Jean De Florette",
-  "start": "2026-08-05T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Michael",
   "start": "2026-08-05T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/michael/1443",
   "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Kilden I Provence Jean De Florette",
+  "start": "2026-08-05T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
+  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -743,7 +653,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785190506695?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1314,6 +1224,15 @@
   "free": false
  },
  {
+  "title": "Tor Thomassen",
+  "start": "2026-09-19T20:00:00",
+  "venue": "Amtmandens, Tromsø",
+  "source": "amtmandens",
+  "url": "https://amtmandens.antitickets.com/event/tor-thomassen",
+  "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI1ZmY0ZWNlNi0xYzZiLTRiMzMtYjhkNi0zMDllMjU4MGNiMjhcLzNIRzhsMFBnU0c1V0RDYzF4VFFqWXFJam8xeVwvNjU0NzYyNzgtNmYwOS00MTNhLTk3YmItMTU1N2ExN2E5MjNkLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjoyMDAsIndpZHRoIjozNzAsImZpdCI6ImNvbnRhaW4ifX19",
+  "free": false
+ },
+ {
   "title": "Søndagsfilm",
   "start": "2026-09-20T13:00:00",
   "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
@@ -1526,7 +1445,7 @@
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/insomnia-festival-2026",
-  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1779102947014-0E8TSRJQ1SHJMV7OPU5M/VENUE.png?format=1500w",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1785423019456-Q9ALARFXMOLN9I8NSILW/Bwpearlfont2.png?format=1500w",
   "free": false
  },
  {
@@ -1861,6 +1780,15 @@
   "url": "https://www.bryggerietscene.no/program/aktiv-ddshjelp-pres-av-bukta-live",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1780500974240-GO1COWJ7IWORBD5E596E/Aktiv+D%C3%B8dshjelp.jpg?format=1500w",
   "free": false
+ },
+ {
+  "title": "Julemesse med Kvaløysletta husflidslag // Christmas Fair with Kvaløysletta Husflidslag",
+  "start": "2026-11-21T11:00:00",
+  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/934357/julemesse_med_kvaloysletta_husflidslag_christm",
+  "image": "https://uit.no/Content/862291/cache=20240710130903/transformation=scale10000x560/kval%C3%A6ysletta%20huslflidslag%20julemesse%202023.jpg",
+  "free": true
  },
  {
   "title": "TIL — Viking",
