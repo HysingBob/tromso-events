@@ -135,21 +135,21 @@
   "free": false
  },
  {
-  "title": "Superhunden Charlie",
-  "start": "2026-08-04T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Evil Dead Burn",
   "start": "2026-08-04T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/evil-dead-burn/1530",
   "image": "https://images.filmgrail.com/mediaserver/movies/evil-dead-burn-9268/backdrop/1782908106487?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Superhunden Charlie",
+  "start": "2026-08-04T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
+  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -502,6 +502,15 @@
   "url": "https://uit.no/tavla/artikkel/932743/ombruksfest_2026",
   "image": "https://uit.no/Content/932742/cache=20260607213025/transformation=scale10000x560/Ombruksfest_2026.png",
   "free": true
+ },
+ {
+  "title": "GOD SOMMER FRA CINEMATEKET",
+  "start": "2026-08-15T12:00:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/arrangement/god-sommer-fra-cinemateket",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/vacation-wave-crop.jpg",
+  "free": false
  },
  {
   "title": "StudEXPO 2026 - Utforsk studentlivet!",
