@@ -549,6 +549,15 @@
   "free": false
  },
  {
+  "title": "Tromsø bokklubb",
+  "start": "2026-08-17T18:00:00",
+  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/tromso-bokklubb",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-09/Bokklubb.png.webp?itok=GQ--nW11",
+  "free": true
+ },
+ {
   "title": "Kilden I Provence 2 Manon Og Kilden",
   "start": "2026-08-17T18:15:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -2643,15 +2652,6 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/04/lunsjbokprat-oppdag-nynorsk-litteratur",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-04/Nynorsk.png.webp?itok=4NxoSf6x",
-  "free": true
- },
- {
-  "title": "Bokklubb for unge voksne",
-  "start": "2027-06-08T18:00:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2025/12/bokklubb-unge-voksne",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-09/Bokklubb.png.webp?itok=GQ--nW11",
   "free": true
  },
  {
