@@ -1,146 +1,11 @@
 [
  {
-  "title": "Velkommen til studiestart ved IFF og SKK!",
-  "start": "2026-08-12T11:45:00",
-  "venue": "TEO-H1 AUD1 1.820, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/931307/velkommen_til_studiestart_ved_iff_og_skk",
-  "image": "https://uit.no/Content/932761/cache=20260707105552/transformation=scale10000x560/Tavla-thumbnail-PIA-800x600px.png",
-  "free": true
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-08-12T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-08-12T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-08-12T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms Everything Must Go",
-  "start": "2026-08-12T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-08-12T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kilden I Provence Jean De Florette",
-  "start": "2026-08-12T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "How to ask in a world of AI answers?",
-  "start": "2026-08-12T12:00:00",
-  "venue": "TEO-H1 AUD1 1.820, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932858/how_to_ask_in_a_world_of_ai_answers",
-  "image": "https://uit.no/Content/932862/cache=20260807115527/transformation=scale10000x560/Tavla-thumbnail-PIA-800x600px.png",
-  "free": true
- },
- {
-  "title": "Help Desk: Research Data, Coding & HPC",
-  "start": "2026-08-12T14:00:00",
-  "venue": "UB 338, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
-  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
-  "free": true
- },
- {
-  "title": "Ombruksfest 2026",
-  "start": "2026-08-12T14:00:00",
-  "venue": "Teorifagskafeen, Teorifagbygget Hus 1, Campus Breivika (Tromsø), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932743/ombruksfest_2026",
-  "image": "https://uit.no/Content/932742/cache=20260607213025/transformation=scale10000x560/Ombruksfest_2026.png",
-  "free": true
- },
- {
-  "title": "Vaiana",
-  "start": "2026-08-12T14:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-08-12T17:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Ice Cream Man",
-  "start": "2026-08-12T18:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/ice-cream-man/1615",
-  "image": "https://images.filmgrail.com/mediaserver/movies/ice-cream-man-9239/backdrop/1786436107649?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "SKULK MED STIL // FILMVISNING & ETTERFEST",
   "start": "2026-08-12T18:30:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/skulk-med-stil-filmvisning-etterfest",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1785843813728-T3SO86PGBLOU17MB36FT/12.+august.png?format=1500w",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-08-12T20:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Evil Dead Burn",
-  "start": "2026-08-12T21:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/evil-dead-burn/1530",
-  "image": "https://images.filmgrail.com/mediaserver/movies/evil-dead-burn-9268/backdrop/1782908106487?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -954,6 +819,15 @@
   "free": true
  },
  {
+  "title": "Nature transformed: Cumulative impact in the High North | VIN&VITEN på kveldsåpent museum",
+  "start": "2026-08-19T19:00:00",
+  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/935887/nature_transformed_cumulative_impact_in_the_high",
+  "image": "https://uit.no/Content/935892/cache=20261208122358/transformation=scale10000x560/OPM%20-%20CEAN%20project%20-%20kvadrat.png",
+  "free": true
+ },
+ {
   "title": "Kilden I Provence Jean De Florette",
   "start": "2026-08-19T19:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -1544,17 +1418,8 @@
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/morten-og-saft-show/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Morten-og-Saft-show-.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Morten-og-Saft-show-1.jpg",
   "free": false
- },
- {
-  "title": "Event: Two new scanners innstalled at the PET imaging center",
-  "start": "2026-09-22T09:00:00",
-  "venue": "The PET imaging center, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/935812/event_two_new_scanners_innstalled_at_the_pet_ima",
-  "image": "https://uit.no/Content/935825/cache=20261108224836/transformation=scale10000x560/THERACAN%20R1CA6645.jpg",
-  "free": true
  },
  {
   "title": "Arktisk Filharmoni – Mestermøter",
@@ -1618,6 +1483,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/viseklubben-spelts-jubileumskonsert-20-ar/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/03/Digital-Plakat-liggende-1360-x-768-Viseklubben-Spelt-20-ar-1-1.jpg",
   "free": false
+ },
+ {
+  "title": "FRø | Gratis filmvisning og samtale med regissør Isabelle Denaro",
+  "start": "2026-09-27T14:00:00",
+  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/935921/fro_gratis_filmvisning_og_samtale_med_regissor",
+  "image": "https://uit.no/Content/935920/cache=20261208133810/transformation=scale10000x560/FR%C3%B8_a-film-by-Isabelle-Denaro_poster_digital_1080x1600.jpg",
+  "free": true
  },
  {
   "title": "Drop-in lesesirkel - ettermiddag",
@@ -2025,6 +1899,15 @@
   "free": true
  },
  {
+  "title": "UiT Veivalg 2026",
+  "start": "2026-11-10T10:00:00",
+  "venue": "Det helsevitenskapelige fakultet, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/931511/uit_veivalg_2026",
+  "image": "https://uit.no/Content/931549/cache=20261706121226/transformation=scale10000x560/%C3%85pen%20dag%20%281235%20x%20338%20px%29%20%28Facebook-annonse%29%20%281%29.jpg",
+  "free": true
+ },
+ {
   "title": "Kurs i SMART (strukturert materiale for terapi)",
   "start": "2026-11-11T09:00:00",
   "venue": "Tromsø (sted kommer), UiT Tromsø",
@@ -2056,8 +1939,8 @@
   "start": "2026-11-11T21:00:00",
   "venue": "Lillescenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/faen-da-martha-et-soloshow-av-og-med-martha-leivestad-2/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Faen-da-Martha-1.jpg",
+  "url": "https://kulturhuset.tr.no/arrangement/faen-da-martha-et-soloshow-av-og-med-martha-leivestad/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Faen-da-Martha-1-1.jpg",
   "free": false
  },
  {
