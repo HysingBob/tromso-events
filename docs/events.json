@@ -846,15 +846,6 @@
   "free": true
  },
  {
-  "title": "ONSDAGSFILMEN | LILLE AMELIE",
-  "start": "2026-08-26T13:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-lille-amelie",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/AMELIE_PHOTO2_crop.jpg",
-  "free": false
- },
- {
   "title": "Les deg verden rundt: Om amerikansk urfolkslitteratur",
   "start": "2026-08-26T18:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -942,15 +933,6 @@
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/tom-houghton-one-night-only-live-english-stand-up-comedy",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1782731253129-CHNBBRBWD5NQOAMMF0TS/TOM+STand+up.jpg?format=1500w",
-  "free": false
- },
- {
-  "title": "OSLO 31. AUGUST @Amtmandens",
-  "start": "2026-08-31T20:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/oslo-31-august-1-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/001-OSLO.jpg",
   "free": false
  },
  {
