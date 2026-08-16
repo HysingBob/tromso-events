@@ -1,137 +1,11 @@
 [
  {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-08-15T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-08-15T11:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-08-15T11:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-08-15T11:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-08-15T11:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-08-15T11:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-08-15T13:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Superhunden Charlie",
-  "start": "2026-08-15T13:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
-  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Exhibition opening Beistet og Svermen / Rávga ja Spierru / The Beast and the Swarm",
-  "start": "2026-08-15T14:00:00",
-  "venue": "Tromsø, Torghuken – møtested Fangsmonumentet, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/934724/exhibition_opening_beistet_og_svermen_r_vga_ja",
-  "image": "https://uit.no/Content/935646/cache=20261108075623/transformation=scale10000x560/POSTER_OPENING%20.png",
-  "free": true
- },
- {
-  "title": "Vaiana",
-  "start": "2026-08-15T15:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Backrooms Everything Must Go",
-  "start": "2026-08-15T18:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
-  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Michael",
-  "start": "2026-08-15T18:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/michael/1443",
-  "image": "https://images.filmgrail.com/mediaserver/movies/michael-5352/backdrop/1777043705481?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Sa_G",
   "start": "2026-08-15T20:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/sag",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1785844763377-YXMTS61BYMAZH5V3FAMT/777_sa_g_fiksert.jpg?format=1500w",
-  "free": false
- },
- {
-  "title": "Teenage Sex And Death At Camp Miasma",
-  "start": "2026-08-15T20:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
-  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-08-15T21:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -846,6 +720,15 @@
   "free": true
  },
  {
+  "title": "ONSDAGSFILMEN | LILLE AMELIE",
+  "start": "2026-08-26T13:30:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-lille-amelie",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/AMELIE_PHOTO2_crop.jpg",
+  "free": false
+ },
+ {
   "title": "Les deg verden rundt: Om amerikansk urfolkslitteratur",
   "start": "2026-08-26T18:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -909,12 +792,12 @@
   "free": false
  },
  {
-  "title": "Rakettnatt 2026!",
-  "start": "2026-08-29T23:55:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/rakettnatt-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/d6116926-5011-4fde-ba57-46fa52078143.png",
+  "title": "Andre Rieus 2026 Summer Concert Viva Maastricht",
+  "start": "2026-08-29T15:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/andre-rieus-2026-summer-concert-viva-maastricht/1621",
+  "image": "https://images.filmgrail.com/mediaserver/movies/andre-rieus-2026-summer-concert-viva-maastricht-9480/backdrop/1785494377967?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -936,6 +819,15 @@
   "free": false
  },
  {
+  "title": "OSLO 31. AUGUST @Amtmandens",
+  "start": "2026-08-31T20:00:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/oslo-31-august-1-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/001-OSLO.jpg",
+  "free": false
+ },
+ {
   "title": "HVORDAN FORSKE MED KOMMUNER?",
   "start": "2026-09-01T09:00:00",
   "venue": "Forskningsparken, Tromsø - Jiehkkivarri (auditoriet), UiT Tromsø",
@@ -952,15 +844,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/lesesirkel-technotika",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-05/Lesesirkel%20Technotika.png.webp?itok=lw85_EjH",
   "free": true
- },
- {
-  "title": "TIFF Junior 2026",
-  "start": "2026-09-02T12:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tiff-junior/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
-  "free": false
  },
  {
   "title": "Jorda rundt på 60 minutt med Marta Norheim",
@@ -999,15 +882,6 @@
   "free": true
  },
  {
-  "title": "Creedence StoryNight Revisited med Fortunate Sons",
-  "start": "2026-09-04T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/creedence-storynight-revisited-med-fortunate-sons/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Creedence-Story-Night.png",
-  "free": false
- },
- {
   "title": "Samiske flytteveier: Tegneworkshop med Kai Mikkel Balto",
   "start": "2026-09-05T11:00:00",
   "venue": "Tromsø bibliotek",
@@ -1044,30 +918,12 @@
   "free": true
  },
  {
-  "title": "TIFF Junior 2026",
-  "start": "2026-09-06T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tiff-junior/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
-  "free": false
- },
- {
   "title": "Grønnegata",
   "start": "2026-09-09T18:00:00",
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-06/Gr%C3%B8nnegata--webbanner-1920x1200-260526.png.webp?itok=wd8Uv9dT",
-  "free": false
- },
- {
-  "title": "Arktisk Filharmoni – Klangen av Nord",
-  "start": "2026-09-09T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-klangen-av-nord/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Klangen-av-Nord-Skjerm-liggende.jpg",
   "free": false
  },
  {
@@ -1080,15 +936,6 @@
   "free": false
  },
  {
-  "title": "Riksteatret: Læreren",
-  "start": "2026-09-10T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/riskteatret-laereren/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Riksteatret-Laereren-.jpg",
-  "free": false
- },
- {
   "title": "Arctic Youth frokostforelesning #5 med Trude Haugli: \"Svalbard, barn og rettigheter - et komplekst bilde.\"",
   "start": "2026-09-11T08:15:00",
   "venue": "SVHUM B1005, UiT Tromsø",
@@ -1096,15 +943,6 @@
   "url": "https://uit.no/tavla/artikkel/930927/arctic_youth_frokostforelesning_5_med_trude_haug",
   "image": "https://uit.no/Content/930925/cache=20260806095222/transformation=scale10000x560/trude%20Haugli-09431.jpg",
   "free": true
- },
- {
-  "title": "Chris Kläfford – The Kitchen Session Tour",
-  "start": "2026-09-11T19:30:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/chris-klafford-the-kitchen-session-tour/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-MAL-34.jpg",
-  "free": false
  },
  {
   "title": "Bokfest med Endre Lund Eriksen",
@@ -1197,15 +1035,6 @@
   "free": true
  },
  {
-  "title": "Jonas Fjeld – setter bagen fra seg",
-  "start": "2026-09-18T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/jonas-fjeld-setter-bagen-fra-seg-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/04/Digital-Plakat-liggende-1360-x-768-Jonas-Fjeld-setter-bagen-fra-seg-1-1.jpg",
-  "free": false
- },
- {
   "title": "Kreativ lørdag",
   "start": "2026-09-19T12:00:00",
   "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
@@ -1213,24 +1042,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/kreativ-lordag",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-04/Kreativ%20fargestifter.jpg.webp?itok=4sLIIXv6",
   "free": true
- },
- {
-  "title": "Blandakoret Nordaførr – E du Nord",
-  "start": "2026-09-19T15:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/blandakoret-nordaforr-e-du-nord/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Er-du-Nord.jpg",
-  "free": false
- },
- {
-  "title": "Nordnorske Tilstander",
-  "start": "2026-09-19T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/nordnorske-tilstander/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Nordnorske-Tilstander.jpg",
-  "free": false
  },
  {
   "title": "Tor Thomassen",
@@ -1260,24 +1071,6 @@
   "free": false
  },
  {
-  "title": "Morten og Saft show",
-  "start": "2026-09-20T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/morten-og-saft-show/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Morten-og-Saft-show-1.jpg",
-  "free": false
- },
- {
-  "title": "Arktisk Filharmoni – Mestermøter",
-  "start": "2026-09-24T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-mestermoter/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Arktisk-Filharmoni-Mestermoter-Skjerm-liggende2.jpg",
-  "free": false
- },
- {
   "title": "Lars Vaular - Tankrommet",
   "start": "2026-09-24T20:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -1296,39 +1089,12 @@
   "free": true
  },
  {
-  "title": "Liveshow med Spårtsklubben",
-  "start": "2026-09-25T18:30:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/liveshow-med-spartsklubben/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Liveshow-med-Spartsklubben-1.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø-Gaza 25 år: Sol band",
-  "start": "2026-09-25T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-gaza-25-ar-sol-band/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
-  "free": false
- },
- {
   "title": "Ohmwork Releasekonsert",
   "start": "2026-09-25T20:00:00",
   "venue": "Amtmandens, Tromsø",
   "source": "amtmandens",
   "url": "https://amtmandens.antitickets.com/event/ohmwork-releasekonsert",
   "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI1ZmY0ZWNlNi0xYzZiLTRiMzMtYjhkNi0zMDllMjU4MGNiMjhcLzNGOU0yZXh2dGtkVDc1SDZSUlhqWXRSemZ2QVwvNDExZmQyNjItMzMyYi00NmUxLThjMGUtYTIxZmU3Y2JiMDg2LkpQRUciLCJlZGl0cyI6eyJyZXNpemUiOnsiaGVpZ2h0IjoyMDAsIndpZHRoIjozNzAsImZpdCI6ImNvbnRhaW4ifX19",
-  "free": false
- },
- {
-  "title": "Viseklubben Spelts Jubileumskonsert – 20 år",
-  "start": "2026-09-26T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/viseklubben-spelts-jubileumskonsert-20-ar/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/03/Digital-Plakat-liggende-1360-x-768-Viseklubben-Spelt-20-ar-1-1.jpg",
   "free": false
  },
  {
@@ -1348,15 +1114,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/drop-lesesirkel-ettermiddag",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20ettermiddag.png.webp?itok=NH2H2I37",
   "free": true
- },
- {
-  "title": "Shades of Dire Straits",
-  "start": "2026-10-02T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/shades-of-dire-straits/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Shades-of-Dire-straits.jpg",
-  "free": false
  },
  {
   "title": "The Northern Belle",
@@ -1410,33 +1167,6 @@
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/brenn",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1782204324434-NGBKNB66SE09NG5KH7G6/Troms%C3%B8_event.png?format=1500w",
-  "free": false
- },
- {
-  "title": "Iren Reppen – Sexy nok",
-  "start": "2026-10-10T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/iren-reppen-sexy-nok/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Iren-Reppen.jpg",
-  "free": false
- },
- {
-  "title": "Arktisk Filharmoni – Kåre Kivijärvi – Mørkets mester",
-  "start": "2026-10-10T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-kare-kivijarvi-morkets-mester/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Kare-Kivijarvi-TROMSO-Skjerm-liggende.jpg",
-  "free": false
- },
- {
-  "title": "Terje Tysland – 75 år, Heile livet på en kveld!",
-  "start": "2026-10-11T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/terje-tysland-75-ar-heile-livet-pa-en-kveld/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Terje-Tysland-75-ar-Heile-livet-pa-en-kveld-1.jpg",
   "free": false
  },
  {
@@ -1512,15 +1242,6 @@
   "free": false
  },
  {
-  "title": "Vinsmaking med Kjell-Gabriel Hendrichs – Spania rundt!",
-  "start": "2026-10-17T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/vinsmaking-med-kjell-gabriel-hendrichs-spania-rundt/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Spania-Rundt-1.jpg",
-  "free": false
- },
- {
   "title": "TIL — KFUM",
   "start": "2026-10-18T17:00:00",
   "venue": "Romssa Arena",
@@ -1548,33 +1269,6 @@
   "free": true
  },
  {
-  "title": "Arktisk Filharmoni – Abonnentenes ekslusive",
-  "start": "2026-10-21T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-abonnentenes-ekslusive/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
-  "free": false
- },
- {
-  "title": "Martin Lepperød live – Nesten hele uka",
-  "start": "2026-10-23T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/martin-lepperod-live-nesten-hele-uka/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Martin-Lepperod-Nesten-hele-uka.jpg",
-  "free": false
- },
- {
-  "title": "Espen Abrahamsen – Avantgarde",
-  "start": "2026-10-23T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/espen-abrahamsen-avantgarde/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Espen-Abrahamsen-3.jpg",
-  "free": false
- },
- {
   "title": "Kristian Kristensen",
   "start": "2026-10-23T21:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -1584,102 +1278,12 @@
   "free": false
  },
  {
-  "title": "Espen Abrahamsen – Avantgarde",
-  "start": "2026-10-24T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/espen-abrahamsen-avantgarde/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Espen-Abrahamsen-3.jpg",
-  "free": false
- },
- {
-  "title": "Voulez Vous – A Fabulous Tribute to ABBA",
-  "start": "2026-10-24T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/voulez-vous-a-fabulous-tribute-to-abba-2/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/03/Digital-Plakat-liggende-1360-x-768-Voulez-Vous-26-2.jpg",
-  "free": false
- },
- {
-  "title": "ISABEL SKOLMEN – i regi av ho Bodil",
-  "start": "2026-10-28T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/isabel-skolmen-i-regi-av-ho-bodil-ekstrashow/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Isabel-Skolmen-Bodil-6.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø World Festival – Bliss Quintet",
-  "start": "2026-10-29T18:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-bliss-quintet/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW26-video-1.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø World Festival – Nai Barghouti + Tord Gustavsen + Steinar Raknes",
-  "start": "2026-10-29T19:30:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-nai-barghouti-tord-gustavsen-steinar-raknes/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-1.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø World – GRASS BY ZÖJ: SILENT MOVIE. LIVE CONCERT",
-  "start": "2026-10-29T21:15:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-grass-by-zoj-silent-movie-live-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-2.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø World Festival – ZÖJ",
-  "start": "2026-10-30T18:30:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-zoj/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-5.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø World Festival –  Sør for…",
-  "start": "2026-10-31T18:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-sor-for/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-8.jpg",
-  "free": false
- },
- {
   "title": "Tromsø World // Bryggeriet Scene",
   "start": "2026-10-31T18:30:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/troms-world-bryggeriet-scene",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1785842865975-REUYKL6P89SFG53NPP40/PastedGraphic-1.png?format=1500w",
-  "free": false
- },
- {
-  "title": "Tromsø World Festival – SOLO DIARRA & YIMENGA",
-  "start": "2026-10-31T20:15:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-solo-diarra-yimenga/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-7.jpg",
-  "free": false
- },
- {
-  "title": "Tromsø World Festival – Almir & Daniel",
-  "start": "2026-10-31T22:30:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-almir-daniel/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW26-video-2.jpg",
   "free": false
  },
  {
@@ -1726,51 +1330,6 @@
   "url": "https://uit.no/tavla/artikkel/936051/barn_som_parorende_kom_og_prov_en_fiks_ferdig_l",
   "image": "https://uit.no/Content/917093/cache=20251912125125/transformation=scale10000x560/teravri.jpg",
   "free": true
- },
- {
-  "title": "Kari Bremnes: Kari 70",
-  "start": "2026-11-05T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/kari-bremnes-kari-70/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-MAL-28.jpg",
-  "free": false
- },
- {
-  "title": "Kari Bremnes: Kari 70",
-  "start": "2026-11-06T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/kari-bremnes-kari-70/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-MAL-28.jpg",
-  "free": false
- },
- {
-  "title": "Morten Abel – Full of Dreams-turné",
-  "start": "2026-11-06T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/morten-abel/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Morten-Abel.jpg",
-  "free": false
- },
- {
-  "title": "DR. BERGLAND – PÅ DØD OG LIV",
-  "start": "2026-11-07T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/dr-bergland-pa-dod-og-liv/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Dr.-Bregland-Pa-liv-og-dod.jpg",
-  "free": false
- },
- {
-  "title": "HIVJU and The Garbageking",
-  "start": "2026-11-07T21:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/hivju-and-the-garbage-king/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Hivju-and-The-Garbage-King.jpg",
-  "free": false
  },
  {
   "title": "TIL — Bodø/Glimt",
@@ -1827,57 +1386,12 @@
   "free": true
  },
  {
-  "title": "Faen då, Martha! – et soloshow av og med Martha Leivestad",
-  "start": "2026-11-11T21:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/faen-da-martha-et-soloshow-av-og-med-martha-leivestad/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Faen-da-Martha-1-1.jpg",
-  "free": false
- },
- {
-  "title": "Janove med strykekvartett",
-  "start": "2026-11-12T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/janove-med-strykekvartett/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Janove.jpg",
-  "free": false
- },
- {
-  "title": "Faen då, Martha! – et soloshow av og med Martha Leivestad",
-  "start": "2026-11-13T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/faen-da-martha-et-soloshow-av-og-med-martha-leivestad/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Faen-da-Martha-1-1.jpg",
-  "free": false
- },
- {
   "title": "Det er Ales",
   "start": "2026-11-13T19:00:00",
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/det-er-ales",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-04/Det-er-Ales-webbanner-1920x1200-250217-a.jpg.webp?itok=PQzc8SAW",
-  "free": false
- },
- {
-  "title": "lille Caesar",
-  "start": "2026-11-14T21:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/lille-caesar/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Lille-Caesar.jpg",
-  "free": false
- },
- {
-  "title": "Tore Strømøy – Historiene du aldri har hørt",
-  "start": "2026-11-15T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tore-stromoy-historiene-du-aldri-har-hort/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Tore-Stromoy.jpg",
   "free": false
  },
  {
@@ -1897,24 +1411,6 @@
   "url": "https://uit.no/tavla/artikkel/920415/ppu-konferansen_nye_rammer_-_nye_muligheter",
   "image": "https://uit.no/Content/838494/cache=20240702150743/transformation=scale10000x560/ILP_bygget_UIT_18728_Foto_Christian_Halvorsen%20%281%29.JPG",
   "free": true
- },
- {
-  "title": "Arktisk Filharmoni – Symfonisk soloppgang",
-  "start": "2026-11-19T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-symfonisk-soloppgang/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Symfonisk-soloppgang-TROMSO-Skjerm-liggende.jpg",
-  "free": false
- },
- {
-  "title": "Rorbuashow – Siste Reis",
-  "start": "2026-11-20T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/rorbuashow-siste-reis/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Rorbua-1.jpg",
-  "free": false
  },
  {
   "title": "Aktiv Dödshjelp pres. av Bukta Live",
@@ -1944,33 +1440,6 @@
   "free": false
  },
  {
-  "title": "Christmas with Nordic Tenors",
-  "start": "2026-11-22T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/christmas-with-nordic-tenors-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Nordic-Tenors-2026-1.jpg",
-  "free": false
- },
- {
-  "title": "Vår Jul 2026",
-  "start": "2026-11-24T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/var-jul-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Var-Jul-2026-1.jpg",
-  "free": false
- },
- {
-  "title": "I år gjør me det heilt enkelt: Ein slags julekonsert med Tønes og Ingvar Hovland",
-  "start": "2026-11-28T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/i-ar-gjor-me-det-heilt-enkelt-ein-slags-julekonsert-med-tones-og-ingvar-hovland/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Tones-Jul-1.jpg",
-  "free": false
- },
- {
   "title": "Lesesirkel: Kjøtt",
   "start": "2026-12-01T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -1989,30 +1458,12 @@
   "free": false
  },
  {
-  "title": "Arktisk Filharmoni – Førjulsballetten",
-  "start": "2026-12-04T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballetten/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Forjulsballetten-Skjerm-liggende.jpg",
-  "free": false
- },
- {
   "title": "Moby Dick",
   "start": "2026-12-04T19:00:00",
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/moby-dick",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Moby-Dick-webbanner-1920x1200-260521.png.webp?itok=xmRMpytg",
-  "free": false
- },
- {
-  "title": "Arktisk Filharmoni – Førjulsballetten",
-  "start": "2026-12-05T14:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballetten/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Forjulsballetten-Skjerm-liggende.jpg",
   "free": false
  },
  {
@@ -2025,15 +1476,6 @@
   "free": false
  },
  {
-  "title": "Arktisk Filharmoni – Førjulsballetten",
-  "start": "2026-12-06T14:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballetten/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Forjulsballetten-Skjerm-liggende.jpg",
-  "free": false
- },
- {
   "title": "TIL — Start",
   "start": "2026-12-06T17:00:00",
   "venue": "Romssa Arena",
@@ -2043,30 +1485,12 @@
   "free": false
  },
  {
-  "title": "Riksteatret: Apestjernen",
-  "start": "2026-12-08T17:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/riksteatret-apestjernen/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-RT-Apestjernen-2.jpg",
-  "free": false
- },
- {
   "title": "Bigbang pres. av Bukta Live",
   "start": "2026-12-11T20:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/bigbang-pres-av-bukta-live",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1781268184160-MA625L68UTJEIEN7H1D0/BIg+bang.jpg?format=1500w",
-  "free": false
- },
- {
-  "title": "Jan Gunnar Hoff – Stille Lys",
-  "start": "2026-12-12T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/jan-gunnar-hoff-stille-lys/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Jan-Gunnar-Hoff-Stille-Lys.jpg",
   "free": false
  },
  {
@@ -2088,42 +1512,6 @@
   "free": true
  },
  {
-  "title": "Anders Jektvik",
-  "start": "2026-12-18T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/anders-jektvik/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/01/Digital-Plakat-liggende-1360-x-768-Anders-Jektvik.jpg",
-  "free": false
- },
- {
-  "title": "Jula er her – Alexandra Rotan & venner",
-  "start": "2026-12-19T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/jula-er-her-alexandra-rotan-venner-2/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Alexandra-Rotan-2026-1.jpg",
-  "free": false
- },
- {
-  "title": "Adam Douglas – An American Holiday 2026",
-  "start": "2026-12-20T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/adam-douglas-an-american-holiday-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-MAL-24.jpg",
-  "free": false
- },
- {
-  "title": "Christel Alsos – I den kalde vinter",
-  "start": "2026-12-21T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/christel-alsos-i-den-kalde-vinter/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Alsos-2025-2.jpg",
-  "free": false
- },
- {
   "title": "Northern Lights Deep Learning Conference 2027",
   "start": "2027-01-11T08:00:00",
   "venue": "Teorifagbygget hus 1, Auditorium 1, UiT Tromsø",
@@ -2142,24 +1530,6 @@
   "free": true
  },
  {
-  "title": "Erik Bye i 100!",
-  "start": "2027-01-14T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/erik-bye-i-100/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Erik-Bye-i-100.jpg",
-  "free": false
- },
- {
-  "title": "Dora Thorallsdottir – FØKK",
-  "start": "2027-01-15T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/dora-thorallsdottir-fokk/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Dora-Thorallsdottir-FOKK.jpg",
-  "free": false
- },
- {
   "title": "Leprous",
   "start": "2027-01-15T20:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -2169,75 +1539,12 @@
   "free": false
  },
  {
-  "title": "Jørn Hoel & Steinar Albrigtsen -70+70, to stemmer fra et levd liv",
-  "start": "2027-01-29T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/jorn-hoel-steinar-albrigtsen-7070-to-stemmer-fra-et-levd-liv/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Jorn-og-Steinar-7070-1.jpg",
-  "free": false
- },
- {
-  "title": "Riksteatret: Kakejazz",
-  "start": "2027-02-03T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/riksteatret-kakejazz/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Riksteatret-kakejazz.jpg",
-  "free": false
- },
- {
-  "title": "Emil Kárlsen",
-  "start": "2027-02-04T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/emil-karlsen/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Emil-Karlsen-1.jpg",
-  "free": false
- },
- {
-  "title": "Pink Floyd’s The Wall – in concert",
-  "start": "2027-02-05T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-the-wall-in-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Wall.jpg",
-  "free": false
- },
- {
   "title": "Backstreet Girls",
   "start": "2027-02-05T20:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/backstreet-girls",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1779178358815-XQGP7LYRJI3LW69VD3EG/Skjermbilde-BACKSTREET-GIRLS-2026_foto_Tina_Pammer.png?format=1500w",
-  "free": false
- },
- {
-  "title": "Pink Floyd’s Dark Side Of The Moon – in concert",
-  "start": "2027-02-05T21:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-dark-side-of-the-moon-in-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Dark-Side-of-the-Moon-1.jpg",
-  "free": false
- },
- {
-  "title": "Pink Floyd’s Dark Side Of The Moon – in concert",
-  "start": "2027-02-06T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-dark-side-of-the-moon-in-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Dark-Side-of-the-Moon-1.jpg",
-  "free": false
- },
- {
-  "title": "Per Henrik Stenstrøm – Slik takler du idiotene på jobben! 2",
-  "start": "2027-02-18T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/per-henrik-stenstrom-slik-takler-du-idiotene-pa-jobben-2/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/04/Digital-Plakat-liggende-1360-x-768-Idiotene-pa-jobben-2-1.jpg",
   "free": false
  },
  {
@@ -2367,15 +1674,6 @@
   "free": true
  },
  {
-  "title": "Arktisk Filharmoni – Barbereren i Sevilla",
-  "start": "2027-04-09T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-barbereren-i-sevilla/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-AF-Barbereren-i-Sevilla.jpg",
-  "free": false
- },
- {
   "title": "Internasjonalt seminar: Handelskrig - Hvordan påvirker stormaktsrivaliserig handelsordenen og det globale sør",
   "start": "2027-04-09T19:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -2383,24 +1681,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/04/internasjonalt-seminar-handelskrig-hvordan-pavirker-stormaktsrivaliserig",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-04/Handelskrig.jpg.webp?itok=73_mj5Zs",
   "free": true
- },
- {
-  "title": "Kristian Valen – Bare visvas",
-  "start": "2027-04-10T18:30:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/kristian-valen-bare-visvas/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/01/Digital-Plakat-liggende-1360-x-768-MAL-32.jpg",
-  "free": false
- },
- {
-  "title": "Klatremus og de andre dyrene i Hakkebakkeskogen",
-  "start": "2027-04-11T12:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/klatremus-og-de-andre-dyrene-i-hakkebakkeskogen/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Dyrene-i-hakkebakkeskogen-2.jpg",
-  "free": false
  },
  {
   "title": "Litteraten: Olaug Nilssen i samtale med Ingvild Holvik",
@@ -2437,15 +1717,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/hold-kjaeft-og-laes",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/Nyhet%20eller%20kalenderhendelse%20%281%29.png.webp?itok=9_ha7vIX",
   "free": true
- },
- {
-  "title": "Vidar Hansen – Kunsten å lese kroppsspråk",
-  "start": "2027-04-26T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/vidar-hansen-kunsten-a-lese-kroppssprak/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Vidar-Hansen-Kunsten-a-lese-kroppssprak-1.jpg",
-  "free": false
  },
  {
   "title": "Fra krise til verdenslitteratur – om nyere japansk litteratur og litt om det å oversette. Med en dose Murakami",
@@ -2511,15 +1782,6 @@
   "free": true
  },
  {
-  "title": "Riksteatret: 1984 dub",
-  "start": "2027-05-08T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/riksteatret-1984-dub/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Riksteatret-1984-Dub-1.jpg",
-  "free": false
- },
- {
   "title": "Nettverkssamling for kombinerte stillinger 2027",
   "start": "2027-05-11T08:30:00",
   "venue": "kommer, UiT Tromsø",
@@ -2581,14 +1843,5 @@
   "url": "https://uit.no/tavla/artikkel/931267/conference_on_language_brain_learning",
   "image": "https://uit.no/Content/931299/cache=20261206104416/transformation=scale10000x560/clabl27_1200x628.png",
   "free": true
- },
- {
-  "title": "The Johnny Cash & June Carter Show – 15 years from Jackson to Folsom",
-  "start": "2027-11-06T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/the-johnny-cash-june-carter-show-15-years-from-jackson-to-folsom/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/03/Digital-Plakat-liggende-1360-x-768-The-Johnny-Cash-June-Carter-Show-2027-1.jpg",
-  "free": false
  }
 ]
