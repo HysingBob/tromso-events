@@ -1,113 +1,5 @@
 [
  {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-08-17T17:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-08-17T17:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-08-17T17:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-08-17T17:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The English Book Club",
-  "start": "2026-08-17T17:15:00",
-  "venue": "In person at Tromsdalen Library, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/917971/the_english_book_club",
-  "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
-  "free": true
- },
- {
-  "title": "SMOKEHEAD WHISKY MASTERCLASS  - SCHOOL OF SMOKE",
-  "start": "2026-08-17T17:30:00",
-  "venue": "Amtmandens, Tromsø",
-  "source": "amtmandens",
-  "url": "https://amtmandens.antitickets.com/event/smokehead-whisky-masterclass-school-of-smoke",
-  "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI1ZmY0ZWNlNi0xYzZiLTRiMzMtYjhkNi0zMDllMjU4MGNiMjhcLzNIajR3WFNSUnN3b25wSEQzcWNKb0dCVHVxaFwvNGFkMTgyYjgtNTViMC00Y2E2LWI1Y2UtN2YwOGRiY2I2OGRlLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwid2lkdGgiOjM3MCwiZml0IjoiY29udGFpbiJ9fX0=",
-  "free": false
- },
- {
-  "title": "Tromsø bokklubb",
-  "start": "2026-08-17T18:00:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/tromso-bokklubb",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-09/Bokklubb.png.webp?itok=GQ--nW11",
-  "free": true
- },
- {
-  "title": "Kilden I Provence 2 Manon Og Kilden",
-  "start": "2026-08-17T18:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-2-manon-og-kilden/1597",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-2-manon-og-kilden-9397/backdrop/1785147309143?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-08-17T20:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-08-17T21:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Teenage Sex And Death At Camp Miasma",
-  "start": "2026-08-17T21:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
-  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-08-17T21:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "StudEXPO 2026 - Utforsk studentlivet!",
   "start": "2026-08-18T11:00:00",
   "venue": "Kraft Sportssenter, UiT Tromsø",
@@ -531,6 +423,51 @@
   "free": true
  },
  {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-21T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-08-21T12:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-21T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-21T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-21T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Disputas - Cand.psychol. Susann Dahl Pettersen",
   "start": "2026-08-21T12:15:00",
   "venue": "Auditorium Cortex, UiT Tromsø",
@@ -538,6 +475,42 @@
   "url": "https://uit.no/tavla/artikkel/935219/disputas_-_cand_psychol_susann_dahl_pettersen",
   "image": "https://uit.no/Content/935220/cache=20260708140502/transformation=scale10000x560/Susann%20Dahl%20Pettersen.jpg",
   "free": true
+ },
+ {
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "start": "2026-08-21T14:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
+  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-21T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-08-21T16:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "La Grazia",
+  "start": "2026-08-21T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-grazia/1513",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-grazia-8552/backdrop/1786997707953?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "SKAAR",
@@ -549,12 +522,111 @@
   "free": false
  },
  {
+  "title": "Obsession",
+  "start": "2026-08-21T21:10:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-22T11:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-08-22T11:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Minions And Monstre",
-  "start": "2026-08-22T13:30:00",
+  "start": "2026-08-22T11:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
   "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Toy Story 5",
+  "start": "2026-08-22T11:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
+  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-08-22T11:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-22T11:15:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-22T13:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "La Grazia",
+  "start": "2026-08-22T14:45:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-grazia/1513",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-grazia-8552/backdrop/1786997707953?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Vaiana",
+  "start": "2026-08-22T16:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-22T17:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-22T18:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -567,6 +639,33 @@
   "free": false
  },
  {
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "start": "2026-08-22T21:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
+  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-08-22T21:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-23T11:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Paw Patrol Dinofilmen",
   "start": "2026-08-23T11:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -576,8 +675,17 @@
   "free": false
  },
  {
+  "title": "Vaiana",
+  "start": "2026-08-23T11:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Minions And Monstre",
-  "start": "2026-08-23T13:30:00",
+  "start": "2026-08-23T11:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
@@ -585,13 +693,346 @@
   "free": false
  },
  {
-  "title": "Kick-off workshop of the CARE project",
+  "title": "The Odyssey",
+  "start": "2026-08-23T11:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-23T11:15:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Superhunden Charlie",
+  "start": "2026-08-23T13:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/superhunden-charlie/1572",
+  "image": "https://images.filmgrail.com/mediaserver/movies/superhunden-charlie-9226/backdrop/1782814506849?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-23T13:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-23T15:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Toy Story 5",
+  "start": "2026-08-23T15:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
+  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-23T17:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "La Grazia",
+  "start": "2026-08-23T18:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-grazia/1513",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-grazia-8552/backdrop/1786997707953?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "start": "2026-08-23T21:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
+  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-08-23T21:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-08-24T16:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Vaiana",
+  "start": "2026-08-24T16:45:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-24T17:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-08-24T17:15:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "start": "2026-08-24T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
+  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-24T18:50:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-24T20:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Backrooms Everything Must Go",
+  "start": "2026-08-24T20:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-24T20:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-24T21:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Kick-off workshop of the project \"Combining interactive AI language tutors with digital linguistic resources for specialized language learning in the healthcare sector\"",
   "start": "2026-08-25T08:30:00",
   "venue": "B-1005 Auditorium, SV- og HUM-bygget, Fakultet for Humaniora, Samfunnsvitenskap og Lærerutdanning, Floor 1, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/935478/kick-off_workshop_of_the_care_project",
-  "image": "https://uit.no/Content/935485/cache=20261008104646/transformation=scale10000x560/Logo%20CARE%203.png",
+  "url": "https://uit.no/tavla/artikkel/935478/kick-off_workshop_of_the_project_combining_inter",
+  "image": "https://uit.no/Content/935565/cache=20261008142414/transformation=scale10000x560/Logo%20Snakkis2.png",
   "free": true
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-25T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-08-25T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-25T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "La Grazia",
+  "start": "2026-08-25T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-grazia/1513",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-grazia-8552/backdrop/1786997707953?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-25T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-25T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Kilden I Provence Jean De Florette",
+  "start": "2026-08-25T14:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
+  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-08-25T16:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Vaiana",
+  "start": "2026-08-25T16:45:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-25T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-08-25T21:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Kilden I Provence 2 Manon Og Kilden",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-2-manon-og-kilden/1597",
+  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-2-manon-og-kilden-9397/backdrop/1785147309143?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "ONSDAGSFILMEN | LILLE AMELIE",
@@ -600,6 +1041,33 @@
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-lille-amelie",
   "image": "https://www.verdensteatret.no/img/_movieThumb/AMELIE_PHOTO2_crop.jpg",
+  "free": false
+ },
+ {
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "start": "2026-08-26T14:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
+  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-26T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-08-26T17:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -612,12 +1080,147 @@
   "free": true
  },
  {
+  "title": "La Grazia",
+  "start": "2026-08-26T20:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-grazia/1513",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-grazia-8552/backdrop/1786997707953?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Backrooms Everything Must Go",
+  "start": "2026-08-26T20:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/backrooms-everything-must-go/1521",
+  "image": "https://images.filmgrail.com/mediaserver/movies/backrooms-8629/backdrop/1779189307437?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-08-27T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-08-27T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-27T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-27T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Vaiana",
+  "start": "2026-08-27T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "start": "2026-08-27T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
+  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Min Ukjente Familie",
+  "start": "2026-08-27T14:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
+  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-08-27T16:45:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Toy Story 5",
+  "start": "2026-08-27T17:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
+  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "La Grazia",
+  "start": "2026-08-27T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-grazia/1513",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-grazia-8552/backdrop/1786997707953?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-08-27T18:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Høst: Markens lille grøde",
   "start": "2026-08-27T19:00:00",
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
+  "free": false
+ },
+ {
+  "title": "Minions And Monstre",
+  "start": "2026-08-27T19:20:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-08-27T21:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -729,6 +1332,24 @@
   "free": false
  },
  {
+  "title": "Tromsø bokklubb",
+  "start": "2026-08-31T18:00:00",
+  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/tromso-bokklubb",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-09/Bokklubb.png.webp?itok=GQ--nW11",
+  "free": true
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-08-31T19:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1785748510257?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "OSLO 31. AUGUST @Amtmandens",
   "start": "2026-08-31T20:00:00",
   "venue": "Verdensteatret, Tromsø",
@@ -837,6 +1458,15 @@
   "free": true
  },
  {
+  "title": "Soppens dag med Tromsø sopp- og nytteveksforening",
+  "start": "2026-09-06T12:00:00",
+  "venue": "Norges arktiske universitetsmusuem, Lars Thøringsveg 10, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/936452/soppens_dag_med_tromso_sopp-_og_nytteveksforening",
+  "image": "https://uit.no/Content/936451/cache=20261708132447/transformation=scale10000x560/IMG_85851-rotated.jpg",
+  "free": true
+ },
+ {
   "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
   "start": "2026-09-06T12:00:00",
   "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
@@ -936,7 +1566,7 @@
   "free": true
  },
  {
-  "title": "The English Book Club(14. september)",
+  "title": "The English Book Club",
   "start": "2026-09-14T17:15:00",
   "venue": "In person at Tromsdalen Library, UiT Tromsø",
   "source": "uit",
