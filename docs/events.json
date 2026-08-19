@@ -1,95 +1,5 @@
 [
  {
-  "title": "StudEXPO 2026 - Utforsk studentlivet!",
-  "start": "2026-08-18T11:00:00",
-  "venue": "Kraft Sportssenter, UiT Tromsø",
-  "source": "uit",
-  "url": "https://samskipnaden.no/kalenderen/studexpo-2026-utforsk-studentlivet-3-2",
-  "image": "https://uit.no/Content/924884/cache=20262403132320/transformation=scale10000x560/Header%20StudEXPO.jpg",
-  "free": true
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-08-18T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-08-18T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-08-18T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Teenage Sex And Death At Camp Miasma",
-  "start": "2026-08-18T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/teenage-sex-and-death-at-camp-miasma/1637",
-  "image": "https://images.filmgrail.com/mediaserver/movies/teenage-sex-and-death-at-camp-miasma-9487/backdrop/1785915515503?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kilden I Provence Jean De Florette",
-  "start": "2026-08-18T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-jean-de-florette/1596",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-jean-de-florette-9398/backdrop/1785147305167?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Babytreff på biblioteket",
-  "start": "2026-08-18T13:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
-  "free": true
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-08-18T14:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-08-18T17:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-08-18T17:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Lesesirkel: Fars rygg",
   "start": "2026-08-18T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -97,24 +7,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/lesesirkel-fars-rygg",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-05/Lesesirkel%20Fars%20rygg.png.webp?itok=40qi_O01",
   "free": true
- },
- {
-  "title": "Kilden I Provence 2 Manon Og Kilden",
-  "start": "2026-08-18T19:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kilden-i-provence-2-manon-og-kilden/1597",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kilden-i-provence-2-manon-og-kilden-9397/backdrop/1785147309143?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-08-18T21:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "Spider Man Brand New Day",
@@ -450,21 +342,21 @@
   "free": false
  },
  {
-  "title": "The Invite",
-  "start": "2026-08-21T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Insidious Out Of The Further",
   "start": "2026-08-21T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
   "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-21T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -603,6 +495,15 @@
   "free": false
  },
  {
+  "title": "Skolen Med De Magiske Dyrene Filmen",
+  "start": "2026-08-22T15:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/skolen-med-de-magiske-dyrene-filmen/1617",
+  "image": "https://images.filmgrail.com/mediaserver/movies/skolen-med-de-magiske-dyrene-filmen-8567/backdrop/1785915930634?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Vaiana",
   "start": "2026-08-22T16:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -675,21 +576,21 @@
   "free": false
  },
  {
-  "title": "Vaiana",
-  "start": "2026-08-23T11:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Minions And Monstre",
   "start": "2026-08-23T11:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
   "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Skolen Med De Magiske Dyrene Filmen",
+  "start": "2026-08-23T11:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/skolen-med-de-magiske-dyrene-filmen/1617",
+  "image": "https://images.filmgrail.com/mediaserver/movies/skolen-med-de-magiske-dyrene-filmen-8567/backdrop/1785915930634?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -744,6 +645,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
   "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Vaiana",
+  "start": "2026-08-23T16:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
+  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -927,6 +837,15 @@
   "free": false
  },
  {
+  "title": "Babytreff på biblioteket",
+  "start": "2026-08-25T13:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
+  "free": true
+ },
+ {
   "title": "Insidious Out Of The Further",
   "start": "2026-08-25T14:30:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -954,12 +873,12 @@
   "free": false
  },
  {
-  "title": "Vaiana",
-  "start": "2026-08-25T16:45:00",
+  "title": "Skolen Med De Magiske Dyrene Filmen",
+  "start": "2026-08-25T17:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/skolen-med-de-magiske-dyrene-filmen/1617",
+  "image": "https://images.filmgrail.com/mediaserver/movies/skolen-med-de-magiske-dyrene-filmen-8567/backdrop/1785915930634?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1008,21 +927,21 @@
   "free": false
  },
  {
-  "title": "The Invite",
-  "start": "2026-08-26T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Insidious Out Of The Further",
   "start": "2026-08-26T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
   "image": "https://images.filmgrail.com/mediaserver/movies/insidious-out-of-the-further-5688/backdrop/1786526106529?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1035,13 +954,13 @@
   "free": false
  },
  {
-  "title": "ONSDAGSFILMEN | LILLE AMELIE",
-  "start": "2026-08-26T13:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-lille-amelie",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/AMELIE_PHOTO2_crop.jpg",
-  "free": false
+  "title": "Kven eig framtida? KI, UiT og samfunnsansvaret",
+  "start": "2026-08-26T12:00:00",
+  "venue": "Universitetsbiblioteket i Tromsø og digitalt, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/936222/kven_eig_framtida_ki_uit_og_samfunnsansvaret",
+  "image": "https://uit.no/Content/936573/cache=20261808112735/transformation=scale10000x560/Samtaler_Tavla-Banner_1.png",
+  "free": true
  },
  {
   "title": "Teenage Sex And Death At Camp Miasma",
@@ -1346,16 +1265,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1785748510257?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "OSLO 31. AUGUST @Amtmandens",
-  "start": "2026-08-31T20:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/oslo-31-august-1-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/001-OSLO.jpg",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1787074211585?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1366,6 +1276,15 @@
   "url": "https://uit.no/tavla/artikkel/931564/hvordan_forske_med_kommuner",
   "image": "https://uit.no/Content/931578/cache=20261706214025/transformation=scale10000x560/Forsidebilde_Hvordan%20forske%20med%20kommuner.jpg",
   "free": true
+ },
+ {
+  "title": "Barnas Glassblaserkurs",
+  "start": "2026-09-01T17:00:00",
+  "venue": "Aurora Kino, TIFF Junior Workshop, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/barnas-glassblaserkurs/1652",
+  "image": "https://images.filmgrail.com/1786034244718-blob?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Lesesirkel: Technotika",
@@ -1476,6 +1395,15 @@
   "free": true
  },
  {
+  "title": "Stumfilm konsert TIFF Junior",
+  "start": "2026-09-06T18:00:00",
+  "venue": "Kulturskolen Tromsø",
+  "source": "kulturskolen",
+  "url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=34993",
+  "image": "https://www.kulturskolentromso.no/speedware/Bookings/34993/Images/−1059902876-stumfilm.jpeg",
+  "free": true
+ },
+ {
   "title": "TIFF Junior 2026",
   "start": "2026-09-06T20:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -1483,6 +1411,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/tiff-junior/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
   "free": false
+ },
+ {
+  "title": "En motstandsdyktig befolkning i nord: Matproduksjon og matberedskap i kriser og krig",
+  "start": "2026-09-08T18:00:00",
+  "venue": "Rødbanken, Bankhjørnet 1. etasje Sparebank1 Nord-Norge, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/936575/en_motstandsdyktig_befolkning_i_nord_matproduksj",
+  "image": "https://uit.no/Content/876220/cache=20251803104552/transformation=scale10000x560/RESNOR%20-%20bannerbilde.jpg",
+  "free": true
  },
  {
   "title": "Grønnegata",
@@ -1582,15 +1519,6 @@
   "url": "https://www.halogalandteater.no/produksjon/2026/turne-markens-lille-grode",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/MARKEN~1_0.PNG.webp?itok=NsOGqbNJ",
   "free": false
- },
- {
-  "title": "Overdiagnostikk",
-  "start": "2026-09-16T15:30:00",
-  "venue": "Auditorium Cerebrum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/931767/overdiagnostikk",
-  "image": "https://uit.no/Content/931766/cache=20262206093110/transformation=scale10000x560/Overdiagnostikk%20%281235%20x%20338%20px%29%20%28Facebook-annonse%29.png",
-  "free": true
  },
  {
   "title": "Kveldsåpent museum med kafe og arrangementer // Experience the museum at night(16. september)",
@@ -2745,6 +2673,15 @@
   "free": true
  },
  {
+  "title": "«Balletak på bransjen» – Et stand up show av og med Henrik Fladseth",
+  "start": "2027-03-20T21:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/balletak-pa-bransjen-et-stand-up-show-av-og-med-henrik-fladseth/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-MAL-2.jpg",
+  "free": false
+ },
+ {
   "title": "Kunsten å kommunisere med en tenåring",
   "start": "2027-03-25T18:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -2869,6 +2806,15 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/hold-kjaeft-og-laes",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/Nyhet%20eller%20kalenderhendelse%20%281%29.png.webp?itok=9_ha7vIX",
   "free": true
+ },
+ {
+  "title": "Nils-Ingar Aadne – Tenk det",
+  "start": "2027-04-24T19:00:00",
+  "venue": "Lillescenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/nils-ingar-aadne-tenk-det/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Nils-Ingar-Aadne-Tenk-det.jpg",
+  "free": false
  },
  {
   "title": "Vidar Hansen – Kunsten å lese kroppsspråk",
