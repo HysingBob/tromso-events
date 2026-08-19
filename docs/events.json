@@ -963,6 +963,15 @@
   "free": true
  },
  {
+  "title": "ONSDAGSFILMEN | LILLE AMELIE",
+  "start": "2026-08-26T13:30:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-lille-amelie",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/AMELIE_PHOTO2_crop.jpg",
+  "free": false
+ },
+ {
   "title": "Teenage Sex And Death At Camp Miasma",
   "start": "2026-08-26T14:30:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -1266,6 +1275,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
   "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1787074211585?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "OSLO 31. AUGUST @Amtmandens",
+  "start": "2026-08-31T20:00:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/oslo-31-august-1-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/001-OSLO.jpg",
   "free": false
  },
  {
