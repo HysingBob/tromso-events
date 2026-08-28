@@ -1,50 +1,5 @@
 [
  {
-  "title": "Harry Potter Jubileumsmaraton",
-  "start": "2026-08-28T18:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harry-potter-jubileumsmaraton/659",
-  "image": "https://images.filmgrail.com/1730888237532?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pressure",
-  "start": "2026-08-28T18:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-08-28T18:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Høst: Markens lille grøde",
-  "start": "2026-08-28T19:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
-  "free": false
- },
- {
-  "title": "One Night Only",
-  "start": "2026-08-28T19:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/one-night-only/1577",
-  "image": "https://images.filmgrail.com/mediaserver/movies/one-night-only-9327/backdrop/1786354210580?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Rakettnatt Afterparty // Streetboys & DJ Kassett",
   "start": "2026-08-28T19:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -186,6 +141,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/andre-rieus-2026-summer-concert-viva-maastricht/1621",
   "image": "https://images.filmgrail.com/mediaserver/movies/andre-rieus-2026-summer-concert-viva-maastricht-9480/backdrop/1785494377967?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Høst: Markens lille grøde",
+  "start": "2026-08-29T18:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
   "free": false
  },
  {
