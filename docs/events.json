@@ -1,173 +1,11 @@
 [
  {
-  "title": "Rakettnatt Afterparty // Streetboys & DJ Kassett",
-  "start": "2026-08-28T19:00:00",
-  "venue": "Bryggeriet Scene, Tromsø",
-  "source": "bryggeriet",
-  "url": "https://www.bryggerietscene.no/program/rakettnatt-afterparty-streetboys-dj-kassett",
-  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1787560816329-PQL3O4FQR5OVWHZJAF95/Design+uten+navn+%2824%29.png?format=1500w",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-08-29T13:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Siri Hustvedt Dansen Rundt Selvet",
-  "start": "2026-08-29T13:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
-  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1787504688356?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mutiny",
-  "start": "2026-08-29T13:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mutiny/1576",
-  "image": "https://images.filmgrail.com/1787744345289-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-08-29T13:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-08-29T14:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Andre Rieus 2026 Summer Concert Viva Maastricht",
-  "start": "2026-08-29T15:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/andre-rieus-2026-summer-concert-viva-maastricht/1621",
-  "image": "https://images.filmgrail.com/mediaserver/movies/andre-rieus-2026-summer-concert-viva-maastricht-9480/backdrop/1785494377967?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-08-29T15:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-08-29T16:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Høst: Markens lille grøde",
-  "start": "2026-08-29T18:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
-  "free": false
- },
- {
-  "title": "Pressure",
-  "start": "2026-08-29T18:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-08-29T18:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Rakettnatt Afterpart // MATOMA & DJ Kassett",
   "start": "2026-08-29T19:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/rakettnatt-afterpart-matoma-dj-kassett",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1787561254960-96C1QTR60TJFMRU5OD0E/Design+uten+navn+%281%29.jpg?format=1500w",
-  "free": false
- },
- {
-  "title": "One Night Only",
-  "start": "2026-08-29T19:10:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/one-night-only/1577",
-  "image": "https://images.filmgrail.com/mediaserver/movies/one-night-only-9327/backdrop/1786354210580?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-08-29T20:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Dog Stars",
-  "start": "2026-08-29T21:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-dog-stars/1538",
-  "image": "https://images.filmgrail.com/1787743637715-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-08-29T21:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Obsession",
-  "start": "2026-08-29T21:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Rakettnatt 2026!",
-  "start": "2026-08-29T23:55:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/rakettnatt-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/d6116926-5011-4fde-ba57-46fa52078143.png",
   "free": false
  },
  {
@@ -333,21 +171,21 @@
   "free": false
  },
  {
-  "title": "The End Of Oak Street",
-  "start": "2026-08-30T20:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Obsession",
   "start": "2026-08-30T20:30:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/obsession/1510",
   "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-08-30T20:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -609,6 +447,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-invite/1544",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Høst: Markens lille grøde",
+  "start": "2026-09-01T19:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
   "free": false
  },
  {
