@@ -1,14 +1,5 @@
 [
  {
-  "title": "Babytreff på biblioteket",
-  "start": "2026-09-01T13:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
-  "free": true
- },
- {
   "title": "The Dog Stars",
   "start": "2026-09-01T14:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -1410,6 +1401,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/937409/disputas_-_nia_khachidze",
   "image": "https://uit.no/Content/937394/cache=20262508112018/transformation=scale10000x560/Nia%20Khachidze.jpg",
+  "free": true
+ },
+ {
+  "title": "Babytreff på biblioteket",
+  "start": "2026-09-08T13:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
   "free": true
  },
  {
@@ -3192,6 +3192,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/jula-er-her-alexandra-rotan-venner-2/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Alexandra-Rotan-2026-2.jpg",
+  "free": false
+ },
+ {
+  "title": "Kamelen",
+  "start": "2026-12-19T20:00:00",
+  "venue": "Bryggeriet Scene, Tromsø",
+  "source": "bryggeriet",
+  "url": "https://www.bryggerietscene.no/program/kamelen",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1788262349883-B57YROE2S39AXWO01WHS/kamelen-local-tromso-4x5.png?format=1500w",
   "free": false
  },
  {
