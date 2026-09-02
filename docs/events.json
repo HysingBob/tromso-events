@@ -18,51 +18,6 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-09-02T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Dog Stars",
-  "start": "2026-09-02T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-dog-stars/1538",
-  "image": "https://images.filmgrail.com/1787743637715-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pressure",
-  "start": "2026-09-02T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mutiny",
-  "start": "2026-09-02T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mutiny/1576",
-  "image": "https://images.filmgrail.com/1787744345289-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Min Ukjente Familie",
-  "start": "2026-09-02T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
-  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Help Desk: Research Data, Coding & HPC",
   "start": "2026-09-02T14:00:00",
   "venue": "UB 338, UiT Tromsø",
@@ -126,6 +81,15 @@
   "free": true
  },
  {
+  "title": "The Dog Stars",
+  "start": "2026-09-02T18:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-dog-stars/1538",
+  "image": "https://images.filmgrail.com/1787743637715-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "One Night Only",
   "start": "2026-09-02T18:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -141,6 +105,24 @@
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-09-02T19:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Pressure",
+  "start": "2026-09-02T19:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pressure/1619",
+  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -168,6 +150,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
   "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Mutiny",
+  "start": "2026-09-02T21:10:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/mutiny/1576",
+  "image": "https://images.filmgrail.com/1787744345289-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1680,6 +1671,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/930927/arctic_youth_frokostforelesning_5_med_trude_haug",
   "image": "https://uit.no/Content/930925/cache=20260806095222/transformation=scale10000x560/trude%20Haugli-09431.jpg",
+  "free": true
+ },
+ {
+  "title": "Radionuclide Science for Theranostics: From Production Routes to Medical Applications",
+  "start": "2026-09-11T10:00:00",
+  "venue": "Auditorium Cerebrum, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/938247/radionuclide_science_for_theranostics_from_produ",
+  "image": "https://uit.no/Content/938248/cache=20260209130523/transformation=scale10000x560/Resarch%20seminar%20Radionuclide%20Science.jpg",
   "free": true
  },
  {
