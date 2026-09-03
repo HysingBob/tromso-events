@@ -18,51 +18,6 @@
   "free": true
  },
  {
-  "title": "Drop-in lesesirkel - formiddag",
-  "start": "2026-09-03T10:30:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/drop-lesesirkel-formiddag",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
-  "free": true
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-03T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-09-03T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "One Night Only",
-  "start": "2026-09-03T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/one-night-only/1577",
-  "image": "https://images.filmgrail.com/mediaserver/movies/one-night-only-9327/backdrop/1786354210580?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Siri Hustvedt Dansen Rundt Selvet",
-  "start": "2026-09-03T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
-  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "TIFF JUNIOR 2026",
   "start": "2026-09-03T12:00:00",
   "venue": "Verdensteatret, Tromsø",
@@ -135,6 +90,15 @@
   "free": true
  },
  {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-09-03T17:15:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "The Invite",
   "start": "2026-09-03T18:15:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -144,21 +108,21 @@
   "free": false
  },
  {
-  "title": "Gutten Ved Verdens Ende",
-  "start": "2026-09-03T18:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/gutten-ved-verdens-ende/1601",
-  "image": "https://images.filmgrail.com/mediaserver/movies/gutten-ved-verdens-ende-9526/backdrop/1782898748814?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Bert Roter Til Alt",
   "start": "2026-09-03T18:15:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/bert-roter-til-alt/1608",
   "image": "https://images.filmgrail.com/1782903327830-bert_roter_til_alt_02.jpg?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Gutten Ved Verdens Ende",
+  "start": "2026-09-03T18:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/gutten-ved-verdens-ende/1601",
+  "image": "https://images.filmgrail.com/mediaserver/movies/gutten-ved-verdens-ende-9526/backdrop/1782898748814?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -186,6 +150,15 @@
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/lxv94a1j4otvmbhhfhvqi7w72uzwlj",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1782739970699-I5VN1XYFE1JQ1ESOJ8YP/16X9.jpg?format=1500w",
+  "free": false
+ },
+ {
+  "title": "Insidious Out Of The Further",
+  "start": "2026-09-03T20:45:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
+  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -663,15 +636,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
   "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Rivals Of Amziah King",
-  "start": "2026-09-05T20:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-rivals-of-amziah-king/1623",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-rivals-of-amziah-king-9442/backdrop/1786457708391?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1384,6 +1348,15 @@
   "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Drop-in lesesirkel - formiddag",
+  "start": "2026-09-10T10:30:00",
+  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/drop-lesesirkel-formiddag",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
+  "free": true
  },
  {
   "title": "Harila Nadelose Fjell",
@@ -2527,6 +2500,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/tromso-world-grass-by-zoj-silent-movie-live-concert/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-2.jpg",
   "free": false
+ },
+ {
+  "title": "Publishing Unlocked: A workshop for PhDs and postdocs",
+  "start": "2026-10-30T11:00:00",
+  "venue": "SVHUM E 0101 AUD, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/936484/publishing_unlocked_a_workshop_for_phds_and_post",
+  "image": "https://uit.no/Content/838820/cache=20252410132458/transformation=scale10000x560/CLaBL-2024.png",
+  "free": true
  },
  {
   "title": "Tromsø World Festival – ZÖJ",
