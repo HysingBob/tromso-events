@@ -1,191 +1,11 @@
 [
  {
-  "title": "Synne Sørgjerd - Tankrommet",
-  "start": "2026-09-03T20:00:00",
-  "venue": "Bryggeriet Scene, Tromsø",
-  "source": "bryggeriet",
-  "url": "https://www.bryggerietscene.no/program/lxv94a1j4otvmbhhfhvqi7w72uzwlj",
-  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1782739970699-I5VN1XYFE1JQ1ESOJ8YP/16X9.jpg?format=1500w",
-  "free": false
- },
- {
   "title": "TIFF JUNIOR 2026",
   "start": "2026-09-04T12:00:00",
   "venue": "Verdensteatret, Tromsø",
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/arrangement/tiff-junior-2026",
   "image": "https://www.verdensteatret.no/img/_movieThumb/TIFFJR2026-stills-main-260205.png",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-04T14:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788279308794?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-04T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Dog Stars",
-  "start": "2026-09-04T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-dog-stars/1538",
-  "image": "https://images.filmgrail.com/1787743637715-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Splish Splash Forever",
-  "start": "2026-09-04T16:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/splish-splash-forever/1640",
-  "image": "https://images.filmgrail.com/mediaserver/movies/splish-splash-forever-9527/backdrop/1785936427899?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mysteriepakken",
-  "start": "2026-09-04T16:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "image": "https://images.filmgrail.com/mediaserver/movies/mysteriepakken-8719/backdrop/1782900149087?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Zlin Film Festival Presenterer Tsjekkisk Animasjon Kort Og Eventyrlig",
-  "start": "2026-09-04T16:45:00",
-  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/zlin-film-festival-presenterer-tsjekkisk-animasjon-kort-og-eventyrlig/1648",
-  "image": "https://images.filmgrail.com/mediaserver/movies/zlin-film-festival-presenterer-tsjekkisk-animasjon-kort-og-eventyrlig-9607/backdrop/1785946752194?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Olivia Og Det Usynlige Jordskjelvet",
-  "start": "2026-09-04T16:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/olivia-og-det-usynlige-jordskjelvet/1609",
-  "image": "https://images.filmgrail.com/1785935946715-whale%20olivia.jpg?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Animasjonsverksted",
-  "start": "2026-09-04T17:00:00",
-  "venue": "Aurora Kino, TIFF Junior Workshop, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/animasjonsverksted/1653",
-  "image": "https://images.filmgrail.com/1786034848809-JMB06657_Jamie_Michael_Bivard.JPG?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kort For Storre Si Ifra",
-  "start": "2026-09-04T18:15:00",
-  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kort-for-storre-si-ifra/1647",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kort-for-storre-si-ifra-9606/backdrop/1786018872491?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Gugus Verden",
-  "start": "2026-09-04T18:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/gugus-verden/1599",
-  "image": "https://images.filmgrail.com/1782823728471-Yuri%20Gomes%20e%20Teca%20Pereira_%C2%A9JamilleQueiroz.jpeg?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Det Femte Element",
-  "start": "2026-09-04T18:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/det-femte-element/1602",
-  "image": "https://images.filmgrail.com/1782909474981-Det%20femte%20element_still.jpg?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Høst: Markens lille grøde",
-  "start": "2026-09-04T19:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-04T19:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Creedence StoryNight Revisited med Fortunate Sons",
-  "start": "2026-09-04T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/creedence-storynight-revisited-med-fortunate-sons/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Creedence-Story-Night.png",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-04T20:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-09-04T20:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-09-04T21:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-09-04T21:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Miss Moxy",
-  "start": "2026-09-05T10:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
-  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -270,21 +90,21 @@
   "free": true
  },
  {
-  "title": "Mysteriepakken",
-  "start": "2026-09-05T13:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "image": "https://images.filmgrail.com/mediaserver/movies/mysteriepakken-8719/backdrop/1782900149087?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Gutten Ved Verdens Ende",
   "start": "2026-09-05T13:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/gutten-ved-verdens-ende/1601",
   "image": "https://images.filmgrail.com/mediaserver/movies/gutten-ved-verdens-ende-9526/backdrop/1782898748814?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Mysteriepakken",
+  "start": "2026-09-05T13:45:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
+  "image": "https://images.filmgrail.com/mediaserver/movies/mysteriepakken-8719/backdrop/1782900149087?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -306,21 +126,21 @@
   "free": false
  },
  {
-  "title": "Olivia Og Det Usynlige Jordskjelvet",
-  "start": "2026-09-05T14:15:00",
-  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/olivia-og-det-usynlige-jordskjelvet/1609",
-  "image": "https://images.filmgrail.com/1785935946715-whale%20olivia.jpg?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Zlin Film Festival Presenterer Tsjekkisk Animasjon Kort Og Eventyrlig",
   "start": "2026-09-05T14:15:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/zlin-film-festival-presenterer-tsjekkisk-animasjon-kort-og-eventyrlig/1648",
   "image": "https://images.filmgrail.com/mediaserver/movies/zlin-film-festival-presenterer-tsjekkisk-animasjon-kort-og-eventyrlig-9607/backdrop/1785946752194?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Olivia Og Det Usynlige Jordskjelvet",
+  "start": "2026-09-05T14:15:00",
+  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/olivia-og-det-usynlige-jordskjelvet/1609",
+  "image": "https://images.filmgrail.com/1785935946715-whale%20olivia.jpg?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -387,6 +207,15 @@
   "free": false
  },
  {
+  "title": "Chimney Town Frosset I Tid",
+  "start": "2026-09-05T17:45:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/chimney-town-frosset-i-tid/1641",
+  "image": "https://images.filmgrail.com/mediaserver/movies/chimney-town-frosset-i-tid-9601/backdrop/1785938990820?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Kort For Storre Si Ifra",
   "start": "2026-09-05T17:45:00",
   "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
@@ -396,12 +225,12 @@
   "free": false
  },
  {
-  "title": "Chimney Town Frosset I Tid",
-  "start": "2026-09-05T17:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/chimney-town-frosset-i-tid/1641",
-  "image": "https://images.filmgrail.com/mediaserver/movies/chimney-town-frosset-i-tid-9601/backdrop/1785938990820?optimizer=image&width=1200",
+  "title": "Høst: Markens lille grøde",
+  "start": "2026-09-05T18:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
   "free": false
  },
  {
@@ -504,15 +333,6 @@
   "free": false
  },
  {
-  "title": "Gugus Verden",
-  "start": "2026-09-06T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/gugus-verden/1599",
-  "image": "https://images.filmgrail.com/1782823728471-Yuri%20Gomes%20e%20Teca%20Pereira_%C2%A9JamilleQueiroz.jpeg?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Chimney Town Frosset I Tid",
   "start": "2026-09-06T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -528,6 +348,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/sangfuglens-hemmelighet/1607",
   "image": "https://images.filmgrail.com/1782901777187-LSDM_STILL_SRGB_04.jpg?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Gugus Verden",
+  "start": "2026-09-06T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/gugus-verden/1599",
+  "image": "https://images.filmgrail.com/1782823728471-Yuri%20Gomes%20e%20Teca%20Pereira_%C2%A9JamilleQueiroz.jpeg?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -567,21 +396,21 @@
   "free": false
  },
  {
-  "title": "Sjoroverne Og Barracudas Skatt",
-  "start": "2026-09-06T14:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sjoroverne-og-barracudas-skatt/1650",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sjoroverne-og-barracudas-skatt-9608/backdrop/1786001404598?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Helt Spesiell",
   "start": "2026-09-06T14:00:00",
   "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/helt-spesiell/1603",
   "image": "https://images.filmgrail.com/1782900892879-EXTRAORDINARY_%20Stills_7%C2%A9PomPom.jpeg?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sjoroverne Og Barracudas Skatt",
+  "start": "2026-09-06T14:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sjoroverne-og-barracudas-skatt/1650",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sjoroverne-og-barracudas-skatt-9608/backdrop/1786001404598?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -774,21 +603,21 @@
   "free": false
  },
  {
-  "title": "Miss Moxy",
-  "start": "2026-09-07T16:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
-  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Dog Stars",
   "start": "2026-09-07T16:45:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-dog-stars/1538",
   "image": "https://images.filmgrail.com/1787743637715-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Miss Moxy",
+  "start": "2026-09-07T16:45:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
+  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -837,21 +666,21 @@
   "free": false
  },
  {
-  "title": "The End Of Oak Street",
-  "start": "2026-09-07T20:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Invite",
   "start": "2026-09-07T20:30:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-invite/1544",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The End Of Oak Street",
+  "start": "2026-09-07T20:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1125,7 +954,7 @@
   "free": false
  },
  {
-  "title": "Herborg Kråkevik",
+  "title": "Helsing Herborg",
   "start": "2026-09-09T19:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
@@ -1194,6 +1023,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/fjord/1578",
   "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-09-10T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1296,15 +1134,6 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-09-10T20:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "BOOGIE NIGHTS",
   "start": "2026-09-10T20:15:00",
   "venue": "Verdensteatret, Tromsø",
@@ -1315,8 +1144,8 @@
  },
  {
   "title": "The Dog Stars",
-  "start": "2026-09-10T20:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "start": "2026-09-10T20:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-dog-stars/1538",
   "image": "https://images.filmgrail.com/1787743637715-blob?optimizer=image&width=1200",
@@ -2088,6 +1917,15 @@
   "free": true
  },
  {
+  "title": "Securitizing Academia: Israel-Palestine Discourse and Academic Freedom in Germany - Two Case Studies.",
+  "start": "2026-10-08T14:15:00",
+  "venue": "E-2004 (SVHUM), UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/938578/securitizing_academia_israel-palestine_discourse",
+  "image": "https://uit.no/Content/938579/cache=20260409145514/transformation=scale10000x560/Skjermbilde%202026-09-04%20kl.%2014.54.31.png",
+  "free": true
+ },
+ {
   "title": "Mari Boine – jubileumsturné",
   "start": "2026-10-08T20:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2233,7 +2071,7 @@
  },
  {
   "title": "TIL — KFUM",
-  "start": "2026-10-18T17:00:00",
+  "start": "2026-10-18T19:15:00",
   "venue": "Romssa Arena",
   "source": "til",
   "url": "https://www.til.no/terminliste",
@@ -2503,7 +2341,7 @@
  },
  {
   "title": "TIL — Bodø/Glimt",
-  "start": "2026-11-08T17:00:00",
+  "start": "2026-11-08T14:30:00",
   "venue": "Romssa Arena",
   "source": "til",
   "url": "https://www.til.no/terminliste",
@@ -2673,21 +2511,21 @@
   "free": true
  },
  {
+  "title": "TIL — Viking",
+  "start": "2026-11-21T14:00:00",
+  "venue": "Romssa Arena",
+  "source": "til",
+  "url": "https://www.til.no/terminliste",
+  "image": "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-1200/TIL_one_RGB.png",
+  "free": false
+ },
+ {
   "title": "Espen Lind",
   "start": "2026-11-21T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/espen-lind/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Espen-Lind-1.jpg",
-  "free": false
- },
- {
-  "title": "TIL — Viking",
-  "start": "2026-11-22T17:00:00",
-  "venue": "Romssa Arena",
-  "source": "til",
-  "url": "https://www.til.no/terminliste",
-  "image": "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-1200/TIL_one_RGB.png",
   "free": false
  },
  {
@@ -3258,15 +3096,6 @@
   "free": true
  },
  {
-  "title": "Language in Healthcare | Tromsø 2027",
-  "start": "2027-05-05T08:00:00",
-  "venue": "Campus Breivika, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932076/language_in_healthcare_tromso_2027",
-  "image": "https://uit.no/Content/932078/cache=20262506124046/transformation=scale10000x560/Logo%20helsespra%CC%8Ak.png",
-  "free": true
- },
- {
   "title": "Lesesirkel: Vi ble kidnappet",
   "start": "2027-05-05T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -3328,6 +3157,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/iselin-guttormsen-kommer/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Iselin-Guttormsen-kommer.jpg",
   "free": false
+ },
+ {
+  "title": "Language in Healthcare | Tromsø 2027",
+  "start": "2027-06-03T08:00:00",
+  "venue": "Campus Breivika, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/932076/language_in_healthcare_tromso_2027",
+  "image": "https://uit.no/Content/932078/cache=20262506124046/transformation=scale10000x560/Logo%20helsespra%CC%8Ak.png",
+  "free": true
  },
  {
   "title": "Strikkekafé",
@@ -3411,11 +3249,11 @@
   "free": true
  },
  {
-  "title": "31th EU-US Transport Task Force Workshop",
+  "title": "31st EU-US Transport Task Force Workshop",
   "start": "2027-09-07T08:15:00",
   "venue": "Radisson Blu Hotel Tromsø, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936431/31th_eu-us_transport_task_force_workshop",
+  "url": "https://uit.no/tavla/artikkel/936431/31st_eu-us_transport_task_force_workshop",
   "image": "https://uit.no/Content/936436/cache=20261708122908/transformation=scale10000x560/OEG-2014-03-29-13-32-14-1.jpg",
   "free": true
  },
