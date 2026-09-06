@@ -81,15 +81,6 @@
   "free": false
  },
  {
-  "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
-  "start": "2026-09-06T12:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/lohkkanboddu-samegillii-lesestund-pa-samisk",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-07/f273f8153ee51a13a23a0d574386a820.jpg.webp?itok=M6Z9KHxl",
-  "free": true
- },
- {
   "title": "Papaya",
   "start": "2026-09-06T12:30:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -1311,6 +1302,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/937287/apen_dag_med_uit_pa_nordnorsk_vitensenter",
   "image": "https://uit.no/Content/937286/cache=20262408131456/transformation=scale10000x560/crop_fe5_u8L0_6707c1dc-3f20-48e4-925a-00913e228d9c.jpg",
+  "free": true
+ },
+ {
+  "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
+  "start": "2026-09-20T12:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/lohkkanboddu-samegillii-lesestund-pa-samisk",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-07/f273f8153ee51a13a23a0d574386a820.jpg.webp?itok=M6Z9KHxl",
   "free": true
  },
  {
