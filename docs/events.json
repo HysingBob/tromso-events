@@ -1,293 +1,5 @@
 [
  {
-  "title": "TIFF JUNIOR 2026",
-  "start": "2026-09-05T12:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/arrangement/tiff-junior-2026",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/TIFFJR2026-stills-main-260205.png",
-  "free": false
- },
- {
-  "title": "Back To The 90’s TROMSØ",
-  "start": "2026-09-05T19:00:00",
-  "venue": "Bryggeriet Scene, Tromsø",
-  "source": "bryggeriet",
-  "url": "https://www.bryggerietscene.no/program/back-to-the-90s-troms",
-  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1784558285266-05ND6AQ2PB5OKQZEXTPU/Mixtape.jpg?format=1500w",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-06T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Samiske flytteveier: Tegneworkshop med Kai Mikkel Balto",
-  "start": "2026-09-06T11:00:00",
-  "venue": "Tromsø bibliotek",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/samiske-flytteveier-tegneworkshop-med-kai-mikkel-balto",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-08/Tegneworkshop.jpg.webp?itok=LJdQ7GLi",
-  "free": true
- },
- {
-  "title": "Tilbake Til Tottori",
-  "start": "2026-09-06T11:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/tilbake-til-tottori/1540",
-  "image": "https://images.filmgrail.com/mediaserver/movies/tilbake-til-tottori-8653/backdrop/1784293752035?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-06T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Chimney Town Frosset I Tid",
-  "start": "2026-09-06T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/chimney-town-frosset-i-tid/1641",
-  "image": "https://images.filmgrail.com/mediaserver/movies/chimney-town-frosset-i-tid-9601/backdrop/1785938990820?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Gugus Verden",
-  "start": "2026-09-06T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/gugus-verden/1599",
-  "image": "https://images.filmgrail.com/1782823728471-Yuri%20Gomes%20e%20Teca%20Pereira_%C2%A9JamilleQueiroz.jpeg?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sangfuglens Hemmelighet",
-  "start": "2026-09-06T12:00:00",
-  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sangfuglens-hemmelighet/1607",
-  "image": "https://images.filmgrail.com/1782901777187-LSDM_STILL_SRGB_04.jpg?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Papaya",
-  "start": "2026-09-06T12:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/papaya/1604",
-  "image": "https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?optimizer=image&width=1200&&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Helt Spesiell",
-  "start": "2026-09-06T14:00:00",
-  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/helt-spesiell/1603",
-  "image": "https://images.filmgrail.com/1782900892879-EXTRAORDINARY_%20Stills_7%C2%A9PomPom.jpeg?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sjoroverne Og Barracudas Skatt",
-  "start": "2026-09-06T14:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sjoroverne-og-barracudas-skatt/1650",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sjoroverne-og-barracudas-skatt-9608/backdrop/1786001404598?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-06T14:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788279308794?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mitt Nye Liv Pa Slottet",
-  "start": "2026-09-06T14:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mitt-nye-liv-pa-slottet/1643",
-  "image": "https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?optimizer=image&width=1200&&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Splish Splash Forever",
-  "start": "2026-09-06T14:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/splish-splash-forever/1640",
-  "image": "https://images.filmgrail.com/mediaserver/movies/splish-splash-forever-9527/backdrop/1785936427899?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kort For Storre Si Ifra",
-  "start": "2026-09-06T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kort-for-storre-si-ifra/1647",
-  "image": "https://images.filmgrail.com/mediaserver/movies/kort-for-storre-si-ifra-9606/backdrop/1786018872491?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pressure",
-  "start": "2026-09-06T15:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Gutten Ved Verdens Ende",
-  "start": "2026-09-06T16:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/gutten-ved-verdens-ende/1601",
-  "image": "https://images.filmgrail.com/mediaserver/movies/gutten-ved-verdens-ende-9526/backdrop/1782898748814?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pirates Of The Caribbean The Curse Of The Black Pearl",
-  "start": "2026-09-06T16:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pirates-of-the-caribbean-the-curse-of-the-black-pearl/1639",
-  "image": "https://images.filmgrail.com/1786012884286-background%20pirates.webp?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Miss Moxy",
-  "start": "2026-09-06T16:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
-  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Bert Roter Til Alt",
-  "start": "2026-09-06T16:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/bert-roter-til-alt/1608",
-  "image": "https://images.filmgrail.com/1782903327830-bert_roter_til_alt_02.jpg?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Tiff Jr Avslutning Med Stumfilmkonsert",
-  "start": "2026-09-06T17:30:00",
-  "venue": "Aurora Kino, Lillescenen, Kulturhuset, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/tiff-jr-avslutning-med-stumfilmkonsert/1287",
-  "image": "https://images.filmgrail.com/1754555097054?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-09-06T18:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Stumfilm konsert TIFF Junior",
-  "start": "2026-09-06T18:00:00",
-  "venue": "Kulturskolen Tromsø",
-  "source": "kulturskolen",
-  "url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=34993",
-  "image": "https://www.kulturskolentromso.no/speedware/Bookings/34993/Images/−1059902876-stumfilm.jpeg",
-  "free": true
- },
- {
-  "title": "Mutiny",
-  "start": "2026-09-06T18:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mutiny/1576",
-  "image": "https://images.filmgrail.com/1787744345289-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Siri Hustvedt Dansen Rundt Selvet",
-  "start": "2026-09-06T18:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
-  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "TIFF Junior 2026",
-  "start": "2026-09-06T20:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/tiff-junior/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-MAL-1.jpg",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-06T20:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-09-06T21:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-09-06T21:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Lunsjseminar i kvensk",
-  "start": "2026-09-07T12:15:00",
-  "venue": "Teams, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/938480/lunsjseminar_i_kvensk",
-  "image": "https://uit.no/Content/938481/cache=20260409084636/transformation=scale10000x560/kvensk%20flagg.jpeg",
-  "free": true
- },
- {
-  "title": "More than books: What can the university library do to support biology students and researchers?",
-  "start": "2026-09-07T14:00:00",
-  "venue": "Biology building kantine/amfi (1.001), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936984/more_than_books_what_can_the_university_library",
-  "image": "https://uit.no/Content/936983/cache=20262008133528/transformation=scale10000x560/UB%20intro_Biologi_tile.png",
-  "free": true
- },
- {
   "title": "Paw Patrol Dinofilmen",
   "start": "2026-09-07T16:45:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -932,7 +644,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1788449413943?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1788773418155?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -943,6 +655,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/chris-klafford-the-kitchen-session-tour/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-MAL-34.jpg",
   "free": false
+ },
+ {
+  "title": "Samiske flytteveier: Tegneworkshop med Kai Mikkel Balto",
+  "start": "2026-09-12T11:00:00",
+  "venue": "Tromsø bibliotek",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/samiske-flytteveier-tegneworkshop-med-kai-mikkel-balto",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-08/Tegneworkshop.jpg.webp?itok=LJdQ7GLi",
+  "free": true
  },
  {
   "title": "BARNAS CINEMATEK | LILLE AMELIE",
@@ -1314,6 +1035,15 @@
   "free": true
  },
  {
+  "title": "Miss Moxy",
+  "start": "2026-09-20T13:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
+  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Søndagsfilm",
   "start": "2026-09-20T13:00:00",
   "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
@@ -1503,6 +1233,15 @@
   "free": true
  },
  {
+  "title": "Invitasjon til sykkelsørvis 2026 – Gratis for studenter!",
+  "start": "2026-09-29T08:00:00",
+  "venue": "Sykkelparkering på østsiden av ILP-bygget ved inngang øst, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940102/invitasjon_til_sykkelsorvis_2026_gratis_for_stu",
+  "image": "https://uit.no/Content/925326/cache=20263103131223/transformation=scale10000x560/Tavla_kort.png",
+  "free": true
+ },
+ {
   "title": "Beyond the Hype: What is Quantum Computing?",
   "start": "2026-09-29T10:15:00",
   "venue": "Store Aud B302, Realfagsbygget, UiT Tromsø",
@@ -1539,6 +1278,15 @@
   "free": false
  },
  {
+  "title": "Invitasjon til sykkelsørvis 2026 – Gratis for studenter!(30. september)",
+  "start": "2026-09-30T08:00:00",
+  "venue": "Sykkelparkering på østsiden av ILP-bygget ved inngang øst, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940103/invitasjon_til_sykkelsorvis_2026_gratis_for_stu",
+  "image": "https://uit.no/Content/925326/cache=20263103131223/transformation=scale10000x560/Tavla_kort.png",
+  "free": true
+ },
+ {
   "title": "Nasjonal EVU-konferanse for UH-sektoren 2026",
   "start": "2026-09-30T10:00:00",
   "venue": "Radisson Hotel Blu - Tromsø, UiT Tromsø",
@@ -1554,6 +1302,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/937069/soknadslunsjer_pa_hsl_translating_the_funding_ca",
   "image": "https://uit.no/Content/936478/cache=20261708153527/transformation=scale10000x560/Tavla%20stort%20bilde.png",
+  "free": true
+ },
+ {
+  "title": "Invitasjon til sykkelsørvis 2026 – Gratis for studenter!(1. oktober)",
+  "start": "2026-10-01T08:00:00",
+  "venue": "Sykkelparkering på østsiden av ILP-bygget ved inngang øst, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940104/invitasjon_til_sykkelsorvis_2026_gratis_for_stu",
+  "image": "https://uit.no/Content/925326/cache=20263103131223/transformation=scale10000x560/Tavla_kort.png",
   "free": true
  },
  {
@@ -1581,6 +1338,24 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/933346/guest_lecture_with_associate_professor_anne_saab",
   "image": "https://uit.no/Content/933352/cache=20262207095900/transformation=scale10000x560/anne%20saab%20lecture.png",
+  "free": true
+ },
+ {
+  "title": "Filosofisk Bar #1",
+  "start": "2026-10-05T18:00:00",
+  "venue": "Bakrommet på Amtmandens, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940125/filosofisk_bar_1",
+  "image": "https://uit.no/Content/940139/cache=20260709132953/transformation=scale10000x560/URN_NBN_no-nb_digifoto_20121026_00065_NB_PWZ_N02_03_65-2048x1152.jpg",
+  "free": true
+ },
+ {
+  "title": "Invitasjon til sykkelsørvis 2026 – Gratis for studenter!(6. oktober)",
+  "start": "2026-10-06T08:00:00",
+  "venue": "Sykkelparkering på østsiden av ILP-bygget ved inngang øst, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940105/invitasjon_til_sykkelsorvis_2026_gratis_for_stu",
+  "image": "https://uit.no/Content/925326/cache=20263103131223/transformation=scale10000x560/Tavla_kort.png",
   "free": true
  },
  {
@@ -1618,6 +1393,15 @@
   "url": "https://www.bryggerietscene.no/program/sondre-lerche-tankrommet",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1780560305713-2MVD7VRZ049HLL6ZHYOV/SL1+by+Hilde+Solli.jpg?format=1500w",
   "free": false
+ },
+ {
+  "title": "Invitasjon til sykkelsørvis 2026 – Gratis for studenter!(8. oktober)",
+  "start": "2026-10-08T08:00:00",
+  "venue": "Sykkelparkering på østsiden av ILP-bygget ved inngang øst, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940108/invitasjon_til_sykkelsorvis_2026_gratis_for_stu",
+  "image": "https://uit.no/Content/925326/cache=20263103131223/transformation=scale10000x560/Tavla_kort.png",
+  "free": true
  },
  {
   "title": "Fagdag: barn og unge som lever i lavinntekt i Tromsø – fokus bolig",
@@ -1800,13 +1584,31 @@
   "free": true
  },
  {
-  "title": "Innovation Days UiT 2026",
+  "title": "Research and Innovation Days UiT 2026",
   "start": "2026-10-19T12:15:00",
   "venue": "Dag 1 - Farmasibygget: Tabletten (F1.101). Dag 2 - 1.059 Didaktikken, ILP, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932023/innovation_days_uit_2026",
-  "image": "https://uit.no/Content/932701/cache=20260607085741/transformation=scale10000x560/Innovasjonsdagene_Tavla_banner_liten.png",
+  "url": "https://uit.no/tavla/artikkel/932023/research_and_innovation_days_uit_2026",
+  "image": "https://uit.no/Content/940134/cache=20260709131630/transformation=scale10000x560/Innovasjonsdagene_Tavla_banner_liten.png",
   "free": true
+ },
+ {
+  "title": "Søknadslunsjer på HSL: How to Get Closer to that Grant",
+  "start": "2026-10-21T12:00:00",
+  "venue": "Teorifagbygget hus 1 - Rom 1.323, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940107/soknadslunsjer_pa_hsl_how_to_get_closer_to_that",
+  "image": "https://uit.no/Content/936478/cache=20261708153527/transformation=scale10000x560/Tavla%20stort%20bilde.png",
+  "free": true
+ },
+ {
+  "title": "Fri Flyt Filmtour",
+  "start": "2026-10-21T18:30:00",
+  "venue": "Bryggeriet Scene, Tromsø",
+  "source": "bryggeriet",
+  "url": "https://www.bryggerietscene.no/program/fri-flyt-filmtour",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1788768745271-B8NRQ3M3SKI18OFBZWGG/FT26_Premierer_1080x192014.jpg?format=1500w",
+  "free": false
  },
  {
   "title": "Arktisk Filharmoni – Abonnentenes ekslusive",
@@ -2256,6 +2058,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/var-jul-2026/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Var-Jul-26.jpg",
+  "free": false
+ },
+ {
+  "title": "Makosir - Tankrommet",
+  "start": "2026-11-26T20:00:00",
+  "venue": "Bryggeriet Scene, Tromsø",
+  "source": "bryggeriet",
+  "url": "https://www.bryggerietscene.no/program/makosir-tankrommet",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1788775553269-QGLRU2V4CFYT3IIRWCFQ/sfg-tourposter-4x5.jpg?format=1500w",
   "free": false
  },
  {
@@ -2871,15 +2682,6 @@
   "free": false
  },
  {
-  "title": "Language in Healthcare | Tromsø 2027",
-  "start": "2027-06-03T08:00:00",
-  "venue": "Campus Breivika, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932076/language_in_healthcare_tromso_2027",
-  "image": "https://uit.no/Content/932078/cache=20262506124046/transformation=scale10000x560/Logo%20helsespra%CC%8Ak.png",
-  "free": true
- },
- {
   "title": "Strikkekafé",
   "start": "2027-06-10T17:00:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -2916,15 +2718,6 @@
   "free": true
  },
  {
-  "title": "Conference on Language, Brain & Learning",
-  "start": "2027-06-24T08:00:00",
-  "venue": "UiT The Arctic University of Norway, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/931267/conference_on_language_brain_learning",
-  "image": "https://uit.no/Content/931299/cache=20261206104416/transformation=scale10000x560/clabl27_1200x628.png",
-  "free": true
- },
- {
   "title": "Lesesirkel: Fars rygg",
   "start": "2027-08-18T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -2958,15 +2751,6 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/jorda-rundt-pa-60-minutt-med-marta-norheim",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/Nyhet%20eller%20kalenderhendelse.png.webp?itok=5QUxXHBD",
-  "free": true
- },
- {
-  "title": "31st EU-US Transport Task Force Workshop",
-  "start": "2027-09-07T08:15:00",
-  "venue": "Radisson Blu Hotel Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936431/31st_eu-us_transport_task_force_workshop",
-  "image": "https://uit.no/Content/936436/cache=20261708122908/transformation=scale10000x560/OEG-2014-03-29-13-32-14-1.jpg",
   "free": true
  },
  {
