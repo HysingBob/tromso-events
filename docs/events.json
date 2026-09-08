@@ -1,41 +1,5 @@
 [
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-08T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788851710570?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-08T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Min Ukjente Familie",
-  "start": "2026-09-08T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
-  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Siri Hustvedt Dansen Rundt Selvet",
-  "start": "2026-09-08T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
-  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Babytreff på biblioteket",
   "start": "2026-09-08T13:00:00",
   "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
@@ -78,6 +42,24 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
   "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Fjord",
+  "start": "2026-09-08T17:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/fjord/1578",
+  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-08T18:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788851710570?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1240,6 +1222,15 @@
   "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
   "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Sangklassekonsert",
+  "start": "2026-09-15T15:00:00",
+  "venue": "Musikkonservatoriets konsertsal, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940313/sangklassekonsert",
+  "image": "https://uit.no/Content/940320/cache=20260809132617/transformation=scale10000x560/Sangklasse%202025-2026.png",
+  "free": true
  },
  {
   "title": "Coyote Vs Acme Per Ulv Pa Saken",
@@ -2967,15 +2958,6 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/932070/helsefak_research_seminar_-_maria_arl_n_larsen",
   "image": "https://uit.no/Content/932059/cache=20262506110716/transformation=scale10000x560/Helsefak%20RS%20banner%202026.png",
-  "free": true
- },
- {
-  "title": "The English Book Club(14. desember)",
-  "start": "2026-12-14T17:15:00",
-  "venue": "In person at Tromsdalen Library, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/917965/the_english_book_club",
-  "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
   "free": true
  },
  {
