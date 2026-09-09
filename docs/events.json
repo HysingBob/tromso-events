@@ -18,15 +18,6 @@
   "free": false
  },
  {
-  "title": "Help Desk: Research Data, Coding & HPC",
-  "start": "2026-09-09T14:00:00",
-  "venue": "UB 338, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
-  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
-  "free": true
- },
- {
   "title": "Paw Patrol Dinofilmen",
   "start": "2026-09-09T16:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -711,21 +702,21 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
-  "start": "2026-09-13T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "By Any Means",
   "start": "2026-09-13T11:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/by-any-means/1622",
   "image": "https://images.filmgrail.com/mediaserver/movies/by-any-means-9452/backdrop/1788254112907?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Minions And Monstre",
+  "start": "2026-09-13T11:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -825,6 +816,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Siri Hustvedt Dansen Rundt Selvet",
+  "start": "2026-09-13T16:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
+  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -981,12 +981,12 @@
   "free": false
  },
  {
-  "title": "The Rivals Of Amziah King",
+  "title": "Siri Hustvedt Dansen Rundt Selvet",
   "start": "2026-09-14T20:15:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-rivals-of-amziah-king/1623",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-rivals-of-amziah-king-9442/backdrop/1786457708391?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
+  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1032,15 +1032,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pressure/1619",
   "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mutiny",
-  "start": "2026-09-15T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mutiny/1576",
-  "image": "https://images.filmgrail.com/1787744345289-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1269,12 +1260,12 @@
   "free": false
  },
  {
-  "title": "The Invite",
+  "title": "Siri Hustvedt Dansen Rundt Selvet",
   "start": "2026-09-16T14:30:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
+  "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1285,6 +1276,15 @@
   "url": "https://samskipnaden.no/kalenderen/smia-workshop-ide-generering",
   "image": "https://uit.no/Content/937548/cache=20262608144933/transformation=scale10000x560/Smia%20svart%20med%20hvit%20skrift.png",
   "free": true
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-09-16T17:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Kveldsåpent museum med kafe og arrangementer // Experience the museum at night",
@@ -2256,6 +2256,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/932023/research_and_innovation_days_uit_2026",
   "image": "https://uit.no/Content/940134/cache=20260709131630/transformation=scale10000x560/Innovasjonsdagene_Tavla_banner_liten.png",
+  "free": true
+ },
+ {
+  "title": "Arctic Youth frokostforelesning #6 med Tommy Sjåfjell",
+  "start": "2026-10-21T08:15:00",
+  "venue": "digital lenke følger, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940480/arctic_youth_frokostforelesning_6_med_tommy_sjaf",
+  "image": "https://uit.no/Content/940479/cache=20260909132406/transformation=scale10000x560/Tommy-Sj%C3%A5fjell%20A-larm%20AP5.jpg",
   "free": true
  },
  {
