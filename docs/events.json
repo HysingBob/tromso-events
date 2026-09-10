@@ -9,42 +9,6 @@
   "free": false
  },
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-10T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-10T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-10T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pressure",
-  "start": "2026-09-10T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1788956107927?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Spider Man Brand New Day",
   "start": "2026-09-10T14:45:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -78,6 +42,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
   "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-10T17:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -141,6 +114,15 @@
   "source": "amtmandens",
   "url": "https://nordavin.antitickets.com/event/tromsoe-laer-aa-smake-vin-usnobbet-vinopplaering",
   "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiIxZTg2ZjRjMi0wMGU5LTRlMzctODM1Ny03Y2M3NDM1NGFiNTRcLzNJUERBak1hbmxXYUhDWlhVcHlpakE3VHV1Z1wvOTA2MmZhZWUtNjI3Yy00MzkzLWE5NmItZDliYjMyZWJmMzA3LkpQRyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwid2lkdGgiOjM3MCwiZml0IjoiY29udGFpbiJ9fX0=",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-09-10T20:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2682,6 +2664,15 @@
   "free": false
  },
  {
+  "title": "Research innovation Bootcamp",
+  "start": "2026-11-30T12:00:00",
+  "venue": "InnoHub (by the MH library), UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940651/research_innovation_bootcamp",
+  "image": "https://uit.no/Content/918794/cache=20261901153726/transformation=scale10000x560/innohub-bakgrunn-bla%CC%8A-m%C3%B8rk.png",
+  "free": true
+ },
+ {
   "title": "Lesesirkel: Kjøtt",
   "start": "2026-12-01T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -2806,24 +2797,6 @@
   "url": "https://www.bryggerietscene.no/program/tfl",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1789025019051-AZC38D292LLJ46YB4WQU/T%C3%98FL+-+Eg+e+deg+-+liggende+-+foto+av+Simen+Sj%C3%B8lund.jpg?format=1500w",
   "free": false
- },
- {
-  "title": "Helsefak Research Seminar - Maria Arlèn Larsen",
-  "start": "2026-12-14T12:15:00",
-  "venue": "MH1 Store auditorium, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932070/helsefak_research_seminar_-_maria_arl_n_larsen",
-  "image": "https://uit.no/Content/932059/cache=20262506110716/transformation=scale10000x560/Helsefak%20RS%20banner%202026.png",
-  "free": true
- },
- {
-  "title": "The English Book Club(14. desember)",
-  "start": "2026-12-14T17:15:00",
-  "venue": "In person at Tromsdalen Library, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/917965/the_english_book_club",
-  "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
-  "free": true
  },
  {
   "title": "Anders Jektvik",
