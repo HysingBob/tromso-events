@@ -1,113 +1,5 @@
 [
  {
-  "title": "VINNERFILMER FRA KORTFILMFESTIVALEN",
-  "start": "2026-09-08T18:45:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/arrangement/vinnerfilmer-fra-kortfilmfestivalen",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Fata-Morgana-Still.jpg",
-  "free": false
- },
- {
-  "title": "SESONGSTART | TAXI DRIVER",
-  "start": "2026-09-08T21:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/taxi-driver-1-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Taxi_Driver_01.jpg",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-09-09T16:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Vaiana",
-  "start": "2026-09-09T17:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/vaiana/1447",
-  "image": "https://images.filmgrail.com/mediaserver/movies/vaiana-7963/backdrop/1783340106568?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Strikkekafé",
-  "start": "2026-09-09T17:00:00",
-  "venue": "Hovedbiblioteket, møterommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-02/Bilde%20strikkekaf%C3%A9.jpg.webp?itok=P2HjBGDN",
-  "free": true
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-09T17:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-09-09T17:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Grønnegata",
-  "start": "2026-09-09T18:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-06/Gr%C3%B8nnegata--webbanner-1920x1200-260526.png.webp?itok=wd8Uv9dT",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-09T18:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Rivals Of Amziah King",
-  "start": "2026-09-09T18:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-rivals-of-amziah-king/1623",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-rivals-of-amziah-king-9442/backdrop/1786457708391?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Arktisk Filharmoni – Klangen av Nord",
-  "start": "2026-09-09T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-klangen-av-nord/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Klangen-av-Nord-Skjerm-liggende.jpg",
-  "free": false
- },
- {
-  "title": "Høst: Markens lille grøde",
-  "start": "2026-09-09T19:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
-  "free": false
- },
- {
   "title": "Helsing Herborg",
   "start": "2026-09-09T19:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
@@ -115,51 +7,6 @@
   "url": "https://www.bryggerietscene.no/program/herborg-krkevik",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1776947293676-MR95WQKZAXT49PNP4C3I/Portrett1.jpg?format=1500w",
   "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-09T20:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-09T20:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-09-09T21:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The End Of Oak Street",
-  "start": "2026-09-09T21:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-end-of-oak-street/1573",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-end-of-oak-street-9235/backdrop/1785522612774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Drop-in lesesirkel - formiddag",
-  "start": "2026-09-10T10:30:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/drop-lesesirkel-formiddag",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
-  "free": true
  },
  {
   "title": "Harila Nadelose Fjell",
@@ -194,17 +41,8 @@
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1788956107927?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Disputas - M.Sc. i fysikk Ursula Cecilie Friis Søndergaard",
-  "start": "2026-09-10T12:15:00",
-  "venue": "Auditorium Cortex, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/937598/disputas_-_m_sc_i_fysikk_ursula_cecilie_friis_so",
-  "image": "https://uit.no/Content/937602/cache=20262708100942/transformation=scale10000x560/Ursula%20S.jpg",
-  "free": true
  },
  {
   "title": "Spider Man Brand New Day",
@@ -243,6 +81,15 @@
   "free": false
  },
  {
+  "title": "Grønnegata",
+  "start": "2026-09-10T18:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-06/Gr%C3%B8nnegata--webbanner-1920x1200-260526.png.webp?itok=wd8Uv9dT",
+  "free": false
+ },
+ {
   "title": "Paw Patrol Dinofilmen",
   "start": "2026-09-10T18:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -267,6 +114,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/riskteatret-laereren/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Riksteatret-Laereren-.jpg",
+  "free": false
+ },
+ {
+  "title": "Høst: Markens lille grøde",
+  "start": "2026-09-10T19:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
   "free": false
  },
  {
@@ -360,15 +216,6 @@
   "free": true
  },
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-11T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "En Nasjon I Sjakk",
   "start": "2026-09-11T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -393,6 +240,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
   "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-11T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -495,21 +351,21 @@
   "free": false
  },
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-12T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Coyote Vs Acme Per Ulv Pa Saken",
   "start": "2026-09-12T11:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
   "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1788437718174?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-12T11:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -806,7 +662,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1788956107927?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -879,6 +735,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/932061/helsefak_research_seminar_-_tor_stuge",
   "image": "https://uit.no/Content/932059/cache=20262506110716/transformation=scale10000x560/Helsefak%20RS%20banner%202026.png",
+  "free": true
+ },
+ {
+  "title": "Norges rolle i en usikker geopolitisk verden",
+  "start": "2026-09-14T14:00:00",
+  "venue": "Sted: Auditorium 2, Teorifagsbygget 1, Campus Breivika, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940634/norges_rolle_i_en_usikker_geopolitisk_verden",
+  "image": "https://uit.no/Content/940633/cache=20261009115545/transformation=scale10000x560/arendalsuka-2024-240813-20%20%281%29.jpg",
   "free": true
  },
  {
@@ -999,21 +864,21 @@
   "free": false
  },
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-15T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "En Nasjon I Sjakk",
   "start": "2026-09-15T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
   "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1788869711814?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-15T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1031,7 +896,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1788956107927?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1161,21 +1026,21 @@
   "free": true
  },
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-16T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "En Nasjon I Sjakk",
   "start": "2026-09-16T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
   "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1788869711814?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-16T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1193,7 +1058,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pressure/1619",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1787559312124?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1788956107927?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1314,6 +1179,15 @@
   "free": true
  },
  {
+  "title": "Strikkekafé",
+  "start": "2026-09-16T17:00:00",
+  "venue": "Hovedbiblioteket, møterommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-02/Bilde%20strikkekaf%C3%A9.jpg.webp?itok=P2HjBGDN",
+  "free": true
+ },
+ {
   "title": "Ikke!",
   "start": "2026-09-16T17:30:00",
   "venue": "Hålogaland Teater",
@@ -1329,6 +1203,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/937530/free_guided_tour_at_night_highlights_at_the_arct",
   "image": "https://uit.no/Content/937531/cache=20262608132125/transformation=scale10000x560/OPM%20guided%20tour%20160926.png",
+  "free": true
+ },
+ {
+  "title": "Overdiagnostikk – snart er vi alle pasienter!",
+  "start": "2026-09-16T19:00:00",
+  "venue": "Vitenbar, Amtmandens, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/936082/overdiagnostikk_snart_er_vi_alle_pasienter",
+  "image": "https://uit.no/Content/940502/cache=20260909160935/transformation=scale10000x560/01_Tavla%20vitenbar.png",
   "free": true
  },
  {
@@ -1368,6 +1251,15 @@
   "free": true
  },
  {
+  "title": "Drop-in lesesirkel - formiddag",
+  "start": "2026-09-17T10:30:00",
+  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/drop-lesesirkel-formiddag",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
+  "free": true
+ },
+ {
   "title": "Kan vi få til solsambruk i Nord-Norge? Et åpent møte om arealbruk, solkraft og naturbaserte næringer",
   "start": "2026-09-17T11:30:00",
   "venue": "NIBIO Holt, Holtvegen 66, Tromsø, UiT Tromsø",
@@ -1377,21 +1269,21 @@
   "free": true
  },
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-17T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Coyote Vs Acme Per Ulv Pa Saken",
   "start": "2026-09-17T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
   "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1788437718174?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-17T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1788873310195?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1404,21 +1296,21 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-09-17T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Lave Forventninger",
   "start": "2026-09-17T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/lave-forventninger/1634",
   "image": "https://images.filmgrail.com/mediaserver/movies/lave-forventninger-8630/backdrop/1788856212105?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-09-17T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1535,7 +1427,7 @@
   "venue": "Tromsø GPS/Lower Pavilion, UiT Tromsø",
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/938294/gps_morning_coffee_arctic_marine_science_and_ge",
-  "image": "https://uit.no/Content/938295/cache=20260209163850/transformation=scale10000x560/Screenshot%202026-09-02%20162528.png",
+  "image": "https://uit.no/Content/940490/cache=20260909144509/transformation=scale10000x560/Screenshot%202026-09-09%20143447.png",
   "free": true
  },
  {
@@ -2261,7 +2153,7 @@
  {
   "title": "Arctic Youth frokostforelesning #6 med Tommy Sjåfjell",
   "start": "2026-10-21T08:15:00",
-  "venue": "digital lenke følger, UiT Tromsø",
+  "venue": "SVHUM B1005, UiT Tromsø",
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/940480/arctic_youth_frokostforelesning_6_med_tommy_sjaf",
   "image": "https://uit.no/Content/940479/cache=20260909132406/transformation=scale10000x560/Tommy-Sj%C3%A5fjell%20A-larm%20AP5.jpg",
@@ -2905,6 +2797,33 @@
   "url": "https://kulturhuset.tr.no/arrangement/vin-til-jul-vinsmaking-med-kjell-gabriel-hendrichs/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Vin-til-jul.jpg",
   "free": false
+ },
+ {
+  "title": "TØFL",
+  "start": "2026-12-12T20:00:00",
+  "venue": "Bryggeriet Scene, Tromsø",
+  "source": "bryggeriet",
+  "url": "https://www.bryggerietscene.no/program/tfl",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1789025019051-AZC38D292LLJ46YB4WQU/T%C3%98FL+-+Eg+e+deg+-+liggende+-+foto+av+Simen+Sj%C3%B8lund.jpg?format=1500w",
+  "free": false
+ },
+ {
+  "title": "Helsefak Research Seminar - Maria Arlèn Larsen",
+  "start": "2026-12-14T12:15:00",
+  "venue": "MH1 Store auditorium, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/932070/helsefak_research_seminar_-_maria_arl_n_larsen",
+  "image": "https://uit.no/Content/932059/cache=20262506110716/transformation=scale10000x560/Helsefak%20RS%20banner%202026.png",
+  "free": true
+ },
+ {
+  "title": "The English Book Club(14. desember)",
+  "start": "2026-12-14T17:15:00",
+  "venue": "In person at Tromsdalen Library, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/917965/the_english_book_club",
+  "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
+  "free": true
  },
  {
   "title": "Anders Jektvik",
