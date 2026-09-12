@@ -1,158 +1,5 @@
 [
  {
-  "title": "UNITED 93",
-  "start": "2026-09-10T18:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/united-93",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/United_93_1920x1080_INTL_ENG_keyart_full_digital_artwork_RGB_V1_sprk_BACKGROUNDART.jpg",
-  "free": false
- },
- {
-  "title": "BOOGIE NIGHTS",
-  "start": "2026-09-10T20:15:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/boogie-nights-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Boogie-Nights-01.jpg",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-11T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-11T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-09-11T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Coyote Vs Acme Per Ulv Pa Saken",
-  "start": "2026-09-11T16:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
-  "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1789114514331?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-09-11T16:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Grønnegata",
-  "start": "2026-09-11T18:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-06/Gr%C3%B8nnegata--webbanner-1920x1200-260526.png.webp?itok=wd8Uv9dT",
-  "free": false
- },
- {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-09-11T18:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-11T18:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1789118110327?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Practical Magic Family Legacy",
-  "start": "2026-09-11T18:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
-  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Lave Forventninger",
-  "start": "2026-09-11T18:50:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/lave-forventninger/1634",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lave-forventninger-8630/backdrop/1789046110736?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Høst: Markens lille grøde",
-  "start": "2026-09-11T19:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
-  "free": false
- },
- {
-  "title": "Chris Kläfford – The Kitchen Session Tour",
-  "start": "2026-09-11T19:30:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/chris-klafford-the-kitchen-session-tour/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-MAL-34.jpg",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-11T20:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-09-11T21:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mutiny",
-  "start": "2026-09-11T21:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mutiny/1576",
-  "image": "https://images.filmgrail.com/1787744345289-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Coyote Vs Acme Per Ulv Pa Saken",
   "start": "2026-09-12T11:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -162,21 +9,21 @@
   "free": false
  },
  {
-  "title": "Practical Magic Family Legacy",
-  "start": "2026-09-12T11:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
-  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Harila Nadelose Fjell",
   "start": "2026-09-12T11:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
   "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1789118110327?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Practical Magic Family Legacy",
+  "start": "2026-09-12T11:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
+  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -306,12 +153,30 @@
   "free": false
  },
  {
+  "title": "Grønnegata",
+  "start": "2026-09-12T18:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-06/Gr%C3%B8nnegata--webbanner-1920x1200-260526.png.webp?itok=wd8Uv9dT",
+  "free": false
+ },
+ {
   "title": "The Rivals Of Amziah King",
   "start": "2026-09-12T18:10:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-rivals-of-amziah-king/1623",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-rivals-of-amziah-king-9442/backdrop/1786457708391?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Høst: Markens lille grøde",
+  "start": "2026-09-12T18:30:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/host-markens-lille-grode",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Markens%20lille%20gr%C3%B8de%20MFIS3861_1.jpg.webp?itok=LmdRTkQW",
   "free": false
  },
  {
@@ -369,21 +234,21 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
-  "start": "2026-09-13T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Min Ukjente Familie",
   "start": "2026-09-13T11:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
   "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Minions And Monstre",
+  "start": "2026-09-13T11:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1089,21 +954,21 @@
   "free": false
  },
  {
-  "title": "Practical Magic Family Legacy",
-  "start": "2026-09-17T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
-  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Harila Nadelose Fjell",
   "start": "2026-09-17T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
   "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1789118110327?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Practical Magic Family Legacy",
+  "start": "2026-09-17T12:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
+  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1566,6 +1431,15 @@
   "free": false
  },
  {
+  "title": "Avengers Endgame Encore",
+  "start": "2026-09-25T19:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
+  "image": "https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?optimizer=image&width=1200&&optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Ohmwork Releasekonsert",
   "start": "2026-09-25T20:00:00",
   "venue": "Amtmandens, Tromsø",
@@ -1711,7 +1585,7 @@
  },
  {
   "title": "TROMSØ: En vinreise til Chile med Joe Fattorini!",
-  "start": "2026-09-30T19:00:00",
+  "start": "2026-09-30T19:30:00",
   "venue": "Amtmandens, Tromsø",
   "source": "amtmandens",
   "url": "https://nordavin.antitickets.com/event/tromsoe-en-reise-i-chilensk-vin-med-joe-fattorini",
@@ -2799,6 +2673,15 @@
   "free": false
  },
  {
+  "title": "Northern Lights Deep Learning Conference 2027",
+  "start": "2027-01-11T08:00:00",
+  "venue": "Teorifagbygget hus 1, Auditorium 1, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/921577/northern_lights_deep_learning_conference_2027",
+  "image": "https://uit.no/Content/921576/cache=20262402105722/transformation=scale10000x560/nldl2027_banner.png",
+  "free": true
+ },
+ {
   "title": "Erik Bye i 100!",
   "start": "2027-01-14T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -3247,6 +3130,15 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/jorda-rundt-pa-60-minutt-med-marta-norheim",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/Nyhet%20eller%20kalenderhendelse.png.webp?itok=5QUxXHBD",
   "free": true
+ },
+ {
+  "title": "Verdiløse Menn",
+  "start": "2027-09-24T19:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/verdilose-menn-2/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Verdilose-Menn-27.jpg",
+  "free": false
  },
  {
   "title": "The Johnny Cash & June Carter Show – 15 years from Jackson to Folsom",
