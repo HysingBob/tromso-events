@@ -1,65 +1,11 @@
 [
  {
-  "title": "BARNAS CINEMATEK | LILLE AMELIE",
-  "start": "2026-09-12T12:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-lille-amelie-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/AMELIE_PHOTO2_crop.jpg",
-  "free": false
- },
- {
-  "title": "Bokfest med Endre Lund Eriksen",
-  "start": "2026-09-12T12:00:00",
-  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/bokfest-med-endre-lund-eriksen",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-07/noras%20ark.jpg.webp?itok=RoRCdVg5",
-  "free": true
- },
- {
   "title": "Catch The Fox - Tankrommet",
   "start": "2026-09-12T20:00:00",
   "venue": "Bryggeriet Scene, Tromsø",
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/catch-the-fox",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1784553272918-PHLADJTBGM2N76Q6Q80Z/CTF+Dama+di+pregig+%281%29.jpeg?format=1500w",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-09-13T11:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "By Any Means",
-  "start": "2026-09-13T11:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/by-any-means/1622",
-  "image": "https://images.filmgrail.com/mediaserver/movies/by-any-means-9452/backdrop/1788254112907?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Min Ukjente Familie",
-  "start": "2026-09-13T11:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
-  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-09-13T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -70,24 +16,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/samiske-flytteveier-tegneworkshop-med-kai-mikkel-balto",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-08/Tegneworkshop.jpg.webp?itok=LJdQ7GLi",
   "free": true
- },
- {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-09-13T11:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Coyote Vs Acme Per Ulv Pa Saken",
-  "start": "2026-09-13T11:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
-  "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1789114514331?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "Harila Nadelose Fjell",
@@ -144,6 +72,24 @@
   "free": false
  },
  {
+  "title": "Coyote Vs Acme Per Ulv Pa Saken",
+  "start": "2026-09-13T15:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
+  "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1789114514331?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-09-13T15:50:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Pressure",
   "start": "2026-09-13T15:50:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -168,6 +114,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/siri-hustvedt-dansen-rundt-selvet/1620",
   "image": "https://images.filmgrail.com/mediaserver/movies/siri-hustvedt-dansen-rundt-selvet-9270/backdrop/1788254108060?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "En Nasjon I Sjakk",
+  "start": "2026-09-13T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
+  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -414,21 +369,21 @@
   "free": false
  },
  {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Odyssey",
   "start": "2026-09-15T14:30:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
   "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spider Man Brand New Day",
+  "start": "2026-09-15T14:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -783,21 +738,21 @@
   "free": false
  },
  {
-  "title": "Practical Magic Family Legacy",
-  "start": "2026-09-17T12:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
-  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Coyote Vs Acme Per Ulv Pa Saken",
   "start": "2026-09-17T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
   "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1789114514331?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Practical Magic Family Legacy",
+  "start": "2026-09-17T12:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
+  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -942,6 +897,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/940396/disputas_master_i_pedagogikk_utdanningsstudier",
   "image": "https://uit.no/Content/940403/cache=20260909100021/transformation=scale10000x560/Therese%20B.%20Halvorsen.jpg",
+  "free": true
+ },
+ {
+  "title": "Trial Lecture and Thesis Defense - Master of Science Synne Brynjulfsen",
+  "start": "2026-09-18T10:15:00",
+  "venue": "Store auditorium B302, Realfagbygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940713/trial_lecture_and_thesis_defense_-_master_of_scie",
+  "image": "https://uit.no/Content/940851/cache=20261309134638/transformation=scale10000x560/Synne.Brynjulfsen_bilde.jpg",
   "free": true
  },
  {
@@ -1095,6 +1059,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/940342/trial_lecture_and_disputation_-_msc_alo_s_rev_ret",
   "image": "https://uit.no/Content/940747/cache=20261109090823/transformation=scale10000x560/Portrett%20Alo%C3%AFs%20Rev%C3%A9ret.JPEG",
+  "free": true
+ },
+ {
+  "title": "Trial Lecture and Thesis Defense - Wijnand Sebastian Steeneker",
+  "start": "2026-09-22T10:15:00",
+  "venue": "Auditorium 1.022, Teknologibygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/940853/trial_lecture_and_thesis_defense_-_wijnand_sebast",
+  "image": "https://uit.no/Content/940854/cache=20261309141720/transformation=scale10000x560/Wijnand%20Steneker_photo.jpeg",
   "free": true
  },
  {
@@ -2500,15 +2473,6 @@
   "url": "https://tromsojazz.antitickets.com/event/romjulsjazz",
   "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI0M2JiOTU3YS1lY2QxLTRmODItYTlkNy1lMDQzZWE5YzUxMjhcLzNJZVNud0NLOGV1N21Ubzc1NmFnblZZNGx5V1wvM2NiOTgyMDItYjI3NS00MTU4LTg1NjctYmUxMzJmNmQ5NTNlLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwid2lkdGgiOjM3MCwiZml0IjoiY29udGFpbiJ9fX0=",
   "free": false
- },
- {
-  "title": "Northern Lights Deep Learning Conference 2027",
-  "start": "2027-01-11T08:00:00",
-  "venue": "Teorifagbygget hus 1, Auditorium 1, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/921577/northern_lights_deep_learning_conference_2027",
-  "image": "https://uit.no/Content/921576/cache=20262402105722/transformation=scale10000x560/nldl2027_banner.png",
-  "free": true
  },
  {
   "title": "Erik Bye i 100!",
