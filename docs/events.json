@@ -1,128 +1,11 @@
 [
  {
-  "title": "Practical Magic Family Legacy",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/practical-magic-family-legacy/1625",
-  "image": "https://images.filmgrail.com/mediaserver/movies/practical-magic-family-legacy-9298/backdrop/1787818837125?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Invite",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Min Ukjente Familie",
-  "start": "2026-09-15T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/min-ukjente-familie/1616",
-  "image": "https://images.filmgrail.com/mediaserver/movies/min-ukjente-familie-7342/backdrop/1786608907006?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sangklassekonsert",
-  "start": "2026-09-15T15:30:00",
-  "venue": "Musikkonservatoriets konsertsal, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/940313/sangklassekonsert",
-  "image": "https://uit.no/Content/940320/cache=20260809132617/transformation=scale10000x560/Sangklasse%202025-2026.png",
-  "free": true
- },
- {
-  "title": "Coyote Vs Acme Per Ulv Pa Saken",
-  "start": "2026-09-15T17:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
-  "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1789114514331?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Miss Moxy",
-  "start": "2026-09-15T17:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
-  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Grønnegata",
-  "start": "2026-09-15T18:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Gr%C3%B8nnegata-webbanner-terninger-1920x1200-260914_0.png.webp?itok=RaCfdob6",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-15T18:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1789118110327?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-09-15T18:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "UNITED 93",
   "start": "2026-09-15T18:45:00",
   "venue": "Verdensteatret, Tromsø",
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/united-93",
   "image": "https://www.verdensteatret.no/img/_movieThumb/United_93_1920x1080_INTL_ENG_keyart_full_digital_artwork_RGB_V1_sprk_BACKGROUNDART.jpg",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-09-15T21:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -133,33 +16,6 @@
   "url": "https://www.verdensteatret.no/movie/taxi-driver-1-1-1",
   "image": "https://www.verdensteatret.no/img/_movieThumb/Taxi_Driver_01.jpg",
   "free": false
- },
- {
-  "title": "Trial Lecture and Thesis Defense - Master of Science Ayush Somani",
-  "start": "2026-09-16T10:15:00",
-  "venue": "Store auditorium B302, Realfagbygget, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/938467/trial_lecture_and_thesis_defense_-_master_of_scie",
-  "image": "https://uit.no/Content/938470/cache=20260309210716/transformation=scale10000x560/Ayush_Somani_picture.jpg",
-  "free": true
- },
- {
-  "title": "The Strait of Hormuz as a Global Chokepoint: Geopolitical Implications for African Economies, Energy Security, Trade and Foreign Policy",
-  "start": "2026-09-16T10:15:00",
-  "venue": "GPS   UiT Tromsø Lower Pavilion/Nedre Lysthus, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/940723/the_strait_of_hormuz_as_a_global_chokepoint_geop",
-  "image": "https://uit.no/Content/940724/cache=20261009161514/transformation=scale10000x560/Screenshot%202026-09-10%20160255.png",
-  "free": true
- },
- {
-  "title": "Forskningsdagene på Universitetsbiblioteket: Gratis bøker",
-  "start": "2026-09-16T11:00:00",
-  "venue": "Foajéen på Kultur- og samfunnsfag biblioteket, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/940570/forskningsdagene_pa_universitetsbiblioteket_grat",
-  "image": "https://uit.no/Content/940621/cache=20261009105542/transformation=scale10000x560/GRATIS%20B%C3%98KER%20%283%29.png",
-  "free": true
  },
  {
   "title": "En Nasjon I Sjakk",
@@ -196,24 +52,6 @@
   "url": "https://fokus.aurorakino.no/f/pressure/1619",
   "image": "https://images.filmgrail.com/mediaserver/movies/pressure-9137/backdrop/1788956107927?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Utstilling: En verden verdt å leve i",
-  "start": "2026-09-16T12:00:00",
-  "venue": "Storgata 73-92, Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936739/utstilling_en_verden_verdt_a_leve_i",
-  "image": "https://uit.no/Content/936743/cache=20261908120957/transformation=scale10000x560/02-merete_saus.jpeg",
-  "free": true
- },
- {
-  "title": "Søknadslunsjer ved HSL: Evaluations in the European Commission: How the Process Really Works",
-  "start": "2026-09-16T12:00:00",
-  "venue": "Teorifagbygget 1 Rom 1.417, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936481/soknadslunsjer_ved_hsl_evaluations_in_the_europe",
-  "image": "https://uit.no/Content/936478/cache=20261708153527/transformation=scale10000x560/Tavla%20stort%20bilde.png",
-  "free": true
  },
  {
   "title": "ONSDAGSFILMEN | MATILDA",
@@ -339,6 +177,15 @@
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/ikke",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-05/Ikke-webbanner-1920x1200-260521.png.webp?itok=q2ua4HDY",
+  "free": false
+ },
+ {
+  "title": "Grønnegata",
+  "start": "2026-09-16T18:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Gr%C3%B8nnegata-webbanner-terninger-1920x1200-260914_0.png.webp?itok=RaCfdob6",
   "free": false
  },
  {
@@ -558,6 +405,15 @@
   "free": true
  },
  {
+  "title": "Internasjonalt seminar:Tromsø og Gaza - 25 år med vennskap og solidaritet",
+  "start": "2026-09-17T19:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/internasjonalt-seminar-tromso-og-gaza-25-ar-med-vennskap-og-solidaritet",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/Troms%C3%B8%20og%20Gaza.jpg.webp?itok=QPYMBJId",
+  "free": true
+ },
+ {
   "title": "BOOGIE NIGHTS",
   "start": "2026-09-17T20:15:00",
   "venue": "Verdensteatret, Tromsø",
@@ -621,21 +477,21 @@
   "free": false
  },
  {
-  "title": "Fjord",
-  "start": "2026-09-18T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Kjarast",
   "start": "2026-09-18T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/kjarast/1547",
   "image": "https://images.filmgrail.com/mediaserver/movies/kjarast-8494/backdrop/1788164111277?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Fjord",
+  "start": "2026-09-18T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/fjord/1578",
+  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -648,21 +504,21 @@
   "free": false
  },
  {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-09-18T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Resident Evil",
   "start": "2026-09-18T14:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/resident-evil/1543",
   "image": "https://images.filmgrail.com/mediaserver/movies/resident-evil-9274/backdrop/1788362113394?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "En Nasjon I Sjakk",
+  "start": "2026-09-18T14:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
+  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -923,7 +779,7 @@
   "venue": "Hålogaland Teater",
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/forsnakk-maja-bohne-johnsen",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/HT_Gr%C3%B8nnegata_Foto_Knut_AaserudL1790651_0.jpg.webp?itok=alBHbBKY",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Maja%20Portrett%20-%20LITT%20redigert-2_1.jpg.webp?itok=GnKgZ-fe",
   "free": false
  },
  {
@@ -1377,15 +1233,6 @@
   "free": false
  },
  {
-  "title": "Lave Forventninger",
-  "start": "2026-09-22T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/lave-forventninger/1634",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lave-forventninger-8630/backdrop/1789377308664?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Spa Weekend",
   "start": "2026-09-22T12:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -1395,12 +1242,12 @@
   "free": false
  },
  {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-09-22T14:30:00",
+  "title": "Lave Forventninger",
+  "start": "2026-09-22T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/lave-forventninger/1634",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lave-forventninger-8630/backdrop/1789377308664?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1410,6 +1257,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/resident-evil/1543",
   "image": "https://images.filmgrail.com/mediaserver/movies/resident-evil-9274/backdrop/1788362113394?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "En Nasjon I Sjakk",
+  "start": "2026-09-22T14:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
+  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1611,21 +1467,21 @@
   "free": false
  },
  {
-  "title": "The Invite",
-  "start": "2026-09-23T17:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
-  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Toy Story 5",
   "start": "2026-09-23T17:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
   "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Invite",
+  "start": "2026-09-23T17:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-invite/1544",
+  "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1652,7 +1508,7 @@
   "venue": "Ground floor, Culture and Social Sciences Library, UiT Tromsø",
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/940273/phd_caf_navigating_life_in_norway_as_an_interna",
-  "image": "https://uit.no/Content/940744/cache=20261109085931/transformation=scale10000x560/Tavla.png",
+  "image": "https://uit.no/Content/941113/cache=20261609103519/transformation=scale10000x560/Tavla.png",
   "free": true
  },
  {
@@ -1773,6 +1629,15 @@
   "free": false
  },
  {
+  "title": "Avengers Endgame Encore",
+  "start": "2026-09-26T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
+  "image": "https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?optimizer=image&width=1200&&optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Kunstverksted: Lag din egen zine med BHMN og Mondo Books for barn og barnefamilier",
   "start": "2026-09-26T12:00:00",
   "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
@@ -1870,6 +1735,15 @@
   "url": "https://uit.no/tavla/artikkel/937156/beyond_the_hype_what_is_quantum_computing",
   "image": "https://uit.no/Content/937155/cache=20262208115144/transformation=scale10000x560/Dennis%20The%20portrait.jpeg",
   "free": true
+ },
+ {
+  "title": "La Fjella Leve",
+  "start": "2026-09-29T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-fjella-leve/1560",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-fjella-leve-8718/backdrop/1788261312790?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Babytreff på biblioteket",
@@ -2490,6 +2364,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-zoj/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-5.jpg",
+  "free": false
+ },
+ {
+  "title": "Vi vet ka det handle om",
+  "start": "2026-10-31T14:00:00",
+  "venue": "Bryggeriet Scene, Tromsø",
+  "source": "bryggeriet",
+  "url": "https://www.bryggerietscene.no/program/5ygygacs8x133vmidw732mbkb64c9o",
+  "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1789481426792-8Y9RVJK04N5E0SL6SVZ2/Vi+vet+ka+det+handle+om+web+%281%29.jpg?format=1500w",
   "free": false
  },
  {
@@ -3528,6 +3411,15 @@
   "free": true
  },
  {
+  "title": "Conference on Language, Brain & Learning",
+  "start": "2027-06-24T08:00:00",
+  "venue": "UiT The Arctic University of Norway, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/931267/conference_on_language_brain_learning",
+  "image": "https://uit.no/Content/931299/cache=20261206104416/transformation=scale10000x560/clabl27_1200x628.png",
+  "free": true
+ },
+ {
   "title": "Lesesirkel: Fars rygg",
   "start": "2027-08-18T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
@@ -3561,6 +3453,15 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/jorda-rundt-pa-60-minutt-med-marta-norheim",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/Nyhet%20eller%20kalenderhendelse.png.webp?itok=5QUxXHBD",
+  "free": true
+ },
+ {
+  "title": "31st EU-US Transport Task Force Workshop",
+  "start": "2027-09-07T08:15:00",
+  "venue": "Radisson Blu Hotel Tromsø, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/936431/31st_eu-us_transport_task_force_workshop",
+  "image": "https://uit.no/Content/936436/cache=20261708122908/transformation=scale10000x560/OEG-2014-03-29-13-32-14-1.jpg",
   "free": true
  },
  {
