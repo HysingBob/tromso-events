@@ -1,59 +1,5 @@
 [
  {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-09-20T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1789118110327?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-09-20T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Toy Story 5",
-  "start": "2026-09-20T11:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/toy-story-5/1445",
-  "image": "https://images.filmgrail.com/mediaserver/movies/toy-story-5-7772/backdrop/1780316107659?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Bamse Og Havets Hemmelighet",
-  "start": "2026-09-20T11:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/bamse-og-havets-hemmelighet/1502",
-  "image": "https://images.filmgrail.com/mediaserver/movies/bamse-og-havets-hemmelighet-8565/backdrop/1773321314446?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kjarast",
-  "start": "2026-09-20T11:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kjarast/1547",
-  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-09-20T11:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Miss Moxy",
   "start": "2026-09-20T13:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -108,15 +54,6 @@
   "free": false
  },
  {
-  "title": "Lydvandring",
-  "start": "2026-09-20T14:00:00",
-  "venue": "Tromsø sentrum / Torghuken / Hermes II, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/938505/lydvandring",
-  "image": "https://uit.no/Content/938532/cache=20260409112159/transformation=scale10000x560/Beast%20and%20svarm%20meet.jpg",
-  "free": true
- },
- {
   "title": "Resident Evil",
   "start": "2026-09-20T15:15:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -141,6 +78,24 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-invite/1544",
   "image": "https://images.filmgrail.com/mediaserver/movies/the-invite-9347/backdrop/1782723001201?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-09-20T16:15:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1789118110327?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Paw Patrol Dinofilmen",
+  "start": "2026-09-20T16:15:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
+  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -195,6 +150,24 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
   "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Kjarast",
+  "start": "2026-09-20T18:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kjarast/1547",
+  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-09-20T20:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -486,6 +459,15 @@
   "free": true
  },
  {
+  "title": "CLASH BY NIGHT",
+  "start": "2026-09-22T18:45:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/clash-by-night",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/CLASH-BY-NIGHT-3_crop.jpeg",
+  "free": false
+ },
+ {
   "title": "Fuglefotografering | Temakveld med BirdLife Tromsø",
   "start": "2026-09-22T19:00:00",
   "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
@@ -501,6 +483,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
   "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "LEGALLY BLONDE",
+  "start": "2026-09-22T21:00:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/legally-blonde",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/LegallyBlonde-4_crop.jpeg",
   "free": false
  },
  {
@@ -555,6 +546,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/fjord/1578",
   "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "ONSDAGSFILMEN | BRØDRENE LØVEHJERTE",
+  "start": "2026-09-23T13:30:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/brodrene-lovehjerte-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/Broderna-lejonhjarta_002.jpg",
   "free": false
  },
  {
@@ -711,6 +711,15 @@
   "free": true
  },
  {
+  "title": "VINNERFILMER FRA KORTFILMFESTIVALEN",
+  "start": "2026-09-24T18:00:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/arrangement/vinnerfilmer-fra-kortfilmfestivalen",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/Fata-Morgana-Still.jpg",
+  "free": false
+ },
+ {
   "title": "Arktisk Filharmoni – Mestermøter",
   "start": "2026-09-24T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -735,6 +744,15 @@
   "source": "bryggeriet",
   "url": "https://www.bryggerietscene.no/program/lars-vaular-tankrommet",
   "image": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/1780908616253-S0F0WDA04OHJC492RRZ0/R1-08595-0005+%281%29.jpg?format=1500w",
+  "free": false
+ },
+ {
+  "title": "TAXI DRIVER",
+  "start": "2026-09-24T20:30:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/taxi-driver-1-1-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/Taxi_Driver_01.jpg",
   "free": false
  },
  {
@@ -979,6 +997,24 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/drop-lesesirkel-ettermiddag",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20ettermiddag.png.webp?itok=NH2H2I37",
   "free": true
+ },
+ {
+  "title": "CLASH BY NIGHT",
+  "start": "2026-09-29T18:45:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/clash-by-night",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/CLASH-BY-NIGHT-3_crop.jpeg",
+  "free": false
+ },
+ {
+  "title": "BOOGIE NIGHTS",
+  "start": "2026-09-29T20:45:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/boogie-nights-1",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/Boogie-Nights-01.jpg",
+  "free": false
  },
  {
   "title": "Invitasjon til sykkelsørvis 2026 – Gratis for studenter!(30. september)",
