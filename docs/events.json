@@ -1,68 +1,5 @@
 [
  {
-  "title": "Aktiviter på biblioteket i høstferien",
-  "start": "2026-10-01T12:00:00",
-  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/aktiviter-pa-biblioteket-i-hostferien",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/45bb9e27-2fd7-4207-9a0e-38dcd44f9432.png.webp?itok=GidkZ6AR",
-  "free": true
- },
- {
-  "title": "Resident Evil",
-  "start": "2026-10-01T13:45:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/resident-evil/1543",
-  "image": "https://images.filmgrail.com/1789633884460-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-10-01T13:45:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-10-01T13:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-10-01T14:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Glemselens Oy",
-  "start": "2026-10-01T14:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/glemselens-oy/1581",
-  "image": "https://images.filmgrail.com/mediaserver/movies/glemselens-oy-9293/backdrop/1790327712403?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-10-01T14:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Sauen Shaun Gardens Farbannelse",
   "start": "2026-10-01T16:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -90,6 +27,15 @@
   "free": false
  },
  {
+  "title": "Resident Evil",
+  "start": "2026-10-01T17:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/resident-evil/1543",
+  "image": "https://images.filmgrail.com/1789633884460-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Grønnegata",
   "start": "2026-10-01T18:00:00",
   "venue": "Hålogaland Teater",
@@ -105,6 +51,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
   "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "En Nasjon I Sjakk",
+  "start": "2026-10-01T18:15:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
+  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -133,6 +88,15 @@
   "url": "https://uit.no/tavla/artikkel/941322/internasjonalt_seminar_war_and_peace_in_south_as",
   "image": "https://uit.no/Content/942009/cache=20263009071920/transformation=scale10000x560/oct%201%20seminar.png",
   "free": true
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-10-01T20:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "THE END OF VIOLENCE",
@@ -258,6 +222,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/941500/aakre-tildelingen_2026",
   "image": "https://uit.no/Content/941490/cache=20262209092154/transformation=scale10000x560/Aakre-tildelingen%202026_infoskjerm.jpg",
+  "free": true
+ },
+ {
+  "title": "Aktiviter på biblioteket i høstferien",
+  "start": "2026-10-02T12:00:00",
+  "venue": "Hovedbiblioteket, barneavdelingen, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/aktiviter-pa-biblioteket-i-hostferien",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/45bb9e27-2fd7-4207-9a0e-38dcd44f9432.png.webp?itok=GidkZ6AR",
   "free": true
  },
  {
@@ -2340,6 +2313,15 @@
   "free": false
  },
  {
+  "title": "Bibliotekets litteraturpris 2026 – utdeling!",
+  "start": "2026-11-04T19:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/bibliotekets-litteraturpris-2026-utdeling",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/BLP26_Skjerm_Liggende.jpg.webp?itok=MS50CooX",
+  "free": true
+ },
+ {
   "title": "Barn som pårørende – kom og prøv en fiks ferdig læringsressurs om terapeutisk kompetanse",
   "start": "2026-11-05T09:15:00",
   "venue": "ILP 2.072, UiT Tromsø",
@@ -3040,15 +3022,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/klatremus-og-de-andre-dyrene-i-hakkebakkeskogen/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Dyrene-i-hakkebakkeskogen-2.jpg",
   "free": false
- },
- {
-  "title": "Litteraten: Olaug Nilssen i samtale med Ingvild Holvik",
-  "start": "2027-04-13T19:00:00",
-  "venue": "Tromsø bibliotek",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/litteraten-olaug-nilssen-i-samtale-med-ingvild-holvik",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/Olaug%20Nilssen.jpg.webp?itok=xJtmmmUM",
-  "free": true
  },
  {
   "title": "Internasjonalt seminar:Who owns Greenland? And why it's not for sale",
