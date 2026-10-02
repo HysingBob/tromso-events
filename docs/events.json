@@ -1,101 +1,11 @@
 [
  {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-10-01T16:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Avengers Endgame Encore",
-  "start": "2026-10-01T17:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
-  "image": "https://images.filmgrail.com/1790236730051-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Ikke!",
-  "start": "2026-10-01T17:30:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/ikke",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Ikke-webbanner-1920x1200-260921-terning.png.webp?itok=xoedlUU3",
-  "free": false
- },
- {
-  "title": "Resident Evil",
-  "start": "2026-10-01T17:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/resident-evil/1543",
-  "image": "https://images.filmgrail.com/1789633884460-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Grønnegata",
-  "start": "2026-10-01T18:00:00",
-  "venue": "Hålogaland Teater",
-  "source": "halogalandteater",
-  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
-  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Gr%C3%B8nnegata-webbanner-terninger-1920x1200-260914_0.png.webp?itok=RaCfdob6",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-10-01T18:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "En Nasjon I Sjakk",
-  "start": "2026-10-01T18:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
-  "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Lave Forventninger",
-  "start": "2026-10-01T18:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/lave-forventninger/1634",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lave-forventninger-8630/backdrop/1789377308664?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "LEGALLY BLONDE",
   "start": "2026-10-01T18:30:00",
   "venue": "Verdensteatret, Tromsø",
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/legally-blonde",
   "image": "https://www.verdensteatret.no/img/_movieThumb/LegallyBlonde-4_crop.jpeg",
-  "free": false
- },
- {
-  "title": "Internasjonalt Seminar: War and Peace in South Asia",
-  "start": "2026-10-01T19:00:00",
-  "venue": "Tromsø Bibliotek, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941322/internasjonalt_seminar_war_and_peace_in_south_as",
-  "image": "https://uit.no/Content/942009/cache=20263009071920/transformation=scale10000x560/oct%201%20seminar.png",
-  "free": true
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-10-01T20:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -106,123 +16,6 @@
   "url": "https://www.verdensteatret.no/movie/the-end-of-violence",
   "image": "https://www.verdensteatret.no/img/_movieThumb/THE-END-OF-VIOLENCE-c-WWS-1.jpg",
   "free": false
- },
- {
-  "title": "Heart Of The Beast",
-  "start": "2026-10-01T20:45:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/heart-of-the-beast/1630",
-  "image": "https://images.filmgrail.com/mediaserver/movies/heart-of-the-beast-9382/backdrop/1789729855144?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Enzo",
-  "start": "2026-10-01T20:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/enzo/1583",
-  "image": "https://images.filmgrail.com/mediaserver/movies/enzo-8293/backdrop/1787649310436?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Insidious Out Of The Further",
-  "start": "2026-10-01T21:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/insidious-out-of-the-further/1545",
-  "image": "https://images.filmgrail.com/1787230529365-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Shut Up and Write - and Read!",
-  "start": "2026-10-02T10:15:00",
-  "venue": "UB 244 (Universitetsbiblioteket, 2. etasje), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941456/shut_up_and_write_-_and_read",
-  "image": "https://uit.no/Content/862029/cache=20240110150533/transformation=scale10000x560/Shut%20Up%20and%20Write%20Copy%20%281%29.jpg",
-  "free": true
- },
- {
-  "title": "Trial Lecture and Thesis Defense - Karoline Nordli",
-  "start": "2026-10-02T10:15:00",
-  "venue": "Store auditorium B302, Realfagbygget, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941743/trial_lecture_and_thesis_defense_-_karoline_nordli",
-  "image": "https://uit.no/Content/941742/cache=20262409181758/transformation=scale10000x560/Karoline.Nordli_Bilde.jpg",
-  "free": true
- },
- {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-10-02T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Digger",
-  "start": "2026-10-02T11:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/digger/1584",
-  "image": "https://images.filmgrail.com/mediaserver/movies/digger-8437/backdrop/1790065256803?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Glemselens Oy",
-  "start": "2026-10-02T11:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/glemselens-oy/1581",
-  "image": "https://images.filmgrail.com/mediaserver/movies/glemselens-oy-9293/backdrop/1790327712403?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kulturnatta: barnas museum!",
-  "start": "2026-10-02T11:00:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941230/kulturnatta_barnas_museum",
-  "image": "https://uit.no/Content/941221/cache=20261709110855/transformation=scale10000x560/a2_25fugler_bok2%20copy.jpg",
-  "free": true
- },
- {
-  "title": "Fredagseventyret",
-  "start": "2026-10-02T11:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
-  "free": true
- },
- {
-  "title": "Kjarast",
-  "start": "2026-10-02T11:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kjarast/1547",
-  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Spiralis",
-  "start": "2026-10-02T11:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spiralis/1633",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spiralis-9210/backdrop/1790493307377?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Aakre-tildelingen 2026",
-  "start": "2026-10-02T12:00:00",
-  "venue": "InnoHub-lokalene (ved MH-biblioteket), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941500/aakre-tildelingen_2026",
-  "image": "https://uit.no/Content/941490/cache=20262209092154/transformation=scale10000x560/Aakre-tildelingen%202026_infoskjerm.jpg",
-  "free": true
  },
  {
   "title": "Aktiviter på biblioteket i høstferien",
@@ -261,12 +54,30 @@
   "free": false
  },
  {
+  "title": "Digger",
+  "start": "2026-10-02T14:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/digger/1584",
+  "image": "https://images.filmgrail.com/mediaserver/movies/digger-8437/backdrop/1790065256803?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Avengers Endgame Encore",
   "start": "2026-10-02T14:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
   "image": "https://images.filmgrail.com/1790236730051-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sauen Shaun Gardens Farbannelse",
+  "start": "2026-10-02T16:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -285,6 +96,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/reisen-til-piemonte/1631",
   "image": "https://images.filmgrail.com/mediaserver/movies/reisen-til-piemonte-9490/backdrop/1788350525595?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Ikke!",
+  "start": "2026-10-02T17:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/ikke",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Ikke-webbanner-1920x1200-260921-terning.png.webp?itok=xoedlUU3",
   "free": false
  },
  {
@@ -396,6 +216,15 @@
   "free": false
  },
  {
+  "title": "Kjarast",
+  "start": "2026-10-02T21:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kjarast/1547",
+  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Heart Of The Beast",
   "start": "2026-10-02T21:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -405,21 +234,21 @@
   "free": false
  },
  {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-10-03T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Digger",
   "start": "2026-10-03T11:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/digger/1584",
   "image": "https://images.filmgrail.com/mediaserver/movies/digger-8437/backdrop/1790065256803?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sauen Shaun Gardens Farbannelse",
+  "start": "2026-10-03T11:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -477,21 +306,21 @@
   "free": false
  },
  {
-  "title": "Spiralis",
-  "start": "2026-10-03T14:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spiralis/1633",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spiralis-9210/backdrop/1790493307377?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Sense And Sensibility",
   "start": "2026-10-03T14:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
   "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Spiralis",
+  "start": "2026-10-03T14:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/spiralis/1633",
+  "image": "https://images.filmgrail.com/mediaserver/movies/spiralis-9210/backdrop/1790493307377?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -531,6 +360,15 @@
   "free": false
  },
  {
+  "title": "Grønnegata",
+  "start": "2026-10-03T18:00:00",
+  "venue": "Hålogaland Teater",
+  "source": "halogalandteater",
+  "url": "https://www.halogalandteater.no/produksjon/2026/gronnegata",
+  "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/Gr%C3%B8nnegata-webbanner-terninger-1920x1200-260914_0.png.webp?itok=RaCfdob6",
+  "free": false
+ },
+ {
   "title": "Drapet Pa Benjamin Hermansen",
   "start": "2026-10-03T18:30:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -567,21 +405,21 @@
   "free": false
  },
  {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-10-04T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Digger",
   "start": "2026-10-04T11:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/digger/1584",
   "image": "https://images.filmgrail.com/mediaserver/movies/digger-8437/backdrop/1790065256803?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sauen Shaun Gardens Farbannelse",
+  "start": "2026-10-04T11:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -972,6 +810,15 @@
   "free": true
  },
  {
+  "title": "SKK Sensommerfest 6. oktober",
+  "start": "2026-10-06T13:30:00",
+  "venue": "ARDNA, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/942156/skk_sensommerfest_6_oktober",
+  "image": "https://uit.no/Content/942157/cache=20260210113003/transformation=scale10000x560/A%CC%8Ase%20Hiort%20Lerviks%20priser%20og%20stipend%202026.png",
+  "free": true
+ },
+ {
   "title": "Harila Nadelose Fjell",
   "start": "2026-10-06T14:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -1134,6 +981,15 @@
   "free": false
  },
  {
+  "title": "Help Desk: Research Data, Coding & HPC",
+  "start": "2026-10-07T14:00:00",
+  "venue": "UB 338, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
+  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
+  "free": true
+ },
+ {
   "title": "Sauen Shaun Gardens Farbannelse",
   "start": "2026-10-07T16:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -1206,21 +1062,21 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-10-07T19:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Avengers Endgame Encore",
   "start": "2026-10-07T19:15:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
   "image": "https://images.filmgrail.com/1790236730051-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-10-07T19:15:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1287,21 +1143,21 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-10-08T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Reisen Til Piemonte",
   "start": "2026-10-08T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/reisen-til-piemonte/1631",
   "image": "https://images.filmgrail.com/mediaserver/movies/reisen-til-piemonte-9490/backdrop/1788350525595?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-10-08T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1428,6 +1284,24 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/941457/shut_up_and_write_-_and_read",
   "image": "https://uit.no/Content/862029/cache=20240110150533/transformation=scale10000x560/Shut%20Up%20and%20Write%20Copy%20%281%29.jpg",
+  "free": true
+ },
+ {
+  "title": "Trial Lecture and Thesis Defense - Alessandro Cotronei",
+  "start": "2026-10-09T10:15:00",
+  "venue": "Auditorium 1.022, Teknologibygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/942139/trial_lecture_and_thesis_defense_-_alessandro_cot",
+  "image": "https://uit.no/Content/942138/cache=20260110183822/transformation=scale10000x560/Alessandro.Cotronei_bilde.jpg",
+  "free": true
+ },
+ {
+  "title": "Fredagseventyret",
+  "start": "2026-10-09T11:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
   "free": true
  },
  {
@@ -1710,6 +1584,15 @@
   "free": true
  },
  {
+  "title": "Tilbake Til Tottori",
+  "start": "2026-10-15T18:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/tilbake-til-tottori/1540",
+  "image": "https://images.filmgrail.com/mediaserver/movies/tilbake-til-tottori-8653/backdrop/1784293752035?optimizer=image&width=1200&optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Foregangskvinner i nord 2027",
   "start": "2026-10-15T18:00:00",
   "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
@@ -1726,6 +1609,15 @@
   "url": "https://www.verdensteatret.no/movie/teenage-sex-and-death-at-camp-miasma",
   "image": "https://www.verdensteatret.no/img/_movieThumb/CampMiasma_Still_4_cMUBI_crop.jpg",
   "free": false
+ },
+ {
+  "title": "Disputas Master Libbie Anna Katsev",
+  "start": "2026-10-16T10:15:00",
+  "venue": "SVHUM B-1005, digitalt, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/941344/disputas_master_libbie_anna_katsev",
+  "image": "https://uit.no/Content/930443/cache=20263105200749/transformation=scale10000x560/HSL-disputas2.JPG",
+  "free": true
  },
  {
   "title": "Reindeer, Wolves and Bears: Environmental and Spiritual Relations with Humans",
@@ -2133,6 +2025,15 @@
   "free": true
  },
  {
+  "title": "ArcHum Research Seminar: Kunstbiennaler i nord - øvelser i beredskap",
+  "start": "2026-10-29T15:15:00",
+  "venue": "SVHUM B-1003, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/942062/archum_research_seminar_kunstbiennaler_i_nord_-",
+  "image": "https://uit.no/Content/942063/cache=20263009164301/transformation=scale10000x560/IMG_8114.jpeg",
+  "free": true
+ },
+ {
   "title": "Tromsø World Festival – Bliss Quintet",
   "start": "2026-10-29T18:00:00",
   "venue": "Lillescenen, Kulturhuset Tromsø",
@@ -2202,15 +2103,6 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/936484/publishing_unlocked_a_workshop_for_phds_and_post",
   "image": "https://uit.no/Content/838820/cache=20252410132458/transformation=scale10000x560/CLaBL-2024.png",
-  "free": true
- },
- {
-  "title": "ArcHum Research Seminar: Kunstbiennaler i nord - øvelser i beredskap",
-  "start": "2026-10-30T13:15:00",
-  "venue": "SVHUM B-1003, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/942062/archum_research_seminar_kunstbiennaler_i_nord_-",
-  "image": "https://uit.no/Content/942063/cache=20263009164301/transformation=scale10000x560/IMG_8114.jpeg",
   "free": true
  },
  {
@@ -3022,15 +2914,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/klatremus-og-de-andre-dyrene-i-hakkebakkeskogen/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Dyrene-i-hakkebakkeskogen-2.jpg",
   "free": false
- },
- {
-  "title": "Internasjonalt seminar:Who owns Greenland? And why it's not for sale",
-  "start": "2027-04-16T19:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/04/internasjonalt-seminar-who-owns-greenland-and-why-its-not-sale",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-04/Who%20owns%20Greenland.jpg.webp?itok=S5MmAr0O",
-  "free": true
  },
  {
   "title": "Lunsjbokprat: de nominerte til Bibliotekets litteraturpris!",
