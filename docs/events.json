@@ -1062,21 +1062,21 @@
   "free": false
  },
  {
-  "title": "Avengers Endgame Encore",
-  "start": "2026-10-07T19:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
-  "image": "https://images.filmgrail.com/1790236730051-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "The Odyssey",
   "start": "2026-10-07T19:15:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
   "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Avengers Endgame Encore",
+  "start": "2026-10-07T19:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/avengers-endgame-encore/1657",
+  "image": "https://images.filmgrail.com/1790236730051-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2914,15 +2914,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/klatremus-og-de-andre-dyrene-i-hakkebakkeskogen/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Dyrene-i-hakkebakkeskogen-2.jpg",
   "free": false
- },
- {
-  "title": "Lunsjbokprat: de nominerte til Bibliotekets litteraturpris!",
-  "start": "2027-04-22T12:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/03/lunsjbokprat-de-nominerte-til-bibliotekets-litteraturpris",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-03/Lunsjbokprat%20Bibliotekets%20litteraturpris%202026.png.webp?itok=edzAhXgw",
-  "free": true
  },
  {
   "title": "Så nære vi var – En hyllest til Lillebjørn Nilsen",
