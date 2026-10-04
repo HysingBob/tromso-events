@@ -1,14 +1,5 @@
 [
  {
-  "title": "Søndagsfilm",
-  "start": "2026-10-04T13:00:00",
-  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
-  "free": true
- },
- {
   "title": "Glemselens Oy",
   "start": "2026-10-04T13:15:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -738,21 +729,21 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-10-08T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Reisen Til Piemonte",
   "start": "2026-10-08T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/reisen-til-piemonte/1631",
   "image": "https://images.filmgrail.com/mediaserver/movies/reisen-til-piemonte-9490/backdrop/1788350525595?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Odyssey",
+  "start": "2026-10-08T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -961,6 +952,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-kare-kivijarvi-morkets-mester/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Kare-Kivijarvi-TROMSO-Skjerm-liggende.jpg",
   "free": false
+ },
+ {
+  "title": "Søndagsfilm",
+  "start": "2026-10-11T13:00:00",
+  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
+  "free": true
  },
  {
   "title": "Terje Tysland – 75 år, Heile livet på en kveld!",
