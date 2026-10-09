@@ -18,51 +18,6 @@
   "free": false
  },
  {
-  "title": "Sense And Sensibility",
-  "start": "2026-10-09T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "La Fjella Leve",
-  "start": "2026-10-09T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/la-fjella-leve/1560",
-  "image": "https://images.filmgrail.com/mediaserver/movies/la-fjella-leve-8718/backdrop/1790771027894?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-10-09T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Heart Of The Beast",
-  "start": "2026-10-09T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/heart-of-the-beast/1630",
-  "image": "https://images.filmgrail.com/mediaserver/movies/heart-of-the-beast-9382/backdrop/1789729855144?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Suser Avgarde",
-  "start": "2026-10-09T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/suser-avgarde/1663",
-  "image": "https://images.filmgrail.com/1791460394067-SAV-MOT_FTR-NO_cut2-2_still_2026-05-277160x4320.1838418384_F.jpg?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Sauen Shaun Gardens Farbannelse",
   "start": "2026-10-09T16:45:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -114,6 +69,33 @@
   "source": "halogalandteater",
   "url": "https://www.halogalandteater.no/produksjon/2026/takk-alt",
   "image": "https://www.halogalandteater.no/sites/default/files/styles/small_banner/public/cover-images/2026-09/HT_Takk_for_alt_foto_Knut_AaserudL1010378-kopi.jpeg.webp?itok=E5bWJLQG",
+  "free": false
+ },
+ {
+  "title": "Sense And Sensibility",
+  "start": "2026-10-09T18:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Heart Of The Beast",
+  "start": "2026-10-09T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/heart-of-the-beast/1630",
+  "image": "https://images.filmgrail.com/mediaserver/movies/heart-of-the-beast-9382/backdrop/1789729855144?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "La Fjella Leve",
+  "start": "2026-10-09T18:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/la-fjella-leve/1560",
+  "image": "https://images.filmgrail.com/mediaserver/movies/la-fjella-leve-8718/backdrop/1790771027894?optimizer=image&width=1200",
   "free": false
  },
  {
