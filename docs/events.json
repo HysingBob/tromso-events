@@ -1,14 +1,5 @@
 [
  {
-  "title": "Opening to vulnerability and connection",
-  "start": "2026-10-10T11:00:00",
-  "venue": "Løvetann, Grønnegata 118A, Tromsø",
-  "source": "lovetann",
-  "url": "https://www.tickettailor.com/events/lovetann/2453480",
-  "image": "",
-  "free": false
- },
- {
   "title": "Ikke!",
   "start": "2026-10-10T11:30:00",
   "venue": "Hålogaland Teater",
@@ -243,21 +234,21 @@
   "free": false
  },
  {
-  "title": "Monsterfabrikken",
-  "start": "2026-10-11T11:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monsterfabrikken/1586",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monsterfabrikken-8633/backdrop/1790068088358?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "En Nasjon I Sjakk",
   "start": "2026-10-11T11:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/en-nasjon-i-sjakk/1612",
   "image": "https://images.filmgrail.com/mediaserver/movies/en-nasjon-i-sjakk-5686/backdrop/1789114510965?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Monsterfabrikken",
+  "start": "2026-10-11T11:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/monsterfabrikken/1586",
+  "image": "https://images.filmgrail.com/mediaserver/movies/monsterfabrikken-8633/backdrop/1790068088358?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2779,24 +2770,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/vidar-hansen-kunsten-a-lese-kroppssprak/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Vidar-Hansen-Kunsten-a-lese-kroppssprak-1.jpg",
   "free": false
- },
- {
-  "title": "Internasjonalt seminar:Arktis, fred og konflikt- felles hav, men også felles sikkerhet?",
-  "start": "2027-04-30T19:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/04/internasjonalt-seminar-arktis-fred-og-konflikt-felles-hav-men-ogsa",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-04/Arktis%2C%20fred%20og%20konflikt.jpg.webp?itok=i7gSmYhH",
-  "free": true
- },
- {
-  "title": "Lesesirkel: Vi ble kidnappet",
-  "start": "2027-05-05T17:30:00",
-  "venue": "Hovedbiblioteket, møterommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2025/12/lesesirkel-vi-ble-kidnappet",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-12/Lesesirkel%20Vi%20ble%20kidnappet.png.webp?itok=HeHvTZAS",
-  "free": true
  },
  {
   "title": "Lunsjbokprat: bøker fra østlige Europa",
