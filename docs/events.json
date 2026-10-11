@@ -1,59 +1,5 @@
 [
  {
-  "title": "En samtale om døden",
-  "start": "2026-10-10T13:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/en-samtale-om-doden",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/En%20samtale%20om%20d%C3%B8den.png.webp?itok=zKbn_rl3",
-  "free": true
- },
- {
-  "title": "Søndagsfilm",
-  "start": "2026-10-11T13:00:00",
-  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
-  "free": true
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-10-11T13:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-10-11T13:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Glemselens Oy",
-  "start": "2026-10-11T13:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/glemselens-oy/1581",
-  "image": "https://images.filmgrail.com/mediaserver/movies/glemselens-oy-9293/backdrop/1790327712403?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kjarast",
-  "start": "2026-10-11T13:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kjarast/1547",
-  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Verity",
   "start": "2026-10-11T14:30:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -105,6 +51,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/coyote-vs-acme-per-ulv-pa-saken/1624",
   "image": "https://images.filmgrail.com/mediaserver/movies/coyote-vs-acme-per-ulv-pa-saken-9491/backdrop/1789114514331?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-10-11T17:30:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1158,6 +1113,15 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/lohkkanboddu-samegillii-lesestund-pa-samisk",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-07/f273f8153ee51a13a23a0d574386a820.jpg.webp?itok=M6Z9KHxl",
+  "free": true
+ },
+ {
+  "title": "Søndagsfilm",
+  "start": "2026-10-18T13:00:00",
+  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
   "free": true
  },
  {
