@@ -18,15 +18,6 @@
   "free": false
  },
  {
-  "title": "The English Book Club",
-  "start": "2026-10-12T17:15:00",
-  "venue": "In person at Tromsdalen Library, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/917968/the_english_book_club",
-  "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
-  "free": true
- },
- {
   "title": "Sense And Sensibility",
   "start": "2026-10-12T18:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -873,6 +864,15 @@
   "free": false
  },
  {
+  "title": "Verity",
+  "start": "2026-10-16T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/verity/1548",
+  "image": "https://images.filmgrail.com/mediaserver/movies/verity-9225/backdrop/1789132511656?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Beredskapsseminaret på ISK: “Vi skyt på skiltan, de samiske skiltan” – fra dekoloniale brudd til lokal beredskap(16. oktober)",
   "start": "2026-10-16T13:15:00",
   "venue": "SVHUM A3018 og TEAMS, UiT Tromsø",
@@ -889,6 +889,15 @@
   "url": "https://uit.no/tavla/artikkel/942565/she-nor_women_s_health_network_seminar_-_122_ways",
   "image": "https://uit.no/Content/942889/cache=20261210144041/transformation=scale10000x560/Bilde_She-Nor.jpg",
   "free": true
+ },
+ {
+  "title": "Sauen Shaun Gardens Farbannelse",
+  "start": "2026-10-16T14:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Mysteriepakken",
@@ -915,6 +924,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/whalefall/1665",
   "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1788852804501?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Other Mommy",
+  "start": "2026-10-16T21:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/other-mommy/1662",
+  "image": "https://images.filmgrail.com/1791450477015-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1908,7 +1926,7 @@
   "free": false
  },
  {
-  "title": "The English Book Club(16. november)",
+  "title": "The English Book Club",
   "start": "2026-11-16T17:15:00",
   "venue": "In person at Tromsdalen Library, UiT Tromsø",
   "source": "uit",
