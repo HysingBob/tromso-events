@@ -23,7 +23,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/rose/1626",
-  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792138518112?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792228513282?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -329,7 +329,7 @@
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/rose/1626",
-  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792138518112?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792228513282?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -653,7 +653,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/rose/1626",
-  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792138518112?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792228513282?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -914,7 +914,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/rose/1626",
-  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792138518112?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792228513282?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1125,21 +1125,21 @@
   "free": false
  },
  {
-  "title": "Sense And Sensibility",
-  "start": "2026-10-22T14:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "La Fjella Leve",
   "start": "2026-10-22T14:45:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/la-fjella-leve/1560",
   "image": "https://images.filmgrail.com/mediaserver/movies/la-fjella-leve-8718/backdrop/1790771027894?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sense And Sensibility",
+  "start": "2026-10-22T14:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
   "free": false
  },
  {
