@@ -9,60 +9,6 @@
   "free": true
  },
  {
-  "title": "Mysteriepakken",
-  "start": "2026-10-18T11:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Monster Mia",
-  "start": "2026-10-18T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monster-mia/1712",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monster-mia-9567/backdrop/1791376708435?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Suser Avgarde",
-  "start": "2026-10-18T11:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/suser-avgarde/1663",
-  "image": "https://images.filmgrail.com/1791460394067-SAV-MOT_FTR-NO_cut2-2_still_2026-05-277160x4320.1838418384_F.jpg?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Paw Patrol Dinofilmen",
-  "start": "2026-10-18T11:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/paw-patrol-dinofilmen/1539",
-  "image": "https://images.filmgrail.com/mediaserver/movies/paw-patrol-dinofilmen-8449/backdrop/1786011307774?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Reisen Til Piemonte",
-  "start": "2026-10-18T11:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/reisen-til-piemonte/1631",
-  "image": "https://images.filmgrail.com/mediaserver/movies/reisen-til-piemonte-9490/backdrop/1788350525595?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
-  "start": "2026-10-18T12:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/lohkkanboddu-samegillii-lesestund-pa-samisk",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-07/f273f8153ee51a13a23a0d574386a820.jpg.webp?itok=M6Z9KHxl",
-  "free": true
- },
- {
   "title": "Sense And Sensibility",
   "start": "2026-10-18T12:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -135,6 +81,15 @@
   "free": false
  },
  {
+  "title": "Mysteriepakken",
+  "start": "2026-10-18T15:50:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
+  "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Harila Nadelose Fjell",
   "start": "2026-10-18T16:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -186,6 +141,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/street-fighter/1449",
   "image": "https://images.filmgrail.com/mediaserver/movies/street-fighter-8187/backdrop/1790335817574?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Suser Avgarde",
+  "start": "2026-10-18T18:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/suser-avgarde/1663",
+  "image": "https://images.filmgrail.com/1791460394067-SAV-MOT_FTR-NO_cut2-2_still_2026-05-277160x4320.1838418384_F.jpg?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -675,21 +639,21 @@
   "free": false
  },
  {
-  "title": "The Social Reckoning",
-  "start": "2026-10-21T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-social-reckoning/1549",
-  "image": "https://images.filmgrail.com/1791447456919-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Suser Avgarde",
   "start": "2026-10-21T12:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/suser-avgarde/1663",
   "image": "https://images.filmgrail.com/1791460394067-SAV-MOT_FTR-NO_cut2-2_still_2026-05-277160x4320.1838418384_F.jpg?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Social Reckoning",
+  "start": "2026-10-21T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-social-reckoning/1549",
+  "image": "https://images.filmgrail.com/1791447456919-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1609,6 +1573,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-almir-daniel/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW26-video-2.jpg",
   "free": false
+ },
+ {
+  "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
+  "start": "2026-11-01T12:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/lohkkanboddu-samegillii-lesestund-pa-samisk",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-07/f273f8153ee51a13a23a0d574386a820.jpg.webp?itok=M6Z9KHxl",
+  "free": true
  },
  {
   "title": "Kommunikasjonsdagene 2026: Bli en (enda) bedre formidler!",
