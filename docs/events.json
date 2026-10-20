@@ -9,15 +9,6 @@
   "free": true
  },
  {
-  "title": "Babytreff på biblioteket",
-  "start": "2026-10-20T13:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
-  "free": true
- },
- {
   "title": "Pensjonskuppet",
   "start": "2026-10-20T14:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -1548,6 +1539,15 @@
   "free": true
  },
  {
+  "title": "Babytreff på biblioteket",
+  "start": "2026-10-27T13:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/babytreff-pa-biblioteket",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-02/Babytreff%20p%C3%A5%20biblioteket.png.webp?itok=_2pgOYb2",
+  "free": true
+ },
+ {
   "title": "Other Mommy",
   "start": "2026-10-27T14:30:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -2457,6 +2457,15 @@
   "free": true
  },
  {
+  "title": "Ordkalotten student - forfatterintervju med April Alexandersdottir",
+  "start": "2026-11-05T12:15:00",
+  "venue": "1.etasje på UB, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/943479/ordkalotten_student_-_forfatterintervju_med_april",
+  "image": "https://uit.no/Content/943485/cache=20262010142821/transformation=scale10000x560/April.jpg",
+  "free": true
+ },
+ {
   "title": "Shut Up and Write - and Read!(6. november)",
   "start": "2026-11-06T10:15:00",
   "venue": "UB 244 (Universitetsbiblioteket, 2. etasje), UiT Tromsø",
@@ -2715,6 +2724,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/920415/ppu-konferansen_nye_rammer_-_nye_muligheter",
   "image": "https://uit.no/Content/838494/cache=20240702150743/transformation=scale10000x560/ILP_bygget_UIT_18728_Foto_Christian_Halvorsen%20%281%29.JPG",
+  "free": true
+ },
+ {
+  "title": "Lars Ivar Hansens faglige arv",
+  "start": "2026-11-19T09:15:00",
+  "venue": "E 0101 Aud, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/943464/lars_ivar_hansens_faglige_arv",
+  "image": "https://uit.no/Content/943467/cache=20262010133523/transformation=scale10000x560/Screenshot%202026-10-20%20133140.jpg",
   "free": true
  },
  {
