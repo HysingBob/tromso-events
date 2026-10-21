@@ -18,42 +18,6 @@
   "free": false
  },
  {
-  "title": "Pensjonskuppet",
-  "start": "2026-10-21T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/mediaserver/movies/pensjonskuppet-8188/backdrop/1791271818327?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sense And Sensibility",
-  "start": "2026-10-21T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Suser Avgarde",
-  "start": "2026-10-21T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/suser-avgarde/1663",
-  "image": "https://images.filmgrail.com/1791460394067-SAV-MOT_FTR-NO_cut2-2_still_2026-05-277160x4320.1838418384_F.jpg?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Social Reckoning",
-  "start": "2026-10-21T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-social-reckoning/1549",
-  "image": "https://images.filmgrail.com/1791447456919-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "ONSDAGSFILMEN | KEEPER'N TIL LIVERPOOL",
   "start": "2026-10-21T13:30:00",
   "venue": "Verdensteatret, Tromsø",
@@ -63,13 +27,13 @@
   "free": false
  },
  {
-  "title": "Help Desk: Research Data, Coding & HPC",
-  "start": "2026-10-21T14:00:00",
-  "venue": "UB 338, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
-  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
-  "free": true
+  "title": "Pensjonskuppet",
+  "start": "2026-10-21T14:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/mediaserver/movies/pensjonskuppet-8188/backdrop/1791271818327?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Whalefall",
@@ -141,6 +105,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
   "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sense And Sensibility",
+  "start": "2026-10-21T17:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1789630209772?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2387,7 +2360,7 @@
  {
   "title": "Kurs i SMART (strukturert materiale for terapi)",
   "start": "2026-11-11T09:00:00",
-  "venue": "Tromsø (sted kommer), UiT Tromsø",
+  "venue": "U8.121 på MH1, Campus Tromsø, UiT Tromsø",
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/935713/kurs_i_smart_strukturert_materiale_for_terapi",
   "image": "https://uit.no/Content/935711/cache=20261108114857/transformation=scale10000x560/mp6765935-tired-boy-studying-in-bedroom.jpg",
@@ -2988,7 +2961,7 @@
   "free": false
  },
  {
-  "title": "Nordlysfestivalen: Stormnatt – Habaneroz",
+  "title": "Nordlysfestivalen – Stormnatt – Habaneroz",
   "start": "2027-02-13T21:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
@@ -3033,7 +3006,7 @@
   "free": false
  },
  {
-  "title": "Nordlysfestivalen: Čuovgamáinnas",
+  "title": "Nordlysfestivalen – Čuovgamáinnas",
   "start": "2027-02-20T14:00:00",
   "venue": "Lillescenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
@@ -3042,7 +3015,7 @@
   "free": false
  },
  {
-  "title": "Nordlysfestivalen: Vaapstenjeanoe – Big River",
+  "title": "Nordlysfestivalen – Vaapstenjeanoe – Big River",
   "start": "2027-02-20T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
