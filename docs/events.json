@@ -1,23 +1,5 @@
 [
  {
-  "title": "BARNAS CINEMATEK | KNERTEN",
-  "start": "2026-10-24T12:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/barnas-cinematek-knerten",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/mein-freund-knerten.jpg",
-  "free": false
- },
- {
-  "title": "Barnevernet og flerkulturelle familier - dialog, tillit og samarbeid",
-  "start": "2026-10-24T12:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/barnevernet-og-flerkulturelle-familier-dialog-tillit-og-samarbeid",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Somaliere%20i%20Troms%C3%B8.png.webp?itok=bU3kcPJi",
-  "free": true
- },
- {
   "title": "OPERA FRA THE MET | EUGENE ONEGÍN (Pyotr Tchaikovsky)",
   "start": "2026-10-24T14:00:00",
   "venue": "Verdensteatret, Tromsø",
@@ -522,21 +504,21 @@
   "free": false
  },
  {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-10-27T16:45:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Mysteriepakken",
   "start": "2026-10-27T16:45:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
   "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sauen Shaun Gardens Farbannelse",
+  "start": "2026-10-27T16:45:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
   "free": false
  },
  {
