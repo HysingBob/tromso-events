@@ -27,51 +27,6 @@
   "free": false
  },
  {
-  "title": "Markens Grode",
-  "start": "2026-10-30T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sense And Sensibility",
-  "start": "2026-10-30T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Et Lite Stykke Finland",
-  "start": "2026-10-30T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
-  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Harila Nadelose Fjell",
-  "start": "2026-10-30T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
-  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Tony",
-  "start": "2026-10-30T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/tony/1690",
-  "image": "https://images.filmgrail.com/1792763718824-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Pensjonskuppet",
   "start": "2026-10-30T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -144,6 +99,15 @@
   "free": false
  },
  {
+  "title": "Markens Grode",
+  "start": "2026-10-30T18:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Tromsø World Festival – ZÖJ",
   "start": "2026-10-30T18:30:00",
   "venue": "Lillescenen, Kulturhuset Tromsø",
@@ -159,6 +123,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/hex-en-film-om-fenomenet-witch-club-satan/1659",
   "image": "https://images.filmgrail.com/mediaserver/movies/hex-en-film-om-fenomenet-witch-club-satan-8525/backdrop/1793276111106?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Harila Nadelose Fjell",
+  "start": "2026-10-30T18:45:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
+  "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2331,6 +2304,15 @@
   "free": true
  },
  {
+  "title": "CRAFT & ENCODE present: Strange Days (1995)",
+  "start": "2026-11-26T17:30:00",
+  "venue": "Aurora Fokus Kino, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/944435/craft_encode_present_strange_days_1995",
+  "image": "https://uit.no/Content/944434/cache=20263010140322/transformation=scale10000x560/MV5BNzk1NGY4ZGUtYzllYy00ODM0LTljNmItYTY5NGI4YWQxNTQxXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+  "free": true
+ },
+ {
   "title": "Shut Up and Write - and Read!(27. november)",
   "start": "2026-11-27T10:15:00",
   "venue": "UB 244 (Universitetsbiblioteket, 2. etasje), UiT Tromsø",
@@ -2525,7 +2507,7 @@
   "venue": "Lillescenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/vin-til-jul-vinsmaking-med-kjell-gabriel-hendrichs/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Vin-til-jul.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Vin-til-jul-1.jpg",
   "free": false
  },
  {
