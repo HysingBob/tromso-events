@@ -1,41 +1,5 @@
 [
  {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-10-31T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Monster Mia",
-  "start": "2026-10-31T11:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monster-mia/1712",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monster-mia-9567/backdrop/1793185987406?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Kjarast",
-  "start": "2026-10-31T11:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/kjarast/1547",
-  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Den Vesle Vampyren",
-  "start": "2026-10-31T11:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/den-vesle-vampyren/124",
-  "image": "https://images.filmgrail.com/mediaserver/movies/den-vesle-vampyren-1637/backdrop/1760868908650?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Tromsø World Festival:TOURISM VS. LOCAL CULTURE: BUILDING PLACES WITHOUT LOSING IDENTITY",
   "start": "2026-10-31T11:15:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -43,15 +7,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/tromso-world-festival-tourism-vs-local-culture-building-places-without",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Troms%C3%B8%20world%20Pro.jpg.webp?itok=Fs3-GrAs",
   "free": true
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-10-31T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "Kreativ lørdag",
@@ -87,15 +42,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/harila-nadelose-fjell/1579",
   "image": "https://images.filmgrail.com/mediaserver/movies/harila-nadelose-fjell-9351/backdrop/1790327706787?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sound Journey w/ Juan Hang",
-  "start": "2026-10-31T13:00:00",
-  "venue": "Løvetann, Grønnegata 118A, Tromsø",
-  "source": "lovetann",
-  "url": "https://www.tickettailor.com/events/lovetann/2501472",
-  "image": "",
   "free": false
  },
  {
@@ -144,6 +90,15 @@
   "free": false
  },
  {
+  "title": "Sauen Shaun Gardens Farbannelse",
+  "start": "2026-10-31T15:45:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Street Fighter",
   "start": "2026-10-31T15:45:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -186,6 +141,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/tromso-world-festival-sor-for/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-TW-2026-8.jpg",
+  "free": false
+ },
+ {
+  "title": "Markens Grode",
+  "start": "2026-10-31T18:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1395,21 +1359,21 @@
   "free": true
  },
  {
-  "title": "Lille Spokelset Laban Skoyer Igjen",
-  "start": "2026-11-07T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lille-spokelset-laban-skoyer-igjen-9530/backdrop/1790343122113?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Julenissens Verksted",
   "start": "2026-11-07T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
   "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Lille Spokelset Laban Skoyer Igjen",
+  "start": "2026-11-07T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lille-spokelset-laban-skoyer-igjen-9530/backdrop/1790343122113?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2877,15 +2841,6 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/932076/language_in_healthcare_second_language_teaching",
   "image": "https://uit.no/Content/932078/cache=20262506124046/transformation=scale10000x560/Logo%20helsespra%CC%8Ak.png",
-  "free": true
- },
- {
-  "title": "Jorda rundt på 60 minutt med Marta Norheim",
-  "start": "2027-09-02T19:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/06/jorda-rundt-pa-60-minutt-med-marta-norheim",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-06/Nyhet%20eller%20kalenderhendelse.png.webp?itok=5QUxXHBD",
   "free": true
  },
  {
