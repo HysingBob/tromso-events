@@ -1,14 +1,5 @@
 [
  {
-  "title": "Søndagsfilm",
-  "start": "2026-11-01T13:00:00",
-  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
-  "free": true
- },
- {
   "title": "Pensjonskuppet",
   "start": "2026-11-01T13:15:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -846,21 +837,21 @@
   "free": false
  },
  {
-  "title": "Et Lite Stykke Finland",
-  "start": "2026-11-05T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
-  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Hex En Film Om Fenomenet Witch Club Satan",
   "start": "2026-11-05T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/hex-en-film-om-fenomenet-witch-club-satan/1659",
   "image": "https://images.filmgrail.com/mediaserver/movies/hex-en-film-om-fenomenet-witch-club-satan-8525/backdrop/1793276111106?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Et Lite Stykke Finland",
+  "start": "2026-11-05T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
+  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1429,6 +1420,15 @@
   "url": "https://fokus.aurorakino.no/f/ringenes-herre-maraton-extended/658",
   "image": "https://images.filmgrail.com/1791451012661-LOTR_25th_FOTR_3840x2160_01%20(1).jpg?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Søndagsfilm",
+  "start": "2026-11-08T13:00:00",
+  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
+  "free": true
  },
  {
   "title": "TIL — Bodø/Glimt",
