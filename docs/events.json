@@ -9,15 +9,6 @@
   "free": false
  },
  {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-11-02T16:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Drapet Pa Benjamin Hermansen",
   "start": "2026-11-02T17:30:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -1112,7 +1103,7 @@
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1121,7 +1112,7 @@
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1229,7 +1220,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/kjarast/1547",
-  "image": "",
+  "image": "https://images.filmgrail.com/1789723941304-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1328,7 +1319,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/wild-horse-nine/1568",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/wild-horse-nine-9262/backdrop/1792409413886?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1337,7 +1328,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1418,7 +1409,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ringenes-herre-maraton-extended/658",
-  "image": "",
+  "image": "https://images.filmgrail.com/1791451012661-LOTR_25th_FOTR_3840x2160_01%20(1).jpg?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1438,6 +1429,15 @@
   "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
   "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Minner fra palestinsk hverdagsliv - en utstillingsintervensjon i anledning 25-årsjubileet for vennskapsbyavtalen mellom Tromsø og Gaza",
+  "start": "2026-11-08T13:00:00",
+  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/944531/minner_fra_palestinsk_hverdagsliv_-_en_utstilling",
+  "image": "https://uit.no/Content/944529/cache=20260211140017/transformation=scale10000x560/IMG_3035.jpg",
+  "free": true
  },
  {
   "title": "Søndagsfilm",
@@ -1598,7 +1598,7 @@
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/monsterfabrikken/1586",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/monsterfabrikken-8633/backdrop/1790068088358?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1697,7 +1697,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1931,7 +1931,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2120,7 +2120,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2345,7 +2345,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
-  "image": "",
+  "image": "https://images.filmgrail.com/mediaserver/movies/ebenezer-8448/backdrop/1793093415330?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2390,7 +2390,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/dune-maraton/1082",
-  "image": "",
+  "image": "https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?optimizer=image&width=1200&&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2805,6 +2805,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballetten/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Forjulsballetten-Skjerm-liggende.jpg",
+  "free": false
+ },
+ {
+  "title": "Love Actually - Live dub med Jon Hauge",
+  "start": "2026-12-05T20:00:00",
+  "venue": "Amtmandens, Tromsø",
+  "source": "amtmandens",
+  "url": "https://tromsofilmklubb.antitickets.com/event/love-actually-live-dub-med-jon-hauge",
+  "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI2YTc1MzAyYi1mYTE2LTRmMmItOTk3ZS00N2YzMDNkMjgxMDdcLzNMWWQ5TWFENG1qaUd6M0lReXJmNGlWcjV2d1wvZjU5ZmU1ZjMtYTI5NS00NmNhLWJhNTEtYzhkMTJhNWU4ZTUwLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwid2lkdGgiOjM3MCwiZml0IjoiY29udGFpbiJ9fX0=?signature=45da0799062631b7c0fd00eaa51ecec5af425d9e695fe05528d1edceafe2b4d9",
   "free": false
  },
  {
