@@ -504,6 +504,15 @@
   "free": false
  },
  {
+  "title": "Ordkalotten:Festivalåpning",
+  "start": "2026-11-05T16:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/ordkalotten-festivalapning",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Ordkalotten.jpg.webp?itok=xnxeAtB8",
+  "free": true
+ },
+ {
   "title": "Mysteriepakken",
   "start": "2026-11-05T16:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -877,7 +886,7 @@
   "start": "2026-11-07T10:00:00",
   "venue": "Hovedbiblioteket, Tromsø",
   "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/bang-litteraturfestival-barn",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/bang-litteraturfestival-barn",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/653fb8097756236a008996cf_BANG%20hoved.jpg.webp?itok=P2mICZCp",
   "free": true
  },
@@ -2988,16 +2997,16 @@
   "free": false
  },
  {
-  "title": "The Wall — performed by Friends of Floyd",
+  "title": "The Wall – performed by Friends of Floyd",
   "start": "2027-02-05T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-the-wall-in-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Wall-1.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Wall-1-1.jpg",
   "free": false
  },
  {
-  "title": "The Dark Side of the Moon — performed by Friends of Floyd",
+  "title": "The Dark Side of the Moon – performed by Friends of Floyd",
   "start": "2027-02-05T21:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
@@ -3006,16 +3015,16 @@
   "free": false
  },
  {
-  "title": "The Wall — performed by Friends of Floyd",
+  "title": "The Wall – performed by Friends of Floyd",
   "start": "2027-02-06T17:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-the-wall-in-concert/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Wall-1.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Wall-1-1.jpg",
   "free": false
  },
  {
-  "title": "The Dark Side of the Moon — performed by Friends of Floyd",
+  "title": "The Dark Side of the Moon – performed by Friends of Floyd",
   "start": "2027-02-06T20:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
@@ -3624,6 +3633,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/the-johnny-cash-june-carter-show-15-years-from-jackson-to-folsom/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/03/Digital-Plakat-liggende-1360-x-768-The-Johnny-Cash-June-Carter-Show-2027-2.jpg",
+  "free": false
+ },
+ {
+  "title": "Fredrik Fornes – Mitt liv som ansatt",
+  "start": "2027-11-12T19:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/fredrik-fornes-mitt-liv-som-ansatt/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/11/Digital-Plakat-liggende-1360-x-768-Mitt-liv-som-ansatt-1.jpg",
   "free": false
  },
  {
