@@ -36,42 +36,6 @@
   "free": false
  },
  {
-  "title": "Sense And Sensibility",
-  "start": "2026-11-04T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "La Fjella Leve",
-  "start": "2026-11-04T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/la-fjella-leve/1560",
-  "image": "https://images.filmgrail.com/mediaserver/movies/la-fjella-leve-8718/backdrop/1790771027894?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Rose",
-  "start": "2026-11-04T14:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/rose/1626",
-  "image": "https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop/1792228513282?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Hva gjør vi uten vann? Lærdom fra Ukraina – fotoutstilling og panelsamtale",
-  "start": "2026-11-04T16:00:00",
-  "venue": "MH2-bygget, Cerebrum, 9. etasje, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943167/hva_gjor_vi_uten_vann_laerdom_fra_ukraina_fotou",
-  "image": "https://uit.no/Content/943166/cache=20261510070119/transformation=scale10000x560/Screenshot%202026-10-15%20at%2011.59.14.png",
-  "free": true
- },
- {
   "title": "Lille Spokelset Laban Skoyer Igjen",
   "start": "2026-11-04T16:45:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
@@ -509,7 +473,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/everybody-digs-bill-evans/1679",
-  "image": "https://images.filmgrail.com/mediaserver/movies/everybody-digs-bill-evans-9350/backdrop/1792157733810?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/1793803106654-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -536,7 +500,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1139,7 +1103,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1328,7 +1292,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1409,7 +1373,7 @@
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/everybody-digs-bill-evans/1679",
-  "image": "https://images.filmgrail.com/mediaserver/movies/everybody-digs-bill-evans-9350/backdrop/1792157733810?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/1793803106654-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1436,7 +1400,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1697,7 +1661,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1796,7 +1760,7 @@
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/everybody-digs-bill-evans/1679",
-  "image": "https://images.filmgrail.com/mediaserver/movies/everybody-digs-bill-evans-9350/backdrop/1792157733810?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/1793803106654-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1958,7 +1922,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1986,6 +1950,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/941461/shut_up_and_write_-_and_read",
   "image": "https://uit.no/Content/862029/cache=20240110150533/transformation=scale10000x560/Shut%20Up%20and%20Write%20Copy%20%281%29.jpg",
+  "free": true
+ },
+ {
+  "title": "Disputas – Master i zoologi Andi Kerr-Little",
+  "start": "2026-11-13T10:15:00",
+  "venue": "Auditorium Cortex, plan 7, MH Vest, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/944717/disputas_master_i_zoologi_andi_kerr-little",
+  "image": "https://uit.no/Content/944718/cache=20260411151427/transformation=scale10000x560/Andi%20Kerr-Little.jpg",
   "free": true
  },
  {
