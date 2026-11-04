@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-06-morten-abel-full-of-dreams",
+  "start": "2026-11-06T20:00",
+  "sted": "Tromsø Kulturhus, Hovedscenen",
+  "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
+  "pris": "725 kr",
+  "gratis": false,
+  "aldersgrense": "18 år",
+  "kategori": ["Konsert"],
+  "no": {
+    "tittel": "Morten Abel – Full of Dreams-turné",
+    "ingress": "Morten Abel på nordnorsk turné med nytt materiale og gamle favoritter.",
+    "tekst": "Morten Abel kommer til Tromsø Kulturhus med Full of Dreams-turnéen. Konserten gir smakebiter fra det engelskspråklige albumet Full of Dreams, favoritter fra hele karrieren og de store låtene som har gjort ham til en av Norges mest folkekjære artister.\n\nBillettene selges via Kulturhuset. Ifølge arrangøren er konserten nesten utsolgt.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra konserten."
+  },
+  "en": {
+    "title": "Morten Abel – Full of Dreams tour",
+    "lead": "Morten Abel on a northern Norwegian tour with new material and old favourites.",
+    "text": "Morten Abel comes to Tromsø Kulturhus with the Full of Dreams tour. The concert features highlights from the English-language album Full of Dreams, favourites from his whole career and the big songs that made him one of Norway's most loved artists.\n\nTickets are sold through Kulturhuset. According to the organiser, the concert is almost sold out.\n\nThe illustration was made by tromsø.net and is an interpretive motif, not an image from the concert."
+  },
+  "bilde": "images/2026-11-06-morten-abel-full-of-dreams.webp",
+  "bildetekst_no": "Vannfargeillustrasjon av et tomt teater med lysstråler og fargetåke over scenen, på gammelt papir.",
+  "bildetekst_en": "Watercolour illustration of an empty theatre with light beams and coloured mist over the stage, on old paper.",
+  "kilde_navn": "Tromsø Kulturhus",
+  "kilde_url": "https://kulturhuset.tr.no/arrangement/morten-abel/",
+  "status": "venter"
+}
