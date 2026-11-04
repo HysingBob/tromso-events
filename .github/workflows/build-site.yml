@@ -1,0 +1,47 @@
+name: Build map calendar
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/build-site.yml'
+  schedule:
+    - cron: '20 0 * * *' # Daily rebuild: expired events leave static listings even without JS
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-map-calendar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install dependencies
+        run: npm ci --prefix site
+      - name: Check templates and event data
+        run: npm test --prefix site
+      - name: Build static pages
+        run: npm run build --prefix site
+      - name: Update only map pages (keep the ICS feed and /poc/)
+        run: |
+          rm -rf docs/no docs/en docs/assets docs/images
+          cp -a site/_site/. docs/
+          git add -A docs/index.html docs/no docs/en docs/assets docs/images
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: rebuild map calendar'
+            git pull --rebase origin main
+            git push origin main
+          fi
