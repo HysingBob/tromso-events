@@ -1,0 +1,25 @@
+{
+  "id": "2026-12-04-forjulsballetten",
+  "start": "2026-12-04T18:00",
+  "sted": "Tromsø Kulturhus, Hovedscenen",
+  "adresse": "Tromsø Kulturhus, Tromsø",
+  "pris": "Se billetter hos arrangør",
+  "gratis": false,
+  "kategori": ["Scene", "Konsert"],
+  "no": {
+    "tittel": "Førjulsballetten 2026",
+    "ingress": "Dans, musikk og livets kontraster, med Prokofjev og Arktisk Filharmoni.",
+    "tekst": "Førjulsballetten er et samarbeid mellom Arktisk Filharmoni og Kulturskolen Tromsø kommune. Første akt er Peter og Ulven, der de yngste danseelevene følger lille Peter og den skumle ulven. Andre akt er Romeo og Julie, en dans om forelskelse, feil og tap.\n\nDirigent: Øyvind Bjorå. Koreografi: Sally Parkinson. Dansere fra Kulturskolen Tromsø kommune.\n\nTidspunkter: fredag 4. desember kl. 18.00, lørdag 5. desember kl. 14.00 og søndag 6. desember kl. 14.00.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra forestillingen."
+  },
+  "en": {
+    "title": "Førjulsballetten 2026",
+    "lead": "Dance, music and life's contrasts, with Prokofiev and the Arctic Philharmonic.",
+    "text": "The Førjulsballetten is a collaboration between the Arctic Philharmonic and Kulturskolen Tromsø. The first act is Peter and the Wolf, performed by the youngest dance students. The second act is Romeo and Juliet, a dance about falling in love, mistakes and loss.\n\nConductor: Øyvind Bjorå. Choreography: Sally Parkinson. Dancers from Kulturskolen Tromsø.\n\nShowtimes: Friday 4 December at 18:00, Saturday 5 December at 14:00 and Sunday 6 December at 14:00.\n\nThe illustration was made by tromsø.net and is an interpretive motif, not an image from the performance."
+  },
+  "bilde": "images/2026-12-04-forjulsballetten.webp",
+  "bildetekst_no": "Vannfargeillustrasjon av dans i vinterskog, med en ulv i bakgrunnen.",
+  "bildetekst_en": "Watercolour illustration of dance in a winter forest, with a wolf in the background.",
+  "kilde_navn": "Kulturskolen Tromsø",
+  "kilde_url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=36593",
+  "status": "venter"
+}

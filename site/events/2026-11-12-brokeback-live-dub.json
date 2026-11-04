@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-12-brokeback-live-dub",
+  "start": "2026-11-12T19:30",
+  "slutt": "2026-11-12T23:00",
+  "sted": "Amtmandens",
+  "pris": "200 kr",
+  "gratis": false,
+  "kategori": ["Scene", "Annet"],
+  "no": {
+    "tittel": "Brokeback Mountain – live dub med Jon Hauge",
+    "ingress": "Komiker Jon Hauge live-dubber filmen, i forbindelse med Pride.",
+    "tekst": "I forbindelse med Pride kommer komikeren Jon Hauge for å live-dubbe Brokeback Mountain. Arrangementet er i regi av Tromsø Filmklubb og varer 134 minutter.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra filmen."
+  },
+  "en": {
+    "title": "Brokeback Mountain – live dub with Jon Hauge",
+    "lead": "Comedian Jon Hauge live-dubs the film, in connection with Pride.",
+    "text": "In connection with Pride, comedian Jon Hauge live-dubs Brokeback Mountain. The event is organised by Tromsø Filmklubb and the film runs about 134 minutes.\n\nThe illustration was made by tromsø.net and is an interpretive motif, not an image from the film."
+  },
+  "bilde": "images/2026-11-12-brokeback-live-dub.webp",
+  "bildetekst_no": "Vannfargeillustrasjon av fjell, stjerner, telt og hest, på gammelt papir.",
+  "bildetekst_en": "Watercolour illustration of mountains, stars, a tent and a horse, on old paper.",
+  "kilde_navn": "Amtmandens / Tromsø Filmklubb",
+  "kilde_url": "https://tromsofilmklubb.antitickets.com/event/brokeback-mountain-live-dub-med-jon-hauge",
+  "status": "venter"
+}
