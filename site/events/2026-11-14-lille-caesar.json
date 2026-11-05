@@ -12,16 +12,16 @@
   "no": {
     "tittel": "lille Caesar",
     "ingress": "En nær og personlig konsert med låter fra albumet ADAM og tidligere utgivelser.",
-    "tekst": "lille Caesar tar sitt nye album ADAM med på norgesturné. Albumet er spilt inn akustisk med fullt band, og konsertene byr på nye og eldre låter i et nært, liveorientert format.\n\nArrangøren oppgir 18 års aldersgrense.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra konserten."
+    "tekst": "lille Caesar tar sitt nye album ADAM med på norgesturné. Albumet er spilt inn akustisk med fullt band, og konsertene byr på nye og eldre låter i et nært, liveorientert format.\n\nArrangøren oppgir 18 års aldersgrense.\n\nEventbildet for lille Caesar vises fra Tromsø Kulturhus."
   },
   "en": {
     "title": "lille Caesar",
     "lead": "An intimate concert featuring songs from the album ADAM and earlier releases.",
-    "text": "lille Caesar takes his new album ADAM on a Norwegian tour. Recorded acoustically with a full band, the album's songs and earlier material are presented in an intimate, live-oriented format.\n\nThe organiser lists an age limit of 18.\n\nThe illustration was made by tromsø.net as an interpretive motif, not an image from the concert."
+    "text": "lille Caesar takes his new album ADAM on a Norwegian tour. Recorded acoustically with a full band, the album's songs and earlier material are presented in an intimate, live-oriented format.\n\nThe organiser lists an age limit of 18.\n\nThe event image for lille Caesar is displayed from Tromsø Kulturhus."
   },
-  "bilde": "images/2026-11-14-lille-caesar.webp",
-  "bildetekst_no": "Tolkende vannfargeillustrasjon av gitar, mikrofon og varmt scenelys.",
-  "bildetekst_en": "Interpretive watercolour illustration of a guitar, microphone and warm stage light.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Lille-Caesar.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus.",
   "kilde_navn": "Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/lille-caesar/",
   "status": "publisert"

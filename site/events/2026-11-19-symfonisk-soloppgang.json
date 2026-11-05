@@ -11,16 +11,16 @@
   "no": {
     "tittel": "Symfonisk soloppgang",
     "ingress": "Arktisk Filharmoni følger Haydn fra kveld til morgen, med Schönbergs Verklärte Nacht imellom.",
-    "tekst": "Lorenza Borrani leder en musikalsk reise fra kveld til soloppgang. Programmet åpner med Haydns Symfoni nr. 8, Le Soir, går videre til Schönbergs Verklärte Nacht og avsluttes med Haydns Symfoni nr. 6, Le matin.\n\nArrangøren oppgir billetter fra 365 kr for sone B.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra konserten."
+    "tekst": "Lorenza Borrani leder en musikalsk reise fra kveld til soloppgang. Programmet åpner med Haydns Symfoni nr. 8, Le Soir, går videre til Schönbergs Verklärte Nacht og avsluttes med Haydns Symfoni nr. 6, Le matin.\n\nArrangøren oppgir billetter fra 365 kr for sone B.\n\nEventbildet for Symfonisk soloppgang vises fra arrangøren."
   },
   "en": {
     "title": "Symphonic Sunrise",
     "lead": "The Arctic Philharmonic follows Haydn from evening to morning, with Schoenberg's Verklärte Nacht in between.",
-    "text": "Lorenza Borrani leads a musical journey from evening to sunrise. The programme opens with Haydn's Symphony No. 8, Le Soir, continues with Schoenberg's Verklärte Nacht and concludes with Haydn's Symphony No. 6, Le matin.\n\nThe organiser lists tickets from NOK 365 for Zone B.\n\nThe illustration was made by tromsø.net as an interpretive motif, not an image from the concert."
+    "text": "Lorenza Borrani leads a musical journey from evening to sunrise. The programme opens with Haydn's Symphony No. 8, Le Soir, continues with Schoenberg's Verklärte Nacht and concludes with Haydn's Symphony No. 6, Le matin.\n\nThe organiser lists tickets from NOK 365 for Zone B.\n\nThe event image for Symphonic Sunrise is displayed from the organiser."
   },
-  "bilde": "images/2026-11-19-symfonisk-soloppgang.webp",
-  "bildetekst_no": "Tolkende vannfargeillustrasjon av natt som glir over i soloppgang, med orkesterinstrumenter.",
-  "bildetekst_en": "Interpretive watercolour illustration of night turning to sunrise, with orchestral instruments.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Symfonisk-soloppgang-TROMSO-Skjerm-liggende.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Arktisk Filharmoni / Tromsø Kulturhus.",
+  "bildetekst_en": "Event image from the Arctic Philharmonic / Tromsø Kulturhus.",
   "kilde_navn": "Arktisk Filharmoni / Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-symfonisk-soloppgang/",
   "status": "publisert"

@@ -12,16 +12,16 @@
   "no": {
     "tittel": "Janove med strykekvartett",
     "ingress": "Janove gir låtene sine et symfonisk uttrykk sammen med en lokal strykekvartett.",
-    "tekst": "Janove kommer til Tromsø med en lokal strykekvartett og presenterer låter fra hele katalogen i symfonisk format. Repertoaret rommer kjente favoritter, tidligere uutgitte låter og nytt materiale.\n\nKonserten varer i omtrent to timer. Arrangøren oppgir 18 års aldersgrense.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra konserten."
+    "tekst": "Janove kommer til Tromsø med en lokal strykekvartett og presenterer låter fra hele katalogen i symfonisk format. Repertoaret rommer kjente favoritter, tidligere uutgitte låter og nytt materiale.\n\nKonserten varer i omtrent to timer. Arrangøren oppgir 18 års aldersgrense.\n\nEventbildet for Janove med strykekvartett vises fra Tromsø Kulturhus."
   },
   "en": {
     "title": "Janove with a string quartet",
     "lead": "Janove reimagines his songs in a symphonic setting with a local string quartet.",
-    "text": "Janove comes to Tromsø with a local string quartet, presenting songs from across his catalogue in a symphonic format. The repertoire includes familiar favourites, previously unreleased songs and new material.\n\nThe concert lasts approximately two hours. The organiser lists an age limit of 18.\n\nThe illustration was made by tromsø.net as an interpretive motif, not an image from the concert."
+    "text": "Janove comes to Tromsø with a local string quartet, presenting songs from across his catalogue in a symphonic format. The repertoire includes familiar favourites, previously unreleased songs and new material.\n\nThe concert lasts approximately two hours. The organiser lists an age limit of 18.\n\nThe event image for Janove with a string quartet is displayed from Tromsø Kulturhus."
   },
-  "bilde": "images/2026-11-12-janove-strykekvartett.webp",
-  "bildetekst_no": "Tolkende vannfargeillustrasjon av et piano og fire notestativer på en slitt scene.",
-  "bildetekst_en": "Interpretive watercolour illustration of a piano and four music stands on a worn stage.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Janove-scaled.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus.",
   "kilde_navn": "Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/janove-med-strykekvartett/",
   "status": "publisert"
