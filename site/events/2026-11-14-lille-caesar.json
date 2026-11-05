@@ -6,7 +6,9 @@
   "pris": "355 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "lille Caesar",
     "ingress": "En nær og personlig konsert med låter fra albumet ADAM og tidligere utgivelser.",
@@ -22,5 +24,5 @@
   "bildetekst_en": "Interpretive watercolour illustration of a guitar, microphone and warm stage light.",
   "kilde_navn": "Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/lille-caesar/",
-  "status": "venter"
+  "status": "publisert"
 }

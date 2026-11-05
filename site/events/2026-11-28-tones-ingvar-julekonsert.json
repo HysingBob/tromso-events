@@ -6,7 +6,9 @@
   "pris": "580 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Ein slags julekonsert med Tønes og Ingvar Hovland",
     "ingress": "Julesanger, små hverdagskriser og lun humor med Tønes og Ingvar Hovland.",
@@ -22,5 +24,5 @@
   "bildetekst_en": "Interpretive watercolour illustration of a Christmas tree, star and guitar on a winter night.",
   "kilde_navn": "Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/i-ar-gjor-me-det-heilt-enkelt-ein-slags-julekonsert-med-tones-og-ingvar-hovland/",
-  "status": "venter"
+  "status": "publisert"
 }

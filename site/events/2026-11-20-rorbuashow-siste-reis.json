@@ -6,7 +6,10 @@
   "pris": "450 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Scene", "Humor"],
+  "kategori": [
+    "Scene",
+    "Humor"
+  ],
   "no": {
     "tittel": "Rorbuashow – Siste Reis",
     "ingress": "Nordnorsk humor, skrøner, musikk og gode samtaler – for siste gang på Kulturhuset.",
@@ -22,5 +25,5 @@
   "bildetekst_en": "Interpretive watercolour illustration of a rorbu in evening light with flowing storytelling lines.",
   "kilde_navn": "Våre Historier / Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/rorbuashow-siste-reis/",
-  "status": "venter"
+  "status": "publisert"
 }
