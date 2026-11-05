@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-14-lille-caesar",
+  "start": "2026-11-14T21:00",
+  "sted": "Tromsø Kulturhus, Lillescenen",
+  "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
+  "pris": "355 kr",
+  "gratis": false,
+  "aldersgrense": "18 år",
+  "kategori": ["Konsert"],
+  "no": {
+    "tittel": "lille Caesar",
+    "ingress": "En nær og personlig konsert med låter fra albumet ADAM og tidligere utgivelser.",
+    "tekst": "lille Caesar tar sitt nye album ADAM med på norgesturné. Albumet er spilt inn akustisk med fullt band, og konsertene byr på nye og eldre låter i et nært, liveorientert format.\n\nArrangøren oppgir 18 års aldersgrense.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra konserten."
+  },
+  "en": {
+    "title": "lille Caesar",
+    "lead": "An intimate concert featuring songs from the album ADAM and earlier releases.",
+    "text": "lille Caesar takes his new album ADAM on a Norwegian tour. Recorded acoustically with a full band, the album's songs and earlier material are presented in an intimate, live-oriented format.\n\nThe organiser lists an age limit of 18.\n\nThe illustration was made by tromsø.net as an interpretive motif, not an image from the concert."
+  },
+  "bilde": "images/2026-11-14-lille-caesar.webp",
+  "bildetekst_no": "Tolkende vannfargeillustrasjon av gitar, mikrofon og varmt scenelys.",
+  "bildetekst_en": "Interpretive watercolour illustration of a guitar, microphone and warm stage light.",
+  "kilde_navn": "Tromsø Kulturhus",
+  "kilde_url": "https://kulturhuset.tr.no/arrangement/lille-caesar/",
+  "status": "venter"
+}
