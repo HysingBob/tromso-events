@@ -1,3 +1,8 @@
 node_modules/
 _site/
+_site-v3/
+_site-v7/
+_site-head/
 .DS_Store
+design/shots/
+design/textures/src/

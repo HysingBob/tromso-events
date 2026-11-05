@@ -20,6 +20,7 @@ const SELECTORS = [
 
 const PORT = process.argv[2] || '8080';
 const HOST = process.argv[3] || 'localhost';
+const PATH = process.argv[4] || '/no/';   // / er berre ein videresending til /no/
 
 function lum([r, g, b]) {
   const f = c => { c /= 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); };
@@ -34,8 +35,13 @@ const contrast = (a, b) => {
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'] });
   const page = await browser.newPage();
   await page.setViewport({ width: 1280, height: 1000 });
-  await page.goto(`http://${HOST}:${PORT}/`, { waitUntil: 'networkidle0' });
+  await page.goto(`http://${HOST}:${PORT}${PATH}`, { waitUntil: 'networkidle0' });
   await page.evaluate(() => document.fonts.ready);
+  // Standardfilteret er «I dag» og kan vere tomt — klikk «Denne uken» først.
+  await page.evaluate(() => {
+    const t = document.querySelector('[data-time-filter="week"]');
+    if (t) t.click();
+  });
   const data = await page.evaluate((sels) => {
     const parse = c => (c.match(/[\d.]+/g) || []).slice(0, 3).map(Number);
     const bgOf = el => {

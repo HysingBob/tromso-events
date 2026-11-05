@@ -11,7 +11,7 @@ const cats = [
   {no:'Mat og drikke',en:'Food & drink',slug:'food-and-drink',key:'Mat og drikke'},
   {no:'Annet',en:'Other',slug:'other',key:'Annet'}
 ];
-const themeSheets = (process.env.THEME || 'v2') === 'v2' ? ['leather.css'] : ['leather.css'];
+const themeSheets = (process.env.THEME || 'v2') === 'v2' ? ['leather.css'] : ['leather.css', `style-${process.env.THEME}.css`];
 const themeLinks = themeSheets.map(f=>`<link rel="stylesheet" href="/assets/${f}">`).join('');
 const tr = (lang,no,en)=>lang==='no'?no:en;
 const esc = s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
