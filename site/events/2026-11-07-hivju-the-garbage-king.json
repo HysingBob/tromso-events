@@ -5,20 +5,22 @@
   "sted": "Amtmandens Eftf., Bakrommet",
   "adresse": "Grønnegata 83, Tromsø",
   "pris": "450 kr",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Hivju & The Garbage King",
     "ingress": "Akustisk konsert med kontrabass, nylonstrengsgitar og et billedrikt, organisk lydbilde.",
-    "tekst": "Hivju and The Garbage King er et musikalsk samarbeid mellom Kristofer Hivju og produsent og musiker Olav Lystrup. Duoen beskriver uttrykket som rått, lekent og billedrikt, med sterke fortellinger og et lyrisk skrangleorkester.\n\nPå denne akustiske turneen presenteres musikken i et nakent format med kontrabass og nylonstrengsgitar. Dørene åpner kl. 20.00, og konsertstart er kl. 21.00.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra arrangementet."
+    "tekst": "Hivju and The Garbage King er et musikalsk samarbeid mellom Kristofer Hivju og produsent og musiker Olav Lystrup. Duoen beskriver uttrykket som rått, lekent og billedrikt, med sterke fortellinger og et lyrisk skrangleorkester.\n\nPå denne akustiske turneen presenteres musikken i et nakent format med kontrabass og nylonstrengsgitar. Dørene åpner kl. 20.00, og konsertstart er kl. 21.00.\n\nArrangementsbildet vises fra arrangørens nettside."
   },
   "en": {
     "title": "Hivju & The Garbage King",
     "lead": "An acoustic concert with double bass, nylon-string guitar and an organic, richly evocative sound.",
-    "text": "Hivju and The Garbage King is a musical collaboration between Kristofer Hivju and producer and musician Olav Lystrup. The duo describe their sound as raw, playful and richly evocative, pairing strong storytelling with a lyrical, ramshackle ensemble.\n\nOn this acoustic tour, the music is presented in a stripped-back format with double bass and nylon-string guitar. Doors open at 8:00 pm; the concert starts at 9:00 pm.\n\nThe illustration was made by tromsø.net as an interpretive motif, not an image from the event."
+    "text": "Hivju and The Garbage King is a musical collaboration between Kristofer Hivju and producer and musician Olav Lystrup. The duo describe their sound as raw, playful and richly evocative, pairing strong storytelling with a lyrical, ramshackle ensemble.\n\nOn this acoustic tour, the music is presented in a stripped-back format with double bass and nylon-string guitar. Doors open at 8:00 pm; the concert starts at 9:00 pm.\n\nThe event image is displayed from the organiser’s website."
   },
-  "bilde": "images/2026-11-07-hivju-the-garbage-king.webp",
-  "bildetekst_no": "Vannfargeillustrasjon av kontrabass og nylonstrengsgitar i et abstrakt, rytmisk lydbilde.",
-  "bildetekst_en": "Watercolour illustration of a double bass and nylon-string guitar amid an abstract, rhythmic soundscape.",
+  "bilde": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI1ZmY0ZWNlNi0xYzZiLTRiMzMtYjhkNi0zMDllMjU4MGNiMjhcLzNLbUZ1cWhvemx3U1h1RllCaHloU3RBVDNWYlwvZTc3MTViNDUtNWUyNS00MGM4LTliNWYtOGZhN2E5NDA1MDFmLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTUwLCJmaXQiOiJpbnNpZGUifX19?signature=27d5ec80b86aad9434873db8d826d83d70cdbb5536f6d33b8c7d4ded01d04459",
+  "bildetekst_no": "Arrangementsbilde fra arrangørens side for Hivju & The Garbage King.",
+  "bildetekst_en": "Event image from the organiser’s page for Hivju & The Garbage King.",
   "kilde_navn": "Amtmandens Eftf. / AntiTickets",
   "kilde_url": "https://amtmandens.antitickets.com/event/hivju-the-garbage-king",
   "status": "venter"

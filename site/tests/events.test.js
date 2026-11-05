@@ -36,6 +36,16 @@ test('a new event with only its full-size image renders a working card', () => {
   assert.doesNotMatch(page,/FIKTIVT EKSEMPEL/);
 });
 
+test('organiser-hosted images render as external URLs in cards and event pages', () => {
+  const {listing,eventPage}=require('../lib/render');
+  const e={...sample('2027-02-01-ekstern-bilde','2027-02-01T20:00'),bilde:'https://cdn.example.org/event-image.jpg',bildetekst_no:'Arrangørens arrangementsbilde'};
+  const card=listing('no',[e],new Date('2027-01-01T00:00:00Z'));
+  const detail=eventPage('no',e,[e],new Date('2027-01-01T00:00:00Z'));
+  assert.match(card,/src="https:\/\/cdn\.example\.org\/event-image\.jpg"/);
+  assert.match(detail,/src="https:\/\/cdn\.example\.org\/event-image\.jpg"/);
+  assert.doesNotMatch(card,/src="\/https:\/\//);
+});
+
 test('missing optional event details render no empty labels or fabricated source', () => {
   const {eventPage}=require('../lib/render');
   const e=sample('2027-02-01-ny-hendelse','2027-02-01T20:00');
