@@ -1,0 +1,43 @@
+/* Lærkart v6 — «varm hjortelær, så nær originalen som råd».
+   Einaste endringa frå levande v2 er paletten (varm hjortelær) og eit svakt
+   papirskjær. Skrift, layout, rammer og hierarki er urørte (Cormorant som før).
+   Bygg: THEME=v6 npx eleventy */
+
+:root{
+  --parchment:#DCC09A;  /* varm hjortelær i staden for gråbeige */
+  --paper:#EFD9B8;
+  --ink:#2A1608;
+  --faded:#6B4A2A;
+  --sea:#1E434A;
+  --rust:#8E3418;
+  --rule:#B08A55;
+  --leather:#4A2A16;
+  --light-ink:#F3E2C0;
+}
+
+/* svakt papirskjær på arket og i korta — inga grov støy */
+.page-shell{
+  background:
+    radial-gradient(ellipse 95% 60% at 50% 45%, transparent 62%, rgba(74,42,22,.14) 100%),
+    url('/assets/paper-sheet.webp') center/cover no-repeat,
+    var(--parchment);
+}
+.event-card{
+  background:
+    url('/assets/paper-stains.webp') var(--flekk-pos,62% 8%)/180% no-repeat,
+    var(--kort-papir,url('/assets/paper-card-a.webp')) var(--kort-pos,28% 40%)/var(--kort-stor,150%) no-repeat,
+    var(--paper);
+  background-blend-mode:multiply,normal,normal;
+}
+.event-card[data-variant="2"]{--kort-papir:url('/assets/paper-card-b.webp');--kort-stor:135%;--kort-pos:70% 22%;--flekk-pos:12% 64%}
+.event-card[data-variant="3"]{--kort-papir:url('/assets/paper-card-c.webp');--kort-stor:168%;--kort-pos:40% 78%;--flekk-pos:78% 72%}
+
+/* slitte kanter — som eit brukt kartblad (beholdt frå v4) */
+.event-card{
+  -webkit-mask-image:url('/assets/worn-edge-1.svg');
+  mask-image:url('/assets/worn-edge-1.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+}
+.event-card[data-variant="2"]{-webkit-mask-image:url('/assets/worn-edge-2.svg');mask-image:url('/assets/worn-edge-2.svg')}
+.event-card[data-variant="3"]{-webkit-mask-image:url('/assets/worn-edge-3.svg');mask-image:url('/assets/worn-edge-3.svg')}
