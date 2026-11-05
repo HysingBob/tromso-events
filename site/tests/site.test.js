@@ -24,6 +24,15 @@ test('Eleventy builds both languages and all four page types without third-party
   const published=events.filter(e=>e.status==='publisert');
   assert.equal(fs.readdirSync(path.join(output,'no/hendelse')).length,published.length);
   assert.equal(fs.readdirSync(path.join(output,'en/event')).length,published.length);
+  // Vakt mot å publisere eit bygg som manglar oppslag: alle kommande, publiserte
+  // arrangement skal finnast i oversikten (dette fanga at eit utdatert bygg la
+  // seg over docs/ og sletta Alvins arrangement).
+  const nowIso = new Date().toISOString().slice(0,16);
+  const upcoming = published.filter(e=>(e.slutt||e.start).slice(0,16) >= nowIso);
+  for (const e of upcoming) {
+    assert.ok(html('no/').includes(`href="/no/hendelse/${e.id}/"`), `manglar i oversikten: ${e.id}`);
+  }
+  assert.ok(upcoming.length > 0, 'ingen kommande arrangement å vise');
   for (const event of published) {
     assert.ok(fs.existsSync(path.join(output,'no/hendelse',event.id,'index.html')));
     assert.ok(fs.existsSync(path.join(output,'en/event',event.id,'index.html')));
