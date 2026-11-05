@@ -40,7 +40,8 @@ body {
 }
 .event-card:hover { border-color: var(--sea); }
 .card-art { background: #B99A70; }
-.card-art img, .detail-art img { filter: sepia(.19) saturate(.68) contrast(1.04) brightness(.92); }
+.card-art img { filter: sepia(.58) saturate(.72) contrast(1.05) brightness(.93); }
+.detail-art img { filter: none; }
 .card-art:after, .detail-art:after {
   box-shadow: inset 0 0 36px 20px rgba(82, 51, 25, .20);
 }

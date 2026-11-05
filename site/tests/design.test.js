@@ -10,6 +10,8 @@ test('leather-map revision keeps familiar cards, stamp and filters while darkeni
   assert.match(css,/\.masthead\s*\{[^}]*var\(--leather\)/);
   assert.match(css,/\.page-shell\s*\{[^}]*background:/);
   assert.match(css,/\.event-card\s*\{[^}]*background:/);
+  assert.match(css,/\.card-art img\s*\{[^}]*sepia\(/);
+  assert.match(css,/\.detail-art img\s*\{[^}]*filter:\s*none/);
   assert.match(render,/class="date-stamp"/);
   assert.match(render,/data-time-filter=/);
 });
