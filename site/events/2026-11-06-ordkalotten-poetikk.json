@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-06-ordkalotten-poetikk",
+  "start": "2026-11-06T09:00",
+  "slutt": "2026-11-06T10:00",
+  "sted": "Hovedbiblioteket, plan 2",
+  "kategori": ["Foredrag"],
+  "no": {
+    "tittel": "Ordkalotten: Poetikkseminar med Kristin Vego",
+    "ingress": "Morgenseminar om romanarbeid som ennå ikke er ferdig, med forfatteren Kristin Vego.",
+    "tekst": "Ordkalotten-festivalen inviterer til et åpent poetikkseminar på Hovedbiblioteket. Gjestelærerne ved Forfatterstudiet i Tromsø deler sine tanker om egen skrivepraksis.\n\nKristin Vego snakker om romanarbeidet i prosess, altså om en roman som ikke er ferdig, og om tankene man gjør seg underveis.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra seminaret."
+  },
+  "en": {
+    "title": "Ordkalotten: Poetics seminar with Kristin Vego",
+    "lead": "A morning seminar on writing a novel that is not yet finished, with the author Kristin Vego.",
+    "text": "The Ordkalotten festival invites you to an open poetics seminar at the Main Library. Teachers from the Writing Programme in Tromsø share their thoughts on their own writing practice.\n\nKristin Vego talks about working on a novel in progress, a novel that is not finished and that may never be finished, and about the thoughts that come up along the way.\n\nThe illustration was made by tromsø.net and is an interpretive motif, not an image from the seminar."
+  },
+  "bilde": "images/2026-11-06-ordkalotten-poetikk.webp",
+  "bildetekst_no": "Vannfargeillustrasjon av et skrivebord med manuskript, fjærpenn og bøker, med fjord utenfor vinduet.",
+  "bildetekst_en": "Watercolour illustration of a writing desk with a manuscript, a quill and books, with a fjord outside the window.",
+  "kilde_navn": "Tromsø bibliotek",
+  "kilde_url": "https://www.tromso.kommune.no/bibliotek/hendelse/2026/10/ordkalotten-poetikkseminar-med-kristin-vego",
+  "status": "venter"
+}
