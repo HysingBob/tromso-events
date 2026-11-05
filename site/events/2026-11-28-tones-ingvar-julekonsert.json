@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-28-tones-ingvar-julekonsert",
+  "start": "2026-11-28T18:00",
+  "sted": "Tromsø Kulturhus, Hovedscenen",
+  "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
+  "pris": "580 kr",
+  "gratis": false,
+  "aldersgrense": "18 år",
+  "kategori": [
+    "Konsert"
+  ],
+  "no": {
+    "tittel": "Ein slags julekonsert med Tønes og Ingvar Hovland",
+    "ingress": "Julesanger, små hverdagskriser og lun humor med Tønes og Ingvar Hovland.",
+    "tekst": "Frank «Tønes» Tønnesen og Ingvar Hovland har laget juleforestillinger sammen i 20 år. I denne nye konsertforestillingen tar de for seg julens små og store spørsmål – fra julefeiring og gaver til trepynting og gulvkulde – med sanger, humor og ettertanke.\n\nMedvirker også gjør Sigfrida og Johanne.\n\nEventbildet for Tønes og Ingvar Hovlands julekonsert vises fra arrangørens nettside."
+  },
+  "en": {
+    "title": "A Christmas concert with Tønes and Ingvar Hovland",
+    "lead": "Christmas songs, everyday dilemmas and gentle humour with Tønes and Ingvar Hovland.",
+    "text": "Frank “Tønes” Tønnesen and Ingvar Hovland have created Christmas shows together for 20 years. In this new concert performance, they explore the small and big questions of Christmas—from where to celebrate and gift-giving to decorating the tree and cold floors—with songs, humour and reflection.\n\nSigfrida and Johanne also appear.\n\nThe event image for Tønes and Ingvar Hovland’s Christmas concert is displayed from the organiser’s website."
+  },
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Tones-Jul-1.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus.",
+  "kilde_navn": "Tromsø Kulturhus",
+  "kilde_url": "https://kulturhuset.tr.no/arrangement/i-ar-gjor-me-det-heilt-enkelt-ein-slags-julekonsert-med-tones-og-ingvar-hovland/",
+  "status": "publisert"
+}

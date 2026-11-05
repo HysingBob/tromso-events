@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-22-christmas-nordic-tenors",
+  "start": "2026-11-22T19:00",
+  "sted": "Tromsø Kulturhus, Hovedscenen",
+  "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
+  "pris": "690 kr",
+  "gratis": false,
+  "aldersgrense": "18 år",
+  "kategori": [
+    "Konsert"
+  ],
+  "no": {
+    "tittel": "Christmas with Nordic Tenors",
+    "ingress": "Juleklassikere, varme og humor med Nordic Tenors og pianist Torgeir Koppang.",
+    "tekst": "Nordic Tenors og pianist Torgeir Koppang byr på en førjulsstund med et variert julerepertoar, varme og humor. Trioen har reist landet rundt i over 20 år med julekonserter.\n\nForestillingen varer i omtrent 85 minutter. Arrangøren oppgir 18 års aldersgrense.\n\nEventbildet for Christmas with Nordic Tenors vises fra arrangørens nettside."
+  },
+  "en": {
+    "title": "Christmas with Nordic Tenors",
+    "lead": "Christmas classics, warmth and humour with Nordic Tenors and pianist Torgeir Koppang.",
+    "text": "Nordic Tenors and pianist Torgeir Koppang offer a pre-Christmas concert with a varied festive repertoire, warmth and humour. The trio has toured Norway with Christmas performances for more than 20 years.\n\nThe performance lasts approximately 85 minutes. The organiser lists an age limit of 18.\n\nThe event image for Christmas with Nordic Tenors is displayed from the organiser’s website."
+  },
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-Nordic-Tenors-2026-scaled.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus.",
+  "kilde_navn": "Tromsø Kulturhus",
+  "kilde_url": "https://kulturhuset.tr.no/arrangement/christmas-with-nordic-tenors-2026/",
+  "status": "publisert"
+}
