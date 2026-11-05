@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" preserveAspectRatio="none">
+  <filter id="worn" x="-6%" y="-6%" width="112%" height="112%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.032 0.026" numOctaves="4" seed="17" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <rect x="6" y="6" width="388" height="288" fill="#ffffff" filter="url(#worn)"/>
+</svg>

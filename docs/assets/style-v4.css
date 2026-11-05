@@ -1,0 +1,196 @@
+/* Lærkart v4 — «papir og blekk».
+   Bygger oppå style.css + leather.css (v2, Bob's favoritt): legger ekte
+   papirtekstur som materiale og blekkskrift i overskriftene.
+   Bygges med: THEME=v4 FONT=fredericka npx eleventy --output=_site-v4   */
+
+/* --- Blekkskrifter (kandidater). Bare den valgte lastes av nettleseren. --- */
+@font-face{font-family:'IMFellEnglish';src:url('/assets/candidates/imfell-english.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Fredericka';src:url('/assets/candidates/FrederickatheGreat-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'PirataOne';src:url('/assets/candidates/PirataOne-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Rye';src:url('/assets/candidates/Rye-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Milonga';src:url('/assets/candidates/Milonga-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Unifraktur';src:url('/assets/candidates/unifraktur-maguntia.woff2') format('woff2');font-weight:400;font-display:swap}
+
+html[data-font="imfell"]{--display:'IMFellEnglish',Georgia,serif;--ink-weight:400}
+html[data-font="fredericka"]{--display:'Fredericka',Georgia,serif;--ink-weight:400}
+html[data-font="pirata"]{--display:'PirataOne',Georgia,serif;--ink-weight:400}
+html[data-font="rye"]{--display:'Rye',Georgia,serif;--ink-weight:400}
+html[data-font="milonga"]{--display:'Milonga',Georgia,serif;--ink-weight:400}
+html[data-font="unifraktur"]{--display:'Unifraktur',Georgia,serif;--ink-weight:400}
+:root{--ink-weight:600}
+
+/* --- Hjortelær: varmare palett (overstyrer style.css) --- */
+:root{
+  --parchment:#D0A76E;   /* gyllen pergament, mindre grå */
+  --paper:#E8CDA0;       /* varmt ark */
+  --ink:#2A1608;         /* brunsvart blekk */
+  --faded:#5C3A1C;       /* falma, men varm */
+  --leather:#4A2A16;     /* hjortelær: raudare, mindre sjokolade */
+  --light-ink:#F7E6C4;
+  --rust:#8E3418;
+  --rule:#9C7040;
+  --wax:#9A3118;
+}
+
+/* --- Papiret som materiale --- */
+body{
+  /* to fliser i ulik målestokk og forsjyving: mønsteret gjentar seg først etter
+     minste felles multiplum av 2048 og 3072 — i praksis aldri på en skjerm */
+  background:
+    linear-gradient(rgba(38,24,13,.74),rgba(38,24,13,.74)),
+    url('/assets/paper-tile.webp') 0 0/2048px repeat,
+    url('/assets/paper-tile.webp') 640px 260px/3072px repeat,
+    var(--leather);
+  background-blend-mode:normal,soft-light,soft-light,normal;
+}
+/* varm dis over hele arket — «semsket skinn» */
+.page-shell::after{content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse 80% 55% at 50% 40%, rgba(255,196,120,.16), transparent 70%);
+  mix-blend-mode:soft-light;z-index:-1}
+.page-shell{position:relative;
+  background:
+    radial-gradient(ellipse 88% 52% at 50% 46%, transparent 52%, rgba(47,25,12,.30) 100%),
+    url('/assets/paper-stains.webp') 18% 14%/150% no-repeat,
+    radial-gradient(58% 20% at 21% 34%, rgba(150,88,36,.12), transparent 72%),
+    radial-gradient(44% 16% at 76% 63%, rgba(140,72,28,.11), transparent 70%),
+    radial-gradient(70% 24% at 46% 92%, rgba(168,110,52,.10), transparent 74%),
+    linear-gradient(rgba(255,214,150,.26), rgba(160,88,36,.13)),
+    url('/assets/paper-sheet.webp') center/cover no-repeat,
+    var(--parchment);
+  background-blend-mode:normal,multiply,multiply,multiply,multiply,normal,normal,normal;
+  box-shadow: inset 0 0 90px rgba(44,22,10,.26), 0 0 40px rgba(0,0,0,.22);
+}
+.masthead{
+  background:
+    linear-gradient(rgba(78,42,20,.82),rgba(64,32,14,.90)),
+    url('/assets/paper-card-a.webp') center/cover no-repeat,
+    var(--leather);
+}
+/* Hvert kort får sitt eget utsnitt, sin egen målestokk og sine egne flekker —
+   ingen synlig gjentakelse mellom kortene */
+.event-card{
+  --kort-papir:url('/assets/paper-card-a.webp');
+  --kort-stor:150%;
+  --kort-pos:28% 40%;
+  --flekk-pos:62% 8%;
+  background:
+    linear-gradient(rgba(226,205,167,.42),rgba(226,205,167,.42)),
+    url('/assets/paper-stains.webp') var(--flekk-pos)/190% no-repeat,
+    var(--kort-papir) var(--kort-pos)/var(--kort-stor) no-repeat,
+    var(--paper);
+  background-blend-mode:normal,multiply,normal,normal;
+}
+.facts{
+  background:
+    linear-gradient(rgba(226,205,167,.55),rgba(199,168,123,.45)),
+    url('/assets/paper-stains.webp') 80% 20%/170% no-repeat,
+    url('/assets/paper-card-b.webp') 60% 30%/140% no-repeat;
+  background-blend-mode:normal,multiply,normal;
+}
+.detail-art{
+  background:
+    linear-gradient(rgba(226,205,167,.40),rgba(226,205,167,.40)),
+    url('/assets/paper-stains.webp') 30% 70%/180% no-repeat,
+    url('/assets/paper-card-c.webp') 45% 55%/145% no-repeat,
+    var(--paper);
+  background-blend-mode:normal,multiply,normal,normal;
+}
+.empty-state{
+  background:
+    linear-gradient(rgba(226,205,167,.40),rgba(226,205,167,.40)),
+    url('/assets/paper-card-a.webp') 20% 60%/150% no-repeat;
+}
+
+/* bilda får varmare tone, som om dei er trykt på skinn */
+.card-art img{filter:sepia(.22) saturate(.86) contrast(1.02)}
+.detail-art img{filter:sepia(.18) saturate(.88) contrast(1.02)}
+/* --- Blekkskrift i overskriftene --- */
+.page-heading h1,.detail-heading h1,.results-head h2,.empty-state h3,.about-copy h2,.card-body h3{
+  font-family:var(--display);
+  font-weight:var(--ink-weight);
+  letter-spacing:-.01em;
+  text-wrap:balance;
+  /* blekk som har trukket litt ut i fibrene */
+  text-shadow:0 0 1px rgba(37,24,14,.34), 0 1px 0 rgba(255,247,229,.30);
+  -webkit-text-stroke:.35px currentColor;
+  paint-order:stroke fill;
+}
+.page-heading h1,.detail-heading h1{line-height:1.02;font-size:clamp(46px,7.6vw,92px)}
+.results-head h2,.empty-state h3,.about-copy h2{font-size:38px}
+.card-body h3{font-size:31px;line-height:1.08}
+
+/* blekkstrek under hovedoverskriften */
+.page-heading h1::after{
+  content:'';
+  display:block;
+  width:min(280px,60%);
+  height:3px;
+  margin-top:18px;
+  background:linear-gradient(90deg,var(--ink),rgba(37,24,14,.15));
+  border-radius:2px;
+  opacity:.75;
+}
+.eyebrow{letter-spacing:.24em;font-size:11px;color:#5C2A0B}
+
+/* --- Litt mer mot i detaljene --- */
+.date-stamp{
+  transform:rotate(-6deg);
+  box-shadow:0 2px 6px rgba(35,18,8,.4), inset 0 0 0 3px var(--parchment), inset 0 0 0 4px var(--rust);
+  font-family:var(--display);
+}
+/* --- Slitte kanter: kortene ligner løse kartbiter --- */
+.event-card{
+  --tilt:-.4deg;
+  border:1px solid rgba(112,86,53,.55);
+  border-radius:2px;
+  /* masken et seg inn i kantene med støy (feTurbulence), slik at randen blir ujevn */
+  -webkit-mask-image:url('/assets/worn-edge-1.svg');
+  mask-image:url('/assets/worn-edge-1.svg');
+  -webkit-mask-size:100% 100%;
+  mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;
+  mask-repeat:no-repeat;
+  /* eldet: mørkere og mattere ut mot randen */
+  box-shadow:inset 0 0 20px rgba(60,38,18,.20), inset 0 0 3px rgba(60,38,18,.16);
+  transform:rotate(var(--tilt));
+}
+.event-card[data-variant="2"]{
+  --kort-papir:url('/assets/paper-card-b.webp');
+  --kort-stor:135%;
+  --kort-pos:70% 22%;
+  --flekk-pos:12% 64%;
+  --tilt:.3deg;
+  -webkit-mask-image:url('/assets/worn-edge-2.svg');
+  mask-image:url('/assets/worn-edge-2.svg');
+}
+.event-card[data-variant="3"]{
+  --kort-papir:url('/assets/paper-card-c.webp');
+  --kort-stor:168%;
+  --kort-pos:40% 78%;
+  --flekk-pos:78% 72%;
+  --tilt:-.2deg;
+  -webkit-mask-image:url('/assets/worn-edge-3.svg');
+  mask-image:url('/assets/worn-edge-3.svg');
+}
+.event-card:hover{
+  border-color:var(--sea);
+  transform:rotate(var(--tilt)) translateY(-3px);
+  box-shadow:inset 0 0 20px rgba(60,38,18,.20), inset 0 0 3px rgba(22,65,74,.28);
+}
+/* bildekanten skal ikke ha skarp innerhjørne-effekt mot den slitne randen */
+.event-card .card-art{border-radius:1px}
+.detail-art{
+  -webkit-mask-image:url('/assets/worn-edge-2.svg');
+  mask-image:url('/assets/worn-edge-2.svg');
+  -webkit-mask-size:100% 100%;
+  mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;
+  mask-repeat:no-repeat;
+  box-shadow:inset 0 0 24px rgba(60,38,18,.22);
+}
+.sample-mark{font-family:var(--body);-webkit-text-stroke:0}
+
+@media (prefers-reduced-motion:reduce){
+  .event-card{transition:none}
+  .event-card:hover{transform:none}
+}
