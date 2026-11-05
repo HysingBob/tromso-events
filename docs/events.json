@@ -1,245 +1,11 @@
 [
  {
-  "title": "Lesesirkel: Tenk for en jubel",
-  "start": "2026-11-03T17:30:00",
-  "venue": "Hovedbiblioteket, møterommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/lesesirkel-tenk-en-jubel",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-05/Lesesirkel%20Tenk%20for%20en%20jubel.png.webp?itok=b5TudpNr",
-  "free": true
- },
- {
-  "title": "MINNIE AND MOSKOWITZ",
-  "start": "2026-11-03T18:45:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/minnie-and-moskowitz",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Minnie-and-Moskowitz-midlertidig.jpg",
-  "free": false
- },
- {
-  "title": "ROPE",
-  "start": "2026-11-03T21:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/rope",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/rope-04_crop.jpg",
-  "free": false
- },
- {
-  "title": "ONSDAGSFILMEN | CORPSE BRIDE",
-  "start": "2026-11-04T13:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-corpse-bride",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/corpse-bride-original-e1476121237746.jpg",
-  "free": false
- },
- {
-  "title": "Lille Spokelset Laban Skoyer Igjen",
-  "start": "2026-11-04T16:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lille-spokelset-laban-skoyer-igjen-9530/backdrop/1790343122113?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Monster Mia",
-  "start": "2026-11-04T16:45:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monster-mia/1712",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monster-mia-9567/backdrop/1793185987406?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Strikkekafé",
-  "start": "2026-11-04T17:00:00",
-  "venue": "Hovedbiblioteket, møterommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-02/Bilde%20strikkekaf%C3%A9.jpg.webp?itok=P2HjBGDN",
-  "free": true
- },
- {
-  "title": "Drapet Pa Benjamin Hermansen",
-  "start": "2026-11-04T17:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/drapet-pa-benjamin-hermansen/1585",
-  "image": "https://images.filmgrail.com/mediaserver/movies/drapet-pa-benjamin-hermansen-8631/backdrop/1792671306959?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Primetime",
-  "start": "2026-11-04T18:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/primetime/1724",
-  "image": "https://images.filmgrail.com/mediaserver/movies/primetime-9883/backdrop/1793717868814?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Wildwood",
-  "start": "2026-11-04T18:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/wildwood/1669",
-  "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-04T18:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Rammstein Live In Mexico City",
-  "start": "2026-11-04T19:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/rammstein-live-in-mexico-city/1715",
-  "image": "https://images.filmgrail.com/1793797543575-blob?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Bibliotekets litteraturpris 2026 – utdeling!",
   "start": "2026-11-04T19:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/bibliotekets-litteraturpris-2026-utdeling",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/BLP26_Skjerm_Liggende.jpg.webp?itok=MS50CooX",
-  "free": true
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-11-04T19:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Clayface",
-  "start": "2026-11-04T20:45:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/clayface/1666",
-  "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Hex En Film Om Fenomenet Witch Club Satan",
-  "start": "2026-11-04T21:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/hex-en-film-om-fenomenet-witch-club-satan/1659",
-  "image": "https://images.filmgrail.com/mediaserver/movies/hex-en-film-om-fenomenet-witch-club-satan-8525/backdrop/1793276111106?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Other Mommy",
-  "start": "2026-11-04T21:15:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/other-mommy/1662",
-  "image": "https://images.filmgrail.com/1791450477015-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Frokostseminar: Støtteordning til Internasjonale konferanser til Tromsø",
-  "start": "2026-11-05T08:30:00",
-  "venue": "Radisson Blu Hotel Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/942848/frokostseminar_stotteordning_til_internasjonale",
-  "image": "https://uit.no/Content/942847/cache=20261210122252/transformation=scale10000x560/DSC00164.jpg",
-  "free": true
- },
- {
-  "title": "Barn som pårørende – kom og prøv en fiks ferdig læringsressurs om terapeutisk kompetanse",
-  "start": "2026-11-05T09:15:00",
-  "venue": "ILP 2.072, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936051/barn_som_parorende_kom_og_prov_en_fiks_ferdig_l",
-  "image": "https://uit.no/Content/917093/cache=20251912125125/transformation=scale10000x560/teravri.jpg",
-  "free": true
- },
- {
-  "title": "Ukraine: Braving Aggression - Resilience and Resistance in Times of War (Open Conference)",
-  "start": "2026-11-05T10:00:00",
-  "venue": "AUD 2   UiT Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944048/ukraine_braving_aggression_-_resilience_and_resi",
-  "image": "https://uit.no/Content/944419/cache=20263010132225/transformation=scale10000x560/HRRL-UiT-GPS%20conference%20%28Y.%20Dobronosov%29.jpeg",
-  "free": true
- },
- {
-  "title": "Drop-in lesesirkel - formiddag",
-  "start": "2026-11-05T10:30:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/drop-lesesirkel-formiddag",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
-  "free": true
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-05T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-05T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Naza",
-  "start": "2026-11-05T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/naza/1722",
-  "image": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Et Lite Stykke Finland",
-  "start": "2026-11-05T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
-  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Hex En Film Om Fenomenet Witch Club Satan",
-  "start": "2026-11-05T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/hex-en-film-om-fenomenet-witch-club-satan/1659",
-  "image": "https://images.filmgrail.com/mediaserver/movies/hex-en-film-om-fenomenet-witch-club-satan-8525/backdrop/1793276111106?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Ordkalotten student - forfatterintervju med April Alexandersdottir",
-  "start": "2026-11-05T12:15:00",
-  "venue": "1.etasje på UB, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943479/ordkalotten_student_-_forfatterintervju_med_april",
-  "image": "https://uit.no/Content/943485/cache=20262010142821/transformation=scale10000x560/April.jpg",
   "free": true
  },
  {
@@ -315,6 +81,15 @@
   "free": true
  },
  {
+  "title": "Markens Grode",
+  "start": "2026-11-05T18:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Young Washington",
   "start": "2026-11-05T18:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -324,12 +99,30 @@
   "free": false
  },
  {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-05T18:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "A BETTER TOMORROW",
   "start": "2026-11-05T18:30:00",
   "venue": "Verdensteatret, Tromsø",
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/a-better-tomorrow",
   "image": "https://www.verdensteatret.no/img/_movieThumb/Skjermbilde-2026-10-23-110421.png",
+  "free": false
+ },
+ {
+  "title": "Naza",
+  "start": "2026-11-05T19:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/naza/1722",
+  "image": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -500,7 +293,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -932,7 +725,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/wild-horse-nine/1568",
-  "image": "https://images.filmgrail.com/mediaserver/movies/wild-horse-nine-9262/backdrop/1792409413886?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/1793881615325-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -972,6 +765,15 @@
   "free": false
  },
  {
+  "title": "Julenissens Verksted",
+  "start": "2026-11-08T11:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Mysteriepakken",
   "start": "2026-11-08T11:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -987,15 +789,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667",
   "image": "https://images.filmgrail.com/mediaserver/movies/lille-spokelset-laban-skoyer-igjen-9530/backdrop/1790343122113?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sauen Shaun Gardens Farbannelse",
-  "start": "2026-11-08T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sauen-shaun-gardens-farbannelse-8291/backdrop/1790068828337?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1080,15 +873,6 @@
   "free": false
  },
  {
-  "title": "Monster Mia",
-  "start": "2026-11-08T16:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monster-mia/1712",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monster-mia-9567/backdrop/1793185987406?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Et Lite Stykke Finland",
   "start": "2026-11-08T16:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -1103,7 +887,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1179,6 +963,15 @@
   "free": false
  },
  {
+  "title": "Arctic Pride: Forfattermøte med Mari Grydeland",
+  "start": "2026-11-09T09:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/arctic-pride-forfattermote-med-mari-grydeland",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/26b09b0a-9a5a-4bec-accc-c8bc1b2a7043_0.png.webp?itok=f6DFHsL6",
+  "free": true
+ },
+ {
   "title": "Disputas Master Mizanur Rahman",
   "start": "2026-11-09T10:15:00",
   "venue": "SVHUM B-1005, digitalt, UiT Tromsø",
@@ -1206,12 +999,12 @@
   "free": true
  },
  {
-  "title": "Mysteriepakken",
+  "title": "Julenissens Verksted",
   "start": "2026-11-09T16:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1292,7 +1085,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1350,21 +1143,21 @@
   "free": false
  },
  {
-  "title": "Et Lite Stykke Finland",
-  "start": "2026-11-10T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
-  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Javla Menn",
   "start": "2026-11-10T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
   "image": "https://images.filmgrail.com/mediaserver/movies/javla-menn-9489/backdrop/1793369713721?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Et Lite Stykke Finland",
+  "start": "2026-11-10T12:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
+  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1400,16 +1193,16 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
   "free": false
  },
  {
-  "title": "Verity",
+  "title": "Naza",
   "start": "2026-11-10T14:30:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/verity/1548",
-  "image": "https://images.filmgrail.com/mediaserver/movies/verity-9225/backdrop/1789132511656?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/naza/1722",
+  "image": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1464,15 +1257,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/wildwood/1669",
   "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Naza",
-  "start": "2026-11-10T20:30:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/naza/1722",
-  "image": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1539,21 +1323,21 @@
   "free": false
  },
  {
-  "title": "Whalefall",
-  "start": "2026-11-11T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Sangen Fra Skogene",
   "start": "2026-11-11T12:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/sangen-fra-skogene/1668",
   "image": "https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene-9492/backdrop/1792144599385?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Whalefall",
+  "start": "2026-11-11T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
+  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1566,21 +1350,21 @@
   "free": true
  },
  {
-  "title": "Sense And Sensibility",
-  "start": "2026-11-11T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Verity",
   "start": "2026-11-11T14:30:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/verity/1548",
   "image": "https://images.filmgrail.com/mediaserver/movies/verity-9225/backdrop/1789132511656?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sense And Sensibility",
+  "start": "2026-11-11T14:30:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1617,6 +1401,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/934335/knitting_cafe_for_beginners_and_experts_-_free_eq",
   "image": "https://uit.no/Content/934935/cache=20260508095355/transformation=scale10000x560/OPM%20-%20kvadrat%20strikkekafe.png",
+  "free": true
+ },
+ {
+  "title": "Strikkekafé",
+  "start": "2026-11-11T17:00:00",
+  "venue": "Hovedbiblioteket, møterommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-02/Bilde%20strikkekaf%C3%A9.jpg.webp?itok=P2HjBGDN",
   "free": true
  },
  {
@@ -1661,7 +1454,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1716,6 +1509,15 @@
   "source": "uit",
   "url": "https://www.atlanterhavskomiteen.no/arrangementer-og-kurs/arrangementer/kurs-i-internasjonal-politikk-i-tromso-2026?instance=0",
   "image": "https://uit.no/Content/943764/cache=20262310153139/transformation=scale10000x560/Kurs%20i%20Internasjonal%20politikk%202026%202026-10-23%20152545.png",
+  "free": true
+ },
+ {
+  "title": "Drop-in lesesirkel - formiddag",
+  "start": "2026-11-12T10:30:00",
+  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/drop-lesesirkel-formiddag",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
   "free": true
  },
  {
@@ -1818,12 +1620,12 @@
   "free": true
  },
  {
-  "title": "Monster Mia",
+  "title": "Julenissens Verksted",
   "start": "2026-11-12T16:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monster-mia/1712",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monster-mia-9567/backdrop/1793185987406?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1845,15 +1647,6 @@
   "free": true
  },
  {
-  "title": "Javla Menn",
-  "start": "2026-11-12T17:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
-  "image": "https://images.filmgrail.com/mediaserver/movies/javla-menn-9489/backdrop/1793369713721?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Bli med på bokklubb - vi leser Alberte og Jakob! (fulltegnet)",
   "start": "2026-11-12T17:30:00",
   "venue": "Hovedbiblioteket ++, Tromsø",
@@ -1872,12 +1665,21 @@
   "free": false
  },
  {
-  "title": "Sense And Sensibility",
+  "title": "Ramayana Rise Of A Legend",
+  "start": "2026-11-12T18:15:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/ramayana-rise-of-a-legend/1692",
+  "image": "https://images.filmgrail.com/mediaserver/movies/ramayana-rise-of-a-legend-9828/backdrop/1793629809499?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Javla Menn",
   "start": "2026-11-12T18:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
+  "image": "https://images.filmgrail.com/mediaserver/movies/javla-menn-9489/backdrop/1793369713721?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1908,21 +1710,12 @@
   "free": false
  },
  {
-  "title": "The Odyssey",
-  "start": "2026-11-12T20:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Godzilla Minus Zero",
   "start": "2026-11-12T20:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200&optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1936,7 +1729,7 @@
  },
  {
   "title": "Other Mommy",
-  "start": "2026-11-12T21:30:00",
+  "start": "2026-11-12T21:15:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/other-mommy/1662",
@@ -2079,6 +1872,15 @@
   "free": false
  },
  {
+  "title": "Julenissens Verksted",
+  "start": "2026-11-16T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "The English Book Club",
   "start": "2026-11-16T17:15:00",
   "venue": "In person at Tromsdalen Library, UiT Tromsø",
@@ -2094,6 +1896,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/943171/avslutningskonferanse_for_forskningsprosjektet_s",
   "image": "https://uit.no/Content/943109/cache=20261410135653/transformation=scale10000x560/FISKUM1157.jpg",
+  "free": true
+ },
+ {
+  "title": "Disputas – Cand.med. Martin Støyten",
+  "start": "2026-11-17T10:15:00",
+  "venue": "Auditorium Cortex, plan 7, MH Vest, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/944758/disputas_cand_med_martin_stoyten",
+  "image": "https://uit.no/Content/944765/cache=20260511112958/transformation=scale10000x560/Martin%20St%C3%B8yten.jpg",
   "free": true
  },
  {
@@ -2130,6 +1941,24 @@
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/rocky",
   "image": "https://www.verdensteatret.no/img/_movieThumb/42710/5000017_crop.png",
+  "free": false
+ },
+ {
+  "title": "The Hunger Games Sunrise On The Reaping",
+  "start": "2026-11-18T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
+  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Ebenezer",
+  "start": "2026-11-18T15:15:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
+  "image": "https://images.filmgrail.com/mediaserver/movies/ebenezer-8448/backdrop/1793798114406?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2274,6 +2103,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/941806/20_vuotta_kv_nii_20_ar_med_undervisning_i_kven",
   "image": "https://uit.no/Content/942026/cache=20263009103212/transformation=scale10000x560/IMG_0565.jpeg",
+  "free": true
+ },
+ {
+  "title": "Studietur til Remiks miljøpark",
+  "start": "2026-11-24T09:00:00",
+  "venue": "Turbuss fra UiTs campus til Remiks Miljøpark, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/944746/studietur_til_remiks_miljopark",
+  "image": "https://uit.no/Content/944748/cache=20260511101234/transformation=scale10000x560/Studietur%20til%20Remiks%20Milj%C3%B8park%2C%20banner.jpg",
   "free": true
  },
  {
@@ -2553,6 +2391,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/941685/how_to_turn_your_research_into_nva",
   "image": "https://uit.no/Content/944635/cache=20260311160952/transformation=scale10000x560/3611aa40-8478-4170-8420-14b80daa1b25.jpg",
+  "free": true
+ },
+ {
+  "title": "ENCODE seminar & debate: How I Learned to Stop Worrying and Love Geopolitics",
+  "start": "2026-12-07T13:15:00",
+  "venue": "C-1007, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/944794/encode_seminar_debate_how_i_learned_to_stop_wo",
+  "image": "https://uit.no/Content/944797/cache=20260511150405/transformation=scale10000x560/Skjermbilde%202026-11-05%20kl.%2014.59.06.png",
   "free": true
  },
  {
@@ -3092,7 +2939,7 @@
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/sa-naere-vi-var-en-hyllest-til-lillebjorn-nilsen/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/SA-NAERE-VI-VAR-en-hyllest-til-Lillebjorn-Nilsen-3.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/SA-NAERE-VI-VAR-en-hyllest-til-Lillebjorn-Nilsen-1-2.jpg",
   "free": false
  },
  {
@@ -3186,11 +3033,11 @@
   "free": true
  },
  {
-  "title": "Language in Healthcare: Second Language Teaching, Assessment and Learning Resources for Healthcare Professionals and Students in Nordic Vocational and Higher Education",
+  "title": "Language in Healthcare",
   "start": "2027-06-28T09:00:00",
   "venue": "Campus Breivika, UiT Tromsø",
   "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932076/language_in_healthcare_second_language_teaching",
+  "url": "https://uit.no/tavla/artikkel/932076/language_in_healthcare",
   "image": "https://uit.no/Content/932078/cache=20262506124046/transformation=scale10000x560/Logo%20helsespra%CC%8Ak.png",
   "free": true
  },
@@ -3219,15 +3066,6 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/936431/31st_eu-us_transport_task_force_workshop",
   "image": "https://uit.no/Content/936436/cache=20261708122908/transformation=scale10000x560/OEG-2014-03-29-13-32-14-1.jpg",
-  "free": true
- },
- {
-  "title": "Samiske flytteveier: Tegneworkshop med Kai Mikkel Balto",
-  "start": "2027-09-13T11:00:00",
-  "venue": "Tromsø bibliotek",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/samiske-flytteveier-tegneworkshop-med-kai-mikkel-balto",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-08/Tegneworkshop.jpg.webp?itok=LJdQ7GLi",
   "free": true
  },
  {
@@ -3453,6 +3291,15 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/tromso-world-festival-culture-and-climate-building-sustainable-festival",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Troms%C3%B8%20world%20Pro.jpg.webp?itok=Fs3-GrAs",
+  "free": true
+ },
+ {
+  "title": "Lesesirkel: Tenk for en jubel",
+  "start": "2027-11-03T17:30:00",
+  "venue": "Hovedbiblioteket, møterommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/lesesirkel-tenk-en-jubel",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-05/Lesesirkel%20Tenk%20for%20en%20jubel.png.webp?itok=b5TudpNr",
   "free": true
  },
  {
