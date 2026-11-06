@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Lagar vevversjonar av teksturane for tema v7 «oppslagstavle».
 
-Kjeldefiler: design/textures/src/{wood-brown,planks-blue,paper-kraft}.jpg
+Kjeldefiler: design/textures/src/{wood-plank-32,marble-green,paper-kraft}
 Mål:         src/assets/textures/{board,banner,paper}.webp
 
-  board  1024x512, uendra
+  board  1024x1024, uendra (kjelde: wood-plank-32.png)
   banner 1024x1024, uendra
   paper  1024 px brei, ljosna slik at snittfargen ligg kring #D6C29C
 
@@ -105,7 +105,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     out = {}
 
-    wood = Image.open(os.path.join(SRC, 'wood-brown.jpg')).convert('RGB')
+    wood = Image.open(os.path.join(SRC, 'wood-plank-32.png')).convert('RGB')
     p = os.path.join(OUT, 'board.webp')
     wood.save(p, 'WEBP', quality=80, method=6)
     out['board'] = report('board ', p, Image.open(p))
