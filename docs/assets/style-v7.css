@@ -13,7 +13,7 @@
 */
 
 :root{
-  --board:#625040;      /* snitt board.webp  — tavla, mørkast */
+  --board:#91684B;      /* snitt board.webp (wood-plank-32) — veggen bak alt */
   --marble:#4B6A62;     /* snitt marble.webp — masthead */
   --banner:#8BB1AA;     /* snitt banner.webp med 12 % kvitvask — måla vegg */
   --paper:#D6C29C;      /* snitt paper.webp  — oppslag, ljosast */
@@ -33,7 +33,7 @@
 body{
   background-image:url("/assets/textures/board.webp");
   background-repeat:repeat;
-  background-size:512px 256px;
+  background-size:512px 512px;
   background-color:var(--board);
 }
 .page-shell{background:none;box-shadow:none}
@@ -220,7 +220,7 @@ body.page-event{
   background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/board.webp");
   background-repeat:no-repeat,repeat;
   background-attachment:fixed,scroll;
-  background-size:100% 100%,512px 256px;
+  background-size:100% 100%,512px 512px;
 }
 
 @media(max-width:639px){
