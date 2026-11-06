@@ -24,10 +24,10 @@ const time = s=>s?.slice(11,16);
 const imageUrl = (value)=>/^https?:\/\//i.test(String(value||'')) ? String(value) : `/${String(value||'').replace(/^\/+/, '')}`;
 const image = (e,klass='')=>`<img class="${klass}" src="${esc(imageUrl(e.bilde))}" alt="${esc(e[`bildetekst_${klass==='hero-image'?'heroLang':'cardLang'}`]||'')}" loading="lazy">`;
 function shell(lang,title,body,alternate,mastExtra='',bodyClass='') {
-  const tagline=tr(lang,'«sånn går no dagan»','“thus go the days”');
+  const tagline=tr(lang,'Sånn går dagan','Thus goes the days');
   const metaDesc=tr(lang,'Alt som skjer i Tromsø – uten reklame','Everything happening in Tromsø – no ads');
   const other=lang==='no'?'en':'no';
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><title>${esc(title)} · tromsø.net</title><meta name="description" content="${esc(metaDesc)}"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css">${themeLinks}<script defer src="/assets/filters.js"></script></head><body${bodyClass?` class="${bodyClass}"`:''}><div class="page-shell"><header class="masthead"><div class="mast-inner"><div class="brand"><a class="brand-link" href="${root(lang)}" aria-label="tromsø.net"><img src="/assets/logo.svg" width="152" height="24" alt="tromsø.net"></a><p>${tagline}</p></div><nav class="languages" aria-label="${tr(lang,'Velg språk','Choose language')}">${lang==='no'?`<span aria-current="page">NO</span><span aria-hidden="true">/</span><a href="${alternate}" lang="en" hreflang="en">EN</a>`:`<a href="${alternate}" lang="no" hreflang="no">NO</a><span aria-hidden="true">/</span><span aria-current="page">EN</span>`}</nav></div>${mastExtra?`<div class="mast-extra">${mastExtra}</div>`:''}</header><main id="main">${body}</main><footer class="site-footer"><div class="route-line" aria-hidden="true"><span>✦</span></div><div class="footer-inner"><img src="/assets/favicon.svg" width="34" height="34" alt=""><div><a href="${root(lang)}${lang==='no'?'om':'about'}/">${tr(lang,'Om prosjektet','About the project')}</a><span> · </span><a href="/${other}/" hreflang="${other}">${other.toUpperCase()}</a><p>${tr(lang,'Uten reklame. Uten sporing.','No ads. No tracking.')}</p></div><small>69°39′ N · 18°57′ Ø</small></div></footer></div></body></html>`;
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><title>${esc(title)} · tromsø.net</title><meta name="description" content="${esc(metaDesc)}"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css">${themeLinks}<script defer src="/assets/filters.js"></script></head><body${bodyClass?` class="${bodyClass}"`:''}><div class="page-shell"><header class="masthead"><div class="mast-inner"><div class="brand"><a class="brand-link" href="${root(lang)}" aria-label="tromsø.net"><img src="/assets/logo.svg" width="152" height="24" alt="tromsø.net"></a><p>${tagline}</p></div><nav class="languages" aria-label="${tr(lang,'Velg språk','Choose language')}">${lang==='no'?`<span aria-current="page">NO</span><span aria-hidden="true">/</span><a href="${alternate}" lang="en" hreflang="en">EN</a>`:`<a href="${alternate}" lang="no" hreflang="no">NO</a><span aria-hidden="true">/</span><span aria-current="page">EN</span>`}</nav>${mastExtra?`<div class="mast-extra">${mastExtra}</div>`:''}</div></header><main id="main">${body}</main><footer class="site-footer"><div class="route-line" aria-hidden="true"><span>✦</span></div><div class="footer-inner"><img src="/assets/favicon.svg" width="34" height="34" alt=""><div><a href="${root(lang)}${lang==='no'?'om':'about'}/">${tr(lang,'Om prosjektet','About the project')}</a><span> · </span><a href="/${other}/" hreflang="${other}">${other.toUpperCase()}</a><p>${tr(lang,'Uten reklame. Uten sporing.','No ads. No tracking.')}</p></div><small>69°39′ N · 18°57′ Ø</small></div></footer></div></body></html>`;
 }
 function card(e,lang,now=new Date()) {
   const title=e[lang]?.[lang==='no'?'tittel':'title'];
@@ -42,10 +42,6 @@ function filters(lang) {
   const periods=[['today',tr(lang,'I dag','Today')],['weekend',tr(lang,'Til helgen','This weekend')],['all',tr(lang,'Alt','All')]];
   return `<section class="filter-area" aria-label="${tr(lang,'Filtrer arrangementer','Filter events')}"><div class="time-tabs js-only" role="group" aria-label="${tr(lang,'Tidspunkt','Time period')}">${periods.map(([key,label],i)=>`<button type="button" data-time-filter="${key}" aria-pressed="${i===0}">${label}</button>`).join('')}</div><p class="nojs-note"><noscript>${tr(lang,'Alle kommende arrangementer vises. Aktiver JavaScript for å filtrere.','All upcoming events are shown. Enable JavaScript to filter.')}</noscript></p></section>`;
 }
-const dayLabel = (iso,lang)=>{
-  const text=new Intl.DateTimeFormat(lang==='no'?'nb-NO':'en-GB',{weekday:'long',day:'numeric',month:'long'}).format(new Date(iso+'T12:00:00Z'));
-  return text.charAt(0).toUpperCase()+text.slice(1);
-};
 function dayGroups(list,lang) {
   const byDay=new Map();
   for (const e of [...list].sort((a,b)=>a.start.localeCompare(b.start))) {
@@ -53,14 +49,14 @@ function dayGroups(list,lang) {
     if(!byDay.has(key)) byDay.set(key,[]);
     byDay.get(key).push(e);
   }
-  return [...byDay].map(([key,items])=>({key,label:dayLabel(key,lang),items}));
+  return [...byDay].map(([key,items])=>({key,items}));
 }
 function listing(lang,upcoming,now=new Date(),category=null) {
   const list=category?upcoming.filter(e=>e.kategori?.includes(category.key)):upcoming;
   const heading=category?category[lang]:tr(lang,'Alt som skjer i Tromsø','Everything happening in Tromsø');
   const intro=category?tr(lang,'Et lite utsnitt av kalenderen, samlet på ett sted.','A closer look at one corner of the calendar.'):tr(lang,'En håndplukket oversikt over byens små og store øyeblikk.','A considered guide to the city’s little and large moments.');
   const front=!category;
-  const groups=dayGroups(list,lang).map(g=>`<section class="day-group" data-day="${g.key}"><h2 class="day-divider"><span class="day-label">${esc(g.label)}</span></h2><div class="event-grid">${g.items.map(e=>card(e,lang,now)).join('')}</div></section>`).join('');
+  const groups=dayGroups(list,lang).map(g=>`<section class="day-group" data-day="${g.key}"><div class="event-grid">${g.items.map(e=>card(e,lang,now)).join('')}</div></section>`).join('');
   const head=front?'':`<div class="page-heading"><h1>${esc(heading)}</h1><p>${intro}</p></div>`;
   const body=`${head}<section class="results" aria-label="${tr(lang,'Kommende arrangementer','Upcoming events')}"><div data-filter-list>${groups}</div><div class="empty-state" data-empty ${list.length?'hidden':''}><img class="empty-art" src="/assets/quiet-waters.webp" alt="" width="600" height="400"><h3>${tr(lang,'Stille i farvannet akkurat nå','Quiet waters for now')}</h3><p>${tr(lang,'Prøv en annen dag eller kategori.','Try another date or category.')}</p></div></section>`;
   return shell(lang,heading,body,category?catUrl(category,lang==='no'?'en':'no'):root(lang==='no'?'en':'no'),filters(lang),'page-front');

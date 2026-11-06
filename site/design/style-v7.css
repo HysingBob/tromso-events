@@ -63,7 +63,17 @@ body{
 .masthead:has(.mast-extra){padding-top:48px;padding-bottom:44px}
 /* Andre sider: kompakt masthead — berre logo-rada (gjeld no alle sider) */
 .masthead:not(:has(.mast-extra)){padding:36px 0}
-.mast-inner,.mast-extra{max-width:1160px;margin:auto;padding:0 21px}
+/* Masthead-rada: namn/undertittel til venstre, språkval i øvre høgre hjørne
+   og filterknappane til høgre for namnet på skrivebord. På telefon (sjå
+   @media nedst) legg filtera seg under namnet — det er ikkje plass ved sida. */
+.mast-inner{
+  max-width:1160px;margin:auto;padding:0 21px;
+  display:grid;grid-template-columns:1fr auto;column-gap:28px;align-items:start;
+  grid-template-areas:"brand lang" "brand filters";
+}
+.brand{grid-area:brand}
+.languages{grid-area:lang;justify-self:end;align-self:start;padding-top:0}
+.mast-extra{grid-area:filters;justify-self:end;align-self:end;max-width:none;margin:0;padding:0}
 .masthead :is(h1,p,a,span,button,.eyebrow){color:#fff}
 .masthead :is(h1,p,span,button,.eyebrow){text-shadow:0 1px 2px rgba(0,0,0,.55)}
 .masthead .eyebrow{font-size:17px;letter-spacing:.15em;margin:0}
@@ -171,25 +181,10 @@ body{
 .category-controls button{border-color:#9C8A6A}
 .route-line span{background:var(--parchment);color:var(--sea)}
 
-/* 5b — Dagdelarar: marmor i staden for turkis planke --------------------
-
-   Bob vil ikkje ha planke: «eg brukar marmor for alle turkise element».
-   Delaren er difor ei marmorliste med same mål som før — 50 px skrivebord,
-   40 px telefon — og same 15 % svartvask som mastheaden (målt: kvit 20 px
-   feit tekst 4.24:1 på p99.9 og 3.96:1 på den ljosande pikselen).         */
-
-.day-group{margin:0 0 26px}
-.day-divider{
-  display:flex;align-items:center;gap:12px;
-  height:50px;margin:0 0 18px;padding:0 16px;
-  background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("/assets/textures/marble.webp");
-  background-repeat:repeat;
-  background-size:512px 512px;
-  background-color:var(--marble);
-  box-shadow:0 3px 8px rgba(0,0,0,.4);
-  color:#fff;font-family:var(--body);font-size:20px;font-weight:700;line-height:1;
-  text-shadow:0 1px 2px rgba(0,0,0,.55);
-}
+/* Dagdelarane er ute (datoen står på kvart kort) — gruppene held berre
+   døgnrytmen i lista med luft mellom dagane. */
+.day-group{margin:0 0 22px}
+.day-group:last-child{margin-bottom:0}
 /* 5c — Arrangementssida: mørkne mot kantane ------------------------------ */
 
 body.page-event{
@@ -201,6 +196,12 @@ body.page-event{
 
 @media(max-width:639px){
   /* telefon: mindre luft i mastheaden */
+  /* Telefon: filtera under namnet (ikkje plass ved sida), språkval i hjørnet */
+  .mast-inner{
+    grid-template-areas:"brand lang" "filters filters";
+    row-gap:14px;column-gap:12px;
+  }
+  .mast-extra{justify-self:start}
   .masthead{padding:16px 0}
   .masthead:not(:has(.mast-extra)){padding:20px 0}
   .mast-title{font-size:40px;margin:20px 0 0}
@@ -211,7 +212,6 @@ body.page-event{
   .brand-link{gap:10px}
   .brand-link img{height:44px}
   .brand p{font-size:16px}
-  .day-divider{height:40px;font-size:18px;padding:0 14px}
 }
 
 /* 6 — Rørsle og smale skjermar ------------------------------------------ */
