@@ -9,7 +9,7 @@
   const empty = document.querySelector('[data-empty]');
   const count = document.querySelector('[data-count]');
   const lang = document.documentElement.lang;
-  let period = 'today';
+  let period = 'all';   // «Alt» er forhandsvald: sida skal aldri sjå tom ut
   const chosen = new Set();
   function osloNow() {
     const parts = new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Oslo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date());
