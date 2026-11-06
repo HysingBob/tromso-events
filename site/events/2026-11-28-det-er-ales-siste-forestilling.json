@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-28-det-er-ales-siste-forestilling",
+  "start": "2026-11-28T18:00",
+  "sted": "Hålogaland Teater, Scene Øst",
+  "adresse": "Teaterplassen 1, 9258 Tromsø",
+  "kategori": [
+    "Scene"
+  ],
+  "merke": {
+    "no": "Siste forestilling",
+    "en": "Final performance"
+  },
+  "no": {
+    "tittel": "Det er Ales – siste forestilling",
+    "ingress": "Siste sjanse til å oppleve Jon Fosses poetiske fortelling på Scene Øst denne spilleperioden.",
+    "tekst": "Signe lever videre i huset der hun delte livet med mannen som aldri kom hjem fra havet. I Jon Fosses fortelling møtes savn, minner og spørsmålet om hvordan det er mulig å leve videre etter et slikt tap.\n\nDette er siste oppførte spilledag i Hålogaland Teaters Tromsø-periode for Det er Ales."
+  },
+  "en": {
+    "title": "Det er Ales – final performance",
+    "lead": "The final chance to experience Jon Fosse’s poetic story at Scene Øst during this run.",
+    "text": "Signe lives on in the house she shared with the man who never returned from the sea. Jon Fosse’s story explores grief, memory and the question of how to go on living after such a loss.\n\nThis is the final listed date of Hålogaland Teater’s Tromsø run of Det er Ales."
+  },
+  "bilde": "https://halogalandteater.no/sites/default/files/styles/hero_image_xlarge/public/cover-images/2026-11/Det-er-Ales-26-webbanner-1920x1200-261106b.png.webp?itok=grC4be4p",
+  "bildetekst_no": "Arrangementsbilde fra Hålogaland Teater for Det er Ales.",
+  "bildetekst_en": "Event image from Hålogaland Teater for Det er Ales.",
+  "kilde_navn": "Hålogaland Teater",
+  "kilde_url": "https://halogalandteater.no/produksjon/2026/det-er-ales",
+  "status": "publisert"
+}

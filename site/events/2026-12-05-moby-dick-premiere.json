@@ -1,0 +1,30 @@
+{
+  "id": "2026-12-05-moby-dick-premiere",
+  "start": "2026-12-05T18:00",
+  "sted": "Hålogaland Teater, Scene Vest",
+  "adresse": "Teaterplassen 1, 9258 Tromsø",
+  "aldersgrense": "Anbefales ikke for barn under 10 år",
+  "kategori": [
+    "Scene"
+  ],
+  "merke": {
+    "no": "Premiere",
+    "en": "Premiere"
+  },
+  "no": {
+    "tittel": "Moby Dick – premiere",
+    "ingress": "Herman Melvilles klassiker får en storslått scenisk drakt på Scene Vest.",
+    "tekst": "Bli med Ismael og mannskapet på fangstskuta Pequod i jakten på den hvite hvalen. Hålogaland Teater beskriver forestillingen som en fortelling om havet, naturkreftene, vennskap og fellesskap. Dette er premieren på Scene Vest.\n\nForestillingen anbefales ikke for barn under 10 år."
+  },
+  "en": {
+    "title": "Moby Dick – opening night",
+    "lead": "Herman Melville’s classic takes the stage in a bold production at Scene Vest.",
+    "text": "Join Ishmael and the crew of the whaling ship Pequod in the hunt for the white whale. Hålogaland Teater describes the production as a story of the sea, the forces of nature, friendship and solidarity. This is the opening night at Scene Vest.\n\nThe theatre advises that the performance is not suitable for children under 10."
+  },
+  "bilde": "https://halogalandteater.no/sites/default/files/styles/hero_image_xlarge/public/cover-images/2026-05/Moby-Dick-webbanner-1920x1200-260521.png.webp?itok=3hEfnsR0",
+  "bildetekst_no": "Arrangementsbilde fra Hålogaland Teater for Moby Dick.",
+  "bildetekst_en": "Event image from Hålogaland Teater for Moby Dick.",
+  "kilde_navn": "Hålogaland Teater",
+  "kilde_url": "https://halogalandteater.no/produksjon/2026/moby-dick",
+  "status": "publisert"
+}
