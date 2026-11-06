@@ -25,11 +25,24 @@
     if (days>0 && days<=untilSunday && [0,6].includes((weekday+days)%7)) return 'weekend';
     return days<=7?'week':'later';
   }
+  // Er «i dag» ein helgedag? Då skal dagens arrangement også telje med under
+  // «Til helgen» — elles vert filteret tomt på fredag/laurdag/sundag.
+  function isWeekendDay(now) {
+    const wd = new Date(Date.parse(now.slice(0,10)+'T00:00:00Z')).getUTCDay();
+    return wd === 5 || wd === 6 || wd === 0;
+  }
+  function inPeriod(start, period, now) {
+    if (period === 'all') return true;
+    const b = bucket(start, now);
+    if (period === 'today') return b === 'today';
+    if (period === 'weekend') return b === 'weekend' || (b === 'today' && isWeekendDay(now));
+    return b === period;
+  }
   function update() {
     const now=osloNow();
     let shown=0;
     for (const card of cards) {
-      const visible=card.dataset.end>now && (period==='all' || bucket(card.dataset.start,now)===period);
+      const visible=card.dataset.end>now && inPeriod(card.dataset.start,period,now);
       card.hidden=!visible;
       if(visible) shown++;
     }
