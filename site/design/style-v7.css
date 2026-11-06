@@ -196,7 +196,9 @@ body{
 .detail-art{border-color:var(--rule)}
 .facts{background:#E0CDA8}
 .ticket-link{color:var(--light-ink)}
-.category-controls button{border-color:#9C8A6A}
+/* Datoen er no hovudteksten i kickeren (ikkje ein kassert i biletet), så han
+   får leseleg storleik og normal setting — «fredag, 6. november 2026». */
+.card-kicker{color:var(--rust);font-size:14px;letter-spacing:.02em;text-transform:none}
 .route-line span{background:transparent;color:#fff}
 
 /* Dagdelarane er ute (datoen står på kvart kort) — gruppene held berre
