@@ -82,7 +82,7 @@ body{
 .languages,.languages a{font-size:17px}
 
 /* Logorad: berre tromsø.net i stort format, med undertittel under */
-.brand{display:flex;align-items:flex-start}
+.brand{display:block;width:max-content;max-width:100%}
 .brand-link{display:block;width:auto;height:auto}
 /* Ordmerket er mørkt blekk i SVG-en: snu det til kvitt og gjev det stor plass */
 .brand-link img{width:auto;height:72px;display:block;filter:brightness(0) invert(1)}
