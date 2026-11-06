@@ -138,19 +138,15 @@ body{
 .detail{padding:16px;margin:20px 0 0}
 .about-copy{padding:26px 20px 44px;margin:20px 0 0}
 /* Botnen av sida: marmor som mastheaden, for å markera at sida er slutt.
-   same 15 % svartvask og same kvite tekst som masthead, skugge oppover i
-   staden for nedover, og kompassrosa som midtpunkt over innhaldet. */
+   same 15 % svartvask og same kvite tekst som masthead, og skugge oppover i
+   staden for nedover. Kompassrosa står i venstre hjørne (ho har teke plassen
+   til det gamle favikonet). */
 .site-footer{
   margin:0;padding:26px 21px 30px;border-top:0;
   background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("/assets/textures/marble.webp");
   background-repeat:repeat;background-size:512px 512px;background-color:var(--marble);
   box-shadow:0 -6px 18px rgba(0,0,0,.45);
   color:#fff;
-}
-.site-footer::before{
-  content:"";display:block;width:64px;height:64px;margin:0 auto 18px;
-  background-image:url("/assets/textures/compass.webp");
-  background-repeat:no-repeat;background-size:contain;background-position:center;
 }
 .site-footer,.site-footer p,.site-footer a,.site-footer small{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.55)}
 .site-footer .footer-inner img{filter:brightness(0) invert(1)}
