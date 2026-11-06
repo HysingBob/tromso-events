@@ -29,8 +29,7 @@
     const now=osloNow();
     let shown=0;
     for (const card of cards) {
-      const categoryMatch=!chosen.size || [...chosen].some(cat=>card.dataset.categories.split('|').includes(cat));
-      const visible=card.dataset.end>now && bucket(card.dataset.start,now)===period && categoryMatch;
+      const visible=card.dataset.end>now && (period==='all' || bucket(card.dataset.start,now)===period);
       card.hidden=!visible;
       if(visible) shown++;
     }

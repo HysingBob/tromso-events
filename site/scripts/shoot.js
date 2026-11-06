@@ -31,7 +31,7 @@ const WIDTHS = [390, 1440];
       await page.evaluate(() => document.fonts.ready);
       if (name === 'home') {
         await page.evaluate(() => {
-          const t = document.querySelector('[data-time-filter="week"]');
+          const t = document.querySelector('[data-time-filter="all"]');
           if (t) t.click();
         });
       }

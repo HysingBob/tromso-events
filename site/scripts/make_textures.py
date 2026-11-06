@@ -110,16 +110,6 @@ def v71_textures(out):
     print(f'    første heile plank byrjar på y={first} (fugesenter) — '
           f'bruk background-position:0 {-first}px for å leggje fuga i toppkanten')
 
-    rose = Image.open(os.path.join(SRC, 'compass-rose.png'))
-    rose_rgba = rose.convert('RGBA')
-    rose_rgba.thumbnail((512, 512), Image.Resampling.LANCZOS)
-    p, im = save_webp(rose_rgba, 'compass.webp', alpha=True)
-    p_png = os.path.join(OUT, 'compass.png')
-    rose_rgba.save(p_png, 'PNG', optimize=True)
-    out['compass'] = report('compass', p, rose_rgba)
-    print(f'    compass.png {os.path.getsize(p_png)/1024:.1f} KB (fallback, alpha)')
-
-
 def main():
     os.makedirs(OUT, exist_ok=True)
     out = {}

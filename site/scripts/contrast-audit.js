@@ -48,7 +48,7 @@ const contrast = (a, b) => {
   await page.evaluate(() => document.fonts.ready);
   // Standardfilteret er «I dag» og kan vere tomt — klikk «Denne uken» først.
   await page.evaluate(() => {
-    const t = document.querySelector('[data-time-filter="week"]');
+    const t = document.querySelector('[data-time-filter="all"]');
     if (t) t.click();
   });
   const data = await page.evaluate((sels) => {
