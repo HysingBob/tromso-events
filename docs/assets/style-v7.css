@@ -187,6 +187,8 @@ body{
   padding:5px 10px;border-radius:2px;transform:rotate(-3deg);
   box-shadow:0 2px 4px rgba(0,0,0,.35);
 }
+/* Same lapp på arrangementssida, men litt lenger ut frå kanten */
+.detail-art .card-stamp{right:20px;top:20px;font-size:13px;padding:7px 12px}
 .card-art{background:#C9B691}
 .card-art img{filter:sepia(.5) saturate(.7) contrast(.92);transition:filter .3s ease}
 .event-card:hover .card-art img,.event-card:focus-visible .card-art img{filter:none}
