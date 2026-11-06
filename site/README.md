@@ -1,6 +1,6 @@
-# tromsø.net — publisert demonstrasjon
+# tromsø.net — publisert arrangementskalender
 
-En reklamefri, tospråklig arrangementskalender med statiske filer. Den publiserte forhåndsvisningen bygges fra `site/` i repoet `HysingBob/tromso-events` og vises på `tromsoevents.net`. **Den er foreløpig en demonstrasjon, ikke en kalender med virkelige arrangementer.** De åtte arrangementene i `events/` er oppdiktede og tydelig merket som eksempler; ingen av dem finner sted. Hele demonstrasjonen har `noindex,nofollow` i HTML og skal ikke åpnes for søkeindeksering før eksemplene er erstattet og informasjonen kontrollert. E-postadressen på om-siden er et forslag og må aktiveres før den kan brukes.
+Reklamefri, tospråklig arrangementskalender med statiske filer. Nettstedet bygges fra `site/` i repoet `HysingBob/tromso-events` og vises på `tromsoevents.net`. Alle innslag skal være ekte og kontrollert mot arrangørens kilde. Siden bruker fortsatt `noindex,nofollow` mens lansering for offentlig spredning avventes.
 
 ## Hvorfor Eleventy?
 
@@ -21,12 +21,14 @@ npm run dev
 ## Legg til et arrangement
 
 1. Kopier en JSON-fil i `events/` til `events/ÅÅÅÅ-MM-DD-kort-navn.json`. Filnavnet og feltet `id` må være identiske uten `.json`.
-2. Endre datoer, språk, kategori og kilde. `start` og `slutt` skrives som norsk lokal tid, for eksempel `2027-02-01T20:00` (Europe/Oslo). `slutt` anbefales; uten den regnes arrangementet som over når det starter.
-3. Legg en **egenprodusert** 1500×1000 WebP-illustrasjon i `images/` med samme navn (`images/ÅÅÅÅ-MM-DD-kort-navn.webp`). `bilde` peker dit. En valgfri 750×500-versjon i `images/cards/` brukes på kort; ellers brukes originalen automatisk. Ikke bruk bilder fra eksterne nettsteder.
-4. Sett `status` til `"venter"` mens Bob kontrollerer informasjonen. Først når `status` er `"publisert"`, vises arrangementet. Sett **ikke** `"eksempel": true` på virkelige arrangementer; det feltet er kun for de åtte oppdiktede demonstrasjonene.
-5. Kjør `npm test` og `npm run build` lokalt. Commit og push JSON-filen og bildet til `site/events/` og `site/images/` i GitHub-repoet. Workflowen bygger da `docs/` og GitHub Pages oppdaterer nettstedet.
+2. Endre innholdet, språkene og kategorien. `start` er obligatorisk og styrer datoen/ukedagen på kortet, dagsgruppering og filtrene. Bruk verifisert norsk lokal tid, for eksempel `2027-02-01T20:00` (Europe/Oslo); feil tidssone kan gi feil ukedag. `slutt` er valgfritt og skal bare fylles ut når det er bekreftet.
+3. Velg nøyaktig én `kategori` blant `Konsert`, `Scene`, `Utstilling`, `Foredrag`, `Familie`, `Friluft`, `Mat og drikke`, `Annet`. Kategorien står ikke på kortet, men vises over tittelen på arrangementssiden og styrer kategorisidene.
+4. Valgfritt `merke` viser et rødt merke på kortet, for eksempel `"merke": "Utsolgt"` eller `"merke": {"no":"Premiere","en":"Premiere"}`. Bruk det bare for kontrollert informasjon.
+5. Legg en **egenprodusert** 1500×1000 WebP-illustrasjon i `images/` med samme navn (`images/ÅÅÅÅ-MM-DD-kort-navn.webp`). En valgfri 750×500-versjon i `images/cards/` brukes på kort; ellers brukes originalen automatisk. Både kort og hero beskjæres 3:2. Ikke bruk bilder fra eksterne nettsteder, og ikke legg datostempel i illustrasjonen.
+6. Sett `status` til `"venter"` før kontroll. Etter at oppføringen er kontrollert mot arrangørens kilde, settes den til `"publisert"`. `eksempel`-feltet er ikke i bruk; ikke lag oppdiktede eller øvingsoppføringer — alle innslag skal være ekte.
+7. Kjør `npm test` og `npm run build` lokalt. Commit og push JSON-filen og bildet til `site/events/` og `site/images/` i GitHub-repoet. Workflowen bygger da `docs/` og GitHub Pages oppdaterer nettstedet.
 
-Eksempelfilene inneholder alle feltene. `sted`, `adresse`, `pris`, `gratis`, `aldersgrense`, bildetekst og kilde kan utelates når opplysningene mangler; siden viser ikke tomme felt. Lenke til arrangør må være kontrollert før publisering. Gamle eventsider beholdes ved senere bygg, mens avsluttede arrangementer forsvinner fra kalenderoversikten. Dette krever at kalenderen bygges på nytt regelmessig, også på dager uten nye filer (for eksempel daglig hos verten). En allerede publisert statisk fil oppdaterer seg ikke helt av seg selv.
+Valgfrie felt som `sted`, `adresse`, `pris`, `gratis`, `aldersgrense`, bildetekst og kilde kan utelates når de ikke er bekreftet; siden viser ikke tomme felt. `Alt` er standardfilteret, så nye oppføringer vises med én gang. Gamle eventsider beholdes ved senere bygg, mens avsluttede arrangementer forsvinner fra kalenderoversikten. Dette krever at kalenderen bygges på nytt regelmessig, også på dager uten nye filer (for eksempel daglig hos verten). En allerede publisert statisk fil oppdaterer seg ikke helt av seg selv.
 
 ## Utseende
 
@@ -34,4 +36,4 @@ Eksempelfilene inneholder alle feltene. `sted`, `adresse`, `pris`, `gratis`, `al
 - **Farger:** grunnfargene står som CSS-variabler øverst i `src/assets/style.css`; den mørkere «blekk på lær»-behandlingen ligger i `src/assets/leather.css`. Tidligere stil ligger i `design/style-v1.css`. Kontroller tekstkontrast etter endringer.
 - **Skriftene:** ligger lokalt i `src/assets/fonts/`; siden laster ikke skrifter eller skript fra tredjepart.
 
-Ingen nye kontoer eller DNS-endringer er gjort. E-postadressen er ikke aktivert. Før ordinær lansering må oppdiktede oppføringer erstattes med kontrollerte ekte arrangementer, og `noindex,nofollow` fjernes etter godkjenning.
+Ingen nye kontoer eller DNS-endringer er gjort. E-postadressen er ikke aktivert. `noindex,nofollow` blir stående mens offentlig lansering avventes.
