@@ -55,6 +55,71 @@ def report(name, path, im):
     return avg, pct
 
 
+def save_webp(im, name, quality=80, alpha=False):
+    """Skriv webp (og png-fallback ved alpha). Returnerer sti + fil."""
+    im = im.convert('RGBA') if alpha else im.convert('RGB')
+    p = os.path.join(OUT, name)
+    im.save(p, 'WEBP', quality=quality, method=6)
+    return p, im
+
+
+def plank_rows(im):
+    """Radvise luminansprofilar: finn mørke fugerader i ei plankeflis.
+
+    Returnerer (pitch, first_full_top, gaps) der pitch er avstanden mellom
+    to fuge-senter (plankhøgd i piksel), first_full_top er y-verdien der den
+    første heile plank byrjar, og gaps er lista av fuge-senter.
+    """
+    w, h = im.size
+    px = im.convert('RGB').load()
+    rows = []
+    for y in range(h):
+        s = 0
+        for x in range(0, w, 8):
+            r, g, b = px[x, y][:3]
+            s += lum((r, g, b))
+        rows.append(s / (w // 8 + (1 if w % 8 else 0)))
+    med = sorted(rows)[h // 2]
+    # Ei fuge er eit lokalt minimum tydeleg under medianen
+    gaps = []
+    for y in range(1, h - 1):
+        if rows[y] < med * 0.72 and rows[y] <= rows[y - 1] and rows[y] <= rows[y + 1]:
+            if not gaps or y - gaps[-1][-1] > 3:
+                gaps.append([y])
+            else:
+                gaps[-1].append(y)
+    centres = [round(sum(g) / len(g)) for g in gaps if len(g)]
+    centres = [c for i, c in enumerate(centres) if i == 0 or c - centres[i - 1] > 8]
+    pitches = [centres[i + 1] - centres[i] for i in range(len(centres) - 1)]
+    pitch = sorted(pitches)[len(pitches) // 2] if pitches else h
+    return pitch, (centres[0] if centres else 0), centres, rows
+
+
+def v71_textures(out):
+    """v7.1: grøn marmor (masthead), grøne plankar (dagdelarar), kompassrose."""
+    marble = Image.open(os.path.join(SRC, 'marble-green.png'))
+    p, im = save_webp(marble, 'marble.webp')
+    out['marble'] = report('marble', p, im)
+
+    planks = Image.open(os.path.join(SRC, 'planks-green.png'))
+    p, im = save_webp(planks, 'planks.webp')
+    out['planks'] = report('planks', p, im)
+    pitch, first, centres, rows = plank_rows(Image.open(p))
+    print(f'    plank: pitch {pitch} px, fuge-senter {centres[:12]}'
+          f'{" …" if len(centres) > 12 else ""} ({len(centres)} fuger)')
+    print(f'    første heile plank byrjar på y={first} (fugesenter) — '
+          f'bruk background-position:0 {-first}px for å leggje fuga i toppkanten')
+
+    rose = Image.open(os.path.join(SRC, 'compass-rose.png'))
+    rose_rgba = rose.convert('RGBA')
+    rose_rgba.thumbnail((512, 512), Image.Resampling.LANCZOS)
+    p, im = save_webp(rose_rgba, 'compass.webp', alpha=True)
+    p_png = os.path.join(OUT, 'compass.png')
+    rose_rgba.save(p_png, 'PNG', optimize=True)
+    out['compass'] = report('compass', p, rose_rgba)
+    print(f'    compass.png {os.path.getsize(p_png)/1024:.1f} KB (fallback, alpha)')
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     out = {}
@@ -84,11 +149,13 @@ def main():
     paper.save(p, 'WEBP', quality=80, method=6)
     out['paper'] = report('paper ', p, Image.open(p))
 
+    v71_textures(out)
+
     print('\nsnittfarger for CSS:')
     for k2, (avg, _) in out.items():
         print(f'  --{k2}-avg: #{avg[0]:02X}{avg[1]:02X}{avg[2]:02X}')
     total = sum(os.path.getsize(os.path.join(OUT, f)) for f in os.listdir(OUT))
-    print(f'\nsamla teksturvekt: {total/1024:.1f} KB (budsjett 450 KB)')
+    print(f'\nsamla teksturvekt: {total/1024:.1f} KB (budsjett 700 KB)')
     if total > 450 * 1024:
         print('ÅTVARING: over budsjett')
         return 1

@@ -16,6 +16,15 @@ const SELECTORS = [
   ['card-meta', '.card-meta'],
   ['stamp-day', '.date-stamp strong'],
   ['footer-text', 'footer p'],
+  ['mast-title', '.mast-title'],
+  ['mast-dek', '.mast-dek'],
+  ['mast-intro', '.mast-intro'],
+  ['mast-count', '.mast-count'],
+  ['tab-idle', '.time-tabs button:not([aria-pressed="true"])'],
+  ['cat-btn-idle', '.category-controls button:not([aria-pressed="true"])'],
+  ['tab-active2', '.time-tabs button[aria-pressed="true"]'],
+  ['day-label', '.day-label'],
+  ['cat-linkline', '.category-linkline a'],
 ];
 
 const PORT = process.argv[2] || '8080';
@@ -77,6 +86,17 @@ const contrast = (a, b) => {
     const c = contrast(d.fg, d.bg);
     const flag = c >= 7 ? 'AAA' : c >= 4.5 ? 'AA' : c >= 3 ? 'AA-large' : 'LAV';
     console.log(`  ${name.padEnd(14)} ${d.size}px ${d.weight} ${d.family.padEnd(12)} kontrast ${c.toFixed(2)} ${flag}`);
+  }
+  // Pikselmåling: gøym teksten og mål den faktiske flata bak kvart tekstfelt
+  const dir = process.env.AUDIT_PIX_DIR;
+  if (dir) {
+    await page.addStyleTag({ content: '*{color:transparent!important;text-shadow:none!important}' });
+    for (const [name, sel] of SELECTORS) {
+      const el = await page.$(sel);
+      if (!el) continue;
+      try { await el.screenshot({ path: `${dir}/${name}.png` }); } catch (e) { /* utanfor viewport */ }
+    }
+    console.log('pikselklipp skrivne til ' + dir);
   }
   await browser.close();
 })().catch(e => { console.error('FAIL', e.message); process.exit(1); });

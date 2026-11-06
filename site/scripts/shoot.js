@@ -48,6 +48,12 @@ const WIDTHS = [390, 1440];
         cards: document.querySelectorAll('.event-card:not([hidden])').length,
       }));
       const file = `${name}-${width}.png`;
+      if (name === 'home' && process.env.SHOOT_TODAY) {
+        await page.evaluate(() => { const t = document.querySelector('[data-time-filter="today"]'); if (t) t.click(); });
+        await new Promise(r => setTimeout(r, 300));
+        await page.screenshot({ path: path.join(OUT, `home-today-${width}.png`) });
+        lines.push(`home-today-${width}.png: «I dag» vald`);
+      }
       await page.screenshot({ path: path.join(OUT, file), fullPage: true });
       lines.push(`${file}: overflow ${m.scroll}/${m.client}${m.scroll > m.client ? '  ⚠ VASSRETT SCROLL' : ''}  kort ${m.cards}`);
       await page.close();
