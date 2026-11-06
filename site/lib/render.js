@@ -42,7 +42,7 @@ function card(e,lang,now=new Date()) {
 }
 function filters(lang) {
   const periods=[['today',tr(lang,'I dag','Today')],['weekend',tr(lang,'Til helgen','This weekend')],['all',tr(lang,'Alt','All')]];
-  return `<section class="filter-area" aria-label="${tr(lang,'Filtrer arrangementer','Filter events')}"><div class="time-tabs js-only" role="group" aria-label="${tr(lang,'Tidspunkt','Time period')}">${periods.map(([key,label],i)=>`<button type="button" data-time-filter="${key}" aria-pressed="${i===0}">${label}</button>`).join('')}</div><p class="nojs-note"><noscript>${tr(lang,'Alle kommende arrangementer vises. Aktiver JavaScript for å filtrere.','All upcoming events are shown. Enable JavaScript to filter.')}</noscript></p></section>`;
+  return `<section class="filter-area" aria-label="${tr(lang,'Filtrer arrangementer','Filter events')}"><div class="time-tabs js-only" role="group" aria-label="${tr(lang,'Tidspunkt','Time period')}">${periods.map(([key,label],i)=>`<button type="button" data-time-filter="${key}" aria-pressed="${key==='all'}">${label}</button>`).join('')}</div><p class="nojs-note"><noscript>${tr(lang,'Alle kommende arrangementer vises. Aktiver JavaScript for å filtrere.','All upcoming events are shown. Enable JavaScript to filter.')}</noscript></p></section>`;
 }
 function dayGroups(list,lang) {
   const byDay=new Map();
