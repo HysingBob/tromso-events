@@ -1,6 +1,11 @@
 # v7 «oppslagstavle» — rapport
 
-Upublisert eksperiment. v2 er framleis standard og urørt.
+**Publisert** 2026-11-06: `main` = `7545afc` (CI byggjer med `THEME=v7`), docs-rebuild `f1a1e8b`.
+Live-verifisert i nettlesar: tittel «Alt som skjer i Tromsø», `style-v7.css` + tre teksturar lastar,
+16 kommande oppslag, `/poc/`, `events.ics` og `CNAME` urørte.
+
+Upublisert eksperiment fram til Bob godkjende det (sjå rapporten under). v2 ligg att som
+standard lokalt (`THEME=v2` eller ingenting), så A/B-samanlikning er framleis mogleg.
 
 ## 1. Kvar det ligg
 
