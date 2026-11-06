@@ -3,17 +3,18 @@
    Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
 
    Tavle      = board.webp   (brun ved, 512x256 css px)
-   Masthead   = banner.webp  (måla plankar, éi planke = 100 px)
+   Masthead   = marble.webp  (grøn marmor, 512 px flisa)
    Oppslag    = paper.webp   (kraftpapir, lysast)
 
    Snittfarger målt frå dei ferdige teksturane:
      board  #625040   banner #7BA7A1   paper #D6C29C
    Kontrast er rekna mot mørkaste og ljosaste del av papiret
-   (#CFBD97 / #DDC9A2) og mot ljosaste del av planken (#B1D7D2).
+   (#CFBD97 / #DDC9A2) og mot ljosaste del av marmoren (#647D76).
 */
 
 :root{
   --board:#625040;      /* snitt board.webp  — tavla, mørkast */
+  --marble:#4B6A62;     /* snitt marble.webp — masthead */
   --banner:#8BB1AA;     /* snitt banner.webp med 12 % kvitvask — måla vegg */
   --paper:#D6C29C;      /* snitt paper.webp  — oppslag, ljosast */
   --parchment:#D6C29C;
@@ -37,43 +38,86 @@ body{
 }
 .page-shell{background:none;box-shadow:none}
 
-/* 2 — Masthead: måla plankar --------------------------------------------
-   Flisa er 1024 px med 17 plankar (60,2 px per planke). Skalert til
-   2040 px vert plankhøgda 120 px. background-position flyttar den mørke
-   fuga på y=16 opp i toppkanten, så masthead på 120 px viser akkurat éi
-   heil planke. Fuga og skuggen under plankkanten dekkjer om lag rad
-   0–11 og 108–120; innhaldet (87 px høgt) hamnar på rad 16–103, altså
-   midt på den ljose plankflata og ikkje over ei mørk fuge.            */
+/* 2 — Masthead: grøn marmor, heile vindauget -----------------------------
+
+   Flisa er 1024 px og leggjast med background-size 512 px. Dei ljosaste årene
+   har luminans 0.2421 — kvit tekst får berre 3.59:1 der. Eit svartvask-lag på
+   15 % (same grep som kvitvasken i v7-planken) senkjer dei til 0.1700 og gjev
+   4.77:1, altså over 4.5:1 også for småtekst. Snittfarga #4B6A62 er fallback.
+
+   Heile flata er full breidde: .page-shell missar max-width så marmoren når
+   kantane, medan .mast-inner og .mast-extra held sitt i same kolonne (1160 px)
+   som arrangementnettet. Ikkje sticky — masthead rullar bort som før.      */
+
+.page-shell{max-width:none}
 
 .masthead{
-  height:120px;
-  /* 12 % varm kvitvask over målinga: lyfter dei mørkaste fibra i planken
-     frå 0.246 til 0.307 i luminans, så blekket held 4.5:1 også der
-     (utan vask: 3.87:1). Plankeskilja vert framleis tydelege. */
-  background-image:linear-gradient(rgba(255,250,238,.12),rgba(255,250,238,.12)),url("/assets/textures/banner.webp");
+  padding:24px 0;
+  background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("/assets/textures/marble.webp");
   background-repeat:repeat;
-  background-size:2040px 2040px;
-  background-position:0 -16px;
-  background-color:var(--banner);
+  background-size:512px 512px;
+  background-color:var(--marble);
   border:0;
+  box-shadow:0 6px 18px rgba(0,0,0,.45);
 }
-.mast-inner{height:100%;padding:0 21px}
-.brand p,.languages,.languages a,.languages span[aria-current]{color:var(--ink)}
-.languages span[aria-current]{border-bottom-color:var(--ink)}
+.masthead:has(.mast-extra){padding-top:48px;padding-bottom:44px}
+/* Andre sider: kompakt masthead — berre logo-rada (gjeld no alle sider) */
+.masthead:not(:has(.mast-extra)){padding:36px 0}
+/* Masthead-rada: namn/undertittel til venstre, språkval i øvre høgre hjørne
+   og filterknappane til høgre for namnet på skrivebord. På telefon (sjå
+   @media nedst) legg filtera seg under namnet — det er ikkje plass ved sida. */
+.mast-inner{
+  max-width:1160px;margin:auto;padding:0 21px;
+  display:grid;grid-template-columns:1fr auto;column-gap:28px;align-items:start;
+  grid-template-areas:"brand lang" "brand filters";
+}
+.brand{grid-area:brand}
+.languages{grid-area:lang;justify-self:end;align-self:start;padding-top:0}
+.mast-extra{grid-area:filters;justify-self:end;align-self:end;max-width:none;margin:0;padding:0}
+.masthead :is(h1,p,a,span,button,.eyebrow){color:#fff}
+.masthead :is(h1,p,span,button,.eyebrow){text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.masthead .eyebrow{font-size:17px;letter-spacing:.15em;margin:0}
+.masthead .brand p,.languages,.languages a,.languages span[aria-current]{color:#fff}
+.languages span[aria-current]{border-bottom-color:#fff}
+.languages,.languages a{font-size:17px}
 
-/* Logo-plass: tom, kvadratisk. Bob legg inn måla kompassrose seinare. */
-.brand-link{display:flex;align-items:center;gap:12px;width:auto;height:auto}
-.brand-link::before{content:"";display:block;width:44px;height:44px;flex:0 0 auto}
-.brand-link img{width:170px;height:47px;filter:none}
-@media(min-width:640px){
-  .mast-inner{padding:0 30px}
-  .brand-link::before{width:68px;height:68px}
-  .brand-link img{width:210px;height:58px}
+/* Logorad: berre tromsø.net i stort format, med undertittel under */
+.brand{display:block;width:max-content;max-width:100%}
+.brand-link{display:block;width:auto;height:auto}
+/* Ordmerket er mørkt blekk i SVG-en: snu det til kvitt og gjev det stor plass */
+.brand-link img{width:auto;height:72px;display:block;filter:brightness(0) invert(1)}
+.brand p{font-size:20px;margin:10px 0 0;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+/* Overskrift, «uten reklame» og intro */
+.mast-title{font-family:var(--display);font-weight:600;font-size:82px;line-height:.98;letter-spacing:-.035em;margin:30px 0 0;max-width:760px}
+.mast-dek{font-size:19px;margin:12px 0 0}
+.mast-intro{font-size:18px;max-width:640px;margin:8px 0 0}
+.mast-count{display:block;font-size:17px;margin:18px 0 0}
+
+/* Filter inne i marmoren: små papirlappar, blekktekst, lett helning */
+.masthead .filter-area{background:none;background-image:none;box-shadow:none;padding:0;margin:24px 0 0;border-bottom:0}
+.masthead .section-label{color:#fff;opacity:.92;font-size:17px}
+.masthead .nojs-note{color:#fff}
+.masthead .time-tabs button,.masthead .category-controls button{
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:repeat;background-size:640px 358px;
+  background-color:var(--paper);color:#3A2A1E;text-shadow:none;
+  border:0;border-radius:2px;padding:8px 13px;min-height:44px;
+  font-size:15px;font-weight:600;
+  box-shadow:0 2px 4px rgba(0,0,0,.35);
 }
-@media(max-width:410px){
-  .brand-link::before{width:40px;height:40px}
-  .brand-link img{width:150px;height:41px}
-}
+.masthead .time-tabs button:nth-child(2n){transform:rotate(-.6deg)}
+.masthead .time-tabs button:nth-child(3n){transform:rotate(.5deg)}
+.masthead .category-controls button:nth-child(3n){transform:rotate(-.5deg)}
+.masthead .category-controls button:nth-child(4n){transform:rotate(.6deg)}
+.masthead .time-tabs button[aria-pressed=true],
+.masthead .category-controls button[aria-pressed=true]{background-image:none;background-color:#3A2A1E;color:#EFE2C6}
+.masthead .category-controls button::before{color:#EFE2C6}
+.masthead button:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+/* Kategorilinja er flytt ut av mastheaden og ned i botnen av sida */
+.category-linkline{color:#fff;font-size:15px;margin:36px 0 0;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.category-linkline a{color:#fff}
+.category-linkline span{opacity:.7}
 
 /* 3 — Papirflater (ingen tekst ligg direkte på veden) -------------------- */
 
@@ -120,7 +164,7 @@ body{
 }
 
 .card-art{background:#C9B691}
-.card-art img{filter:sepia(.35) saturate(.85);transition:filter .3s ease}
+.card-art img{filter:sepia(.5) saturate(.7) contrast(.92);transition:filter .3s ease}
 .event-card:hover .card-art img,.event-card:focus-visible .card-art img{filter:none}
 .card-art:after,.detail-art:after{box-shadow:inset 0 0 24px 14px rgba(90,62,34,.14)}
 
@@ -136,6 +180,39 @@ body{
 .ticket-link{color:var(--light-ink)}
 .category-controls button{border-color:#9C8A6A}
 .route-line span{background:var(--parchment);color:var(--sea)}
+
+/* Dagdelarane er ute (datoen står på kvart kort) — gruppene held berre
+   døgnrytmen i lista med luft mellom dagane. */
+.day-group{margin:0 0 22px}
+.day-group:last-child{margin-bottom:0}
+/* 5c — Arrangementssida: mørkne mot kantane ------------------------------ */
+
+body.page-event{
+  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/board.webp");
+  background-repeat:no-repeat,repeat;
+  background-attachment:fixed,scroll;
+  background-size:100% 100%,512px 256px;
+}
+
+@media(max-width:639px){
+  /* telefon: mindre luft i mastheaden */
+  /* Telefon: filtera under namnet (ikkje plass ved sida), språkval i hjørnet */
+  .mast-inner{
+    grid-template-areas:"brand lang" "filters filters";
+    row-gap:14px;column-gap:12px;
+  }
+  .mast-extra{justify-self:start}
+  .masthead{padding:16px 0}
+  .masthead:not(:has(.mast-extra)){padding:20px 0}
+  .mast-title{font-size:40px;margin:20px 0 0}
+  .mast-dek{font-size:17px}
+  .mast-intro{font-size:16px}
+  .masthead .eyebrow,.masthead .section-label{font-size:16px}
+  .languages,.languages a{font-size:16px}
+  .brand-link{gap:10px}
+  .brand-link img{height:44px}
+  .brand p{font-size:16px}
+}
 
 /* 6 — Rørsle og smale skjermar ------------------------------------------ */
 

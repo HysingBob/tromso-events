@@ -3,6 +3,7 @@
   const list = document.querySelector('[data-filter-list]');
   if (!list) return;
   const cards = [...list.querySelectorAll('[data-event]')];
+  const groups = [...list.querySelectorAll('[data-day]')];
   const tabs = [...document.querySelectorAll('[data-time-filter]')];
   const categories = [...document.querySelectorAll('[data-category-filter]')];
   const empty = document.querySelector('[data-empty]');
@@ -28,13 +29,13 @@
     const now=osloNow();
     let shown=0;
     for (const card of cards) {
-      const categoryMatch=!chosen.size || [...chosen].some(cat=>card.dataset.categories.split('|').includes(cat));
-      const visible=card.dataset.end>now && bucket(card.dataset.start,now)===period && categoryMatch;
+      const visible=card.dataset.end>now && (period==='all' || bucket(card.dataset.start,now)===period);
       card.hidden=!visible;
       if(visible) shown++;
     }
+    for (const group of groups) group.hidden = !group.querySelector('[data-event]:not([hidden])');
     empty.hidden=shown!==0;
-    count.textContent=shown+' '+(lang==='no'?(shown===1?'arrangement':'arrangementer'):(shown===1?'event':'events'));
+    if (count) count.textContent=shown+' '+(lang==='no'?(shown===1?'arrangement':'arrangementer'):(shown===1?'event':'events'));
   }
   for (const tab of tabs) tab.addEventListener('click',()=>{period=tab.dataset.timeFilter;tabs.forEach(t=>t.setAttribute('aria-pressed',String(t===tab)));update();});
   for (const button of categories) button.addEventListener('click',()=>{const cat=button.dataset.categoryFilter;chosen.has(cat)?chosen.delete(cat):chosen.add(cat);button.setAttribute('aria-pressed',String(chosen.has(cat)));update();});
