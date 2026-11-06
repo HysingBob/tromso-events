@@ -1,0 +1,150 @@
+/* v7 «oppslagstavle» — upublisert eksperiment.
+   Lastast etter style.css og leather.css med THEME=v7.
+   Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
+
+   Tavle      = board.webp   (brun ved, 512x256 css px)
+   Masthead   = banner.webp  (måla plankar, éi planke = 100 px)
+   Oppslag    = paper.webp   (kraftpapir, lysast)
+
+   Snittfarger målt frå dei ferdige teksturane:
+     board  #625040   banner #7BA7A1   paper #D6C29C
+   Kontrast er rekna mot mørkaste og ljosaste del av papiret
+   (#CFBD97 / #DDC9A2) og mot ljosaste del av planken (#B1D7D2).
+*/
+
+:root{
+  --board:#625040;      /* snitt board.webp  — tavla, mørkast */
+  --banner:#8BB1AA;     /* snitt banner.webp med 12 % kvitvask — måla vegg */
+  --paper:#D6C29C;      /* snitt paper.webp  — oppslag, ljosast */
+  --parchment:#D6C29C;
+  --ink:#3A2A1E;        /* mørk sjokolade: 7.4:1 på papir, 8.8:1 på plank */
+  --faded:#57432F;      /* mørkast som framleis ser sekundært ut: 5.1:1 */
+  --sea:#1E434A;        /* lenkjer, aktiv fane: 5.8:1 på papir */
+  --rust:#7A2E1C;       /* eyebrow, kicker, stempel: 5.1:1 på papir */
+  --moss:#2E3C1E;
+  --moss-ink:#2E3C1E;   /* «Gratis»: 6.4:1 på papir */
+  --rule:#8A6B44;       /* dekorativ strek, ingen kontrastkrav */
+  --light-ink:#F7E8CB;  /* tekst på --sea: 8.9:1 */
+}
+
+/* 1 — Tavla ------------------------------------------------------------- */
+
+body{
+  background-image:url("/assets/textures/board.webp");
+  background-repeat:repeat;
+  background-size:512px 256px;
+  background-color:var(--board);
+}
+.page-shell{background:none;box-shadow:none}
+
+/* 2 — Masthead: måla plankar --------------------------------------------
+   Flisa er 1024 px med 17 plankar (60,2 px per planke). Skalert til
+   2040 px vert plankhøgda 120 px. background-position flyttar den mørke
+   fuga på y=16 opp i toppkanten, så masthead på 120 px viser akkurat éi
+   heil planke. Fuga og skuggen under plankkanten dekkjer om lag rad
+   0–11 og 108–120; innhaldet (87 px høgt) hamnar på rad 16–103, altså
+   midt på den ljose plankflata og ikkje over ei mørk fuge.            */
+
+.masthead{
+  height:120px;
+  /* 12 % varm kvitvask over målinga: lyfter dei mørkaste fibra i planken
+     frå 0.246 til 0.307 i luminans, så blekket held 4.5:1 også der
+     (utan vask: 3.87:1). Plankeskilja vert framleis tydelege. */
+  background-image:linear-gradient(rgba(255,250,238,.12),rgba(255,250,238,.12)),url("/assets/textures/banner.webp");
+  background-repeat:repeat;
+  background-size:2040px 2040px;
+  background-position:0 -16px;
+  background-color:var(--banner);
+  border:0;
+}
+.mast-inner{height:100%;padding:0 21px}
+.brand p,.languages,.languages a,.languages span[aria-current]{color:var(--ink)}
+.languages span[aria-current]{border-bottom-color:var(--ink)}
+
+/* Logo-plass: tom, kvadratisk. Bob legg inn måla kompassrose seinare. */
+.brand-link{display:flex;align-items:center;gap:12px;width:auto;height:auto}
+.brand-link::before{content:"";display:block;width:44px;height:44px;flex:0 0 auto}
+.brand-link img{width:170px;height:47px;filter:none}
+@media(min-width:640px){
+  .mast-inner{padding:0 30px}
+  .brand-link::before{width:68px;height:68px}
+  .brand-link img{width:210px;height:58px}
+}
+@media(max-width:410px){
+  .brand-link::before{width:40px;height:40px}
+  .brand-link img{width:150px;height:41px}
+}
+
+/* 3 — Papirflater (ingen tekst ligg direkte på veden) -------------------- */
+
+.page-heading,.filter-area,.results-head,.empty-state,.related>p,
+.breadcrumb,.detail,.about-copy,.site-footer{
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:repeat;
+  background-size:640px 358px;
+  background-color:var(--paper);
+  box-shadow:0 2px 3px rgba(0,0,0,.30);
+}
+.page-heading{padding:30px 18px 26px;margin:20px 0 0}
+.filter-area{padding:20px 18px 22px}
+.results-head{padding:12px 14px;margin-bottom:22px}
+.breadcrumb{padding:12px 14px;margin:20px 0 0}
+.detail{padding:16px;margin:20px 0 0}
+.about-copy{padding:26px 20px 44px;margin:20px 0 0}
+.site-footer{padding:16px 18px 22px;margin:0 10px;border-top:0}
+@media(min-width:640px){
+  .page-heading,.filter-area,.results-head,.breadcrumb,.detail,.about-copy{padding-left:24px;padding-right:24px}
+  .site-footer{margin:0 20px;padding-left:24px;padding-right:24px}
+}
+
+/* 4 — Oppslaga (kort) --------------------------------------------------- */
+
+.event-card{
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:var(--paper);
+  border:0;
+  padding:8px;
+  transform:rotate(var(--tilt,0deg));
+  box-shadow:0 2px 3px rgba(0,0,0,.35),0 10px 20px rgba(0,0,0,.25);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+/* Utsnitt og helning følgjer arrangementet (data-variant), ikkje plass i lista */
+.event-card[data-variant="1"]{--tilt:-.5deg;background-position:0 0}
+.event-card[data-variant="2"]{--tilt:.45deg;background-position:55% 35%}
+.event-card[data-variant="3"]{--tilt:-.25deg;background-position:100% 100%}
+.event-card:hover,.event-card:focus-visible{
+  transform:rotate(0deg) translateY(-2px);
+  box-shadow:0 3px 5px rgba(0,0,0,.35),0 16px 28px rgba(0,0,0,.28);
+}
+
+.card-art{background:#C9B691}
+.card-art img{filter:sepia(.35) saturate(.85);transition:filter .3s ease}
+.event-card:hover .card-art img,.event-card:focus-visible .card-art img{filter:none}
+.card-art:after,.detail-art:after{box-shadow:inset 0 0 24px 14px rgba(90,62,34,.14)}
+
+/* 5 — Detaljar ---------------------------------------------------------- */
+
+.date-stamp{
+  background:rgba(240,229,208,.94);
+  box-shadow:inset 0 0 0 3px #E6D5B4,inset 0 0 0 4px var(--rust);
+}
+.detail-art img{filter:none}
+.detail-art{border-color:var(--rule)}
+.facts{background:#E0CDA8}
+.ticket-link{color:var(--light-ink)}
+.category-controls button{border-color:#9C8A6A}
+.route-line span{background:var(--parchment);color:var(--sea)}
+
+/* 6 — Rørsle og smale skjermar ------------------------------------------ */
+
+@media(max-width:639px){
+  /* éi kolonne: mindre helning så korta ikkje lagar vassrett scroll */
+  .event-card[data-variant="1"]{--tilt:-.4deg}
+  .event-card[data-variant="2"]{--tilt:.35deg}
+  .event-card[data-variant="3"]{--tilt:-.2deg}
+}
+@media(prefers-reduced-motion:reduce){
+  .event-card,.card-art img{transition:none}
+}
