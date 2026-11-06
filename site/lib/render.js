@@ -7,7 +7,7 @@ const cats = [
   {no:'Utstilling',en:'Exhibition',slug:'exhibition',key:'Utstilling'},
   {no:'Foredrag',en:'Talks',slug:'talk',key:'Foredrag'},
   {no:'Familie',en:'Family',slug:'family',key:'Familie'},
-  {no:'Friluft',en:'Outdoors',slug:'outdoors',key:'Friluft'},
+  {no:'Aktivitet',en:'Activity',slug:'activity',key:'Aktivitet'},
   {no:'Mat og drikke',en:'Food & drink',slug:'food-and-drink',key:'Mat og drikke'},
   {no:'Annet',en:'Other',slug:'other',key:'Annet'}
 ];
