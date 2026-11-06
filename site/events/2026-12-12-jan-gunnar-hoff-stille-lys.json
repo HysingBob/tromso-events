@@ -6,20 +6,22 @@
   "pris": "380 kr",
   "gratis": false,
   "aldersgrense": "Fri aldersgrense",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Jan Gunnar Hoff – Stille Lys med Jørn Hoel",
     "ingress": "En stemningsfull julekonsert med Jan Gunnar Hoff og gjest Jørn Hoel.",
-    "tekst": "Bodøs jazzpianist Jan Gunnar Hoff vender tilbake til Tromsø med julekonserten «Stille Lys». Hoffs nedstrippede tolkninger av juleklassikere, både nordnorske og andre, bygger på albumet «Stille lys».\n\nJørn Hoel blir med som gjest og bidrar på utvalgte låter. Repertoaret omfatter blant annet «Nordnorsk Julesalme», «Bånsull i advent» og «Hjem te jul».\n\nIllustrasjonen er et originalt tolkende motiv laget for tromsø.net."
+    "tekst": "Bodøs jazzpianist Jan Gunnar Hoff vender tilbake til Tromsø med julekonserten «Stille Lys». Hoffs nedstrippede tolkninger av juleklassikere, både nordnorske og andre, bygger på albumet «Stille lys».\n\nJørn Hoel blir med som gjest og bidrar på utvalgte låter. Repertoaret omfatter blant annet «Nordnorsk Julesalme», «Bånsull i advent» og «Hjem te jul»."
   },
   "en": {
     "title": "Jan Gunnar Hoff – Stille Lys with Jørn Hoel",
     "lead": "An atmospheric Christmas concert with Jan Gunnar Hoff and guest Jørn Hoel.",
-    "text": "Bodø jazz pianist Jan Gunnar Hoff returns to Tromsø with the Christmas concert “Stille Lys”. Hoff's understated interpretations of Christmas classics, from Northern Norway and beyond, draw on his album “Stille lys”.\n\nJørn Hoel joins as a guest, contributing to selected songs. The repertoire includes “Nordnorsk Julesalme”, “Bånsull i advent” and “Hjem te jul”.\n\nThe illustration is an original interpretive motif created for tromsø.net."
+    "text": "Bodø jazz pianist Jan Gunnar Hoff returns to Tromsø with the Christmas concert “Stille Lys”. Hoff's understated interpretations of Christmas classics, from Northern Norway and beyond, draw on his album “Stille lys”.\n\nJørn Hoel joins as a guest, contributing to selected songs. The repertoire includes “Nordnorsk Julesalme”, “Bånsull i advent” and “Hjem te jul”."
   },
-  "bilde": "images/2026-12-12-jan-gunnar-hoff-stille-lys.webp",
-  "bildetekst_no": "Original vannfargeillustrasjon av et piano i vinterlys ved et nordnorsk kystvindu.",
-  "bildetekst_en": "Original watercolor illustration of a piano in winter light by a Northern Norwegian coastal window.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Jan-Gunnar-Hoff-Stille-Lys.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus for Jan Gunnar Hoff – Stille Lys med Jørn Hoel.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus for Jan Gunnar Hoff – Stille Lys with Jørn Hoel.",
   "kilde_navn": "Tromsø Kulturhus",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/jan-gunnar-hoff-stille-lys/",
   "status": "publisert"

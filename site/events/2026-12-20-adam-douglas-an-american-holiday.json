@@ -6,20 +6,22 @@
   "pris": "650 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Adam Douglas – An American Holiday 2026",
     "ingress": "Juletradisjoner fra Adam Douglas med egne vinter- og julesanger og kjente klassikere.",
-    "tekst": "For niende år på rad reiser Adam Douglas på juleturné med «An American Holiday». Han og bandet framfører egne vinter- og julesanger sammen med juleklassikere, inspirert av soul, blues, gospel og americana.\n\nKonserten varer i 90 minutter.\n\nIllustrasjonen er et originalt tolkende motiv laget for tromsø.net."
+    "tekst": "For niende år på rad reiser Adam Douglas på juleturné med «An American Holiday». Han og bandet framfører egne vinter- og julesanger sammen med juleklassikere, inspirert av soul, blues, gospel og americana.\n\nKonserten varer i 90 minutter."
   },
   "en": {
     "title": "Adam Douglas – An American Holiday 2026",
     "lead": "Adam Douglas's Christmas tradition, with original winter and holiday songs alongside familiar classics.",
-    "text": "For the ninth year running, Adam Douglas is touring with “An American Holiday”. He and his band perform original winter and Christmas songs alongside holiday classics, drawing on soul, blues, gospel and Americana.\n\nThe concert lasts 90 minutes.\n\nThe illustration is an original interpretive motif created for tromsø.net."
+    "text": "For the ninth year running, Adam Douglas is touring with “An American Holiday”. He and his band perform original winter and Christmas songs alongside holiday classics, drawing on soul, blues, gospel and Americana.\n\nThe concert lasts 90 minutes."
   },
-  "bilde": "images/2026-12-20-adam-douglas-an-american-holiday.webp",
-  "bildetekst_no": "Original vannfargeillustrasjon av en varm lykt på en vinterscene ved kysten.",
-  "bildetekst_en": "Original watercolor illustration of a warm lantern on a winter stage by the coast.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2025/12/Digital-Plakat-liggende-1360-x-768-MAL-24.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus for Adam Douglas – An American Holiday 2026.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus for Adam Douglas – An American Holiday 2026.",
   "kilde_navn": "Kulturhuset Tromsø / United Stage AS",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/adam-douglas-an-american-holiday-2026/",
   "status": "publisert"

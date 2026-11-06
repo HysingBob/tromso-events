@@ -6,20 +6,22 @@
   "pris": "480 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Inge Bremnes – Mot Lys – Juleturné 2026",
     "ingress": "En ærlig julekonsert med varme låter, selvironi og rom for en middels jul.",
-    "tekst": "Inge Bremnes og bandet hans inviterer til «Mot Lys – En middels jul». Konserten blander kjente Inge Bremnes-låter med nye og gamle julesanger i ny drakt, humoristiske anekdoter og et skråblikk på desemberstresset.\n\nTurnéen samarbeider med Mental Helse; billettkjøpere kan gi et bidrag. Arrangøren opplyser også at årets julekule bidrar til en viktig telefonsamtale for noen i juletiden.\n\nIllustrasjonen er et originalt tolkende motiv laget for tromsø.net."
+    "tekst": "Inge Bremnes og bandet hans inviterer til «Mot Lys – En middels jul». Konserten blander kjente Inge Bremnes-låter med nye og gamle julesanger i ny drakt, humoristiske anekdoter og et skråblikk på desemberstresset.\n\nTurnéen samarbeider med Mental Helse; billettkjøpere kan gi et bidrag. Arrangøren opplyser også at årets julekule bidrar til en viktig telefonsamtale for noen i juletiden."
   },
   "en": {
     "title": "Inge Bremnes – Mot Lys – Christmas Tour 2026",
     "lead": "An honest Christmas concert with warm songs, self-deprecating humour and room for an average Christmas.",
-    "text": "Inge Bremnes and his band present “Mot Lys – An Average Christmas”. The concert mixes familiar Inge Bremnes songs with new and old Christmas songs in fresh arrangements, humorous anecdotes and a wry look at December stress.\n\nThe tour is collaborating with Mental Helse; ticket buyers can make a donation. The organiser also says this year's Christmas ornament helps fund an important phone call for someone during the holiday season.\n\nThe illustration is an original interpretive motif created for tromsø.net."
+    "text": "Inge Bremnes and his band present “Mot Lys – An Average Christmas”. The concert mixes familiar Inge Bremnes songs with new and old Christmas songs in fresh arrangements, humorous anecdotes and a wry look at December stress.\n\nThe tour is collaborating with Mental Helse; ticket buyers can make a donation. The organiser also says this year's Christmas ornament helps fund an important phone call for someone during the holiday season."
   },
-  "bilde": "images/2026-12-11-inge-bremnes-mot-lys.webp",
-  "bildetekst_no": "Original vannfargeillustrasjon av en liten juleornamentlykt i vintermørket.",
-  "bildetekst_en": "Original watercolor illustration of a small Christmas ornament glowing in winter darkness.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Inge-Bremnes-26-1-1-scaled.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus for Inge Bremnes – Mot Lys – En middels jul.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus for Inge Bremnes – Mot Lys – An Average Christmas.",
   "kilde_navn": "Kulturhuset Tromsø / FKP Scorpio Norge",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/mot-lys-en-middels-jul-med-inge-bremnes/",
   "status": "publisert"

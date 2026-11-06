@@ -6,20 +6,22 @@
   "pris": "550 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Anders Jektvik",
     "ingress": "Ny musikk og fortellende viserock fra Anders Jektvik.",
-    "tekst": "Anders Jektvik kommer til Tromsø med ny musikk og en turné der publikum får komme nært tekstene og musikken. Jektviks lune viserock rommer både mørke og humoristiske tekster.\n\nKonserten varer i 90 minutter.\n\nIllustrasjonen er et originalt tolkende motiv laget for tromsø.net."
+    "tekst": "Anders Jektvik kommer til Tromsø med ny musikk og en turné der publikum får komme nært tekstene og musikken. Jektviks lune viserock rommer både mørke og humoristiske tekster.\n\nKonserten varer i 90 minutter."
   },
   "en": {
     "title": "Anders Jektvik",
     "lead": "New music and story-led folk rock from Anders Jektvik.",
-    "text": "Anders Jektvik comes to Tromsø with new music and a tour bringing audiences close to his lyrics and music. His warm folk rock moves between dark and humorous lyrics.\n\nThe concert lasts 90 minutes.\n\nThe illustration is an original interpretive motif created for tromsø.net."
+    "text": "Anders Jektvik comes to Tromsø with new music and a tour bringing audiences close to his lyrics and music. His warm folk rock moves between dark and humorous lyrics.\n\nThe concert lasts 90 minutes."
   },
-  "bilde": "images/2026-12-18-anders-jektvik.webp",
-  "bildetekst_no": "Original vannfargeillustrasjon av en notatbok ved et fjordvindu i vintermørket.",
-  "bildetekst_en": "Original watercolor illustration of a notebook by a fjord window in winter darkness.",
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/01/Digital-Plakat-liggende-1360-x-768-Anders-Jektvik.jpg",
+  "bildetekst_no": "Arrangementsbilde fra Tromsø Kulturhus for Anders Jektvik.",
+  "bildetekst_en": "Event image from Tromsø Kulturhus for Anders Jektvik.",
   "kilde_navn": "Kulturhuset Tromsø / United Stage",
   "kilde_url": "https://kulturhuset.tr.no/arrangement/anders-jektvik/",
   "status": "publisert"
