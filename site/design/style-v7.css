@@ -111,8 +111,11 @@ body{
 .masthead .time-tabs button:nth-child(3n){transform:rotate(.5deg)}
 .masthead .category-controls button:nth-child(3n){transform:rotate(-.5deg)}
 .masthead .category-controls button:nth-child(4n){transform:rotate(.6deg)}
+/* Vald fane: raudbrun (dreg mot den nye veggfarga) med kremkvit tekst — 6.33:1.
+   Hover på kvilande lapp hintar same farge i teksten — 5.39:1 på papir. */
+.masthead .time-tabs button:hover,.masthead .time-tabs button:focus-visible{color:#7A2E1C}
 .masthead .time-tabs button[aria-pressed=true],
-.masthead .category-controls button[aria-pressed=true]{background-image:none;background-color:#3A2A1E;color:#EFE2C6}
+.masthead .category-controls button[aria-pressed=true]{background-image:none;background-color:#8C3A22;color:#F7E8CB}
 .masthead .category-controls button::before{color:#EFE2C6}
 .masthead button:focus-visible{outline:2px solid #fff;outline-offset:2px}
 
