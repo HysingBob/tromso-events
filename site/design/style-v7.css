@@ -209,7 +209,9 @@ body{
 .detail-art img{filter:none;height:auto;width:100%;aspect-ratio:3/2;object-fit:cover}
 .detail-art{border-color:var(--rule)}
 .facts{background:#E0CDA8}
+/* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
 .ticket-link{color:var(--light-ink)}
+.ticket-link:hover,.ticket-link:focus-visible{background:#4A2A1C;color:#F7E8CB}
 /* Datoen er no hovudteksten i kickeren (ikkje ein kassert i biletet), så han
    får leseleg storleik og normal setting — «fredag, 6. november 2026». */
 .card-kicker{color:var(--rust);font-size:14px;letter-spacing:.02em;text-transform:none}
