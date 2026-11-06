@@ -101,15 +101,6 @@ def v71_textures(out):
     p, im = save_webp(marble, 'marble.webp')
     out['marble'] = report('marble', p, im)
 
-    planks = Image.open(os.path.join(SRC, 'planks-green.png'))
-    p, im = save_webp(planks, 'planks.webp')
-    out['planks'] = report('planks', p, im)
-    pitch, first, centres, rows = plank_rows(Image.open(p))
-    print(f'    plank: pitch {pitch} px, fuge-senter {centres[:12]}'
-          f'{" …" if len(centres) > 12 else ""} ({len(centres)} fuger)')
-    print(f'    første heile plank byrjar på y={first} (fugesenter) — '
-          f'bruk background-position:0 {-first}px for å leggje fuga i toppkanten')
-
 def main():
     os.makedirs(OUT, exist_ok=True)
     out = {}
@@ -119,11 +110,8 @@ def main():
     wood.save(p, 'WEBP', quality=80, method=6)
     out['board'] = report('board ', p, Image.open(p))
 
-    planks = Image.open(os.path.join(SRC, 'planks-blue.jpg')).convert('RGB')
-    p = os.path.join(OUT, 'banner.webp')
-    planks.save(p, 'WEBP', quality=80, method=6)
-    out['banner'] = report('banner', p, Image.open(p))
-
+    # banner.webp (turkis planke) og planks.webp er ute: Bob brukar marmor for
+    # alle turkise element. Sjå design/v7.2-minimal.md.
     kraft = Image.open(os.path.join(SRC, 'paper-kraft.jpg')).convert('RGB')
     w = 1024
     h = round(kraft.height * w / kraft.width)
