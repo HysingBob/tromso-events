@@ -34,7 +34,7 @@ jobs:
       - name: Build static pages
         run: npm run build --prefix site
         env:
-          THEME: v7            # «oppslagstavle» — vedtavle, måla plank, kraftpapir
+          THEME: v7            # «minimal» — grøn marmor, brun ved, kraftpapir (sjå site/design/v7.2-minimal.md)
       - name: Update only map pages (keep the ICS feed and /poc/)
         run: |
           rm -rf docs/no docs/en docs/assets docs/images
