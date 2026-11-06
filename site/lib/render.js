@@ -21,6 +21,7 @@ const catUrl = (c,lang)=>`${root(lang)}${lang==='no'?'kategori':'category'}/${la
 const date = (value,lang)=>new Intl.DateTimeFormat(lang==='no'?'nb-NO':'en-GB',{day:'numeric',month:'long',year:'numeric'}).format(new Date(value.slice(0,10)+'T12:00:00Z'));
 const stamp = (value,lang)=>new Intl.DateTimeFormat(lang==='no'?'nb-NO':'en-GB',{month:'short'}).format(new Date(value.slice(0,10)+'T12:00:00Z')).replace('.','').toUpperCase();
 const time = s=>s?.slice(11,16);
+const merkeText = (e,lang)=>{const m=e.merke; if(!m) return ''; return typeof m==='object' ? (m[lang]||m.no||'') : m;};
 const dayName = (value,lang)=>new Intl.DateTimeFormat(lang==='no'?'nb-NO':'en-GB',{weekday:'long'}).format(new Date(value.slice(0,10)+'T12:00:00Z'));
 const imageUrl = (value)=>/^https?:\/\//i.test(String(value||'')) ? String(value) : `/${String(value||'').replace(/^\/+/, '')}`;
 const image = (e,klass='')=>`<img class="${klass}" src="${esc(imageUrl(e.bilde))}" alt="${esc(e[`bildetekst_${klass==='hero-image'?'heroLang':'cardLang'}`]||'')}" loading="lazy">`;
@@ -37,7 +38,7 @@ function card(e,lang,now=new Date()) {
   const thumb = `images/cards/${e.id}.webp`;
   const cardImage = /^https?:\/\//i.test(String(e.bilde||'')) ? e.bilde : (fs.existsSync(path.join(__dirname,'..',thumb)) ? thumb : e.bilde);
   const variant = 1 + ([...e.id].reduce((a,c)=>a+c.charCodeAt(0),0) % 3);
-  return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500"></div><div class="card-body"><div class="card-kicker">${esc(dayName(e.start,lang))}, ${esc(date(e.start,lang))}</div><h3>${esc(title)}</h3><p class="card-meta">${esc(time(e.start))}${e.sted?' <span aria-hidden="true">·</span> '+esc(e.sted):''}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
+  return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${esc(dayName(e.start,lang))}, ${esc(date(e.start,lang))}</div><h3>${esc(title)}</h3><p class="card-meta">${esc(time(e.start))}${e.sted?' <span aria-hidden="true">·</span> '+esc(e.sted):''}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
 }
 function filters(lang) {
   const periods=[['today',tr(lang,'I dag','Today')],['weekend',tr(lang,'Til helgen','This weekend')],['all',tr(lang,'Alt','All')]];

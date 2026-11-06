@@ -178,6 +178,15 @@ body{
   box-shadow:0 3px 5px rgba(0,0,0,.35),0 16px 28px rgba(0,0,0,.28);
 }
 
+/* Valfri merkelapp (t.d. «Premiere», «Utsolgt») — tek plassen der datostempelet
+   var. Kjem berre fram når arrangementet har feltet «merke». */
+.card-stamp{
+  position:absolute;z-index:1;right:10px;top:10px;display:inline-block;
+  background:var(--rust);color:#F7E8CB;
+  font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:5px 10px;border-radius:2px;transform:rotate(-3deg);
+  box-shadow:0 2px 4px rgba(0,0,0,.35);
+}
 .card-art{background:#C9B691}
 .card-art img{filter:sepia(.5) saturate(.7) contrast(.92);transition:filter .3s ease}
 .event-card:hover .card-art img,.event-card:focus-visible .card-art img{filter:none}
