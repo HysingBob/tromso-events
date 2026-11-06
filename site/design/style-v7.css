@@ -124,7 +124,7 @@ body{
 /* 3 — Papirflater (ingen tekst ligg direkte på veden) -------------------- */
 
 .page-heading,.filter-area,.results-head,.empty-state,.related>p,
-.breadcrumb,.detail,.about-copy,.site-footer{
+.breadcrumb,.detail,.about-copy{
   background-image:url("/assets/textures/paper.webp");
   background-repeat:repeat;
   background-size:640px 358px;
@@ -137,10 +137,27 @@ body{
 .breadcrumb{padding:12px 14px;margin:20px 0 0}
 .detail{padding:16px;margin:20px 0 0}
 .about-copy{padding:26px 20px 44px;margin:20px 0 0}
-.site-footer{padding:16px 18px 22px;margin:0 10px;border-top:0}
+/* Botnen av sida: marmor som mastheaden, for å markera at sida er slutt.
+   same 15 % svartvask og same kvite tekst som masthead, skugge oppover i
+   staden for nedover, og kompassrosa som midtpunkt over innhaldet. */
+.site-footer{
+  margin:0;padding:26px 21px 30px;border-top:0;
+  background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("/assets/textures/marble.webp");
+  background-repeat:repeat;background-size:512px 512px;background-color:var(--marble);
+  box-shadow:0 -6px 18px rgba(0,0,0,.45);
+  color:#fff;
+}
+.site-footer::before{
+  content:"";display:block;width:64px;height:64px;margin:0 auto 18px;
+  background-image:url("/assets/textures/compass.webp");
+  background-repeat:no-repeat;background-size:contain;background-position:center;
+}
+.site-footer,.site-footer p,.site-footer a,.site-footer small{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.site-footer .footer-inner img{filter:brightness(0) invert(1)}
+.route-line{border-top:1px dashed rgba(255,255,255,.35)}
 @media(min-width:640px){
   .page-heading,.filter-area,.results-head,.breadcrumb,.detail,.about-copy{padding-left:24px;padding-right:24px}
-  .site-footer{margin:0 20px;padding-left:24px;padding-right:24px}
+  .site-footer{padding-left:30px;padding-right:30px}
 }
 
 /* 4 — Oppslaga (kort) --------------------------------------------------- */
@@ -181,7 +198,7 @@ body{
 .facts{background:#E0CDA8}
 .ticket-link{color:var(--light-ink)}
 .category-controls button{border-color:#9C8A6A}
-.route-line span{background:var(--parchment);color:var(--sea)}
+.route-line span{background:transparent;color:#fff}
 
 /* Dagdelarane er ute (datoen står på kvart kort) — gruppene held berre
    døgnrytmen i lista med luft mellom dagane. */

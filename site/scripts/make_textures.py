@@ -127,6 +127,14 @@ def main():
     paper.save(p, 'WEBP', quality=80, method=6)
     out['paper'] = report('paper ', p, Image.open(p))
 
+    # Kompassrosa er tilbake: ho står no i botnen av sida (sjå design/v7.2-minimal.md).
+    rose = Image.open(os.path.join(SRC, 'compass-rose.png')).convert('RGBA')
+    rose.thumbnail((512, 512), Image.Resampling.LANCZOS)
+    p = os.path.join(OUT, 'compass.webp')
+    rose.save(p, 'WEBP', quality=80, method=6)
+    rose.save(os.path.join(OUT, 'compass.png'), 'PNG', optimize=True)
+    out['compass'] = report('compass', p, rose)
+
     v71_textures(out)
 
     print('\nsnittfarger for CSS:')
