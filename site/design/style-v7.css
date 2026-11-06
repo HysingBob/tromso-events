@@ -86,7 +86,9 @@ body{
 .brand-link{display:block;width:auto;height:auto}
 /* Ordmerket er mørkt blekk i SVG-en: snu det til kvitt og gjev det stor plass */
 .brand-link img{width:auto;height:72px;display:block;filter:brightness(0) invert(1)}
-.brand p{font-size:20px;margin:10px 0 0;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+/* Høgrestilt under kanten av det synlege ordmerket: SVG-en har ~1.9 % tom
+   luft på høgre side av blekket, så teksten får like mykje polstring. */
+.brand p{font-size:20px;margin:10px 0 0;color:#fff;width:100%;padding-right:1.9%;text-align:right;text-shadow:0 1px 2px rgba(0,0,0,.55)}
 /* Overskrift, «uten reklame» og intro */
 .mast-title{font-family:var(--display);font-weight:600;font-size:82px;line-height:.98;letter-spacing:-.035em;margin:30px 0 0;max-width:760px}
 .mast-dek{font-size:19px;margin:12px 0 0}
@@ -202,6 +204,9 @@ body.page-event{
     row-gap:14px;column-gap:12px;
   }
   .mast-extra{justify-self:start}
+  /* Telefon: ordmerket får følgje kolonnebreidda, så namn + språkval alltid får plass */
+  .brand{width:100%}
+  .brand-link img{width:100%;height:auto}
   .masthead{padding:16px 0}
   .masthead:not(:has(.mast-extra)){padding:20px 0}
   .mast-title{font-size:40px;margin:20px 0 0}
