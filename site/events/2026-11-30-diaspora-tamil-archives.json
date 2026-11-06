@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-30-diaspora-tamil-archives",
+  "start": "2026-11-30T14:00",
+  "sted": "Tromsø Kulturhus, Galleriet",
+  "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
+  "gratis": true,
+  "kategori": ["Utstilling"],
+  "no": {
+    "tittel": "DiasporA Tamil Archives – utstilling",
+    "ingress": "En utstilling markerer 70 år med tamilsk migrasjonshistorie i Norge.",
+    "tekst": "DiasporA Tamil Archives inviterer til utstillingen «Kvinner tar grep» på Tromsø Kulturhus. Utstillingen markerer 70 år med tamilsk migrasjonshistorie i Norge, og løfter fram den historiske tilknytningen til Nord-Norge og fiskeindustrien langs Finnmarkskysten.\n\nUtstillingen står til 30. november. Inngang er gratis.\n\nIllustrasjonen er et originalt tolkende motiv laget for tromsø.net."
+  },
+  "en": {
+    "title": "DiasporA Tamil Archives exhibition",
+    "lead": "An exhibition marks 70 years of Tamil migration history in Norway.",
+    "text": "DiasporA Tamil Archives presents the exhibition “Women Take Action” at Tromsø Kulturhus. It marks 70 years of Tamil migration history in Norway and highlights its historical connection to Northern Norway and the fishing industry along the Finnmark coast.\n\nThe exhibition is on view through 30 November. Admission is free.\n\nThe illustration is an original interpretive motif created for tromsø.net."
+  },
+  "bilde": "images/2026-11-30-diaspora-tamil-archives.webp",
+  "bildetekst_no": "Original vannfargeillustrasjon av et kystkart med fiskegarn, fisk og reiseruter.",
+  "bildetekst_en": "Original watercolor illustration of a coastal map with fishing net, fish and travel routes.",
+  "kilde_navn": "Tromsø Kulturhus / DiasporA Tamil Archives",
+  "kilde_url": "https://kulturhuset.tr.no/arrangement/diaspora-tamil-archives-utstilling/",
+  "status": "publisert"
+}
