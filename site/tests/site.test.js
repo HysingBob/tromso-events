@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
-const { loadEvents } = require('../lib/events');
+const { loadEvents,osloNow } = require('../lib/events');
 const root = path.join(__dirname,'..');
 const output = path.join(root,'_site');
 const html = p=>fs.readFileSync(path.join(output,p,'index.html'),'utf8');
@@ -27,7 +27,9 @@ test('Eleventy builds both languages and all four page types without third-party
   // Vakt mot å publisere eit bygg som manglar oppslag: alle kommande, publiserte
   // arrangement skal finnast i oversikten (dette fanga at eit utdatert bygg la
   // seg over docs/ og sletta Alvins arrangement).
-  const nowIso = new Date().toISOString().slice(0,16);
+  // Merk: tidene i events/ er Oslo-lokal tid, så «no» må reknast i Oslo, ikkje UTC —
+  // elles trur testen at eit arrangement som enda for under ein time sidan er komande.
+  const nowIso = osloNow();
   const upcoming = published.filter(e=>(e.slutt||e.start).slice(0,16) >= nowIso);
   for (const e of upcoming) {
     assert.ok(html('no/').includes(`href="/no/hendelse/${e.id}/"`), `manglar i oversikten: ${e.id}`);
