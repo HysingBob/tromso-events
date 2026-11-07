@@ -45,12 +45,12 @@
   "free": true
  },
  {
-  "title": "Fjord",
+  "title": "Minions And Monstre",
   "start": "2026-11-07T12:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
+  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -63,12 +63,12 @@
   "free": false
  },
  {
-  "title": "Minions And Monstre",
+  "title": "Fjord",
   "start": "2026-11-07T12:15:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/fjord/1578",
+  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
   "free": false
  },
  {
