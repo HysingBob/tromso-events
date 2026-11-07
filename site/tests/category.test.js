@@ -20,3 +20,15 @@ test('Activity is a category for participatory events, including indoor events',
   assert.ok(pageData.categories.some(category => category.lang === 'no' && category.name === 'Aktivitet' && category.slug === 'activity'));
   assert.ok(pageData.categories.some(category => category.lang === 'en' && category.slug === 'activity'));
 });
+
+test('Film is a category for cinema listings in both locales', () => {
+  const film = cats.find(category => category.key === 'Film');
+  assert.deepEqual(film, {
+    no: 'Film',
+    en: 'Film',
+    slug: 'film',
+    key: 'Film',
+  });
+  assert.ok(pageData.categories.some(category => category.lang === 'no' && category.name === 'Film' && category.slug === 'film'));
+  assert.ok(pageData.categories.some(category => category.lang === 'en' && category.name === 'Film' && category.slug === 'film'));
+});

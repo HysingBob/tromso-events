@@ -9,6 +9,7 @@ const cats = [
   {no:'Familie',en:'Family',slug:'family',key:'Familie'},
   {no:'Aktivitet',en:'Activity',slug:'activity',key:'Aktivitet'},
   {no:'Mat og drikke',en:'Food & drink',slug:'food-and-drink',key:'Mat og drikke'},
+  {no:'Film',en:'Film',slug:'film',key:'Film'},
   {no:'Annet',en:'Other',slug:'other',key:'Annet'}
 ];
 const themeSheets = (process.env.THEME || 'v2') === 'v2' ? ['leather.css'] : ['leather.css', `style-${process.env.THEME}.css`];

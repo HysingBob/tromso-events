@@ -1,7 +1,7 @@
 const {prepareEvents,loadEvents} = require('../../lib/events');
 const categories = [
   ['Konsert','concert'],['Scene','stage'],['Utstilling','exhibition'],['Foredrag','talk'],
-  ['Familie','family'],['Aktivitet','activity'],['Mat og drikke','food-and-drink'],['Annet','other']
+  ['Familie','family'],['Aktivitet','activity'],['Mat og drikke','food-and-drink'],['Film','film'],['Annet','other']
 ];
 module.exports = () => ({
   locales:['no','en'],
