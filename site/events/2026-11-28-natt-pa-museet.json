@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-28-natt-pa-museet",
+  "start": "2026-11-28T16:00",
+  "slutt": "2026-11-28T23:00",
+  "sted": "Norges arktiske universitetsmuseum",
+  "adresse": "Lars Thøringsveg 10, Tromsø",
+  "pris": "Voksen 130 kr; honnør/studenter/vernepliktige 100 kr; barn under 18 år og UiT-studenter gratis",
+  "gratis": false,
+  "kategori": ["Familie"],
+  "no": {
+    "tittel": "Natt på museet",
+    "ingress": "En museumsdag etter stengetid med aktiviteter for barn og familier, utstillingsåpning og konsert.",
+    "tekst": "Opplev museet etter stengetid lørdag 28. november. Kl. 16–18 vises filmen *Natt på museet* gratis for barn og foresatte. Fra kl. 17–20 kan familier utforske utstillingene med lommelykt og se om historier, dyr og forskning våkner til liv.\n\nKl. 20 åpner den utendørs fotoutstillingen GLIMT 2026, gratis og åpen for alle. Kl. 21 blir det konsert med Karlsøy Prestegaard og Verlos Vintage i Museumssalen.\n\nFilmvisningen er gratis for barn og foresatte; barn under 18 år har også gratis inngang til utstillingene. Voksne trenger museumsbillett til aktivitetene inne; billett kjøpes i skranken samme dag. Museet stenger kl. 23."
+  },
+  "en": {
+    "title": "Night at the Museum",
+    "lead": "An after-hours museum evening with activities for children and families, an exhibition opening and a concert.",
+    "text": "Experience the museum after closing time on Saturday 28 November. *Night at the Museum* is screened free for children and their caregivers from 16:00 to 18:00. From 17:00 to 20:00, families can explore the exhibitions with a flashlight and see whether the stories, animals and research come to life.\n\nAt 20:00, the outdoor photo exhibition GLIMT 2026 opens; the opening is free and open to everyone. At 21:00, Karlsøy Prestegaard and Verlos Vintage play in the Museum Hall.\n\nThe film screening is free for children and caregivers; children under 18 also have free admission to the exhibitions. Adults need a museum ticket for the indoor activities; tickets are sold at the museum desk on the day. The museum closes at 23:00."
+  },
+  "bilde": "https://uit.no/Content/943718/cache=20262310121425/transformation=scale10000x1500/Facebook%201920x1005.png",
+  "bildetekst_no": "Offisiell plakat for Natt på museet 28. november 2026.",
+  "bildetekst_en": "Official poster for Night at the Museum on 28 November 2026.",
+  "kilde_navn": "Norges arktiske universitetsmuseum",
+  "kilde_url": "https://uit.no/tavla/artikkel/943583/natt_pa_museet",
+  "status": "publisert"
+}

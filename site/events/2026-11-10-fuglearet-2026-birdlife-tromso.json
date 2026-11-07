@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-10-fuglearet-2026-birdlife-tromso",
+  "start": "2026-11-10T19:00",
+  "sted": "Norges arktiske universitetsmuseum, kafé Rotunden",
+  "adresse": "Lars Thøringsveg 10, Tromsø",
+  "pris": "Gratis inngang",
+  "gratis": true,
+  "kategori": ["Foredrag"],
+  "no": {
+    "tittel": "Fugleåret 2026 i nord – hvordan har det vært?",
+    "ingress": "BirdLife Tromsø ser tilbake på årets fuglehekking i nord.",
+    "tekst": "Feltbiolog Karl-Birger Strann forteller om årets hekkesesong og hvordan vær og forhold har påvirket fuglelivet i landsdelen.\n\nGratis inngang. Enkel servering."
+  },
+  "en": {
+    "title": "The 2026 bird season in the north – how did it go?",
+    "lead": "BirdLife Tromsø looks back at this year's bird-breeding season in northern Norway.",
+    "text": "Field biologist Karl-Birger Strann discusses this year's breeding season and how weather and local conditions affected birdlife across the region.\n\nFree admission. Light refreshments will be served."
+  },
+  "bilde": "https://uit.no/Content/944359/transformation=scale10000x800/Foto%20Oddvar%20Hagen.jpg",
+  "bildetekst_no": "Arrangementsbilde fra UiT for foredraget om fugleåret 2026.",
+  "bildetekst_en": "Event image from UiT for the talk about the 2026 bird season.",
+  "kilde_navn": "BirdLife Tromsø / Norges arktiske universitetsmuseum",
+  "kilde_url": "https://uit.no/tavla/artikkel/944360/fuglearet_2026_i_nord_-_hvordan_har_det_vaert_b",
+  "status": "publisert"
+}

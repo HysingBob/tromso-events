@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-28-karlsoy-prestegaard-verlos-vintage",
+  "start": "2026-11-28T21:00",
+  "sted": "Museumssalen, Norges arktiske universitetsmuseum",
+  "adresse": "Lars Thøringsveg 10, Tromsø",
+  "pris": "Voksen 130 kr; honnør/studenter/vernepliktige 100 kr; barn under 18 år og UiT-studenter gratis",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "no": {
+    "tittel": "Karlsøy Prestegaard og Verlos Vintage",
+    "ingress": "Konsert i Museumssalen i forbindelse med GLIMT 2026.",
+    "tekst": "Karlsøy Prestegaard og Verlos Vintage spiller på Universitetsmuseet etter åpningen av GLIMT 2026. Fotografiene i utstillingen dokumenterer musikkmiljøet rundt Det Lille Kulturhus, der begge bandene var aktive.\n\nKonserten er for voksne og starter kl. 21. Vanlig museumsbillett gir adgang; den kjøpes i skranken samme dag. Plassreservasjon er unummerert og kan gjøres i skranken fra kl. 19. Museet oppgir ordinær voksenbillett til 130 kr, honnør/studenter/vernepliktige 100 kr og gratis inngang for UiT-studenter og barn under 18 år."
+  },
+  "en": {
+    "title": "Karlsøy Prestegaard and Verlos Vintage",
+    "lead": "A concert in the Museum Hall as part of GLIMT 2026.",
+    "text": "Karlsøy Prestegaard and Verlos Vintage play at the Arctic University Museum after the opening of GLIMT 2026. The exhibition photographs document the music scene around Det Lille Kulturhus, where both bands were active.\n\nThe concert is for adults and starts at 21:00. A regular museum ticket is required and is sold at the desk on the day. Unnumbered seats can be reserved at the desk from 19:00. The museum lists regular adult admission at NOK 130, senior citizens/students/military conscripts at NOK 100, and free admission for UiT students and children under 18."
+  },
+  "bilde": "https://uit.no/Content/943726/cache=20262310123842/transformation=scale10000x1500/Natt-pa%E2%95%A0%C3%A8-museet_konsert.png",
+  "bildetekst_no": "Offisiell plakat for konserten med Karlsøy Prestegaard og Verlos Vintage.",
+  "bildetekst_en": "Official poster for the concert with Karlsøy Prestegaard and Verlos Vintage.",
+  "kilde_navn": "Norges arktiske universitetsmuseum",
+  "kilde_url": "https://uit.no/tavla/artikkel/943683/fra_det_lille_kulturhus_til_museum_konsert_med_k",
+  "status": "publisert"
+}

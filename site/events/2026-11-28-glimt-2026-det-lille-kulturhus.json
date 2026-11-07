@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-28-glimt-2026-det-lille-kulturhus",
+  "start": "2026-11-28T20:00",
+  "sted": "Utendørs ved Norges arktiske universitetsmuseum",
+  "adresse": "Lars Thøringsveg 10, Tromsø",
+  "gratis": true,
+  "kategori": ["Utstilling"],
+  "no": {
+    "tittel": "GLIMT 2026 – Det Lille Kulturhus",
+    "ingress": "Utendørs fotoutstilling om Det Lille Kulturhus og Tromsøs musikk- og ungdomsmiljø.",
+    "tekst": "GLIMT er museets årlige mørketidsutstilling på en stor utendørs vegg. Årets utvalg viser fotografier fra livet i Det Lille Kulturhus på 1990- og 2000-tallet.\n\nUtstillingsåpningen starter kl. 20 med gratis varm drikke og innlegg. Markeringen er gratis og åpen for alle; kle deg etter været."
+  },
+  "en": {
+    "title": "GLIMT 2026 – Det Lille Kulturhus",
+    "lead": "An outdoor photo exhibition about Det Lille Kulturhus and Tromsø's music and youth scene.",
+    "text": "GLIMT is the museum's annual outdoor exhibition for the dark season, projected on a large wall. This year's selection features photographs documenting life at Det Lille Kulturhus in the 1990s and 2000s.\n\nThe exhibition opening starts at 20:00, with free hot drinks and short talks. The outdoor event is free and open to everyone; dress for the weather."
+  },
+  "bilde": "https://uit.no/Content/943722/cache=20262310122936/transformation=scale10000x1500/Natt-pa%E2%95%A0%C3%A8-museet_utstillingsa%E2%95%A8%C3%A8pning.png",
+  "bildetekst_no": "Offisiell plakat for åpningen av GLIMT 2026 – Det Lille Kulturhus.",
+  "bildetekst_en": "Official poster for the opening of GLIMT 2026 – Det Lille Kulturhus.",
+  "kilde_navn": "Norges arktiske universitetsmuseum",
+  "kilde_url": "https://uit.no/tavla/artikkel/943272/utendors_utstillingsapning_glimt_2026_-_det_lill",
+  "status": "publisert"
+}
