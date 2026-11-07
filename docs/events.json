@@ -1,74 +1,11 @@
 [
  {
-  "title": "Ordkalotten:Forfatterstudentene leser",
-  "start": "2026-11-06T10:00:00",
-  "venue": "Tromsø bibliotek",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/ordkalotten-forfatterstudentene-leser",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Ordkalotten.jpg.webp?itok=xnxeAtB8",
-  "free": true
- },
- {
-  "title": "Forfattersamtale med April Alexandersdottir",
-  "start": "2026-11-06T12:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/forfattersamtale-med-april-alexandersdottir",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/april.png.webp?itok=zEECv3Df",
-  "free": true
- },
- {
   "title": "“Puffs, or Seven Increasingly Eventful Years at a Certain School of Magic and Magic”",
   "start": "2026-11-06T19:00:00",
   "venue": "Rådstua Teaterhus, Tromsø",
   "source": "radstua",
   "url": "https://www.radstua.no/aktuelt-program/puffs",
   "image": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1793189871911-4I10OB6ZBPBTKGYPTFQ1/Puffs.png",
-  "free": false
- },
- {
-  "title": "Spider Man Brand New Day",
-  "start": "2026-11-07T10:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/spider-man-brand-new-day/1397",
-  "image": "https://images.filmgrail.com/mediaserver/movies/spider-man-brand-new-day-7593/backdrop/1785402905928?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Monster Mia",
-  "start": "2026-11-07T10:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/monster-mia/1712",
-  "image": "https://images.filmgrail.com/mediaserver/movies/monster-mia-9567/backdrop/1793185987406?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Det Mystiske Milliontyveriet",
-  "start": "2026-11-07T10:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/det-mystiske-milliontyveriet/1638",
-  "image": "https://images.filmgrail.com/mediaserver/movies/det-mystiske-milliontyveriet-9540/backdrop/1790955014580?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Miss Moxy",
-  "start": "2026-11-07T10:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/miss-moxy/1575",
-  "image": "https://images.filmgrail.com/mediaserver/movies/miss-moxy-8294/backdrop/1784283999356?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Stargate En Julefortelling",
-  "start": "2026-11-07T10:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/stargate-en-julefortelling/1213",
-  "image": "https://images.filmgrail.com/1760604935632?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -108,6 +45,15 @@
   "free": true
  },
  {
+  "title": "Fjord",
+  "start": "2026-11-07T12:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/fjord/1578",
+  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Toy Story 5",
   "start": "2026-11-07T12:15:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -123,15 +69,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
   "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Fjord",
-  "start": "2026-11-07T12:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/fjord/1578",
-  "image": "https://images.filmgrail.com/mediaserver/movies/fjord-8501/backdrop/1788264908423?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -342,21 +279,21 @@
   "free": false
  },
  {
-  "title": "Obsession",
-  "start": "2026-11-07T21:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/obsession/1510",
-  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Wild Horse Nine",
   "start": "2026-11-07T21:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/wild-horse-nine/1568",
   "image": "https://images.filmgrail.com/1793881615325-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Obsession",
+  "start": "2026-11-07T21:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/obsession/1510",
+  "image": "https://images.filmgrail.com/1779361297489-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -387,21 +324,21 @@
   "free": false
  },
  {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-08T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Pensjonskuppet",
   "start": "2026-11-08T11:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
   "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Julenissens Verksted",
+  "start": "2026-11-08T11:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -707,7 +644,7 @@
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ramayana-rise-of-a-legend/1692",
-  "image": "https://images.filmgrail.com/mediaserver/movies/ramayana-rise-of-a-legend-9828/backdrop/1793629809499?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/ramayana-rise-of-a-legend-9828/backdrop/1794043807889?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1364,7 +1301,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ramayana-rise-of-a-legend/1692",
-  "image": "https://images.filmgrail.com/mediaserver/movies/ramayana-rise-of-a-legend-9828/backdrop/1793629809499?optimizer=image&width=1200",
+  "image": "https://images.filmgrail.com/mediaserver/movies/ramayana-rise-of-a-legend-9828/backdrop/1794043807889?optimizer=image&width=1200",
   "free": false
  },
  {
