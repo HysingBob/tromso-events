@@ -1,0 +1,24 @@
+{
+  "id": "2026-12-12-tofl",
+  "start": "2026-12-12T21:00",
+  "slutt": "2026-12-12T21:30",
+  "sted": "Tankrommet, Bryggeriet Scene",
+  "kategori": ["Konsert"],
+  "aldersgrense": "18 år",
+  "no": {
+    "tittel": "TØFL",
+    "ingress": "TØFL tar med sitt nye album Eg e deg på klubbturné.",
+    "tekst": "TØFL spiller på Bryggeriet Scene lørdag 12. desember. Dørene åpner kl. 20, og konserten starter kl. 21. Tankrommet åpner kl. 18. Aldersgrense 18 år."
+  },
+  "en": {
+    "title": "TØFL",
+    "lead": "TØFL bring their new album Eg e deg on a club tour.",
+    "text": "TØFL play at Bryggeriet Scene on Saturday 12 December. Doors open at 20:00 and the concert starts at 21:00. Tankrommet opens at 18:00. Age limit: 18."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/0a98359d-dfba-4855-9c30-22b202763038/bryggeriet-scene.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde fra Bryggeriet Scene.",
+  "bildetekst_en": "Event image from Bryggeriet Scene.",
+  "kilde_navn": "Bryggeriet Scene",
+  "kilde_url": "https://www.bryggerietscene.no/program2/tfl",
+  "status": "publisert"
+}

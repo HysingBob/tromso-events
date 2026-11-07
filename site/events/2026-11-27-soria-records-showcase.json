@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-27-soria-records-showcase",
+  "start": "2026-11-27T22:00",
+  "slutt": "2026-11-28T03:00",
+  "sted": "Tankrommet, Bryggeriet Scene",
+  "kategori": ["Konsert"],
+  "aldersgrense": "20 år",
+  "no": {
+    "tittel": "Soria Records Showcase: Bryggari, Brnr og Evver Andersson",
+    "ingress": "En natt med Soria Records og Tromsøs undergrunnsscene.",
+    "tekst": "Soria Records Showcase samler Bryggari, Brnr og Evver Andersson i Tankrommet fredag 27. november. DJ-ene starter kl. 22, og kvelden varer til kl. 03. Aldersgrense 20 år. Billetter kan også kjøpes i døra."
+  },
+  "en": {
+    "title": "Soria Records Showcase: Bryggari, Brnr and Evver Andersson",
+    "lead": "A night with Soria Records and Tromsø's underground scene.",
+    "text": "Soria Records Showcase brings Bryggari, Brnr and Evver Andersson to Tankrommet on Friday 27 November. The DJs start at 22:00 and the event runs until 03:00. Age limit: 20. Tickets are also available at the door."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/0a98359d-dfba-4855-9c30-22b202763038/bryggeriet-scene.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde fra Bryggeriet Scene.",
+  "bildetekst_en": "Event image from Bryggeriet Scene.",
+  "kilde_navn": "Bryggeriet Scene",
+  "kilde_url": "https://www.bryggerietscene.no/program2/soria-records-showcase-bryggari-brnr-evver-andersson",
+  "status": "publisert"
+}

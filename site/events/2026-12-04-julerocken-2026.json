@@ -1,0 +1,23 @@
+{
+  "id": "2026-12-04-julerocken-2026",
+  "start": "2026-12-04T19:00",
+  "slutt": "2026-12-05T00:00",
+  "sted": "Hovedscenen, Bryggeriet Scene",
+  "kategori": ["Konsert"],
+  "no": {
+    "tittel": "Julerocken 2026",
+    "ingress": "Fire tribute-band sørger for førjulsrock på Hovedscenen.",
+    "tekst": "Bryggeriet Scene presenterer Julerocken fredag 4. desember. På programmet står Rævva Rockers, Run 2 U – A Bryan Adams Tribute, Alanis Morissette – Jagged Little Tribute og Allsang Over Grensa."
+  },
+  "en": {
+    "title": "Julerocken 2026",
+    "lead": "Four tribute bands bring a pre-Christmas rock night to the main stage.",
+    "text": "Bryggeriet Scene presents Julerocken on Friday 4 December. The line-up features Rævva Rockers, Run 2 U – A Bryan Adams Tribute, Alanis Morissette – Jagged Little Tribute and Allsang Over Grensa."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/0a98359d-dfba-4855-9c30-22b202763038/bryggeriet-scene.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde fra Bryggeriet Scene.",
+  "bildetekst_en": "Event image from Bryggeriet Scene.",
+  "kilde_navn": "Bryggeriet Scene",
+  "kilde_url": "https://www.bryggerietscene.no/program2/julerocken-2026",
+  "status": "publisert"
+}

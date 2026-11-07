@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-26-makosir",
+  "start": "2026-11-26T21:00",
+  "sted": "Tankrommet, Bryggeriet Scene",
+  "kategori": ["Konsert"],
+  "no": {
+    "tittel": "Makosir",
+    "ingress": "Makosir tar med seg debutalbumet Spill For Galleriet ut på sin første Norgesturné.",
+    "tekst": "Makosir spiller på Tankrommet torsdag 26. november. Spillestedet åpner kl. 18, og konserten starter kl. 21."
+  },
+  "en": {
+    "title": "Makosir",
+    "lead": "Makosir brings his debut album Spill For Galleriet on his first Norwegian tour.",
+    "text": "Makosir plays at Tankrommet on Thursday 26 November. The venue opens at 18:00 and the show starts at 21:00."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/695e1c1ed7d5e07497286289/0a98359d-dfba-4855-9c30-22b202763038/bryggeriet-scene.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde fra Bryggeriet Scene.",
+  "bildetekst_en": "Event image from Bryggeriet Scene.",
+  "kilde_navn": "Bryggeriet Scene",
+  "kilde_url": "https://www.bryggerietscene.no/program2/makosir-tankrommet",
+  "status": "publisert"
+}
