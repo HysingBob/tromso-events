@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-12-sjakkmatt-hostdans",
+  "start": "2026-11-12T18:00",
+  "slutt": "2026-11-12T19:30",
+  "sted": "Provisoriet, Rådstua Teaterhus",
+  "kategori": ["Scene"],
+  "no": {
+    "tittel": "Sjakkmatt – Høstdans 2026",
+    "ingress": "Kongsbakken-elevenes Høstdans utforsker makt gjennom dans, koreografi og scenekunst.",
+    "tekst": "Elevene på Vg3 dans har utviklet forestillingen fra idé og koreografi til scenisk formidling, med medelever fra Vg1. Temaet makt rommer både frihet og begrensninger, fellesskap og konflikt. Forestillingene starter kl. 18:00 og 19:30."
+  },
+  "en": {
+    "title": "Checkmate – Autumn Dance 2026",
+    "lead": "Kongsbakken students’ autumn dance performance explores power through dance, choreography and performance.",
+    "text": "The school’s Vg3 dance students developed the production from initial idea and choreography to performance, joined by fellow students from Vg1. Its theme of power encompasses both freedom and limitation, community and conflict. Performances start at 18:00 and 19:30."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1793348476271-GX800M868IHB838BYR2X/H%C3%B8stdans+2026.png",
+  "bildetekst_no": "Arrangørens bilde for Sjakkmatt – Høstdans 2026.",
+  "bildetekst_en": "The organiser’s image for Checkmate – Autumn Dance 2026.",
+  "kilde_navn": "Rådstua Teaterhus",
+  "kilde_url": "https://www.radstua.no/aktuelt-program/hostdans26",
+  "status": "publisert"
+}

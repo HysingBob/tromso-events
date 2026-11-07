@@ -1,0 +1,25 @@
+{
+  "id": "2026-12-05-flamenco-aften",
+  "start": "2026-12-05T18:00",
+  "slutt": "2026-12-05T19:30",
+  "sted": "Rådstua Teaterhus",
+  "pris": "Voksen 320 kr; barn 80 kr",
+  "gratis": false,
+  "kategori": ["Scene"],
+  "no": {
+    "tittel": "Flamenco Aften i Tromsø",
+    "ingress": "To flamencoforestillinger på én kveld: El Amor Brujo og Zambomba Flamenca.",
+    "tekst": "Flamenco Norge åpner med El Amor Brujo, før Chaneki Flamenco Ensemble avslutter med Zambomba Flamenca – en andalusisk flamencojul. Arrangøren beskriver kvelden som en familieopplevelse."
+  },
+  "en": {
+    "title": "Flamenco Evening in Tromsø",
+    "lead": "Two flamenco performances in one evening: El Amor Brujo and Zambomba Flamenca.",
+    "text": "Flamenco Norge opens with El Amor Brujo, followed by Chaneki Flamenco Ensemble’s Zambomba Flamenca, an Andalusian flamenco Christmas celebration. The organiser describes the evening as a family experience."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1791533494958-CSFDFV0WYZUJQLD1URT5/Flamenco+Aften+i+Troms%C3%B8-1.png",
+  "bildetekst_no": "Arrangørens bilde for Flamenco Aften i Tromsø.",
+  "bildetekst_en": "The organiser’s image for Flamenco Evening in Tromsø.",
+  "kilde_navn": "Rådstua Teaterhus",
+  "kilde_url": "https://www.radstua.no/aktuelt-program/flamenco-aften-i-tromso",
+  "status": "publisert"
+}

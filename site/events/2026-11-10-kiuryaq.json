@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-10-kiuryaq",
+  "start": "2026-11-10T19:00",
+  "sted": "Provisoriet, Rådstua Teaterhus",
+  "kategori": ["Scene"],
+  "no": {
+    "tittel": "Kiuryaq – an immersive circumpolar theatre performance",
+    "ingress": "En sirkumpolar teaterforestilling om nordlys, tilhørighet og historier fra nord – med ettersnakk etterpå.",
+    "tekst": "Kiuryaq vever sammen teater, musikk og videodesign i en forestilling skapt i samarbeid mellom urfolk og ikke-urfolk fra Canada, Grønland, Sápmi og Alaska. Etter forestillingen blir det samtale med skaperne Reneltta Arluk og Rawdna Carita Eira, ledet av Ida Løken Valkeapää. Forestillingen er på engelsk."
+  },
+  "en": {
+    "title": "Kiuryaq – an immersive circumpolar theatre performance",
+    "lead": "A circumpolar theatre performance about the Northern Lights, belonging and stories from the North, followed by a conversation.",
+    "text": "Kiuryaq weaves together theatre, music and video design in a work created in collaboration between Indigenous and non-Indigenous artists from Canada, Greenland, Sápmi and Alaska. After the performance, creators Reneltta Arluk and Rawdna Carita Eira will talk with moderator Ida Løken Valkeapää. The performance is in English."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1792054020088-T7HPNW4X4DX3X1D9E1IJ/Kiuryaq+-+an+immersive+circumpolar+theatre+performance.png",
+  "bildetekst_no": "Arrangørens bilde for Kiuryaq.",
+  "bildetekst_en": "The organiser’s image for Kiuryaq.",
+  "kilde_navn": "Rådstua Teaterhus",
+  "kilde_url": "https://www.radstua.no/aktuelt-program/kiuryaq",
+  "status": "publisert"
+}

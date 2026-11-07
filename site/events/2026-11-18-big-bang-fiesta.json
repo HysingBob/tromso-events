@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-18-big-bang-fiesta",
+  "start": "2026-11-18T19:00",
+  "sted": "Provisoriet, Rådstua Teaterhus",
+  "pris": "100/50 kr",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "no": {
+    "tittel": "Big Bang Fiesta!",
+    "ingress": "Tromsø Kulturskoles ungdomsstorband byr på karibiske og søramerikanske rytmer i møte med jazz.",
+    "tekst": "Konserten har innslag med vokalist Charlotte Höper Joseph og en kort avdeling med Kulturskolens Jazzkombo. Innslipp starter ti minutter før konsertstart. Billetter selges i døra via Vipps."
+  },
+  "en": {
+    "title": "Big Bang Fiesta!",
+    "lead": "Tromsø School of Music and Performing Arts’ youth big band brings Caribbean and South American rhythms together with jazz.",
+    "text": "The concert includes guest vocals by Charlotte Höper Joseph and a short set by the school’s Jazz Combo. Doors open ten minutes before the concert. Tickets are sold at the door via Vipps."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1793262916690-6JOZ7B8G8Q0LCHOQ9CGY/Big+band+fiesta+-+kulturskolen.png",
+  "bildetekst_no": "Arrangørens bilde for Big Bang Fiesta!.",
+  "bildetekst_en": "The organiser’s image for Big Bang Fiesta!.",
+  "kilde_navn": "Rådstua Teaterhus",
+  "kilde_url": "https://www.radstua.no/aktuelt-program/storbandkonsert-kulturskolen",
+  "status": "publisert"
+}
