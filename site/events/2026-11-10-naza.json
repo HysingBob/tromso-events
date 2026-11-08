@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-10-naza",
+  "start": "2026-11-10T20:30",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "aldersgrense": "15 år",
+  "malgruppe": [
+    "18+"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "NAZA",
+    "ingress": "En dokumentar der, ifølge Aurora kino, undersøker systemene bak drapene på palestinske sivile i Gaza gjennom intervjuer med israelske etterretningsoffiserer og soldater.",
+    "tekst": "Filmen er på hebraisk, varer i 1 time og 20 minutter og har 15-årsgrense. Aurora oppgir at unge ned til 12 år kan se den sammen med voksne. Visningen har original tale og norsk tekst.\n\nVisning 10. november kl. 20:30 i Sal 4. Ordinærbilletten koster 165 kr."
+  },
+  "en": {
+    "title": "NAZA",
+    "lead": "According to Aurora Kino, this documentary examines the systems behind the killing of Palestinian civilians in Gaza through interviews with Israeli intelligence officers and soldiers.",
+    "text": "The film is in Hebrew, runs for 80 minutes and has a 15 age rating. Aurora says viewers as young as 12 may attend with an adult. This screening has original audio and Norwegian subtitles.\n\nScreening on 10 November at 20:30 in Sal 4. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill publisert av Aurora kino.",
+  "bildetekst_en": "Film still published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/naza/1722",
+  "status": "publisert",
+  "visningstider": [
+    "14:30",
+    "20:30"
+  ]
+}
