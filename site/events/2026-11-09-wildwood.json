@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-09-wildwood",
+  "start": "2026-11-09T18:00",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": ["Film"],
+  "aldersgrense": "12 år",
+  "malgruppe": ["Familie"],
+  "gratis": false,
+  "no": {
+    "tittel": "Wildwood",
+    "ingress": "En tenåring leter etter sin bortførte lillebror i en hemmelig skog full av snakkende dyr.",
+    "tekst": "Da Prue McKeels lillebror blir bortført av en flokk kråker, drar hun ut for å finne ham i en skjult skog. Sammen med klassekameraten Curtis møter hun snakkende dyr, banditter og andre farer. Filmen varer i 2 timer og 10 minutter. Aurora kino oppgir 12-årsgrense; original tale på engelsk med norsk tekst.\n\nVisning mandag 9. november kl. 18.00 i Sal 5. Ordinærbilletten koster 165 kr; ingen separat avgift er oppgitt."
+  },
+  "en": {
+    "title": "Wildwood",
+    "lead": "A teenager searches for her kidnapped brother in a hidden forest full of talking animals.",
+    "text": "When a flock of crows abducts Prue McKeel’s little brother, she sets out to find him in a hidden forest. Together with her classmate Curtis, she encounters talking animals, bandits and other dangers. The film runs for 2 hours and 10 minutes. Aurora Kino lists an age rating of 12; original English audio with Norwegian subtitles.\n\nScreening on Monday 9 November at 18:00 in Screen 5. An ordinary ticket costs NOK 165; no separate fee is listed."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill fra Wildwood, publisert av Aurora Kino.",
+  "bildetekst_en": "Film still from Wildwood, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/wildwood/1669",
+  "status": "publisert",
+  "visningstider": ["18:00"]
+}
