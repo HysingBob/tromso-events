@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
 const { loadEvents,osloNow } = require('../lib/events');
+const render = require('../lib/render');
 const root = path.join(__dirname,'..');
 const output = path.join(root,'_site');
 const html = p=>fs.readFileSync(path.join(output,p,'index.html'),'utf8');
@@ -51,4 +52,12 @@ test('Eleventy builds both languages and all four page types without third-party
   assert.equal(fs.readdirSync(path.join(output,'images/cards')).filter(x=>x.endsWith('.webp')).length,
     fs.readdirSync(path.join(root,'images/cards')).filter(x=>x.endsWith('.webp')).length);
 
+});
+
+test('cinema cards and detail pages show all verified same-day showtimes', () => {
+  const event = { id:'2026-11-10-test-film', start:'2026-11-10T20:15', sted:'Aurora kino Fokus', kategori:['Film'], malgruppe:['18+'], gratis:false, visningstider:['17:30','20:15'], no:{tittel:'Testfilm',ingress:'',tekst:''}, en:{title:'Test Film',lead:'',text:''} };
+  const cardHtml = render.card(event,'no');
+  assert.match(cardHtml,/17:30, 20:15/);
+  const pageHtml = render.eventPage('no',event,[event]);
+  assert.match(pageHtml,/17:30, 20:15/);
 });

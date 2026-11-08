@@ -27,5 +27,8 @@
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
   "status": "publisert",
-  "gratis": false
+  "gratis": false,
+  "visningstider": [
+    "20:15"
+  ]
 }

@@ -27,5 +27,8 @@
   "bildetekst_en": "Film still for Godzilla Minus Zero, published by Aurora Kino.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "status": "publisert"
+  "status": "publisert",
+  "visningstider": [
+    "20:15"
+  ]
 }
