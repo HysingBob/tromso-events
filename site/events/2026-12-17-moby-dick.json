@@ -1,0 +1,29 @@
+{
+  "id": "2026-12-17-moby-dick",
+  "start": "2026-12-17T19:00",
+  "sted": "Hålogaland Teater, Scene Vest",
+  "adresse": "Teaterplassen 1, 9258 Tromsø",
+  "kategori": [
+    "Scene"
+  ],
+  "malgruppe": [
+    "Ungdom"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Moby Dick",
+    "ingress": "Herman Melvilles klassiker følger Ismael og mannskapet på fangstskuta Pequod i jakten på den hvite hvalen.",
+    "tekst": "Herman Melvilles klassiker følger Ismael og mannskapet på fangstskuta Pequod i jakten på den hvite hvalen. Hålogaland Teater løfter fram havet, naturkreftene, vennskapet og fellesskapet i denne sceniske versjonen på Scene Vest. Forestillingen anbefales ikke for barn under 10 år."
+  },
+  "en": {
+    "title": "Moby Dick",
+    "lead": "Herman Melville’s classic follows Ishmael and the crew of the whaling ship Pequod in pursuit of the white whale.",
+    "text": "Herman Melville’s classic follows Ishmael and the crew of the whaling ship Pequod in pursuit of the white whale. Hålogaland Teater’s stage version explores the sea, the forces of nature, friendship and solidarity at Scene Vest. The theatre advises that it is not suitable for children under 10."
+  },
+  "bilde": "https://mediacdn.billetten.dk/advanced/214/214_6a1017c0a0bec-large.png",
+  "bildetekst_no": "Arrangementsbilde fra Hålogaland Teater for Moby Dick.",
+  "bildetekst_en": "Event image from Hålogaland Teater for Moby Dick.",
+  "kilde_navn": "Hålogaland Teater",
+  "kilde_url": "https://halogalandteater.no/produksjon/2026/moby-dick",
+  "status": "publisert"
+}

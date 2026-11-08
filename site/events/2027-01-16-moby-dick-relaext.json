@@ -4,8 +4,12 @@
   "sted": "Hålogaland Teater, Scene Vest",
   "adresse": "Teaterplassen 1, 9258 Tromsø",
   "aldersgrense": "Anbefales ikke for barn under 10 år",
-  "malgruppe": ["Familie"],
-  "kategori": ["Scene"],
+  "malgruppe": [
+    "Familie"
+  ],
+  "kategori": [
+    "Scene"
+  ],
   "no": {
     "tittel": "Moby Dick – Relæxt",
     "ingress": "En Relæxt-visning av Hålogaland Teaters Moby Dick på Scene Vest.",
@@ -16,7 +20,7 @@
     "lead": "A Relæxt performance of Hålogaland Teater’s Moby Dick at Scene Vest.",
     "text": "Join Ishmael and the crew of the whaling ship Pequod in the hunt for the white whale. Hålogaland Teater describes the production as a story of the sea, the forces of nature, friendship and solidarity. The theatre explicitly identifies this performance as a “Relæxt” show.\n\nThe theatre advises that the performance is not suitable for children under 10."
   },
-  "bilde": "https://halogalandteater.no/sites/default/files/styles/hero_image_xlarge/public/cover-images/2026-05/Moby-Dick-webbanner-1920x1200-260521.png.webp?itok=3hEfnsR0",
+  "bilde": "https://mediacdn.billetten.dk/advanced/214/214_6a1017c0a0bec-large.png",
   "bildetekst_no": "Arrangementsbilde fra Hålogaland Teater for Moby Dick.",
   "bildetekst_en": "Event image from Hålogaland Teater for Moby Dick.",
   "kilde_navn": "Hålogaland Teater",

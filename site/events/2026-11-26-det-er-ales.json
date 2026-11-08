@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-26-det-er-ales",
+  "start": "2026-11-26T19:00",
+  "sted": "Hålogaland Teater, Scene Øst",
+  "adresse": "Teaterplassen 1, 9258 Tromsø",
+  "kategori": [
+    "Scene"
+  ],
+  "malgruppe": [
+    "18+"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Det er Ales",
+    "ingress": "Signe står igjen alene i huset der mannen hennes ikke kom hjem fra havet.",
+    "tekst": "Signe står igjen alene i huset der mannen hennes ikke kom hjem fra havet. Jon Fosses fortelling utforsker savn, minner og spørsmålet om hvordan man kan leve videre etter et slikt tap. Forestillingen spilles på Scene Øst.\n\nForestillingen varer i 80 minutter."
+  },
+  "en": {
+    "title": "Det er Ales",
+    "lead": "Signe is left alone in the house where her husband never returned from the sea.",
+    "text": "Signe is left alone in the house where her husband never returned from the sea. Jon Fosse’s story explores grief, memory and how to go on living after such a loss. Performed at Scene Øst.\n\nThe performance lasts 80 minutes."
+  },
+  "bilde": "https://halogalandteater.no/sites/default/files/styles/hero_image_xlarge/public/cover-images/2026-11/Det-er-Ales-26-webbanner-1920x1200-261106b.png.webp?itok=grC4be4p",
+  "bildetekst_no": "Arrangementsbilde fra Hålogaland Teater for Det er Ales.",
+  "bildetekst_en": "Event image from Hålogaland Teater for Det er Ales.",
+  "kilde_navn": "Hålogaland Teater",
+  "kilde_url": "https://halogalandteater.no/produksjon/2026/det-er-ales",
+  "status": "publisert",
+  "slutt": null
+}
