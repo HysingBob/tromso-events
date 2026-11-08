@@ -5,8 +5,8 @@
   "adresse": "Tromsø Kulturhus, Tromsø",
   "pris": "Se billetter hos arrangør",
   "gratis": false,
-  "kategori": ["Scene", "Konsert"],
-  "malgruppe": ["Familie", "Ungdom"],
+  "kategori": ["Scene"],
+  "malgruppe": ["Familie"],
   "no": {
     "tittel": "Førjulsballetten 2026",
     "ingress": "Dans, musikk og livets kontraster, med Prokofjev og Arktisk Filharmoni.",

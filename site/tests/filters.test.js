@@ -16,13 +16,13 @@ const MALGRUPPER = ['Familie', 'Ungdom', '18+'];
 const raw = () => fs.readdirSync(eventsDir).filter(f => f.endsWith('.json'))
   .map(f => JSON.parse(fs.readFileSync(path.join(eventsDir, f), 'utf8')));
 
-test('kvar arrangementsfil har kategori frå dei sju og minst éin målgruppe', () => {
+test('kvar arrangementsfil har nøyaktig éi kategori frå dei sju og nøyaktig éi målgruppe', () => {
   const files = raw();
   assert.ok(files.length > 0);
   for (const e of files) {
-    assert.ok(Array.isArray(e.kategori) && e.kategori.length, `${e.id} manglar kategori`);
+    assert.ok(Array.isArray(e.kategori) && e.kategori.length === 1, `${e.id} må ha nøyaktig éi kategori`);
     for (const k of e.kategori) assert.ok(KATEGORIAR.includes(k), `${e.id} har ukjend kategori «${k}»`);
-    assert.ok(Array.isArray(e.malgruppe) && e.malgruppe.length, `${e.id} manglar malgruppe`);
+    assert.ok(Array.isArray(e.malgruppe) && e.malgruppe.length === 1, `${e.id} må ha nøyaktig éi målgruppe`);
     for (const m of e.malgruppe) assert.ok(MALGRUPPER.includes(m), `${e.id} har ukjend målgruppe «${m}»`);
   }
 });

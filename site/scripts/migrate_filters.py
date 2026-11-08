@@ -39,14 +39,14 @@ KATEGORI_MAP = {
 
 # Kategori som ikkje kjem fram av den gamle mappinga (skjerming av film).
 KATEGORI_PÅSLAG = {
-    '2026-11-12-brokeback-live-dub': ['Film', 'Scene'],
+    '2026-11-12-brokeback-live-dub': ['Film'],
     # «Familie» var ein kategori i det gamle settet. Museumsnatta er i røynda ei
     # utstilling — familie er målgruppe, ikkje kategori.
     '2026-11-28-natt-pa-museet': ['Utstilling'],
 }
 
 MALGRUPPE = {
-    '2026-11-06-morten-abel-full-of-dreams': ['Ungdom', '18+'],
+    '2026-11-06-morten-abel-full-of-dreams': ['Ungdom'],
     '2026-11-06-ordkalotten-poetikk': ['18+'],
     '2026-11-07-hivju-the-garbage-king': ['Ungdom', '18+'],
     '2026-11-12-brokeback-live-dub': ['Ungdom', '18+'],
@@ -105,7 +105,10 @@ def migrate(data):
     data['kategori'] = kategori
     if ident not in MALGRUPPE:
         raise SystemExit(f'manglar malgruppe for {ident}')
-    data['malgruppe'] = MALGRUPPE[ident]
+    # Eitt arrangement skal ha éi hovudmålgruppe. Vel 18+ når det eksplisitt
+    # er blant dei gamle vala; elles bevar første redaksjonelle målgruppe.
+    malgruppe = MALGRUPPE[ident]
+    data['malgruppe'] = ['18+'] if '18+' in malgruppe else malgruppe[:1]
     data['gratis'] = bool(data.get('gratis'))
     # «malgruppe» skal ligge rett etter aldersgrense i fila, ikkje heilt sist.
     if 'malgruppe' in data:

@@ -7,7 +7,7 @@
   "pris": "Voksen 130 kr; honnør/studenter/vernepliktige 100 kr; barn under 18 år og UiT-studenter gratis",
   "gratis": false,
   "kategori": ["Utstilling"],
-  "malgruppe": ["Familie", "Ungdom"],
+  "malgruppe": ["Familie"],
   "no": {
     "tittel": "Natt på museet",
     "ingress": "En museumsdag etter stengetid med aktiviteter for barn og familier, utstillingsåpning og konsert.",

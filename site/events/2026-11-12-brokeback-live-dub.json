@@ -5,8 +5,8 @@
   "sted": "Amtmandens",
   "pris": "200 kr",
   "gratis": false,
-  "kategori": ["Film", "Scene"],
-  "malgruppe": ["Ungdom", "18+"],
+  "kategori": ["Film"],
+  "malgruppe": ["18+"],
   "no": {
     "tittel": "Brokeback Mountain – live dub med Jon Hauge",
     "ingress": "Komiker Jon Hauge live-dubber filmen, i forbindelse med Pride.",
