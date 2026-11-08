@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-10-clayface",
+  "start": "2026-11-10T21:00",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "aldersgrense": "15 år",
+  "malgruppe": [
+    "18+"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Clayface",
+    "ingress": "Matt Hagen søker en eksperimentell behandling etter at en gangster vansirer ham.",
+    "tekst": "En skrekkthriller om skuespilleren Matt Hagen, som søker hjelp gjennom en banebrytende behandling etter at han blir vansiret. Filmen varer i 1 time og 48 minutter. Aurora kino oppgir 15-årsgrense. Engelsk tale med norsk tekst.\n\nVisning tirsdag 10. november kl. 21:00 i sal 1. Ordinærbillett koster 165 kr."
+  },
+  "en": {
+    "title": "Clayface",
+    "lead": "Actor Matt Hagen seeks an experimental treatment after a gangster disfigures him.",
+    "text": "A horror thriller about actor Matt Hagen, who seeks help through a groundbreaking treatment after being disfigured. The film runs for 1 hour and 48 minutes. Aurora Kino lists an age rating of 15. English audio with Norwegian subtitles.\n\nScreening on Tuesday 10 November at 21:00 in Screen 1. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill for Clayface, publisert av Aurora Kino.",
+  "bildetekst_en": "Film still for Clayface, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/clayface/1666",
+  "status": "publisert",
+  "visningstider": [
+    "21:00"
+  ]
+}
