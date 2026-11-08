@@ -45,18 +45,18 @@ function card(e,lang,now=new Date()) {
   const variant = 1 + ([...e.id].reduce((a,c)=>a+c.charCodeAt(0),0) % 3);
   return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}" data-audience="${esc((e.malgruppe||[]).join('|'))}" data-free="${e.gratis?'1':'0'}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${esc(dayName(e.start,lang))}, ${esc(date(e.start,lang))}</div><h3>${esc(title)}</h3><p class="card-meta">${esc(time(e.start))}${e.sted?' <span aria-hidden="true">·</span> '+esc(e.sted):''}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
 }
-// Tre filterdimensjonar ved sida av tidsfanene: kategori, målgruppe og pris.
-// Berre knappar som faktisk kan gje treff vert skrivne ut.
+// Alle knappane står alltid — Bob vil sjå heile kategorilista sjølv om det ikkje
+// er arrangement i alle enno. Ein knapp utan treff viser tom-tilstanden.
 function chipRows(lang,list) {
   const rows=[
     {id:'filter-kategori',label:tr(lang,'Kategori','Category'),attr:'data-category-filter',
-     items:cats.filter(c=>list.some(e=>e.kategori?.includes(c.key))).map(c=>({key:c.key,label:c[lang]}))},
+     items:cats.map(c=>({key:c.key,label:c[lang]}))},
     {id:'filter-malgruppe',label:tr(lang,'Passer for','Audience'),attr:'data-audience-filter',
-     items:audiences.filter(a=>list.some(e=>e.malgruppe?.includes(a.key))).map(a=>({key:a.key,label:a[lang]}))},
+     items:audiences.map(a=>({key:a.key,label:a[lang]}))},
     {id:'filter-pris',label:tr(lang,'Pris','Price'),attr:'data-free-filter',
-     items:list.some(e=>e.gratis)?[{key:'gratis',label:tr(lang,'Gratis','Free')}]:[]}
+     items:[{key:'gratis',label:tr(lang,'Gratis','Free')}]}
   ];
-  return rows.filter(r=>r.items.length).map(r=>`<div class="filter-row"><p class="section-label" id="${r.id}">${esc(r.label)}</p><div class="category-controls js-only" role="group" aria-labelledby="${r.id}">${r.items.map(i=>`<button type="button" ${r.attr}="${esc(i.key)}" aria-pressed="false">${esc(i.label)}</button>`).join('')}</div></div>`).join('');
+  return rows.map(r=>`<div class="filter-row"><p class="section-label" id="${r.id}">${esc(r.label)}</p><div class="category-controls js-only" role="group" aria-labelledby="${r.id}">${r.items.map(i=>`<button type="button" ${r.attr}="${esc(i.key)}" aria-pressed="false">${esc(i.label)}</button>`).join('')}</div></div>`).join('');
 }
 function filters(lang,list=[]) {
   const periods=[['today',tr(lang,'I dag','Today')],['weekend',tr(lang,'Til helgen','This weekend')],['all',tr(lang,'Alt','All')]];

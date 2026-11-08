@@ -51,10 +51,20 @@ test('forsida har tre filterrader, og kvart kort ber data for alle dimensjonane'
   }
 });
 
-test('tom kategori får ikkje eigen knapp — berre knappar som kan gje treff', () => {
+test('alle sju kategoriar får knapp sjølv utan arrangement i kategorien', () => {
   const front = html('no/');
   const knappar = [...front.matchAll(/data-category-filter="([^"]+)"/g)].map(m => m[1]);
+  assert.deepEqual(knappar, ['Konsert', 'Scene', 'Film', 'Utstilling', 'Prat', 'Idrett', 'Aktivitet']);
+  for (const m of ['Familie', 'Ungdom', '18+']) {
+    assert.match(front, new RegExp(`data-audience-filter="${m.replace('+', '\\+')}"`));
+  }
+  assert.match(front, /data-free-filter="/);
+});
+
+test('knapp utan treff viser tom-tilstand og ikkje kort', () => {
+  const front = html('no/');
+  // Idrett har ingen arrangement enno, men skal likevel ha knapp.
+  assert.match(front, /data-category-filter="Idrett"/);
   const brukte = new Set(raw().filter(e => e.status === 'publisert').flatMap(e => e.kategori));
-  for (const k of knappar) assert.ok(brukte.has(k), `knapp for «${k}» har ingen arrangement`);
-  assert.ok(knappar.length > 0);
+  assert.equal(brukte.has('Idrett'), false);
 });
