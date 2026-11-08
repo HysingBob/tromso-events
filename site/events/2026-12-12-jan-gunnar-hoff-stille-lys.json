@@ -6,9 +6,8 @@
   "pris": "380 kr",
   "gratis": false,
   "aldersgrense": "Fri aldersgrense",
-  "kategori": [
-    "Konsert"
-  ],
+  "malgruppe": ["Familie", "Ungdom"],
+  "kategori": ["Konsert"],
   "no": {
     "tittel": "Jan Gunnar Hoff – Stille Lys med Jørn Hoel",
     "ingress": "En stemningsfull julekonsert med Jan Gunnar Hoff og gjest Jørn Hoel.",

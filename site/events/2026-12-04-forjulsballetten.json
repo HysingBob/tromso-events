@@ -6,6 +6,7 @@
   "pris": "Se billetter hos arrangør",
   "gratis": false,
   "kategori": ["Scene", "Konsert"],
+  "malgruppe": ["Familie", "Ungdom"],
   "no": {
     "tittel": "Førjulsballetten 2026",
     "ingress": "Dans, musikk og livets kontraster, med Prokofjev og Arktisk Filharmoni.",

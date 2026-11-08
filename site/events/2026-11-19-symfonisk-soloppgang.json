@@ -5,9 +5,8 @@
   "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
   "pris": "425 kr",
   "gratis": false,
-  "kategori": [
-    "Konsert"
-  ],
+  "kategori": ["Konsert"],
+  "malgruppe": ["Ungdom", "18+"],
   "no": {
     "tittel": "Symfonisk soloppgang",
     "ingress": "Arktisk Filharmoni følger Haydn fra kveld til morgen, med Schönbergs Verklärte Nacht imellom.",

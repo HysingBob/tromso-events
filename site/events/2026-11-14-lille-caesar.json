@@ -6,9 +6,8 @@
   "pris": "355 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": [
-    "Konsert"
-  ],
+  "malgruppe": ["Ungdom", "18+"],
+  "kategori": ["Konsert"],
   "no": {
     "tittel": "lille Caesar",
     "ingress": "En nær og personlig konsert med låter fra albumet ADAM og tidligere utgivelser.",

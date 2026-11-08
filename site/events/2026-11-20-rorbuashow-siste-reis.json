@@ -6,10 +6,8 @@
   "pris": "450 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": [
-    "Scene",
-    "Humor"
-  ],
+  "malgruppe": ["18+"],
+  "kategori": ["Scene"],
   "no": {
     "tittel": "Rorbuashow – Siste Reis",
     "ingress": "Nordnorsk humor, skrøner, musikk og gode samtaler – for siste gang på Kulturhuset.",

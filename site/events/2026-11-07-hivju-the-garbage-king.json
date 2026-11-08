@@ -5,9 +5,8 @@
   "sted": "Amtmandens Eftf., Bakrommet",
   "adresse": "Grønnegata 83, Tromsø",
   "pris": "450 kr",
-  "kategori": [
-    "Konsert"
-  ],
+  "kategori": ["Konsert"],
+  "malgruppe": ["Ungdom", "18+"],
   "no": {
     "tittel": "Hivju & The Garbage King",
     "ingress": "Akustisk konsert med kontrabass, nylonstrengsgitar og et billedrikt, organisk lydbilde.",
@@ -23,5 +22,6 @@
   "bildetekst_en": "Event image from the organiser’s page for Hivju & The Garbage King.",
   "kilde_navn": "Amtmandens Eftf. / AntiTickets",
   "kilde_url": "https://amtmandens.antitickets.com/event/hivju-the-garbage-king",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

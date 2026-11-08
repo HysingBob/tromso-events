@@ -6,9 +6,8 @@
   "pris": "480 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": [
-    "Konsert"
-  ],
+  "malgruppe": ["18+"],
+  "kategori": ["Konsert"],
   "no": {
     "tittel": "Inge Bremnes – Mot Lys – Juleturné 2026",
     "ingress": "En ærlig julekonsert med varme låter, selvironi og rom for en middels jul.",
