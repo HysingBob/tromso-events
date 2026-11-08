@@ -35,11 +35,14 @@ function shell(lang,title,body,alternate,mastExtra='',bodyClass='') {
   const tagline=tr(lang,'Sånn går dagan','Thus goes the days');
   const metaDesc=tr(lang,'Alt som skjer i Tromsø – uten reklame','Everything happening in Tromsø – no ads');
   const other=lang==='no'?'en':'no';
-  const nav=`<nav class="languages" aria-label="${tr(lang,'Velg språk','Choose language')}">${lang==='no'?`<span aria-current="page">NO</span><span aria-hidden="true">/</span><a href="${alternate}" lang="en" hreflang="en">EN</a>`:`<a href="${alternate}" lang="no" hreflang="no">NO</a><span aria-hidden="true">/</span><span aria-current="page">EN</span>`}</nav>`;
-  /* Forsida: språkvalen ligg sist i filterklynga (sjå filters). Andre sider:
-     språkval til venstre på undertekstrada under ordmerket. */
-  const brandRow=`<div class="brand-row">${mastExtra?'':nav}<p>${tagline}</p></div>`;
-  const mast=mastExtra?mastExtra.replace('</div><p class="filter-foot',nav+'</div><p class="filter-foot'):'';
+  /* Språkval som flagg-knapp: på norsk side står det britiske flagget
+     (byt til engelsk), på engelsk side det norske (byt tilbake). */
+  const flagAlt=tr(lang,'Bytt til engelsk','Bytt til norsk');
+  const flag=`<a class="lang-flag" href="${alternate}" lang="${other}" hreflang="${other}" aria-label="${flagAlt}"><span class="flag flag-${other==='en'?'uk':'no'}" aria-hidden="true"></span></a>`;
+  /* Forsida: flagget ligg sist i filterklynga (setjast inn i filters).
+     Andre sider: flagget til venstre på undertekstrada under ordmerket. */
+  const brandRow=`<div class="brand-row">${mastExtra?'':flag}<p>${tagline}</p></div>`;
+  const mast=mastExtra?mastExtra.replace('</div><p class="filter-foot',flag+'</div><p class="filter-foot'):'';
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><title>${esc(title)} · tromsø.net</title><meta name="description" content="${esc(metaDesc)}"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css">${themeLinks}<script defer src="/assets/filters.js"></script></head><body${bodyClass?` class="${bodyClass}"`:''}><div class="page-shell"><header class="masthead"><div class="mast-inner"><div class="brand"><a class="brand-link" href="${root(lang)}" aria-label="tromsø.net"><img src="/assets/logo.svg" width="152" height="24" alt="tromsø.net"></a>${brandRow}</div>${mast?`<div class="mast-extra">${mast}</div>`:''}</div></header><main id="main">${body}</main><footer class="site-footer"><div class="route-line" aria-hidden="true"><span>✦</span></div><div class="footer-inner"><img src="/assets/textures/compass.webp" width="34" height="34" alt=""><div><a href="${root(lang)}${lang==='no'?'om':'about'}/">${tr(lang,'Om prosjektet','About the project')}</a><span> · </span><a href="/${other}/" hreflang="${other}">${other.toUpperCase()}</a><p>${tr(lang,'Uten reklame. Uten sporing.','No ads. No tracking.')}</p></div><small>69°39′ N · 18°57′ Ø</small></div></footer></div></body></html>`;
 }
 function card(e,lang,now=new Date()) {
