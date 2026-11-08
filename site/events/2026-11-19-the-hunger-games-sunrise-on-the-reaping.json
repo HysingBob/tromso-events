@@ -4,10 +4,9 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "185 kr",
-  "kategori": [
-    "Film"
-  ],
+  "kategori": ["Film"],
   "aldersgrense": "12 år",
+  "malgruppe": ["Ungdom"],
   "no": {
     "tittel": "The Hunger Games: Sunrise on the Reaping",
     "ingress": "Haymitch Abernathy blir valgt ut til den andre Quarter Quell.",
@@ -23,5 +22,6 @@
   "bildetekst_en": "Film still from The Hunger Games: Sunrise on the Reaping, published by Aurora Kino.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

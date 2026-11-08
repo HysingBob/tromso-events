@@ -40,6 +40,9 @@ KATEGORI_MAP = {
 # Kategori som ikkje kjem fram av den gamle mappinga (skjerming av film).
 KATEGORI_PÅSLAG = {
     '2026-11-12-brokeback-live-dub': ['Film', 'Scene'],
+    # «Familie» var ein kategori i det gamle settet. Museumsnatta er i røynda ei
+    # utstilling — familie er målgruppe, ikkje kategori.
+    '2026-11-28-natt-pa-museet': ['Utstilling'],
 }
 
 MALGRUPPE = {
@@ -63,6 +66,29 @@ MALGRUPPE = {
     '2026-12-18-anders-jektvik': ['Ungdom', '18+'],
     '2026-12-20-adam-douglas-an-american-holiday': ['18+'],
     '2027-01-16-moby-dick-relaext': ['Familie', 'Ungdom'],
+    # Lagt til av dei andre agentane (november 2026), same regelverk:
+    '2026-11-07-puffs': ['Ungdom', '18+'],
+    '2026-11-09-tibetanske-riter': ['Ungdom', '18+'],
+    '2026-11-10-fuglearet-2026-birdlife-tromso': ['Ungdom', '18+'],
+    '2026-11-10-kiuryaq': ['Ungdom', '18+'],
+    '2026-11-10-pust-piano-body-prayer': ['18+'],
+    '2026-11-12-sjakkmatt-hostdans': ['Ungdom', '18+'],
+    '2026-11-18-big-bang-fiesta': ['Familie', 'Ungdom'],
+    '2026-11-18-familiekonstellasjon': ['18+'],
+    '2026-11-18-the-hunger-games-sunrise-on-the-reaping-premiere': ['Ungdom'],
+    '2026-11-19-the-hunger-games-sunrise-on-the-reaping': ['Ungdom'],
+    '2026-11-20-aktiv-dodshjelp': ['Ungdom', '18+'],
+    '2026-11-20-the-hunger-games-sunrise-on-the-reaping': ['Ungdom'],
+    '2026-11-21-julemesse-kvaloysletta-husflidslag': ['Familie', 'Ungdom'],
+    '2026-11-26-makosir': ['Ungdom', '18+'],
+    '2026-11-27-soria-records-showcase': ['18+'],
+    '2026-11-28-glimt-2026-det-lille-kulturhus': ['Familie', 'Ungdom'],
+    '2026-11-28-karlsoy-prestegaard-verlos-vintage': ['Ungdom', '18+'],
+    '2026-11-28-natt-pa-museet': ['Familie', 'Ungdom'],
+    '2026-12-04-julerocken-2026': ['Ungdom', '18+'],
+    '2026-12-05-flamenco-aften': ['Ungdom', '18+'],
+    '2026-12-11-bigbang-bukta-live': ['Ungdom', '18+'],
+    '2026-12-12-tofl': ['Ungdom', '18+'],
 }
 
 

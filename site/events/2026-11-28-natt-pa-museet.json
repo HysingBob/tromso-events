@@ -6,7 +6,8 @@
   "adresse": "Lars Thøringsveg 10, Tromsø",
   "pris": "Voksen 130 kr; honnør/studenter/vernepliktige 100 kr; barn under 18 år og UiT-studenter gratis",
   "gratis": false,
-  "kategori": ["Familie"],
+  "kategori": ["Utstilling"],
+  "malgruppe": ["Familie", "Ungdom"],
   "no": {
     "tittel": "Natt på museet",
     "ingress": "En museumsdag etter stengetid med aktiviteter for barn og familier, utstillingsåpning og konsert.",

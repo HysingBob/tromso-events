@@ -6,6 +6,7 @@
   "adresse": "Grønnegata 118A, 9008 Tromsø",
   "pris": "100 kr (gratis for medlemmer)",
   "kategori": ["Aktivitet"],
+  "malgruppe": ["Ungdom", "18+"],
   "no": {
     "tittel": "Tibetanske riter",
     "ingress": "En rolig start på uka med bevegelse, dialog og felles frokost.",
@@ -21,5 +22,6 @@
   "bildetekst_en": "Event image from Løvetann for The Five Tibetan Rites.",
   "kilde_navn": "Løvetann",
   "kilde_url": "https://www.tickettailor.com/events/lovetann/2509816",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }
