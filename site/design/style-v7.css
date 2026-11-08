@@ -63,18 +63,17 @@ body{
 .masthead:has(.mast-extra){padding-top:48px;padding-bottom:44px}
 /* Andre sider: kompakt masthead — berre logo-rada (gjeld no alle sider) */
 .masthead:not(:has(.mast-extra)){padding:36px 0}
-/* Masthead-rada: namn/undertittel til venstre, språkval i øvre høgre hjørne
-   og filterknappane til høgre for namnet på skrivebord. På telefon (sjå
-   @media nedst) legg filtera seg under namnet — det er ikkje plass ved sida. */
+/* Masthead-rada: NO/EN til venstre og undertittel til høgre på same linje
+   under ordmerket; filterknappane under dei i full breidde. */
 .mast-inner{
   max-width:1160px;margin:auto;padding:0 21px;
-  display:grid;grid-template-columns:1fr auto;column-gap:28px;align-items:start;
-  /* Filtera ligg på si eiga rad under namnet i full breidde — dei er ein
-     klynge på elleve knappar og treng meir enn halve rada. */
-  grid-template-areas:"brand lang" "filters filters";
+  display:grid;grid-template-columns:1fr;row-gap:28px;align-items:start;
+  grid-template-areas:"brand" "filters";
 }
 .brand{grid-area:brand}
-.languages{grid-area:lang;justify-self:end;align-self:start;padding-top:0}
+.brand-row{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin:10px 0 0}
+.brand-row .languages{margin:0;padding-top:0}
+.brand-row p{margin:0}
 .mast-extra{grid-area:filters;justify-self:stretch;align-self:end;max-width:none;margin:0;padding:0}
 .masthead :is(h1,p,a,span,button,.eyebrow){color:#fff}
 .masthead :is(h1,p,span,button,.eyebrow){text-shadow:0 1px 2px rgba(0,0,0,.55)}
@@ -90,7 +89,7 @@ body{
 .brand-link img{width:auto;height:72px;display:block;filter:brightness(0) invert(1)}
 /* Høgrestilt under kanten av det synlege ordmerket: SVG-en har ~1.9 % tom
    luft på høgre side av blekket, så teksten får like mykje polstring. */
-.brand p{font-size:20px;margin:10px 0 0;color:#fff;width:100%;padding-right:1.9%;text-align:right;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.brand p{font-size:20px;color:#fff;padding-right:1.9%;text-align:right;text-shadow:0 1px 2px rgba(0,0,0,.55)}
 /* Overskrift, «uten reklame» og intro */
 .mast-title{font-family:var(--display);font-weight:600;font-size:82px;line-height:.98;letter-spacing:-.035em;margin:30px 0 0;max-width:760px}
 .mast-dek{font-size:19px;margin:12px 0 0}
@@ -234,10 +233,10 @@ body.page-event{
 
 @media(max-width:639px){
   /* telefon: mindre luft i mastheaden */
-  /* Telefon: filtera under namnet (ikkje plass ved sida), språkval i hjørnet */
+  /* Telefon: filtera under namnet, språkval og undertittel deler rada */
   .mast-inner{
-    grid-template-areas:"brand lang" "filters filters";
-    row-gap:14px;column-gap:12px;
+    grid-template-areas:"brand" "filters";
+    row-gap:14px;
   }
   .mast-extra{justify-self:start}
   /* Telefon: ordmerket får følgje kolonnebreidda, så namn + språkval alltid får plass */
