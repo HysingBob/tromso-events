@@ -73,9 +73,24 @@ body{
 .brand{grid-area:brand}
 .brand-row{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin:10px 0 0}
 .brand-row .languages{margin:0;padding-top:0}
-.brand-row p{margin:0}
-/* Forsida: språkvalen ligg sist i filterklynga, etter «Gratis»-knappen */
-.filter-cluster .languages{align-self:center;padding-top:0;margin-left:6px}
+.brand-row p{margin:0;margin-left:auto;text-align:right}
+/* Språkval som flagg-knapp, teikna med innebygde SVG-flagg (ingen eksterne filer).
+   På norsk side: unionjack → klikk går til /en/. På engelsk side: norsk flagg → /no/. */
+.flag{display:block;width:30px;height:16px;border-radius:1px;background-repeat:no-repeat;background-size:100% 100%;box-shadow:inset 0 0 0 1px rgba(58,42,30,.4)}
+.flag-uk{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 16'%3E%3Crect width='30' height='16' fill='%2300247D'/%3E%3Cpath d='M0 0L30 16M30 0L0 16' stroke='%23fff' stroke-width='3.2'/%3E%3Cpath d='M0 0L30 16M30 0L0 16' stroke='%23CF142B' stroke-width='1.8'/%3E%3Crect x='12.4' width='5.2' height='16' fill='%23fff'/%3E%3Crect y='5.4' width='30' height='5.2' fill='%23fff'/%3E%3Crect x='13.4' width='3.2' height='16' fill='%23CF142B'/%3E%3Crect y='6.4' width='30' height='3.2' fill='%23CF142B'/%3E%3C/svg%3E")}
+.flag-no{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 16'%3E%3Crect width='30' height='16' fill='%23BA0C2F'/%3E%3Crect x='8.5' width='5' height='16' fill='%23fff'/%3E%3Crect y='5.5' width='30' height='5' fill='%23fff'/%3E%3Crect x='10' width='2' height='16' fill='%23002094'/%3E%3Crect y='7' width='30' height='2' fill='%23002094'/%3E%3C/svg%3E")}
+/* Knappen har same papirflate som filterknappane i marmoren */
+.masthead .lang-flag{
+  display:inline-flex;align-items:center;justify-content:center;
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:repeat;background-size:640px 358px;
+  background-color:var(--paper);
+  border:0;border-radius:2px;padding:8px 13px;min-height:44px;
+  text-decoration:none;
+}
+.masthead .lang-flag:hover{background-color:#E4D2AC}
+.masthead .lang-flag:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.brand-row .lang-flag{padding:6px 11px;min-height:0}
 .mast-extra{grid-area:filters;justify-self:stretch;align-self:end;max-width:none;margin:0;padding:0}
 .masthead :is(h1,p,a,span,button,.eyebrow){color:#fff}
 .masthead :is(h1,p,span,button,.eyebrow){text-shadow:0 1px 2px rgba(0,0,0,.55)}
