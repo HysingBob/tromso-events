@@ -3,6 +3,7 @@
   "start": "2026-11-10T19:00",
   "sted": "Provisoriet, Rådstua Teaterhus",
   "kategori": ["Scene"],
+  "malgruppe": ["Ungdom", "18+"],
   "no": {
     "tittel": "Kiuryaq – an immersive circumpolar theatre performance",
     "ingress": "En sirkumpolar teaterforestilling om nordlys, tilhørighet og historier fra nord – med ettersnakk etterpå.",
@@ -18,5 +19,6 @@
   "bildetekst_en": "The organiser’s image for Kiuryaq.",
   "kilde_navn": "Rådstua Teaterhus",
   "kilde_url": "https://www.radstua.no/aktuelt-program/kiuryaq",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

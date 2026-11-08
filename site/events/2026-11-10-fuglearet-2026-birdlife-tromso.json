@@ -5,7 +5,8 @@
   "adresse": "Lars Thøringsveg 10, Tromsø",
   "pris": "Gratis inngang",
   "gratis": true,
-  "kategori": ["Foredrag"],
+  "kategori": ["Prat"],
+  "malgruppe": ["Ungdom", "18+"],
   "no": {
     "tittel": "Fugleåret 2026 i nord – hvordan har det vært?",
     "ingress": "BirdLife Tromsø ser tilbake på årets fuglehekking i nord.",

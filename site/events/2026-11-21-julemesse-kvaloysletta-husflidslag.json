@@ -5,9 +5,8 @@
   "adresse": "Lars Thøringsveg 10, Tromsø",
   "pris": "Gratis inngang til julemessa og kaféen",
   "gratis": true,
-  "kategori": [
-    "Annet"
-  ],
+  "kategori": ["Aktivitet"],
+  "malgruppe": ["Familie", "Ungdom"],
   "no": {
     "tittel": "Julemesse med Kvaløysletta husflidslag",
     "ingress": "Håndlagde varer, julebakst og kafé på Universitetsmuseet.",

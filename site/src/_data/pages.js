@@ -1,10 +1,9 @@
 const {prepareEvents,loadEvents} = require('../../lib/events');
-const categories = [
-  ['Konsert','concert'],['Scene','stage'],['Utstilling','exhibition'],['Foredrag','talk'],
-  ['Familie','family'],['Aktivitet','activity'],['Mat og drikke','food-and-drink'],['Film','film'],['Annet','other']
-];
+// Kategoriane er éin stad — i lib/render.js. Elles får ein kategorisider for
+// namn som ikkje lenger finst (Foredrag, Familie, Mat og drikke, Annet).
+const {cats} = require('../../lib/render');
 module.exports = () => ({
   locales:['no','en'],
-  categories: ['no','en'].flatMap(lang=>categories.map(([name,slug])=>({lang,name,slug}))),
+  categories: ['no','en'].flatMap(lang=>cats.map(category=>({lang,name:lang==='no'?category.no:category.en,slug:category.slug}))),
   events: ['no','en'].flatMap(lang=>prepareEvents(loadEvents()).all.map(event=>({lang,event})))
 });

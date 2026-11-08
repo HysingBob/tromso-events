@@ -4,13 +4,18 @@ const path = require('node:path');
 const cats = [
   {no:'Konsert',en:'Concert',slug:'concert',key:'Konsert'},
   {no:'Scene',en:'Stage',slug:'stage',key:'Scene'},
-  {no:'Utstilling',en:'Exhibition',slug:'exhibition',key:'Utstilling'},
-  {no:'Foredrag',en:'Talks',slug:'talk',key:'Foredrag'},
-  {no:'Familie',en:'Family',slug:'family',key:'Familie'},
-  {no:'Aktivitet',en:'Activity',slug:'activity',key:'Aktivitet'},
-  {no:'Mat og drikke',en:'Food & drink',slug:'food-and-drink',key:'Mat og drikke'},
   {no:'Film',en:'Film',slug:'film',key:'Film'},
-  {no:'Annet',en:'Other',slug:'other',key:'Annet'}
+  {no:'Utstilling',en:'Exhibition',slug:'exhibition',key:'Utstilling'},
+  {no:'Prat',en:'Talks',slug:'talk',key:'Prat'},
+  {no:'Idrett',en:'Sports',slug:'sports',key:'Idrett'},
+  {no:'Aktivitet',en:'Activity',slug:'activity',key:'Aktivitet'}
+];
+// Kven arrangementet passar for. Nøklane er dei same i begge språk — berre
+// merkelappen vert omsett. Sjå migrate_filters.py for kva reglane er.
+const audiences = [
+  {no:'Familie',en:'Family',key:'Familie'},
+  {no:'Ungdom',en:'Youth',key:'Ungdom'},
+  {no:'18+',en:'18+',key:'18+'}
 ];
 const themeSheets = (process.env.THEME || 'v2') === 'v2' ? ['leather.css'] : ['leather.css', `style-${process.env.THEME}.css`];
 const themeLinks = themeSheets.map(f=>`<link rel="stylesheet" href="/assets/${f}">`).join('');
@@ -38,11 +43,24 @@ function card(e,lang,now=new Date()) {
   const thumb = `images/cards/${e.id}.webp`;
   const cardImage = /^https?:\/\//i.test(String(e.bilde||'')) ? e.bilde : (fs.existsSync(path.join(__dirname,'..',thumb)) ? thumb : e.bilde);
   const variant = 1 + ([...e.id].reduce((a,c)=>a+c.charCodeAt(0),0) % 3);
-  return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${esc(dayName(e.start,lang))}, ${esc(date(e.start,lang))}</div><h3>${esc(title)}</h3><p class="card-meta">${esc(time(e.start))}${e.sted?' <span aria-hidden="true">·</span> '+esc(e.sted):''}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
+  return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}" data-audience="${esc((e.malgruppe||[]).join('|'))}" data-free="${e.gratis?'1':'0'}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${esc(dayName(e.start,lang))}, ${esc(date(e.start,lang))}</div><h3>${esc(title)}</h3><p class="card-meta">${esc(time(e.start))}${e.sted?' <span aria-hidden="true">·</span> '+esc(e.sted):''}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
 }
-function filters(lang) {
+// Alle knappane står alltid — Bob vil sjå heile kategorilista sjølv om det ikkje
+// er arrangement i alle enno. Ein knapp utan treff viser tom-tilstanden.
+function chipRows(lang,list) {
+  const rows=[
+    {id:'filter-kategori',label:tr(lang,'Kategori','Category'),attr:'data-category-filter',
+     items:cats.map(c=>({key:c.key,label:c[lang]}))},
+    {id:'filter-malgruppe',label:tr(lang,'Passer for','Audience'),attr:'data-audience-filter',
+     items:audiences.map(a=>({key:a.key,label:a[lang]}))},
+    {id:'filter-pris',label:tr(lang,'Pris','Price'),attr:'data-free-filter',
+     items:[{key:'gratis',label:tr(lang,'Gratis','Free')}]}
+  ];
+  return rows.map(r=>`<div class="filter-row"><p class="section-label" id="${r.id}">${esc(r.label)}</p><div class="category-controls js-only" role="group" aria-labelledby="${r.id}">${r.items.map(i=>`<button type="button" ${r.attr}="${esc(i.key)}" aria-pressed="false">${esc(i.label)}</button>`).join('')}</div></div>`).join('');
+}
+function filters(lang,list=[]) {
   const periods=[['today',tr(lang,'I dag','Today')],['weekend',tr(lang,'Til helgen','This weekend')],['all',tr(lang,'Alt','All')]];
-  return `<section class="filter-area" aria-label="${tr(lang,'Filtrer arrangementer','Filter events')}"><div class="time-tabs js-only" role="group" aria-label="${tr(lang,'Tidspunkt','Time period')}">${periods.map(([key,label],i)=>`<button type="button" data-time-filter="${key}" aria-pressed="${key==='all'}">${label}</button>`).join('')}</div><p class="nojs-note"><noscript>${tr(lang,'Alle kommende arrangementer vises. Aktiver JavaScript for å filtrere.','All upcoming events are shown. Enable JavaScript to filter.')}</noscript></p></section>`;
+  return `<section class="filter-area" aria-label="${tr(lang,'Filtrer arrangementer','Filter events')}"><div class="time-tabs js-only" role="group" aria-label="${tr(lang,'Tidspunkt','Time period')}">${periods.map(([key,label])=>`<button type="button" data-time-filter="${key}" aria-pressed="${key==='all'}">${label}</button>`).join('')}</div>${chipRows(lang,list)}<p class="filter-foot js-only"><button type="button" class="filter-reset" data-filter-reset>${tr(lang,'Nullstill','Reset')}</button></p><p class="nojs-note"><noscript>${tr(lang,'Alle kommende arrangementer vises. Aktiver JavaScript for å filtrere.','All upcoming events are shown. Enable JavaScript to filter.')}</noscript></p></section>`;
 }
 function dayGroups(list,lang) {
   const byDay=new Map();
@@ -61,7 +79,7 @@ function listing(lang,upcoming,now=new Date(),category=null) {
   const groups=dayGroups(list,lang).map(g=>`<section class="day-group" data-day="${g.key}"><div class="event-grid">${g.items.map(e=>card(e,lang,now)).join('')}</div></section>`).join('');
   const head=front?'':`<div class="page-heading"><h1>${esc(heading)}</h1><p>${intro}</p></div>`;
   const body=`${head}<section class="results" aria-label="${tr(lang,'Kommende arrangementer','Upcoming events')}"><div data-filter-list>${groups}</div><div class="empty-state" data-empty ${list.length?'hidden':''}><img class="empty-art" src="/assets/quiet-waters.webp" alt="" width="600" height="400"><h3>${tr(lang,'Stille i farvannet akkurat nå','Quiet waters for now')}</h3><p>${tr(lang,'Prøv en annen dag eller kategori.','Try another date or category.')}</p></div></section>`;
-  return shell(lang,heading,body,category?catUrl(category,lang==='no'?'en':'no'):root(lang==='no'?'en':'no'),filters(lang),'page-front');
+  return shell(lang,heading,body,category?catUrl(category,lang==='no'?'en':'no'):root(lang==='no'?'en':'no'),filters(lang,upcoming),'page-front');
 }
 function fact(label,value){return value?`<div><dt>${label}</dt><dd>${esc(value)}</dd></div>`:'';}
 function eventPage(lang,e,all,now=new Date()) {

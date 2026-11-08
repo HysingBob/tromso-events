@@ -5,7 +5,8 @@
   "sted": "Løvetann Studio",
   "adresse": "Grønnegata 118A, 9008 Tromsø",
   "pris": "Gratis for medlemmer",
-  "kategori": ["Foredrag"],
+  "kategori": ["Prat"],
+  "malgruppe": ["18+"],
   "no": {
     "tittel": "Familiekonstellasjon m/ Steffen Rostock",
     "ingress": "En trygg sirkel for å utforske familiemønstre, tilhørighet og nye muligheter for bevegelse.",
@@ -21,5 +22,6 @@
   "bildetekst_en": "Event image from Løvetann for Family Constellations.",
   "kilde_navn": "Løvetann",
   "kilde_url": "https://www.tickettailor.com/events/lovetann/2509839",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

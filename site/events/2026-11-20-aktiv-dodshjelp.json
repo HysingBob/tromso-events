@@ -4,6 +4,7 @@
   "slutt": "2026-11-20T23:00",
   "sted": "Bryggeriet Scene",
   "kategori": ["Konsert"],
+  "malgruppe": ["Ungdom", "18+"],
   "pris": "390 kr + avgift; 320 kr + avgift for studenter og honnør",
   "no": {
     "tittel": "Aktiv Dödshjelp",
@@ -20,5 +21,6 @@
   "bildetekst_en": "Event image from Bryggeriet Scene.",
   "kilde_navn": "Bryggeriet Scene",
   "kilde_url": "https://www.bryggerietscene.no/program2/aktiv-ddshjelp-pres-av-bukta-live",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

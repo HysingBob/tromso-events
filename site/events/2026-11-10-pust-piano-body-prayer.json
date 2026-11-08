@@ -6,6 +6,7 @@
   "adresse": "Grønnegata 118A, 9008 Tromsø",
   "pris": "300 kr (150 kr for medlemmer)",
   "kategori": ["Scene"],
+  "malgruppe": ["18+"],
   "no": {
     "tittel": "pust & piano – Body Prayer",
     "ingress": "En samling med rapé, bevegelse, sang og lytting, ledet av Fernanda Signorini.",
@@ -21,5 +22,6 @@
   "bildetekst_en": "Event image from Løvetann for pust & piano – Body Prayer.",
   "kilde_navn": "Løvetann",
   "kilde_url": "https://www.tickettailor.com/events/lovetann/2499322",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

@@ -4,9 +4,8 @@
   "sted": "Hålogaland Teater, Scene Vest",
   "adresse": "Teaterplassen 1, 9258 Tromsø",
   "aldersgrense": "Anbefales ikke for barn under 10 år",
-  "kategori": [
-    "Familie"
-  ],
+  "malgruppe": ["Familie", "Ungdom"],
+  "kategori": ["Scene"],
   "no": {
     "tittel": "Moby Dick – Relæxt",
     "ingress": "En Relæxt-visning av Hålogaland Teaters Moby Dick på Scene Vest.",
@@ -22,5 +21,6 @@
   "bildetekst_en": "Event image from Hålogaland Teater for Moby Dick.",
   "kilde_navn": "Hålogaland Teater",
   "kilde_url": "https://halogalandteater.no/produksjon/2026/moby-dick",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

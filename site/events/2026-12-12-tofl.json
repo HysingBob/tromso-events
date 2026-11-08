@@ -5,6 +5,7 @@
   "sted": "Tankrommet, Bryggeriet Scene",
   "kategori": ["Konsert"],
   "aldersgrense": "18 år",
+  "malgruppe": ["Ungdom", "18+"],
   "no": {
     "tittel": "TØFL",
     "ingress": "TØFL tar med sitt nye album Eg e deg på klubbturné.",
@@ -20,5 +21,6 @@
   "bildetekst_en": "Event image from Bryggeriet Scene.",
   "kilde_navn": "Bryggeriet Scene",
   "kilde_url": "https://www.bryggerietscene.no/program2/tfl",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }

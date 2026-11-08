@@ -5,6 +5,7 @@
   "adresse": "Lars Thøringsveg 10, Tromsø",
   "gratis": true,
   "kategori": ["Utstilling"],
+  "malgruppe": ["Familie", "Ungdom"],
   "no": {
     "tittel": "GLIMT 2026 – Det Lille Kulturhus",
     "ingress": "Utendørs fotoutstilling om Det Lille Kulturhus og Tromsøs musikk- og ungdomsmiljø.",

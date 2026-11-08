@@ -5,6 +5,7 @@
   "sted": "Tankrommet, Bryggeriet Scene",
   "kategori": ["Konsert"],
   "aldersgrense": "20 år",
+  "malgruppe": ["18+"],
   "no": {
     "tittel": "Soria Records Showcase: Bryggari, Brnr og Evver Andersson",
     "ingress": "En natt med Soria Records og Tromsøs undergrunnsscene.",
@@ -20,5 +21,6 @@
   "bildetekst_en": "Event image from Bryggeriet Scene.",
   "kilde_navn": "Bryggeriet Scene",
   "kilde_url": "https://www.bryggerietscene.no/program2/soria-records-showcase-bryggari-brnr-evver-andersson",
-  "status": "publisert"
+  "status": "publisert",
+  "gratis": false
 }
