@@ -69,11 +69,13 @@ body{
 .mast-inner{
   max-width:1160px;margin:auto;padding:0 21px;
   display:grid;grid-template-columns:1fr auto;column-gap:28px;align-items:start;
-  grid-template-areas:"brand lang" "brand filters";
+  /* Filtera ligg på si eiga rad under namnet i full breidde — dei er ein
+     klynge på elleve knappar og treng meir enn halve rada. */
+  grid-template-areas:"brand lang" "filters filters";
 }
 .brand{grid-area:brand}
 .languages{grid-area:lang;justify-self:end;align-self:start;padding-top:0}
-.mast-extra{grid-area:filters;justify-self:end;align-self:end;max-width:none;margin:0;padding:0}
+.mast-extra{grid-area:filters;justify-self:stretch;align-self:end;max-width:none;margin:0;padding:0}
 .masthead :is(h1,p,a,span,button,.eyebrow){color:#fff}
 .masthead :is(h1,p,span,button,.eyebrow){text-shadow:0 1px 2px rgba(0,0,0,.55)}
 .masthead .eyebrow{font-size:17px;letter-spacing:.15em;margin:0}
@@ -99,10 +101,9 @@ body{
 .masthead .filter-area{background:none;background-image:none;box-shadow:none;padding:0;margin:24px 0 0;border-bottom:0}
 .masthead .section-label{color:#fff;opacity:.92;font-size:17px}
 .masthead .nojs-note{color:#fff}
-.masthead .filter-row .section-label{font-size:13px;opacity:.85}
 .masthead .filter-reset{color:#F7E8CB;text-decoration-color:rgba(247,232,203,.55)}
 .masthead .filter-reset:hover{color:#fff;text-decoration-color:#fff}
-.masthead .time-tabs button,.masthead .category-controls button{
+.masthead .category-controls button{
   background-image:url("/assets/textures/paper.webp");
   background-repeat:repeat;background-size:640px 358px;
   background-color:var(--paper);color:#3A2A1E;text-shadow:none;
@@ -110,8 +111,6 @@ body{
   font-size:15px;font-weight:600;
   box-shadow:0 2px 4px rgba(0,0,0,.35);
 }
-.masthead .time-tabs button:nth-child(2n){transform:rotate(-.6deg)}
-.masthead .time-tabs button:nth-child(3n){transform:rotate(.5deg)}
 .masthead .category-controls button:nth-child(3n){transform:rotate(-.5deg)}
 .masthead .category-controls button:nth-child(4n){transform:rotate(.6deg)}
 /* Vald fane: ein raudbrun kastanje (#4A2A1C) — berre eit lite steg frå den gamle

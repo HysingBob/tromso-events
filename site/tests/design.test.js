@@ -18,5 +18,6 @@ test('leather-map revision keeps familiar cards, weekday line and filters while 
   assert.doesNotMatch(render,/class="date-stamp"/);
   assert.match(render,/class="card-kicker"/);
   assert.match(render,/class="card-stamp"/);
-  assert.match(render,/data-time-filter=/);
+  // Klynga med filterknappar har erstatta tidsfaner og radoverskrifter.
+  assert.match(render,/filter-cluster/);
 });

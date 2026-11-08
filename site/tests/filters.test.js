@@ -31,13 +31,15 @@ test('gratis er alltid ein boolsk verdi, så «Gratis»-filteret aldri er udefin
   for (const e of raw()) assert.equal(typeof e.gratis, 'boolean', `${e.id} har gratis=${e.gratis}`);
 });
 
-test('forsida har tre filterrader, og kvart kort ber data for alle dimensjonane', () => {
+test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber data for alle dimensjonane', () => {
   execFileSync('npm', ['run', 'build'], { cwd: root, stdio: 'pipe' });
   const front = html('no/');
-  for (const rad of ['filter-kategori', 'filter-malgruppe', 'filter-pris']) {
-    assert.match(front, new RegExp(`id="${rad}"`), `manglar filterrad ${rad}`);
-  }
-  assert.match(front, /data-category-filter="Konsert"/);
+  // Ingen «Kategori»/«Passer for»/«Pris»-overskrifter, ingen tidsfaner.
+  assert.doesNotMatch(front, /filter-row/);
+  assert.doesNotMatch(front, /data-time-filter=/);
+  assert.doesNotMatch(front, /class="section-label"/);
+  assert.match(front, /class="category-controls filter-cluster js-only"/);
+  assert.match(front, /data-filter-reset/);
   assert.match(front, /data-audience-filter="18\+"/);
   assert.match(front, /data-free-filter="/);
   assert.match(front, /data-filter-reset/);

@@ -12,7 +12,9 @@ test('Eleventy builds both languages and all four page types without third-party
   for (const p of ['no/','en/','no/om/','en/about/','no/kategori/konsert/','en/category/concert/']) assert.match(html(p),/<html lang="(no|en)"/);
   assert.match(html('no/'),/<meta name="robots" content="noindex,nofollow">/);
 
-  assert.match(html('no/'),/data-time-filter="today"/);
+  assert.match(html('no/'),/data-category-filter="Konsert"/);
+  // Tidsfanene (I dag / Til helgen / Alt) er tekne bort — lista er kronologisk.
+  assert.doesNotMatch(html('no/'),/data-time-filter=/);
   assert.match(html('no/'),/href="\/en\/" lang="en"/);
   assert.match(html('no/'),/data-filter-list/);
   assert.match(html(''),/href="\/no\/"/);
