@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-10-godzilla-minus-zero",
+  "start": "2026-11-10T20:15",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": ["Film"],
+  "aldersgrense": "15 år",
+  "malgruppe": ["18+"],
+  "gratis": false,
+  "no": {
+    "tittel": "Godzilla Minus Zero",
+    "ingress": "En ny trussel rammer Japan etter at landet så vidt har begynt å reise seg etter krigen.",
+    "tekst": "To år etter at Godzilla sendte Japan lenger ned i avgrunnen, kjemper landet fortsatt for å komme seg på beina igjen. Idet freden endelig virker innen rekkevidde, dukker en ny trussel opp. Filmen varer i 2 timer og 16 minutter. Aurora kino oppgir 15-årsgrense. Original tale med norsk tekst.\n\nVisning tirsdag 10. november kl. 20.15 i Sal 2. Ordinærbilletten koster 165 kr; ingen separat avgift er oppgitt."
+  },
+  "en": {
+    "title": "Godzilla Minus Zero",
+    "lead": "A new threat strikes Japan as the country is still recovering from the war.",
+    "text": "Two years after Godzilla pushed Japan further into the abyss, the country is still struggling to recover. Just as peace seems within reach, a new threat appears. The film runs for 2 hours and 16 minutes. Aurora Kino lists an age rating of 15. Original-language audio with Norwegian subtitles.\n\nScreening on Tuesday 10 November at 20:15 in Screen 2. An ordinary ticket costs NOK 165; no separate fee is listed."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1793195633245?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill for Godzilla Minus Zero, publisert av Aurora Kino.",
+  "bildetekst_en": "Film still for Godzilla Minus Zero, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
+  "status": "venter"
+}
