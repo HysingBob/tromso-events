@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-21-til-viking",
+  "start": "2026-11-21T14:00",
+  "slutt": "2026-11-21T16:00",
+  "sted": "Romssa Arena",
+  "pris": "Ordinær 379 kr; unummerert 299 kr",
+  "kategori": ["Idrett"],
+  "malgruppe": ["Familie"],
+  "gratis": false,
+  "no": {
+    "tittel": "Tromsø IL – Viking",
+    "ingress": "Tromsø IL tar imot Viking i Eliteserien på Romssa Arena.",
+    "tekst": "Kampen spilles lørdag 21. november kl. 14.00. Barn og unge til og med 18 år ønskes velkommen for 99 kr. Billetter kjøpes via TicketCo."
+  },
+  "en": {
+    "title": "Tromsø IL – Viking",
+    "lead": "Tromsø IL host Viking in the Eliteserien at Romssa Arena.",
+    "text": "The match takes place on Saturday 21 November at 14:00. Children and young people up to and including 18 are welcome for NOK 99. Tickets are available through TicketCo."
+  },
+  "bilde": "images/2026-11-21-til-viking.webp",
+  "bildetekst_no": "Egen illustrasjon av en fotballstadion under nordlyset.",
+  "bildetekst_en": "Original illustration of a football stadium beneath the northern lights.",
+  "kilde_navn": "Tromsø IL / TicketCo",
+  "kilde_url": "https://til.ticketco.events/no/nb/e/til__viking__es2026",
+  "status": "venter"
+}
