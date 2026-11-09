@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-11-markens-grode",
+  "start": "2026-11-11T18:00",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "aldersgrense": "12 år",
+  "malgruppe": [
+    "Ungdom"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Markens grøde",
+    "ingress": "Knut Hamsuns roman om Isak og Inger, som bygger et liv sammen i villmarken.",
+    "tekst": "Den prisbelønte regissøren Hans Petter Moland bringer Knut Hamsuns roman til lerretet. Isak kjemper for å overleve i villmarken; da Inger dukker opp, bygger de gården Sellanraa sammen, men en mørk hemmelighet setter kjærligheten på prøve.\n\nFilmen varer i 2 timer og 35 minutter. Aurora oppgir 12-årsgrense. Norsk tale med norsk tekst. Visninger onsdag 11. november kl. 12:00, 17:45, 18:00 i Aurora kino Fokus. Dagens siste ordinære visning er kl. 18:00 i Sal 4. Ordinærbillett koster 165 kr; ingen separat avgift er oppført."
+  },
+  "en": {
+    "title": "Markens grøde",
+    "lead": "Knut Hamsun’s novel about Isak and Inger building a life together in the wilderness.",
+    "text": "Director Hans Petter Moland brings Knut Hamsun’s novel to the screen. Isak struggles to survive in the wilderness; when Inger arrives, they build the Sellanraa farm together, but a dark secret tests their love.\n\nThe film runs for 2 hours and 35 minutes and has an age rating of 12. Norwegian audio with Norwegian subtitles. Screenings on Wednesday 11 November at 12:00, 17:45, 18:00 at Aurora kino Fokus. The day’s last ordinary screening is at 18:00 in Sal 4. An ordinary ticket costs NOK 165; no separate fee is listed."
+  },
+  "bilde": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill fra Markens grøde, publisert av Aurora Kino.",
+  "bildetekst_en": "Film still from Markens grøde, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "status": "publisert",
+  "visningstider": [
+    "12:00",
+    "17:45",
+    "18:00"
+  ]
+}
