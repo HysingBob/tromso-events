@@ -63,10 +63,12 @@ test('alle sju kategoriar får knapp sjølv utan arrangement i kategorien', () =
   assert.match(front, /data-free-filter="/);
 });
 
-test('knapp utan treff viser tom-tilstand og ikkje kort', () => {
+test('Idrett-knappen viser TIL-kampene som er publisert i kategorien', () => {
   const front = html('no/');
-  // Idrett har ingen arrangement enno, men skal likevel ha knapp.
+  const publishedSports = raw().filter(e => e.status === 'publisert' && e.kategori.includes('Idrett'));
+  assert.ok(publishedSports.some(e => e.id === '2026-11-21-til-viking'));
+  assert.ok(publishedSports.some(e => e.id === '2026-12-06-til-start'));
   assert.match(front, /data-category-filter="Idrett"/);
-  const brukte = new Set(raw().filter(e => e.status === 'publisert').flatMap(e => e.kategori));
-  assert.equal(brukte.has('Idrett'), false);
+  assert.match(front, /Tromsø IL – Viking/);
+  assert.match(front, /Tromsø IL – Start/);
 });
