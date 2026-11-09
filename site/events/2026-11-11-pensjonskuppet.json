@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-11-pensjonskuppet",
+  "start": "2026-11-11T18:00",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": ["Film"],
+  "aldersgrense": "9 år (barn ned til 6 år sammen med voksne)",
+  "malgruppe": ["Familie"],
+  "gratis": false,
+  "no": {
+    "tittel": "Pensjonskuppet",
+    "ingress": "Tre kvinner bestemmer seg for å pensjonere seg fra lovlydigheten og rane Oljefondet.",
+    "tekst": "Etter 40 år som hjemmeværende kone får Annema sparken til fordel for en yngre modell. Sammen med Nina og rebellen Mona planlegger hun et kupp mot Oljefondet — en ellevill komedie om en uventet førtidspensjon.\n\nAurora oppgir 9-årsgrense, med adgang fra 6 år sammen med voksne. Filmen varer i 110 minutter, med norsk tale og norske undertekster. Visninger onsdag 11. november kl. 12:00, 14:30 og 18:00 i sal 4, 4 og 1. Ordinærbillett koster 165 kr."
+  },
+  "en": {
+    "title": "Pensjonskuppet",
+    "lead": "Three women decide to retire from obeying the law and rob Norway’s sovereign wealth fund.",
+    "text": "After 40 years as a stay-at-home wife, Annema is fired in favour of a younger model. Together with Nina and rebel Mona, she plans a heist of Norway’s sovereign wealth fund — a wild comedy about an unexpected early retirement.\n\nAurora lists a 9 age rating; children from age 6 may attend with an adult. The film runs for 110 minutes, with Norwegian audio and Norwegian subtitles. Screenings on Wednesday 11 November at 12:00, 14:30 and 18:00 in Screens 4, 4 and 1. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill fra Pensjonskuppet, publisert av Aurora Kino.",
+  "bildetekst_en": "Film still from Pensjonskuppet, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "status": "publisert",
+  "visningstider": ["12:00", "14:30", "18:00"]
+}
