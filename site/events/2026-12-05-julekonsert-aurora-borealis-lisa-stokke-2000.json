@@ -1,0 +1,27 @@
+{
+  "id": "2026-12-05-julekonsert-aurora-borealis-lisa-stokke-2000",
+  "start": "2026-12-05T20:00",
+  "slutt": "2026-12-05T21:15",
+  "sted": "Ishavskatedralen",
+  "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
+  "pris": "479 kr (inkl. 30 kr gebyr)",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
+  "no": {
+    "tittel": "Julekonsert med Aurora Borealis og Lisa Stokke",
+    "ingress": "Koret Aurora Borealis inviterer til julekonsert med gjestesolist Lisa Stokke i Ishavskatedralen.",
+    "tekst": "Koret Aurora Borealis byr på julekonsert med gjestesolist Lisa Stokke. Med seg har koret pianist Håvard Hotvedt, gitarist Henrik Skog og bassist Morten Steene; dirigent Amanda Antonsen deltar også på saksofon. Konserten varer omtrent 75 minutter. Rullestoltilgjengelighet er god; ta kontakt med arrangøren ved særskilte behov."
+  },
+  "en": {
+    "title": "Christmas Concert with Aurora Borealis and Lisa Stokke",
+    "lead": "Koret Aurora Borealis presents a Christmas concert with guest soloist Lisa Stokke at the Arctic Cathedral.",
+    "text": "Koret Aurora Borealis performs a Christmas concert with guest soloist Lisa Stokke. The choir is joined by pianist Håvard Hotvedt, guitarist Henrik Skog and bassist Morten Steene; conductor Amanda Antonsen also performs on saxophone. The concert lasts approximately 75 minutes. Wheelchair access is good; contact the organiser about specific needs."
+  },
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/10/ab-768x450.jpg",
+  "bildetekst_no": "Koret Aurora Borealis opptrer på en scene med fiolett lys.",
+  "bildetekst_en": "Koret Aurora Borealis performs on a stage under purple lighting.",
+  "kilde_navn": "Ishavskatedralen",
+  "kilde_url": "https://ishavskatedralen.no/arrangementer/julekonsert-med-aurora-borealis-og-lisa-stokke-2/",
+  "status": "publisert"
+}
