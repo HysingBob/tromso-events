@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-20-rosebunny-backbeat",
+  "start": "2026-11-20T17:00",
+  "slutt": "2026-11-20T18:00",
+  "sted": "Backbeat",
+  "adresse": "Vestregata 3, Tromsø",
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
+  "gratis": false,
+  "no": {
+    "tittel": "Rosebunny at Backbeat",
+    "ingress": "Rosebunny spiller en solokonsert på Backbeat.",
+    "tekst": "Sanger og låtskriver Rosebunny spiller en intim solokonsert med el-bass og sang på Backbeat. Musikken henter inspirasjon fra amerikansk folkemusikk, soul og jazz."
+  },
+  "en": {
+    "title": "Rosebunny at Backbeat",
+    "lead": "Rosebunny performs a solo concert at Backbeat.",
+    "text": "Singer-songwriter Rosebunny performs an intimate solo concert with electric bass and vocals at Backbeat. Her music draws on American folk, soul and jazz."
+  },
+  "bilde": "https://images.squarespace-cdn.com/content/v1/5e9c837de25d1c2a9167bfbd/1793879359230-Q4MIUYICCS1WU0I959E2/Rosebunny.jpg?format=1500w",
+  "bildetekst_no": "Arrangørens portrettbilde av Rosebunny.",
+  "bildetekst_en": "Organizer's portrait of Rosebunny.",
+  "kilde_navn": "Backbeat Kaffe & Vinyl",
+  "kilde_url": "https://www.backbeat-tromso.no/events-1/aosjum42ftwediyh03j6ip2pifcs42",
+  "status": "venter"
+}
