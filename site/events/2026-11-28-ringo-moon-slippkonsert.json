@@ -5,21 +5,25 @@
   "adresse": "Strandgata 14, 9008 Tromsø",
   "pris": "305 kr (ordinær billett)",
   "gratis": false,
-  "kategori": ["Konsert"],
-  "malgruppe": ["18+"],
+  "kategori": [
+    "Konsert"
+  ],
+  "malgruppe": [
+    "18+"
+  ],
   "no": {
     "tittel": "Ringo Moon – slippkonsert",
     "ingress": "Tromsøbandet Ringo Moon slipper debutalbumet «The Burning Question» med konsert på Blårock.",
-    "tekst": "Ringo Moon spiller indierock med melodisk popteft og slipper debutalbumet «The Burning Question» på Cora Records i november. Konsertstart kl. 22.00. 18-årsgrense.\n\nIllustrasjonen er laget av tromsø.net og viser et tomt, lite konsertlokale – ikke bandmedlemmene."
+    "tekst": "Ringo Moon spiller indierock med melodisk popteft og slipper debutalbumet «The Burning Question» på Cora Records i november. Konsertstart kl. 22.00. 18-årsgrense."
   },
   "en": {
     "title": "Ringo Moon – album-release concert",
     "lead": "Tromsø band Ringo Moon celebrate the release of their debut album, “The Burning Question”, with a concert at Blårock.",
-    "text": "Ringo Moon play indie rock with a melodic pop edge and release their debut album, “The Burning Question”, on Cora Records in November. The concert starts at 22:00. Ages 18+.\n\nThe illustration was made by tromsø.net and shows an empty small music venue, not the band members."
+    "text": "Ringo Moon play indie rock with a melodic pop edge and release their debut album, “The Burning Question”, on Cora Records in November. The concert starts at 22:00. Ages 18+."
   },
-  "bilde": "images/2026-11-28-ringo-moon-slippkonsert.webp",
-  "bildetekst_no": "Illustrasjon av et tomt, lite konsertlokale med farget scenelys.",
-  "bildetekst_en": "Illustration of an empty small music venue with coloured stage lights.",
+  "bilde": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI3NTM5NDczMy1iNjMzLTQ2YWItYjczOC04MDQ3ZWRkY2I0ZWNcLzNKMmJBOEM3NTRQcnJNWTYwN2xKMWRVUnA1RlwvZjllOTUxMDgtZGUwOC00NDJhLWI2NWItOTc3YmRjYmRlNzEwLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjk1MCwiZml0IjoiaW5zaWRlIn19fQ==?signature=2ade7dbfca6b71bc2ffde1f0de3adfa24a87f799f389b0daf6dd5c03fbfa2521",
+  "bildetekst_no": "Arrangørens bilde av Ringo Moon.",
+  "bildetekst_en": "Organizer photo of Ringo Moon.",
   "kilde_navn": "Blårock / AntiTickets",
   "kilde_url": "https://blarock.antitickets.com/event/ringo-moon",
   "status": "publisert"
