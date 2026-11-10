@@ -1,0 +1,119 @@
+/* Lærkart v5 — «hjortelær, rolig».
+   Valgt retning: varm hjortelær-palett, dempet tekstur, lite støy, slitte kanter
+   og IM Fell English i overskriftene. Bygger på style.css + leather.css-strukturen.
+   Bygg: THEME=v5 npx eleventy (standard). */
+
+@font-face{font-family:'IMFellEnglish';src:url('/assets/candidates/imfell-english.woff2') format('woff2');font-weight:400;font-display:swap}
+
+:root{
+  --parchment:#DCC09A;  /* varm hjortelær, lys */
+  --paper:#EFD9B8;      /* ark / kortflate */
+  --ink:#2A1608;        /* brunsvart blekk */
+  --faded:#6B4A2A;      /* dempet brun for småtekst */
+  --sea:#1E434A;
+  --rust:#8E3418;
+  --rule:#B08A55;       /* varme rammer */
+  --leather:#4A2A16;    /* masthead og kant rundt arket */
+  --light-ink:#F3E2C0;
+}
+
+/* Lærkanten rundt arket: roleg, ingen grov støy */
+body{
+  background:var(--leather);
+}
+.page-shell{
+  background:
+    radial-gradient(ellipse 95% 60% at 50% 45%, transparent 62%, rgba(74,42,22,.16) 100%),
+    linear-gradient(rgba(255,222,170,.10), rgba(160,88,36,.05)),
+    url('/assets/paper-sheet.webp') center/cover no-repeat,
+    var(--parchment);
+  box-shadow:0 0 30px rgba(0,0,0,.14);
+  position:relative;
+}
+/* svak, varm dis — ikkje meir enn eit skimt */
+.page-shell::after{
+  content:'';position:absolute;inset:0;pointer-events:none;z-index:-1;
+  background:radial-gradient(ellipse 80% 55% at 50% 38%, rgba(255,206,140,.07), transparent 72%);
+  mix-blend-mode:soft-light;
+}
+
+.masthead{
+  background:
+    linear-gradient(rgba(74,42,22,.90), rgba(58,32,16,.94)),
+    var(--leather);
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+}
+
+/* Kort: varm flate, roleg ramme, ingen tung skygge */
+.event-card{
+  background:
+    url('/assets/paper-stains.webp') var(--flekk-pos,62% 8%)/180% no-repeat,
+    var(--kort-papir,url('/assets/paper-card-a.webp')) var(--kort-pos,28% 40%)/var(--kort-stor,150%) no-repeat,
+    var(--paper);
+  background-blend-mode:multiply,normal,normal;
+  border:1px solid var(--rule);
+  box-shadow:inset 0 0 14px rgba(107,74,42,.10);
+}
+.event-card[data-variant="2"]{--kort-papir:url('/assets/paper-card-b.webp');--kort-stor:135%;--kort-pos:70% 22%;--flekk-pos:12% 64%}
+.event-card[data-variant="3"]{--kort-papir:url('/assets/paper-card-c.webp');--kort-stor:168%;--kort-pos:40% 78%;--flekk-pos:78% 72%}
+
+/* Slitte kanter — som eit brukt kartblad */
+.event-card{
+  -webkit-mask-image:url('/assets/worn-edge-1.svg');
+  mask-image:url('/assets/worn-edge-1.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  --tilt:-.35deg;
+  transform:rotate(var(--tilt));
+  transition:border-color .2s, transform .2s;
+}
+.event-card[data-variant="2"]{-webkit-mask-image:url('/assets/worn-edge-2.svg');mask-image:url('/assets/worn-edge-2.svg');--tilt:.25deg}
+.event-card[data-variant="3"]{-webkit-mask-image:url('/assets/worn-edge-3.svg');mask-image:url('/assets/worn-edge-3.svg');--tilt:-.18deg}
+.event-card:hover{border-color:var(--sea);transform:rotate(var(--tilt)) translateY(-2px)}
+/* innvendig søm */
+.event-card::before{
+  content:'';position:absolute;inset:4px;border:1px solid rgba(107,74,42,.22);
+  border-radius:1px;pointer-events:none;
+}
+
+/* Blekkskrift i overskriftene */
+.page-heading h1,.detail-heading h1,.results-head h2,.empty-state h3,.about-copy h2,.card-body h3{
+  font-family:'IMFellEnglish',Georgia,serif;
+  font-weight:400;
+  letter-spacing:-.01em;
+  text-wrap:balance;
+}
+.page-heading h1,.detail-heading h1{font-size:clamp(46px,7.2vw,86px);line-height:1.03}
+.results-head h2,.empty-state h3,.about-copy h2{font-size:36px}
+.card-body h3{font-size:30px;line-height:1.08}
+.page-heading h1::after{
+  content:'';display:block;width:min(280px,60%);height:2px;margin-top:16px;
+  background:linear-gradient(90deg,var(--ink),rgba(42,22,8,.12));opacity:.6;
+}
+.eyebrow{letter-spacing:.22em;font-size:11px;color:#6B3A12}
+.card-kicker{color:#7A3A16}
+.card-meta{color:var(--faded);border-top:1px solid rgba(107,74,42,.22);padding-top:9px}
+.card-art img{filter:sepia(.10) saturate(.95) contrast(1.01)}
+.detail-art img{filter:sepia(.08) saturate(.96)}
+
+/* Detaljside og tom tilstand */
+.detail-art{
+  background:
+    url('/assets/paper-card-c.webp') 45% 55%/145% no-repeat,
+    var(--paper);
+  border:1px solid var(--rule);
+  box-shadow:inset 0 0 18px rgba(107,74,42,.12);
+  -webkit-mask-image:url('/assets/worn-edge-2.svg');
+  mask-image:url('/assets/worn-edge-2.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;
+  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+}
+.facts{background:rgba(239,217,184,.72);border-color:var(--rule)}
+.empty-state{border:1px dashed var(--rule);background:rgba(239,217,184,.6)}
+.ticket-link{background:var(--sea);color:var(--light-ink);border-radius:2px}
+
+@media (prefers-reduced-motion:reduce){
+  .event-card{transition:none}
+  .event-card:hover{transform:none}
+}

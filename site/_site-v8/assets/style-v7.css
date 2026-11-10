@@ -1,0 +1,284 @@
+/* v7 «oppslagstavle» — upublisert eksperiment.
+   Lastast etter style.css og leather.css med THEME=v7.
+   Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
+
+   Tavle      = board.webp   (brun ved, 512x256 css px)
+   Masthead   = marble.webp  (grøn marmor, 512 px flisa)
+   Oppslag    = paper.webp   (kraftpapir, lysast)
+
+   Snittfarger målt frå dei ferdige teksturane:
+     board  #625040   banner #7BA7A1   paper #D6C29C
+   Kontrast er rekna mot mørkaste og ljosaste del av papiret
+   (#CFBD97 / #DDC9A2) og mot ljosaste del av marmoren (#647D76).
+*/
+
+:root{
+  --board:#91684B;      /* snitt board.webp (wood-plank-32) — veggen bak alt */
+  --marble:#4B6A62;     /* snitt marble.webp — masthead */
+  --banner:#8BB1AA;     /* snitt banner.webp med 12 % kvitvask — måla vegg */
+  --paper:#D6C29C;      /* snitt paper.webp  — oppslag, ljosast */
+  --parchment:#D6C29C;
+  --ink:#3A2A1E;        /* mørk sjokolade: 7.4:1 på papir, 8.8:1 på plank */
+  --faded:#57432F;      /* mørkast som framleis ser sekundært ut: 5.1:1 */
+  --sea:#1E434A;        /* lenkjer, aktiv fane: 5.8:1 på papir */
+  --rust:#7A2E1C;       /* eyebrow, kicker, stempel: 5.1:1 på papir */
+  --moss:#2E3C1E;
+  --moss-ink:#2E3C1E;   /* «Gratis»: 6.4:1 på papir */
+  --rule:#8A6B44;       /* dekorativ strek, ingen kontrastkrav */
+  --light-ink:#F7E8CB;  /* tekst på --sea: 8.9:1 */
+}
+
+/* 1 — Tavla ------------------------------------------------------------- */
+
+body{
+  background-image:url("/assets/textures/board.webp");
+  background-repeat:repeat;
+  background-size:512px 512px;
+  background-color:var(--board);
+}
+.page-shell{background:none;box-shadow:none}
+
+/* 2 — Masthead: grøn marmor, heile vindauget -----------------------------
+
+   Flisa er 1024 px og leggjast med background-size 512 px. Dei ljosaste årene
+   har luminans 0.2421 — kvit tekst får berre 3.59:1 der. Eit svartvask-lag på
+   15 % (same grep som kvitvasken i v7-planken) senkjer dei til 0.1700 og gjev
+   4.77:1, altså over 4.5:1 også for småtekst. Snittfarga #4B6A62 er fallback.
+
+   Heile flata er full breidde: .page-shell missar max-width så marmoren når
+   kantane, medan .mast-inner og .mast-extra held sitt i same kolonne (1160 px)
+   som arrangementnettet. Ikkje sticky — masthead rullar bort som før.      */
+
+.page-shell{max-width:none}
+
+.masthead{
+  padding:24px 0;
+  background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("/assets/textures/marble.webp");
+  background-repeat:repeat;
+  background-size:512px 512px;
+  background-color:var(--marble);
+  border:0;
+  box-shadow:0 6px 18px rgba(0,0,0,.45);
+}
+.masthead:has(.mast-extra){padding-top:48px;padding-bottom:44px}
+/* Andre sider: kompakt masthead — berre logo-rada (gjeld no alle sider) */
+.masthead:not(:has(.mast-extra)){padding:36px 0}
+/* Masthead-rada: NO/EN til venstre og undertittel til høgre på same linje
+   under ordmerket; filterknappane under dei i full breidde. */
+.mast-inner{
+  max-width:1160px;margin:auto;padding:0 21px;
+  display:grid;grid-template-columns:1fr;row-gap:28px;align-items:start;
+  grid-template-areas:"brand" "filters";
+}
+.brand{grid-area:brand}
+.brand-row{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin:10px 0 0}
+.brand-row .languages{margin:0;padding-top:0}
+.brand-row p{margin:0;margin-left:auto;text-align:right}
+/* Språkval som flagg-knapp, teikna med innebygde SVG-flagg (ingen eksterne filer).
+   På norsk side: unionjack → klikk går til /en/. På engelsk side: norsk flagg → /no/. */
+.flag{display:block;width:30px;height:16px;border-radius:1px;background-repeat:no-repeat;background-size:100% 100%;box-shadow:inset 0 0 0 1px rgba(58,42,30,.4)}
+.flag-uk{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 16'%3E%3Crect width='30' height='16' fill='%2300247D'/%3E%3Cpath d='M0 0L30 16M30 0L0 16' stroke='%23fff' stroke-width='3.2'/%3E%3Cpath d='M0 0L30 16M30 0L0 16' stroke='%23CF142B' stroke-width='1.8'/%3E%3Crect x='12.4' width='5.2' height='16' fill='%23fff'/%3E%3Crect y='5.4' width='30' height='5.2' fill='%23fff'/%3E%3Crect x='13.4' width='3.2' height='16' fill='%23CF142B'/%3E%3Crect y='6.4' width='30' height='3.2' fill='%23CF142B'/%3E%3C/svg%3E")}
+.flag-no{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 16'%3E%3Crect width='30' height='16' fill='%23BA0C2F'/%3E%3Crect x='8.5' width='5' height='16' fill='%23fff'/%3E%3Crect y='5.5' width='30' height='5' fill='%23fff'/%3E%3Crect x='10' width='2' height='16' fill='%23002094'/%3E%3Crect y='7' width='30' height='2' fill='%23002094'/%3E%3C/svg%3E")}
+/* Knappen har same papirflate som filterknappane i marmoren */
+.masthead .lang-flag{
+  display:inline-flex;align-items:center;justify-content:center;
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:repeat;background-size:640px 358px;
+  background-color:var(--paper);
+  border:0;border-radius:2px;padding:8px 13px;min-height:44px;
+  text-decoration:none;
+}
+.masthead .lang-flag:hover{background-color:#E4D2AC}
+.masthead .lang-flag:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.brand-row .lang-flag{padding:6px 11px;min-height:0}
+.mast-extra{grid-area:filters;justify-self:stretch;align-self:end;max-width:none;margin:0;padding:0}
+.masthead :is(h1,p,a,span,button,.eyebrow){color:#fff}
+.masthead :is(h1,p,span,button,.eyebrow){text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.masthead .eyebrow{font-size:17px;letter-spacing:.15em;margin:0}
+.masthead .brand p,.languages,.languages a,.languages span[aria-current]{color:#fff}
+.languages span[aria-current]{border-bottom-color:#fff}
+.languages,.languages a{font-size:17px}
+
+/* Logorad: berre tromsø.net i stort format, med undertittel under */
+.brand{display:block;width:max-content;max-width:100%}
+.brand-link{display:block;width:auto;height:auto}
+/* Ordmerket er mørkt blekk i SVG-en: snu det til kvitt og gjev det stor plass */
+.brand-link img{width:auto;height:72px;display:block;filter:brightness(0) invert(1)}
+/* Høgrestilt under kanten av det synlege ordmerket: SVG-en har ~1.9 % tom
+   luft på høgre side av blekket, så teksten får like mykje polstring. */
+.brand p{font-size:20px;color:#fff;padding-right:1.9%;text-align:right;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+/* Overskrift, «uten reklame» og intro */
+.mast-title{font-family:var(--display);font-weight:600;font-size:82px;line-height:.98;letter-spacing:-.035em;margin:30px 0 0;max-width:760px}
+.mast-dek{font-size:19px;margin:12px 0 0}
+.mast-intro{font-size:18px;max-width:640px;margin:8px 0 0}
+.mast-count{display:block;font-size:17px;margin:18px 0 0}
+
+/* Filter inne i marmoren: små papirlappar, blekktekst, lett helning */
+.masthead .filter-area{background:none;background-image:none;box-shadow:none;padding:0;margin:24px 0 0;border-bottom:0}
+.masthead .section-label{color:#fff;opacity:.92;font-size:17px}
+.masthead .nojs-note{color:#fff}
+.masthead .filter-reset{color:#F7E8CB;text-decoration-color:rgba(247,232,203,.55)}
+.masthead .filter-reset:hover{color:#fff;text-decoration-color:#fff}
+.masthead .category-controls button{
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:repeat;background-size:640px 358px;
+  background-color:var(--paper);color:#3A2A1E;text-shadow:none;
+  border:0;border-radius:2px;padding:8px 13px;min-height:44px;
+  font-size:15px;font-weight:600;
+  box-shadow:0 2px 4px rgba(0,0,0,.35);
+}
+.masthead .category-controls button:nth-child(3n){transform:rotate(-.5deg)}
+.masthead .category-controls button:nth-child(4n){transform:rotate(.6deg)}
+/* Vald fane: ein raudbrun kastanje (#4A2A1C) — berre eit lite steg frå den gamle
+   blekkbrune (#3A2A1E), men med tydeleg raud tone. Kremkvit tekst: 10.59:1. */
+.masthead .time-tabs button:hover,.masthead .time-tabs button:focus-visible{color:#7A2E1C}
+.masthead .time-tabs button[aria-pressed=true],
+.masthead .category-controls button[aria-pressed=true]{background-image:none;background-color:#4A2A1C;color:#F7E8CB}
+.masthead .category-controls button::before{color:#EFE2C6}
+.masthead button:focus-visible{outline:2px solid #fff;outline-offset:2px}
+
+/* Kategorilinja er flytt ut av mastheaden og ned i botnen av sida */
+.category-linkline{color:#fff;font-size:15px;margin:36px 0 0;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.category-linkline a{color:#fff}
+.category-linkline span{opacity:.7}
+
+/* 3 — Papirflater (ingen tekst ligg direkte på veden) -------------------- */
+
+.page-heading,.filter-area,.results-head,.empty-state,.related>p,
+.breadcrumb,.detail,.about-copy{
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:repeat;
+  background-size:640px 358px;
+  background-color:var(--paper);
+  box-shadow:0 2px 3px rgba(0,0,0,.30);
+}
+.page-heading{padding:30px 18px 26px;margin:20px 0 0}
+.filter-area{padding:20px 18px 22px}
+.results-head{padding:12px 14px;margin-bottom:22px}
+.breadcrumb{padding:12px 14px;margin:20px 0 0}
+.detail{padding:16px;margin:20px 0 0}
+.about-copy{padding:26px 20px 44px;margin:20px 0 0}
+/* Botnen av sida: marmor som mastheaden, for å markera at sida er slutt.
+   same 15 % svartvask og same kvite tekst som masthead, og skugge oppover i
+   staden for nedover. Kompassrosa står i venstre hjørne (ho har teke plassen
+   til det gamle favikonet). */
+.site-footer{
+  margin:0;padding:26px 21px 30px;border-top:0;
+  background-image:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)),url("/assets/textures/marble.webp");
+  background-repeat:repeat;background-size:512px 512px;background-color:var(--marble);
+  box-shadow:0 -6px 18px rgba(0,0,0,.45);
+  color:#fff;
+}
+.site-footer,.site-footer p,.site-footer a,.site-footer small{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.site-footer .footer-inner img{filter:brightness(0) invert(1)}
+.route-line{border-top:1px dashed rgba(255,255,255,.35)}
+@media(min-width:640px){
+  .page-heading,.filter-area,.results-head,.breadcrumb,.detail,.about-copy{padding-left:24px;padding-right:24px}
+  .site-footer{padding-left:30px;padding-right:30px}
+}
+
+/* 4 — Oppslaga (kort) --------------------------------------------------- */
+
+.event-card{
+  background-image:url("/assets/textures/paper.webp");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:var(--paper);
+  border:0;
+  padding:8px;
+  transform:rotate(var(--tilt,0deg));
+  box-shadow:0 2px 3px rgba(0,0,0,.35),0 10px 20px rgba(0,0,0,.25);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+/* Utsnitt og helning følgjer arrangementet (data-variant), ikkje plass i lista */
+.event-card[data-variant="1"]{--tilt:-.5deg;background-position:0 0}
+.event-card[data-variant="2"]{--tilt:.45deg;background-position:55% 35%}
+.event-card[data-variant="3"]{--tilt:-.25deg;background-position:100% 100%}
+.event-card:hover,.event-card:focus-visible{
+  transform:rotate(0deg) translateY(-2px);
+  box-shadow:0 3px 5px rgba(0,0,0,.35),0 16px 28px rgba(0,0,0,.28);
+}
+
+/* Valfri merkelapp (t.d. «Premiere», «Utsolgt») — tek plassen der datostempelet
+   var. Kjem berre fram når arrangementet har feltet «merke». */
+.card-stamp{
+  position:absolute;z-index:1;right:10px;top:10px;display:inline-block;
+  background:var(--rust);color:#F7E8CB;
+  font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:5px 10px;border-radius:2px;transform:rotate(-3deg);
+  box-shadow:0 2px 4px rgba(0,0,0,.35);
+}
+/* Same lapp på arrangementssida, men litt lenger ut frå kanten */
+.detail-art .card-stamp{right:20px;top:20px;font-size:13px;padding:7px 12px}
+.card-art{background:#C9B691}
+.card-art img{filter:sepia(.5) saturate(.7) contrast(.92);transition:filter .3s ease}
+.event-card:hover .card-art img,.event-card:focus-visible .card-art img{filter:none}
+.card-art:after,.detail-art:after{box-shadow:inset 0 0 24px 14px rgba(90,62,34,.14)}
+
+/* 5 — Detaljar ---------------------------------------------------------- */
+
+.date-stamp{
+  background:rgba(240,229,208,.94);
+  box-shadow:inset 0 0 0 3px #E6D5B4,inset 0 0 0 4px var(--rust);
+}
+/* Hero-biletet: <img> har height=\"1000\" som attributt, og den vinn over
+   aspect-ratio så lenge inga CSS-høgd er sett — då vart biletet 294x1000 på
+   telefon. height:auto lèt aspect-ratio 3:2 styre (294x196 på telefon). */
+.detail-art img{filter:none;height:auto;width:100%;aspect-ratio:3/2;object-fit:cover}
+.detail-art{border-color:var(--rule)}
+.facts{background:#E0CDA8}
+/* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
+.ticket-link{color:var(--light-ink)}
+.ticket-link:hover,.ticket-link:focus-visible{background:#4A2A1C;color:#F7E8CB}
+/* Datoen er no hovudteksten i kickeren (ikkje ein kassert i biletet), så han
+   får leseleg storleik og normal setting — «fredag, 6. november 2026». */
+.card-kicker{color:var(--rust);font-size:14px;letter-spacing:.02em;text-transform:none}
+.route-line span{background:transparent;color:#fff}
+
+/* Dagdelarane er ute (datoen står på kvart kort) — gruppene held berre
+   døgnrytmen i lista med luft mellom dagane. */
+.day-group{margin:0 0 22px}
+.day-group:last-child{margin-bottom:0}
+/* 5c — Arrangementssida: mørkne mot kantane ------------------------------ */
+
+body.page-event{
+  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/board.webp");
+  background-repeat:no-repeat,repeat;
+  background-attachment:fixed,scroll;
+  background-size:100% 100%,512px 512px;
+}
+
+@media(max-width:639px){
+  /* telefon: mindre luft i mastheaden */
+  /* Telefon: filtera under namnet, språkval og undertittel deler rada */
+  .mast-inner{
+    grid-template-areas:"brand" "filters";
+    row-gap:14px;
+  }
+  .mast-extra{justify-self:start}
+  /* Telefon: ordmerket får følgje kolonnebreidda, så namn + språkval alltid får plass */
+  .brand{width:100%}
+  .brand-link img{width:100%;height:auto}
+  .masthead{padding:16px 0}
+  .masthead:not(:has(.mast-extra)){padding:20px 0}
+  .mast-title{font-size:40px;margin:20px 0 0}
+  .mast-dek{font-size:17px}
+  .mast-intro{font-size:16px}
+  .masthead .eyebrow,.masthead .section-label{font-size:16px}
+  .languages,.languages a{font-size:16px}
+  .brand-link{gap:10px}
+  .brand-link img{height:44px}
+  .brand p{font-size:16px}
+}
+
+/* 6 — Rørsle og smale skjermar ------------------------------------------ */
+
+@media(max-width:639px){
+  /* éi kolonne: mindre helning så korta ikkje lagar vassrett scroll */
+  .event-card[data-variant="1"]{--tilt:-.4deg}
+  .event-card[data-variant="2"]{--tilt:.35deg}
+  .event-card[data-variant="3"]{--tilt:-.2deg}
+}
+@media(prefers-reduced-motion:reduce){
+  .event-card,.card-art img{transition:none}
+}

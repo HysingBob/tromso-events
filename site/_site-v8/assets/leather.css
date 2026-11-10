@@ -1,0 +1,64 @@
+/* Aged leather chart: v2. Structural layout stays in style.css. */
+body {
+  background: var(--leather);
+}
+.page-shell {
+  background:
+    radial-gradient(ellipse 85% 50% at 50% 48%, transparent 56%, rgba(47, 25, 12, .25) 100%),
+    radial-gradient(circle at 92% 14%, rgba(91, 49, 22, .11), transparent 22%),
+    radial-gradient(circle at 8% 76%, rgba(89, 49, 27, .09), transparent 23%),
+    repeating-linear-gradient(103deg, transparent 0 3px, rgba(51, 31, 16, .016) 4px 5px),
+    var(--parchment);
+  box-shadow: inset 0 0 75px rgba(44, 22, 10, .22), 0 0 35px rgba(0, 0, 0, .16);
+}
+.masthead {
+  background:
+    radial-gradient(circle at 18% 0, rgba(145, 99, 57, .19), transparent 40%),
+    repeating-linear-gradient(91deg, transparent 0 4px, rgba(0, 0, 0, .024) 5px 6px),
+    var(--leather);
+  border-top: 4px double #9D7A53;
+  border-bottom: 4px double #9D7A53;
+}
+.brand p, .languages, .languages span[aria-current] { color: var(--light-ink); }
+.languages a { color: var(--light-ink); }
+.languages span[aria-current] { border-bottom-color: var(--light-ink); }
+.brand-link img { filter: brightness(0) invert(.88) sepia(.27); }
+.page-heading { border-bottom: 2px double var(--rule); }
+.eyebrow, .section-label, .card-kicker { letter-spacing: .18em; }
+.filter-area { border-bottom: 2px double var(--rule); }
+.time-tabs button[aria-pressed=true], .ticket-link { color: #F7E8CB; }
+.category-controls button { border-color: #765B3B; }
+.category-controls button[aria-pressed=true] { background: #E0C79F; }
+.category-linkline a { color: var(--faded); }
+.event-card {
+  background:
+    radial-gradient(circle at 96% 97%, rgba(96, 52, 25, .12), transparent 30%),
+    radial-gradient(circle at 3% 4%, rgba(106, 57, 26, .08), transparent 28%),
+    var(--paper);
+  border: 3px double #765637;
+  padding: 6px;
+}
+.event-card:hover { border-color: var(--sea); }
+.card-art { background: #B99A70; }
+.card-art img { filter: sepia(.58) saturate(.72) contrast(1.05) brightness(.93); }
+.detail-art img { filter: none; }
+.card-art:after, .detail-art:after {
+  box-shadow: inset 0 0 36px 20px rgba(82, 51, 25, .20);
+}
+.date-stamp {
+  background: rgba(221, 197, 157, .95);
+  box-shadow: inset 0 0 0 3px #DDC59D, inset 0 0 0 4px var(--rust);
+}
+.sample-mark { font-size: 10px; }
+.empty-state {
+  background: rgba(221, 197, 157, .63);
+  border: 2px dashed var(--rule);
+}
+.empty-art { mix-blend-mode: multiply; }
+.detail-art { background: #B99A70; border-color: #765637; }
+.facts { border-color: #765637; }
+.route-line span { background: var(--parchment); }
+.site-footer { border-top-color: var(--rule); }
+@media (max-width: 410px) {
+  .mast-inner { gap: 9px; }
+}

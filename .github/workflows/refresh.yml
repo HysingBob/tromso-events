@@ -1,0 +1,36 @@
+# Hentar framsidedata (MET vêr/sol, måne, seinare SSB/Kystverket/Entur) inn i
+# repoet på tidsplan, så vitjande nettlesarar aldri kallar data-API-a direkte.
+# Endringar i site/src/_data/now.json blir pusha og utløyser build-site.yml,
+# som bygger og publiserer. MET sine expiry-reglar blir respektera i sjølvve
+# skriptet (scripts/fetch-now.js); feila kjelde = sist kjende verdi blir ståande.
+name: refresh-front-data
+on:
+  schedule:
+    - cron: '13,43 * * * *' # to gonger i timen, utanfor heile halvtimar
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: refresh-front-data
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch now data
+        run: cd site && node scripts/fetch-now.js
+      - name: Commit if data changed
+        run: |
+          git config user.name "tromso-bot"
+          git config user.email "hysinghenrik@gmail.com"
+          if git diff --quiet site/src/_data/now.json; then
+            echo "Ingen dataendringar.";
+          else
+            git add site/src/_data/now.json
+            git commit -m "data: refresh front page now.json"
+            git push
+          fi

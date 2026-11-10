@@ -1,0 +1,27 @@
+{
+  "fetched_at": "2026-11-10T13:09:52.313Z",
+  "fetched_at_oslo": "2026-11-10T14:09",
+  "weather": {
+    "symbol_code": "lightsnow",
+    "temperature": -0.5,
+    "wind": 2.6,
+    "series_time": "2026-11-10T13:00:00Z",
+    "source": "MET Norway",
+    "updated": "2026-11-10T13:09:52.686Z"
+  },
+  "light": {
+    "date": "2026-11-10",
+    "sunrise": "2026-11-10T08:56+01:00",
+    "sunset": "2026-11-10T13:58+01:00",
+    "dark": true,
+    "day_length": 302,
+    "day_change": -10,
+    "polar": null
+  },
+  "moon": {
+    "phase": 0.0214,
+    "name": "nymåne",
+    "source": "tromso.net (berekna)",
+    "updated": "2026-11-10T13:09:52.951Z"
+  }
+}
