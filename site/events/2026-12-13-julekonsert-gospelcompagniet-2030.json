@@ -1,0 +1,26 @@
+{
+  "id": "2026-12-13-julekonsert-gospelcompagniet-2030",
+  "start": "2026-12-13T20:30",
+  "sted": "Ishavskatedralen",
+  "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
+  "pris": "410 kr (inkl. 30 kr gebyr)",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
+  "no": {
+    "tittel": "Julekonsert med GospelCompagniet – kl. 20:30",
+    "ingress": "GospelCompagniet inviterer til julekonsert i Ishavskatedralen.",
+    "tekst": "GospelCompagniet byr på varme toner og amerikanskinspirert gospel i en julekonsert i Ishavskatedralen. Konserten starter kl. 20:30."
+  },
+  "en": {
+    "title": "GospelCompagniet Christmas Concert – 20:30",
+    "lead": "GospelCompagniet presents a Christmas concert at the Arctic Cathedral.",
+    "text": "GospelCompagniet brings warm sounds and American-inspired gospel to a Christmas concert at the Arctic Cathedral. The concert starts at 20:30."
+  },
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/08/gospelcompagniet-1024x576.webp",
+  "bildetekst_no": "GospelCompagniet-koret på julekonsertbildet.",
+  "bildetekst_en": "The GospelCompagniet choir in the Christmas concert image.",
+  "kilde_navn": "Ishavskatedralen",
+  "kilde_url": "https://ishavskatedralen.no/arrangementer/julekonsert-med-gospelcompagniet-4/",
+  "status": "publisert"
+}
