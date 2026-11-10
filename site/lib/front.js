@@ -79,15 +79,24 @@ function tagText(lang, now) {
 }
 
 /* ---------- scena ---------- */
+/* scene-bg.webp i /assets/cutouts/ = Bobs eigen teikna bakgrunn, croppa utan
+   papirkant, lagt rett på vedveggen. Finst ikkje fila (eller byte ho ut),
+   fell scena attende til utklippslaga. Filbyte krev aldri kodeendring. */
+const hasBg = fs.existsSync(path.join(__dirname, '../src/assets/cutouts/scene-bg.webp'));
 function piece(name, alt, style = '') {
   return `<img class="scene-piece" src="/assets/cutouts/${name}.webp" alt="${esc(alt)}" style="${style}">`;
 }
 function scene(lang, now) {
   const w = now?.weather || {};
   const l = now?.light || {};
-  const recipe = sceneRecipe(w.symbol_code, l.dark !== false); // manglar ljosdata = trur mørkt (tryggast)
   const moon = now?.moon || {};
+  const t = tagText(lang, now);
   const parts = [];
+  if (hasBg) {
+    // Bakgrunnsmodus: teikna scene rett på vedveggen; berre etiketten oppå.
+    parts.push(`<div class="scene-tag" style="z-index:9">${t.temp ? `<strong>${esc(t.temp)}</strong>` : ''}${t.note ? `<span>${esc(t.note)}</span>` : ''}</div>`);
+  } else {
+  const recipe = sceneRecipe(w.symbol_code, l.dark !== false); // manglar ljosdata = trur mørkt (tryggast)
   // lag 1: himmelkropp
   if (recipe.sky === 'sun') parts.push(piece('sun', tr(lang, 'Sol', 'Sun'), 'z-index:1'));
   else if (recipe.sky === 'moon') {
@@ -104,10 +113,10 @@ function scene(lang, now) {
   if (recipe.snow) parts.push(piece(recipe.snow === 'heavy' ? 'snow-heavy' : 'snow', tr(lang, 'Snø', 'Snow'), 'z-index:7'));
   if (recipe.sleet) parts.push(piece('sleet', tr(lang, 'Sludd', 'Sleet'), 'z-index:7'));
   if (recipe.fog) parts.push(piece('fog', tr(lang, 'Tåke', 'Fog'), 'z-index:8'));
-  // lag 6: etiketten
-  const t = tagText(lang, now);
+  // lag 6: etiketten (i utklippsmodus; i bakgrunnsmodus er ho lagd til ovanfor)
   parts.push(`<div class="scene-tag" style="z-index:9">${t.temp ? `<strong>${esc(t.temp)}</strong>` : ''}${t.note ? `<span>${esc(t.note)}</span>` : ''}</div>`);
-  return `<div class="scene" data-symbol="${esc(w.symbol_code || '')}" data-dark="${l.dark ? '1' : '0'}"><div class="scene-layers" aria-hidden="${parts.length ? 'false' : 'true'}">${parts.join('')}</div>${w.source ? `<p class="scene-credit">${tr(lang, 'Værdata', 'Weather data')}: ${esc(w.source)}</p>` : ''}</div>`;
+  }
+  return `<div class="scene" data-symbol="${esc(w.symbol_code || '')}" data-dark="${l.dark ? '1' : '0'}"${hasBg ? ' data-scene-bg="1"' : ''}><div class="scene-layers" aria-hidden="${parts.length ? 'false' : 'true'}">${parts.join('')}</div>${w.source ? `<p class="scene-credit">${tr(lang, 'Værdata', 'Weather data')}: ${esc(w.source)}</p>` : ''}</div>`;
 }
 
 /* ---------- Skjer i dag ---------- */

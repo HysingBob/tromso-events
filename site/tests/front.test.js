@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
-const { sceneRecipe, moonShift, tagText, statCard, frontPage, tabs } = require('../lib/front');
+const { sceneRecipe, moonShift, tagText, statCard, frontPage, tabs, scene } = require('../lib/front');
 const now = require('../src/_data/now.json');
 
 test('scene recipes follow the MET symbol code table in the brief', () => {
@@ -54,4 +54,12 @@ test('front page renders tabs, scene and MET credit from real now.json', () => {
   assert.match(html, /data-symbol="[a-z_]+"/);
   assert.match(html, /Værdata: MET Norway/);
   assert.ok(tabs.length === 4);
+});
+
+test('scene background asset sits on the wood wall without duplicate layer pieces', () => {
+  const html = scene('no', now);
+  assert.match(html, /data-scene-bg="1"/);            // bakgrunnsmodus er på
+  assert.doesNotMatch(html, /class="scene-piece"/);   // ingen utklipp oppå teikninga
+  assert.match(html, /scene-tag/);                    // etiketten står att
+  assert.match(html, /Dagen er/);                     // med rekna lysdata
 });
