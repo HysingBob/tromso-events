@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-24-kreativ-tirsdag-tegning",
+  "start": "2026-11-24T17:00",
+  "slutt": "2026-11-24T18:00",
+  "sted": "Tvibit",
+  "adresse": "Parkgata 27/29, 9008 Tromsø",
+  "kategori": [
+    "Aktivitet"
+  ],
+  "malgruppe": [
+    "18+"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Kreativ Tirsdag – Tegning",
+    "ingress": "En rolig, kreativ kveld med tegning og maling.",
+    "tekst": "Vi legger til rette for tegning med blyant, tusjer og maling. Tvibit stiller med utstyr, men du kan gjerne ta med eget."
+  },
+  "en": {
+    "title": "Creative Tuesday – Drawing",
+    "lead": "A relaxed, creative evening of drawing and painting.",
+    "text": "The evening is set up for drawing and painting with pencils, markers and paint. Tvibit provides basic materials, but you are welcome to bring your own."
+  },
+  "bilde": "images/2026-11-24-kreativ-tirsdag-tegning.webp",
+  "bildetekst_no": "Illustrasjon av papir, fargeblyanter, tusjer og maling til en kreativ tegnekveld.",
+  "bildetekst_en": "Illustration of paper, coloured pencils, markers and paints for a creative drawing evening.",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/2023/7/25/kreativ-tirsdag-tegning-h6paf-jdcj4-jsttl-2b8lg-a6rba-3xbjk",
+  "status": "venter"
+}

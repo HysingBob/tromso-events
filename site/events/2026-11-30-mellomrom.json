@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-30-mellomrom",
+  "start": "2026-11-30T17:00",
+  "slutt": "2026-11-30T20:00",
+  "sted": "Tvibit",
+  "adresse": "Parkgata 27/29, 9008 Tromsø",
+  "kategori": [
+    "Aktivitet"
+  ],
+  "malgruppe": [
+    "Ungdom"
+  ],
+  "gratis": true,
+  "no": {
+    "tittel": "Mellomrom",
+    "ingress": "En rolig, gratis møteplass for ungdom på autismespekteret.",
+    "tekst": "Mellomrom er for deg på autismespekteret mellom 15 og 30 år. I Mulighetsrommet kan du finne brettspill og hobbysaker, være for deg selv eller snakke med andre. Du kan komme senere eller gå tidligere, og ta med en følgeperson. Dagens program kommer."
+  },
+  "en": {
+    "title": "Mellomrom",
+    "lead": "A calm, free place to meet for young people on the autism spectrum.",
+    "text": "Mellomrom is for people aged 15–30 on the autism spectrum. The quiet Mulighetsrommet has board games and craft activities; you can spend time on your own or talk with others. You may arrive later or leave earlier, and may bring a support person. The programme will be announced."
+  },
+  "bilde": "images/2026-11-30-mellomrom.webp",
+  "bildetekst_no": "Illustrasjon av et rolig oppholdsrom med brettspill og hobbyutstyr for Mellomrom.",
+  "bildetekst_en": "Illustration of a calm lounge with board games and craft supplies for Mellomrom.",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/2026/11/30/mellomrom",
+  "status": "venter"
+}
