@@ -10,7 +10,7 @@ const output = path.join(root,'_site');
 const html = p=>fs.readFileSync(path.join(output,p,'index.html'),'utf8');
 test('Eleventy builds both languages and all four page types without third-party assets', () => {
   execFileSync('npm',['run','build'],{cwd:root,stdio:'pipe'});
-  for (const p of ['no/','en/','no/om/','en/about/','no/kategori/konsert/','en/category/concert/']) assert.match(html(p),/<html lang="(no|en)"/);
+  for (const p of ['no/','en/','no/om/','en/about/','no/landing/','en/landing/','no/hva-skjer/','no/tall/','no/kategori/konsert/','en/category/concert/']) assert.match(html(p),/<html lang="(no|en)"/);
   assert.match(html('no/'),/<meta name="robots" content="noindex,nofollow">/);
 
   assert.match(html('no/'),/data-category-filter="Konsert"/);
