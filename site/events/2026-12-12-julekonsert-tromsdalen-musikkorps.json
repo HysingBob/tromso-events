@@ -1,0 +1,26 @@
+{
+  "id": "2026-12-12-julekonsert-tromsdalen-musikkorps",
+  "start": "2026-12-12T18:00",
+  "sted": "Ishavskatedralen",
+  "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
+  "pris": "100 kr (voksen); salg ved inngangen",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "malgruppe": ["Familie"],
+  "no": {
+    "tittel": "Julekonsert med Tromsdalen musikkorps",
+    "ingress": "Tromsdalen musikkorps inviterer til julekonsert med korps og drilltropp i Ishavskatedralen.",
+    "tekst": "Generasjonskorpset Tromsdalen musikkorps spiller julens toner, med drilltropp. Voksenbillett koster 100 kr; honnør, student og første barn betaler 50 kr, og flere barn kommer gratis inn. Billetter selges ved inngangen."
+  },
+  "en": {
+    "title": "Tromsdalen Music Corps Christmas Concert",
+    "lead": "Tromsdalen Musikkorps presents a Christmas concert with its band and drill team at the Arctic Cathedral.",
+    "text": "The intergenerational Tromsdalen Musikkorps performs Christmas music with its drill team. Adult tickets are NOK 100; seniors, students and the first child pay NOK 50, and additional children enter free. Tickets are sold at the door."
+  },
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/10/korpset-staende.jpg",
+  "bildetekst_no": "Julekonsertplakat for Tromsdalen musikkorps med korpslogo, messingblåser og billettinformasjon.",
+  "bildetekst_en": "Christmas concert poster for Tromsdalen Musikkorps, with the band logo, a brass instrument and ticket details.",
+  "kilde_navn": "Ishavskatedralen",
+  "kilde_url": "https://ishavskatedralen.no/arrangementer/julekonsert-med-tromsdalen-musikkorps-2/",
+  "status": "publisert"
+}
