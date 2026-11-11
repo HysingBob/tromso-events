@@ -120,20 +120,21 @@ def wall_textures(out):
         out[f'wall-{stem}'] = report(f'wall-{stem}', p, im2)
 
 
-def fabric20(out):
-    """Aurora kino Fokus-signatur (Bob 2026-11-11): fabric_20 frå Koofr
-    (~/Koofr/Assets/1K-fabric_20-diffuse.jpg) som fabric-20.webp,
-    1024 px brei, uendra elles."""
-    sp = os.path.join(SRC, 'fabric-20.jpg')
+def aurorawall4(out):
+    """Aurora kino Fokus-signatur (Bob 2026-11-11): wallpaper_4 frå Koofr
+    (~/Koofr/Assets/wallpaper_4.jpg) som aurorawall-4.webp, 1024 px brei,
+    uendra elles. Mørk nattblå mural (snitt #181D28, p99.9 lum 0.124) =
+    nattkort: kremblekk landar på 11,9-13,5:1."""
+    sp = os.path.join(SRC, 'aurorawall-4.jpg')
     if not os.path.exists(sp):
-        print('fabric-20: kjelda finst ikkje — hoppar over')
+        print('aurorawall-4: kjelda finst ikkje — hoppar over')
         return
     im = Image.open(sp).convert('RGB')
     if im.width > 1024:
         im = im.resize((1024, round(im.height * 1024 / im.width)),
                        Image.Resampling.LANCZOS)
-    p, im2 = save_webp(im, 'fabric-20.webp')
-    out['fabric-20'] = report('fabric-20', p, im2)
+    p, im2 = save_webp(im, 'aurorawall-4.webp')
+    out['aurorawall-4'] = report('aurorawall-4', p, im2)
 
 
 def lovewall23(out):
@@ -261,7 +262,7 @@ def main():
 
     v71_textures(out)
     wall_textures(out)
-    fabric20(out)
+    aurorawall4(out)
     lovewall23(out)
     mahogany(out)
     ishavswall38(out)
