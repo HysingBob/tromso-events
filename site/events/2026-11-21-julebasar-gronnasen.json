@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-21-julebasar-gronnasen",
+  "start": "2026-11-21T10:00",
+  "slutt": "2026-11-21T14:00",
+  "sted": "Grønnåsen kirke",
+  "adresse": "Dramsvegen 203, 9010 Tromsø",
+  "kategori": ["Aktivitet"],
+  "malgruppe": ["18+"],
+  "gratis": false,
+  "no": {
+    "tittel": "Julebasar i Grønnåsen kirke",
+    "ingress": "Julegaver, håndarbeid og hjemmelaget bakst på Grønnåsen menighets julebasar.",
+    "tekst": "Grønnåsen menighet arrangerer julebasar med salg av håndarbeid og bakevarer, loddsalg og åresalg med premier. Kafeen byr på smørbrød, kaker og rømmegrøt. En anledning til å handle julevarer og støtte Grønnåsen menighet og Ung kirke Tromsø."
+  },
+  "en": {
+    "title": "Christmas Bazaar at Grønnåsen Church",
+    "lead": "Find Christmas gifts, handmade crafts and home-baked treats at Grønnåsen parish’s Christmas bazaar.",
+    "text": "Grønnåsen parish hosts a Christmas bazaar with handmade crafts and baked goods for sale, a raffle and a prize draw. The café serves open sandwiches, cakes and sour-cream porridge. The bazaar supports Grønnåsen parish and Ung kirke Tromsø."
+  },
+  "bilde": "https://scontent.fsvg1-1.fna.fbcdn.net/v/t39.30808-6/843520933_1176325821389930_1078203734757818025_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=75d36f&_nc_ohc=UyUAI-tudZYQ7kNvwGO7hzo&_nc_oc=Ador2omifKrmvVmoDT-OamiBc3KTBkp1K617ZPFMyZ72ShjraZmSrQuB6Hs8jpWzL08&_nc_zt=23&_nc_ht=scontent.fsvg1-1.fna&_nc_gid=BXeh1yk_Mi1spUFLsnf0kw&_nc_ss=7f289&oh=00_AQQKIZvpJh5lz8ofWUmea-rbAn_GAhy_mix9er0ZC4uCRw&oe=6AFA0957",
+  "bildetekst_no": "Arrangørbilde med strikkede votter, småkaker og rømmegrøt til julebasaren.",
+  "bildetekst_en": "Organizer image of knitted mittens, cookies and sour-cream porridge for the Christmas bazaar.",
+  "kilde_navn": "Tromsø kirkelige fellesråd",
+  "kilde_url": "https://kirken.tromso.no/Kalenderdetaljer?Publish=Polo&Att=Nei&EventId=73dc7664-1816-4f5c-8641-60589cf731bd&OccurenceId=73dc7664-1816-4f5c-8641-60589cf731bd",
+  "status": "publisert"
+}
