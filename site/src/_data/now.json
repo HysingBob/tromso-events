@@ -1,27 +1,27 @@
 {
-  "fetched_at": "2026-11-10T20:28:51.088Z",
-  "fetched_at_oslo": "2026-11-10T21:28",
+  "fetched_at": "2026-11-11T00:54:01.769Z",
+  "fetched_at_oslo": "2026-11-11T01:54",
   "weather": {
-    "symbol_code": "lightsnowshowers_night",
-    "temperature": -0.1,
-    "wind": 4.9,
-    "series_time": "2026-11-10T20:00:00Z",
+    "symbol_code": "lightsnow",
+    "temperature": 0,
+    "wind": 4.7,
+    "series_time": "2026-11-11T00:00:00Z",
     "source": "MET Norway",
-    "updated": "2026-11-10T20:28:51.785Z"
+    "updated": "2026-11-11T00:54:02.657Z"
   },
   "light": {
-    "date": "2026-11-10",
-    "sunrise": "2026-11-10T08:56+01:00",
-    "sunset": "2026-11-10T13:58+01:00",
+    "date": "2026-11-11",
+    "sunrise": "2026-11-11T09:02+01:00",
+    "sunset": "2026-11-11T13:53+01:00",
     "dark": true,
-    "day_length": 302,
-    "day_change": -10,
+    "day_length": 291,
+    "day_change": -11,
     "polar": null
   },
   "moon": {
-    "phase": 0.0318,
+    "phase": 0.038,
     "name": "nedadgående",
     "source": "tromso.net (berekna)",
-    "updated": "2026-11-10T20:28:52.200Z"
+    "updated": "2026-11-11T00:54:03.143Z"
   }
 }
