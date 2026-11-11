@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-26-and-the-quiet-maren-resell-sorheim",
+  "start": "2026-11-26T20:00",
+  "slutt": "2026-11-26T22:00",
+  "sted": "FINT Kafé & Bar",
+  "adresse": "Skippergata 1c, 9007 Tromsø",
+  "pris": "249 kr (inkl. tjenestegebyr)",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
+  "no": {
+    "tittel": "«& the quiet» av Maren Resell Sørheim",
+    "ingress": "Maren Resell Sørheim og gitarist Jakob Palmer Kverndokk spiller singer-songwriter, jazz og improvisert musikk på FINT.",
+    "tekst": "Maren Resell Sørheim og gitarist Jakob Palmer Kverndokk fremfører låter fra «& the quiet», et musikalsk møte mellom singer-songwriter, jazz og improvisasjon. Maren spiller vokal, synth og feltopptak."
+  },
+  "en": {
+    "title": "«& the quiet» by Maren Resell Sørheim",
+    "lead": "Maren Resell Sørheim and guitarist Jakob Palmer Kverndokk bring singer-songwriter music, jazz and improvisation to FINT.",
+    "text": "Maren Resell Sørheim and guitarist Jakob Palmer Kverndokk perform songs from «& the quiet», blending singer-songwriter music, jazz and improvisation. Maren performs vocals, synth and field recordings."
+  },
+  "bilde": "https://hoopla.twic.pics/production/2538085818%2F%26%20the%20quiet%201.1791366936.jpg?twic=v1/output=auto/crop=469x264@190x21/cover=16:9/resize=550",
+  "bildetekst_no": "Arrangørens «& THE QUIET»-plakat med Maren Resell Sørheim, FINT Kafé & Bar og datoen 26. november.",
+  "bildetekst_en": "Organizer's «& THE QUIET» poster featuring Maren Resell Sørheim, FINT Kafé & Bar and the 26 November date.",
+  "kilde_navn": "FINT Kafé & Bar / Hoopla",
+  "kilde_url": "https://fint-kaf--bar.hoopla.no/event/675115165",
+  "status": "publisert"
+}
