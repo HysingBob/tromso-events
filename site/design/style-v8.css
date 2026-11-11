@@ -12,39 +12,19 @@
 .site-tabs li[aria-current] a{background:#4A2A1C;color:#F7E8CB;border-color:#3A2A1E;font-weight:600}
 
 /* --- scena: lause papirbit på vedveggen --- */
+/* --- vêr no: live Yr-panel i staden for teikna scene (Bob, 2026-11-11) --- */
 .front-hero{margin-top:6px}
-.scene{position:relative;margin:14px 0 0}
-.scene-layers{position:relative;width:100%;aspect-ratio:16/9;min-height:220px;overflow:hidden;border:1px solid rgba(112,86,53,.36);background:rgba(230,213,179,.18);box-shadow:inset 0 0 60px 24px rgba(230,213,179,.35)}
-/* Bobs teikna scene ligg RETT PÅ VEDVEGGEN: ingen ramme, ingen papirboks,
-   berre ei mjukskygge mot treet. Filbyte i /assets/cutouts/ endrar sida. */
-.scene[data-scene-bg] .scene-layers{border:0;background:#202020 url(/assets/cutouts/scene-bg.webp) center/cover no-repeat;box-shadow:0 6px 18px rgba(59,38,20,.35);aspect-ratio:1174/698}
-.scene-piece{position:absolute;display:block;filter:drop-shadow(0 4px 5px rgba(80,52,25,.25))}
-.scene-layers[aria-hidden=true]{display:none}
-
-/* lag 1: himmelkropp */
-.moon-wrap{position:absolute;display:inline-block}
-.scene-piece[src$=sun.webp]{top:10%;left:10%;width:26%;max-width:220px;height:auto}
-.moon-wrap{top:12%;left:14%;width:26%;max-width:220px}
-.moon-wrap .scene-piece{position:absolute;inset:0;width:100%;height:auto;transform:none}
-.moon-wrap .scene-piece:first-child{position:relative}
-/* lag 2: aurora */
-.scene-piece[src$=aurora-1.webp]{top:2%;left:24%;width:58%;height:auto;opacity:.92}
-.scene-piece[src$=aurora-2.webp]{top:8%;left:14%;width:52%;height:auto;opacity:.8}
-/* lag 3: stjerner */
-.scene-piece[src$=stars.webp]{top:4%;right:6%;width:34%;height:auto}
-/* lag 4: skyer — den fyrste skulde dekke himmelkroppen delvis */
-.scene-piece[src$=cloud-1.webp]{top:6%;right:8%;width:42%;height:auto}
-.scene-piece[src$=cloud-2.webp]{top:30%;left:26%;width:30%;height:auto}
-.scene-piece[src$=cloud-3.webp]{top:16%;left:40%;width:26%;height:auto}
-/* lag 5: nedbør/tåke */
-.scene-piece[src$=rain.webp],.scene-piece[src$=rain-heavy.webp],.scene-piece[src$=snow.webp],.scene-piece[src$=snow-heavy.webp],.scene-piece[src$=sleet.webp]{top:48%;left:10%;width:80%;height:auto}
-.scene-piece[src$=fog.webp]{bottom:2%;left:0;width:100%;height:auto}
-
-/* lag 6: etiketten — alltid */
-.scene-tag{position:absolute;left:5%;bottom:6%;max-width:82%;background:#F2E8D5;border:1px solid rgba(112,86,53,.45);padding:10px 16px 9px;transform:rotate(-1.6deg);box-shadow:0 3px 8px rgba(80,52,25,.22);color:var(--ink);line-height:1.35}
-.scene-tag strong{font-family:var(--display);font-weight:600;font-size:34px;line-height:1;display:block}
-.scene-tag span{font-size:13px}
-.scene-credit{font-size:11px;color:var(--faded);margin:6px 2px 0}
+.weather-now{display:block;margin:14px 0 0;padding:16px 18px 12px;background:rgba(230,213,179,.42);border:1px solid rgba(112,86,53,.36);box-shadow:0 3px 7px rgba(80,52,25,.16);transform:rotate(-.4deg)}
+.weather-main{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.weather-icon{display:block;width:84px;height:84px;flex:0 0 auto}
+.weather-facts{min-width:0}
+.weather-temp{font-family:var(--display);font-weight:600;font-size:58px;line-height:1;display:block;color:var(--ink)}
+.weather-sub{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:6px;font-size:14px;color:var(--ink)}
+.weather-wind{font-weight:600}
+.weather-note{color:var(--faded)}
+.weather-temp.weather-missing{font-size:24px}
+.weather-credit{font-size:12px;color:var(--faded);margin:8px 0 0}
+.weather-credit a{color:var(--sea);font-weight:600}
 
 /* --- framside-bolkar --- */
 .front-section{margin:38px 0 0}
@@ -77,11 +57,14 @@
 
 @media(min-width:640px){
   .stat-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
-  .scene-tag strong{font-size:44px}
+  .weather-temp{font-size:74px}
+  .weather-icon{width:104px;height:104px}
   .site-tabs a{padding:8px 18px}
 }
 @media(max-width:400px){
-  .scene-layers{aspect-ratio:4/3}
+  .weather-temp{font-size:46px}
+  .weather-icon{width:64px;height:64px}
+  .weather-main{gap:12px}
   .stat-number{font-size:32px}
   .front-section h2{font-size:29px}
 }

@@ -6,8 +6,6 @@
  *   ingen kodeendring (namna er kontrakten).
  */
 const { shell, cats, tr } = require('./render');
-const fs = require('node:fs');
-const path = require('node:path');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const root = lang => `/${lang}/`;
 
@@ -22,42 +20,17 @@ function tabBar(lang, active) {
   return `<nav class="site-tabs" aria-label="${tr(lang, 'Hovedmeny', 'Main menu')}"><ul>${tabs.map(t => `<li${t.key === active ? ' aria-current="page"' : ''}><a class="tab" href="${t.url(lang)}">${esc(t[lang])}</a></li>`).join('')}</ul></nav>`;
 }
 
-/* ---------- vêr-oppskrift: symbol_code -> lag ---------- */
-/* Bertit MET sine symbolnamn. 0–3 skyer, himmelkropp, stjerner, aurora, nedbør, tåke. */
-function sceneRecipe(symbol, dark) {
-  const s = String(symbol || 'clearsky');
-  const base = s.replace(/_(day|night|polartwilight)$/, '');
-  const heavy = /heavy/.test(base);
-  const r = {
-    sky: 'sun',      // sol om dagen, måne om natta — sett nedanfor
-    clouds: 0, cloudsDark: dark,
-    rain: null, snow: null, sleet: null, fog: false,
-    aurora: false, stars: false,
-  };
-  if (base.startsWith('fair') || base === 'partlycloudy') r.clouds = 1;
-  else if (base === 'cloudy') r.clouds = 3;
-  else if (/rain$|rainshowers/.test(base) && base !== 'rainshowers') { /* nedanfor */ }
-  if (/heavysnow|snow$|snowshowers/.test(base)) r.snow = heavy ? 'heavy' : 'normal';
-  else if (/heavysleet|sleet$|sleetshowers/.test(base)) r.sleet = heavy ? 'heavy' : 'normal';
-  else if (/heavyrain|rain$|rainshowers/.test(base)) r.rain = heavy ? 'heavy' : 'normal';
-  if (base === 'fog') r.fog = true;
-  if (r.rain || r.snow || r.sleet) r.clouds = Math.max(r.clouds, heavy ? 3 : 2);
-  if (dark) {
-    r.sky = 'moon';
-    const clear = base.startsWith('clearsky') || base === 'fair';
-    if (clear) { r.stars = true; r.aurora = true; }
-  }
-  // Sky-morken er berre himmelen å sjå; «cloudy» gøymer himmelkroppen.
-  if (r.clouds >= 3) r.sky = null;
-  return r;
-}
+/* ---------- vêr no: live Yr-panel ---------- */
+/* Bob vedtok 2026-11-11: den teikna scena er HELT borte frå framsida.
+ * Panelet viser været i Tromsø akkurat no, frå MET (Yr) — same kjelde,
+ * to dataomgrep: byggjetalet frå now.json, og live-oppdatering i
+ * nettlesaren via /assets/weather-live.js (api.met.no, kvart 10. min).
+ * Aldri fabrikkerie tal: manglar no.json vêr, visast ikkje talet. */
+const YR_TROMSO = 'https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8';
+const osloHm = iso => new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Oslo', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(iso ? new Date(iso) : new Date());
+const symbolSvg = code => `/assets/yr/${encodeURIComponent(String(code || 'clearsky_day'))}.svg`;
 
-/* månefase -> kor langt skyvefdisken er over: 0 = full, 0.5 (motsett side). */
-function moonShift(phase) {
-  return Math.round(Math.min(phase, 1 - phase) * 2 * 100); // % frå venstre, 0 = fullmåne
-}
-
-/* ---------- teksten på etiketten ---------- */
+/* ---------- teksten under talet: daglengd, mørketid, midnattssol ---------- */
 function fmtDayLen(min) {
   const h = Math.floor(min / 60), m = Math.round(min % 60);
   return `${h} t ${m} min`;
@@ -78,45 +51,25 @@ function tagText(lang, now) {
   return { temp, note };
 }
 
-/* ---------- scena ---------- */
-/* scene-bg.webp i /assets/cutouts/ = Bobs eigen teikna bakgrunn, croppa utan
-   papirkant, lagt rett på vedveggen. Finst ikkje fila (eller byte ho ut),
-   fell scena attende til utklippslaga. Filbyte krev aldri kodeendring. */
-const hasBg = fs.existsSync(path.join(__dirname, '../src/assets/cutouts/scene-bg.webp'));
-function piece(name, alt, style = '') {
-  return `<img class="scene-piece" src="/assets/cutouts/${name}.webp" alt="${esc(alt)}" style="${style}">`;
-}
-function scene(lang, now) {
+/* ---------- panelet ---------- */
+function weatherNow(lang, now) {
   const w = now?.weather || {};
-  const l = now?.light || {};
-  const moon = now?.moon || {};
   const t = tagText(lang, now);
-  const parts = [];
-  if (hasBg) {
-    // Bakgrunnsmodus: teikna scene rett på vedveggen; berre etiketten oppå.
-    parts.push(`<div class="scene-tag" style="z-index:9">${t.temp ? `<strong>${esc(t.temp)}</strong>` : ''}${t.note ? `<span>${esc(t.note)}</span>` : ''}</div>`);
-  } else {
-  const recipe = sceneRecipe(w.symbol_code, l.dark !== false); // manglar ljosdata = trur mørkt (tryggast)
-  // lag 1: himmelkropp
-  if (recipe.sky === 'sun') parts.push(piece('sun', tr(lang, 'Sol', 'Sun'), 'z-index:1'));
-  else if (recipe.sky === 'moon') {
-    const shift = moonShift(moon.phase ?? 0.5);
-    parts.push(`<span class="moon-wrap" style="z-index:1">${piece('moon-full', tr(lang, 'Fullmåne', 'Full moon'))}${shift > 0 ? piece('moon-shadow', tr(lang, 'Måneskygge', 'Moon shadow'), `transform:translateX(${shift}%)`) : ''}</span>`);
-  }
-  // lag 2/3: aurora og stjerner (berre mørkt + klart)
-  if (recipe.aurora) parts.push(piece('aurora-1', tr(lang, 'Nordlys', 'Aurora'), 'z-index:2'), piece('aurora-2', '', 'z-index:2'));
-  if (recipe.stars) parts.push(piece('stars', tr(lang, 'Stjerner', 'Stars'), 'z-index:3'));
-  // lag 4: skyer
-  for (let i = 0; i < recipe.clouds; i++) parts.push(piece(`cloud-${1 + (i % 3)}`, tr(lang, 'Sky', 'Cloud'), `z-index:${4 + i};${i === 0 ? ' --cover:1' : ''}`));
-  // lag 5: nedbør
-  if (recipe.rain) parts.push(piece(recipe.rain === 'heavy' ? 'rain-heavy' : 'rain', tr(lang, 'Regn', 'Rain'), 'z-index:7'));
-  if (recipe.snow) parts.push(piece(recipe.snow === 'heavy' ? 'snow-heavy' : 'snow', tr(lang, 'Snø', 'Snow'), 'z-index:7'));
-  if (recipe.sleet) parts.push(piece('sleet', tr(lang, 'Sludd', 'Sleet'), 'z-index:7'));
-  if (recipe.fog) parts.push(piece('fog', tr(lang, 'Tåke', 'Fog'), 'z-index:8'));
-  // lag 6: etiketten (i utklippsmodus; i bakgrunnsmodus er ho lagd til ovanfor)
-  parts.push(`<div class="scene-tag" style="z-index:9">${t.temp ? `<strong>${esc(t.temp)}</strong>` : ''}${t.note ? `<span>${esc(t.note)}</span>` : ''}</div>`);
-  }
-  return `<div class="scene" data-symbol="${esc(w.symbol_code || '')}" data-dark="${l.dark ? '1' : '0'}"${hasBg ? ' data-scene-bg="1"' : ''}><div class="scene-layers" aria-hidden="${parts.length ? 'false' : 'true'}">${parts.join('')}</div>${w.source ? `<p class="scene-credit">${tr(lang, 'Værdata', 'Weather data')}: ${esc(w.source)}</p>` : ''}</div>`;
+  const upd = w.updated ? osloHm(w.updated) : '';
+  const temp = t.temp
+    ? `<strong class="weather-temp">${esc(t.temp)}</strong>`
+    : `<strong class="weather-temp weather-missing">${esc(tr(lang, 'Vêret er ikkje tilgjengeleg', 'Weather unavailable'))}</strong>`;
+  const icon = w.symbol_code
+    ? `<img class="weather-icon" src="${symbolSvg(w.symbol_code)}" alt="" width="84" height="84">`
+    : '';
+  const num = (lang, v) => lang === 'no' ? String(v).replace('.', ',') : String(v);
+  const wind = w.wind != null
+    ? `<span class="weather-wind">${esc(tr(lang, 'vind', 'wind'))} ${num(lang, w.wind)} m/s</span>`
+    : '';
+  return `<div class="front-hero"><section class="weather-now" data-lat="69.649" data-lon="18.956" data-lang="${lang}" aria-label="${esc(tr(lang, 'Været i Tromsø nå', 'Weather in Tromsø now'))}">
+  <div class="weather-main">${icon}<div class="weather-facts">${temp}<div class="weather-sub">${wind}${t.note ? `<span class="weather-note">${esc(t.note)}</span>` : ''}</div></div></div>
+  <p class="weather-credit"><a href="${YR_TROMSO}" rel="noopener noreferrer">${esc(tr(lang, 'Været nå i Tromsø', 'Weather now in Tromsø'))} — Yr</a>${upd ? ` · <span class="weather-updated">${esc(tr(lang, 'oppdatert', 'updated'))} ${esc(upd)}</span>` : ''}</p>
+</section><script src="/assets/weather-live.js" defer></script></div>`;
 }
 
 /* ---------- Skjer i dag ---------- */
@@ -186,7 +139,7 @@ function oppslag(lang, now) {
 
 /* ---------- heile framsida ---------- */
 function frontPage(lang, catalog, now, langAlt) {
-  const body = `${tabBar(lang,'front')}<div class="front-hero">${scene(lang, now)}</div>${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
+  const body = `${tabBar(lang,'front')}${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
   return shell(lang, tr(lang, 'Oppslag', 'Front'), body, langAlt, '', 'page-front');
 }
-module.exports = { tabs, tabBar, sceneRecipe, moonShift, tagText, scene, skjerIDag, fireTall, oppslag, frontPage, statCard };
+module.exports = { tabs, tabBar, tagText, weatherNow, symbolSvg, skjerIDag, fireTall, oppslag, frontPage, statCard };
