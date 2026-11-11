@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-11-kirkene-sammen-og-samtidig",
+  "start": "2026-11-11T19:00",
+  "sted": "Tromsø domkirke",
+  "pris": "Gratis",
+  "gratis": true,
+  "kategori": ["Aktivitet"],
+  "malgruppe": ["18+"],
+  "no": {
+    "tittel": "Kirkene sammen og samtidig mot moderne slaveri",
+    "ingress": "En gratis markering av Global uke med musikk, bønn, appell og Global kafé i Tromsø domkirke.",
+    "tekst": "Tromsø domkirke og Frelsesarmeen inviterer til en felles markering av Global uke, med fokus på moderne slaveri og åpenhetsloven. Programmet omfatter musikk, bønn- og appellevandring, andakt og Global kafé med hjemmebakt bakst og suppe. Hele arrangementet er gratis."
+  },
+  "en": {
+    "title": "Churches Together Against Modern Slavery",
+    "lead": "A free Global Week gathering with music, prayer, an appeal walk and a Global Café at Tromsø Cathedral.",
+    "text": "Tromsø Cathedral and the Salvation Army invite the public to mark Global Week, focusing on modern slavery and the Transparency Act. The programme includes music, a prayer-and-appeal walk, a short devotional talk, and a Global Café serving homemade baked goods and soup. The event is free."
+  },
+  "bilde": "images/2026-11-11-kirkene-sammen-og-samtidig.webp",
+  "bildetekst_no": "Original illustrasjon av en lysende sti gjennom et stilisert kirkerom.",
+  "bildetekst_en": "Original illustration of a light-filled path through a stylised church interior.",
+  "kilde_navn": "Tromsø kirkelige fellesråd",
+  "kilde_url": "https://kirken.tromso.no/Kalenderdetaljer?Publish=Polo&Att=Nei&EventId=ba73c677-ee33-4e00-bc80-f93151019395&OccurenceId=ba73c677-ee33-4e00-bc80-f93151019395",
+  "status": "publisert"
+}
