@@ -1,0 +1,33 @@
+{
+  "id": "2026-12-03-wild-harvest-ritual-pust",
+  "start": "2026-12-03T11:45",
+  "visningstider": [
+    "11:45"
+  ],
+  "sted": "PUST Lavvo, Tromsø",
+  "adresse": "Sjøgata 41, 9008 Tromsø",
+  "pris": "Ikke-medlem: 1 699 kr",
+  "gratis": false,
+  "kategori": [
+    "Aktivitet"
+  ],
+  "malgruppe": [
+    "18+"
+  ],
+  "no": {
+    "tittel": "Wild Harvest Ritual",
+    "ingress": "Et to timer langt badsturitual med badstue, sjøbad og urtete på takterrassen.",
+    "tekst": "Ritualet varer i to timer og kombinerer 1,5 time med guidet badstue. Avsluttes med urtete på takterrassen. Starttider: 11:45. Ikke-medlem: 1 699 kr."
+  },
+  "en": {
+    "title": "Wild Harvest Ritual",
+    "lead": "A two-hour sauna ritual with sea dips and herbal tea on the rooftop.",
+    "text": "The two-hour experience includes 1.5 hours of guided sauna rituals and sea dips, followed by herbal tea on the rooftop. Start times: 11:45. Non-member ticket: NOK 1,699."
+  },
+  "bilde": "https://firebasestorage.googleapis.com/v0/b/periode-prod.appspot.com/o/merchant%2FBWQ5WvlNUNrO8cqwGPeB%2Ffile1788952949046Pust-Tromso-MSM-Mailee-Michalon-20-06-2026-04480.jpg?alt=media&token=8d5451c9-814c-438c-8369-03ecb6bcbd18",
+  "bildetekst_no": "Deltakere i badstue under Wild Harvest Ritual.",
+  "bildetekst_en": "Guests in a sauna during the Wild Harvest Ritual.",
+  "kilde_navn": "PUST.",
+  "kilde_url": "https://minside.periode.no/booking/BWQ5WvlNUNrO8cqwGPeB/QD424ENLXFYnjzpoTgRk/2026-12-03/11:45",
+  "status": "publisert"
+}
