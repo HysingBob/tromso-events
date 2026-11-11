@@ -241,6 +241,43 @@ body{
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
 .detail[data-sted="Aurora kino Fokus"] .source-note{color:#E8D9BC}
+/* Løvetann Studio (Bob 2026-11-11): signatur — Wallpaper_23 frå Koofr
+   (~/Koofr/Assets/walllpaper_23.jpg). Lys blågrå mural = «dagkort»:
+   standard mørkt blekk står urørt — ink #3A2A1E 7,1:1, rust 4,8:1 mot
+   lysaste partiet (p99.9 lum 0.729). Berre tekstur + fallbackfarge. */
+.event-card[data-sted="Løvetann Studio"]::before{background-image:url("/assets/textures/lovewall-23.webp");background-color:#669697}
+.detail[data-sted="Løvetann Studio"]{background-image:url("/assets/textures/lovewall-23.webp");background-color:#669697}
+/* Dagkort på arrangementsida: normalt ligg .detail på den mørke vedveggen
+   med kvit tekst — her er muralen lys, så alt blekk inni .detail vert
+   mørkt att (same nivå som korta: ink 7,1:1, rust-lenker 4,8:1). */
+.detail[data-sted="Løvetann Studio"]{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] h1{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] .eyebrow{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] .detail-heading .lead,
+.detail[data-sted="Løvetann Studio"] .story p,
+.detail[data-sted="Løvetann Studio"] .source-note{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] .facts dt{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] .facts dd{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] .story a{color:#7A2E1C}
+.detail[data-sted="Løvetann Studio"] .ticket-link{color:#3A2A1E}
+/* PUST Lavvo (Bob 2026-11-11): signatur — mahogany_1 frå Koofr
+   (~/Koofr/Assets/mahogany_1.png). Mahogny er midtone (p99.9 lum 0.444):
+   for lys for krem, for mørk for blekk. Same 28 % svartvask som vedveggen
+   ligg over teksturen (som fyrste lag i background-image) — p99.9 etter
+   vask 0.320, kremblekk 6,4–6,9:1. Nattkort-blekk (krem) som dei andre
+   mørke signaturane. */
+.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp");background-color:#974F23}
+.event-card[data-sted="PUST Lavvo, Tromsø"]{color:#F7E8CB}
+.event-card[data-sted="PUST Lavvo, Tromsø"] h3{color:#F7E8CB}
+.event-card[data-sted="PUST Lavvo, Tromsø"] .card-kicker{color:#FBEFDB}
+.event-card[data-sted="PUST Lavvo, Tromsø"] .card-meta{color:#F7E8CB}
+.event-card[data-sted="PUST Lavvo, Tromsø"] .free{color:#DDEFC0}
+.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp");background-color:#974F23;color:#F7E8CB}
+.detail[data-sted="PUST Lavvo, Tromsø"] h1{color:#F7E8CB}
+.detail[data-sted="PUST Lavvo, Tromsø"] .eyebrow{color:#FBEFDB}
+.detail[data-sted="PUST Lavvo, Tromsø"] .lead{color:#F7E8CB}
+.detail[data-sted="PUST Lavvo, Tromsø"] .source-note{color:#F7E8CB}
+.detail[data-sted="PUST Lavvo, Tromsø"] .facts dt{color:#F7E8CB}
 /* Tromsø Kulturhus (Bob 2026-11-11): signaturvev — Rosewood_1 frå Koofr
    (~/Koofr/Assets/rosewood_1.png). Mørk rosentre-ved = nattkort: alle tre
    scenene (Hovedscenen, Lillescenen, Galleriet) treffast med prefixet ^=.
