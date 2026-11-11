@@ -1,0 +1,34 @@
+{
+  "id": "2026-12-15-zenmorgen-tromsobadet",
+  "start": "2026-12-15T07:30",
+  "visningstider": [
+    "07:30",
+    "08:30"
+  ],
+  "sted": "Tromsøbadet",
+  "adresse": "Templarheimvegen 35, 9010 Tromsø",
+  "pris": "Ordinær vokseninngang: 213 kr på hverdager; gratis for medlemmer",
+  "gratis": false,
+  "kategori": [
+    "Aktivitet"
+  ],
+  "malgruppe": [
+    "18+"
+  ],
+  "no": {
+    "tittel": "ZenMorgen – aufguss og velvære",
+    "ingress": "Start tirsdagen med aufgussritual og andre velværeaktiviteter i badstua på Tromsøbadet.",
+    "tekst": "ZenMorgen arrangeres hver tirsdag og fredag morgen. Aufgussritualene holdes tirsdager kl. 07:30 og 08:30. Medlemmer har fri tilgang; andre kan delta med ordinær drop-in-billett. Forhåndsbooking er ikke nødvendig. Håndkle er obligatorisk for å delta på aufguss."
+  },
+  "en": {
+    "title": "ZenMorgen – aufguss and wellness",
+    "lead": "Start Tuesday with an aufguss sauna ritual and other wellness activities at Tromsøbadet.",
+    "text": "ZenMorgen takes place every Tuesday and Friday morning. Tuesday’s aufguss rituals are at 07:30 and 08:30. Members have free access; others can attend with a regular drop-in ticket. No advance booking is required. A towel is mandatory to take part in the aufguss."
+  },
+  "bilde": "https://www.tromsobadet.no/sites/default/files/2025-03/Aufguss_BarboraFuskova_54167774956_liggende.jpg",
+  "bildetekst_no": "En badstumester holder store vifter under et aufgussritual i en badstue.",
+  "bildetekst_en": "A sauna master holds large fans during an aufguss ritual in a sauna.",
+  "kilde_navn": "Tromsøbadet",
+  "kilde_url": "https://www.tromsobadet.no/zenmorgen",
+  "status": "publisert"
+}
