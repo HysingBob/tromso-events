@@ -224,18 +224,19 @@ body{
 .event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
 .event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
 .event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
-/* Aurora kino Fokus (Bob 2026-11-11): signaturvev — fabric 20 frå Koofr
-   (~/Koofr/Assets/1K-fabric_20-diffuse.jpg). Mørkt stoff = «nattkort»:
+/* Aurora kino Fokus (Bob 2026-11-11): signatur — travertine_1 frå Koofr
+   (~/Koofr/Assets/travertine_1.jpg). Mørksvart travertin = «nattkort»:
    kinosalen er den mørke rommet, så blekket vert lyst (natt/dag-idéen).
-   Kontrast på flata: #F7E8CB 5.3:1, #F2D8B3 4.7:1, #E8D9BC 4.6:1 mot p99.9.
-   Arrangementssida: same vev bak artikkelen. */
-.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/fabric-20.webp");background-color:#293B4A}
+   Kontrast på flata (p99.9 lum 0.290): #F7E8CB 7,3:1, #F2D8B3 6,4:1,
+   #E8D9BC 6,4:1, «Gratis» #CBE3A8 6,4:1. Arrangementssida: same stein
+   bak artikkelen. */
+.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/travertine.webp");background-color:#232323}
 .event-card[data-sted="Aurora kino Fokus"]{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] h3{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] .card-kicker{color:#F2D8B3}
 .event-card[data-sted="Aurora kino Fokus"] .card-meta{color:#E8D9BC}
 .event-card[data-sted="Aurora kino Fokus"] .free{color:#CBE3A8}
-.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/fabric-20.webp");background-color:#293B4A;color:#F7E8CB}
+.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/travertine.webp");background-color:#232323;color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
@@ -306,8 +307,8 @@ body{
    (Bob 2026-11-11: «heile må vere tekstur»). Linjene ovanfor/under held
    ho framleis som eit eige felt. */
 .facts{background:transparent}
-/* På mørke stoff (nattkort) må etikettane (dt) også vera lyse:
-   #E8D9BC 4.6:1 mot fabric-20 p99.9, #E8D9BC 9,8:1 mot rosewood p99.9. */
+/* På mørke flater (nattkort) må etikettane (dt) også vera lyse:
+   #E8D9BC 6,4:1 mot travertine p99.9, #E8D9BC 9,8:1 mot rosewood p99.9. */
 .detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
 .detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
