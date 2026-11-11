@@ -4,12 +4,7 @@
   "slutt": "2026-11-24T18:00",
   "sted": "Tvibit",
   "adresse": "Parkgata 27/29, 9008 Tromsø",
-  "kategori": [
-    "Aktivitet"
-  ],
-  "malgruppe": [
-    "Ungdom"
-  ],
+  "kategori": ["Aktivitet"],
   "gratis": false,
   "no": {
     "tittel": "Kreativ Tirsdag – Tegning",

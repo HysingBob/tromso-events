@@ -4,13 +4,8 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "175 kr (ordinærbillett)",
-  "kategori": [
-    "Film"
-  ],
+  "kategori": ["Film"],
   "aldersgrense": "12 år",
-  "malgruppe": [
-    "Ungdom"
-  ],
   "gratis": false,
   "no": {
     "tittel": "Ramayana: Rise of a Legend",
@@ -28,7 +23,5 @@
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/ramayana-rise-of-a-legend/1692",
   "status": "publisert",
-  "visningstider": [
-    "19:00"
-  ]
+  "visningstider": ["19:00"]
 }

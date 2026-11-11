@@ -9,21 +9,23 @@ const output = path.join(root, '_site');
 const eventsDir = path.join(root, 'events');
 const html = p => fs.readFileSync(path.join(output, p, 'index.html'), 'utf8');
 
-// Desse sju er Bob si kategoriliste; «malgruppe» er kven arrangementet passar for.
-const KATEGORIAR = ['Konsert', 'Scene', 'Film', 'Utstilling', 'Prat', 'Idrett', 'Aktivitet'];
-const MALGRUPPER = ['Familie', 'Ungdom', '18+'];
+// Desse fem er Bob si kategoriliste (2026-11-11); «malgruppe» er kven arrangementet passar for.
+const KATEGORIAR = ['Konsert', 'Scene', 'Film', 'Aktivitet', 'Annet'];
+const MALGRUPPER = ['Familie'];
 
 const raw = () => fs.readdirSync(eventsDir).filter(f => f.endsWith('.json'))
   .map(f => JSON.parse(fs.readFileSync(path.join(eventsDir, f), 'utf8')));
 
-test('kvar arrangementsfil har nøyaktig éi kategori frå dei sju og nøyaktig éi målgruppe', () => {
+test('kvar arrangementsfil har nøyaktig éi kategori frå dei fem; målgruppe (Familie) er valfri', () => {
   const files = raw();
   assert.ok(files.length > 0);
   for (const e of files) {
     assert.ok(Array.isArray(e.kategori) && e.kategori.length === 1, `${e.id} må ha nøyaktig éi kategori`);
     for (const k of e.kategori) assert.ok(KATEGORIAR.includes(k), `${e.id} har ukjend kategori «${k}»`);
-    assert.ok(Array.isArray(e.malgruppe) && e.malgruppe.length === 1, `${e.id} må ha nøyaktig éi målgruppe`);
-    for (const m of e.malgruppe) assert.ok(MALGRUPPER.includes(m), `${e.id} har ukjend målgruppe «${m}»`);
+    if (e.malgruppe !== undefined) {
+      assert.ok(Array.isArray(e.malgruppe) && e.malgruppe.length === 1, `${e.id} må ha nøyaktig éi målgruppe`);
+      for (const m of e.malgruppe) assert.ok(MALGRUPPER.includes(m), `${e.id} har ukjend målgruppe «${m}»`);
+    }
   }
 });
 
@@ -40,7 +42,9 @@ test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber dat
   assert.doesNotMatch(front, /class="section-label"/);
   assert.match(front, /class="category-controls filter-cluster js-only"/);
   assert.match(front, /data-filter-reset/);
-  assert.match(front, /data-audience-filter="18\+"/);
+  assert.match(front, /data-audience-filter="Familie"/);
+  assert.doesNotMatch(front, /data-audience-filter="18\+"/);
+  assert.doesNotMatch(front, /data-audience-filter="Ungdom"/);
   assert.match(front, /data-free-filter="/);
   assert.match(front, /data-filter-reset/);
 
@@ -53,22 +57,22 @@ test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber dat
   }
 });
 
-test('alle sju kategoriar får knapp sjølv utan arrangement i kategorien', () => {
+test('alle fem kategoriar får knapp sjølv utan arrangement i kategorien', () => {
   const front = html('no/');
   const knappar = [...front.matchAll(/data-category-filter="([^"]+)"/g)].map(m => m[1]);
-  assert.deepEqual(knappar, ['Konsert', 'Scene', 'Film', 'Utstilling', 'Prat', 'Idrett', 'Aktivitet']);
-  for (const m of ['Familie', 'Ungdom', '18+']) {
+  assert.deepEqual(knappar, ['Konsert', 'Scene', 'Film', 'Aktivitet', 'Annet']);
+  for (const m of ['Familie']) {
     assert.match(front, new RegExp(`data-audience-filter="${m.replace('+', '\\+')}"`));
   }
   assert.match(front, /data-free-filter="/);
 });
 
-test('Idrett-knappen viser TIL-kampene som er publisert i kategorien', () => {
+test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
   const front = html('no/');
-  const publishedSports = raw().filter(e => e.status === 'publisert' && e.kategori.includes('Idrett'));
+  const publishedSports = raw().filter(e => e.status === 'publisert' && e.kategori.includes('Annet'));
   assert.ok(publishedSports.some(e => e.id === '2026-11-21-til-viking'));
   assert.ok(publishedSports.some(e => e.id === '2026-12-06-til-start'));
-  assert.match(front, /data-category-filter="Idrett"/);
+  assert.match(front, /data-category-filter="Annet"/);
   assert.match(front, /Tromsø IL – Viking/);
   assert.match(front, /Tromsø IL – Start/);
 });

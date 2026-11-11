@@ -65,17 +65,17 @@ test('«Skjer i dag» viser aldri Film — men andre kategoriar får stå (Bob 2
     mk('a', ['Film'], '2026-11-11'),
     mk('b', ['Konsert'], '2026-11-11'),
     mk('c', ['Film', 'Scene'], '2026-11-11'),
-    mk('d', ['Utstilling'], '2026-11-11'),
-    mk('e', ['Prat'], '2026-11-11'),
+    mk('d', ['Annet'], '2026-11-11'),
+    mk('e', ['Scene'], '2026-11-11'),
   ];
   const html = skjerIDag('no', upcoming, now);
   assert.match(html, /Konsert/);
-  assert.match(html, /Utstilling/);
+  assert.match(html, /Annet/);
   assert.doesNotMatch(html, /id="a"|>a</);
   assert.doesNotMatch(html, /id="c"|>c</);   // Film sjølv som andrekategori
   // negativtest: utan filmfilteret skulle a vore med — sjekk at vaktet faktisk ser dataa
   assert.ok(html.includes('Konsert'), 'vaktet må ha faktiske kort å sjå');
   // ingen Film i det heile = bolken blir ikkje tom av andre grunnar
-  const bare = skjerIDag('no', [mk('f', ['Film'], '2026-11-11'), mk('g', ['Idrett'], '2026-11-11')], now);
-  assert.match(bare, /Idrett/);
+  const bare = skjerIDag('no', [mk('f', ['Film'], '2026-11-11'), mk('g', ['Annet'], '2026-11-11')], now);
+  assert.match(bare, /Annet/);
 });

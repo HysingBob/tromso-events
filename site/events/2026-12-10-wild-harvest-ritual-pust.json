@@ -1,20 +1,12 @@
 {
   "id": "2026-12-10-wild-harvest-ritual-pust",
   "start": "2026-12-10T11:45",
-  "visningstider": [
-    "11:45",
-    "13:30"
-  ],
+  "visningstider": ["11:45", "13:30"],
   "sted": "PUST Lavvo, Tromsø",
   "adresse": "Sjøgata 41, 9008 Tromsø",
   "pris": "Ikke-medlem: 1 699 kr",
   "gratis": false,
-  "kategori": [
-    "Aktivitet"
-  ],
-  "malgruppe": [
-    "18+"
-  ],
+  "kategori": ["Aktivitet"],
   "no": {
     "tittel": "Wild Harvest Ritual",
     "ingress": "Et to timer langt badsturitual med badstue, sjøbad og urtete på takterrassen.",

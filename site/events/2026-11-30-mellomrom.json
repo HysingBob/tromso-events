@@ -4,12 +4,7 @@
   "slutt": "2026-11-30T20:00",
   "sted": "Tvibit",
   "adresse": "Parkgata 27/29, 9008 Tromsø",
-  "kategori": [
-    "Aktivitet"
-  ],
-  "malgruppe": [
-    "Ungdom"
-  ],
+  "kategori": ["Aktivitet"],
   "gratis": true,
   "no": {
     "tittel": "Mellomrom",

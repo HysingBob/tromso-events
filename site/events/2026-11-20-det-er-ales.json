@@ -3,12 +3,7 @@
   "start": "2026-11-20T19:00",
   "sted": "Hålogaland Teater, Scene Øst",
   "adresse": "Teaterplassen 1, 9258 Tromsø",
-  "kategori": [
-    "Scene"
-  ],
-  "malgruppe": [
-    "18+"
-  ],
+  "kategori": ["Scene"],
   "gratis": false,
   "no": {
     "tittel": "Det er Ales",

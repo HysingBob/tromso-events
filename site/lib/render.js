@@ -5,17 +5,13 @@ const cats = [
   {no:'Konsert',en:'Concert',slug:'concert',key:'Konsert'},
   {no:'Scene',en:'Stage',slug:'stage',key:'Scene'},
   {no:'Film',en:'Film',slug:'film',key:'Film'},
-  {no:'Utstilling',en:'Exhibition',slug:'exhibition',key:'Utstilling'},
-  {no:'Prat',en:'Talks',slug:'talk',key:'Prat'},
-  {no:'Idrett',en:'Sports',slug:'sports',key:'Idrett'},
-  {no:'Aktivitet',en:'Activity',slug:'activity',key:'Aktivitet'}
+  {no:'Aktivitet',en:'Activity',slug:'activity',key:'Aktivitet'},
+  {no:'Annet',en:'Other',slug:'annet',key:'Annet'}
 ];
 // Kven arrangementet passar for. Nøklane er dei same i begge språk — berre
 // merkelappen vert omsett. Sjå migrate_filters.py for kva reglane er.
 const audiences = [
-  {no:'Familie',en:'Family',key:'Familie'},
-  {no:'Ungdom',en:'Youth',key:'Ungdom'},
-  {no:'18+',en:'18+',key:'18+'}
+  {no:'Familie',en:'Family',key:'Familie'}
 ];
 const themeSheets = (process.env.THEME || 'v2') === 'v2' ? ['leather.css'] : ['leather.css', `style-${process.env.THEME}.css`];
 const themeLinks = themeSheets.map(f=>`<link rel="stylesheet" href="/assets/${f}">`).join('');

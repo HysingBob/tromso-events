@@ -2,15 +2,14 @@
 """Éin gong: legg om arrangementsdata til nye filterdimensjonar.
 
 Gjer tre ting på filene i ../events/:
-  1. kategori mappast inn i Bob sine sju: Konsert, Scene, Film, Utstilling,
-     Prat, Idrett, Aktivitet.
-  2. nytt felt «malgruppe»: liste av Familie / Ungdom / 18+.
+  1. kategori mappast inn i Bob sine fem: Konsert, Scene, Film, Aktivitet,
+     Annet (Bob 2026-11-11 — Utstilling/Prat/Idrett var for tynne).
+  2. nytt felt «malgruppe»: liste av Familie (Ungdom/18+ fell bort).
   3. «gratis» vert alltid ein boolsk verdi (manglande = ikkje gratis).
 
 Malgruppe-regel (dokumentert i tromso_net_design.md):
-  - 18+     = 18-årsgrense eller tydeleg vaksenarrangement.
-  - Ungdom  = også aktuelt for ungdom (kan stå saman med 18+ når 18-åringar er velkomne).
-  - Familie = passar for barn og vaksne saman.
+  - Familie = passar for barn og vaksne saman. (Ungdom/18+ vart fjerna som
+    filterknappar 2026-11-11; berre Familie står att.)
 """
 import json, pathlib, re
 
@@ -31,7 +30,7 @@ def tighten(text):
 KATEGORI_MAP = {
     'Foredrag': 'Prat',
     'Humor': 'Scene',
-    'Annet': 'Aktivitet',
+    'Annet': 'Annet',
     'Familie': 'Scene',
     'Friluft': 'Aktivitet',
     'Mat og drikke': 'Aktivitet',
@@ -42,7 +41,7 @@ KATEGORI_PÅSLAG = {
     '2026-11-12-brokeback-live-dub': ['Film'],
     # «Familie» var ein kategori i det gamle settet. Museumsnatta er i røynda ei
     # utstilling — familie er målgruppe, ikkje kategori.
-    '2026-11-28-natt-pa-museet': ['Utstilling'],
+    '2026-11-28-natt-pa-museet': ['Annet'],
 }
 
 MALGRUPPE = {

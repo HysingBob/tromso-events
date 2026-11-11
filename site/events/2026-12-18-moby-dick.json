@@ -3,12 +3,7 @@
   "start": "2026-12-18T19:00",
   "sted": "Hålogaland Teater, Scene Vest",
   "adresse": "Teaterplassen 1, 9258 Tromsø",
-  "kategori": [
-    "Scene"
-  ],
-  "malgruppe": [
-    "Ungdom"
-  ],
+  "kategori": ["Scene"],
   "gratis": false,
   "no": {
     "tittel": "Moby Dick",

@@ -5,12 +5,7 @@
   "adresse": "Strandgata 14, 9008 Tromsø",
   "pris": "305 kr (ordinær billett)",
   "gratis": false,
-  "kategori": [
-    "Konsert"
-  ],
-  "malgruppe": [
-    "18+"
-  ],
+  "kategori": ["Konsert"],
   "no": {
     "tittel": "Ringo Moon – slippkonsert",
     "ingress": "Tromsøbandet Ringo Moon slipper debutalbumet «The Burning Question» med konsert på Blårock.",

@@ -1,20 +1,12 @@
 {
   "id": "2026-12-18-zenmorgen-tromsobadet",
   "start": "2026-12-18T10:30",
-  "visningstider": [
-    "10:30",
-    "11:30"
-  ],
+  "visningstider": ["10:30", "11:30"],
   "sted": "Tromsøbadet",
   "adresse": "Templarheimvegen 35, 9010 Tromsø",
   "pris": "Ordinær vokseninngang: 213 kr på hverdager; gratis for medlemmer",
   "gratis": false,
-  "kategori": [
-    "Aktivitet"
-  ],
-  "malgruppe": [
-    "18+"
-  ],
+  "kategori": ["Aktivitet"],
   "no": {
     "tittel": "ZenMorgen – aufguss og velvære",
     "ingress": "Start fredagen med aufgussritual og andre velværeaktiviteter i badstua på Tromsøbadet.",
