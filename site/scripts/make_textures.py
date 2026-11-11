@@ -174,6 +174,23 @@ def mahogany(out):
     out['mahogany'] = report('mahogany', p, im2)
 
 
+def ishavswall38(out):
+    """Ishavskatedralen-signatur (Bob 2026-11-11): wallpaper_38 frå Koofr
+    (~/Koofr/Assets/wallpaper_38.png) som ishavswall-38.webp, 1024 px brei,
+    uendra elles. Lys off-white mural (snitt #DFDBCE, p99.9 lum 0.902) =
+    «dagkort»: standard mørkt blekk (ink 11,0:1, rust 7,5:1)."""
+    sp = os.path.join(SRC, 'ishavswall-38.png')
+    if not os.path.exists(sp):
+        print('ishavswall-38: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'ishavswall-38.webp')
+    out['ishavswall-38'] = report('ishavswall-38', p, im2)
+
+
 def rosewood(out):
     """Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr
     (~/Koofr/Assets/rosewood_1.png) som rosewood.webp, 1024 px brei,
@@ -230,6 +247,7 @@ def main():
     aurorawall4(out)
     lovewall23(out)
     mahogany(out)
+    ishavswall38(out)
     rosewood(out)
 
     print('\nsnittfarger for CSS:')

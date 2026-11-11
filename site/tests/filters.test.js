@@ -133,6 +133,17 @@ test('PUST Lavvo får mahogany_1 som signaturflate (kort + arrangementside)', ()
   assert.match(css, /\.detail\[data-sted="PUST Lavvo, Tromsø"\]\{[^}]*color:#F7E8CB\}/);
 });
 
+// Ishavskatedralen-signatur (Bob 2026-11-11): wallpaper_38 frå Koofr som
+// eitt lag på korta OG arrangementssida — lys off-white mural = «dagkort»,
+// standard mørkt blekk, og mørkt blekk-overstyringar inni .detail.
+test('Ishavskatedralen får wallpaper_38 som signaturflate (kort + arrangementside)', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'ishavswall-38.webp')), 'ishavswall-38.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="Ishavskatedralen"]::before{background-image:url("/assets/textures/ishavswall-38.webp")'), 'kortet manglar ishavswall-38-regelen');
+  assert.ok(css.includes('.detail[data-sted="Ishavskatedralen"]{background-image:url("/assets/textures/ishavswall-38.webp")'), 'arrangementssida manglar ishavswall-38-regelen');
+  assert.match(css, /\.detail\[data-sted="Ishavskatedralen"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
+});
+
 // Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
 // med prefixet ^=. Alt blekk i krem (veden er mørk men lettare enn stoffa).

@@ -278,6 +278,24 @@ body{
 .detail[data-sted="PUST Lavvo, Tromsø"] .lead{color:#F7E8CB}
 .detail[data-sted="PUST Lavvo, Tromsø"] .source-note{color:#F7E8CB}
 .detail[data-sted="PUST Lavvo, Tromsø"] .facts dt{color:#F7E8CB}
+/* Ishavskatedralen (Bob 2026-11-11): signatur — wallpaper_38 frå Koofr
+   (~/Koofr/Assets/wallpaper_38.png). Lys off-white mural (p99.9 lum 0.902)
+   = «dagkort»: standard mørkt blekk på korta — ink #3A2A1E 11,0:1,
+   rust 7,5:1. */
+.event-card[data-sted="Ishavskatedralen"]::before{background-image:url("/assets/textures/ishavswall-38.webp");background-color:#DFDBCE}
+.detail[data-sted="Ishavskatedralen"]{background-image:url("/assets/textures/ishavswall-38.webp");background-color:#DFDBCE}
+/* Dagkort på arrangementsida: .detail ligg normalt på mørk vedvegg med
+   kvit tekst — mot lys mural må alt blekk inni .detail bli mørkt att. */
+.detail[data-sted="Ishavskatedralen"]{color:#3A2A1E}
+.detail[data-sted="Ishavskatedralen"] h1{color:#3A2A1E}
+.detail[data-sted="Ishavskatedralen"] .eyebrow{color:#3A2A1E}
+.detail[data-sted="Ishavskatedralen"] .detail-heading .lead,
+.detail[data-sted="Ishavskatedralen"] .story p,
+.detail[data-sted="Ishavskatedralen"] .source-note{color:#3A2A1E}
+.detail[data-sted="Ishavskatedralen"] .facts dt{color:#3A2A1E}
+.detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
+.detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
+.detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
 /* Tromsø Kulturhus (Bob 2026-11-11): signaturvev — Rosewood_1 frå Koofr
    (~/Koofr/Assets/rosewood_1.png). Mørk rosentre-ved = nattkort: alle tre
    scenene (Hovedscenen, Lillescenen, Galleriet) treffast med prefixet ^=.
