@@ -1,0 +1,26 @@
+{
+  "id": "2026-12-19-julekonsert-arctic-voices",
+  "start": "2026-12-19T19:00",
+  "sted": "Ishavskatedralen",
+  "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
+  "pris": "595 kr (inkl. 35 kr gebyr)",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
+  "no": {
+    "tittel": "Julekonsert med Arctic Voices",
+    "ingress": "Arctic Voices feirer 30-årsjubileum med julekonsert i Ishavskatedralen.",
+    "tekst": "Blandakoret Arctic Voices feirer 30 år med en jubileumskonsert i Ishavskatedralen. Publikum kan glede seg til vakker korklang, kjente julesanger og musikalske overraskelser under ledelse av dirigent Guttorm Lindquist."
+  },
+  "en": {
+    "title": "Arctic Voices Christmas Concert",
+    "lead": "Arctic Voices celebrates its 30th anniversary with a Christmas concert at the Arctic Cathedral.",
+    "text": "The mixed choir Arctic Voices celebrates 30 years with an anniversary concert at the Arctic Cathedral. The programme includes choral music, familiar Christmas songs and musical surprises, conducted by Guttorm Lindquist."
+  },
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/10/arctic-voices-lang.jpg",
+  "bildetekst_no": "Arctic Voices’ julekonsertplakat med Ishavskatedralen, nordlys og koret.",
+  "bildetekst_en": "Arctic Voices’ Christmas concert poster showing the Arctic Cathedral, northern lights and choir.",
+  "kilde_navn": "Ishavskatedralen",
+  "kilde_url": "https://ishavskatedralen.no/arrangementer/julekonsert-med-arctic-voices/",
+  "status": "publisert"
+}
