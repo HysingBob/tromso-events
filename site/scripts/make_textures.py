@@ -137,6 +137,24 @@ def travertine(out):
     out['travertine'] = report('travertine', p, im2)
 
 
+def lovewall23(out):
+    """Løvetann Studio-signatur (Bob 2026-11-11): Wallpaper_23 frå Koofr
+    (~/Koofr/Assets/walllpaper_23.jpg — filnamnet har trippel-l) som
+    lovewall-23.webp, 1024 px brei, uendra elles. Lys blågrå mural
+    (snitt #669697, p99.9 lum 0.729) = «dagkort»: standard mørkt blekk
+    (#3A2A1E 7,1:1, rust 4,8:1)."""
+    sp = os.path.join(SRC, 'lovewall-23.jpg')
+    if not os.path.exists(sp):
+        print('lovewall-23: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'lovewall-23.webp')
+    out['lovewall-23'] = report('lovewall-23', p, im2)
+
+
 def rosewood(out):
     """Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr
     (~/Koofr/Assets/rosewood_1.png) som rosewood.webp, 1024 px brei,
@@ -191,6 +209,7 @@ def main():
     v71_textures(out)
     wall_textures(out)
     travertine(out)
+    lovewall23(out)
     rosewood(out)
 
     print('\nsnittfarger for CSS:')

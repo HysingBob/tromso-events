@@ -109,6 +109,18 @@ test('Aurora kino Fokus får travertine_1 som signurflate (kort + arrangementsid
   assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
 });
 
+// Løvetann Studio-signatur (Bob 2026-11-11): Wallpaper_23 frå Koofr som
+// eitt lag på korta OG arrangementssida — lys blågrå mural = «dagkort»,
+// standard mørkt blekk står urørt.
+test('Løvetann Studio får Wallpaper_23 som signaturflate (kort + arrangementside)', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'lovewall-23.webp')), 'lovewall-23.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="Løvetann Studio"]::before{background-image:url("/assets/textures/lovewall-23.webp")'), 'kortet manglar lovewall-23-regelen');
+  assert.ok(css.includes('.detail[data-sted="Løvetann Studio"]{background-image:url("/assets/textures/lovewall-23.webp")'), 'arrangementssida manglar lovewall-23-regelen');
+  // Dagkort: muralen er lys, så arrangementsida må ha mørkt blekk inni .detail
+  assert.match(css, /\.detail\[data-sted="Løvetann Studio"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
+});
+
 // Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
 // med prefixet ^=. Alt blekk i krem (veden er mørk men lettare enn stoffa).
