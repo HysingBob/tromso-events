@@ -130,15 +130,34 @@ async function lightInfo() {
   };
 }
 
-/* ---- SSB: folkemengd, tabell 12744 (Kommunefakta) via data.ssb.no ---- */
+/* ---- SSB: folketal for Tromsø, tabell 01222 (same kjelde som Kommunefakta) ---- */
 async function ssbPopulation() {
-  // Fylkesinndelt folkemengd: tabell 07425 gir kommunar; vi tar Tromsø kommune.
-  const url = 'https://data.ssb.no/api/v0/no/table/07425';
-  const query = { query: [{ selection: { filter: 'item', values: ['5401'] } }], response: { format: 'json' } };
-  // 07425 har region/innholdsinnhald; prøv generisk: kvar tabell har ulik kode.
-  // Vi nyttar heller "Kommunefakta"-API (factomata)? Hald det enkelt: 12978 = folkemengd per kommune.
-  const j2 = await metGet('https://data.ssb.no/api/v0/no/table/12978?csv=1').catch(() => null);
-  return null; // sett opp skikkeleg i runde 2 — kortet gøymst til då
+  // Region 5501 = Tromsø kommune (1902 er den gamle koden, «Tromsø (-2019)»).
+  // ContentsCode Folketallet11 = «Befolkning ved utgangen av kvartalet».
+  // Tid top:1 = siste kvartal. Svar: json-stat, value[0] = folketalet.
+  const url = 'https://data.ssb.no/api/v0/no/table/01222';
+  const body = JSON.stringify({
+    query: [
+      { code: 'Region', selection: { filter: 'item', values: ['5501'] } },
+      { code: 'ContentsCode', selection: { filter: 'item', values: ['Folketallet11'] } },
+      { code: 'Tid', selection: { filter: 'top', values: ['1'] } },
+    ],
+    response: { format: 'json-stat' },
+  });
+  const res = await fetch(url, { method: 'POST', headers: { 'User-Agent': UA, 'Content-Type': 'application/json', Accept: 'application/json' }, body });
+  if (!res.ok) throw new Error(`SSB ${res.status} ${url}`);
+  const d = (await res.json()).dataset;
+  const value = Number(d.value[0]);
+  if (!Number.isFinite(value) || value <= 0) throw new Error(`SSB: urimeleg folketal ${d.value[0]}`);
+  const quarter = Object.keys(d.dimension.Tid.category.index)[0]; // t.d. «2026K2»
+  const [year, q] = [quarter.slice(0, 4), Number(quarter.slice(-1))];
+  return {
+    value: value.toLocaleString('nb-NO'), // 79 932
+    note: `Q${q} ${year}`,                // språknøytralt: «Q2 2026»
+    source: 'SSB · Kommunefakta',
+    url: 'https://www.ssb.no/kommunefakta/tromso',
+    updated: new Date().toISOString(),
+  };
 }
 
 async function main() {
@@ -157,6 +176,11 @@ async function main() {
   // Måne er alltid rekna lokalt — aldri feil.
   const p = moonPhase(new Date());
   next.moon = { phase: +p.toFixed(4), name: moonName(p), source: 'tromso.net (berekna)', updated: new Date().toISOString() };
+  // SSB-folketal: ved feil behold sist kjende (same regel som vêret).
+  try {
+    const folk = await ssbPopulation();
+    next.stats = { ...(prev.stats || {}), people: folk };
+  } catch (e) { failures.push('ssb-people'); if (prev.stats?.people) next.stats = { ...prev.stats }; }
   fs.writeFileSync(OUT, JSON.stringify(next, null, 2) + '\n');
   console.log('now.json oppdatert:', JSON.stringify({ weather: next.weather?.symbol_code, temp: next.weather?.temperature, dark: next.light?.dark, moon: next.moon.name, polar: next.light?.polar?.kind, day_length: next.light?.day_length, failures }));
   if (failures.length) console.log('FEILA KJELDER (held gammal verdi):', failures.join(','));

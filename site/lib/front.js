@@ -112,7 +112,10 @@ function statCard(lang, key, label, data) {
   if (!data || data.value == null) return '';
   const d = data.updated ? new Date(data.updated) : null;
   const upd = d ? new Intl.DateTimeFormat(lang === 'no' ? 'nb-NO' : 'en-GB', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' }).format(d) : '';
-  return `<div class="stat-card" data-stat="${esc(key)}"><img class="stat-icon" src="/assets/cutouts/icon-${esc(key)}.webp" alt="" width="56" height="56"><strong class="stat-number">${esc(data.value)}</strong><span class="stat-label">${esc(label)}</span>${data.note ? `<small class="stat-note">${esc(data.note)}</small>` : ''}<small class="stat-source">${tr(lang, 'Kilde', 'Source')}: ${esc(data.source)}${upd ? ' · ' + esc(upd) : ''}</small></div>`;
+  const source = data.url
+    ? `<a href="${esc(data.url)}" rel="noopener noreferrer">${esc(data.source)}</a>`
+    : esc(data.source);
+  return `<div class="stat-card" data-stat="${esc(key)}"><img class="stat-icon" src="/assets/cutouts/icon-${esc(key)}.webp" alt="" width="56" height="56"><strong class="stat-number">${esc(data.value)}</strong><span class="stat-label">${esc(label)}</span>${data.note ? `<small class="stat-note">${esc(data.note)}</small>` : ''}<small class="stat-source">${tr(lang, 'Kilde', 'Source')}: ${source}${upd ? ' · ' + esc(upd) : ''}</small></div>`;
 }
 function fireTall(lang, now) {
   const s = now?.stats || {};
