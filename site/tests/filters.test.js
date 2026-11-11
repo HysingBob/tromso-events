@@ -96,3 +96,15 @@ test('kvart kort får kategorivegg (Wallpaper A–D) på papirlaget; Annet står
   assert.match(css, /\.event-card::before\{[^}]*paper\.webp/);
   assert.match(css, /\.event-card\{[^}]*position:relative/);
 });
+
+// Aurora kino Fokus-signatur (Bob 2026-11-11): fabric 20 frå Koofr som
+// eige papirlag på korta OG arrangementssida — mørkt «nattkort», so
+// blekket vert lyst. Kartet får data-sted; CSS fyller ut resten.
+test('Aurora kino Fokus får fabric-20 som signaturpapir (kort + arrangementside)', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'fabric-20.webp')), 'fabric-20.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/fabric-20.webp")'), 'kortet manglar fabric-20-regelen');
+  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]'), 'arrangementssida manglar fabric-20-regelen');
+  assert.match(css, /\.event-card\[data-sted="Aurora kino Fokus"\]\{color:#F7E8CB\}/);
+  assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
+});
