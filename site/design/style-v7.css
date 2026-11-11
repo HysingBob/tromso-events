@@ -224,6 +224,23 @@ body{
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
 .detail[data-sted="Aurora kino Fokus"] .source-note{color:#E8D9BC}
+/* Tromsø Kulturhus (Bob 2026-11-11): signaturvev — fabric 202 frå Koofr
+   (~/Koofr/Assets/fabric_202.png, tidl. fabric_196_Albedo-1K). Mørkt
+   raudbrunt stoff = nattkort: alle tre scenene (Hovedscenen, Lillescenen,
+   Galleriet) treffast med prefixet ^=. Lysaste partiet av voven (p99.9
+   lum 0.1214) legg tak på 4.5:1 for tinta blekktonar — difor alt blekk i
+   krem: #F7E8CB 5.1:1, «Gratis» #DDEFC0 5.0:1, kicker #FBEFDB 5.4:1. */
+.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/fabric-202.webp");background-color:#55191E}
+.event-card[data-sted^="Tromsø Kulturhus"]{color:#F7E8CB}
+.event-card[data-sted^="Tromsø Kulturhus"] h3{color:#F7E8CB}
+.event-card[data-sted^="Tromsø Kulturhus"] .card-kicker{color:#FBEFDB}
+.event-card[data-sted^="Tromsø Kulturhus"] .card-meta{color:#F7E8CB}
+.event-card[data-sted^="Tromsø Kulturhus"] .free{color:#DDEFC0}
+.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/fabric-202.webp");background-color:#55191E;color:#F7E8CB}
+.detail[data-sted^="Tromsø Kulturhus"] h1{color:#F7E8CB}
+.detail[data-sted^="Tromsø Kulturhus"] .eyebrow{color:#FBEFDB}
+.detail[data-sted^="Tromsø Kulturhus"] .lead{color:#F7E8CB}
+.detail[data-sted^="Tromsø Kulturhus"] .source-note{color:#F7E8CB}
 /* Utsnitt og helning følgjer arrangementet (data-variant), ikkje plass i lista */
 .event-card[data-variant="1"]{--tilt:-.5deg}
 .event-card[data-variant="1"]::before{background-position:0 0}

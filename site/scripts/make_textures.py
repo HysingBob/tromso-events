@@ -136,6 +136,22 @@ def fabric20(out):
     out['fabric-20'] = report('fabric-20', p, im2)
 
 
+def fabric202(out):
+    """Tromsø Kulturhus-signatur (Bob 2026-11-11): fabric_202 frå Koofr
+    (~/Koofr/Assets/fabric_202.png, tidl. fabric_196_Albedo) som
+    fabric-202.webp, 1024 px brei, uendra elles."""
+    sp = os.path.join(SRC, 'fabric-202.png')
+    if not os.path.exists(sp):
+        print('fabric-202: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'fabric-202.webp')
+    out['fabric-202'] = report('fabric-202', p, im2)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     out = {}
@@ -173,6 +189,7 @@ def main():
     v71_textures(out)
     wall_textures(out)
     fabric20(out)
+    fabric202(out)
 
     print('\nsnittfarger for CSS:')
     for k2, (avg, _) in out.items():
