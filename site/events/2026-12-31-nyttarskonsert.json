@@ -1,0 +1,26 @@
+{
+  "id": "2026-12-31-nyttarskonsert",
+  "start": "2026-12-31T21:00",
+  "sted": "Ishavskatedralen",
+  "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
+  "pris": "350 kr (inkl. 25 kr gebyr)",
+  "gratis": false,
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
+  "no": {
+    "tittel": "Nyttårskonsert i Ishavskatedralen",
+    "ingress": "Katedralorganist Thorsten Ahlrichs byr på et musikalsk fyrverkeri på Arktis’ største orgel.",
+    "tekst": "Katedralorganist Thorsten Ahlrichs spiller et 45 minutter langt program med juleglans, virtuositet og musikalsk fyrverkeri på Arktis’ største orgel. Programmet omfatter blant annet Bachs Toccata og fuge i d-moll, The Bell Carol, tysk, norsk og fransk julemusikk og Camille Saint-Saëns’ Danse macabre. Thorsten Ahlrichs gir en kort introduksjon til musikken før konserten."
+  },
+  "en": {
+    "title": "New Year's Concert at the Arctic Cathedral",
+    "lead": "Cathedral organist Thorsten Ahlrichs presents a musical firework display on the Arctic's largest organ.",
+    "text": "Cathedral organist Thorsten Ahlrichs performs a 45-minute programme of Christmas brilliance, virtuosity and musical fireworks on the Arctic's largest organ. The programme includes Bach's Toccata and Fugue in D minor, The Bell Carol, German, Norwegian and French Christmas music, and Camille Saint-Saëns' Danse macabre. Thorsten Ahlrichs gives a short introduction to the music before the concert."
+  },
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/05/plakat-31122026-1000-x-1000-px.png",
+  "bildetekst_no": "Plakat for nyttårskonserten med orgel i Ishavskatedralen.",
+  "bildetekst_en": "Poster for the New Year's concert featuring the organ at the Arctic Cathedral.",
+  "kilde_navn": "Ishavskatedralen",
+  "kilde_url": "https://ishavskatedralen.no/arrangementer/nyttarskonsert/",
+  "status": "publisert"
+}
