@@ -31,10 +31,13 @@
 /* 1 — Tavla ------------------------------------------------------------- */
 
 body{
-  background-image:url("/assets/textures/board.webp");
+  /* 28 % svartvask over vedveggen: kvit tekst på veden kjem frå 3.95:1
+     (p98) opp i 5.1:1 — panelepane er borte, alt ligg rett på veggen. */
+  background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/board.webp");
   background-repeat:repeat;
   background-size:512px 512px;
   background-color:var(--board);
+  color:#fff;
 }
 .page-shell{background:none;box-shadow:none}
 
@@ -79,16 +82,14 @@ body{
 .flag{display:block;width:30px;height:16px;border-radius:1px;background-repeat:no-repeat;background-size:100% 100%;box-shadow:inset 0 0 0 1px rgba(58,42,30,.4)}
 .flag-uk{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 16'%3E%3Crect width='30' height='16' fill='%2300247D'/%3E%3Cpath d='M0 0L30 16M30 0L0 16' stroke='%23fff' stroke-width='3.2'/%3E%3Cpath d='M0 0L30 16M30 0L0 16' stroke='%23CF142B' stroke-width='1.8'/%3E%3Crect x='12.4' width='5.2' height='16' fill='%23fff'/%3E%3Crect y='5.4' width='30' height='5.2' fill='%23fff'/%3E%3Crect x='13.4' width='3.2' height='16' fill='%23CF142B'/%3E%3Crect y='6.4' width='30' height='3.2' fill='%23CF142B'/%3E%3C/svg%3E")}
 .flag-no{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 16'%3E%3Crect width='30' height='16' fill='%23BA0C2F'/%3E%3Crect x='8.5' width='5' height='16' fill='%23fff'/%3E%3Crect y='5.5' width='30' height='5' fill='%23fff'/%3E%3Crect x='10' width='2' height='16' fill='%23002094'/%3E%3Crect y='7' width='30' height='2' fill='%23002094'/%3E%3C/svg%3E")}
-/* Knappen har same papirflate som filterknappane i marmoren */
+/* Språkknappen står også rett på marmoren — flagg + kvit tekst */
 .masthead .lang-flag{
   display:inline-flex;align-items:center;justify-content:center;
-  background-image:url("/assets/textures/paper.webp");
-  background-repeat:repeat;background-size:640px 358px;
-  background-color:var(--paper);
-  border:0;border-radius:2px;padding:8px 13px;min-height:44px;
+  background:none;background-image:none;background-color:transparent;
+  border:0;border-radius:0;padding:8px 13px;min-height:44px;
   text-decoration:none;
 }
-.masthead .lang-flag:hover{background-color:#E4D2AC}
+.masthead .lang-flag:hover{text-decoration:underline;text-decoration-color:rgba(255,255,255,.55)}
 .masthead .lang-flag:focus-visible{outline:2px solid #fff;outline-offset:2px}
 .brand-row .lang-flag{padding:6px 11px;min-height:0}
 .mast-extra{grid-area:filters;justify-self:stretch;align-self:end;max-width:none;margin:0;padding:0}
@@ -117,24 +118,27 @@ body{
 .masthead .filter-area{background:none;background-image:none;box-shadow:none;padding:0;margin:24px 0 0;border-bottom:0}
 .masthead .section-label{color:#fff;opacity:.92;font-size:17px}
 .masthead .nojs-note{color:#fff}
-.masthead .filter-reset{color:#F7E8CB;text-decoration-color:rgba(247,232,203,.55)}
+.masthead .filter-reset{color:#fff;text-decoration-color:rgba(255,255,255,.55)}
 .masthead .filter-reset:hover{color:#fff;text-decoration-color:#fff}
+/* Filterknappar (Bob 2026-11-11): kvit skrift rett på marmoren —
+   ingen papirlapp, ingen fyllfarge, ingen helning. Kvit: 4.8:1 mot
+   svartvaska marmor. Vald fane markerast med understrek. */
 .masthead .category-controls button{
-  background-image:url("/assets/textures/paper.webp");
-  background-repeat:repeat;background-size:640px 358px;
-  background-color:var(--paper);color:#3A2A1E;text-shadow:none;
-  border:0;border-radius:2px;padding:8px 13px;min-height:44px;
+  background:none;background-image:none;background-color:transparent;
+  color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.55);
+  border:0;border-bottom:2px solid transparent;border-radius:0;
+  padding:8px 13px;min-height:44px;
   font-size:15px;font-weight:600;
-  box-shadow:0 2px 4px rgba(0,0,0,.35);
 }
-.masthead .category-controls button:nth-child(3n){transform:rotate(-.5deg)}
-.masthead .category-controls button:nth-child(4n){transform:rotate(.6deg)}
-/* Vald fane: ein raudbrun kastanje (#4A2A1C) — berre eit lite steg frå den gamle
-   blekkbrune (#3A2A1E), men med tydeleg raud tone. Kremkvit tekst: 10.59:1. */
-.masthead .time-tabs button:hover,.masthead .time-tabs button:focus-visible{color:#7A2E1C}
+.masthead .category-controls button:hover,.masthead .category-controls button:focus-visible{border-bottom-color:rgba(255,255,255,.55)}
+.masthead .time-tabs button:hover,.masthead .time-tabs button:focus-visible{color:#fff;text-decoration:underline;text-decoration-color:rgba(255,255,255,.55)}
 .masthead .time-tabs button[aria-pressed=true],
-.masthead .category-controls button[aria-pressed=true]{background-image:none;background-color:#4A2A1C;color:#F7E8CB}
-.masthead .category-controls button::before{color:#EFE2C6}
+.masthead .category-controls button[aria-pressed=true]{
+  background:none;background-image:none;background-color:transparent;
+  color:#fff;font-weight:700;
+  border-bottom:2px solid #fff;
+}
+.masthead .category-controls button::before{color:#fff}
 .masthead button:focus-visible{outline:2px solid #fff;outline-offset:2px}
 
 /* Kategorilinja er flytt ut av mastheaden og ned i botnen av sida */
@@ -142,16 +146,29 @@ body{
 .category-linkline a{color:#fff}
 .category-linkline span{opacity:.7}
 
-/* 3 — Papirflater (ingen tekst ligg direkte på veden) -------------------- */
+/* 3 — Rett på veggen (Bob 2026-11-11: ingen generiske panel meir) --------
+   Korta og stoffa har sine eigne flater; alt annan tekst står rett på
+   vedveggen med kvitt blekk (4.6:1 mot den svartvaska veden, p99.9). */
 
 .page-heading,.filter-area,.results-head,.empty-state,.related>p,
 .breadcrumb,.detail,.about-copy{
-  background-image:url("/assets/textures/paper.webp");
-  background-repeat:repeat;
-  background-size:640px 358px;
-  background-color:var(--paper);
-  box-shadow:0 2px 3px rgba(0,0,0,.30);
+  background:none;background-image:none;background-color:transparent;
+  box-shadow:none;
 }
+/* Sekundærtekst på vegen: kvit med litt avtoning (framleis ≥ 4.5:1) */
+.page-heading>p:last-child,.section-label,.result-count,.breadcrumb,
+.related>p,.empty-state p,.about-copy p,.source-note,
+.detail-heading .lead,.story p,.nojs-note,.filter-reset{color:rgba(255,255,255,.92)}
+.page-heading h1,.results-head h2,.about-copy h2{color:#F7E8CB}
+.page-heading h1{letter-spacing:-.035em}
+/* Lenker på vegen: kvite med understrek (teal/rules vert borte mot mørk ved) */
+.detail .story a,.about-copy a,.breadcrumb a,.related a,.empty-state a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.detail h1{color:#F7E8CB}
+.detail .eyebrow{color:#F7E8CB}
+.detail .facts dt{color:rgba(255,255,255,.92)}
+.detail .facts dd{color:#fff}
+.empty-state{border:1px dashed rgba(255,255,255,.55)}
+.empty-state h3{color:#F7E8CB}
 .page-heading{padding:30px 18px 26px;margin:20px 0 0}
 .filter-area{padding:20px 18px 22px}
 .results-head{padding:12px 14px;margin-bottom:22px}
@@ -263,7 +280,9 @@ body{
 }
 /* Same lapp på arrangementssida, men litt lenger ut frå kanten */
 .detail-art .card-stamp{right:20px;top:20px;font-size:13px;padding:7px 12px}
-.card-art{background:#C9B691}
+/* Ingen beige fyllfarge bak kortbileta heller — teksten på kortet syner
+   gjennom dersom biletet ikkje er lasta eller er gjennomsynleg. */
+.card-art{background:transparent}
 .card-art img{filter:sepia(.5) saturate(.7) contrast(.92);transition:filter .3s ease}
 .event-card:hover .card-art img,.event-card:focus-visible .card-art img{filter:none}
 .card-art:after,.detail-art:after{box-shadow:inset 0 0 24px 14px rgba(90,62,34,.14)}
