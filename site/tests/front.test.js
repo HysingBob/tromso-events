@@ -34,15 +34,19 @@ test('front page renders tabs and the live Yr panel from real now.json', () => {
 
 test('weather panel: real numbers from now.json, Yr credit and Tromsø link', () => {
   const html = weatherNow('no', now);
+  const en = weatherNow('en', now);
   const r = Math.round(now.weather.temperature);
   const expect = `${r}°`;  // same rounding as tagText: Math.round(-0.5) => "0", ikkje "-0"
   assert.ok(html.includes(`class="weather-temp">${expect}</strong>`), 'temp ' + expect);
   assert.match(html, new RegExp('weather-icon[^>]+yr/' + now.weather.symbol_code + '.svg'));
-  assert.match(html, /vind 2,6 m\/s/);
+  // vind: avleia frå now.json (no.json vert ferska av Actions — aldri hardkoda tal)
+  const wv = now.weather.wind;
+  if (wv != null) {
+    assert.match(html, new RegExp('vind ' + String(wv).replace('.', ',') + ' m/s'));
+    assert.match(en, new RegExp('wind ' + String(wv) + ' m/s'));
+  }
   assert.match(html, /Været nå i Tromsø — Yr<\/a>/);
   assert.match(html, /1-305409/);
-  const en = weatherNow('en', now);
-  assert.match(en, /wind 2\.6 m\/s/);
   assert.match(en, /Weather now in Tromsø — Yr<\/a>/);
 });
 
