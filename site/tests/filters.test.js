@@ -76,3 +76,16 @@ test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
   assert.match(front, /Tromsø IL – Viking/);
   assert.match(front, /Tromsø IL – Start/);
 });
+
+// Kategorifarga sit på papirlaget (::before med hue-rotate), ikkje på
+// kortet sjølv — elles ville filteret tatt blekkteksten òg (Bob 2026-11-11).
+test('kvart kort får kategorifarge via hue-rotate på papirlaget; Annet står urørt', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  const needs = { Konsert: true, Scene: true, Film: true, Aktivitet: true };
+  for (const k of Object.keys(needs)) {
+    assert.ok(new RegExp(`\\.event-card\\[data-categories="${k}"\\]::before\\{filter:hue-rotate`).test(css), `${k} manglar hue-rotate`);
+  }
+  assert.doesNotMatch(css, /\.event-card\[data-categories="Annet"\]::before\{filter/);
+  assert.match(css, /\.event-card::before\{[^}]*paper\.webp/);
+  assert.match(css, /\.event-card\{[^}]*position:relative/);
+});
