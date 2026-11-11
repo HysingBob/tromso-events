@@ -200,13 +200,13 @@ body{
   background-color:var(--paper);
 }
 .event-card>*{position:relative;z-index:1}
-/* Kategorifargar (Bob 2026-11-11): Konsert raud, Scene oransje, Film blå,
-   Aktivitet grøn, Annet gul (urørt). Kraftpapiret ligg kring hue 42° —
-   gradale er justert for å treffe kvar tone utan å tapa papirkornet. */
-.event-card[data-categories="Konsert"]::before{filter:hue-rotate(-38deg)}
-.event-card[data-categories="Scene"]::before{filter:hue-rotate(-14deg)}
-.event-card[data-categories="Film"]::before{filter:hue-rotate(178deg)}
-.event-card[data-categories="Aktivitet"]::before{filter:hue-rotate(88deg)}
+/* Kategorivegger (Bob 2026-11-11): Wallpaper A–D frå Koofr som heilt
+   eige papirlag per kategori; Annet står på kraftpapiret. Manglar flisa
+   (t.d. wall-d enno), viser laget fallbackfargen var(--paper). */
+.event-card[data-categories="Konsert"]::before{background-image:url("/assets/textures/wall-a.webp")}
+.event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
+.event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
+.event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
 /* Utsnitt og helning følgjer arrangementet (data-variant), ikkje plass i lista */
 .event-card[data-variant="1"]{--tilt:-.5deg}
 .event-card[data-variant="1"]::before{background-position:0 0}
