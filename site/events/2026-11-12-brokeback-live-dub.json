@@ -1,25 +1,34 @@
 {
   "id": "2026-11-12-brokeback-live-dub",
-  "start": "2026-11-12T19:30",
-  "slutt": "2026-11-12T23:00",
-  "sted": "Amtmandens",
-  "pris": "200 kr",
+  "start": "2026-11-12T20:00",
+  "slutt": "2026-11-12T22:15",
+  "sted": "Bakrommet hos Amtmandens",
+  "pris": "200 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "malgruppe": [
+    "Ungdom"
+  ],
   "gratis": false,
+<<<<<<< HEAD
   "kategori": ["Film"],
+=======
+>>>>>>> af7dde56 (Publish Brokeback Mountain live dub listing)
   "no": {
     "tittel": "Brokeback Mountain – live dub med Jon Hauge",
-    "ingress": "Komiker Jon Hauge live-dubber filmen, i forbindelse med Pride.",
-    "tekst": "I forbindelse med Pride kommer komikeren Jon Hauge for å live-dubbe Brokeback Mountain. Arrangementet er i regi av Tromsø Filmklubb og varer 134 minutter.\n\nIllustrasjonen er laget av tromsø.net og er et tolkende motiv, ikke et bilde fra filmen."
+    "ingress": "Komiker Jon Hauge live-dubber filmen i forbindelse med Pride.",
+    "tekst": "Komiker Jon Hauge live-dubber Brokeback Mountain på Bakrommet hos Amtmandens. Filmen varer 134 minutter; arrangøren oppgir engelsk språk med norsk dub og 12-årsgrense. Ordinærbillett koster 200 kr."
   },
   "en": {
     "title": "Brokeback Mountain – live dub with Jon Hauge",
-    "lead": "Comedian Jon Hauge live-dubs the film, in connection with Pride.",
-    "text": "In connection with Pride, comedian Jon Hauge live-dubs Brokeback Mountain. The event is organised by Tromsø Filmklubb and the film runs about 134 minutes.\n\nThe illustration was made by tromsø.net and is an interpretive motif, not an image from the film."
+    "lead": "Comedian Jon Hauge live-dubs the film in connection with Pride.",
+    "text": "Comedian Jon Hauge live-dubs Brokeback Mountain at Bakrommet hos Amtmandens. The film runs for 134 minutes; the organiser lists English (Norwegian dub) and a 12-year age rating. An ordinary ticket costs NOK 200."
   },
-  "bilde": "images/2026-11-12-brokeback-live-dub.webp",
-  "bildetekst_no": "Vannfargeillustrasjon av fjell, stjerner, telt og hest, på gammelt papir.",
-  "bildetekst_en": "Watercolour illustration of mountains, stars, a tent and a horse, on old paper.",
-  "kilde_navn": "Amtmandens / Tromsø Filmklubb",
-  "kilde_url": "https://tromsofilmklubb.antitickets.com/event/brokeback-mountain-live-dub-med-jon-hauge",
-  "status": "venter"
+  "bilde": "https://images.squarespace-cdn.com/content/v1/54bbd969e4b0b2f2e36103cd/1783547525343-SHL3LI0CUG5C750KNUUT/BROKEBACK-MOUNTAIN.jpg",
+  "bildetekst_no": "Arrangementsbilde med to menn i cowboyhatter ved en pickup.",
+  "bildetekst_en": "Event image showing two men in cowboy hats beside a pickup truck.",
+  "kilde_navn": "Tromsø Filmklubb",
+  "kilde_url": "https://www.tromsofilmklubb.com/kalender/2026/11/12/brokeback-mountain-live-dub-med-jon-hauge",
+  "status": "publisert"
 }
