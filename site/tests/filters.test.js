@@ -145,14 +145,14 @@ test('Ishavskatedralen får wallpaper_38 som signaturflate (kort + arrangementsi
   assert.match(css, /\.detail\[data-sted="Ishavskatedralen"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
 });
 
-// Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr som
+// Tromsø Kulturhus-signatur (Bob 2026-11-11): fabric_192 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
-// med prefixet ^=. Alt blekk i krem (veden er mørk men lettare enn stoffa).
-test('Tromsø Kulturhus får Rosewood_1 som signaturvev (kort + arrangementside)', () => {
+// med prefixet ^=. Alt blekk i krem (veven er mørk, p99.9 lum 0.144).
+test('Tromsø Kulturhus får fabric_192 som signaturvev (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'rosewood.webp')), 'rosewood.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/rosewood.webp")'), 'kortet manglar rosewood-regelen');
-  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood.webp")'), 'arrangementssida manglar rosewood-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'kulturhus-192.webp')), 'kulturhus-192.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/kulturhus-192.webp")'), 'kortet manglar kulturhus-192-regelen');
+  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/kulturhus-192.webp")'), 'arrangementssida manglar kulturhus-192-regelen');
   assert.match(css, /\.event-card\[data-sted\^="Tromsø Kulturhus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted\^="Tromsø Kulturhus"\]\{[^}]*color:#F7E8CB\}/);
 });

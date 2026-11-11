@@ -209,21 +209,21 @@ def marble82(out):
     out['marble-82'] = report('marble-82', p, im2)
 
 
-def rosewood(out):
-    """Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr
-    (~/Koofr/Assets/rosewood_1.png) som rosewood.webp, 1024 px brei,
-    uendra elles. Mørk rosentre-ved — p99.9 lum 0.179, så kremblekket
-    landar på 9,8–12:1 (betre enn fabric-202)."""
-    sp = os.path.join(SRC, 'rosewood.png')
+def kulturhus192(out):
+    """Tromsø Kulturhus-signatur (Bob 2026-11-12): fabric_192 frå Koofr
+    (~/Koofr/Assets/fabric_192.png) som kulturhus-192.webp, 1024 px brei,
+    uendra elles. Mørk raudbrun vev (snitt #281316, p99.9 lum 0.144) =
+    nattkort: kremblekk landar på 12,7:1 utan svartvask."""
+    sp = os.path.join(SRC, 'kulturhus-192.png')
     if not os.path.exists(sp):
-        print('rosewood: kjelda finst ikkje — hoppar over')
+        print('kulturhus-192: kjelda finst ikkje — hoppar over')
         return
     im = Image.open(sp).convert('RGB')
     if im.width > 1024:
         im = im.resize((1024, round(im.height * 1024 / im.width)),
                        Image.Resampling.LANCZOS)
-    p, im2 = save_webp(im, 'rosewood.webp')
-    out['rosewood'] = report('rosewood', p, im2)
+    p, im2 = save_webp(im, 'kulturhus-192.webp')
+    out['kulturhus-192'] = report('kulturhus-192', p, im2)
 
 
 def main():
@@ -267,7 +267,7 @@ def main():
     mahogany(out)
     ishavswall38(out)
     marble82(out)
-    rosewood(out)
+    kulturhus192(out)
 
     print('\nsnittfarger for CSS:')
     for k2, (avg, _) in out.items():
