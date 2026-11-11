@@ -1,77 +1,5 @@
 [
  {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-10T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Godzilla Minus Zero",
-  "start": "2026-11-10T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1794230110726?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Naza",
-  "start": "2026-11-10T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/naza/1722",
-  "image": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Et Lite Stykke Finland",
-  "start": "2026-11-10T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
-  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-10T16:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-10T17:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Whalefall",
-  "start": "2026-11-10T17:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "pust & piano - Body Prayer w/ Fernanda Signorini",
-  "start": "2026-11-10T18:00:00",
-  "venue": "Løvetann, Grønnegata 118A, Tromsø",
-  "source": "lovetann",
-  "url": "https://www.tickettailor.com/events/lovetann/2499322",
-  "image": "",
-  "free": false
- },
- {
   "title": "ROPE",
   "start": "2026-11-10T18:45:00",
   "venue": "Verdensteatret, Tromsø",
@@ -79,15 +7,6 @@
   "url": "https://www.verdensteatret.no/movie/rope",
   "image": "https://www.verdensteatret.no/img/_movieThumb/rope-04_crop.jpg",
   "free": false
- },
- {
-  "title": "Fugleåret 2026 i nord - hvordan har det vært? | BirdLife Tromsø",
-  "start": "2026-11-10T19:00:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944360/fuglearet_2026_i_nord_-_hvordan_har_det_vaert_b",
-  "image": "https://uit.no/Content/944359/cache=20263010093045/transformation=scale10000x560/Foto%20Oddvar%20Hagen.jpg",
-  "free": true
  },
  {
   "title": "Kiuryaq - an immersive circumpolar theatre performance",
@@ -99,24 +18,6 @@
   "free": false
  },
  {
-  "title": "Sense And Sensibility",
-  "start": "2026-11-10T20:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Wildwood",
-  "start": "2026-11-10T20:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/wildwood/1669",
-  "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "MINNIE AND MOSKOWITZ",
   "start": "2026-11-10T20:30:00",
   "venue": "Verdensteatret, Tromsø",
@@ -124,33 +25,6 @@
   "url": "https://www.verdensteatret.no/movie/minnie-and-moskowitz",
   "image": "https://www.verdensteatret.no/img/_movieThumb/Minnie-and-Moskowitz-midlertidig.jpg",
   "free": false
- },
- {
-  "title": "Clayface",
-  "start": "2026-11-10T21:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/clayface/1666",
-  "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Operasjon barnehagedagsverk 2026",
-  "start": "2026-11-11T08:00:00",
-  "venue": "Barnehager, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941895/operasjon_barnehagedagsverk_2026",
-  "image": "https://uit.no/Content/942813/cache=20261210083222/transformation=scale10000x560/2-%C3%A5ringer%20leser%20selv_Operasjon%20barnehagedagsverk_kan%20ikke%20brukes%20uten%20avtale.jpeg",
-  "free": true
- },
- {
-  "title": "Kurs i SMART (strukturert materiale for terapi)",
-  "start": "2026-11-11T09:00:00",
-  "venue": "U8.121 på MH1, Campus Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/935713/kurs_i_smart_strukturert_materiale_for_terapi",
-  "image": "https://uit.no/Content/935711/cache=20261108114857/transformation=scale10000x560/mp6765935-tired-boy-studying-in-bedroom.jpg",
-  "free": true
  },
  {
   "title": "Arctic Pride: Forfattermøte med Mari Grydeland",
@@ -172,7 +46,7 @@
  },
  {
   "title": "Pensjonskuppet",
-  "start": "2026-11-11T12:00:00",
+  "start": "2026-11-11T14:30:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
@@ -181,57 +55,12 @@
  },
  {
   "title": "Markens Grode",
-  "start": "2026-11-11T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "start": "2026-11-11T14:30:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
   "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Naza",
-  "start": "2026-11-11T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/naza/1722",
-  "image": "https://images.filmgrail.com/mediaserver/movies/naza-9963/backdrop/1791896598006?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Whalefall",
-  "start": "2026-11-11T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sangen Fra Skogene",
-  "start": "2026-11-11T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sangen-fra-skogene/1668",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene-9492/backdrop/1792144599385?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "IFF Research Seminar: Per Algander (Umeå University), ”Meaningful life in AI Utopia\"",
-  "start": "2026-11-11T12:15:00",
-  "venue": "Teorifagbygget HUS1, Innsikten 1.524 and on Teams, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941681/iff_research_seminar_per_algander_umea_universi",
-  "image": "https://uit.no/Content/941647/cache=20262309131633/transformation=scale10000x560/Picture%202026%20new.png",
-  "free": true
- },
- {
-  "title": "Help Desk: Research Data, Coding & HPC",
-  "start": "2026-11-11T14:00:00",
-  "venue": "UB 338, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
-  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
-  "free": true
  },
  {
   "title": "Sense And Sensibility",
@@ -360,6 +189,15 @@
   "free": false
  },
  {
+  "title": "Whalefall",
+  "start": "2026-11-11T21:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
+  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Other Mommy",
   "start": "2026-11-11T21:15:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -432,21 +270,21 @@
   "free": false
  },
  {
-  "title": "Whalefall",
-  "start": "2026-11-12T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
-  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Everybody Digs Bill Evans",
   "start": "2026-11-12T12:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/everybody-digs-bill-evans/1679",
   "image": "https://images.filmgrail.com/1793803106654-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Whalefall",
+  "start": "2026-11-12T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/whalefall/1665",
+  "image": "https://images.filmgrail.com/mediaserver/movies/whalefall-9420/backdrop/1793268915820?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1359,21 +1197,21 @@
   "free": false
  },
  {
-  "title": "Godzilla Minus Zero",
-  "start": "2026-11-16T14:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1794230110726?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Mysteriepakken",
   "start": "2026-11-16T14:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
   "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Godzilla Minus Zero",
+  "start": "2026-11-16T14:45:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
+  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1794230110726?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1476,6 +1314,15 @@
   "free": true
  },
  {
+  "title": "Åpen barnehage på Tromsø bibliotek",
+  "start": "2026-11-17T11:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/apen-barnehage-pa-tromso-bibliotek",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/gD3FtyLwkkgfAaA9dApxL0wagYTb8sqgdXOf960iFycyYnrFFe.jpg.webp?itok=_faYsVGN",
+  "free": true
+ },
+ {
   "title": "PPU-konferansen: Nye rammer - Nye muligheter",
   "start": "2026-11-17T11:15:00",
   "venue": "Auditorium Didaktikken (ILP-bygget 1.059), UiT Tromsø",
@@ -1521,21 +1368,21 @@
   "free": false
  },
  {
-  "title": "Sangen Fra Skogene",
-  "start": "2026-11-17T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sangen-fra-skogene/1668",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene-9492/backdrop/1792144599385?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Glemselens Oy",
   "start": "2026-11-17T12:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/glemselens-oy/1581",
   "image": "https://images.filmgrail.com/mediaserver/movies/glemselens-oy-9293/backdrop/1790327712403?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Sangen Fra Skogene",
+  "start": "2026-11-17T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/sangen-fra-skogene/1668",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene-9492/backdrop/1792144599385?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1688,7 +1535,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "image": "",
   "free": false
  },
  {
@@ -1701,6 +1548,15 @@
   "free": false
  },
  {
+  "title": "ONSDAGSFILMEN | KORTFILM + SKUESPILLWORKSHOP",
+  "start": "2026-11-18T13:30:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-kortfilm-skuespillworkshop",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/Legg-til-en-underoverskrift-1.jpg",
+  "free": false
+ },
+ {
   "title": "Ebenezer",
   "start": "2026-11-18T15:15:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -1710,21 +1566,21 @@
   "free": false
  },
  {
-  "title": "Malagagaten",
-  "start": "2026-11-18T15:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
-  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1791468920769?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Charlie Harper",
   "start": "2026-11-18T15:15:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/charlie-harper/1718",
   "image": "https://images.filmgrail.com/mediaserver/movies/charlie-harper-9529/backdrop/1793096127269?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Malagagaten",
+  "start": "2026-11-18T15:15:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
+  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1791468920769?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1841,7 +1697,7 @@
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "image": "",
   "free": false
  },
  {
@@ -1852,6 +1708,15 @@
   "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
   "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Lansering: Kulturkart Tromsø",
+  "start": "2026-11-19T12:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/lansering-kulturkart-tromso",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/1.png.webp?itok=LyuOJG-h",
+  "free": true
  },
  {
   "title": "Godzilla Minus Zero",
@@ -1958,7 +1823,7 @@
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "image": "",
   "free": false
  },
  {
@@ -1976,7 +1841,7 @@
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/you-can-see-everything/1726",
-  "image": "https://images.filmgrail.com/1793796023868-blob?optimizer=image&width=1200",
+  "image": "",
   "free": false
  },
  {
@@ -2068,6 +1933,15 @@
   "url": "https://uit.no/tavla/artikkel/944673/from_research_to_publication_a_workshop_on_publis",
   "image": "https://uit.no/Content/944674/cache=20260411101435/transformation=scale10000x560/Cindi%20SturtzSreetharan.png",
   "free": true
+ },
+ {
+  "title": "Bitter Jul",
+  "start": "2026-11-24T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/bitter-jul/1580",
+  "image": "",
+  "free": false
  },
  {
   "title": "Sanger ved havet | Songs by the sea",
@@ -2300,7 +2174,7 @@
   "venue": "Galleriet, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/diaspora-tamil-archives-utstilling/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/10/Digital-Plakat-liggende-1360-x-768-Diaspora.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/10/Digital-Plakat-liggende-1360-x-768-MAL-2.jpg",
   "free": false
  },
  {
@@ -2507,7 +2381,7 @@
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/jan-gunnar-hoff-stille-lys/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Jan-Gunnar-Hoff-Stille-Lys.jpg",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Jan-Gunnar-Hoff-Stille-Lys-1.jpg",
   "free": false
  },
  {
@@ -3040,15 +2914,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/iselin-guttormsen-kommer/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plakat-liggende-1360-x-768-Iselin-Guttormsen-kommer.jpg",
   "free": false
- },
- {
-  "title": "Experimental Health Research Conference EHRC 2027",
-  "start": "2027-06-09T08:30:00",
-  "venue": "Teorifagbygget Hus 1, Auditorium 1, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944912/experimental_health_research_conference_ehrc_2027",
-  "image": "https://uit.no/Content/944917/cache=20260611134841/transformation=scale10000x560/tavla_logo.png",
-  "free": true
  },
  {
   "title": "Conference on Language, Brain & Learning",
