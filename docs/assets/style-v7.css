@@ -279,7 +279,11 @@ body{
    aspect-ratio så lenge inga CSS-høgd er sett — då vart biletet 294x1000 på
    telefon. height:auto lèt aspect-ratio 3:2 styre (294x196 på telefon). */
 .detail-art img{filter:none;height:auto;width:100%;aspect-ratio:3/2;object-fit:cover}
-.detail-art{border-color:var(--rule)}
+/* Passepartouten er ute (Bob 2026-11-11): biletet ligg rett på vev/papir,
+   berre mjukskygge under — ingen beige ramme, inga fyllfarge bak. */
+.detail-art{background:transparent;padding:0;border:0}
+.detail-art img{filter:none;height:auto;width:100%;aspect-ratio:3/2;object-fit:cover;
+  box-shadow:0 2px 4px rgba(0,0,0,.25), 0 6px 16px rgba(0,0,0,.18)}
 .facts{background:#E0CDA8}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
 .ticket-link{color:var(--light-ink)}
