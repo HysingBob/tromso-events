@@ -101,6 +101,25 @@ def v71_textures(out):
     p, im = save_webp(marble, 'marble.webp')
     out['marble'] = report('marble', p, im)
 
+
+def wall_textures(out):
+    """Kategorivegger på korta (Bob 2026-11-11): Wallpaper A–D frå Koofr
+    (~/Koofr/Wallpaper{A,B,C,D}) som wall-{a,b,c,d}.webp. 1024 px brei,
+    uendra elles. wall-d står på ventetrå — hoppar over manglande fil."""
+    for stem, src in [('a', 'wall-a.png'), ('b', 'wall-b.jpg'),
+                      ('c', 'wall-c.png'), ('d', 'wall-d.png')]:
+        sp = os.path.join(SRC, src)
+        if not os.path.exists(sp):
+            print(f'wall-{stem}: kjelda {src} finst ikkje — hoppar over')
+            continue
+        im = Image.open(sp).convert('RGB')
+        if im.width > 1024:
+            im = im.resize((1024, round(im.height * 1024 / im.width)),
+                           Image.Resampling.LANCZOS)
+        p, im2 = save_webp(im, f'wall-{stem}.webp')
+        out[f'wall-{stem}'] = report(f'wall-{stem}', p, im2)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     out = {}
@@ -136,6 +155,7 @@ def main():
     out['compass'] = report('compass', p, rose)
 
     v71_textures(out)
+    wall_textures(out)
 
     print('\nsnittfarger for CSS:')
     for k2, (avg, _) in out.items():
