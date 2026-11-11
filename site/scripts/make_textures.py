@@ -190,6 +190,24 @@ def ishavswall38(out):
     out['ishavswall-38'] = report('ishavswall-38', p, im2)
 
 
+def marble82(out):
+    """Heilsidabakgrunn (Bob 2026-11-11): marble_82 frå Koofr
+    (~/Koofr/Assets/marble_82.png) som marble-82.webp, 1024 px brei,
+    uendra elles. Mørk marmor med lysårer (snitt #121213, p90 0.107,
+    p99.9 0.536). Med same 28 % svartvask som før: kvit tekst 13,4:1
+    mot p98, 6,1:1 mot dei lysaste årene (betre enn board.webp)."""
+    sp = os.path.join(SRC, 'marble-82.png')
+    if not os.path.exists(sp):
+        print('marble-82: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'marble-82.webp')
+    out['marble-82'] = report('marble-82', p, im2)
+
+
 def rosewood(out):
     """Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr
     (~/Koofr/Assets/rosewood_1.png) som rosewood.webp, 1024 px brei,
@@ -247,6 +265,7 @@ def main():
     lovewall23(out)
     mahogany(out)
     ishavswall38(out)
+    marble82(out)
     rosewood(out)
 
     print('\nsnittfarger for CSS:')
