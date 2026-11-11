@@ -3,15 +3,12 @@
    Alt av papirutklipp ligger i /assets/cutouts/<namn>.webp — byte av fil krev
    ingen kodeendring. Plasseringa styrest her etter src-namn, ikkje etter indeks. */
 
-/* --- faner: papirlappar under mastheaden --- */
-.site-tabs ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0}
-.site-tabs a{display:inline-block;text-decoration:none;color:var(--ink);background:rgba(230,213,179,.42);border:1px solid rgba(112,86,53,.36);padding:7px 14px;min-height:40px;box-shadow:0 2px 4px rgba(80,52,25,.14)}
-.site-tabs li:nth-child(odd) a{transform:rotate(-.8deg)}
-.site-tabs li:nth-child(even) a{transform:rotate(.7deg)}
-.site-tabs a:hover{border-color:var(--sea)}
-.site-tabs li[aria-current] a{background:#4A2A1C;color:#F7E8CB;border-color:#3A2A1E;font-weight:600}
+/* --- hovudmenyen: PÅ marmoret i mastheaden, i kvitt (Bob 2026-11-11) --- */
+.mast-extra .site-tabs ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 26px;margin:20px 0 0;padding:13px 0 0;border-top:1px solid rgba(255,255,255,.38)}
+.mast-extra .site-tabs a{display:inline-block;text-decoration:none;color:#fff;background:none;border:0;padding:3px 0;min-height:0;font-weight:500;text-shadow:0 1px 2px rgba(0,0,0,.55)}
+.mast-extra .site-tabs a:hover{text-decoration:underline;text-underline-offset:5px}
+.mast-extra .site-tabs li[aria-current] a{font-weight:700;border-bottom:2px solid #fff;padding-bottom:2px;text-decoration:none}
 
-/* --- scena: lause papirbit på vedveggen --- */
 /* --- vêr no: live Yr-panel i staden for teikna scene (Bob, 2026-11-11) --- */
 .front-hero{margin-top:6px}
 .weather-now{display:block;margin:14px 0 0;padding:16px 18px 12px;background:rgba(230,213,179,.42);border:1px solid rgba(112,86,53,.36);box-shadow:0 3px 7px rgba(80,52,25,.16);transform:rotate(-.4deg)}
@@ -59,7 +56,7 @@
   .stat-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
   .weather-temp{font-size:74px}
   .weather-icon{width:104px;height:104px}
-  .site-tabs a{padding:8px 18px}
+  
 }
 @media(max-width:400px){
   .weather-temp{font-size:46px}

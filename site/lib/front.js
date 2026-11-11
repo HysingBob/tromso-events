@@ -139,7 +139,8 @@ function oppslag(lang, now) {
 
 /* ---------- heile framsida ---------- */
 function frontPage(lang, catalog, now, langAlt) {
-  const body = `${tabBar(lang,'front')}${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
-  return shell(lang, tr(lang, 'Oppslag', 'Front'), body, langAlt, '', 'page-front');
+  /* Hovudmenyen står PÅ marmoret (mast-extra i shell), i kvitt — Bob 2026-11-11. */
+  const body = `${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
+  return shell(lang, tr(lang, 'Oppslag', 'Front'), body, langAlt, tabBar(lang, 'front'), 'page-front');
 }
 module.exports = { tabs, tabBar, tagText, weatherNow, symbolSvg, skjerIDag, fireTall, oppslag, frontPage, statCard };
