@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
-const { tagText, statCard, frontPage, tabs, weatherNow } = require('../lib/front');
+const { tagText, statCard, frontPage, tabs, weatherNow, skjerIDag } = require('../lib/front');
 const now = require('../src/_data/now.json');
 
 test('tag text: day length, mørketid and midnight sun are calculated', () => {
@@ -56,4 +56,26 @@ test('missing weather data hides numbers instead of inventing them', () => {
   assert.doesNotMatch(html, /weather-temp">\S°/);
   assert.doesNotMatch(html, /weather-icon/);
   assert.doesNotMatch(html, /oppdatert/);
+});
+
+test('«Skjer i dag» viser aldri Film — men andre kategoriar får stå (Bob 2026-11-11)', () => {
+  const now = new Date('2026-11-11T12:00:00+01:00');
+  const mk = (id, cat, date) => ({ id, tittel: id, kategori: cat, start: date + 'T18:00:00+01:00', sted: 'X' });
+  const upcoming = [
+    mk('a', ['Film'], '2026-11-11'),
+    mk('b', ['Konsert'], '2026-11-11'),
+    mk('c', ['Film', 'Scene'], '2026-11-11'),
+    mk('d', ['Utstilling'], '2026-11-11'),
+    mk('e', ['Prat'], '2026-11-11'),
+  ];
+  const html = skjerIDag('no', upcoming, now);
+  assert.match(html, /Konsert/);
+  assert.match(html, /Utstilling/);
+  assert.doesNotMatch(html, /id="a"|>a</);
+  assert.doesNotMatch(html, /id="c"|>c</);   // Film sjølv som andrekategori
+  // negativtest: utan filmfilteret skulle a vore med — sjekk at vaktet faktisk ser dataa
+  assert.ok(html.includes('Konsert'), 'vaktet må ha faktiske kort å sjå');
+  // ingen Film i det heile = bolken blir ikkje tom av andre grunnar
+  const bare = skjerIDag('no', [mk('f', ['Film'], '2026-11-11'), mk('g', ['Idrett'], '2026-11-11')], now);
+  assert.match(bare, /Idrett/);
 });

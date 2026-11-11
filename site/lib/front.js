@@ -73,11 +73,15 @@ function weatherNow(lang, now) {
 }
 
 /* ---------- Skjer i dag ---------- */
+/* Bob (2026-11-11): ingen FILM i denne bolken — filmar får sine eigne sider,
+ * dei skal ikkje oppta plassen på framsida. Alt anna står urørt. */
+const NOT_ON_FRONT = new Set(['Film']);
 function skjerIDag(lang, upcoming, now = new Date()) {
   const oslo = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Oslo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now);
   const today = oslo.slice(0, 10);
   const tomorrow = new Date(Date.parse(today + 'T12:00:00Z') + 86400000).toISOString().slice(0, 10);
-  const live = upcoming.filter(e => e.start.slice(0, 10) === today && (e.slutt || e.start).slice(0, 16) >= `${today}T00:00`);
+  const front = upcoming.filter(e => !(e.kategori || []).some(k => NOT_ON_FRONT.has(k)));
+  const live = front.filter(e => e.start.slice(0, 10) === today && (e.slutt || e.start).slice(0, 16) >= `${today}T00:00`);
   const { card } = require('./render');
   const pick = (list) => {
     // Raudskap over kategoriar: gå gjennom lista og hopp over meir enn éi
@@ -94,7 +98,7 @@ function skjerIDag(lang, upcoming, now = new Date()) {
   let heading, list;
   if (live.length) { heading = tr(lang, 'Skjer i dag', 'On today'); list = pick(live); }
   else {
-    const tmr = upcoming.filter(e => e.start.slice(0, 10) === tomorrow);
+    const tmr = front.filter(e => e.start.slice(0, 10) === tomorrow);
     heading = tr(lang, 'Skjer i morgen', 'On tomorrow'); list = pick(tmr);
   }
   if (!list.length) return '';
