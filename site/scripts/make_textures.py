@@ -155,6 +155,25 @@ def lovewall23(out):
     out['lovewall-23'] = report('lovewall-23', p, im2)
 
 
+def mahogany(out):
+    """PUST Lavvo-signatur (Bob 2026-11-11): mahogany_1 frå Koofr
+    (~/Koofr/Assets/mahogany_1.png) som mahogany.webp, 1024 px brei,
+    uendra elles. Mahogny er midtone (snitt #974F23, p99.9 lum 0.444) —
+    for lys for krem (4,0:1), for mørk for blekk (2,8:1). Løysing: same
+    28 % svartvask som vedveggen ligg i CSS over teksturen, så kremblekk
+    landar på 6,4–6,9:1."""
+    sp = os.path.join(SRC, 'mahogany.png')
+    if not os.path.exists(sp):
+        print('mahogany: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'mahogany.webp')
+    out['mahogany'] = report('mahogany', p, im2)
+
+
 def rosewood(out):
     """Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr
     (~/Koofr/Assets/rosewood_1.png) som rosewood.webp, 1024 px brei,
@@ -210,6 +229,7 @@ def main():
     wall_textures(out)
     travertine(out)
     lovewall23(out)
+    mahogany(out)
     rosewood(out)
 
     print('\nsnittfarger for CSS:')

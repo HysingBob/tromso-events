@@ -121,6 +121,18 @@ test('Løvetann Studio får Wallpaper_23 som signaturflate (kort + arrangementsi
   assert.match(css, /\.detail\[data-sted="Løvetann Studio"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
 });
 
+// PUST Lavvo-signatur (Bob 2026-11-11): mahogany_1 frå Koofr som eitt lag
+// på korta OG arrangementssida. Mahogny er midtone, så ein 28 % svartvask
+// ligg over teksturen — kremblekk (nattkort) landar på 6,4-6,9:1.
+test('PUST Lavvo får mahogany_1 som signaturflate (kort + arrangementside)', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'mahogany.webp')), 'mahogany.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp")'), 'kortet manglar mahogany-regelen med svartvask');
+  assert.ok(css.includes('.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp")'), 'arrangementssida manglar mahogany-regelen');
+  assert.match(css, /\.event-card\[data-sted="PUST Lavvo, Tromsø"\]\{color:#F7E8CB\}/);
+  assert.match(css, /\.detail\[data-sted="PUST Lavvo, Tromsø"\]\{[^}]*color:#F7E8CB\}/);
+});
+
 // Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
 // med prefixet ^=. Alt blekk i krem (veden er mørk men lettare enn stoffa).
