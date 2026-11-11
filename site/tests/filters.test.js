@@ -109,14 +109,14 @@ test('Aurora kino Fokus får fabric-20 som signaturpapir (kort + arrangementside
   assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
 });
 
-// Tromsø Kulturhus-signatur (Bob 2026-11-11): fabric 202 frå Koofr som
+// Tromsø Kulturhus-signatur (Bob 2026-11-11): Rosewood_1 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
-// med prefixet ^=. Alt blekk i krem (voven er mørk men har lysare partiar).
-test('Tromsø Kulturhus får fabric-202 som signaturpapir (kort + arrangementside)', () => {
+// med prefixet ^=. Alt blekk i krem (veden er mørk men lettare enn stoffa).
+test('Tromsø Kulturhus får Rosewood_1 som signaturvev (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'fabric-202.webp')), 'fabric-202.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/fabric-202.webp")'), 'kortet manglar fabric-202-regelen');
-  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/fabric-202.webp")'), 'arrangementssida manglar fabric-202-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'rosewood.webp')), 'rosewood.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/rosewood.webp")'), 'kortet manglar rosewood-regelen');
+  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood.webp")'), 'arrangementssida manglar rosewood-regelen');
   assert.match(css, /\.event-card\[data-sted\^="Tromsø Kulturhus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted\^="Tromsø Kulturhus"\]\{[^}]*color:#F7E8CB\}/);
 });
