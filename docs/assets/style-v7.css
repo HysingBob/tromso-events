@@ -211,8 +211,7 @@ body{
    (~/Koofr/Assets/1K-fabric_20-diffuse.jpg). Mørkt stoff = «nattkort»:
    kinosalen er den mørke rommet, så blekket vert lyst (natt/dag-idéen).
    Kontrast på flata: #F7E8CB 5.3:1, #F2D8B3 4.7:1, #E8D9BC 4.6:1 mot p99.9.
-   Arrangementssida: same vev bak artikkelen; .facts står framleis på
-   ljos papir med mørk blekk. */
+   Arrangementssida: same vev bak artikkelen. */
 .event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/fabric-20.webp");background-color:#293B4A}
 .event-card[data-sted="Aurora kino Fokus"]{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] h3{color:#F7E8CB}
@@ -284,7 +283,14 @@ body{
 .detail-art{background:transparent;padding:0;border:0}
 .detail-art img{filter:none;height:auto;width:100%;aspect-ratio:3/2;object-fit:cover;
   box-shadow:0 2px 4px rgba(0,0,0,.25), 0 6px 16px rgba(0,0,0,.18)}
-.facts{background:#E0CDA8}
+/* Fakta-ruta står direkte på papiret/veven — inga beige fyllfarge lenger
+   (Bob 2026-11-11: «heile må vere tekstur»). Linjene ovanfor/under held
+   ho framleis som eit eige felt. */
+.facts{background:transparent}
+/* På mørke stoff (nattkort) må etikettane (dt) også vera lyse:
+   #E8D9BC 4.6:1 mot fabric-20 p99.9, #F7E8CB 5.1:1 mot fabric-202. */
+.detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
+.detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
 .ticket-link{color:var(--light-ink)}
 .ticket-link:hover,.ticket-link:focus-visible{background:#4A2A1C;color:#F7E8CB}
