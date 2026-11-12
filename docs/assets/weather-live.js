@@ -14,7 +14,7 @@
   var LANG = panel.dataset.lang === 'en' ? 'en' : 'no';
 
   var URL = 'https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=' + LAT + '&lon=' + LON;
-  var UA = 'tromso.net front page (https://xn--troms-zua.net; kontakt: hysinghenrik@gmail.com)';
+  var UA = 'tromsø.net front page (https://xn--troms-zua.net; kontakt: hysinghenrik@gmail.com)';
 
   function fmtTemp(v) {
     var r = Math.round(v);
