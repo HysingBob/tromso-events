@@ -120,16 +120,17 @@ test('Løvetann Studio får Wallpaper_23 som signaturflate (kort + arrangementsi
   assert.match(css, /\.detail\[data-sted="Løvetann Studio"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
 });
 
-// PUST Lavvo-signatur (Bob 2026-11-11): mahogany_1 frå Koofr som eitt lag
-// på korta OG arrangementssida. Mahogny er midtone, så ein 28 % svartvask
-// ligg over teksturen — kremblekk (nattkort) landar på 6,4-6,9:1.
-test('PUST Lavvo får mahogany_1 som signaturflate (kort + arrangementside)', () => {
+// PUST Lavvo-signatur (Bob 2026-11-12): rosewood_2 frå Koofr som eitt lag
+// på korta OG arrangementssida. Mørk raud palisander (p50 lum 0,046) —
+// kremblekk (nattkort) 9,1:1 mot p50, ingen svartvask trengst.
+test('PUST Lavvo får rosewood_2 som signaturflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'mahogany.webp')), 'mahogany.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp")'), 'kortet manglar mahogany-regelen med svartvask');
-  assert.ok(css.includes('.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp")'), 'arrangementssida manglar mahogany-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'rosewood-2.webp')), 'rosewood-2.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:url("/assets/textures/rosewood-2.webp")'), 'kortet manglar rosewood-2-regelen');
+  assert.ok(css.includes('.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:url("/assets/textures/rosewood-2.webp")'), 'arrangementssida manglar rosewood-2-regelen');
   assert.match(css, /\.event-card\[data-sted="PUST Lavvo, Tromsø"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted="PUST Lavvo, Tromsø"\]\{[^}]*color:#F7E8CB\}/);
+  assert.ok(!css.includes('mahogany.webp'), 'mahogany skal vere ute av CSS-en');
 });
 
 // Ishavskatedralen-signatur (Bob 2026-11-11): wallpaper_38 frå Koofr som
