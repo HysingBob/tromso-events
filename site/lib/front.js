@@ -5,7 +5,7 @@
  * - Kunsten er utklipp i /assets/cutouts/<namn>.webp — byte av fil krev
  *   ingen kodeendring (namna er kontrakten).
  */
-const { shell, cats, tr } = require('./render');
+const { shell, cats, tr, filters } = require('./render');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const root = lang => `/${lang}/`;
 
@@ -72,6 +72,14 @@ function weatherNow(lang, now) {
 </section><script src="/assets/weather-live.js" defer></script></div>`;
 }
 
+/* ---------- panorama-header: Panoramautsikt-crop frå Assets som
+ * header-bilde, overskrifta står i kvit over fotoet (Bob 2026-11-12).
+ * Første omgang:bildet urørt, berre skugge bak teksten. ---------- */
+function panoramaHeader(lang) {
+  const heading = tr(lang, 'Alt som skjer i Tromsø', 'Everything happening in Tromsø');
+  return `<div class="panorama-header"><img src="/assets/textures/panorama.webp" alt="${esc(tr(lang, 'Panoramautsikt over Tromsø', 'Panorama view over Tromsø'))}" width="1600" height="584"><h1>${esc(heading)}</h1></div>`;
+}
+
 /* ---------- Skjer i dag ---------- */
 /* Bob (2026-11-11): ingen FILM i denne bolken — filmar får sine eigne sider,
  * dei skal ikkje oppta plassen på framsida. Alt anna står urørt. */
@@ -103,7 +111,8 @@ function skjerIDag(lang, upcoming, now = new Date()) {
   }
   if (!list.length) return '';
   const eventsUrl = root(lang) + (lang === 'no' ? 'hva-skjer' : 'whats-on') + '/';
-  return `<section class="front-section skjer-idag" aria-labelledby="skjer-idag-h"><h2 id="skjer-idag-h">${esc(heading)}</h2><div class="event-grid front-events">${list.map(e => card(e, lang, now)).join('')}</div><p class="front-more"><a href="${eventsUrl}">${tr(lang, 'Se alt som skjer', 'See everything on')} <span aria-hidden="true">→</span></a></p></section>`;
+  const empty = `<div class="empty-state" data-empty hidden><h3>${tr(lang, 'Ingen treff i dag', 'No matches today')}</h3><p>${tr(lang, 'Prøv ein annan kategori, eller sjå alt som kjem.', 'Try another category, or see everything coming up.')}</p><p class="front-more"><a href="${eventsUrl}">${tr(lang, 'Se alt som skjer', 'See everything on')} <span aria-hidden="true">→</span></a></p></div>`;
+  return `<section class="front-section skjer-idag" aria-labelledby="skjer-idag-h"><h2 id="skjer-idag-h">${esc(heading)}</h2><div class="event-grid front-events" data-filter-list>${list.map(e => card(e, lang, now)).join('')}</div>${empty}<p class="front-more"><a href="${eventsUrl}">${tr(lang, 'Se alt som skjer', 'See everything on')} <span aria-hidden="true">→</span></a></p></section>`;
 }
 
 /* ---------- Fire tall ---------- */
@@ -146,8 +155,9 @@ function oppslag(lang, now) {
 
 /* ---------- heile framsida ---------- */
 function frontPage(lang, catalog, now, langAlt) {
-  /* Hovudmenyen står PÅ marmoret (mast-extra i shell), i kvitt — Bob 2026-11-11. */
-  const body = `${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
+  /* Hovudmenyen står PÅ marmoret (mast-extra i shell), i kvitt — Bob 2026-11-11.
+   * Panorama i headeren og filterknappar under overskrifta — Bob 2026-11-12. */
+  const body = `${panoramaHeader(lang)}${filters(lang)}${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
   return shell(lang, tr(lang, 'Oppslag', 'Front'), body, langAlt, tabBar(lang, 'front'), 'page-front');
 }
 module.exports = { tabs, tabBar, tagText, weatherNow, symbolSvg, skjerIDag, fireTall, oppslag, frontPage, statCard };
