@@ -95,17 +95,17 @@ test('kvart kort får kategorivegg (Wallpaper A–D) på papirlaget; Annet står
   assert.match(css, /\.event-card\{[^}]*position:relative/);
 });
 
-// Aurora kino Fokus-signatur (Bob 2026-11-12): **marble_101** frå Koofr som
-// tekstur på korta OG arrangementssida (var wallpaper_4). Grøn-grå marmor,
-// snitt lum 0,233: krem #F7E8CB 12,4:1 mot p50 — «nattkort» framleis.
-test('Aurora kino Fokus får marble_101 som signurflate (kort + arrangementside)', () => {
+// Aurora kino Fokus-signatur (Bob 2026-11-12): marble_101b (basecolor) frå
+// Koofr som tekstur på korta OG arrangementssida — 40 % mørkvask fordi
+// marmoren er lys (p50 0,235 utan vask gjev krem berre 3,0:1).
+test('Aurora kino Fokus får marble_101b som signurflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'marble-101.webp')), 'marble-101.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/marble-101.webp")'), 'kortet manglar marble-101-regelen');
-  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/marble-101.webp")'), 'arrangementssida manglar marble-101-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'marble-101b.webp')), 'marble-101b.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp")'), 'kortet manglar marble-101b-regelen');
+  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp")'), 'arrangementssida manglar marble-101b-regelen');
   assert.match(css, /\.event-card\[data-sted="Aurora kino Fokus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
-  assert.ok(!css.includes('aurorawall-4'), 'aurorawall-4 skal vere ute av CSS-en');
+  assert.ok(!css.includes('marble-101.webp'), 'marble-101.webp (utan b) skal vere ute av CSS-en');
 });
 
 // Løvetann Studio-signatur (Bob 2026-11-12): teak_2 frå Koofr som eitt lag
@@ -121,17 +121,17 @@ test('Løvetann Studio får teak_2 som signaturflate (kort + arrangementside)', 
   assert.ok(!css.includes('lovewall-23'), 'lovewall-23 skal vere ute av CSS-en');
 });
 
-// PUST Lavvo-signatur (Bob 2026-11-12): rosewood_2 frå Koofr som eitt lag
-// på korta OG arrangementssida. Mørk raud palisander (p50 lum 0,046) —
-// kremblekk (nattkort) 9,1:1 mot p50, ingen svartvask trengst.
-test('PUST Lavvo får rosewood_2 som signaturflate (kort + arrangementside)', () => {
+// PUST Lavvo-signatur (Bob 2026-11-12): wood_fine_21 frå Koofr som eitt lag
+// på korta OG arrangementssida. Lys oransje finved — 30 % mørkvask,
+// kremblekk (nattkort) 5,5:1 mot p50. Var rosewood_2.
+test('PUST Lavvo får wood_fine_21 som signaturflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'rosewood-2.webp')), 'rosewood-2.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:url("/assets/textures/rosewood-2.webp")'), 'kortet manglar rosewood-2-regelen');
-  assert.ok(css.includes('.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:url("/assets/textures/rosewood-2.webp")'), 'arrangementssida manglar rosewood-2-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'woodfine-21.webp')), 'woodfine-21.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp")'), 'kortet manglar woodfine-21-regelen');
+  assert.ok(css.includes('.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp")'), 'arrangementssida manglar woodfine-21-regelen');
   assert.match(css, /\.event-card\[data-sted="PUST Lavvo, Tromsø"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted="PUST Lavvo, Tromsø"\]\{[^}]*color:#F7E8CB\}/);
-  assert.ok(!css.includes('mahogany.webp'), 'mahogany skal vere ute av CSS-en');
+  assert.ok(!css.includes('rosewood-2'), 'rosewood-2 skal vere ute av CSS-en');
 });
 
 // Ishavskatedralen-signatur (Bob 2026-11-11): wallpaper_38 frå Koofr som
@@ -148,16 +148,16 @@ test('Ishavskatedralen får wallpaper_38 som signaturflate (kort + arrangementsi
 // Tromsø Kulturhus-signatur (Bob 2026-11-11): fabric_192 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
 // med prefixet ^=. Alt blekk i krem (veven er mørk, p99.9 lum 0.144).
-// Tromsø Kulturhus (Bob 2026-11-12): wood_fine_24 som signatur (var fabric_192).
-// Mørk raudbrun finved + 15 % mørkvask; krem #F7E8CB 6,3:1 mot p50.
-test('Tromsø Kulturhus får wood_fine_24 som signaturflate (kort + arrangementside)', () => {
+// Tromsø Kulturhus (Bob 2026-11-12): rosewood_1 som signatur (var wood_fine_24).
+// Mørk raud palisander (p50 0,014) — krem #F7E8CB 13,5:1, ingen vask.
+test('Tromsø Kulturhus får rosewood_1 som signaturflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'woodfine-24.webp')), 'woodfine-24.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp")'), 'kortet manglar woodfine-24-regelen');
-  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp")'), 'arrangementssida manglar woodfine-24-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'rosewood-1.webp')), 'rosewood-1.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/rosewood-1.webp")'), 'kortet manglar rosewood-1-regelen');
+  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood-1.webp")'), 'arrangementssida manglar rosewood-1-regelen');
   assert.match(css, /\.event-card\[data-sted\^="Tromsø Kulturhus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted\^="Tromsø Kulturhus"\]\{[^}]*color:#F7E8CB\}/);
-  assert.ok(!css.includes('kulturhus-192'), 'kulturhus-192 skal vere ute av CSS-en');
+  assert.ok(!css.includes('woodfine-24'), 'woodfine-24 skal vere ute av CSS-en');
 });
 
 // Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på

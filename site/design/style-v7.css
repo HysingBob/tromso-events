@@ -244,17 +244,18 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
 .event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
 .event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
-/* Aurora kino Fokus (Bob 2026-11-12): signatur — **marble_101** frå Koofr
-   (~/Koofr/Assets/marble_101.png), grøn-grå marmor. Middels mørk (snitt lum
-   0,233): kremblekk #F7E8CB 12,4:1 mot p50 og 9,9:1 mot p98 — «nattkort»
-   framleis, men med marmor i staden for mural. Same kremtonar som før. */
-.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/marble-101.webp");background-color:#688D78}
+/* Aurora kino Fokus (Bob 2026-11-12): signatur — **marble_101b** (basecolor
+   frå ~/Koofr/Assets/marble_101.png), grøn-grå marmor. Marmoren er lysare
+   enn målt tidlegare (p50 lum 0,235): utan vask berre 3,0:1 i krem — no
+   40 % mørkvask rgba(36,51,58,.40) over teksturen: krem #F7E8CB 4,9:1 mot
+   p50, 3,2:1 mot p99.9 (tittane er store tekst — AA ok). */
+.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp");background-color:#688D78}
 .event-card[data-sted="Aurora kino Fokus"]{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] h3{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] .card-kicker{color:#F2D8B3}
 .event-card[data-sted="Aurora kino Fokus"] .card-meta{color:#E8D9BC}
 .event-card[data-sted="Aurora kino Fokus"] .free{color:#CBE3A8}
-.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/marble-101.webp");background-color:#688D78;color:#F7E8CB}
+.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp");background-color:#688D78;color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
@@ -280,18 +281,17 @@ body.page-front .empty-state p{color:#4A3524}
 .detail[data-sted="Løvetann Studio"] .facts dd{color:#F7E8CB}
 .detail[data-sted="Løvetann Studio"] .story a{color:#FBEFDB}
 .detail[data-sted="Løvetann Studio"] .ticket-link{color:#FBEFDB}
-/* PUST Lavvo (Bob 2026-11-12): signatur — rosewood_2 frå Koofr
-   (~/Koofr/Assets/rosewood_2.png). Mørk raud palisander (p50 lum 0,046,
-   p99.9 0,119) — mørk nok utan svartvask: kremblekk #F7E8CB 9,1:1 mot
-   p50, 5,1:1 mot dei lysaste årene. Nattkort-blekk (krem) som dei andre
-   mørke signaturane. */
-.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:url("/assets/textures/rosewood-2.webp");background-color:#5D3413}
+/* PUST Lavvo (Bob 2026-11-12): signatur — wood_fine_21 frå Koofr
+   (~/Koofr/Assets/wood_fine_21.jpg). Lys oransje finved (p50 lum 0,191):
+   utan vask berre 3,6:1 i krem — 30 % mørkvask rgba(40,19,22,.30) over
+   teksturen gjev krem #F7E8CB 5,5:1 mot p50, 3,8:1 mot p99.9. Nattkort. */
+.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp");background-color:#C55718}
 .event-card[data-sted="PUST Lavvo, Tromsø"]{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] h3{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .card-meta{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .free{color:#DDEFC0}
-.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:url("/assets/textures/rosewood-2.webp");background-color:#5D3413;color:#F7E8CB}
+.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp");background-color:#C55718;color:#F7E8CB}
 .detail[data-sted="PUST Lavvo, Tromsø"] h1{color:#F7E8CB}
 .detail[data-sted="PUST Lavvo, Tromsø"] .eyebrow{color:#FBEFDB}
 .detail[data-sted="PUST Lavvo, Tromsø"] .lead{color:#F7E8CB}
@@ -315,18 +315,17 @@ body.page-front .empty-state p{color:#4A3524}
 .detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
 .detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
 .detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
-/* Tromsø Kulturhus (Bob 2026-11-12): signatur — wood_fine_24 frå Koofr
-   (~/Koofr/Assets/wood_fine_24.jpg). Mørk raudbrun finved = nattkort: alle
-   tre scenene (Hovedscenen, Lillescenen, Galleriet) treffast med ^=.
-   Veden er lysare enn fabric_192 (p50 lum 0,113), så 15 % mørk vask held
-   kremblekket oppe: #F7E8CB 6,3:1, kicker #FBEFDB 6,7:1 mot p50. */
-.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp");background-color:#281316}
+/* Tromsø Kulturhus (Bob 2026-11-12): signatur — rosewood_1 frå Koofr
+   (~/Koofr/Assets/rosewood_1.png). Mørk raud palisander (p50 lum 0,014,
+   p99.9 0,034) — mørk nok utan vask: krem #F7E8CB 13,5:1 mot p50,
+   10,6:1 mot p99.9. Alle tre scenene treffast med ^=. */
+.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/rosewood-1.webp");background-color:#341710}
 .event-card[data-sted^="Tromsø Kulturhus"]{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] h3{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-meta{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .free{color:#DDEFC0}
-.detail[data-sted^="Tromsø Kulturhus"]{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp");background-color:#281316;color:#F7E8CB}
+.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood-1.webp");background-color:#341710;color:#F7E8CB}
 .detail[data-sted^="Tromsø Kulturhus"] h1{color:#F7E8CB}
 .detail[data-sted^="Tromsø Kulturhus"] .eyebrow{color:#FBEFDB}
 .detail[data-sted^="Tromsø Kulturhus"] .lead{color:#F7E8CB}
@@ -381,7 +380,7 @@ body.page-front .empty-state p{color:#4A3524}
    ho framleis som eit eige felt. */
 .facts{background:transparent}
 /* På mørke flater (nattkort) må etikettane (dt) også vera lyse:
-   #E8D9BC 7,6:1 mot marble-101 p50, #F7E8CB 6,3:1 mot woodfine-24 p50. */
+   #E8D9BC 4,5:1 mot marble-101b+vask p50, #F7E8CB 13,5:1 mot rosewood-1 p50. */
 .detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
 .detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
