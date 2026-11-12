@@ -9,12 +9,10 @@
 .mast-extra .site-tabs a:hover{text-decoration:underline;text-underline-offset:5px}
 .mast-extra .site-tabs li[aria-current] a{font-weight:700;border-bottom:2px solid #fff;padding-bottom:2px;text-decoration:none}
 
-/* --- panoramautsikt i headeren (Bob 2026-11-12): Panoramautsikt-crop
-   frå Koofr/Assets som header-bilde, overskrifta i kvit over fotoet.
-   Første omgang: berre skugge bak teksten, ingen behandling av bildet. --- */
-.panorama-header{position:relative;margin:14px 0 0;overflow:hidden;border:1px solid rgba(112,86,53,.36);box-shadow:0 3px 7px rgba(80,52,25,.16)}
-.panorama-header img{display:block;width:100%;height:auto}
-.panorama-header h1{position:absolute;left:22px;right:22px;bottom:16px;margin:0;font-family:var(--display);font-weight:600;font-size:clamp(32px,6vw,62px);line-height:.98;letter-spacing:-.02em;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.75),0 2px 14px rgba(0,0,0,.5)}
+/* --- panoramautsikt i headeren (Bob 2026-11-12, runde 2): erstattar
+   marmoren i mastheaden på framsida — IKKJE eit band under. Kvit
+   tekst/logo/faner står att; mørk vask held kontrasten oppe. --- */
+.page-front .masthead{background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.32)),url("/assets/textures/panorama.webp");background-size:cover;background-position:center 40%;background-color:#24333A}
 
 /* --- filterknappane under overskrifta (Bob 2026-11-12): synlege
    knappar med kant og flate — ikkje berre tekstlenkjer. Trykka = sjø. --- */
