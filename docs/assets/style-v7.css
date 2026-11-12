@@ -314,6 +314,24 @@ body.page-front .empty-state p{color:#4A3524}
 .detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
 .detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
 .detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
+/* FINT Kafé & Bar (Bob 2026-11-12): signatur — wallpaper_2 frå Koofr
+   (~/Koofr/Assets/wallpaper_2.jpg). Lys rosa mural (p50 lum 0,403) =
+   «dagkort»: standard mørkt blekk på korta — ink #25180E 7,5:1 mot p50,
+   8,6:1 mot p98. Berre tekstur + fallbackfarge, ingen vask. */
+.event-card[data-sted="FINT Kafé & Bar"]::before{background-image:url("/assets/textures/wallpaper-2.webp");background-color:#CE9CB2}
+.detail[data-sted="FINT Kafé & Bar"]{background-image:url("/assets/textures/wallpaper-2.webp");background-color:#CE9CB2}
+/* Dagkort på arrangementsida: .detail ligg normalt på mørk vedvegg med
+   kvit tekst — mot lys mural må alt blekk inni .detail bli mørkt att. */
+.detail[data-sted="FINT Kafé & Bar"]{color:#25180E}
+.detail[data-sted="FINT Kafé & Bar"] h1{color:#25180E}
+.detail[data-sted="FINT Kafé & Bar"] .eyebrow{color:#25180E}
+.detail[data-sted="FINT Kafé & Bar"] .detail-heading .lead,
+.detail[data-sted="FINT Kafé & Bar"] .story p,
+.detail[data-sted="FINT Kafé & Bar"] .source-note{color:#25180E}
+.detail[data-sted="FINT Kafé & Bar"] .facts dt{color:#25180E}
+.detail[data-sted="FINT Kafé & Bar"] .facts dd{color:#25180E}
+.detail[data-sted="FINT Kafé & Bar"] .story a{color:#7A2E1C}
+.detail[data-sted="FINT Kafé & Bar"] .ticket-link{color:#25180E}
 /* Tromsø Kulturhus (Bob 2026-11-12): signatur — rosewood_1 frå Koofr
    (~/Koofr/Assets/rosewood_1.png). Mørk raud palisander (p50 lum 0,014,
    p99.9 0,034) — mørk nok utan vask: krem #F7E8CB 13,5:1 mot p50,
