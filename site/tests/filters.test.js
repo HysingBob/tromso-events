@@ -43,9 +43,7 @@ test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber dat
   assert.doesNotMatch(front, /class="section-label"/);
   assert.match(front, /class="category-controls filter-cluster js-only"/);
   assert.match(front, /data-filter-reset/);
-  assert.match(front, /data-audience-filter="Familie"/);
-  assert.doesNotMatch(front, /data-audience-filter="18\+"/);
-  assert.doesNotMatch(front, /data-audience-filter="Ungdom"/);
+  assert.doesNotMatch(front, /data-audience-filter=/);
   assert.match(front, /data-free-filter="/);
   assert.match(front, /data-filter-reset/);
 
@@ -62,9 +60,8 @@ test('alle fem kategoriar får knapp sjølv utan arrangement i kategorien', () =
   const front = html('no/');
   const knappar = [...front.matchAll(/data-category-filter="([^"]+)"/g)].map(m => m[1]);
   assert.deepEqual(knappar, ['Konsert', 'Scene', 'Film', 'Aktivitet', 'Annet']);
-  for (const m of ['Familie']) {
-    assert.match(front, new RegExp(`data-audience-filter="${m.replace('+', '\\+')}"`));
-  }
+  // Målgruppe-knappar (Familie) er tekne ut — for vag (Bob 2026-11-12).
+  assert.doesNotMatch(front, /data-audience-filter=/);
   assert.match(front, /data-free-filter="/);
 });
 

@@ -53,11 +53,11 @@ function card(e,lang,now=new Date()) {
   return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}" data-audience="${esc((e.malgruppe||[]).join('|'))}" data-free="${e.gratis?'1':'0'}" data-sted="${esc(e.sted||'')}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${esc(kickerCat)} <span aria-hidden="true">–</span> ${esc(dayName(e.start,lang))}, ${esc(shortDate(e.start))}</div><h3>${esc(title)}</h3><p class="card-meta">${esc(eventTimes(e,lang))}${e.sted?' <span aria-hidden="true">·</span> '+esc(e.sted):''}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
 }
 // Éi klynge med knappar rett under logoen — ingen radoverskrifter, ingen tidsfaner.
-// Rekkjefølgje: kategoriar, så målgrupper, så «Gratis» sist.
+// Målgrupper (Familie) er tekne ut av klynga (Bob 2026-11-12: for vag) — berre
+// kategoriar og «Gratis». data-audience står att på korta, kostar ingenting.
 function chipCluster(lang) {
   const chips=[
     ...cats.map(c=>({attr:'data-category-filter',key:c.key,label:c[lang]})),
-    ...audiences.map(a=>({attr:'data-audience-filter',key:a.key,label:a[lang]})),
     {attr:'data-free-filter',key:'gratis',label:tr(lang,'Gratis','Free'),klass:'chip-free'}
   ];
   return chips.map(i=>`<button type="button" ${i.attr}="${esc(i.key)}"${i.klass?` class="${i.klass}"`:''} aria-pressed="false">${esc(i.label)}</button>`).join('');
