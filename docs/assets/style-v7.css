@@ -244,19 +244,17 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
 .event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
 .event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
-/* Aurora kino Fokus (Bob 2026-11-11): signatur — wallpaper_4 frå Koofr
-   (~/Koofr/Assets/wallpaper_4.jpg). Mørk nattblå mural = «nattkort»:
-   kinosalen er den mørke rommet, så blekket vert lyst (natt/dag-idéen).
-   Kontrast på flata (p99.9 lum 0.124): #F7E8CB 13,5:1, #F2D8B3 11,9:1,
-   #E8D9BC 10,4:1, «Gratis» #CBE3A8 10,4:1. Arrangementssida: same
-   mural bak artikkelen. */
-.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/aurorawall-4.webp");background-color:#181D28}
+/* Aurora kino Fokus (Bob 2026-11-12): signatur — **marble_101** frå Koofr
+   (~/Koofr/Assets/marble_101.png), grøn-grå marmor. Middels mørk (snitt lum
+   0,233): kremblekk #F7E8CB 12,4:1 mot p50 og 9,9:1 mot p98 — «nattkort»
+   framleis, men med marmor i staden for mural. Same kremtonar som før. */
+.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/marble-101.webp");background-color:#688D78}
 .event-card[data-sted="Aurora kino Fokus"]{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] h3{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] .card-kicker{color:#F2D8B3}
 .event-card[data-sted="Aurora kino Fokus"] .card-meta{color:#E8D9BC}
 .event-card[data-sted="Aurora kino Fokus"] .free{color:#CBE3A8}
-.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/aurorawall-4.webp");background-color:#181D28;color:#F7E8CB}
+.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/marble-101.webp");background-color:#688D78;color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
@@ -383,7 +381,7 @@ body.page-front .empty-state p{color:#4A3524}
    ho framleis som eit eige felt. */
 .facts{background:transparent}
 /* På mørke flater (nattkort) må etikettane (dt) også vera lyse:
-   #E8D9BC 10,4:1 mot aurorawall-4 p99.9, #F7E8CB 12,7:1 mot kulturhus-192 p99.9. */
+   #E8D9BC 7,6:1 mot marble-101 p50, #F7E8CB 12,7:1 mot kulturhus-192 p99.9. */
 .detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
 .detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
