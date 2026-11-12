@@ -209,23 +209,24 @@ def marble82(out):
     out['marble-82'] = report('marble-82', p, im2)
 
 
-def plank2(out):
-    """Bak korta (Bob 2026-11-12): wood_plank_2 frå Koofr
-    (~/Koofr/Assets/wood_plank_2.jpg) som plank-2.webp, 1024 px,
-    uendra. Lys grøngrå planke (snitt #7BA7A1, p99.9 lum 0.886) —
+def plank30(out):
+    """Bak korta (Bob 2026-11-12): woodplank_30 frå Koofr
+    (~/Koofr/Assets/woodplank_30.png) som plank-30.webp, 1024 px,
+    uendra. Varm lysbrun planke (snitt #A08A76, p99.9 lum 0.690) —
     berre som body-bakgrunn på page-front (listesidene), utan svartvask;
     tekst som står rett på planka der (page-heading, empty-state) får
-    mørkt blekk i CSS. Eventsider/om-sida held marmoren."""
-    sp = os.path.join(SRC, 'plank-2.jpg')
+    mørkt blekk #2A1D12 i CSS (5,0:1 mot snittet). Eventsider/om-sida
+    held marmoren. Var plank_2 før."""
+    sp = os.path.join(SRC, 'plank-30.png')
     if not os.path.exists(sp):
-        print('plank-2: kjelda finst ikkje — hoppar over')
+        print('plank-30: kjelda finst ikkje — hoppar over')
         return
     im = Image.open(sp).convert('RGB')
     if im.width > 1024:
         im = im.resize((1024, round(im.height * 1024 / im.width)),
                        Image.Resampling.LANCZOS)
-    p, im2 = save_webp(im, 'plank-2.webp')
-    out['plank-2'] = report('plank-2', p, im2)
+    p, im2 = save_webp(im, 'plank-30.webp')
+    out['plank-30'] = report('plank-30', p, im2)
 
 
 def kulturhus192(out):
@@ -286,7 +287,7 @@ def main():
     mahogany(out)
     ishavswall38(out)
     marble82(out)
-    plank2(out)
+    plank30(out)
     kulturhus192(out)
 
     print('\nsnittfarger for CSS:')

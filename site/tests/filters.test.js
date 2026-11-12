@@ -157,13 +157,15 @@ test('Tromsø Kulturhus får fabric_192 som signaturvev (kort + arrangementside)
   assert.match(css, /\.detail\[data-sted\^="Tromsø Kulturhus"\]\{[^}]*color:#F7E8CB\}/);
 });
 
-// Sidebakgrunn (Bob 2026-11-12): wood_plank_2 som body-bakgrunn på
+// Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på
 // listesidene (page-front), berre der — marmoren står att som
-// standard-body. Tekst rett på planka = mørkt blekk.
-test('Listesidene får plank-2 som bakgrunn, marmoren står att elles', () => {
+// standard-body. Tekst rett på planka = mørkt blekk #2A1D12.
+test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2.webp')), 'plank-2.webp manglar');
-  assert.ok(css.includes('body.page-front{\n  background-image:url("/assets/textures/plank-2.webp")'), 'page-front manglar plank-2-bakgrunn');
-  assert.ok(css.includes('body.page-front .page-heading h1{color:#3A2A1E}'), 'page-heading får ikkje mørkt blekk på planka');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-30.webp')), 'plank-30.webp manglar');
+  assert.ok(!fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2.webp')), 'plank-2.webp skulle vore sletta');
+  assert.ok(css.includes('body.page-front{\n  background-image:url("/assets/textures/plank-30.webp")'), 'page-front manglar plank-30-bakgrunn');
+  assert.ok(!css.includes('plank-2.webp'), 'plank-2 skal vere ute av CSS-en');
+  assert.ok(css.includes('body.page-front .page-heading h1{color:#2A1D12}'), 'page-heading får ikkje mørkt blekk på planka');
   assert.match(css, /body\{[^}]*linear-gradient\(rgba\(0,0,0,\.28\),rgba\(0,0,0,\.28\)\),url\("\/assets\/textures\/marble-82\.webp"\)/);
 });
