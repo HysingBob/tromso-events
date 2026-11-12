@@ -259,25 +259,27 @@ body.page-front .empty-state p{color:#4A3524}
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
 .detail[data-sted="Aurora kino Fokus"] .source-note{color:#E8D9BC}
-/* Løvetann Studio (Bob 2026-11-11): signatur — Wallpaper_23 frå Koofr
-   (~/Koofr/Assets/walllpaper_23.jpg). Lys blågrå mural = «dagkort»:
-   standard mørkt blekk står urørt — ink #3A2A1E 7,1:1, rust 4,8:1 mot
-   lysaste partiet (p99.9 lum 0.729). Berre tekstur + fallbackfarge. */
-.event-card[data-sted="Løvetann Studio"]::before{background-image:url("/assets/textures/lovewall-23.webp");background-color:#669697}
-.detail[data-sted="Løvetann Studio"]{background-image:url("/assets/textures/lovewall-23.webp");background-color:#669697}
-/* Dagkort på arrangementsida: normalt ligg .detail på den mørke vedveggen
-   med kvit tekst — her er muralen lys, så alt blekk inni .detail vert
-   mørkt att (same nivå som korta: ink 7,1:1, rust-lenker 4,8:1). */
-.detail[data-sted="Løvetann Studio"]{color:#3A2A1E}
-.detail[data-sted="Løvetann Studio"] h1{color:#3A2A1E}
-.detail[data-sted="Løvetann Studio"] .eyebrow{color:#3A2A1E}
+/* Løvetann Studio (Bob 2026-11-12): signatur — teak_2 frå Koofr
+   (~/Koofr/Assets/teak_2.png). Midtmørk honningteak (p50 lum 0,152) —
+   mørkt blekk kjem berre på 2,6:1, så Løvetann går frå dagkort til
+   nattkort: 25 % mørkvask rgba(40,19,22,.25) over teksturen — krem
+   #F7E8CB målt 5,9:1 mot p50, 4,7:1 mot p98. */
+.event-card[data-sted="Løvetann Studio"]::before{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp");background-color:#955E1D}
+.event-card[data-sted="Løvetann Studio"]{color:#F7E8CB}
+.event-card[data-sted="Løvetann Studio"] h3{color:#F7E8CB}
+.event-card[data-sted="Løvetann Studio"] .card-kicker{color:#FBEFDB}
+.event-card[data-sted="Løvetann Studio"] .card-meta{color:#F7E8CB}
+.event-card[data-sted="Løvetann Studio"] .free{color:#DDEFC0}
+.detail[data-sted="Løvetann Studio"]{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp");background-color:#955E1D;color:#F7E8CB}
+.detail[data-sted="Løvetann Studio"] h1{color:#F7E8CB}
+.detail[data-sted="Løvetann Studio"] .eyebrow{color:#FBEFDB}
 .detail[data-sted="Løvetann Studio"] .detail-heading .lead,
 .detail[data-sted="Løvetann Studio"] .story p,
-.detail[data-sted="Løvetann Studio"] .source-note{color:#3A2A1E}
-.detail[data-sted="Løvetann Studio"] .facts dt{color:#3A2A1E}
-.detail[data-sted="Løvetann Studio"] .facts dd{color:#3A2A1E}
-.detail[data-sted="Løvetann Studio"] .story a{color:#7A2E1C}
-.detail[data-sted="Løvetann Studio"] .ticket-link{color:#3A2A1E}
+.detail[data-sted="Løvetann Studio"] .source-note{color:#F7E8CB}
+.detail[data-sted="Løvetann Studio"] .facts dt{color:#F7E8CB}
+.detail[data-sted="Løvetann Studio"] .facts dd{color:#F7E8CB}
+.detail[data-sted="Løvetann Studio"] .story a{color:#FBEFDB}
+.detail[data-sted="Løvetann Studio"] .ticket-link{color:#FBEFDB}
 /* PUST Lavvo (Bob 2026-11-12): signatur — rosewood_2 frå Koofr
    (~/Koofr/Assets/rosewood_2.png). Mørk raud palisander (p50 lum 0,046,
    p99.9 0,119) — mørk nok utan svartvask: kremblekk #F7E8CB 9,1:1 mot

@@ -108,16 +108,17 @@ test('Aurora kino Fokus får marble_101 som signurflate (kort + arrangementside)
   assert.ok(!css.includes('aurorawall-4'), 'aurorawall-4 skal vere ute av CSS-en');
 });
 
-// Løvetann Studio-signatur (Bob 2026-11-11): Wallpaper_23 frå Koofr som
-// eitt lag på korta OG arrangementssida — lys blågrå mural = «dagkort»,
-// standard mørkt blekk står urørt.
-test('Løvetann Studio får Wallpaper_23 som signaturflate (kort + arrangementside)', () => {
+// Løvetann Studio-signatur (Bob 2026-11-12): teak_2 frå Koofr som eitt lag
+// på korta OG arrangementssida. Midtmørk honningteak — nattkort med krem
+// og 25 % mørkvask (krem 5,9:1 mot p50). Var Wallpaper_23 (dagkort).
+test('Løvetann Studio får teak_2 som signaturflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'lovewall-23.webp')), 'lovewall-23.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Løvetann Studio"]::before{background-image:url("/assets/textures/lovewall-23.webp")'), 'kortet manglar lovewall-23-regelen');
-  assert.ok(css.includes('.detail[data-sted="Løvetann Studio"]{background-image:url("/assets/textures/lovewall-23.webp")'), 'arrangementssida manglar lovewall-23-regelen');
-  // Dagkort: muralen er lys, så arrangementsida må ha mørkt blekk inni .detail
-  assert.match(css, /\.detail\[data-sted="Løvetann Studio"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'teak-2.webp')), 'teak-2.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="Løvetann Studio"]::before{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp")'), 'kortet manglar teak-2-regelen');
+  assert.ok(css.includes('.detail[data-sted="Løvetann Studio"]{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp")'), 'arrangementssida manglar teak-2-regelen');
+  // Nattkort: teaken er midtmørk, så alt blekk inni .detail vert krem
+  assert.match(css, /\.detail\[data-sted="Løvetann Studio"\]\{[^}]*color:#F7E8CB\}/, 'arrangementssida manglar kremblekk (mørk tekstur)');
+  assert.ok(!css.includes('lovewall-23'), 'lovewall-23 skal vere ute av CSS-en');
 });
 
 // PUST Lavvo-signatur (Bob 2026-11-12): rosewood_2 frå Koofr som eitt lag
