@@ -95,17 +95,17 @@ test('kvart kort får kategorivegg (Wallpaper A–D) på papirlaget; Annet står
   assert.match(css, /\.event-card\{[^}]*position:relative/);
 });
 
-// Aurora kino Fokus-signatur (Bob 2026-11-11): wallpaper_4 frå Koofr som
-// eitt lag på korta OG arrangementssida — mørk «nattkort», so blekket
-// vert lyst. Karta får data-sted; CSS fyller ut resten.
-test('Aurora kino Fokus får wallpaper_4 som signurflate (kort + arrangementside)', () => {
+// Aurora kino Fokus-signatur (Bob 2026-11-12): **marble_101** frå Koofr som
+// tekstur på korta OG arrangementssida (var wallpaper_4). Grøn-grå marmor,
+// snitt lum 0,233: krem #F7E8CB 12,4:1 mot p50 — «nattkort» framleis.
+test('Aurora kino Fokus får marble_101 som signurflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'aurorawall-4.webp')), 'aurorawall-4.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/aurorawall-4.webp")'), 'kortet manglar aurorawall-4-regelen');
-  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/aurorawall-4.webp")'), 'arrangementssida manglar aurorawall-4-regelen');
-  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]'), 'arrangementssida manglar aurorawall-4-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'marble-101.webp')), 'marble-101.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/marble-101.webp")'), 'kortet manglar marble-101-regelen');
+  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/marble-101.webp")'), 'arrangementssida manglar marble-101-regelen');
   assert.match(css, /\.event-card\[data-sted="Aurora kino Fokus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
+  assert.ok(!css.includes('aurorawall-4'), 'aurorawall-4 skal vere ute av CSS-en');
 });
 
 // Løvetann Studio-signatur (Bob 2026-11-11): Wallpaper_23 frå Koofr som
