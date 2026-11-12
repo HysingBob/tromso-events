@@ -14,6 +14,11 @@
    tekst/logo/faner står att; mørk vask held kontrasten oppe. --- */
 .page-front .masthead{background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.32)),url("/assets/textures/panorama.webp");background-size:cover;background-position:center 40%;background-color:#24333A}
 
+/* --- bakgrunnen på framsida (Bob 2026-11-12): woodplank_16 i staden for
+   plank-30 — berre v8-framsida, kategorisidene held plank-30. Mørkt blekk
+   #2A1D12 målt 6,5:1 mot snittet (#B89C7C). --- */
+body.page-front{background-image:url("/assets/textures/plank-16.webp");background-color:#B89C7C}
+
 /* --- filterknappane under overskrifta (Bob 2026-11-12): synlege
    knappar med kant og flate — ikkje berre tekstlenkjer. Trykka = sjø. --- */
 .page-front .filter-area{padding:16px 0 14px;border-bottom:1px solid var(--rule)}
