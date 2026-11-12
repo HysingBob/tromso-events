@@ -36,6 +36,7 @@ test('gratis er alltid ein boolsk verdi, så «Gratis»-filteret aldri er udefin
 test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber data for alle dimensjonane', () => {
   execFileSync('npm', ['run', 'build'], { cwd: root, stdio: 'pipe' });
   const front = html('no/');
+  const list = html('no/hva-skjer/');
   // Ingen «Kategori»/«Passer for»/«Pris»-overskrifter, ingen tidsfaner.
   assert.doesNotMatch(front, /filter-row/);
   assert.doesNotMatch(front, /data-time-filter=/);
@@ -50,7 +51,7 @@ test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber dat
 
   const cards = loadEvents().filter(e => e.status === 'publisert');
   assert.ok(cards.length);
-  for (const card of front.match(/<a class="event-card"[^>]*>/g) || []) {
+  for (const card of list.match(/<a class="event-card"[^>]*>/g) || []) {
     assert.match(card, /data-categories="/);
     assert.match(card, /data-audience="/);
     assert.match(card, /data-free="[01]"/);
@@ -68,13 +69,13 @@ test('alle fem kategoriar får knapp sjølv utan arrangement i kategorien', () =
 });
 
 test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
-  const front = html('no/');
+  const list = html('no/hva-skjer/');
   const publishedSports = raw().filter(e => e.status === 'publisert' && e.kategori.includes('Annet'));
   assert.ok(publishedSports.some(e => e.id === '2026-11-21-til-viking'));
   assert.ok(publishedSports.some(e => e.id === '2026-12-06-til-start'));
-  assert.match(front, /data-category-filter="Annet"/);
-  assert.match(front, /Tromsø IL – Viking/);
-  assert.match(front, /Tromsø IL – Start/);
+  assert.match(list, /data-category-filter="Annet"/);
+  assert.match(list, /Tromsø IL – Viking/);
+  assert.match(list, /Tromsø IL – Start/);
 });
 
 // Kategoriveggen sit på papirlaget (::before med eigen tekstur), ikkje på

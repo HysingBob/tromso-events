@@ -13,15 +13,17 @@ test('Eleventy builds both languages and all four page types without third-party
   for (const p of ['no/','en/','no/om/','en/about/','no/landing/','en/landing/','no/hva-skjer/','no/tall/','no/kategori/konsert/','en/category/concert/']) assert.match(html(p),/<html lang="(no|en)"/);
   assert.match(html('no/'),/<meta name="robots" content="noindex,nofollow">/);
 
+  // Hovudsida er v8-framsida; heile lista står på /hva-skjer/ (Bob 2026-11-12).
   assert.match(html('no/'),/data-category-filter="Konsert"/);
   // Tidsfanene (I dag / Til helgen / Alt) er tekne bort — lista er kronologisk.
-  assert.doesNotMatch(html('no/'),/data-time-filter=/);
-  assert.match(html('no/'),/href="\/en\/" lang="en"/);
+  assert.doesNotMatch(html('no/hva-skjer/'),/data-time-filter=/);
+  assert.match(html('no/'),/href="\/en\/"[^>]*hreflang="en"/); // språkbytte i footeren
   assert.match(html('no/'),/data-filter-list/);
   assert.match(html(''),/href="\/no\/"/);
-  assert.match(html('no/'),/class="empty-art" src="\/assets\/quiet-waters.webp"/);
+  assert.match(html('no/hva-skjer/'),/class="empty-art" src="\/assets\/quiet-waters.webp"/);
   assert.match(html('no/'),/<noscript>/);
   assert.doesNotMatch(html('no/'),/https?:\/\/(fonts|www\.google|unpkg|cdn\.)/);
+  assert.match(html('no/'),/style-v8.css/);
 
   const events=loadEvents();
   const published=events.filter(e=>e.status==='publisert');
@@ -35,7 +37,7 @@ test('Eleventy builds both languages and all four page types without third-party
   const nowIso = osloNow();
   const upcoming = published.filter(e=>(e.slutt||e.start).slice(0,16) >= nowIso);
   for (const e of upcoming) {
-    assert.ok(html('no/').includes(`href="/no/hendelse/${e.id}/"`), `manglar i oversikten: ${e.id}`);
+    assert.ok(html('no/hva-skjer/').includes(`href="/no/hendelse/${e.id}/"`), `manglar i oversikten: ${e.id}`);
   }
   assert.ok(upcoming.length > 0, 'ingen kommande arrangement å vise');
   for (const event of published) {
