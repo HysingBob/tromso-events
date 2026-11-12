@@ -146,13 +146,16 @@ test('Ishavskatedralen får wallpaper_38 som signaturflate (kort + arrangementsi
 // Tromsø Kulturhus-signatur (Bob 2026-11-11): fabric_192 frå Koofr som
 // eige papirlag på korta OG arrangementssida — alle tre scenene treffast
 // med prefixet ^=. Alt blekk i krem (veven er mørk, p99.9 lum 0.144).
-test('Tromsø Kulturhus får fabric_192 som signaturvev (kort + arrangementside)', () => {
+// Tromsø Kulturhus (Bob 2026-11-12): wood_fine_24 som signatur (var fabric_192).
+// Mørk raudbrun finved + 15 % mørkvask; krem #F7E8CB 6,3:1 mot p50.
+test('Tromsø Kulturhus får wood_fine_24 som signaturflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'kulturhus-192.webp')), 'kulturhus-192.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/kulturhus-192.webp")'), 'kortet manglar kulturhus-192-regelen');
-  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/kulturhus-192.webp")'), 'arrangementssida manglar kulturhus-192-regelen');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'woodfine-24.webp')), 'woodfine-24.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp")'), 'kortet manglar woodfine-24-regelen');
+  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp")'), 'arrangementssida manglar woodfine-24-regelen');
   assert.match(css, /\.event-card\[data-sted\^="Tromsø Kulturhus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted\^="Tromsø Kulturhus"\]\{[^}]*color:#F7E8CB\}/);
+  assert.ok(!css.includes('kulturhus-192'), 'kulturhus-192 skal vere ute av CSS-en');
 });
 
 // Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på

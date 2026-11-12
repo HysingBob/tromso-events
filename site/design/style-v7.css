@@ -314,19 +314,18 @@ body.page-front .empty-state p{color:#4A3524}
 .detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
 .detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
 .detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
-/* Tromsø Kulturhus (Bob 2026-11-12): signaturvev — fabric_192 frå Koofr
-   (~/Koofr/Assets/fabric_192.png). Mørk raudbrun vev = nattkort: alle tre
-   scenene (Hovedscenen, Lillescenen, Galleriet) treffast med prefixet ^=.
-   Voven er mørk (p99.9 lum 0.144) — kremblekk landar på 12,7:1 utan
-   svartvask: #F7E8CB 12,7:1, kicker #FBEFDB 13,4:1, «Gratis» #DDEFC0
-   12,6:1, faktaetikett #F7E8CB 12,7:1. */
-.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/kulturhus-192.webp");background-color:#281316}
+/* Tromsø Kulturhus (Bob 2026-11-12): signatur — wood_fine_24 frå Koofr
+   (~/Koofr/Assets/wood_fine_24.jpg). Mørk raudbrun finved = nattkort: alle
+   tre scenene (Hovedscenen, Lillescenen, Galleriet) treffast med ^=.
+   Veden er lysare enn fabric_192 (p50 lum 0,113), så 15 % mørk vask held
+   kremblekket oppe: #F7E8CB 6,3:1, kicker #FBEFDB 6,7:1 mot p50. */
+.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp");background-color:#281316}
 .event-card[data-sted^="Tromsø Kulturhus"]{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] h3{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-meta{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .free{color:#DDEFC0}
-.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/kulturhus-192.webp");background-color:#281316;color:#F7E8CB}
+.detail[data-sted^="Tromsø Kulturhus"]{background-image:linear-gradient(rgba(40,19,22,.15),rgba(40,19,22,.15)),url("/assets/textures/woodfine-24.webp");background-color:#281316;color:#F7E8CB}
 .detail[data-sted^="Tromsø Kulturhus"] h1{color:#F7E8CB}
 .detail[data-sted^="Tromsø Kulturhus"] .eyebrow{color:#FBEFDB}
 .detail[data-sted^="Tromsø Kulturhus"] .lead{color:#F7E8CB}
@@ -381,7 +380,7 @@ body.page-front .empty-state p{color:#4A3524}
    ho framleis som eit eige felt. */
 .facts{background:transparent}
 /* På mørke flater (nattkort) må etikettane (dt) også vera lyse:
-   #E8D9BC 7,6:1 mot marble-101 p50, #F7E8CB 12,7:1 mot kulturhus-192 p99.9. */
+   #E8D9BC 7,6:1 mot marble-101 p50, #F7E8CB 6,3:1 mot woodfine-24 p50. */
 .detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
 .detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
