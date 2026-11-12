@@ -323,8 +323,10 @@ body.page-front .empty-state p{color:#4A3524}
 /* Dagkort på arrangementsida: .detail ligg normalt på mørk vedvegg med
    kvit tekst — mot lys mural må alt blekk inni .detail bli mørkt att. */
 .detail[data-sted="FINT Kafé & Bar"]{color:#25180E}
-.detail[data-sted="FINT Kafé & Bar"] h1{color:#25180E}
-.detail[data-sted="FINT Kafé & Bar"] .eyebrow{color:#25180E}
+/* body.page-event-prefiks: må slå den generelle kvite h1-regela
+   (same elles specificity, men den kjem seinare i fila). */
+body.page-event .detail[data-sted="FINT Kafé & Bar"] h1{color:#25180E}
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .eyebrow{color:#25180E}
 .detail[data-sted="FINT Kafé & Bar"] .detail-heading .lead,
 .detail[data-sted="FINT Kafé & Bar"] .story p,
 .detail[data-sted="FINT Kafé & Bar"] .source-note{color:#25180E}
