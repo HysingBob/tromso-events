@@ -12,7 +12,7 @@
 /* --- panoramautsikt i headeren (Bob 2026-11-12, runde 2): erstattar
    marmoren i mastheaden på framsida — IKKJE eit band under. Kvit
    tekst/logo/faner står att; mørk vask held kontrasten oppe. --- */
-.page-front .masthead{background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.32)),url("/assets/textures/panorama.webp");background-size:cover;background-position:center 40%;background-color:#24333A}
+.page-front .masthead,body.page-event .masthead{background-image:linear-gradient(rgba(0,0,0,.32),rgba(0,0,0,.32)),url("/assets/textures/panorama.webp");background-size:cover;background-position:center 40%;background-color:#24333A}
 
 /* --- bakgrunnen på framsida (Bob 2026-11-12): woodplank_16 i staden for
    plank-30 — berre v8-framsida, kategorisidene held plank-30. Mørkt blekk
