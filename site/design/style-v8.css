@@ -30,6 +30,9 @@ body.page-front{background-image:url("/assets/textures/plank-16.webp");backgroun
 .page-front .filter-area .filter-cluster button{border:1px solid rgba(168,196,212,.55);background:rgba(36,51,58,.82);color:#E8EFF2;padding:8px 15px;min-height:40px;border-radius:0;font-size:14px;letter-spacing:.02em}
 .page-front .filter-area .filter-cluster button:hover{border-color:rgba(168,196,212,.9);background:rgba(42,59,69,.88)}
 .page-front .filter-area .filter-cluster button[aria-pressed="true"]{background:#B8CFDB;border-color:#B8CFDB;color:#16283A;text-shadow:none}
+/* v7 legg ✦ inni trykka knappar — breidda (8,9 px) skyv heile banneret på
+   mobil (Bob 2026-11-12). Nullstill glyfeten; den trykka flata er markør nok. */
+.page-front .filter-area .filter-cluster button[aria-pressed="true"]::before{content:none}
 .page-front .filter-area .filter-cluster button.chip-free{font-weight:600}
 .page-front .filter-area .filter-foot{margin:10px 0 0}
 .page-front .filter-reset{color:#E8EFF2}
