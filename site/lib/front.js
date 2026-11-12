@@ -72,13 +72,9 @@ function weatherNow(lang, now) {
 </section><script src="/assets/weather-live.js" defer></script></div>`;
 }
 
-/* ---------- panorama-header: Panoramautsikt-crop frå Assets som
- * header-bilde, overskrifta står i kvit over fotoet (Bob 2026-11-12).
- * Første omgang:bildet urørt, berre skugge bak teksten. ---------- */
-function panoramaHeader(lang) {
-  const heading = tr(lang, 'Alt som skjer i Tromsø', 'Everything happening in Tromsø');
-  return `<div class="panorama-header"><img src="/assets/textures/panorama.webp" alt="${esc(tr(lang, 'Panoramautsikt over Tromsø', 'Panorama view over Tromsø'))}" width="1600" height="584"><h1>${esc(heading)}</h1></div>`;
-}
+/* ---------- panorama-header (Bob 2026-11-12, runde 2): IKKJE eit nytt band —
+   Panoramautsikt-crop erstattar marmoren (.marble.webp) som bakgrunn i
+   sjølve mastheaden på framsida. Overskrift/logo/faner står att i kvit. ---------- */
 
 /* ---------- Skjer i dag ---------- */
 /* Bob (2026-11-11): ingen FILM i denne bolken — filmar får sine eigne sider,
@@ -157,7 +153,7 @@ function oppslag(lang, now) {
 function frontPage(lang, catalog, now, langAlt) {
   /* Hovudmenyen står PÅ marmoret (mast-extra i shell), i kvitt — Bob 2026-11-11.
    * Panorama i headeren og filterknappar under overskrifta — Bob 2026-11-12. */
-  const body = `${panoramaHeader(lang)}${filters(lang)}${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
+  const body = `${filters(lang)}${weatherNow(lang, now)}${skjerIDag(lang, catalog.upcoming)}${fireTall(lang, now)}${oppslag(lang, now)}`;
   return shell(lang, tr(lang, 'Oppslag', 'Front'), body, langAlt, tabBar(lang, 'front'), 'page-front');
 }
 module.exports = { tabs, tabBar, tagText, weatherNow, symbolSvg, skjerIDag, fireTall, oppslag, frontPage, statCard };
