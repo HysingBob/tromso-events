@@ -2,7 +2,8 @@
    Lastast etter style.css og leather.css med THEME=v7.
    Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
 
-   Bakgrunn   = marble-82.webp (mørk marmor, 512 px flisa; board.webp før)
+   Bakgrunn   = plank-2.webp på listesidene (lyst plankebord, 512 px flisa),
+                marmoren (marble-82.webp) står att på arrangements-/om-sider
    Masthead   = marble.webp  (grøn marmor, 512 px flisa)
    Oppslag    = paper.webp   (kraftpapir, lysast)
 
@@ -40,6 +41,23 @@ body{
   background-color:#121213;
   color:#fff;
 }
+/* Listesidene (forsida + kategori): lys planke bak korta (Bob 2026-11-12:
+   wood_plank_2 i staden for svart marmor — «bak kortene, der er det ingen
+   skrift»). Ingen svartvask. Tekst som står rett på planka (page-heading,
+   empty-state) får mørkt blekk — mørkt blekk #3A2A1E på planka:
+   8,6:1 mot snittet, ~5:1 mot dei mørkaste årene. */
+body.page-front{
+  background-image:url("/assets/textures/plank-2.webp");
+  background-repeat:repeat;
+  background-size:512px 512px;
+  background-color:#7BA7A1;
+  color:#3A2A1E;
+}
+body.page-front .page-heading h1{color:#3A2A1E}
+body.page-front .page-heading>p:last-child{color:#59422C}
+body.page-front .empty-state{border-color:rgba(58,42,30,.55)}
+body.page-front .empty-state h3{color:#3A2A1E}
+body.page-front .empty-state p{color:#59422C}
 .page-shell{background:none;box-shadow:none}
 
 /* 2 — Masthead: grøn marmor, heile vindauget -----------------------------
@@ -225,18 +243,19 @@ body{
 .event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
 .event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
 .event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
-/* Aurora kino Fokus (Bob 2026-11-11): signaturvev — fabric 20 frå Koofr
-   (~/Koofr/Assets/1K-fabric_20-diffuse.jpg). Mørkt stoff = «nattkort»:
+/* Aurora kino Fokus (Bob 2026-11-11): signatur — wallpaper_4 frå Koofr
+   (~/Koofr/Assets/wallpaper_4.jpg). Mørk nattblå mural = «nattkort»:
    kinosalen er den mørke rommet, så blekket vert lyst (natt/dag-idéen).
-   Kontrast på flata: #F7E8CB 5.3:1, #F2D8B3 4.7:1, #E8D9BC 4.6:1 mot p99.9.
-   Arrangementssida: same vev bak artikkelen. */
-.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/fabric-20.webp");background-color:#293B4A}
+   Kontrast på flata (p99.9 lum 0.124): #F7E8CB 13,5:1, #F2D8B3 11,9:1,
+   #E8D9BC 10,4:1, «Gratis» #CBE3A8 10,4:1. Arrangementssida: same
+   mural bak artikkelen. */
+.event-card[data-sted="Aurora kino Fokus"]::before{background-image:url("/assets/textures/aurorawall-4.webp");background-color:#181D28}
 .event-card[data-sted="Aurora kino Fokus"]{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] h3{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] .card-kicker{color:#F2D8B3}
 .event-card[data-sted="Aurora kino Fokus"] .card-meta{color:#E8D9BC}
 .event-card[data-sted="Aurora kino Fokus"] .free{color:#CBE3A8}
-.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/fabric-20.webp");background-color:#293B4A;color:#F7E8CB}
+.detail[data-sted="Aurora kino Fokus"]{background-image:url("/assets/textures/aurorawall-4.webp");background-color:#181D28;color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
@@ -296,19 +315,19 @@ body{
 .detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
 .detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
 .detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
-/* Tromsø Kulturhus (Bob 2026-11-11): signaturvev — Rosewood_1 frå Koofr
-   (~/Koofr/Assets/rosewood_1.png). Mørk rosentre-ved = nattkort: alle tre
+/* Tromsø Kulturhus (Bob 2026-11-12): signaturvev — fabric_192 frå Koofr
+   (~/Koofr/Assets/fabric_192.png). Mørk raudbrun vev = nattkort: alle tre
    scenene (Hovedscenen, Lillescenen, Galleriet) treffast med prefixet ^=.
-   Veden er lettare enn dei tidlegare stoffa (p99.9 lum 0.179), så alt
-   blekk i krem landar langt over 4,5:1 — #F7E8CB 11,3:1, kicker
-   #FBEFDB 12:1, «Gratis» #DDEFC0 11,2:1, faktaetikett #E8D9BC 9,8:1. */
-.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/rosewood.webp");background-color:#341710}
+   Voven er mørk (p99.9 lum 0.144) — kremblekk landar på 12,7:1 utan
+   svartvask: #F7E8CB 12,7:1, kicker #FBEFDB 13,4:1, «Gratis» #DDEFC0
+   12,6:1, faktaetikett #F7E8CB 12,7:1. */
+.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/kulturhus-192.webp");background-color:#281316}
 .event-card[data-sted^="Tromsø Kulturhus"]{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] h3{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-meta{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .free{color:#DDEFC0}
-.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood.webp");background-color:#341710;color:#F7E8CB}
+.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/kulturhus-192.webp");background-color:#281316;color:#F7E8CB}
 .detail[data-sted^="Tromsø Kulturhus"] h1{color:#F7E8CB}
 .detail[data-sted^="Tromsø Kulturhus"] .eyebrow{color:#FBEFDB}
 .detail[data-sted^="Tromsø Kulturhus"] .lead{color:#F7E8CB}
@@ -363,7 +382,7 @@ body{
    ho framleis som eit eige felt. */
 .facts{background:transparent}
 /* På mørke flater (nattkort) må etikettane (dt) også vera lyse:
-   #E8D9BC 4,6:1 mot fabric-20 p99.9, #E8D9BC 9,8:1 mot rosewood p99.9. */
+   #E8D9BC 10,4:1 mot aurorawall-4 p99.9, #F7E8CB 12,7:1 mot kulturhus-192 p99.9. */
 .detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
 .detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
