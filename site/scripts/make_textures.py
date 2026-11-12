@@ -229,6 +229,26 @@ def plank30(out):
     out['plank-30'] = report('plank-30', p, im2)
 
 
+def plank32(out):
+    """Arrangementssidene (Bob 2026-11-12): woodplank_32 frå Koofr
+    (~/Koofr/Assets/woodplank_32.png) som plank-32.webp, 1024 px,
+    uendra. Varm brun planke (snitt #91684B, p50 lum 0.169) — mørkare
+    og varmare enn plank_30 på framsida. Body-bakgrunn berre på
+    page-event; kvit tekst held 4,9–5,6:1, krem sklir under 4,5:1 så
+    kremtonane på .detail kvitast ut i CSS. Marmoren (marble-82)
+    står att som standard-body."""
+    sp = os.path.join(SRC, 'plank-32.png')
+    if not os.path.exists(sp):
+        print('plank-32: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'plank-32.webp')
+    out['plank-32'] = report('plank-32', p, im2)
+
+
 def kulturhus192(out):
     """Tromsø Kulturhus-signatur (Bob 2026-11-12): fabric_192 frå Koofr
     (~/Koofr/Assets/fabric_192.png) som kulturhus-192.webp, 1024 px brei,
@@ -288,6 +308,7 @@ def main():
     ishavswall38(out)
     marble82(out)
     plank30(out)
+    plank32(out)
     kulturhus192(out)
 
     print('\nsnittfarger for CSS:')

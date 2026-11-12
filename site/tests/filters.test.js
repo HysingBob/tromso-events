@@ -160,6 +160,16 @@ test('Tromsø Kulturhus får fabric_192 som signaturvev (kort + arrangementside)
 // Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på
 // listesidene (page-front), berre der — marmoren står att som
 // standard-body. Tekst rett på planka = mørkt blekk #2A1D12.
+// Arrangementssidene (Bob 2026-11-12): woodplank_32 som body-bakgrunn på
+// page-event — varmare enn plank_30 på framsida. Kremtonane på .detail
+// kvitast ut (planka er midtmørk); marmoren står att på default body.
+test('Arrangementssidene får plank-32 som bakgrunn, krem kvitast ut', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-32.webp')), 'plank-32.webp manglar');
+  assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32.webp")'), 'page-event manglar plank-32-bakgrunn');
+  assert.ok(css.includes('body.page-event .detail h1,\nbody.page-event .detail .eyebrow{color:#fff}'), '.detail-teksten er ikkje kvita på planka');
+});
+
 test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
   assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-30.webp')), 'plank-30.webp manglar');

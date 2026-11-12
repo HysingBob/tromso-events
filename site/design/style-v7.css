@@ -2,8 +2,9 @@
    Lastast etter style.css og leather.css med THEME=v7.
    Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
 
-   Bakgrunn   = plank-30.webp på listesidene (lyst plankebord, 512 px flisa),
-                marmoren (marble-82.webp) står att på arrangements-/om-sider
+   Bakgrunn   = plank-30.webp på listesidene (lyst plankebord),
+                plank-32.webp (varm brun planke) på arrangementssidene;
+                marmoren (marble-82.webp) står att på om-sider/default body
    Masthead   = marble.webp  (grøn marmor, 512 px flisa)
    Oppslag    = paper.webp   (kraftpapir, lysast)
 
@@ -397,14 +398,20 @@ body.page-front .empty-state p{color:#4A3524}
    døgnrytmen i lista med luft mellom dagane. */
 .day-group{margin:0 0 22px}
 .day-group:last-child{margin-bottom:0}
-/* 5c — Arrangementssida: mørkne mot kantane ------------------------------ */
-
+/* 5c — Arrangementssida: varm planke (Bob 2026-11-12: plank_32 i staden
+   for marmor) mørkne mot kantane. Planka er varm brun (snitt #91684B,
+   p50 lum 0.169): kvit tekst 4,9–5,6:1, men kremen (#F7E8CB) kjem på
+   4,1:1 — under 4,5:1 — så kremtonane inni .detail kvitast ut. */
 body.page-event{
-  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/marble-82.webp");
+  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32.webp");
   background-repeat:no-repeat,repeat;
   background-attachment:fixed,scroll;
   background-size:100% 100%,512px 512px;
+  background-color:#91684B;
 }
+body.page-event .detail h1,
+body.page-event .detail .eyebrow{color:#fff}
+body.page-event .detail .facts dt{color:rgba(255,255,255,.92)}
 
 @media(max-width:639px){
   /* telefon: mindre luft i mastheaden */
