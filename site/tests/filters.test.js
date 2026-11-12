@@ -95,14 +95,14 @@ test('kvart kort får kategorivegg (Wallpaper A–D) på papirlaget; Annet står
   assert.match(css, /\.event-card\{[^}]*position:relative/);
 });
 
-// Aurora kino Fokus-signatur (Bob 2026-11-12): marble_101b (basecolor) frå
-// Koofr som tekstur på korta OG arrangementssida — 40 % mørkvask fordi
-// marmoren er lys (p50 0,235 utan vask gjev krem berre 3,0:1).
-test('Aurora kino Fokus får marble_101b som signurflate (kort + arrangementside)', () => {
+// Aurora kino Fokus-signatur (Bob 2026-11-12): Marble_101b (opplasta av Bob
+// i Koofr) som tekstur på korta OG arrangementssida — mørk grøn marmor med
+// 20 % mørkvask: krem 6,8:1 mot p50.
+test('Aurora kino Fokus får Marble_101b som signurflate (kort + arrangementside)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
   assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'marble-101b.webp')), 'marble-101b.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp")'), 'kortet manglar marble-101b-regelen');
-  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp")'), 'arrangementssida manglar marble-101b-regelen');
+  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp")'), 'kortet manglar marble-101b-regelen');
+  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp")'), 'arrangementssida manglar marble-101b-regelen');
   assert.match(css, /\.event-card\[data-sted="Aurora kino Fokus"\]\{color:#F7E8CB\}/);
   assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
   assert.ok(!css.includes('marble-101.webp'), 'marble-101.webp (utan b) skal vere ute av CSS-en');

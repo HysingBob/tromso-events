@@ -244,18 +244,17 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
 .event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
 .event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
-/* Aurora kino Fokus (Bob 2026-11-12): signatur — **marble_101b** (basecolor
-   frå ~/Koofr/Assets/marble_101.png), grøn-grå marmor. Marmoren er lysare
-   enn målt tidlegare (p50 lum 0,235): utan vask berre 3,0:1 i krem — no
-   40 % mørkvask rgba(36,51,58,.40) over teksturen: krem #F7E8CB 4,9:1 mot
-   p50, 3,2:1 mot p99.9 (tittane er store tekst — AA ok). */
-.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp");background-color:#688D78}
+/* Aurora kino Fokus (Bob 2026-11-12): signatur — **Marble_101b** opplasta av
+   Bob (Koofr Assets), mørk grøn marmor (p50 lum 0,096, p99.9 0,410 i dei
+   lysaste årene). 20 % mørkvask rgba(36,51,58,.20): krem #F7E8CB 6,8:1 mot
+   p50, 3,9:1 mot p98 — tittane er store tekst (AA ok). */
+.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp");background-color:#22634A}
 .event-card[data-sted="Aurora kino Fokus"]{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] h3{color:#F7E8CB}
 .event-card[data-sted="Aurora kino Fokus"] .card-kicker{color:#F2D8B3}
 .event-card[data-sted="Aurora kino Fokus"] .card-meta{color:#E8D9BC}
 .event-card[data-sted="Aurora kino Fokus"] .free{color:#CBE3A8}
-.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.40),rgba(36,51,58,.40)),url("/assets/textures/marble-101b.webp");background-color:#688D78;color:#F7E8CB}
+.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp");background-color:#22634A;color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
 .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
 .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
