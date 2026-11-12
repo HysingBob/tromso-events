@@ -209,6 +209,25 @@ def marble82(out):
     out['marble-82'] = report('marble-82', p, im2)
 
 
+def plank2(out):
+    """Bak korta (Bob 2026-11-12): wood_plank_2 frå Koofr
+    (~/Koofr/Assets/wood_plank_2.jpg) som plank-2.webp, 1024 px,
+    uendra. Lys grøngrå planke (snitt #7BA7A1, p99.9 lum 0.886) —
+    berre som body-bakgrunn på page-front (listesidene), utan svartvask;
+    tekst som står rett på planka der (page-heading, empty-state) får
+    mørkt blekk i CSS. Eventsider/om-sida held marmoren."""
+    sp = os.path.join(SRC, 'plank-2.jpg')
+    if not os.path.exists(sp):
+        print('plank-2: kjelda finst ikkje — hoppar over')
+        return
+    im = Image.open(sp).convert('RGB')
+    if im.width > 1024:
+        im = im.resize((1024, round(im.height * 1024 / im.width)),
+                       Image.Resampling.LANCZOS)
+    p, im2 = save_webp(im, 'plank-2.webp')
+    out['plank-2'] = report('plank-2', p, im2)
+
+
 def kulturhus192(out):
     """Tromsø Kulturhus-signatur (Bob 2026-11-12): fabric_192 frå Koofr
     (~/Koofr/Assets/fabric_192.png) som kulturhus-192.webp, 1024 px brei,
@@ -267,6 +286,7 @@ def main():
     mahogany(out)
     ishavswall38(out)
     marble82(out)
+    plank2(out)
     kulturhus192(out)
 
     print('\nsnittfarger for CSS:')

@@ -2,7 +2,8 @@
    Lastast etter style.css og leather.css med THEME=v7.
    Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
 
-   Bakgrunn   = marble-82.webp (mørk marmor, 512 px flisa; board.webp før)
+   Bakgrunn   = plank-2.webp på listesidene (lyst plankebord, 512 px flisa),
+                marmoren (marble-82.webp) står att på arrangements-/om-sider
    Masthead   = marble.webp  (grøn marmor, 512 px flisa)
    Oppslag    = paper.webp   (kraftpapir, lysast)
 
@@ -40,6 +41,23 @@ body{
   background-color:#121213;
   color:#fff;
 }
+/* Listesidene (forsida + kategori): lys planke bak korta (Bob 2026-11-12:
+   wood_plank_2 i staden for svart marmor — «bak kortene, der er det ingen
+   skrift»). Ingen svartvask. Tekst som står rett på planka (page-heading,
+   empty-state) får mørkt blekk — mørkt blekk #3A2A1E på planka:
+   8,6:1 mot snittet, ~5:1 mot dei mørkaste årene. */
+body.page-front{
+  background-image:url("/assets/textures/plank-2.webp");
+  background-repeat:repeat;
+  background-size:512px 512px;
+  background-color:#7BA7A1;
+  color:#3A2A1E;
+}
+body.page-front .page-heading h1{color:#3A2A1E}
+body.page-front .page-heading>p:last-child{color:#59422C}
+body.page-front .empty-state{border-color:rgba(58,42,30,.55)}
+body.page-front .empty-state h3{color:#3A2A1E}
+body.page-front .empty-state p{color:#59422C}
 .page-shell{background:none;box-shadow:none}
 
 /* 2 — Masthead: grøn marmor, heile vindauget -----------------------------
