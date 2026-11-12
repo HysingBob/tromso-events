@@ -278,19 +278,18 @@ body.page-front .empty-state p{color:#4A3524}
 .detail[data-sted="Løvetann Studio"] .facts dd{color:#3A2A1E}
 .detail[data-sted="Løvetann Studio"] .story a{color:#7A2E1C}
 .detail[data-sted="Løvetann Studio"] .ticket-link{color:#3A2A1E}
-/* PUST Lavvo (Bob 2026-11-11): signatur — mahogany_1 frå Koofr
-   (~/Koofr/Assets/mahogany_1.png). Mahogny er midtone (p99.9 lum 0.444):
-   for lys for krem, for mørk for blekk. Same 28 % svartvask som vedveggen
-   ligg over teksturen (som fyrste lag i background-image) — p99.9 etter
-   vask 0.320, kremblekk 6,4–6,9:1. Nattkort-blekk (krem) som dei andre
+/* PUST Lavvo (Bob 2026-11-12): signatur — rosewood_2 frå Koofr
+   (~/Koofr/Assets/rosewood_2.png). Mørk raud palisander (p50 lum 0,046,
+   p99.9 0,119) — mørk nok utan svartvask: kremblekk #F7E8CB 9,1:1 mot
+   p50, 5,1:1 mot dei lysaste årene. Nattkort-blekk (krem) som dei andre
    mørke signaturane. */
-.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp");background-color:#974F23}
+.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:url("/assets/textures/rosewood-2.webp");background-color:#5D3413}
 .event-card[data-sted="PUST Lavvo, Tromsø"]{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] h3{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .card-meta{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .free{color:#DDEFC0}
-.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/mahogany.webp");background-color:#974F23;color:#F7E8CB}
+.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:url("/assets/textures/rosewood-2.webp");background-color:#5D3413;color:#F7E8CB}
 .detail[data-sted="PUST Lavvo, Tromsø"] h1{color:#F7E8CB}
 .detail[data-sted="PUST Lavvo, Tromsø"] .eyebrow{color:#FBEFDB}
 .detail[data-sted="PUST Lavvo, Tromsø"] .lead{color:#F7E8CB}
