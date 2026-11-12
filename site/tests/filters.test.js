@@ -180,3 +180,9 @@ test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
   assert.ok(css.includes('body.page-front .page-heading h1{color:#2A1D12}'), 'page-heading får ikkje mørkt blekk på planka');
   assert.match(css, /body\{[^}]*linear-gradient\(rgba\(0,0,0,\.28\),rgba\(0,0,0,\.28\)\),url\("\/assets\/textures\/marble-82\.webp"\)/);
 });
+
+test('v8-framsida får woodplank_16 som bakgrunn (Bob 2026-11-12)', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v8.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-16.webp')), 'plank-16.webp manglar');
+  assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/plank-16.webp");background-color:#B89C7C}'), 'v8-framsida manglar plank-16-bakgrunn');
+});
