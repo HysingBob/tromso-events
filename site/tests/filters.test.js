@@ -187,3 +187,14 @@ test('v8-framsida får woodplank_2 som bakgrunn (Bob 2026-11-12)', () => {
   assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2.webp')), 'plank-2.webp manglar');
   assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/plank-2.webp");background-color:#7BA7A1}'), 'v8-framsida manglar plank-2-bakgrunn');
 });
+
+// FINT Kafé & Bar-signatur (Bob 2026-11-12): wallpaper_2 frå Koofr som
+// tekstur på korta OG arrangementssida — lys rosa mural = «dagkort»,
+// mørkt blekk #25180E 7,5:1 mot p50.
+test('FINT Kafé & Bar får wallpaper_2 som signaturflate (kort + arrangementside)', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'wallpaper-2.webp')), 'wallpaper-2.webp manglar');
+  assert.ok(css.includes('.event-card[data-sted="FINT Kafé & Bar"]::before{background-image:url("/assets/textures/wallpaper-2.webp")'), 'kortet manglar wallpaper-2-regelen');
+  assert.ok(css.includes('.detail[data-sted="FINT Kafé & Bar"]{background-image:url("/assets/textures/wallpaper-2.webp")'), 'arrangementssida manglar wallpaper-2-regelen');
+  assert.match(css, /\.detail\[data-sted="FINT Kafé & Bar"\]\{[^}]*color:#25180E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
+});
