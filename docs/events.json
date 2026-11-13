@@ -1,50 +1,5 @@
 [
  {
-  "title": "DKS: Arktiske mysterier",
-  "start": "2026-11-12T09:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/dks-arktiske-mysterier",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/show_crop_image.jpg.webp?itok=EiJ0S2DX",
-  "free": true
- },
- {
-  "title": "Sensur av bøker: amerikanske tilstander også i Norge?",
-  "start": "2026-11-12T12:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/sensur-av-boker-amerikanske-tilstander-ogsa-i-norge",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Forbudte%20b%C3%B8ker%20under%20Arctic%20Pride.png.webp?itok=DR9cKSFY",
-  "free": true
- },
- {
-  "title": "Advokatvakta",
-  "start": "2026-11-12T16:30:00",
-  "venue": "Hovedbiblioteket, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/advokatvakta",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-08/Advokatvakta.jpg.webp?itok=JMgJOWzx",
-  "free": true
- },
- {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-12T16:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "ILP-seminaret: Leseglede starter i barnehagen!",
-  "start": "2026-11-12T17:00:00",
-  "venue": "Teams, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943853/ilp-seminaret_leseglede_starter_i_barnehagen",
-  "image": "https://uit.no/Content/871126/cache=20253101124006/transformation=scale10000x560/mp11302842-imagination-concept-boy-and-girl-reading-a-book-objects-flying-out.jpg",
-  "free": true
- },
- {
   "title": "TO KJØNN?Fortellinger om mangfold fra historien og biologien",
   "start": "2026-11-12T17:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -54,15 +9,6 @@
   "free": true
  },
  {
-  "title": "Markens Grode",
-  "start": "2026-11-12T17:30:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Bli med på bokklubb - vi leser Alberte og Jakob! (fulltegnet)",
   "start": "2026-11-12T17:30:00",
   "venue": "Hovedbiblioteket ++, Tromsø",
@@ -70,15 +16,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/bli-med-pa-bokklubb-vi-leser-alberte-og-jakob-fulltegnet",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/DSC03669.jpg.webp?itok=b5UM2Ml0",
   "free": true
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-12T18:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "ROCKY",
@@ -99,33 +36,6 @@
   "free": false
  },
  {
-  "title": "Ramayana Rise Of A Legend",
-  "start": "2026-11-12T18:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/ramayana-rise-of-a-legend/1692",
-  "image": "https://images.filmgrail.com/mediaserver/movies/ramayana-rise-of-a-legend-9828/backdrop/1794043807889?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Javla Menn",
-  "start": "2026-11-12T18:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
-  "image": "https://images.filmgrail.com/mediaserver/movies/javla-menn-9489/backdrop/1793891710936?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Janove med strykekvartett",
-  "start": "2026-11-12T19:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/janove-med-strykekvartett/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Janove.jpg",
-  "free": false
- },
- {
   "title": "Internasjonalt seminar:Geopolitisk spenning i Arktis– Hva med sameksistens, fred og miljø?",
   "start": "2026-11-12T19:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -133,33 +43,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/internasjonalt-seminar-geopolitisk-spenning-i-arktis-hva-med",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Geopolitisk%20spenning%20i%20Arktis-kopi.jpg.webp?itok=SdRX5e5_",
   "free": true
- },
- {
-  "title": "Wildwood",
-  "start": "2026-11-12T20:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/wildwood/1669",
-  "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Brokeback Mountain - Live dub med Jon Hauge",
-  "start": "2026-11-12T20:00:00",
-  "venue": "Amtmandens, Tromsø",
-  "source": "amtmandens",
-  "url": "https://tromsofilmklubb.antitickets.com/event/brokeback-mountain-live-dub-med-jon-hauge",
-  "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiI2YTc1MzAyYi1mYTE2LTRmMmItOTk3ZS00N2YzMDNkMjgxMDdcLzNLYmRBY1ZXZEx0YWFhTjg2RnBjeU8wcTlmYlwvYzVmMTZkNzgtODA1Yy00NWE4LWE3MmQtMGVmOTJiZmU5ZjBiLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwid2lkdGgiOjM3MCwiZml0IjoiY29udGFpbiJ9fX0=?signature=e2977963a1874891ff06035aadad40f509a3bd0973db49b4fe0e2182dfb1657f",
-  "free": false
- },
- {
-  "title": "Godzilla Minus Zero",
-  "start": "2026-11-12T20:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1794230110726?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "A BETTER TOMORROW",
@@ -171,111 +54,12 @@
   "free": false
  },
  {
-  "title": "Clayface",
-  "start": "2026-11-12T21:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/clayface/1666",
-  "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Other Mommy",
-  "start": "2026-11-12T21:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/other-mommy/1662",
-  "image": "https://images.filmgrail.com/1791450477015-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Shut Up and Write - and Read!",
-  "start": "2026-11-13T10:15:00",
-  "venue": "UB 244 (Universitetsbiblioteket, 2. etasje), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941461/shut_up_and_write_-_and_read",
-  "image": "https://uit.no/Content/862029/cache=20240110150533/transformation=scale10000x560/Shut%20Up%20and%20Write%20Copy%20%281%29.jpg",
-  "free": true
- },
- {
-  "title": "Disputas – Master i zoologi Andi Kerr-Little",
-  "start": "2026-11-13T10:15:00",
-  "venue": "Auditorium Cortex, plan 7, MH Vest, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944717/disputas_master_i_zoologi_andi_kerr-little",
-  "image": "https://uit.no/Content/944718/cache=20260411151427/transformation=scale10000x560/Andi%20Kerr-Little.jpg",
-  "free": true
- },
- {
-  "title": "Disputas Kristoffer Mällberg",
-  "start": "2026-11-13T10:15:00",
-  "venue": "SVHUM B-1005, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944399/disputas_kristoffer_m_llberg",
-  "image": "https://uit.no/Content/930443/cache=20263105200749/transformation=scale10000x560/HSL-disputas2.JPG",
-  "free": true
- },
- {
-  "title": "Prøveforelesning og disputas – Jibola Obafemi Owolabi / Trial lecture and defense – Jibola Obafemi Owolabi",
-  "start": "2026-11-13T10:15:00",
-  "venue": "Aud.1. (Room TEK 1.022), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944353/proveforelesning_og_disputas_jibola_obafemi_owo",
-  "image": "https://uit.no/Content/944354/cache=20263010090931/transformation=scale10000x560/jibola.jpg",
-  "free": true
- },
- {
-  "title": "Pianovandring 2026",
-  "start": "2026-11-13T11:00:00",
-  "venue": "Campus Breivika, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/937313/pianovandring_2026",
-  "image": "https://uit.no/Content/937316/cache=20262408151103/transformation=scale10000x560/Screenshot%202026-08-24%20at%2015.10.29.png",
-  "free": true
- },
- {
-  "title": "Fredagseventyret",
-  "start": "2026-11-13T11:00:00",
-  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
-  "free": true
- },
- {
-  "title": "Ebenezer",
-  "start": "2026-11-13T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
-  "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-13T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-13T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sangen Fra Skogene",
-  "start": "2026-11-13T12:00:00",
+  "title": "Sense And Sensibility",
+  "start": "2026-11-13T14:30:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sangen-fra-skogene/1668",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene-9492/backdrop/1792144599385?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
+  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -285,15 +69,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
   "image": "https://images.filmgrail.com/mediaserver/movies/javla-menn-9489/backdrop/1793891710936?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Sense And Sensibility",
-  "start": "2026-11-13T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -333,12 +108,39 @@
   "free": false
  },
  {
+  "title": "Ebenezer",
+  "start": "2026-11-13T18:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
+  "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Markens Grode",
+  "start": "2026-11-13T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Malagagaten",
   "start": "2026-11-13T18:15:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
   "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-13T18:30:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1135,7 +937,7 @@
  },
  {
   "title": "Javla Menn",
-  "start": "2026-11-17T17:45:00",
+  "start": "2026-11-17T17:30:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
@@ -1170,6 +972,15 @@
   "free": true
  },
  {
+  "title": "The Odyssey",
+  "start": "2026-11-17T20:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
+  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Fra hybel til egen bolig: Finnes det en vei inn i Tromsø-markedet?",
   "start": "2026-11-17T20:00:00",
   "venue": "Amtmandens, UiT Tromsø",
@@ -1177,15 +988,6 @@
   "url": "https://uit.no/tavla/artikkel/945285/fra_hybel_til_egen_bolig_finnes_det_en_vei_inn_i",
   "image": "https://uit.no/Content/945284/cache=20261211092131/transformation=scale10000x560/Tavla%20vitenbar%201.png",
   "free": true
- },
- {
-  "title": "The Odyssey",
-  "start": "2026-11-17T20:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-odyssey/1258",
-  "image": "https://images.filmgrail.com/1783582960416-blob?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "Godzilla Minus Zero",
@@ -1267,6 +1069,15 @@
   "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-kortfilm-skuespillworkshop",
   "image": "https://www.verdensteatret.no/img/_movieThumb/Legg-til-en-underoverskrift-1.jpg",
   "free": false
+ },
+ {
+  "title": "Help Desk: Research Data, Coding & HPC",
+  "start": "2026-11-18T14:00:00",
+  "venue": "UB 338, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
+  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
+  "free": true
  },
  {
   "title": "Ebenezer",
@@ -1527,6 +1338,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/945082/trial_lecture_and_thesis_defense_-_abd_alelah_der",
   "image": "https://uit.no/Content/945081/cache=20260911173332/transformation=scale10000x560/Bilde_Abd.Alelah.Derbas.jpg",
+  "free": true
+ },
+ {
+  "title": "Fredagseventyret",
+  "start": "2026-11-20T11:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
   "free": true
  },
  {
@@ -1809,6 +1629,24 @@
   "free": true
  },
  {
+  "title": "Trial lecture and disputation MSc in Biology/Animal Physiology and MD in General Medicine - Jana Kalinová",
+  "start": "2026-11-26T10:15:00",
+  "venue": "Strømmes fra Store auditorium (E-101), NFH-bygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/945348/trial_lecture_and_disputation_msc_in_biology_anim",
+  "image": "https://uit.no/Content/945349/cache=20261211152054/transformation=scale10000x560/Jana%20Kalinov%C3%A1.jpeg",
+  "free": true
+ },
+ {
+  "title": "The Hunger Games Sunrise On The Reaping",
+  "start": "2026-11-26T12:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
+  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Arctic Institute for AI Seminar #3: AI for Language Proficiency in Healthcare Communication",
   "start": "2026-11-26T13:15:00",
   "venue": "Teknologibygget, Auditorium 1.022 / Online, UiT Tromsø",
@@ -1836,6 +1674,15 @@
   "free": false
  },
  {
+  "title": "I Play Rocky",
+  "start": "2026-11-26T18:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/i-play-rocky/1694",
+  "image": "https://images.filmgrail.com/mediaserver/movies/i-play-rocky-9688/backdrop/1794568400349?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "ROCKY",
   "start": "2026-11-26T20:45:00",
   "venue": "Verdensteatret, Tromsø",
@@ -1845,7 +1692,7 @@
   "free": false
  },
  {
-  "title": "Shut Up and Write - and Read!(27. november)",
+  "title": "Shut Up and Write - and Read!",
   "start": "2026-11-27T10:15:00",
   "venue": "UB 244 (Universitetsbiblioteket, 2. etasje), UiT Tromsø",
   "source": "uit",
@@ -2112,6 +1959,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/942307/iff_research_seminar_jorgen_pedersen_hogskulen",
   "image": "https://uit.no/Content/942262/cache=20260410185120/transformation=scale10000x560/Picture%202026%20new.png",
+  "free": true
+ },
+ {
+  "title": "Advokatvakta",
+  "start": "2026-12-10T16:30:00",
+  "venue": "Hovedbiblioteket, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/08/advokatvakta",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-08/Advokatvakta.jpg.webp?itok=JMgJOWzx",
   "free": true
  },
  {
@@ -2493,6 +2349,15 @@
   "free": false
  },
  {
+  "title": "Hold av dagen: MOKTA 2027",
+  "start": "2027-03-02T10:00:00",
+  "venue": "Campus Tromsø - nærmere informasjon kommer, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/945381/hold_av_dagen_mokta_2027",
+  "image": "https://uit.no/Content/945389/cache=20261311101850/transformation=scale10000x560/MOKTA_grafikk_uten_tekst.png",
+  "free": true
+ },
+ {
   "title": "Grieg – i full symfoni To norske mesterverk",
   "start": "2027-03-04T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2705,7 +2570,7 @@
   "venue": "Teorifagbygget Hus 1, Auditorium 1, UiT Tromsø",
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/944912/experimental_health_research_conference_ehrc_2027",
-  "image": "https://uit.no/Content/945344/cache=20261211144304/transformation=scale10000x560/EHRC-2027_logo.png",
+  "image": "https://uit.no/Content/945375/cache=20261311094353/transformation=scale10000x560/EHRC-2027_logo_v2.png",
   "free": true
  },
  {
@@ -2770,24 +2635,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/verdilose-menn-2/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Verdilose-Menn-27-1.jpg",
   "free": false
- },
- {
-  "title": "Kulturnatta: Hold kjæft og læs",
-  "start": "2027-10-02T18:00:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/kulturnatta-hold-kjaeft-og-laes",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/Kulturnatta%20hold%20kj%C3%A6ft%20og%20l%C3%A6s.png.webp?itok=3G1SAigX",
-  "free": true
- },
- {
-  "title": "Kulturnatta: Turistene kommer! Besøk, begeistring og besværligheter-glimt fra historiske Tromsø",
-  "start": "2027-10-02T20:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/kulturnatta-turistene-kommer-besok-begeistring-og-besvaerligheter-glimt",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/Kulturnatta%20turistene%20kommer.png.webp?itok=bDeGfKQy",
-  "free": true
  },
  {
   "title": "Lesesirkel: Vi har alltid budd på slottet",
@@ -3003,6 +2850,24 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/bang-litteraturfestival-barn",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/653fb8097756236a008996cf_BANG%20hoved.jpg.webp?itok=P2mICZCp",
+  "free": true
+ },
+ {
+  "title": "Arctic Pride: Forfattermøte med Mari Grydeland",
+  "start": "2027-11-11T09:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/arctic-pride-forfattermote-med-mari-grydeland",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/26b09b0a-9a5a-4bec-accc-c8bc1b2a7043_0.png.webp?itok=f6DFHsL6",
+  "free": true
+ },
+ {
+  "title": "Avspark for Ibsen200 (påmelding)",
+  "start": "2027-11-11T11:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/avspark-ibsen200-pamelding",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Avspark%20Ibsen200.png.webp?itok=cdfOVvVb",
   "free": true
  },
  {
