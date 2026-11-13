@@ -54,42 +54,6 @@
   "free": false
  },
  {
-  "title": "Sense And Sensibility",
-  "start": "2026-11-13T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/sense-and-sensibility/1591",
-  "image": "https://images.filmgrail.com/mediaserver/movies/sense-and-sensibility-8387/backdrop/1792764907157?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Javla Menn",
-  "start": "2026-11-13T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/javla-menn/1681",
-  "image": "https://images.filmgrail.com/mediaserver/movies/javla-menn-9489/backdrop/1793891710936?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Velkommen Til Familien",
-  "start": "2026-11-13T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/velkommen-til-familien/1733",
-  "image": "https://images.filmgrail.com/mediaserver/movies/velkommen-til-familien-9682/backdrop/1794305709358?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Nordisk broderiworkshop: Stiching Belonging",
-  "start": "2026-11-13T16:00:00",
-  "venue": "Nordnorsk Kunstmuseumm Sjøgata 2 Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945114/nordisk_broderiworkshop_stiching_belonging",
-  "image": "https://uit.no/Content/945115/cache=20261011101920/transformation=scale10000x560/bilde.jpg",
-  "free": true
- },
- {
   "title": "Julenissens Verksted",
   "start": "2026-11-13T16:45:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -110,7 +74,7 @@
  {
   "title": "Ebenezer",
   "start": "2026-11-13T18:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
   "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
