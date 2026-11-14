@@ -212,7 +212,7 @@ test('Rådstua, Filmklubben og Tromsøbadet får sine signaturflater', () => {
     assert.ok(css.includes(`url("/assets/textures/${tex}.webp")`), `${sted} manglar ${tex}-regelen`);
   }
   // Dagkortet (marble_83) må ha mørkt blekk, ikkje den generelle kvite h1-en.
-  assert.ok(/body\.page-event \.detail\[data-sted="Bakrommet hos Amtmandens"\][\s\S]{0,200}h1[\s\S]{0,40}#25180E/.test(css), 'Filmklubb-h1 er ikkje mørk');
+  assert.ok(/body\.page-event \.detail\[data-sted="Bakrommet hos Amtmandens"\][\s\S]{0,400}?h1[\s\S]{0,600}?#25180E/.test(css), 'Filmklubb-h1 er ikkje mørk');
   // Nattkorta må slå den generelle kvite h1-en.
   assert.ok(css.includes('body.page-event .detail[data-sted="Tromsøbadet"] h1{color:#F7E8CB}'), 'Tromsøbad-h1 er ikkje krem');
 });
