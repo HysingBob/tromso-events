@@ -1,218 +1,11 @@
 [
  {
-  "title": "TO KJØNN?Fortellinger om mangfold fra historien og biologien",
-  "start": "2026-11-12T17:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/kjonn-fortellinger-om-mangfold-fra-historien-og-biologien",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Tokj%C3%B8nnArcticPride.webp?itok=JY3l-VWS",
-  "free": true
- },
- {
-  "title": "Bli med på bokklubb - vi leser Alberte og Jakob! (fulltegnet)",
-  "start": "2026-11-12T17:30:00",
-  "venue": "Hovedbiblioteket ++, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/bli-med-pa-bokklubb-vi-leser-alberte-og-jakob-fulltegnet",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/DSC03669.jpg.webp?itok=b5UM2Ml0",
-  "free": true
- },
- {
-  "title": "ROCKY",
-  "start": "2026-11-12T18:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/rocky",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/42710/5000017_crop.png",
-  "free": false
- },
- {
-  "title": "SJAKKMATT - HØSTDANS 2026",
-  "start": "2026-11-12T18:00:00",
-  "venue": "Rådstua Teaterhus, Tromsø",
-  "source": "radstua",
-  "url": "https://www.radstua.no/aktuelt-program/hostdans26",
-  "image": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1793348476271-GX800M868IHB838BYR2X/H%C3%B8stdans+2026.png",
-  "free": false
- },
- {
-  "title": "Internasjonalt seminar:Geopolitisk spenning i Arktis– Hva med sameksistens, fred og miljø?",
-  "start": "2026-11-12T19:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/internasjonalt-seminar-geopolitisk-spenning-i-arktis-hva-med",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Geopolitisk%20spenning%20i%20Arktis-kopi.jpg.webp?itok=SdRX5e5_",
-  "free": true
- },
- {
-  "title": "A BETTER TOMORROW",
-  "start": "2026-11-12T20:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/a-better-tomorrow",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Skjermbilde-2026-10-23-110421.png",
-  "free": false
- },
- {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-13T16:45:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Wildwood",
-  "start": "2026-11-13T17:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/wildwood/1669",
-  "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Ebenezer",
-  "start": "2026-11-13T18:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
-  "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-13T18:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Malagagaten",
-  "start": "2026-11-13T18:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
-  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-13T18:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Faen då, Martha! – et soloshow av og med Martha Leivestad",
-  "start": "2026-11-13T19:00:00",
-  "venue": "Lillescenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/faen-da-martha-et-soloshow-av-og-med-martha-leivestad/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-Faen-da-Martha-1-1.jpg",
-  "free": false
- },
- {
-  "title": "Konsen og Filharmonien - Kamp for frihet og identitet",
-  "start": "2026-11-13T19:00:00",
-  "venue": "KulturHuset, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944443/konsen_og_filharmonien_-_kamp_for_frihet_og_ident",
-  "image": "https://uit.no/Content/944445/cache=20263010150110/transformation=scale10000x560/Skjermbilde%202026-10-30%20150042.png",
-  "free": true
- },
- {
   "title": "Pitch Perfect SING-ALONG",
   "start": "2026-11-13T20:00:00",
   "venue": "Amtmandens, Tromsø",
   "source": "amtmandens",
   "url": "https://tromsofilmklubb.antitickets.com/event/pitch-perfect-sing-along",
   "image": "",
-  "free": false
- },
- {
-  "title": "How To Rob A Bank",
-  "start": "2026-11-13T20:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/how-to-rob-a-bank/1546",
-  "image": "https://images.filmgrail.com/1794496531860-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Godzilla Minus Zero",
-  "start": "2026-11-13T20:45:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1794230110726?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Verity",
-  "start": "2026-11-13T21:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/verity/1548",
-  "image": "https://images.filmgrail.com/mediaserver/movies/verity-9225/backdrop/1789132511656?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Clayface",
-  "start": "2026-11-13T21:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/clayface/1666",
-  "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-14T11:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-14T11:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Lille Spokelset Laban Skoyer Igjen",
-  "start": "2026-11-14T11:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667",
-  "image": "https://images.filmgrail.com/mediaserver/movies/lille-spokelset-laban-skoyer-igjen-9530/backdrop/1790343122113?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Minions And Monstre",
-  "start": "2026-11-14T11:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/minions-and-monstre/1448",
-  "image": "https://images.filmgrail.com/mediaserver/movies/minions-and-monstre-7498/backdrop/1782735305720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Dette Er Ikke Et Eple",
-  "start": "2026-11-14T11:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/dette-er-ikke-et-eple/1676",
-  "image": "https://images.filmgrail.com/mediaserver/movies/dette-er-ikke-et-eple-9259/backdrop/1794410109300?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -243,15 +36,6 @@
   "free": false
  },
  {
-  "title": "Lørdagsuniversitetet: Grønlandsavtalen som lærebokeksempel på stormaktspolitikk – lærdommer for Nord-Norge, Norden og Europa",
-  "start": "2026-11-14T13:00:00",
-  "venue": "Rødbanken, Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944500/lordagsuniversitetet_gronlandsavtalen_som_laerebo",
-  "image": "https://uit.no/Content/944499/cache=20260211101409/transformation=scale10000x560/ny_tavla_2026_1920x1080pxl.png",
-  "free": true
- },
- {
   "title": "Ebenezer",
   "start": "2026-11-14T13:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -277,15 +61,6 @@
   "url": "https://fokus.aurorakino.no/f/velkommen-til-familien/1733",
   "image": "https://images.filmgrail.com/mediaserver/movies/velkommen-til-familien-9682/backdrop/1794305709358?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Bli med på årets Pride-parade!",
-  "start": "2026-11-14T14:00:00",
-  "venue": "Hålogaland Teater, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/942947/bli_med_pa_arets_pride-parade",
-  "image": "https://uit.no/Content/904898/cache=20252908151206/transformation=scale10000x560/Arctic_pride_UIT_23348_Foto_Jorn_Berger_Nyvoll.jpg",
-  "free": true
  },
  {
   "title": "Wildwood",
@@ -321,6 +96,33 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/charlie-harper/1718",
   "image": "https://images.filmgrail.com/mediaserver/movies/charlie-harper-9529/backdrop/1793096127269?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Julenissens Verksted",
+  "start": "2026-11-14T16:15:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Lille Spokelset Laban Skoyer Igjen",
+  "start": "2026-11-14T16:15:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667",
+  "image": "https://images.filmgrail.com/mediaserver/movies/lille-spokelset-laban-skoyer-igjen-9530/backdrop/1790343122113?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-14T17:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1674,12 +1476,30 @@
   "free": true
  },
  {
+  "title": "Hexe Det Magiske Riket",
+  "start": "2026-11-27T17:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590",
+  "image": "https://images.filmgrail.com/mediaserver/movies/hexe-det-magiske-riket-9383/backdrop/1793884516295?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Espen Lind",
   "start": "2026-11-27T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/espen-lind/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Espen-Lind-3.jpg",
+  "free": false
+ },
+ {
+  "title": "Kaizers Orchestra Live Dine Gamle Dager Er Na",
+  "start": "2026-11-27T19:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/kaizers-orchestra-live-dine-gamle-dager-er-na/1730",
+  "image": "https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?optimizer=image&width=1200&&optimizer=image&width=1200",
   "free": false
  },
  {
@@ -2835,6 +2655,42 @@
   "free": true
  },
  {
+  "title": "DKS: Arktiske mysterier",
+  "start": "2027-11-12T09:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/dks-arktiske-mysterier",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/show_crop_image.jpg.webp?itok=EiJ0S2DX",
+  "free": true
+ },
+ {
+  "title": "Sensur av bøker: amerikanske tilstander også i Norge?",
+  "start": "2027-11-12T12:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/sensur-av-boker-amerikanske-tilstander-ogsa-i-norge",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Forbudte%20b%C3%B8ker%20under%20Arctic%20Pride.png.webp?itok=DR9cKSFY",
+  "free": true
+ },
+ {
+  "title": "TO KJØNN?Fortellinger om mangfold fra historien og biologien",
+  "start": "2027-11-12T17:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/kjonn-fortellinger-om-mangfold-fra-historien-og-biologien",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Tokj%C3%B8nnArcticPride.webp?itok=JY3l-VWS",
+  "free": true
+ },
+ {
+  "title": "Bli med på bokklubb - vi leser Alberte og Jakob! (fulltegnet)",
+  "start": "2027-11-12T17:30:00",
+  "venue": "Hovedbiblioteket ++, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/bli-med-pa-bokklubb-vi-leser-alberte-og-jakob-fulltegnet",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/DSC03669.jpg.webp?itok=b5UM2Ml0",
+  "free": true
+ },
+ {
   "title": "Fredrik Fornes – Mitt liv som ansatt",
   "start": "2027-11-12T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2842,6 +2698,15 @@
   "url": "https://kulturhuset.tr.no/arrangement/fredrik-fornes-mitt-liv-som-ansatt/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/11/Digital-Plakat-liggende-1360-x-768-Mitt-liv-som-ansatt-1.jpg",
   "free": false
+ },
+ {
+  "title": "Internasjonalt seminar:Geopolitisk spenning i Arktis– Hva med sameksistens, fred og miljø?",
+  "start": "2027-11-12T19:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/internasjonalt-seminar-geopolitisk-spenning-i-arktis-hva-med",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Geopolitisk%20spenning%20i%20Arktis-kopi.jpg.webp?itok=SdRX5e5_",
+  "free": true
  },
  {
   "title": "Kunnskapsdag i medisinsk og helsefaglig utdanningsforskning - 16.november 2026",
