@@ -334,6 +334,53 @@ body.page-event .detail[data-sted="FINT Kafé & Bar"] .eyebrow{color:#25180E}
 .detail[data-sted="FINT Kafé & Bar"] .facts dd{color:#25180E}
 .detail[data-sted="FINT Kafé & Bar"] .story a{color:#7A2E1C}
 .detail[data-sted="FINT Kafé & Bar"] .ticket-link{color:#25180E}
+/* Rådstua (Bob 2026-11-12): signatur — mahogny_1 frå Koofr
+   (~/Koofr/Assets/mahogany_1.png). Midtmørk mahogny (p50 lum 0,124) —
+   20 % mørkvask rgba(40,19,22,.20): krem #F7E8CB 6,2:1 mot p50, 4,9:1 mot
+   p98. Treffar Provisoriet og Rådstua Teaterhus med ^=. Nattkort. */
+.event-card[data-sted^="Provisoriet, Rådstua"]::before,.event-card[data-sted="Rådstua Teaterhus"]::before{background-image:linear-gradient(rgba(40,19,22,.20),rgba(40,19,22,.20)),url("/assets/textures/mahogany-1.webp");background-color:#974F23}
+.event-card[data-sted^="Provisoriet, Rådstua"],.event-card[data-sted="Rådstua Teaterhus"]{color:#F7E8CB}
+.event-card[data-sted^="Provisoriet, Rådstua"] h3,.event-card[data-sted="Rådstua Teaterhus"] h3{color:#F7E8CB}
+.event-card[data-sted^="Provisoriet, Rådstua"] .card-kicker,.event-card[data-sted="Rådstua Teaterhus"] .card-kicker{color:#FBEFDB}
+.event-card[data-sted^="Provisoriet, Rådstua"] .card-meta,.event-card[data-sted="Rådstua Teaterhus"] .card-meta{color:#F7E8CB}
+.event-card[data-sted^="Provisoriet, Rådstua"] .free,.event-card[data-sted="Rådstua Teaterhus"] .free{color:#DDEFC0}
+.detail[data-sted^="Provisoriet, Rådstua"],.detail[data-sted="Rådstua Teaterhus"]{background-image:linear-gradient(rgba(40,19,22,.20),rgba(40,19,22,.20)),url("/assets/textures/mahogany-1.webp");background-color:#974F23;color:#F7E8CB}
+body.page-event .detail[data-sted^="Provisoriet, Rådstua"] h1,body.page-event .detail[data-sted="Rådstua Teaterhus"] h1{color:#F7E8CB}
+body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .eyebrow,body.page-event .detail[data-sted="Rådstua Teaterhus"] .eyebrow{color:#FBEFDB}
+body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .lead,body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .source-note,
+body.page-event .detail[data-sted="Rådstua Teaterhus"] .lead,body.page-event .detail[data-sted="Rådstua Teaterhus"] .source-note{color:#F7E8CB}
+body.page-event .detail[data-sted^="Provoriet, Rådstua"] .facts dt,body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .facts dt,
+body.page-event .detail[data-sted="Rådstua Teaterhus"] .facts dt{color:#F7E8CB}
+/* Tromsø Filmklubb (Bob 2026-11-12): signatur — marble_83 frå Koofr
+   (~/Koofr/Assets/marble_83.png). Lys varm marmor (p50 lum 0,317) = «dagkort»:
+   mørkt blekk #25180E 6,0:1 mot p50. Filmklubben viser i Bakrommet hos
+   Amtmandens. */
+.event-card[data-sted="Bakrommet hos Amtmandens"]::before{background-image:url("/assets/textures/marble-83.webp");background-color:#B69177}
+.detail[data-sted="Bakrommet hos Amtmandens"]{background-image:url("/assets/textures/marble-83.webp");background-color:#B69177}
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] h1,
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .eyebrow,
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .lead,
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .source-note,
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .facts dt,
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .facts dd,
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .story p{color:#25180E}
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"]{color:#25180E}
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .story a{color:#7A2E1C}
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .ticket-link{color:#25180E}
+/* Tromsøbadet (Bob 2026-11-12): signatur — marble_66 frå Koofr
+   (~/Koofr/Assets/marble_66.png). Kald blå marmor (p50 lum 0,214) —
+   30 % mørkvask rgba(36,51,58,.30): krem #F7E8CB 4,6:1 mot p50. Nattkort. */
+.event-card[data-sted="Tromsøbadet"]::before{background-image:linear-gradient(rgba(36,51,58,.30),rgba(36,51,58,.30)),url("/assets/textures/marble-66.webp");background-color:#5383AB}
+.event-card[data-sted="Tromsøbadet"]{color:#F7E8CB}
+.event-card[data-sted="Tromsøbadet"] h3{color:#F7E8CB}
+.event-card[data-sted="Tromsøbadet"] .card-kicker{color:#FBEFDB}
+.event-card[data-sted="Tromsøbadet"] .card-meta{color:#F7E8CB}
+.event-card[data-sted="Tromsøbadet"] .free{color:#DDEFC0}
+.detail[data-sted="Tromsøbadet"]{background-image:linear-gradient(rgba(36,51,58,.30),rgba(36,51,58,.30)),url("/assets/textures/marble-66.webp");background-color:#5383AB;color:#F7E8CB}
+body.page-event .detail[data-sted="Tromsøbadet"] h1{color:#F7E8CB}
+body.page-event .detail[data-sted="Tromsøbadet"] .eyebrow{color:#FBEFDB}
+body.page-event .detail[data-sted="Tromsøbadet"] .lead,body.page-event .detail[data-sted="Tromsøbadet"] .source-note{color:#F7E8CB}
+body.page-event .detail[data-sted="Tromsøbadet"] .facts dt{color:#F7E8CB}
 /* Tromsø Kulturhus (Bob 2026-11-12): signatur — rosewood_1 frå Koofr
    (~/Koofr/Assets/rosewood_1.png). Mørk raud palisander (p50 lum 0,014,
    p99.9 0,034) — mørk nok utan vask: krem #F7E8CB 13,5:1 mot p50,
