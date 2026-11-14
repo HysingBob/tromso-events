@@ -198,3 +198,21 @@ test('FINT Kafé & Bar får wallpaper_2 som signaturflate (kort + arrangementsid
   assert.ok(css.includes('.detail[data-sted="FINT Kafé & Bar"]{background-image:url("/assets/textures/wallpaper-2.webp")'), 'arrangementssida manglar wallpaper-2-regelen');
   assert.match(css, /\.detail\[data-sted="FINT Kafé & Bar"\]\{[^}]*color:#25180E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
 });
+
+// Tre stader på ein gong (Bob 2026-11-12): Rådstua mahogny_1 (nattkort, 20 % vask),
+// Filmklubben (Bakrommet hos Amtmandens) marble_83 (dagkort), Tromsøbadet marble_66 (nattkort, 30 % vask).
+test('Rådstua, Filmklubben og Tromsøbadet får sine signaturflater', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  for (const [tex, sted, wash] of [
+    ['mahogany-1', 'Provisoriet, Rådstua', true],
+    ['marble-83', 'Bakrommet hos Amtmandens', false],
+    ['marble-66', 'Tromsøbadet', true],
+  ]) {
+    assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', tex + '.webp')), tex + '.webp manglar');
+    assert.ok(css.includes(`url("/assets/textures/${tex}.webp")`), `${sted} manglar ${tex}-regelen`);
+  }
+  // Dagkortet (marble_83) må ha mørkt blekk, ikkje den generelle kvite h1-en.
+  assert.ok(/body\.page-event \.detail\[data-sted="Bakrommet hos Amtmandens"\][\s\S]{0,200}h1[\s\S]{0,40}#25180E/.test(css), 'Filmklubb-h1 er ikkje mørk');
+  // Nattkorta må slå den generelle kvite h1-en.
+  assert.ok(css.includes('body.page-event .detail[data-sted="Tromsøbadet"] h1{color:#F7E8CB}'), 'Tromsøbad-h1 er ikkje krem');
+});
