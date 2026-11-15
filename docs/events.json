@@ -27,15 +27,6 @@
   "free": false
  },
  {
-  "title": "Søndagsfilm",
-  "start": "2026-11-15T13:00:00",
-  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
-  "free": true
- },
- {
   "title": "Ebenezer",
   "start": "2026-11-15T13:15:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -996,6 +987,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/944548/jubileumskonsert_med_villnis_vokalensemble_10_ar",
   "image": "https://uit.no/Content/944552/cache=20260211154206/transformation=scale10000x560/Facebook-event%20-%20Villnis%20-%2010%20%C3%A5r%20-%20en%20kveld.png",
+  "free": true
+ },
+ {
+  "title": "Søndagsfilm",
+  "start": "2026-11-22T13:00:00",
+  "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-12/dog-2367414_1280.png.webp?itok=Id7HBmK9",
   "free": true
  },
  {
