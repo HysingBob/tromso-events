@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-16T00:22:46.729Z",
-  "fetched_at_oslo": "2026-11-16T01:22",
+  "fetched_at": "2026-11-16T07:17:27.274Z",
+  "fetched_at_oslo": "2026-11-16T08:17",
   "weather": {
-    "symbol_code": "lightsnow",
-    "temperature": -0.5,
-    "wind": 1.3,
-    "series_time": "2026-11-16T00:00:00Z",
+    "symbol_code": "cloudy",
+    "temperature": 0.3,
+    "wind": 1.5,
+    "series_time": "2026-11-16T07:00:00Z",
     "source": "MET Norway",
-    "updated": "2026-11-16T00:22:47.620Z"
+    "updated": "2026-11-16T07:17:28.193Z"
   },
   "light": {
     "date": "2026-11-16",
@@ -19,10 +19,10 @@
     "polar": null
   },
   "moon": {
-    "phase": 0.2066,
+    "phase": 0.2163,
     "name": "nedadgående",
     "source": "tromso.net (berekna)",
-    "updated": "2026-11-16T00:22:48.075Z"
+    "updated": "2026-11-16T07:17:28.523Z"
   },
   "stats": {
     "people": {
@@ -30,7 +30,7 @@
       "note": "Q2 2026",
       "source": "SSB · Kommunefakta",
       "url": "https://www.ssb.no/kommunefakta/tromso",
-      "updated": "2026-11-16T00:22:49.386Z"
+      "updated": "2026-11-16T07:17:29.859Z"
     }
   }
 }
