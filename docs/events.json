@@ -99,15 +99,6 @@
   "free": false
  },
  {
-  "title": "Fra hybel til egen bolig: Finnes det en vei inn i Tromsø-markedet?",
-  "start": "2026-11-17T20:00:00",
-  "venue": "Amtmandens, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945285/fra_hybel_til_egen_bolig_finnes_det_en_vei_inn_i",
-  "image": "https://uit.no/Content/945284/cache=20261211092131/transformation=scale10000x560/Tavla%20vitenbar%201.png",
-  "free": true
- },
- {
   "title": "Godzilla Minus Zero",
   "start": "2026-11-17T20:45:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -187,15 +178,6 @@
   "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-kortfilm-skuespillworkshop",
   "image": "https://www.verdensteatret.no/img/_movieThumb/Legg-til-en-underoverskrift-1.jpg",
   "free": false
- },
- {
-  "title": "Help Desk: Research Data, Coding & HPC",
-  "start": "2026-11-18T14:00:00",
-  "venue": "UB 338, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/879633/help_desk_research_data_coding_hpc",
-  "image": "https://uit.no/Content/904720/cache=20252808140324/transformation=scale10000x560/promo_helpdesk_small.jpg",
-  "free": true
  },
  {
   "title": "Ebenezer",
@@ -286,33 +268,6 @@
   "url": "https://fokus.aurorakino.no/f/clayface/1666",
   "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "More-Than-Human Perspectives on Media, Place and Urban and Rural Space",
-  "start": "2026-11-19T09:00:00",
-  "venue": "B-1005, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944235/more-than-human_perspectives_on_media_place_and",
-  "image": "https://uit.no/Content/944230/cache=20262910135224/transformation=scale10000x560/logo%205.jpg",
-  "free": true
- },
- {
-  "title": "The EU’s New Arctic Policy: What Does It Mean for the North?",
-  "start": "2026-11-19T09:00:00",
-  "venue": "Framsenteret, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944560/the_eu_s_new_arctic_policy_what_does_it_mean_for",
-  "image": "https://uit.no/Content/944577/cache=20260311101514/transformation=scale10000x560/TROMS%C3%98-04903.JPG",
-  "free": true
- },
- {
-  "title": "Lars Ivar Hansens faglige arv",
-  "start": "2026-11-19T09:15:00",
-  "venue": "E 0101 Aud, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943464/lars_ivar_hansens_faglige_arv",
-  "image": "https://uit.no/Content/943467/cache=20262010133523/transformation=scale10000x560/Screenshot%202026-10-20%20133140.jpg",
-  "free": true
  },
  {
   "title": "Drop-in lesesirkel - formiddag",
@@ -441,39 +396,12 @@
   "free": false
  },
  {
-  "title": "Polar Night Celebration 2026: How is AI going to change knowledge production?",
-  "start": "2026-11-20T10:00:00",
-  "venue": "Bazinga Bar, Cantina Teorifagbygget 1, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941596/polar_night_celebration_2026_how_is_ai_going_to",
-  "image": "https://uit.no/Content/942797/cache=20260910180547/transformation=scale10000x560/Tavla-Polar_Night_Celebration.png",
-  "free": true
- },
- {
-  "title": "Trial Lecture and Thesis Defense - Abd Alelah Derbas",
-  "start": "2026-11-20T10:15:00",
-  "venue": "Store auditorium B302, Realfagbygget, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945082/trial_lecture_and_thesis_defense_-_abd_alelah_der",
-  "image": "https://uit.no/Content/945081/cache=20260911173332/transformation=scale10000x560/Bilde_Abd.Alelah.Derbas.jpg",
-  "free": true
- },
- {
   "title": "Fredagseventyret",
   "start": "2026-11-20T11:00:00",
   "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
-  "free": true
- },
- {
-  "title": "PhD Café: Exploring the Dynamics of PhD Supervision",
-  "start": "2026-11-20T11:30:00",
-  "venue": "Ground floor, Culture and Social Sciences Library, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944958/phd_caf_exploring_the_dynamics_of_phd_supervisi",
-  "image": "https://uit.no/Content/945086/cache=20261011082216/transformation=scale10000x560/Tavla.png",
   "free": true
  },
  {
@@ -529,15 +457,6 @@
   "url": "https://fokus.aurorakino.no/f/sangen-fra-skogene/1668",
   "image": "https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene-9492/backdrop/1792144599385?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Disputas - Master i helsefag Kristian Malm-Nicolaisen",
-  "start": "2026-11-20T12:15:00",
-  "venue": "Auditorium Cortex, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944959/disputas_-_master_i_helsefag_kristian_malm-nicola",
-  "image": "https://uit.no/Content/945024/cache=20260911103700/transformation=scale10000x560/Disputas%20Kristian%20Malm%20Nicolaisen.jpg",
-  "free": true
  },
  {
   "title": "Pensjonskuppet",
@@ -646,15 +565,6 @@
   "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
   "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Julemesse med Kvaløysletta husflidslag // Christmas Fair with Kvaløysletta Husflidslag",
-  "start": "2026-11-21T11:00:00",
-  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/934357/julemesse_med_kvaloysletta_husflidslag_christm",
-  "image": "https://uit.no/Content/862291/cache=20240710130903/transformation=scale10000x560/kval%C3%A6ysletta%20huslflidslag%20julemesse%202023.jpg",
-  "free": true
  },
  {
   "title": "No Good Men",
@@ -781,15 +691,6 @@
   "url": "https://fokus.aurorakino.no/f/wildwood/1669",
   "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Jubileumskonsert med Villnis vokalensemble: 10 år - én kveld",
-  "start": "2026-11-21T19:30:00",
-  "venue": "Ishavskatedralen, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944548/jubileumskonsert_med_villnis_vokalensemble_10_ar",
-  "image": "https://uit.no/Content/944552/cache=20260211154206/transformation=scale10000x560/Facebook-event%20-%20Villnis%20-%2010%20%C3%A5r%20-%20en%20kveld.png",
-  "free": true
  },
  {
   "title": "Hope",
@@ -1008,15 +909,6 @@
   "free": false
  },
  {
-  "title": "Tromsøundersøkelsen: Delta på campus 23.-26. nov.",
-  "start": "2026-11-23T08:00:00",
-  "venue": "MH, plan 7 i Lysgården, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945538/tromsoundersokelsen_delta_pa_campus_23_-26_nov",
-  "image": "https://uit.no/Content/945536/cache=20261611151918/transformation=scale10000x560/Intranettbilde%20Troms%C3%B8unders%C3%B8kelsen_foto%20Marius%20Fiskum.jpg",
-  "free": true
- },
- {
   "title": "monday meditation",
   "start": "2026-11-23T09:00:00",
   "venue": "Løvetann, Grønnegata 118A, Tromsø",
@@ -1024,15 +916,6 @@
   "url": "https://www.tickettailor.com/events/lovetann/2536129",
   "image": "",
   "free": false
- },
- {
-  "title": "20 vuotta kväänii / 20 år med undervisning i kvensk",
-  "start": "2026-11-23T09:00:00",
-  "venue": "Teams, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941806/20_vuotta_kv_nii_20_ar_med_undervisning_i_kven",
-  "image": "https://uit.no/Content/942026/cache=20263009103212/transformation=scale10000x560/IMG_0565.jpeg",
-  "free": true
  },
  {
   "title": "The Hunger Games Sunrise On The Reaping",
@@ -1134,24 +1017,6 @@
   "free": false
  },
  {
-  "title": "Studietur til Remiks miljøpark",
-  "start": "2026-11-24T09:00:00",
-  "venue": "Turbuss fra UiTs campus til Remiks Miljøpark, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944746/studietur_til_remiks_miljopark",
-  "image": "https://uit.no/Content/944748/cache=20260511101234/transformation=scale10000x560/Studietur%20til%20Remiks%20Milj%C3%B8park%2C%20banner.jpg",
-  "free": true
- },
- {
-  "title": "From Research to Publication A workshop on publishing in Social Science & Medicine",
-  "start": "2026-11-24T10:00:00",
-  "venue": "MH.L11.233, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944673/from_research_to_publication_a_workshop_on_publis",
-  "image": "https://uit.no/Content/944674/cache=20260411101435/transformation=scale10000x560/Cindi%20SturtzSreetharan.png",
-  "free": true
- },
- {
   "title": "The Hunger Games Sunrise On The Reaping",
   "start": "2026-11-24T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -1206,15 +1071,6 @@
   "free": false
  },
  {
-  "title": "Sanger ved havet | Songs by the sea",
-  "start": "2026-11-24T12:45:00",
-  "venue": "Norges fiskerihøgskole | Norwegian College of Fishery Science, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945017/sanger_ved_havet_songs_by_the_sea",
-  "image": "https://uit.no/Content/945014/cache=20260911101735/transformation=scale10000x560/songs-by-the-sea_orig.png",
-  "free": true
- },
- {
   "title": "Babytreff på biblioteket",
   "start": "2026-11-24T13:00:00",
   "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
@@ -1251,12 +1107,12 @@
   "free": false
  },
  {
-  "title": "Julenissens Verksted",
+  "title": "Mysteriepakken",
   "start": "2026-11-24T16:45:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
+  "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1287,12 +1143,12 @@
   "free": false
  },
  {
-  "title": "Dette Er Ikke Et Eple",
+  "title": "Julenissens Verksted",
   "start": "2026-11-24T18:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
   "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/dette-er-ikke-et-eple/1676",
-  "image": "https://images.filmgrail.com/mediaserver/movies/dette-er-ikke-et-eple-9259/backdrop/1794410109300?optimizer=image&width=1200",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1333,21 +1189,12 @@
  },
  {
   "title": "Everybody Digs Bill Evans",
-  "start": "2026-11-24T21:10:00",
+  "start": "2026-11-24T21:15:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/everybody-digs-bill-evans/1679",
   "image": "https://images.filmgrail.com/1793803106654-blob?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Environmental Humanities gathering #87: Writing retreat",
-  "start": "2026-11-25T08:45:00",
-  "venue": "Musikkonservatoriet, Krognesveien 33, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944696/environmental_humanities_gathering_87_writing_r",
-  "image": "https://uit.no/Content/915966/cache=20250512125153/transformation=scale10000x560/Lena%20EnvHums%20image.jpg",
-  "free": true
  },
  {
   "title": "Ebenezer",
@@ -1395,15 +1242,6 @@
   "free": false
  },
  {
-  "title": "PYRO’s mental health seminar 2026",
-  "start": "2026-11-25T12:15:00",
-  "venue": "MH2 U.09.308, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945174/pyro_s_mental_health_seminar_2026",
-  "image": "https://uit.no/Content/941499/cache=20262209100949/transformation=scale10000x560/PYRO_Events_new.png",
-  "free": true
- },
- {
   "title": "The Hunger Games Sunrise On The Reaping",
   "start": "2026-11-25T14:30:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -1431,24 +1269,6 @@
   "free": false
  },
  {
-  "title": "Gimme Shelter! Foredrag om den samiske kunstneren Aage Gaup",
-  "start": "2026-11-25T18:00:00",
-  "venue": "Nordnorsk kunstmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943790/gimme_shelter_foredrag_om_den_samiske_kunstneren",
-  "image": "https://uit.no/Content/943791/cache=20262510170008/transformation=scale10000x560/Gaup-Aage.jpg",
-  "free": true
- },
- {
-  "title": "Utstillingsåpning: Kjærlighetens kvaler",
-  "start": "2026-11-25T19:00:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945280/utstillingsapning_kjaerlighetens_kvaler",
-  "image": "https://uit.no/Content/945265/cache=20261111171940/transformation=scale10000x560/Giants%20water%20fountain%20KARUSELL.jpg",
-  "free": true
- },
- {
   "title": "Internasjonalt seminar:1178 netter – historien om et tvangsekteskap",
   "start": "2026-11-25T19:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -1474,24 +1294,6 @@
   "url": "https://fokus.aurorakino.no/f/clayface/1666",
   "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "Disputas Jennifer Britt Lundberg Hansen",
-  "start": "2026-11-26T10:15:00",
-  "venue": "SVHUM B-1005, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945298/disputas_jennifer_britt_lundberg_hansen",
-  "image": "https://uit.no/Content/930443/cache=20263105200749/transformation=scale10000x560/HSL-disputas2.JPG",
-  "free": true
- },
- {
-  "title": "Trial lecture and disputation MSc in Biology/Animal Physiology and MD in General Medicine - Jana Kalinová",
-  "start": "2026-11-26T10:15:00",
-  "venue": "Strømmes fra Store auditorium (E-101), NFH-bygget, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945348/trial_lecture_and_disputation_msc_in_biology_anim",
-  "image": "https://uit.no/Content/945349/cache=20261211152054/transformation=scale10000x560/Jana%20Kalinov%C3%A1.jpeg",
-  "free": true
  },
  {
   "title": "The Hunger Games Sunrise On The Reaping",
@@ -1539,15 +1341,6 @@
   "free": false
  },
  {
-  "title": "Arctic Institute for AI Seminar #3: AI for Language Proficiency in Healthcare Communication",
-  "start": "2026-11-26T13:15:00",
-  "venue": "Teknologibygget, Auditorium 1.022 / Online, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945107/arctic_institute_for_ai_seminar_3_ai_for_langua",
-  "image": "https://uit.no/Content/945106/cache=20261011100354/transformation=scale10000x560/endresen_thumb.png",
-  "free": true
- },
- {
   "title": "Julenissens Verksted",
   "start": "2026-11-26T15:15:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
@@ -1582,15 +1375,6 @@
   "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
   "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
   "free": false
- },
- {
-  "title": "CRAFT & ENCODE present: Strange Days (1995)",
-  "start": "2026-11-26T17:30:00",
-  "venue": "Aurora Fokus Kino, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944435/craft_encode_present_strange_days_1995",
-  "image": "https://uit.no/Content/944434/cache=20263010140322/transformation=scale10000x560/MV5BNzk1NGY4ZGUtYzllYy00ODM0LTljNmItYTY5NGI4YWQxNTQxXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
-  "free": true
  },
  {
   "title": "STRANGE DAYS",
@@ -1647,33 +1431,6 @@
   "free": false
  },
  {
-  "title": "Shut Up and Write - and Read!",
-  "start": "2026-11-27T10:15:00",
-  "venue": "UB 244 (Universitetsbiblioteket, 2. etasje), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941463/shut_up_and_write_-_and_read",
-  "image": "https://uit.no/Content/862029/cache=20240110150533/transformation=scale10000x560/Shut%20Up%20and%20Write%20Copy%20%281%29.jpg",
-  "free": true
- },
- {
-  "title": "Zoonosis as a Problem for Science, Governance and Empire",
-  "start": "2026-11-27T10:15:00",
-  "venue": "E 0101 Aud, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943532/zoonosis_as_a_problem_for_science_governance_and",
-  "image": "https://uit.no/Content/943533/cache=20262110111438/transformation=scale10000x560/coronavirus-dark-1200x800_CDC.jpg",
-  "free": true
- },
- {
-  "title": "Disputas – cand.med. Stephanie Lindgård Knudtzon",
-  "start": "2026-11-27T14:30:00",
-  "venue": "Auditorium Cortex, MH2- plan7, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945457/disputas_cand_med_stephanie_lindgard_knudtzon",
-  "image": "https://uit.no/Content/945456/cache=20261611092321/transformation=scale10000x560/Stephanie.jpg",
-  "free": true
- },
- {
   "title": "Hexe Det Magiske Riket",
   "start": "2026-11-27T17:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
@@ -1719,24 +1476,6 @@
   "free": false
  },
  {
-  "title": "Natt på museet | Gratis filmvisning i samarbeid med Tromsø barnefilmklubb",
-  "start": "2026-11-28T16:00:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943563/natt_pa_museet_gratis_filmvisning_i_samarbeid_m",
-  "image": "https://uit.no/Content/943724/cache=20262310123049/transformation=scale10000x560/Natt-pa%E2%95%A0%C3%A8-museet_filmvisning.png",
-  "free": true
- },
- {
-  "title": "Natt på museet",
-  "start": "2026-11-28T16:00:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943583/natt_pa_museet",
-  "image": "https://uit.no/Content/943719/cache=20262310121450/transformation=scale10000x560/Facebook%201920x1005%20uten%20dato.png",
-  "free": true
- },
- {
   "title": "I år gjør me det heilt enkelt: Ein slags julekonsert med Tønes og Ingvar Hovland",
   "start": "2026-11-28T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -1744,24 +1483,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/i-ar-gjor-me-det-heilt-enkelt-ein-slags-julekonsert-med-tones-og-ingvar-hovland/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/06/Digital-Plakat-liggende-1360-x-768-Tones-Jul-1.jpg",
   "free": false
- },
- {
-  "title": "Utendørs utstillingsåpning: GLIMT 2026 - Det Lille Kulturhus",
-  "start": "2026-11-28T20:00:00",
-  "venue": "Norges arktiske universitetsmuseum, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943272/utendors_utstillingsapning_glimt_2026_-_det_lill",
-  "image": "https://uit.no/Content/943722/cache=20262310122936/transformation=scale10000x560/Natt-pa%E2%95%A0%C3%A8-museet_utstillingsa%E2%95%A0%C3%A8pning.png",
-  "free": true
- },
- {
-  "title": "Fra Det Lille Kulturhus til museum: Konsert med Karlsøy Prestegaard og Verlos Vintage",
-  "start": "2026-11-28T21:00:00",
-  "venue": "Norges arktiske universitetsmuseum, Lars Thøringsveg 10, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943683/fra_det_lille_kulturhus_til_museum_konsert_med_k",
-  "image": "https://uit.no/Content/943726/cache=20262310123842/transformation=scale10000x560/Natt-pa%E2%95%A0%C3%A8-museet_konsert.png",
-  "free": true
  },
  {
   "title": "Lohkkanboddu sámegillii - Lesestund på samisk",
@@ -1782,15 +1503,6 @@
   "free": false
  },
  {
-  "title": "Research innovation Bootcamp",
-  "start": "2026-11-30T12:00:00",
-  "venue": "InnoHub (by the MH library), UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/940651/research_innovation_bootcamp",
-  "image": "https://uit.no/Content/918794/cache=20261901153726/transformation=scale10000x560/innohub-bakgrunn-bla%CC%8A-m%C3%B8rk.png",
-  "free": true
- },
- {
   "title": "DiasporA Tamil Archives – utstilling",
   "start": "2026-11-30T14:00:00",
   "venue": "Galleriet, Kulturhuset Tromsø",
@@ -1800,57 +1512,12 @@
   "free": false
  },
  {
-  "title": "Environmental Humanities gathering #89: Kristin Harila x AMAP Arctic Youth Expedition, screening and discussion",
-  "start": "2026-11-30T14:15:00",
-  "venue": "Teo-H6.222 Kino, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945167/environmental_humanities_gathering_89_kristin_h",
-  "image": "https://uit.no/Content/945163/cache=20261011143242/transformation=scale10000x560/TIFF%20POSTER-2%20%281%29.png",
-  "free": true
- },
- {
-  "title": "Hjelp biblioteket med nye nettsider - premiering for deltakelse!",
-  "start": "2026-12-01T12:00:00",
-  "venue": "Online, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943912/hjelp_biblioteket_med_nye_nettsider_-_premiering",
-  "image": "https://uit.no/Content/943914/cache=20262710131425/transformation=scale10000x560/promobilde_brukerpanel_banner_canvas_v2_NO.jpg",
-  "free": true
- },
- {
   "title": "Lesesirkel: Kjøtt",
   "start": "2026-12-01T17:30:00",
   "venue": "Hovedbiblioteket, møterommet, Tromsø",
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/05/lesesirkel-kjott",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-05/Lesesirkel%20Kj%C3%B8tt.png.webp?itok=i2CI8Nxp",
-  "free": true
- },
- {
-  "title": "ArcHum Research Seminar: Mapping changes to traditional use of lands, waters and seascapes in Sápmi",
-  "start": "2026-12-03T09:15:00",
-  "venue": "ILP 1.007, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945479/archum_research_seminar_mapping_changes_to_tradi",
-  "image": "https://uit.no/Content/945478/cache=20261611112740/transformation=scale10000x560/archum-research-seminar-kvadrat.png",
-  "free": true
- },
- {
-  "title": "Utstillingsåpning | Amundsen: Menneskets triumf over naturen",
-  "start": "2026-12-03T19:00:00",
-  "venue": "Polarmuseet, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945572/utstillingsapning_amundsen_menneskets_triumf_o",
-  "image": "https://uit.no/Content/945571/cache=20261711145228/transformation=scale10000x560/amundsen_kvadrat.jpg",
-  "free": true
- },
- {
-  "title": "Beredskapsseminaret på ISK: \"Great Again: Gjenreisningsmyte og kodede bilder i MAGA-bevegelsens visuelle retorikk\"",
-  "start": "2026-12-04T13:15:00",
-  "venue": "Teams, UiT Tromsø",
-  "source": "uit",
-  "url": "https://www.arcticvoices.space/sondre_beredskapsseminaret",
-  "image": "https://uit.no/Content/942477/cache=20260610144648/transformation=scale10000x560/Beredskap%20v4%20WEB%203-2.png",
   "free": true
  },
  {
@@ -1908,24 +1575,6 @@
   "free": false
  },
  {
-  "title": "How to turn your research into NVA?",
-  "start": "2026-12-07T12:15:00",
-  "venue": "Café ArcHum, FI/SKK, 5. etasje, Teorifagbygget hus 1, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941685/how_to_turn_your_research_into_nva",
-  "image": "https://uit.no/Content/944635/cache=20260311160952/transformation=scale10000x560/3611aa40-8478-4170-8420-14b80daa1b25.jpg",
-  "free": true
- },
- {
-  "title": "ENCODE seminar & debate: How I Learned to Stop Worrying and Love Geopolitics",
-  "start": "2026-12-07T13:15:00",
-  "venue": "C-1007, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944794/encode_seminar_debate_how_i_learned_to_stop_wo",
-  "image": "https://uit.no/Content/944797/cache=20260511150405/transformation=scale10000x560/Skjermbilde%202026-11-05%20kl.%2014.59.06.png",
-  "free": true
- },
- {
   "title": "Riksteatret: Apestjernen",
   "start": "2026-12-08T17:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -1933,15 +1582,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/riksteatret-apestjernen/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/05/Digital-Plakat-liggende-1360-x-768-RT-Apestjernen-2.jpg",
   "free": false
- },
- {
-  "title": "Læring fra den andre. Mellom undring, fortelling og generøsitet i kvalitativ forskning",
-  "start": "2026-12-09T12:15:00",
-  "venue": "Handelshøyskolen Rom 2.414, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944564/laering_fra_den_andre_mellom_undring_fortelling",
-  "image": "https://uit.no/Content/944562/cache=20260311084916/transformation=scale10000x560/Skjermbilde%202026-11-02%20124541.png",
-  "free": true
  },
  {
   "title": "Skifilmkveld på Bakrommet",
@@ -1960,42 +1600,6 @@
   "url": "https://nordavin.antitickets.com/event/torils-alternative-juleverksted-1",
   "image": "https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZXMiLCJrZXkiOiIxZTg2ZjRjMi0wMGU5LTRlMzctODM1Ny03Y2M3NDM1NGFiNTRcLzNMV0tvN1dudTU4M3hnUEI2SXM5dlVvVnlCMVwvYTk3MDVmYmQtZDRkNC00ZTM5LTg0ZDctMGRmZjFhMDA3ZGE2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJoZWlnaHQiOjIwMCwid2lkdGgiOjM3MCwiZml0IjoiY29udGFpbiJ9fX0=?signature=b30687a4bedd4888485fb7388ac0ff52364025dc82b4ae6b0992a2e90fde7f33",
   "free": false
- },
- {
-  "title": "GBIF-OBIS FAIR data publishing workshop",
-  "start": "2026-12-10T09:00:00",
-  "venue": "The Arctic University Museum of Norway, Lars Thøringsveg 10, Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944170/gbif-obis_fair_data_publishing_workshop",
-  "image": "https://uit.no/Content/944177/cache=20262910103629/transformation=scale10000x560/05-TMU-1997-165%20foto%20Trond%20Roar%20Nilsen-33006.jpg",
-  "free": true
- },
- {
-  "title": "Ope seminar - Med naturen som arena for helsebringande arbeid",
-  "start": "2026-12-10T09:15:00",
-  "venue": "Panopto, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943529/ope_seminar_-_med_naturen_som_arena_for_helsebrin",
-  "image": "https://uit.no/Content/943530/cache=20262110104939/transformation=scale10000x560/image-3238dbcb-50a7-4546-8492-c44371f67cdd.jpg",
-  "free": true
- },
- {
-  "title": "Avslutning for sykepleiestudenter (desentralisert, deltid) D23",
-  "start": "2026-12-10T11:00:00",
-  "venue": "Aud Cerebrum, MH2, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945316/avslutning_for_sykepleiestudenter_desentralisert",
-  "image": "https://uit.no/Content/945323/cache=20261211124802/transformation=scale10000x560/mp71927052-pretty-black-lady-celebrating-success-over-yellow.jpg",
-  "free": true
- },
- {
-  "title": "IFF Research Seminar: Jørgen Pedersen (Høgskulen på Vestlandet), TBA",
-  "start": "2026-12-10T12:15:00",
-  "venue": "Teorifagbygget HUS1, Innsikten 1.524 and on Teams, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/942307/iff_research_seminar_jorgen_pedersen_hogskulen",
-  "image": "https://uit.no/Content/942262/cache=20260410185120/transformation=scale10000x560/Picture%202026%20new.png",
-  "free": true
  },
  {
   "title": "Advokatvakta",
@@ -2050,24 +1654,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/jan-gunnar-hoff-stille-lys/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/02/Digital-Plakat-liggende-1360-x-768-Jan-Gunnar-Hoff-Stille-Lys-1.jpg",
   "free": false
- },
- {
-  "title": "Helsefak Research Seminar - Maria Arlèn Larsen",
-  "start": "2026-12-14T12:15:00",
-  "venue": "MH1 Store auditorium, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/932070/helsefak_research_seminar_-_maria_arl_n_larsen",
-  "image": "https://uit.no/Content/932059/cache=20262506110716/transformation=scale10000x560/Helsefak%20RS%20banner%202026.png",
-  "free": true
- },
- {
-  "title": "The English Book Club",
-  "start": "2026-12-14T17:15:00",
-  "venue": "In person at Tromsdalen Library, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/917965/the_english_book_club",
-  "image": "https://uit.no/Content/885540/cache=20250308144941/transformation=scale10000x560/The%20English%20Book%20Club.jpg",
-  "free": true
  },
  {
   "title": "Anders Jektvik",
@@ -2142,24 +1728,6 @@
   "free": false
  },
  {
-  "title": "Northern Lights Deep Learning Conference 2027",
-  "start": "2027-01-11T08:00:00",
-  "venue": "Teorifagbygget hus 1, Auditorium 1, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/921577/northern_lights_deep_learning_conference_2027",
-  "image": "https://uit.no/Content/921576/cache=20262402105722/transformation=scale10000x560/nldl2027_banner.png",
-  "free": true
- },
- {
-  "title": "Nasjonal Fagkonferanse i Statsvitenskap 2027 i Tromsø",
-  "start": "2027-01-12T13:00:00",
-  "venue": "Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/924914/nasjonal_fagkonferanse_i_statsvitenskap_2027_i_tr",
-  "image": "https://uit.no/Content/921637/cache=20262502101151/transformation=scale10000x560/Nordlys%20j%C3%B8rn%20uit.jpg",
-  "free": true
- },
- {
   "title": "Erik Bye i 100!",
   "start": "2027-01-14T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2176,24 +1744,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/dora-thorallsdottir-fokk/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/04/Digital-Plakat-liggende-1360-x-768-Dora-Thorallsdottir-FOKK-1.jpg",
   "free": false
- },
- {
-  "title": "Fremtidens utdanning ved UiT",
-  "start": "2027-01-21T09:00:00",
-  "venue": "TEO-H1 Auditorium 2, UiT studiested Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945270/fremtidens_utdanning_ved_uit",
-  "image": "https://uit.no/Content/945332/cache=20261211131236/transformation=scale10000x560/Designer%20%287%29.png",
-  "free": true
- },
- {
-  "title": "Special curriculum in Agentic AI",
-  "start": "2027-01-25T09:00:00",
-  "venue": "UiT, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944847/special_curriculum_in_agentic_ai",
-  "image": "https://uit.no/Content/944848/cache=20260611091409/transformation=scale10000x560/Gemini_Generated_Image_3xxq4k3xxq4k3xxq.jpeg",
-  "free": true
  },
  {
   "title": "Musikkhistorien sykt fort",
@@ -2275,15 +1825,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/pink-floyds-dark-side-of-the-moon-in-concert/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-The-Dark-Side-of-the-Moon-2.jpg",
   "free": false
- },
- {
-  "title": "TEKdagen 2027",
-  "start": "2027-02-10T09:00:00",
-  "venue": "Lysgården, Medisin og helsefagbygget, UiT Tromsø",
-  "source": "uit",
-  "url": "https://tekdagen.no/",
-  "image": "https://uit.no/Content/942684/cache=20260810151106/transformation=scale10000x560/Logo%20med%20bakgrunn.png",
-  "free": true
  },
  {
   "title": "Nordlysfestivalen – Tognetti, Vänskä og Arktisk Filharmoni – Fra Bach til Pink Floyd",
@@ -2385,15 +1926,6 @@
   "free": false
  },
  {
-  "title": "Hold av dagen: MOKTA 2027",
-  "start": "2027-03-02T10:00:00",
-  "venue": "Campus Tromsø - nærmere informasjon kommer, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/945381/hold_av_dagen_mokta_2027",
-  "image": "https://uit.no/Content/945389/cache=20261311101850/transformation=scale10000x560/MOKTA_grafikk_uten_tekst.png",
-  "free": true
- },
- {
   "title": "Grieg – i full symfoni To norske mesterverk",
   "start": "2027-03-04T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2419,15 +1951,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/hvis-gud-vil-en-standupforestilling-av-galvan-mehidi/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Hvis-Gud-Vil.png",
   "free": false
- },
- {
-  "title": "NERA 2027: Navigating Change, Risk and Resilience in Uncertain Times",
-  "start": "2027-03-10T08:00:00",
-  "venue": "Teorifagbygget og SVHUM, UiT Tromsø",
-  "source": "uit",
-  "url": "https://site.uit.no/nera2027/",
-  "image": "https://uit.no/Content/861610/cache=20242709105922/transformation=scale10000x560/ILP_bygget_UIT_11867_Foto_Jorn_Berger_Nyvoll.JPG",
-  "free": true
  },
  {
   "title": "Evig Ung",
@@ -2574,15 +2097,6 @@
   "free": false
  },
  {
-  "title": "Nettverkssamling for kombinerte stillinger 2027",
-  "start": "2027-05-11T08:30:00",
-  "venue": "kommer, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/929753/nettverkssamling_for_kombinerte_stillinger_2027",
-  "image": "https://uit.no/Content/927423/cache=20260805124512/transformation=scale10000x560/bachelor%20stor.jpg",
-  "free": true
- },
- {
   "title": "Griegs a-mollkonsert",
   "start": "2027-05-27T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2601,33 +2115,6 @@
   "free": false
  },
  {
-  "title": "Experimental Health Research Conference EHRC 2027",
-  "start": "2027-06-09T08:30:00",
-  "venue": "Teorifagbygget Hus 1, Auditorium 1, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944912/experimental_health_research_conference_ehrc_2027",
-  "image": "https://uit.no/Content/945375/cache=20261311094353/transformation=scale10000x560/EHRC-2027_logo_v2.png",
-  "free": true
- },
- {
-  "title": "Conference on Language, Brain & Learning",
-  "start": "2027-06-24T08:00:00",
-  "venue": "UiT The Arctic University of Norway, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/931267/conference_on_language_brain_learning",
-  "image": "https://uit.no/Content/931299/cache=20261206104416/transformation=scale10000x560/clabl27_1200x628.png",
-  "free": true
- },
- {
-  "title": "Fysikermøtet 2027",
-  "start": "2027-08-09T12:00:00",
-  "venue": "Campus Breivika, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944036/fysikermotet_2027",
-  "image": "https://uit.no/Content/944041/cache=20262810131343/transformation=scale10000x560/nfs-upscaled-3x.png",
-  "free": true
- },
- {
   "title": "HELDIGvis – Veronica Simoné aka YummyMummy",
   "start": "2027-09-04T19:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
@@ -2635,15 +2122,6 @@
   "url": "https://kulturhuset.tr.no/arrangement/heldigvis-veronica-simone-aka-yummymummy/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/10/Digital-Plakat-liggende-1360-x-768-YummyMummy.jpg",
   "free": false
- },
- {
-  "title": "31st EU-US Transport Task Force Workshop",
-  "start": "2027-09-07T08:15:00",
-  "venue": "Radisson Blu Hotel Tromsø, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/936431/31st_eu-us_transport_task_force_workshop",
-  "image": "https://uit.no/Content/936436/cache=20261708122908/transformation=scale10000x560/OEG-2014-03-29-13-32-14-1.jpg",
-  "free": true
  },
  {
   "title": "Erlend Osnes – Fire bokstaver",
@@ -2949,15 +2427,6 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/internasjonalt-seminar-geopolitisk-spenning-i-arktis-hva-med",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Geopolitisk%20spenning%20i%20Arktis-kopi.jpg.webp?itok=SdRX5e5_",
-  "free": true
- },
- {
-  "title": "Kunnskapsdag i medisinsk og helsefaglig utdanningsforskning - 16.november 2026",
-  "start": "2037-11-16T09:15:00",
-  "venue": "Sted: MH2 L12.346. Møterom Aorta, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/941579/kunnskapsdag_i_medisinsk_og_helsefaglig_utdanning",
-  "image": "https://uit.no/Content/941703/cache=20262409120137/transformation=scale10000x560/Group%20concept%20mapping_illustrasjon.png",
   "free": true
  }
 ]
