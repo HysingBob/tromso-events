@@ -1,236 +1,11 @@
 [
  {
-  "title": "MARIE ANTOINETTE",
-  "start": "2026-11-17T18:45:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/marie-antoinette-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Marie_Antoinette_01.jpg",
-  "free": false
- },
- {
-  "title": "HVORFOR SER NORDLANDSBÅTEN UT SOM DEN GJØR?",
-  "start": "2026-11-17T19:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/hvorfor-ser-nordlandsbaten-ut-som-den-gjor",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Nordlandsb%C3%A5ten.jpeg.webp?itok=qM-j-eGu",
-  "free": true
- },
- {
-  "title": "ROCKY",
-  "start": "2026-11-17T21:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/rocky",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/42710/5000017_crop.png",
-  "free": false
- },
- {
-  "title": "ONSDAGSFILMEN | KORTFILM + SKUESPILLWORKSHOP",
-  "start": "2026-11-18T13:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/onsdagsfilmen-kortfilm-skuespillworkshop",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Legg-til-en-underoverskrift-1.jpg",
-  "free": false
- },
- {
-  "title": "The Hunger Games Sunrise On The Reaping",
-  "start": "2026-11-18T14:20:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-18T14:20:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Ebenezer",
-  "start": "2026-11-18T15:15:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
-  "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Malagagaten",
-  "start": "2026-11-18T15:15:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
-  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Charlie Harper",
-  "start": "2026-11-18T15:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/charlie-harper/1718",
-  "image": "https://images.filmgrail.com/mediaserver/movies/charlie-harper-9529/backdrop/1793096127269?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Strikkekafé",
-  "start": "2026-11-18T17:00:00",
-  "venue": "Hovedbiblioteket, møterommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-02/Bilde%20strikkekaf%C3%A9.jpg.webp?itok=P2HjBGDN",
-  "free": true
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-18T17:45:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "familiekonstellasjon m/ Steffen Rostock",
-  "start": "2026-11-18T18:00:00",
-  "venue": "Løvetann, Grønnegata 118A, Tromsø",
-  "source": "lovetann",
-  "url": "https://www.tickettailor.com/events/lovetann/2509839",
-  "image": "",
-  "free": false
- },
- {
-  "title": "Storband Fiesta! // Rådstua",
-  "start": "2026-11-18T19:00:00",
-  "venue": "Kulturskolen Tromsø",
-  "source": "kulturskolen",
-  "url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=36568",
-  "image": "https://www.kulturskolentromso.no/speedware/Bookings/36568/Images/1342305488-storbandplakat-nov-26-fb.png",
-  "free": true
- },
- {
   "title": "Big Bang Fiesta!",
   "start": "2026-11-18T19:00:00",
   "venue": "Rådstua Teaterhus, Tromsø",
   "source": "radstua",
   "url": "https://www.radstua.no/aktuelt-program/storbandkonsert-kulturskolen",
   "image": "https://images.squarespace-cdn.com/content/v1/621200c047615a2259122496/1793262916690-6JOZ7B8G8Q0LCHOQ9CGY/Big+band+fiesta+-+kulturskolen.png",
-  "free": false
- },
- {
-  "title": "Wildwood",
-  "start": "2026-11-18T20:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/wildwood/1669",
-  "image": "https://images.filmgrail.com/mediaserver/movies/wildwood-9440/backdrop/1793639584102?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Primetime",
-  "start": "2026-11-18T20:45:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/primetime/1724",
-  "image": "https://images.filmgrail.com/mediaserver/movies/primetime-9883/backdrop/1794474910222?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Clayface",
-  "start": "2026-11-18T21:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/clayface/1666",
-  "image": "https://images.filmgrail.com/1792763104683-blob?optimizer=image&width=1200&optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "More-Than-Human Perspectives on Media, Place and Urban and Rural Space",
-  "start": "2026-11-19T09:00:00",
-  "venue": "B-1005, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944235/more-than-human_perspectives_on_media_place_and",
-  "image": "https://uit.no/Content/944230/cache=20262910135224/transformation=scale10000x560/logo%205.jpg",
-  "free": true
- },
- {
-  "title": "The EU’s New Arctic Policy: What Does It Mean for the North?",
-  "start": "2026-11-19T09:00:00",
-  "venue": "Framsenteret, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/944560/the_eu_s_new_arctic_policy_what_does_it_mean_for",
-  "image": "https://uit.no/Content/944577/cache=20260311101514/transformation=scale10000x560/TROMS%C3%98-04903.JPG",
-  "free": true
- },
- {
-  "title": "Lars Ivar Hansens faglige arv",
-  "start": "2026-11-19T09:15:00",
-  "venue": "E 0101 Aud, UiT Tromsø",
-  "source": "uit",
-  "url": "https://uit.no/tavla/artikkel/943464/lars_ivar_hansens_faglige_arv",
-  "image": "https://uit.no/Content/943467/cache=20262010133523/transformation=scale10000x560/Screenshot%202026-10-20%20133140.jpg",
-  "free": true
- },
- {
-  "title": "Drop-in lesesirkel - formiddag",
-  "start": "2026-11-19T10:30:00",
-  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/drop-lesesirkel-formiddag",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
-  "free": true
- },
- {
-  "title": "The Hunger Games Sunrise On The Reaping",
-  "start": "2026-11-19T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Ebenezer",
-  "start": "2026-11-19T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
-  "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-19T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-19T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Et Lite Stykke Finland",
-  "start": "2026-11-19T12:00:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/et-lite-stykke-finland/1678",
-  "image": "https://images.filmgrail.com/mediaserver/movies/et-lite-stykke-finland-9349/backdrop/1791195313545?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -241,6 +16,15 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/lansering-kulturkart-tromso",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/1.png.webp?itok=LyuOJG-h",
   "free": true
+ },
+ {
+  "title": "The Hunger Games Sunrise On The Reaping",
+  "start": "2026-11-19T14:30:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
+  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Julenissens Verksted",
@@ -270,6 +54,15 @@
   "free": false
  },
  {
+  "title": "Markens Grode",
+  "start": "2026-11-19T17:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "MINNIE AND MOSKOWITZ",
   "start": "2026-11-19T18:00:00",
   "venue": "Verdensteatret, Tromsø",
@@ -288,12 +81,30 @@
   "free": false
  },
  {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-19T20:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "MARIE ANTOINETTE",
   "start": "2026-11-19T20:15:00",
   "venue": "Verdensteatret, Tromsø",
   "source": "verdensteatret",
   "url": "https://www.verdensteatret.no/movie/marie-antoinette-1",
   "image": "https://www.verdensteatret.no/img/_movieThumb/Marie_Antoinette_01.jpg",
+  "free": false
+ },
+ {
+  "title": "Ebenezer",
+  "start": "2026-11-19T21:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
+  "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1233,21 +1044,21 @@
   "free": false
  },
  {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-25T12:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "You Can See Everything",
   "start": "2026-11-25T12:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/you-can-see-everything/1726",
   "image": "https://images.filmgrail.com/1793796023868-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-25T12:00:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1303,6 +1114,15 @@
   "url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
   "image": "https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zero-9569/backdrop/1794230110726?optimizer=image&width=1200",
   "free": false
+ },
+ {
+  "title": "Strikkekafé",
+  "start": "2026-11-25T17:00:00",
+  "venue": "Hovedbiblioteket, møterommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2024-02/Bilde%20strikkekaf%C3%A9.jpg.webp?itok=P2HjBGDN",
+  "free": true
  },
  {
   "title": "Gimme Shelter! Foredrag om den samiske kunstneren Aage Gaup",
@@ -1368,6 +1188,15 @@
   "free": true
  },
  {
+  "title": "Drop-in lesesirkel - formiddag",
+  "start": "2026-11-26T10:30:00",
+  "venue": "Hovedbiblioteket, Isbjørnrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/drop-lesesirkel-formiddag",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3",
+  "free": true
+ },
+ {
   "title": "The Hunger Games Sunrise On The Reaping",
   "start": "2026-11-26T12:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -1377,21 +1206,21 @@
   "free": false
  },
  {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-26T12:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "You Can See Everything",
   "start": "2026-11-26T12:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/you-can-see-everything/1726",
   "image": "https://images.filmgrail.com/1793796023868-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-26T12:00:00",
+  "venue": "Aurora Kino, Sal 3, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1683,6 +1512,15 @@
   "free": true
  },
  {
+  "title": "Outside the Syllabus II: Who Rules? Rethinking Democracy – Questioning Power and Sovereignty",
+  "start": "2026-11-30T13:30:00",
+  "venue": "SVHUM E-0105, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/945693/outside_the_syllabus_ii_who_rules_rethinking_de",
+  "image": "https://uit.no/Content/945694/cache=20261911120514/transformation=scale10000x560/Outlook-uf0sbuvi.png",
+  "free": true
+ },
+ {
   "title": "DiasporA Tamil Archives – utstilling",
   "start": "2026-11-30T14:00:00",
   "venue": "Galleriet, Kulturhuset Tromsø",
@@ -1698,6 +1536,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/945167/environmental_humanities_gathering_89_kristin_h",
   "image": "https://uit.no/Content/945163/cache=20261011143242/transformation=scale10000x560/TIFF%20POSTER-2%20%281%29.png",
+  "free": true
+ },
+ {
+  "title": "Trial Lecture and Thesis Defense - Aqsa Rahim",
+  "start": "2026-12-01T10:15:00",
+  "venue": "Auditorium 1.022, Teknologibygget, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/945714/trial_lecture_and_thesis_defense_-_aqsa_rahim",
+  "image": "https://uit.no/Content/945713/cache=20261911150805/transformation=scale10000x560/aqsa%20rahim_bilde.jpg",
   "free": true
  },
  {
@@ -1770,6 +1617,15 @@
   "source": "kulturskolen",
   "url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=36593",
   "image": "https://www.kulturskolentromso.no/speedware/Bookings/36593/Images/−1601610752-forjulsballett-tromso-2026-03.png",
+  "free": true
+ },
+ {
+  "title": "Lørdagsuniversitetet: Fra dommedag til utopi: Hvor er vi på vei med kunstig intelligens?",
+  "start": "2026-12-05T13:00:00",
+  "venue": "Rødbanken, Tromsø, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/945652/lordagsuniversitetet_fra_dommedag_til_utopi_hvo",
+  "image": "https://uit.no/Content/945651/cache=20261911095339/transformation=scale10000x560/tavla_2026_desember_1920x1080pxl.png",
   "free": true
  },
  {
@@ -1914,6 +1770,15 @@
   "source": "kulturskolen",
   "url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=36671",
   "image": "https://www.kulturskolentromso.no/speedware/Bookings/36671/Images/−108368798-julekonsert-2026-kroken.png",
+  "free": true
+ },
+ {
+  "title": "Den Store Julereisa",
+  "start": "2026-12-11T18:00:00",
+  "venue": "Kulturskolen Tromsø",
+  "source": "kulturskolen",
+  "url": "https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?spwibookingid=36930",
+  "image": "https://www.kulturskolentromso.no/speedware/Bookings/36930/Images/−244029195-den-store-julereisa.jpeg",
   "free": true
  },
  {
@@ -2094,6 +1959,15 @@
   "source": "uit",
   "url": "https://uit.no/tavla/artikkel/945270/fremtidens_utdanning_ved_uit",
   "image": "https://uit.no/Content/945332/cache=20261211131236/transformation=scale10000x560/Designer%20%287%29.png",
+  "free": true
+ },
+ {
+  "title": "ERC Masterclass - inspirasjonsseminar",
+  "start": "2027-01-21T09:15:00",
+  "venue": "tbc, UiT Tromsø",
+  "source": "uit",
+  "url": "https://uit.no/tavla/artikkel/945650/erc_masterclass_-_inspirasjonsseminar",
+  "image": "https://uit.no/Content/945649/cache=20261911094049/transformation=scale10000x560/LOGO_ERC.jpg",
   "free": true
  },
  {
@@ -2310,6 +2184,15 @@
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/nordlysfestivalen-vaapstenjeanoe-big-river/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/10/Kulturhuset-2.jpg",
+  "free": false
+ },
+ {
+  "title": "Tee Productions – 30th aniversary",
+  "start": "2027-02-26T20:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/tee-productions-30th-aniversary/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/11/Digital-Plakat-liggende-1360-x-768-Tee-productions.jpg",
   "free": false
  },
  {
@@ -2610,15 +2493,6 @@
   "free": false
  },
  {
-  "title": "En samtale om døden",
-  "start": "2027-10-10T13:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/09/en-samtale-om-doden",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-09/En%20samtale%20om%20d%C3%B8den.png.webp?itok=zKbn_rl3",
-  "free": true
- },
- {
   "title": "IntSemUNG:Norsk overforbruk - hvordan påvirker det resten av verden og hva må Norge gjøre for å bli bærekraftig?",
   "start": "2027-10-15T17:00:00",
   "venue": "Hovedbiblioteket, plan 2, Tromsø",
@@ -2877,6 +2751,24 @@
   "source": "tromso_bibliotek",
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/internasjonalt-seminar-geopolitisk-spenning-i-arktis-hva-med",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Geopolitisk%20spenning%20i%20Arktis-kopi.jpg.webp?itok=SdRX5e5_",
+  "free": true
+ },
+ {
+  "title": "Åpen barnehage på Tromsø bibliotek",
+  "start": "2027-11-17T11:00:00",
+  "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/apen-barnehage-pa-tromso-bibliotek",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/gD3FtyLwkkgfAaA9dApxL0wagYTb8sqgdXOf960iFycyYnrFFe.jpg.webp?itok=_faYsVGN",
+  "free": true
+ },
+ {
+  "title": "HVORFOR SER NORDLANDSBÅTEN UT SOM DEN GJØR?",
+  "start": "2027-11-17T19:00:00",
+  "venue": "Hovedbiblioteket, plan 2, Tromsø",
+  "source": "tromso_bibliotek",
+  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/hvorfor-ser-nordlandsbaten-ut-som-den-gjor",
+  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Nordlandsb%C3%A5ten.jpeg.webp?itok=qM-j-eGu",
   "free": true
  },
  {
