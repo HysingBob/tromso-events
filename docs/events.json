@@ -18,24 +18,6 @@
   "free": true
  },
  {
-  "title": "The Hunger Games Sunrise On The Reaping",
-  "start": "2026-11-19T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-19T14:30:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Godzilla Minus Zero",
   "start": "2026-11-19T14:30:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
@@ -45,21 +27,21 @@
   "free": false
  },
  {
-  "title": "Malagagaten",
-  "start": "2026-11-19T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
-  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Markens Grode",
   "start": "2026-11-19T17:00:00",
   "venue": "Aurora Kino, Sal 2, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
   "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Hunger Games Sunrise On The Reaping",
+  "start": "2026-11-19T17:30:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
+  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -189,21 +171,21 @@
   "free": false
  },
  {
-  "title": "Malagagaten",
-  "start": "2026-11-20T12:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
-  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Bitter Jul",
   "start": "2026-11-20T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/bitter-jul/1580",
   "image": "https://images.filmgrail.com/mediaserver/movies/bitter-jul-9209/backdrop/1794126608665?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Malagagaten",
+  "start": "2026-11-20T12:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/malagagaten/1562",
+  "image": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
   "free": false
  },
  {
