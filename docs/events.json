@@ -1,56 +1,11 @@
 [
  {
-  "title": "You Can See Everything",
-  "start": "2026-11-21T13:45:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/you-can-see-everything/1726",
-  "image": "https://images.filmgrail.com/1793796023868-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "TIL — Viking",
-  "start": "2026-11-21T14:00:00",
-  "venue": "Romssa Arena",
-  "source": "til",
-  "url": "https://www.til.no/terminliste",
-  "image": "https://www.til.no/terminliste/_/image/10515ecf-056c-43d9-8968-c7be73390ce2:263f1e9ce5a841f03052f0bd240abf553eb37266/width-1200/TIL_one_RGB.png",
-  "free": false
- },
- {
   "title": "Julenissens Verksted",
-  "start": "2026-11-21T14:00:00",
+  "start": "2026-11-21T16:00:00",
   "venue": "Aurora Kino, Sal 1, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
   "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Glemselens Oy",
-  "start": "2026-11-21T14:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/glemselens-oy/1581",
-  "image": "https://images.filmgrail.com/mediaserver/movies/glemselens-oy-9293/backdrop/1790327712403?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-21T14:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "The Hunger Games Sunrise On The Reaping",
-  "start": "2026-11-21T14:20:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -81,12 +36,30 @@
   "free": false
  },
  {
+  "title": "Pensjonskuppet",
+  "start": "2026-11-21T17:45:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
+  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
   "title": "Espen Lind",
   "start": "2026-11-21T18:00:00",
   "venue": "Hovedscenen, Kulturhuset Tromsø",
   "source": "kulturhuset",
   "url": "https://kulturhuset.tr.no/arrangement/espen-lind/",
   "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Espen-Lind-3.jpg",
+  "free": false
+ },
+ {
+  "title": "The Hunger Games Sunrise On The Reaping",
+  "start": "2026-11-21T18:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
+  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -124,6 +97,15 @@
   "url": "https://uit.no/tavla/artikkel/944548/jubileumskonsert_med_villnis_vokalensemble_10_ar",
   "image": "https://uit.no/Content/944552/cache=20260211154206/transformation=scale10000x560/Facebook-event%20-%20Villnis%20-%2010%20%C3%A5r%20-%20en%20kveld.png",
   "free": true
+ },
+ {
+  "title": "You Can See Everything",
+  "start": "2026-11-21T20:15:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/you-can-see-everything/1726",
+  "image": "https://images.filmgrail.com/1793796023868-blob?optimizer=image&width=1200",
+  "free": false
  },
  {
   "title": "Hope",
