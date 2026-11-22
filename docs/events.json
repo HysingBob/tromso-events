@@ -1,50 +1,5 @@
 [
  {
-  "title": "THE EVIL DEAD",
-  "start": "2026-11-21T18:00:00",
-  "venue": "Verdensteatret Bar, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/the-evil-dead-vt",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/81287.06.jpg",
-  "free": false
- },
- {
-  "title": "The Hunger Games Sunrise On The Reaping",
-  "start": "2026-11-22T14:00:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
-  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Julenissens Verksted",
-  "start": "2026-11-22T14:00:00",
-  "venue": "Aurora Kino, Sal 1, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
-  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Mysteriepakken",
-  "start": "2026-11-22T14:00:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "image": "https://images.filmgrail.com/1791890722270-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Markens Grode",
-  "start": "2026-11-22T14:15:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Hope",
   "start": "2026-11-22T15:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -60,6 +15,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
   "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Julenissens Verksted",
+  "start": "2026-11-22T16:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/julenissens-verksted/1451",
+  "image": "https://images.filmgrail.com/mediaserver/movies/julenissens-verksted-8297/backdrop/1792077315334?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -87,6 +51,24 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/a-talent-for-murder/1719",
   "image": "https://images.filmgrail.com/mediaserver/movies/a-talent-for-murder-9599/backdrop/1794820509474?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "The Hunger Games Sunrise On The Reaping",
+  "start": "2026-11-22T18:00:00",
+  "venue": "Aurora Kino, Sal 1, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
+  "image": "https://images.filmgrail.com/1793188381320-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Markens Grode",
+  "start": "2026-11-22T18:00:00",
+  "venue": "Aurora Kino, Sal 5, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -459,15 +441,6 @@
   "free": false
  },
  {
-  "title": "ROPE",
-  "start": "2026-11-24T18:45:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/rope",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/rope-04_crop.jpg",
-  "free": false
- },
- {
   "title": "Ramayana Rise Of A Legend",
   "start": "2026-11-24T19:00:00",
   "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
@@ -484,15 +457,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/hvordan-pavirker-ki-kulturen-og-samfunnet-vart",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Hvordan%20p%C3%A5virker%20KI%20kulturen%20og%20samfunnet%20v%C3%A5rt-16-9.png.webp?itok=el5RMppz",
   "free": true
- },
- {
-  "title": "MARIE ANTOINETTE",
-  "start": "2026-11-24T20:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/marie-antoinette-1",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/Marie_Antoinette_01.jpg",
-  "free": false
  },
  {
   "title": "Everybody Digs Bill Evans",
@@ -792,15 +756,6 @@
   "free": true
  },
  {
-  "title": "STRANGE DAYS",
-  "start": "2026-11-26T17:30:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/strange-days-craft-encode",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/strange-days-08c_231206_102614.jpg",
-  "free": false
- },
- {
   "title": "I Play Rocky",
   "start": "2026-11-26T18:00:00",
   "venue": "Aurora Kino, Sal 4, Tromsø",
@@ -825,15 +780,6 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/how-to-rob-a-bank/1546",
   "image": "https://images.filmgrail.com/1794496531860-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "ROCKY",
-  "start": "2026-11-26T20:45:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/movie/rocky",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/42710/5000017_crop.png",
   "free": false
  },
  {
@@ -925,15 +871,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/kreativ-lordag",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2023-04/Kreativ%20fargestifter.jpg.webp?itok=4sLIIXv6",
   "free": true
- },
- {
-  "title": "OPERA FRA THE MET | MACBETH (Guiseppe Verdi)",
-  "start": "2026-11-28T14:00:00",
-  "venue": "Verdensteatret, Tromsø",
-  "source": "verdensteatret",
-  "url": "https://www.verdensteatret.no/arrangement/opera-fra-the-met-macbeth-guiseppe-verdi",
-  "image": "https://www.verdensteatret.no/img/_movieThumb/MACBETH_798-1.jpg",
-  "free": false
  },
  {
   "title": "Natt på museet | Gratis filmvisning i samarbeid med Tromsø barnefilmklubb",
