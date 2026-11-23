@@ -185,6 +185,9 @@ body.page-front .empty-state p{color:rgba(255,255,255,.92)}
 .page-heading h1{letter-spacing:-.035em}
 /* Lenker på vegen: kvite med understrek (teal/rules vert borte mot mørk ved) */
 .detail .story a,.about-copy a,.breadcrumb a,.related a,.empty-state a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+/* Korta i «Mer som skjer samme dag» skal vere like reine som på framsida —
+   .related a over understrekar alt; korta må nullstillast (Bob 2026-11-23). */
+.related .event-card,.related .event-card *{text-decoration:none}
 .detail h1{color:#F7E8CB}
 .detail .eyebrow{color:#F7E8CB}
 .detail .facts dt{color:rgba(255,255,255,.92)}
