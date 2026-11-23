@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-24-mysteriepakken",
+  "start": "2026-11-24T16:45",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "gratis": false,
+  "aldersgrense": "Tillatt for alle",
+  "no": {
+    "tittel": "Mysteriepakken",
+    "ingress": "To søsken prøver å finne ut hvem som sender familien en anonym pakke.",
+    "tekst": "Hvert år får en familie en anonym pakke fra Arendal. Når barna bestemmer seg for å finne avsenderen, utvikler det seg en fortelling om familie og tilhørighet. Aurora oppgir at filmen er tillatt for alle, har norsk tekst og varer i 86 minutter. Visning tirsdag 24. november kl. 16.45 i sal 3. Ordinærbilletten koster 165 kr."
+  },
+  "en": {
+    "title": "Mysteriepakken",
+    "lead": "Two siblings try to discover who is sending their family an anonymous package.",
+    "text": "A family receives an anonymous package from Arendal every year. When the children decide to find out who sent it, the story turns to family and belonging. Aurora lists the film as suitable for all ages, with Norwegian subtitles, and gives its runtime as 86 minutes. Screening Tuesday 24 November at 16:45 in Screen 3. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/mysteriepakken-8719/poster/1793967305975?optimizer=image&height=378&width=241&aspect_ratio=1:1.5684647302904564",
+  "bildetekst_no": "Aurora-plakat for Mysteriepakken med to barn og gjenstander fra mysteriet.",
+  "bildetekst_en": "Aurora poster for Mysteriepakken, showing two children and objects connected with the mystery.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
+  "status": "publisert"
+}

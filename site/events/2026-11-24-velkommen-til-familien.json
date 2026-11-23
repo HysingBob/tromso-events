@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-24-velkommen-til-familien",
+  "start": "2026-11-24T14:30",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "gratis": false,
+  "aldersgrense": "9 år",
+  "no": {
+    "tittel": "Velkommen til familien",
+    "ingress": "Elisabeth møter kjærestens familie for første gang i julen.",
+    "tekst": "Elisabeth reiser til Kristiansand for å møte Espens familie. Hun håper på et nært fellesskap, men familien unngår personlige temaer. Aurora oppgir 9-årsgrense og en spilletid på 97 minutter. Visning tirsdag 24. november kl. 14.30 i sal 3. Ordinærbilletten koster 165 kr."
+  },
+  "en": {
+    "title": "Velkommen til familien",
+    "lead": "Elisabeth meets her boyfriend's family for the first time at Christmas.",
+    "text": "Elisabeth travels to Kristiansand to meet Espen's family. She hopes for a close-knit gathering, but the family avoids personal topics. Aurora lists a 9-year age rating and a runtime of 97 minutes. Screening Tuesday 24 November at 14:30 in Screen 3. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/velkommen-til-familien-9682/backdrop/1794305709358?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill fra Velkommen til familien, publisert av Aurora kino.",
+  "bildetekst_en": "Film still from Velkommen til familien, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/velkommen-til-familien/1733",
+  "status": "publisert"
+}

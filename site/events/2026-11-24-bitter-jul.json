@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-24-bitter-jul",
+  "start": "2026-11-24T12:00",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "gratis": false,
+  "aldersgrense": "12 år (barn ned til 9 år sammen med voksne)",
+  "no": {
+    "tittel": "Bitter jul",
+    "ingress": "Etter et dødsfall reiser Elsa til Lanzarote for å finne ro.",
+    "tekst": "Etter morens død reiser reklameregissøren Elsa til Lanzarote sammen med venninnen Patricia. Samtidig følger filmen en manusforfatter og regissør som arbeider med historien vi ser. Aurora oppgir spansk tale, 12-årsgrense og en spilletid på 111 minutter. Visning tirsdag 24. november kl. 12.00 i sal 3. Ordinærbilletten koster 165 kr."
+  },
+  "en": {
+    "title": "Bitter jul",
+    "lead": "After a bereavement, Elsa travels to Lanzarote in search of calm.",
+    "text": "After her mother's death, advertising director Elsa travels to Lanzarote with her friend Patricia. The film also follows a screenwriter and director working on the story we are watching. Aurora lists Spanish audio, a 12-year age rating and a runtime of 111 minutes. Screening Tuesday 24 November at 12:00 in Screen 3. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/bitter-jul-9209/backdrop/1794126608665?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill fra Bitter jul, publisert av Aurora kino.",
+  "bildetekst_en": "Film still from Bitter jul, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/bitter-jul/1580",
+  "status": "publisert"
+}

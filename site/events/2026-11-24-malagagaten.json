@@ -1,0 +1,28 @@
+{
+  "id": "2026-11-24-malagagaten",
+  "start": "2026-11-24T14:30",
+  "sted": "Aurora kino Fokus",
+  "adresse": "Grønnegata 100, 9008 Tromsø",
+  "pris": "165 kr (ordinærbillett)",
+  "kategori": [
+    "Film"
+  ],
+  "gratis": false,
+  "aldersgrense": "6 år (barn ned til 1,5 år sammen med voksne)",
+  "no": {
+    "tittel": "Málagagaten",
+    "ingress": "Maria Angeles vil bli boende i Tanger selv om datteren ber henne selge leiligheten.",
+    "tekst": "80 år gamle Maria Angeles bor i Tanger. Når datteren Clara ber henne selge leiligheten, bestemmer Maria seg for å bli. Aurora oppgir 6-årsgrense, adgang fra 1,5 år sammen med voksne og en spilletid på 116 minutter. Visning tirsdag 24. november kl. 14.30 i sal 5. Ordinærbilletten koster 165 kr."
+  },
+  "en": {
+    "title": "Málagagaten",
+    "lead": "Maria Angeles wants to stay in Tangier despite her daughter asking her to sell the apartment.",
+    "text": "Eighty-year-old Maria Angeles lives in Tangier. When her daughter Clara asks her to sell the apartment, Maria decides to stay. Aurora lists a 6-year age rating, allows children from 18 months with an adult, and gives the runtime as 116 minutes. Screening Tuesday 24 November at 14:30 in Screen 5. An ordinary ticket costs NOK 165."
+  },
+  "bilde": "https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/backdrop/1794478509720?optimizer=image&width=1200",
+  "bildetekst_no": "Filmstill fra Málagagaten, publisert av Aurora kino.",
+  "bildetekst_en": "Film still from Málagagaten, published by Aurora Kino.",
+  "kilde_navn": "Aurora kino Fokus",
+  "kilde_url": "https://fokus.aurorakino.no/f/malagagaten/1562",
+  "status": "publisert"
+}
