@@ -342,6 +342,11 @@ body.page-event[data-category="annet"]{background-image:url("/assets/textures/wo
 body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}
 body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p,body.page-event .detail .ticket-link{color:var(--txt)}
 body.page-event .detail .story a{color:var(--txt);text-decoration:underline;text-underline-offset:3px}
+/* Skiljestrekar inni .detail (facts-ruta, kjeldenote) følgjer kategorien:
+   sida står alltid i blomstra tilstand, så det er --sep-bloom som gjeld —
+   ikkje det brune var(--rule) frå grunn-CSS-en (spek 2026-11-23). */
+body.page-event .detail .facts{border-top:2px solid var(--sep-bloom);border-bottom:2px solid var(--sep-bloom)}
+body.page-event .detail .source-note{border-top:1px solid var(--sep-bloom)}
 
 
 @media(max-width:639px){
