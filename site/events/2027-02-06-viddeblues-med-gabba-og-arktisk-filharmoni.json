@@ -1,0 +1,26 @@
+{
+  "id": "2027-02-06-viddeblues-med-gabba-og-arktisk-filharmoni",
+  "tittel": "Viddeblues med Gabba og Arktisk Filharmoni",
+  "start": "2027-02-06T19:00",
+  "sted": "Bryggeriet Scene",
+  "kategori": [
+    "Scene"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Viddeblues med Gabba og Arktisk Filharmoni",
+    "ingress": "Gabba og Arktisk Filharmoni møtes i en konsert på Bryggeriet Scene.",
+    "tekst": "Joikeren John André Eira og bandet Gabba møter lyden av et kammerorkester i konserten «Viddeblues». Lørdag 6. februar kl. 19.00 på Bryggeriet Scene."
+  },
+  "en": {
+    "title": "Viddeblues with Gabba and Arctic Philharmonic",
+    "lead": "Gabba and the Arctic Philharmonic meet for a concert at Bryggeriet Scene.",
+    "text": "Joiker John André Eira and the band Gabba meet the sound of a chamber orchestra in “Viddeblues”. Saturday 6 February at 19:00 at Bryggeriet Scene."
+  },
+  "bilde": "http://static1.squarespace.com/static/695e1c1ed7d5e07497286289/695f8c82462d221d410cfda9/6afecbde1f688141eae0fc61/1795083584088/Gabba2+-+cred.+Jonas+Eriksen.jpg?format=1500w",
+  "bildetekst_no": "Arrangørfoto knyttet til konserten.",
+  "bildetekst_en": "Organizer photo associated with the concert.",
+  "kilde_navn": "Bryggeriet Scene",
+  "kilde_url": "https://www.bryggerietscene.no/program2/viddeblues-med-gabba-og-arktisk-filharmoni",
+  "status": "publisert"
+}

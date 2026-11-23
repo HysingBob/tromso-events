@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-27-espen-lind",
+  "tittel": "Espen Lind",
+  "start": "2026-11-27T18:00",
+  "visningstider": [
+    "18:00",
+    "21:00"
+  ],
+  "sted": "Kulturhuset i Tromsø – Hovedscenen",
+  "pris": "655 kr (arrangørens oppgitte ordinærpris; billettleverandøren kunne ikke verifiseres)",
+  "kategori": [
+    "Scene"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Espen Lind",
+    "ingress": "Espen Lind spiller med fullt band på Kulturhuset i Tromsø.",
+    "tekst": "Espen Lind møter publikum med fullt band på Hovedscenen. Forestillingene fredag 27. november starter kl. 18.00 og 21.00. Aldersgrense 18 år. Arrangøren oppgir ordinærpris 655 kr."
+  },
+  "en": {
+    "title": "Espen Lind",
+    "lead": "Espen Lind performs with a full band at Kulturhuset in Tromsø.",
+    "text": "Espen Lind performs with a full band on the Main Stage. The shows on Friday 27 November start at 18:00 and 21:00. Age limit: 18. The organizer lists the standard price as NOK 655."
+  },
+  "bilde": "https://kulturhuset.tr.no/wp-content/uploads/2026/09/Digital-Plakat-liggende-1360-x-768-Espen-Lind-3-300x169.jpg",
+  "bildetekst_no": "Arrangørplakat for Espen Lind.",
+  "bildetekst_en": "Organizer poster for Espen Lind.",
+  "kilde_navn": "Kulturhuset i Tromsø",
+  "kilde_url": "https://kulturhuset.tr.no/arrangement/espen-lind/",
+  "status": "publisert"
+}
