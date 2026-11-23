@@ -111,8 +111,11 @@ test('kvart kort og arrangementsside får kvile/blomstre-para sine (spek 2026-11
   // Touch (ingen hover) og redusert rørsle.
   assert.match(css, /@media \(hover:none\)\{[^}]*\.event-card::before\{background-color:var\(--bloom\)\}/);
   assert.match(css, /@media \(prefers-reduced-motion:reduce\)\{[^@]*\.event-card,\.event-card::before,\.event-card hr\{transition:none\}/);
-  // Arrangementssida: kortet/panelet står ALLTID i blomstrarfarge med bein-kant.
-  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}'), '.detail manglar blomstre-standarden');
+  // Arrangementssida: panelet står i KVILEfargen (Bob 2026-11-23: blomstra var
+  // «for lys»); billettknappen ber blomstrarfargen og skiljefargen ved hover.
+  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:var(--rest);color:var(--txt);border:1.5px solid var(--edge)}'), '.detail manglar kvile-standarden');
+  assert.ok(css.includes('body.page-event .detail .ticket-link{background:var(--bloom);color:var(--txt)}'), 'billettknappen manglar blomstrarfargen');
+  assert.ok(css.includes('body.page-event .detail .ticket-link:hover,body.page-event .detail .ticket-link:focus-visible{background:var(--sep-bloom);color:var(--txt)}'), 'billettknappen manglar skiljefarge-hover');
   // Skiljestrekar inni .detail følgjer kategorien (sep-bloom — alltid blomstra der),
   // ikkje det brune var(--rule) frå grunn-CSS-en (Bob 2026-11-23: «framleis brune»).
   assert.ok(css.includes('body.page-event .detail .facts{border-top:2px solid var(--sep-bloom);border-bottom:2px solid var(--sep-bloom)}'), '.facts manglar kategoriskiljet');
