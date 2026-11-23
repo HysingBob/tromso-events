@@ -343,13 +343,19 @@ body.page-event{
   background-size:100% 100%,512px 512px;
   background-color:#695041;
 }
-/* .detail står alltid i blomstrarfargen sin (spek regel 5) med bein-kant 1,5 px. */
-body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}
-body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p,body.page-event .detail .ticket-link{color:var(--txt)}
+/* .detail står i KVILEfargen på arrangementsida (Bob 2026-11-23: blomstra var
+   «for lys») med bein-kant 1,5 px; billettknappen ber den metta fargen. */
+body.page-event .detail{background-image:none;background-color:var(--rest);color:var(--txt);border:1.5px solid var(--edge)}
+body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p{color:var(--txt)}
+/* Billettknappen på arrangementsida (Bob 2026-11-23): panelet står i KVILEfargen
+   (blomstra var «for lys»), men knappen får den metta blomstrarfargen — og hover/
+   tastaturfokus gjer den om til skiljefargen (--sep-bloom). */
+body.page-event .detail .ticket-link{background:var(--bloom);color:var(--txt)}
+body.page-event .detail .ticket-link:hover,body.page-event .detail .ticket-link:focus-visible{background:var(--sep-bloom);color:var(--txt)}
 body.page-event .detail .story a{color:var(--txt);text-decoration:underline;text-underline-offset:3px}
 /* Skiljestrekar inni .detail (facts-ruta, kjeldenote) følgjer kategorien:
-   sida står alltid i blomstra tilstand, så det er --sep-bloom som gjeld —
-   ikkje det brune var(--rule) frå grunn-CSS-en (spek 2026-11-23). */
+   --sep-bloom (Bob godkjende 21/11) — same farge som billettknappen får
+   ved hover — ikkje det brune var(--rule) frå grunn-CSS-en. */
 body.page-event .detail .facts{border-top:2px solid var(--sep-bloom);border-bottom:2px solid var(--sep-bloom)}
 body.page-event .detail .source-note{border-top:1px solid var(--sep-bloom)}
 
