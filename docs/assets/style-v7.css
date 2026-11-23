@@ -251,11 +251,11 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-categories="Film"]::before{background-image:none;background-color:#2F4A4A}
 .event-card[data-categories="Aktivitet"]::before{background-image:none;background-color:#D4A84B}
 .event-card[data-categories="Annet"]::before{background-image:none;background-color:#EDE4D3}
-.event-card[data-categories="Konsert"]{color:#EDE4D3;border-color:#8C8275}
-.event-card[data-categories="Scene"]{color:#EDE4D3;border-color:#B96E55}
-.event-card[data-categories="Film"]{color:#EDE4D3;border-color:#5A7B77}
-.event-card[data-categories="Aktivitet"]{color:#2A1E0C;border-color:#A9832F}
-.event-card[data-categories="Annet"]{color:#24393A;border-color:#C4B8A1}
+.event-card[data-categories="Konsert"]{border:1px solid #8C8275;color:#EDE4D3}
+.event-card[data-categories="Scene"]{border:1px solid #B96E55;color:#EDE4D3}
+.event-card[data-categories="Film"]{border:1px solid #5A7B77;color:#EDE4D3}
+.event-card[data-categories="Aktivitet"]{border:1px solid #A9832F;color:#2A1E0C}
+.event-card[data-categories="Annet"]{border:1px solid #C4B8A1;color:#24393A}
 .event-card[data-categories="Konsert"] h3,.event-card[data-categories="Konsert"] .card-kicker,.event-card[data-categories="Konsert"] .card-meta,.event-card[data-categories="Konsert"] .free{color:#EDE4D3}
 .event-card[data-categories="Scene"] h3,.event-card[data-categories="Scene"] .card-kicker,.event-card[data-categories="Scene"] .card-meta,.event-card[data-categories="Scene"] .free{color:#EDE4D3}
 .event-card[data-categories="Film"] h3,.event-card[data-categories="Film"] .card-kicker,.event-card[data-categories="Film"] .card-meta,.event-card[data-categories="Film"] .free{color:#EDE4D3}
@@ -335,20 +335,20 @@ body.page-event{
 }
 /* .detail får same kategorifarge som kortet (Bob 2026-11-23) —
    standard (utan kategori) er Annet/Bone. Ingen teksturar her lenger. */
-body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A}
-body.page-event .detail[data-categories="Annet"]{background-color:#EDE4D3;color:#24393A}
+body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A;border:2px solid #EDE4D3}
+body.page-event .detail[data-categories="Annet"]{background-color:#EDE4D3;color:#24393A;border:2px solid #EDE4D3}
 body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p,body.page-event .detail .ticket-link{color:#24393A}
 body.page-event .detail .story a{color:#24393A;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Konsert"]{background-color:#6B6359;color:#EDE4D3}
+body.page-event .detail[data-categories="Konsert"]{background-color:#6B6359;color:#EDE4D3;border:2px solid #EDE4D3}
 body.page-event .detail[data-categories="Konsert"] h1,body.page-event .detail[data-categories="Konsert"] .eyebrow,body.page-event .detail[data-categories="Konsert"] .lead,body.page-event .detail[data-categories="Konsert"] .source-note,body.page-event .detail[data-categories="Konsert"] .facts dt,body.page-event .detail[data-categories="Konsert"] .facts dd,body.page-event .detail[data-categories="Konsert"] .story p,body.page-event .detail[data-categories="Konsert"] .ticket-link{color:#EDE4D3}
 body.page-event .detail[data-categories="Konsert"] .story a{color:#EDE4D3;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Scene"]{background-color:#94533D;color:#EDE4D3}
+body.page-event .detail[data-categories="Scene"]{background-color:#94533D;color:#EDE4D3;border:2px solid #EDE4D3}
 body.page-event .detail[data-categories="Scene"] h1,body.page-event .detail[data-categories="Scene"] .eyebrow,body.page-event .detail[data-categories="Scene"] .lead,body.page-event .detail[data-categories="Scene"] .source-note,body.page-event .detail[data-categories="Scene"] .facts dt,body.page-event .detail[data-categories="Scene"] .facts dd,body.page-event .detail[data-categories="Scene"] .story p,body.page-event .detail[data-categories="Scene"] .ticket-link{color:#EDE4D3}
 body.page-event .detail[data-categories="Scene"] .story a{color:#EDE4D3;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Film"]{background-color:#2F4A4A;color:#EDE4D3}
+body.page-event .detail[data-categories="Film"]{background-color:#2F4A4A;color:#EDE4D3;border:2px solid #EDE4D3}
 body.page-event .detail[data-categories="Film"] h1,body.page-event .detail[data-categories="Film"] .eyebrow,body.page-event .detail[data-categories="Film"] .lead,body.page-event .detail[data-categories="Film"] .source-note,body.page-event .detail[data-categories="Film"] .facts dt,body.page-event .detail[data-categories="Film"] .facts dd,body.page-event .detail[data-categories="Film"] .story p,body.page-event .detail[data-categories="Film"] .ticket-link{color:#EDE4D3}
 body.page-event .detail[data-categories="Film"] .story a{color:#EDE4D3;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Aktivitet"]{background-color:#D4A84B;color:#2A1E0C}
+body.page-event .detail[data-categories="Aktivitet"]{background-color:#D4A84B;color:#2A1E0C;border:2px solid #EDE4D3}
 body.page-event .detail[data-categories="Aktivitet"] h1,body.page-event .detail[data-categories="Aktivitet"] .eyebrow,body.page-event .detail[data-categories="Aktivitet"] .lead,body.page-event .detail[data-categories="Aktivitet"] .source-note,body.page-event .detail[data-categories="Aktivitet"] .facts dt,body.page-event .detail[data-categories="Aktivitet"] .facts dd,body.page-event .detail[data-categories="Aktivitet"] .story p,body.page-event .detail[data-categories="Aktivitet"] .ticket-link{color:#2A1E0C}
 body.page-event .detail[data-categories="Aktivitet"] .story a{color:#2A1E0C;text-decoration:underline;text-underline-offset:3px}
 
@@ -387,3 +387,11 @@ body.page-event .detail[data-categories="Aktivitet"] .story a{color:#2A1E0C;text
 @media(prefers-reduced-motion:reduce){
   .event-card,.card-art img{transition:none}
 }
+
+/* Hover-held: katgorifargen sin skiljefarge står att (leather sets var(--sea)) */
+.event-card[data-categories="Konsert"]:hover{border-color:#8C8275}
+.event-card[data-categories="Scene"]:hover{border-color:#B96E55}
+.event-card[data-categories="Film"]:hover{border-color:#5A7B77}
+.event-card[data-categories="Aktivitet"]:hover{border-color:#A9832F}
+.event-card[data-categories="Annet"]:hover{border-color:#C4B8A1}
+body.page-event .detail[data-categories]{border:2px solid #EDE4D3}
