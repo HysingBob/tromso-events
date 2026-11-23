@@ -257,6 +257,9 @@ body.page-front .empty-state p{color:rgba(255,255,255,.92)}
 .event-card{border:1.5px solid var(--edge);color:var(--txt)}
 .event-card::before{background-image:none;background-color:var(--rest);transition:background-color .5s ease}
 .event-card h3,.event-card .card-kicker,.event-card .card-meta,.event-card .free{color:var(--txt)}
+/* Bindestreken («–») og punkta («·») på korta: same tekstfarge som resten —
+   grunn-CSS-en set brunt var(--rule)/var(--rust) på spanane (Bob 2026-11-23). */
+.event-card .card-kicker span,.event-card .card-meta span,.event-card .free{color:inherit}
 /* Skiljestrek under kickeren flyttar seg til blomstrarfarge saman med kortet. */
 .event-card hr{border:0;border-top:1px solid var(--sep);margin:8px 0;transition:border-color .5s ease}
 .event-card:hover,.event-card:focus-visible{background-color:transparent}

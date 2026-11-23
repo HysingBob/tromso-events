@@ -123,6 +123,8 @@ test('kvart kort og arrangementsside får kvile/blomstre-para sine (spek 2026-11
   assert.ok(css.includes('.event-card:hover::before,.event-card:focus-visible::before{background-color:var(--bloom)}'), 'manglar blomstrarfarge på hover/fokus');
   assert.ok(css.includes('.event-card hr{border:0;border-top:1px solid var(--sep);margin:8px 0;transition:border-color .5s ease}'), 'manglar hr-skilje i hvile');
   assert.ok(css.includes('.event-card:hover hr,.event-card:focus-visible hr{border-top-color:var(--sep-bloom)}'), 'manglar hr-skilje i blomstrande tilstand');
+  // Bindestrek/punkt-spanane på korta følger tekstfargen, ikkje brunt var(--rule).
+  assert.ok(css.includes('.event-card .card-kicker span,.event-card .card-meta span,.event-card .free{color:inherit}'), 'spanane på korta manglar tekstfarge');
   // Touch (ingen hover) og redusert rørsle.
   assert.match(css, /@media \(hover:none\)\{[^}]*\.event-card::before\{background-color:var\(--bloom\)\}/);
   assert.match(css, /@media \(prefers-reduced-motion:reduce\)\{[^@]*\.event-card,\.event-card::before,\.event-card hr\{transition:none\}/);
