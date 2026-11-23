@@ -46,6 +46,10 @@ function catSlug(kats) {
   const key=(kats||[])[0];
   return cats.find(c=>c.key===key)?.slug || 'annet';
 }
+/* Kort-versjon av stedsnamnet (Bob 2026-11-23): «Scene Øst/Vest»-suffikset
+   (Hålogaland Teater) skal IKKJE stå på korta — berre huset. Heile namnet
+   står att på arrangementsida (facts/detalj). */
+const cardSted = s => (s||'').replace(/\s*,?\s*Scene\s+(?:Øst|Vest)$/u,'');
 function card(e,lang,now=new Date()) {
   const title=e[lang]?.[lang==='no'?'tittel':'title'];
   /* Kicker (Bob 2026-11-23): sted – ukedag, dd/mm. Kategorien står IKKJE på
@@ -54,7 +58,7 @@ function card(e,lang,now=new Date()) {
   const thumb = `images/cards/${e.id}.webp`;
   const cardImage = /^https?:\/\//i.test(String(e.bilde||'')) ? e.bilde : (fs.existsSync(path.join(__dirname,'..',thumb)) ? thumb : e.bilde);
   const variant = 1 + ([...e.id].reduce((a,c)=>a+c.charCodeAt(0),0) % 3);
-  return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}" data-category="${esc(catSlug(e.kategori))}" data-audience="${esc((e.malgruppe||[]).join('|'))}" data-free="${e.gratis?'1':'0'}" data-sted="${esc(e.sted||'')}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${e.sted?esc(e.sted)+' <span aria-hidden="true">–</span> ':''}${esc(dayName(e.start,lang))}, ${esc(shortDate(e.start))}</div><hr><h3>${esc(title)}</h3><p class="card-meta">${esc(eventTimes(e,lang))}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
+  return `<a class="event-card" data-variant="${variant}" href="${eventUrl(e,lang)}" data-event data-start="${esc(e.start)}" data-end="${esc(e.slutt||e.start)}" data-time="${timeBucket(e.start,now)}" data-categories="${esc((e.kategori||[]).join('|'))}" data-category="${esc(catSlug(e.kategori))}" data-audience="${esc((e.malgruppe||[]).join('|'))}" data-free="${e.gratis?'1':'0'}" data-sted="${esc(e.sted||'')}"><div class="card-art"><img src="${esc(imageUrl(cardImage))}" alt="${esc(imageAlt)}" loading="lazy" width="750" height="500">${merkeText(e,lang)?`<span class="card-stamp">${esc(merkeText(e,lang))}</span>`:''}</div><div class="card-body"><div class="card-kicker">${e.sted?esc(cardSted(e.sted))+' <span aria-hidden="true">–</span> ':''}${esc(dayName(e.start,lang))}, ${esc(shortDate(e.start))}</div><hr><h3>${esc(title)}</h3><p class="card-meta">${esc(eventTimes(e,lang))}${e.gratis?' <span class="free">'+tr(lang,'Gratis','Free')+'</span>':e.pris?' <span aria-hidden="true">·</span> '+esc(e.pris):''}</p>${e.eksempel?`<span class="sample-mark">${tr(lang,'FIKTIVT EKSEMPEL','FICTIONAL EXAMPLE')}</span>`:''}</div></a>`;
 }
 // Éi klynge med knappar rett under logoen — ingen radoverskrifter, ingen tidsfaner.
 // Målgrupper (Familie) er tekne ut av klynga (Bob 2026-11-12: for vag) — berre
