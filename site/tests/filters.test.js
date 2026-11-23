@@ -91,11 +91,13 @@ test('kvart kort og arrangementsside får kategorifargen sin (rette fargar, inge
   };
   for (const [kat, [bg, tekst, skilje]] of Object.entries(FARGAR)) {
     assert.ok(css.includes(`.event-card[data-categories="${kat}"]::before{background-image:none;background-color:${bg}}`), `${kat} manglar kortfargen ${bg}`);
-    assert.ok(css.includes(`.event-card[data-categories="${kat}"]{color:${tekst};border-color:${skilje}}`), `${kat} manglar tekst/skilje-fargane`);
-    assert.ok(css.includes(`body.page-event .detail[data-categories="${kat}"]{background-color:${bg};color:${tekst}}`), `${kat} mangnar arrangementside-fargen`);
+    assert.ok(css.includes(`.event-card[data-categories="${kat}"]{border:1px solid ${skilje};color:${tekst}}`), `${kat} manglar tekst/skilje-fargane`);
+    assert.ok(css.includes(`.event-card[data-categories="${kat}"]:hover{border-color:${skilje}}`), `${kat} manglar hover-skiljefarge`);
+    assert.ok(css.includes(`body.page-event .detail[data-categories="${kat}"]{background-color:${bg};color:${tekst};border:2px solid #EDE4D3}`), `${kat} mangnar arrangementside-fargen`);
   }
   // Standard .detail (utan kategori) = Annet/Bone med mørkt blekk.
-  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A}'), '.detail manglar Bone-standarden');
+  // Bone-kant (2px #EDE4D3) skil korfargen frå den brune planken (Bob 2026-11-23).
+  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A;border:2px solid #EDE4D3}'), '.detail manglar Bone-standarden');
 });
 
 // Alle signaturteksturar per lokale er tekne ut (Bob 2026-11-23) —
