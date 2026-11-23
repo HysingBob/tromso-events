@@ -112,13 +112,17 @@ test('ingen signatur-teksturar per lokale står att i CSS-en', () => {
 
 // Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på
 // listesidene (page-front), berre der — marmoren står att som standard-body.
-test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
+test('Listesidene får mørk plank-2-dark som bakgrunn, marmoren står att elles', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-30.webp')), 'plank-30.webp manglar');
-  // plank-2 er tilbake som v8-framside-bakgrunn (Bob 2026-11-12) — vakt flytt hitifrå.
-  assert.ok(css.includes('body.page-front{\n  background-image:url("/assets/textures/plank-30.webp")'), 'page-front manglar plank-30-bakgrunn');
-  assert.ok(css.includes('body.page-front .page-heading h1{color:#2A1D12}'), 'page-heading får ikkje mørkt blekk på planka');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2-dark.webp')), 'plank-2-dark.webp manglar');
+  // Bob 2026-11-23: «sida er for lys» — plank-30/plank-2 ut, wood_plank_2_dark inn.
+  assert.ok(css.includes('body.page-front{\n  background-image:url("/assets/textures/plank-2-dark.webp")'), 'page-front manglar plank-2-dark-bakgrunn');
+  // Mørk planke = lyst blekk att på alt som står rett på planka.
+  assert.ok(css.includes('body.page-front .page-heading h1{color:#F7E8CB}'), 'page-heading får ikkje krem på den mørke planka');
   assert.match(css, /body\{[^}]*linear-gradient\(rgba\(0,0,0,\.28\),rgba\(0,0,0,\.28\)\),url\("\/assets\/textures\/marble-82\.webp"\)/);
+  for (const gamal of ['plank-30', 'plank-2.webp']) {
+    assert.ok(!css.includes(gamal), `${gamal} skal vere ute av v7/v8-CSS-en`);
+  }
 });
 
 // Arrangementssidene (Bob 2026-11-23): woodplank_32_adjusted som
@@ -131,8 +135,8 @@ test('Arrangementssidene får plank-32-adjusted som bakgrunn', () => {
   assert.ok(!css.includes('plank-32.webp'), 'plank-32 (utan adjusted) skal vere ute av CSS-en');
 });
 
-test('v8-framsida får woodplank_2 som bakgrunn (Bob 2026-11-12)', () => {
+test('v8-framsida får plank-2-dark som bakgrunn (Bob 2026-11-23)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v8.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2.webp')), 'plank-2.webp manglar');
-  assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/plank-2.webp");background-color:#7BA7A1}'), 'v8-framsida manglar plank-2-bakgrunn');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2-dark.webp')), 'plank-2-dark.webp manglar');
+  assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/plank-2-dark.webp");background-color:#3A4E4C}'), 'v8-framsida manglar plank-2-dark-bakgrunn');
 });

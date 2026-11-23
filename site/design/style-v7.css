@@ -2,7 +2,7 @@
    Lastast etter style.css og leather.css med THEME=v7.
    Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
 
-   Bakgrunn   = plank-30.webp på listesidene (lyst plankebord),
+   Bakgrunn   = plank-2-dark.webp (mørk planke) på listesidene + kategorisider,
                 plank-32-adjusted.webp (djup brun planke) på arrangementssidene;
                 marmoren (marble-82.webp) står att på om-sider/default body
    Masthead   = marble.webp  (grøn marmor, 512 px flisa)
@@ -43,23 +43,22 @@ body{
   background-color:#121213;
   color:#fff;
 }
-/* Listesidene (forsida + kategori): lys planke bak korta (Bob 2026-11-12:
-   woodplank_30 i staden for svart marmor — «bak kortene, der er det ingen
-   skrift»; var wood_plank_2). Ingen svartvask. Tekst som står rett på planka
-   (page-heading, empty-state) får mørkt blekk #2A1D12 — 5,0:1 mot snittet
-   #A08A76. */
+/* Listesidene (forsida + kategori): MØRK planke bak korta (Bob 2026-11-23:
+   wood_plank_2_dark — «sida er for lys», dei lyse plankene er bytta ut).
+   Djup blågrøn planke (snitt #3A4E4C, p50 lum 0,294): kvit tekst 8,7:1,
+   krem 7,2:1 — teksten på planka vert LYSEK att (var mørk på lys planke). */
 body.page-front{
-  background-image:url("/assets/textures/plank-30.webp");
+  background-image:url("/assets/textures/plank-2-dark.webp");
   background-repeat:repeat;
   background-size:512px 512px;
-  background-color:#A08A76;
-  color:#2A1D12;
+  background-color:#3A4E4C;
+  color:#fff;
 }
-body.page-front .page-heading h1{color:#2A1D12}
-body.page-front .page-heading>p:last-child{color:#4A3524}
-body.page-front .empty-state{border-color:rgba(42,29,18,.55)}
-body.page-front .empty-state h3{color:#2A1D12}
-body.page-front .empty-state p{color:#4A3524}
+body.page-front .page-heading h1{color:#F7E8CB}
+body.page-front .page-heading>p:last-child{color:rgba(255,255,255,.92)}
+body.page-front .empty-state{border-color:rgba(255,255,255,.55)}
+body.page-front .empty-state h3{color:#F7E8CB}
+body.page-front .empty-state p{color:rgba(255,255,255,.92)}
 .page-shell{background:none;box-shadow:none}
 
 /* 2 — Masthead: grøn marmor, heile vindauget -----------------------------
