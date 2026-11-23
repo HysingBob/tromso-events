@@ -57,6 +57,21 @@ test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber dat
   }
 });
 
+// Kicker (Bob 2026-11-23): sted – ukedag, dd/mm på fyrste linja; kategorien
+// står IKKJE på kortet (fargen ber bodet), og sted er UTENFOR botnlinja.
+test('kickeren viser sted og dag — ikkje kategori; sted er ute av botnlinja', () => {
+  const list = html('no/hva-skjer/');
+  const cards = list.match(/<div class="card-kicker">[\s\S]*?<\/div><hr>/g) || [];
+  assert.ok(cards.length, 'ingen kort å måle');
+  for (const k of ['Konsert','Scene','Film','Aktivitet','Annet']) {
+    // Gammalt format var «<kategori> –»; stadnamn (t.d. «Scene Øst») må få stå.
+    assert.ok(!cards.some(c=>c.includes(`>${k} <span`)), `kategorien ${k} står framleis fyrst i ein kicker`);
+  }
+  const metas = list.match(/<p class="card-meta">[\s\S]*?<\/p>/g) || [];
+  assert.ok(metas.length);
+  assert.ok(!list.includes('· Tromsøbadet</p>'), 'stad står framleis i botnlinja');
+});
+
 // Spek 2026-11-23: hr-skilje på kvart kort, data-category på kort og <body>.
 test('korta har hr-skilje og arrangementsida har data-category på <body>', () => {
   const list = html('no/hva-skjer/');
