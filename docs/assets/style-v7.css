@@ -244,6 +244,14 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-categories="Scene"]::before{background-image:url("/assets/textures/wall-b.webp")}
 .event-card[data-categories="Film"]::before{background-image:url("/assets/textures/wall-c.webp")}
 .event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")}
+/* Same category wallpaper on the event page (Bob 2026-11-23): the .detail page
+   shall have the same texture as the card — category wall first, signature
+   venue rules come later in this file and win (as on the card).
+   Annet (and anything else) falls on the standard paper below. */
+body.page-event .detail[data-categories="Konsert"]{background-image:url("/assets/textures/wall-a.webp")}
+body.page-event .detail[data-categories="Scene"]{background-image:url("/assets/textures/wall-b.webp")}
+body.page-event .detail[data-categories="Film"]{background-image:url("/assets/textures/wall-c.webp")}
+body.page-event .detail[data-categories="Aktivitet"]{background-image:url("/assets/textures/wall-d.webp")}
 /* Aurora kino Fokus (Bob 2026-11-12): signatur — **Marble_101b** opplasta av
    Bob (Koofr Assets), mørk grøn marmor (p50 lum 0,096, p99.9 0,410 i dei
    lysaste årene). 20 % mørkvask rgba(36,51,58,.20): krem #F7E8CB 6,8:1 mot
