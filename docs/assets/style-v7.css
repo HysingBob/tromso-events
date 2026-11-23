@@ -2,11 +2,11 @@
    Lastast etter style.css og leather.css med THEME=v7.
    Struktur, tekst og brekkepunkt ligg urørt i style.css; her er berre flater.
 
-   Bakgrunn   = plank-2-dark.webp (mørk planke) på listesidene + kategorisider,
-                plank-32-adjusted.webp (djup brun planke) på arrangementssidene;
-                marmoren (marble-82.webp) står att på om-sider/default body
-   Masthead   = marble.webp  (grøn marmor, 512 px flisa)
-   Kort/.detail = rette kategorifargar (Bob 2026-11-23), ingen teksturar
+   Spek 2026-11-23 («event colour spec»):
+   Bakgrunn   = wood-plank-2-dark.webp (mørk blågrøn planke) på heile sida,
+                planke 32 tinta per kategori på arrangementssidene;
+   Masthead   = panorama.webp på framsida og arrangementssider (v8)
+   Kort/.detail = kvile/blomstre-kategorifargar, bein-kant 1,5 px
    Oppslag    = paper.webp   (kraftpapir, lysast)
 
    Snittfarger målt frå dei ferdige teksturane:
@@ -29,30 +29,32 @@
   --moss-ink:#2E3C1E;   /* «Gratis»: 6.4:1 på papir */
   --rule:#8A6B44;       /* dekorativ strek, ingen kontrastkrav */
   --light-ink:#F7E8CB;  /* tekst på --sea: 8.9:1 */
+  /* Spek 2026-11-23 («event colour spec»): globale flater */
+  --body-bg:#3C5150;    /* snitt wood-plank-2-dark */
+  --edge:#E7E2D9;       /* 1,5 px bein-kant på kvart kort og panel */
+  --text-light:#E7E2D9;/* bein */
+  --text-dark:#221C14;  /* umbrå — berre på okra (Annet) */
+  --panel:#1E3030;      /* nattgranan: neutral panel */
 }
 
 /* 1 — Tavla ------------------------------------------------------------- */
 
 body{
-  /* 28 % svartvask over marmoren (Bob 2026-11-11: marble_82 i staden for
-     brun ved): marmoren er mørk (p90 0.107) med lys årer (p99.9 0.536) —
-     kvit tekst kjem på 13,4:1 mot p98 og 6,1:1 mot dei lysaste årene. */
-  background-image:linear-gradient(rgba(0,0,0,.28),rgba(0,0,0,.28)),url("/assets/textures/marble-82.webp");
+  /* Spek 2026-11-23: heile sitedelen på mørk blågrøn planke (wood_plank_2_dark),
+     flat snittfarge #3C5150 som fallback under teksturen. */
+  background-image:url("/assets/textures/wood-plank-2-dark.webp");
   background-repeat:repeat;
   background-size:512px 512px;
-  background-color:#121213;
-  color:#fff;
+  background-color:var(--body-bg);
+  color:var(--text-light);
 }
-/* Listesidene (forsida + kategori): MØRK planke bak korta (Bob 2026-11-23:
-   wood_plank_2_dark — «sida er for lys», dei lyse plankene er bytta ut).
-   Djup blågrøn planke (snitt #3A4E4C, p50 lum 0,294): kvit tekst 8,7:1,
-   krem 7,2:1 — teksten på planka vert LYSEK att (var mørk på lys planke). */
+/* Listesidene (forsida + kategori): same mørke planke som resten av sida. */
 body.page-front{
-  background-image:url("/assets/textures/plank-2-dark.webp");
+  background-image:url("/assets/textures/wood-plank-2-dark.webp");
   background-repeat:repeat;
   background-size:512px 512px;
-  background-color:#3A4E4C;
-  color:#fff;
+  background-color:var(--body-bg);
+  color:var(--text-light);
 }
 body.page-front .page-heading h1{color:#F7E8CB}
 body.page-front .page-heading>p:last-child{color:rgba(255,255,255,.92)}
@@ -237,31 +239,37 @@ body.page-front .empty-state p{color:rgba(255,255,255,.92)}
   background-color:var(--paper);
 }
 .event-card>*{position:relative;z-index:1}
-/* Kategorifargar (Bob 2026-11-23): rette fargar i staden for teksturar —
-   éi farge per kategori, likt på korta OG arrangementssida.
-     Konsert   Slate       #6B6359  tekst #EDE4D3 (4,7:1)  skilje #454039
-     Scene     Brick       #94533D  tekst #EDE4D3 (4,7:1)  skilje #603527
-     Film      Deep spruce #2F4A4A  tekst #EDE4D3 (7,6:1)  skilje #1E3030
-     Aktivitet Ochre       #D4A84B  tekst #2A1E0C (7,4:1)  skilje #896D30
-     Annet     Bone        #EDE4D3  tekst #24393A (9,7:1)  skilje #9A9489
-   Skiljefargen er KATEGORIFARGEN SJØLV MØRKA ~35 % (Bob 2026-11-23) —
-   ikkje brune tonar.
-   Alle signaturteksturar per lokale er tekne ut same dag. */
-.event-card[data-categories="Konsert"]::before{background-image:none;background-color:#6B6359}
-.event-card[data-categories="Scene"]::before{background-image:none;background-color:#94533D}
-.event-card[data-categories="Film"]::before{background-image:none;background-color:#2F4A4A}
-.event-card[data-categories="Aktivitet"]::before{background-image:none;background-color:#D4A84B}
-.event-card[data-categories="Annet"]::before{background-image:none;background-color:#EDE4D3}
-.event-card[data-categories="Konsert"]{border:1px solid #454039;color:#EDE4D3}
-.event-card[data-categories="Scene"]{border:1px solid #603527;color:#EDE4D3}
-.event-card[data-categories="Film"]{border:1px solid #1E3030;color:#EDE4D3}
-.event-card[data-categories="Aktivitet"]{border:1px solid #896D30;color:#2A1E0C}
-.event-card[data-categories="Annet"]{border:1px solid #9A9489;color:#24393A}
-.event-card[data-categories="Konsert"] h3,.event-card[data-categories="Konsert"] .card-kicker,.event-card[data-categories="Konsert"] .card-meta,.event-card[data-categories="Konsert"] .free{color:#EDE4D3}
-.event-card[data-categories="Scene"] h3,.event-card[data-categories="Scene"] .card-kicker,.event-card[data-categories="Scene"] .card-meta,.event-card[data-categories="Scene"] .free{color:#EDE4D3}
-.event-card[data-categories="Film"] h3,.event-card[data-categories="Film"] .card-kicker,.event-card[data-categories="Film"] .card-meta,.event-card[data-categories="Film"] .free{color:#EDE4D3}
-.event-card[data-categories="Aktivitet"] h3,.event-card[data-categories="Aktivitet"] .card-kicker,.event-card[data-categories="Aktivitet"] .card-meta,.event-card[data-categories="Aktivitet"] .free{color:#2A1E0C}
-.event-card[data-categories="Annet"] h3,.event-card[data-categories="Annet"] .card-kicker,.event-card[data-categories="Annet"] .card-meta,.event-card[data-categories="Annet"] .free{color:#24393A}
+/* Kategorifargar (spek 2026-11-23 «event colour spec»): kvile/blomstre-par
+   per kategori, éi tekstfarge i begge tilstandar, hr-skilje som skifter,
+   og bein-kant (--edge) 1,5 px på kvart kort. Variane står på
+   [data-categories] så dei gjeld både korta og .detail på arrangementsida.
+     Konsert   rest #755B52  blom #94533D (brick)   tekst #E7E2D9
+     Scene     rest #755C6E  blom #884975 (heather) tekst #E7E2D9
+     Aktivitet rest #525841  blom #5B6A2F (moss)   tekst #E7E2D9
+     Film      rest #586574  blom #42648A (fjord)  tekst #E7E2D9
+     Annet     rest #AB9974  blom #D4A84B (ochre)  tekst #221C14 (umbrå) */
+[data-categories="Konsert"]{--rest:#755B52;--bloom:#94533D;--txt:#E7E2D9;--sep:#9B7D73;--sep-bloom:#B96E55}
+[data-categories="Scene"]{--rest:#755C6E;--bloom:#884975;--txt:#E7E2D9;--sep:#96798D;--sep-bloom:#AB6396}
+[data-categories="Aktivitet"]{--rest:#525841;--bloom:#5B6A2F;--txt:#E7E2D9;--sep:#737B5B;--sep-bloom:#7F9442}
+[data-categories="Film"]{--rest:#586574;--bloom:#42648A;--txt:#E7E2D9;--sep:#738396;--sep-bloom:#5A82AF}
+[data-categories="Annet"]{--rest:#AB9974;--bloom:#D4A84B;--txt:#221C14;--sep:#847554;--sep-bloom:#A9832F}
+/* Kort i kvile: kategorifargen dempa; bein-kant kantar kortet (kravd, ikkje dekor). */
+.event-card{border:1.5px solid var(--edge);color:var(--txt)}
+.event-card::before{background-image:none;background-color:var(--rest);transition:background-color .5s ease}
+.event-card h3,.event-card .card-kicker,.event-card .card-meta,.event-card .free{color:var(--txt)}
+/* Skiljestrek under kickeren flyttar seg til blomstrarfarge saman med kortet. */
+.event-card hr{border:0;border-top:1px solid var(--sep);margin:8px 0;transition:border-color .5s ease}
+.event-card:hover,.event-card:focus-visible{background-color:transparent}
+.event-card:hover::before,.event-card:focus-visible::before{background-color:var(--bloom)}
+.event-card:hover hr,.event-card:focus-visible hr{border-top-color:var(--sep-bloom)}
+/* Touchskjerm har ingen hover: blomstrarfargane står som standard. */
+@media (hover:none){
+  .event-card::before{background-color:var(--bloom)}
+  .event-card hr{border-top-color:var(--sep-bloom)}
+}
+@media (prefers-reduced-motion:reduce){
+  .event-card,.event-card::before,.event-card hr{transition:none}
+}
 /* Utsnitt og helning følgjer arrangementet (data-variant), ikkje plass i lista */
 .event-card[data-variant="1"]{--tilt:-.5deg}
 .event-card[data-variant="1"]::before{background-position:0 0}
@@ -323,35 +331,17 @@ body.page-front .empty-state p{color:rgba(255,255,255,.92)}
    døgnrytmen i lista med luft mellom dagane. */
 .day-group{margin:0 0 22px}
 .day-group:last-child{margin-bottom:0}
-/* 5c — Arrangementssida: mørkare planke (Bob 2026-11-23:
-   woodplank_32_adjusted) mørkne mot kantane. Planka er djup brun
-   (snitt #695041, p50 lum 0.341): kvit tekst 7,2:1 og krem 6,0:1 —
-   begge over 4,5:1. */
-body.page-event{
-  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32-adjusted.webp");
-  background-repeat:no-repeat,repeat;
-  background-attachment:fixed,scroll;
-  background-size:100% 100%,512px 512px;
-  background-color:#695041;
-}
-/* .detail får same kategorifarge som kortet (Bob 2026-11-23) —
-   standard (utan kategori) er Annet/Bone. Ingen teksturar her lenger. */
-body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A;border:2px solid #EDE4D3}
-body.page-event .detail[data-categories="Annet"]{background-color:#EDE4D3;color:#24393A;border:2px solid #EDE4D3}
-body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p,body.page-event .detail .ticket-link{color:#24393A}
-body.page-event .detail .story a{color:#24393A;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Konsert"]{background-color:#6B6359;color:#EDE4D3;border:2px solid #EDE4D3}
-body.page-event .detail[data-categories="Konsert"] h1,body.page-event .detail[data-categories="Konsert"] .eyebrow,body.page-event .detail[data-categories="Konsert"] .lead,body.page-event .detail[data-categories="Konsert"] .source-note,body.page-event .detail[data-categories="Konsert"] .facts dt,body.page-event .detail[data-categories="Konsert"] .facts dd,body.page-event .detail[data-categories="Konsert"] .story p,body.page-event .detail[data-categories="Konsert"] .ticket-link{color:#EDE4D3}
-body.page-event .detail[data-categories="Konsert"] .story a{color:#EDE4D3;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Scene"]{background-color:#94533D;color:#EDE4D3;border:2px solid #EDE4D3}
-body.page-event .detail[data-categories="Scene"] h1,body.page-event .detail[data-categories="Scene"] .eyebrow,body.page-event .detail[data-categories="Scene"] .lead,body.page-event .detail[data-categories="Scene"] .source-note,body.page-event .detail[data-categories="Scene"] .facts dt,body.page-event .detail[data-categories="Scene"] .facts dd,body.page-event .detail[data-categories="Scene"] .story p,body.page-event .detail[data-categories="Scene"] .ticket-link{color:#EDE4D3}
-body.page-event .detail[data-categories="Scene"] .story a{color:#EDE4D3;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Film"]{background-color:#2F4A4A;color:#EDE4D3;border:2px solid #EDE4D3}
-body.page-event .detail[data-categories="Film"] h1,body.page-event .detail[data-categories="Film"] .eyebrow,body.page-event .detail[data-categories="Film"] .lead,body.page-event .detail[data-categories="Film"] .source-note,body.page-event .detail[data-categories="Film"] .facts dt,body.page-event .detail[data-categories="Film"] .facts dd,body.page-event .detail[data-categories="Film"] .story p,body.page-event .detail[data-categories="Film"] .ticket-link{color:#EDE4D3}
-body.page-event .detail[data-categories="Film"] .story a{color:#EDE4D3;text-decoration:underline;text-underline-offset:3px}
-body.page-event .detail[data-categories="Aktivitet"]{background-color:#D4A84B;color:#2A1E0C;border:2px solid #EDE4D3}
-body.page-event .detail[data-categories="Aktivitet"] h1,body.page-event .detail[data-categories="Aktivitet"] .eyebrow,body.page-event .detail[data-categories="Aktivitet"] .lead,body.page-event .detail[data-categories="Aktivitet"] .source-note,body.page-event .detail[data-categories="Aktivitet"] .facts dt,body.page-event .detail[data-categories="Aktivitet"] .facts dd,body.page-event .detail[data-categories="Aktivitet"] .story p,body.page-event .detail[data-categories="Aktivitet"] .ticket-link{color:#2A1E0C}
-body.page-event .detail[data-categories="Aktivitet"] .story a{color:#2A1E0C;text-decoration:underline;text-underline-offset:3px}
+/* 5c — Arrangementssida (spek 2026-11-23): planke 32 tinta i kategorien sin
+   komplementærfarge, styrt av data-category på <body>. */
+body.page-event[data-category="concert"]{background-image:url("/assets/textures/woodplank-32-concert.webp");background-repeat:repeat;background-size:512px 512px;background-color:#2F444C}
+body.page-event[data-category="stage"]{background-image:url("/assets/textures/woodplank-32-stage.webp");background-repeat:repeat;background-size:512px 512px;background-color:#2F4C37}
+body.page-event[data-category="activity"]{background-image:url("/assets/textures/woodplank-32-activity.webp");background-repeat:repeat;background-size:512px 512px;background-color:#362F4C}
+body.page-event[data-category="film"]{background-image:url("/assets/textures/woodplank-32-film.webp");background-repeat:repeat;background-size:512px 512px;background-color:#4C3E2F}
+body.page-event[data-category="annet"]{background-image:url("/assets/textures/woodplank-32-other.webp");background-repeat:repeat;background-size:512px 512px;background-color:#2F384C}
+/* .detail står alltid i blomstrarfargen sin (spek regel 5) med bein-kant 1,5 px. */
+body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}
+body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p,body.page-event .detail .ticket-link{color:var(--txt)}
+body.page-event .detail .story a{color:var(--txt);text-decoration:underline;text-underline-offset:3px}
 
 
 @media(max-width:639px){
@@ -388,11 +378,3 @@ body.page-event .detail[data-categories="Aktivitet"] .story a{color:#2A1E0C;text
 @media(prefers-reduced-motion:reduce){
   .event-card,.card-art img{transition:none}
 }
-
-/* Hover-held: katgorifargen sin skiljefarge står att (leather sets var(--sea)) */
-.event-card[data-categories="Konsert"]:hover{border-color:#454039}
-.event-card[data-categories="Scene"]:hover{border-color:#603527}
-.event-card[data-categories="Film"]:hover{border-color:#1E3030}
-.event-card[data-categories="Aktivitet"]:hover{border-color:#896D30}
-.event-card[data-categories="Annet"]:hover{border-color:#9A9489}
-body.page-event .detail[data-categories]{border:2px solid #EDE4D3}
