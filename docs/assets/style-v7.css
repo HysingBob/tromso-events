@@ -254,11 +254,13 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-sted="Aurora kino Fokus"] .card-kicker{color:#F2D8B3}
 .event-card[data-sted="Aurora kino Fokus"] .card-meta{color:#E8D9BC}
 .event-card[data-sted="Aurora kino Fokus"] .free{color:#CBE3A8}
-.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp");background-color:#22634A;color:#F7E8CB}
-.detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
-.detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
-.detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
-.detail[data-sted="Aurora kino Fokus"] .source-note{color:#E8D9BC}
+body.page-event .detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp");background-color:#22634A;color:#F7E8CB}
+body.page-event .detail[data-sted="Aurora kino Fokus"] h1{color:#F7E8CB}
+body.page-event .detail[data-sted="Aurora kino Fokus"] .eyebrow{color:#F2D8B3}
+body.page-event .detail[data-sted="Aurora kino Fokus"] .lead{color:#E8D9BC}
+body.page-event .detail[data-sted="Aurora kino Fokus"] .source-note{color:#E8D9BC}
+body.page-event .detail[data-sted="Aurora kino Fokus"] .story p,body.page-event .detail[data-sted="Aurora kino Fokus"] .facts dd{color:#F7E8CB}
+body.page-event .detail[data-sted="Aurora kino Fokus"] .story a{color:#FBEFDB;text-decoration:underline;text-underline-offset:3px}
 /* Løvetann Studio (Bob 2026-11-12): signatur — teak_2 frå Koofr
    (~/Koofr/Assets/teak_2.png). Midtmørk honningteak (p50 lum 0,152) —
    mørkt blekk kjem berre på 2,6:1, så Løvetann går frå dagkort til
@@ -270,16 +272,16 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-sted="Løvetann Studio"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted="Løvetann Studio"] .card-meta{color:#F7E8CB}
 .event-card[data-sted="Løvetann Studio"] .free{color:#DDEFC0}
-.detail[data-sted="Løvetann Studio"]{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp");background-color:#955E1D;color:#F7E8CB}
-.detail[data-sted="Løvetann Studio"] h1{color:#F7E8CB}
-.detail[data-sted="Løvetann Studio"] .eyebrow{color:#FBEFDB}
-.detail[data-sted="Løvetann Studio"] .detail-heading .lead,
-.detail[data-sted="Løvetann Studio"] .story p,
-.detail[data-sted="Løvetann Studio"] .source-note{color:#F7E8CB}
-.detail[data-sted="Løvetann Studio"] .facts dt{color:#F7E8CB}
-.detail[data-sted="Løvetann Studio"] .facts dd{color:#F7E8CB}
-.detail[data-sted="Løvetann Studio"] .story a{color:#FBEFDB}
-.detail[data-sted="Løvetann Studio"] .ticket-link{color:#FBEFDB}
+body.page-event .detail[data-sted="Løvetann Studio"]{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp");background-color:#955E1D;color:#F7E8CB}
+body.page-event .detail[data-sted="Løvetann Studio"] h1{color:#F7E8CB}
+body.page-event .detail[data-sted="Løvetann Studio"] .eyebrow{color:#FBEFDB}
+body.page-event .detail[data-sted="Løvetann Studio"] .detail-heading .lead,
+body.page-event .detail[data-sted="Løvetann Studio"] .story p,
+body.page-event .detail[data-sted="Løvetann Studio"] .source-note{color:#F7E8CB}
+body.page-event .detail[data-sted="Løvetann Studio"] .facts dt{color:#F7E8CB}
+body.page-event .detail[data-sted="Løvetann Studio"] .facts dd{color:#F7E8CB}
+body.page-event .detail[data-sted="Løvetann Studio"] .story a{color:#FBEFDB}
+body.page-event .detail[data-sted="Løvetann Studio"] .ticket-link{color:#FBEFDB}
 /* PUST Lavvo (Bob 2026-11-12): signatur — wood_fine_21 frå Koofr
    (~/Koofr/Assets/wood_fine_21.jpg). Lys oransje finved (p50 lum 0,191):
    utan vask berre 3,6:1 i krem — 30 % mørkvask rgba(40,19,22,.30) over
@@ -290,50 +292,52 @@ body.page-front .empty-state p{color:#4A3524}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .card-meta{color:#F7E8CB}
 .event-card[data-sted="PUST Lavvo, Tromsø"] .free{color:#DDEFC0}
-.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp");background-color:#C55718;color:#F7E8CB}
-.detail[data-sted="PUST Lavvo, Tromsø"] h1{color:#F7E8CB}
-.detail[data-sted="PUST Lavvo, Tromsø"] .eyebrow{color:#FBEFDB}
-.detail[data-sted="PUST Lavvo, Tromsø"] .lead{color:#F7E8CB}
-.detail[data-sted="PUST Lavvo, Tromsø"] .source-note{color:#F7E8CB}
-.detail[data-sted="PUST Lavvo, Tromsø"] .facts dt{color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp");background-color:#C55718;color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] h1{color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .eyebrow{color:#FBEFDB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .lead{color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .source-note{color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .facts dt{color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .story p,body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .facts dd{color:#F7E8CB}
+body.page-event .detail[data-sted="PUST Lavvo, Tromsø"] .story a{color:#FBEFDB;text-decoration:underline;text-underline-offset:3px}
 /* Ishavskatedralen (Bob 2026-11-11): signatur — wallpaper_38 frå Koofr
    (~/Koofr/Assets/wallpaper_38.png). Lys off-white mural (p99.9 lum 0.902)
    = «dagkort»: standard mørkt blekk på korta — ink #3A2A1E 11,0:1,
    rust 7,5:1. */
 .event-card[data-sted="Ishavskatedralen"]::before{background-image:url("/assets/textures/ishavswall-38.webp");background-color:#DFDBCE}
-.detail[data-sted="Ishavskatedralen"]{background-image:url("/assets/textures/ishavswall-38.webp");background-color:#DFDBCE}
+body.page-event .detail[data-sted="Ishavskatedralen"]{background-image:url("/assets/textures/ishavswall-38.webp");background-color:#DFDBCE}
 /* Dagkort på arrangementsida: .detail ligg normalt på mørk vedvegg med
    kvit tekst — mot lys mural må alt blekk inni .detail bli mørkt att. */
-.detail[data-sted="Ishavskatedralen"]{color:#3A2A1E}
-.detail[data-sted="Ishavskatedralen"] h1{color:#3A2A1E}
-.detail[data-sted="Ishavskatedralen"] .eyebrow{color:#3A2A1E}
-.detail[data-sted="Ishavskatedralen"] .detail-heading .lead,
-.detail[data-sted="Ishavskatedralen"] .story p,
-.detail[data-sted="Ishavskatedralen"] .source-note{color:#3A2A1E}
-.detail[data-sted="Ishavskatedralen"] .facts dt{color:#3A2A1E}
-.detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
-.detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
-.detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"]{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"] h1{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"] .eyebrow{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"] .detail-heading .lead,
+body.page-event .detail[data-sted="Ishavskatedralen"] .story p,
+body.page-event .detail[data-sted="Ishavskatedralen"] .source-note{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"] .facts dt{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"] .facts dd{color:#3A2A1E}
+body.page-event .detail[data-sted="Ishavskatedralen"] .story a{color:#7A2E1C}
+body.page-event .detail[data-sted="Ishavskatedralen"] .ticket-link{color:#3A2A1E}
 /* FINT Kafé & Bar (Bob 2026-11-12): signatur — wallpaper_2 frå Koofr
    (~/Koofr/Assets/wallpaper_2.jpg). Lys rosa mural (p50 lum 0,403) =
    «dagkort»: standard mørkt blekk på korta — ink #25180E 7,5:1 mot p50,
    8,6:1 mot p98. Berre tekstur + fallbackfarge, ingen vask. */
 .event-card[data-sted="FINT Kafé & Bar"]::before{background-image:url("/assets/textures/wallpaper-2.webp");background-color:#CE9CB2}
-.detail[data-sted="FINT Kafé & Bar"]{background-image:url("/assets/textures/wallpaper-2.webp");background-color:#CE9CB2}
+body.page-event .detail[data-sted="FINT Kafé & Bar"]{background-image:url("/assets/textures/wallpaper-2.webp");background-color:#CE9CB2}
 /* Dagkort på arrangementsida: .detail ligg normalt på mørk vedvegg med
    kvit tekst — mot lys mural må alt blekk inni .detail bli mørkt att. */
-.detail[data-sted="FINT Kafé & Bar"]{color:#25180E}
+body.page-event .detail[data-sted="FINT Kafé & Bar"]{color:#25180E}
 /* body.page-event-prefiks: må slå den generelle kvite h1-regela
    (same elles specificity, men den kjem seinare i fila). */
 body.page-event .detail[data-sted="FINT Kafé & Bar"] h1{color:#25180E}
 body.page-event .detail[data-sted="FINT Kafé & Bar"] .eyebrow{color:#25180E}
-.detail[data-sted="FINT Kafé & Bar"] .detail-heading .lead,
-.detail[data-sted="FINT Kafé & Bar"] .story p,
-.detail[data-sted="FINT Kafé & Bar"] .source-note{color:#25180E}
-.detail[data-sted="FINT Kafé & Bar"] .facts dt{color:#25180E}
-.detail[data-sted="FINT Kafé & Bar"] .facts dd{color:#25180E}
-.detail[data-sted="FINT Kafé & Bar"] .story a{color:#7A2E1C}
-.detail[data-sted="FINT Kafé & Bar"] .ticket-link{color:#25180E}
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .detail-heading .lead,
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .story p,
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .source-note{color:#25180E}
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .facts dt{color:#25180E}
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .facts dd{color:#25180E}
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .story a{color:#7A2E1C}
+body.page-event .detail[data-sted="FINT Kafé & Bar"] .ticket-link{color:#25180E}
 /* Rådstua (Bob 2026-11-12): signatur — mahogny_1 frå Koofr
    (~/Koofr/Assets/mahogany_1.png). Midtmørk mahogny (p50 lum 0,124) —
    20 % mørkvask rgba(40,19,22,.20): krem #F7E8CB 6,2:1 mot p50, 4,9:1 mot
@@ -344,19 +348,21 @@ body.page-event .detail[data-sted="FINT Kafé & Bar"] .eyebrow{color:#25180E}
 .event-card[data-sted^="Provisoriet, Rådstua"] .card-kicker,.event-card[data-sted="Rådstua Teaterhus"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted^="Provisoriet, Rådstua"] .card-meta,.event-card[data-sted="Rådstua Teaterhus"] .card-meta{color:#F7E8CB}
 .event-card[data-sted^="Provisoriet, Rådstua"] .free,.event-card[data-sted="Rådstua Teaterhus"] .free{color:#DDEFC0}
-.detail[data-sted^="Provisoriet, Rådstua"],.detail[data-sted="Rådstua Teaterhus"]{background-image:linear-gradient(rgba(40,19,22,.20),rgba(40,19,22,.20)),url("/assets/textures/mahogany-1.webp");background-color:#974F23;color:#F7E8CB}
+body.page-event .detail[data-sted^="Provisoriet, Rådstua"],.detail[data-sted="Rådstua Teaterhus"]{background-image:linear-gradient(rgba(40,19,22,.20),rgba(40,19,22,.20)),url("/assets/textures/mahogany-1.webp");background-color:#974F23;color:#F7E8CB}
 body.page-event .detail[data-sted^="Provisoriet, Rådstua"] h1,body.page-event .detail[data-sted="Rådstua Teaterhus"] h1{color:#F7E8CB}
 body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .eyebrow,body.page-event .detail[data-sted="Rådstua Teaterhus"] .eyebrow{color:#FBEFDB}
 body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .lead,body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .source-note,
 body.page-event .detail[data-sted="Rådstua Teaterhus"] .lead,body.page-event .detail[data-sted="Rådstua Teaterhus"] .source-note{color:#F7E8CB}
 body.page-event .detail[data-sted^="Provoriet, Rådstua"] .facts dt,body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .facts dt,
 body.page-event .detail[data-sted="Rådstua Teaterhus"] .facts dt{color:#F7E8CB}
+body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .story p,body.page-event .detail[data-sted="Rådstua Teaterhus"] .story p,body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .facts dd,body.page-event .detail[data-sted="Rådstua Teaterhus"] .facts dd{color:#F7E8CB}
+body.page-event .detail[data-sted^="Provisoriet, Rådstua"] .story a,body.page-event .detail[data-sted="Rådstua Teaterhus"] .story a{color:#FBEFDB;text-decoration:underline;text-underline-offset:3px}
 /* Tromsø Filmklubb (Bob 2026-11-12): signatur — marble_83 frå Koofr
    (~/Koofr/Assets/marble_83.png). Lys varm marmor (p50 lum 0,317) = «dagkort»:
    mørkt blekk #25180E 6,0:1 mot p50. Filmklubben viser i Bakrommet hos
    Amtmandens. */
 .event-card[data-sted="Bakrommet hos Amtmandens"]::before{background-image:url("/assets/textures/marble-83.webp");background-color:#B69177}
-.detail[data-sted="Bakrommet hos Amtmandens"]{background-image:url("/assets/textures/marble-83.webp");background-color:#B69177}
+body.page-event .detail[data-sted="Bakrommet hos Amtmandens"]{background-image:url("/assets/textures/marble-83.webp");background-color:#B69177}
 body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] h1,
 body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .eyebrow,
 body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .lead,
@@ -376,11 +382,13 @@ body.page-event .detail[data-sted="Bakrommet hos Amtmandens"] .ticket-link{color
 .event-card[data-sted="Tromsøbadet"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted="Tromsøbadet"] .card-meta{color:#F7E8CB}
 .event-card[data-sted="Tromsøbadet"] .free{color:#DDEFC0}
-.detail[data-sted="Tromsøbadet"]{background-image:linear-gradient(rgba(36,51,58,.30),rgba(36,51,58,.30)),url("/assets/textures/marble-66.webp");background-color:#5383AB;color:#F7E8CB}
+body.page-event .detail[data-sted="Tromsøbadet"]{background-image:linear-gradient(rgba(36,51,58,.30),rgba(36,51,58,.30)),url("/assets/textures/marble-66.webp");background-color:#5383AB;color:#F7E8CB}
 body.page-event .detail[data-sted="Tromsøbadet"] h1{color:#F7E8CB}
 body.page-event .detail[data-sted="Tromsøbadet"] .eyebrow{color:#FBEFDB}
 body.page-event .detail[data-sted="Tromsøbadet"] .lead,body.page-event .detail[data-sted="Tromsøbadet"] .source-note{color:#F7E8CB}
 body.page-event .detail[data-sted="Tromsøbadet"] .facts dt{color:#F7E8CB}
+body.page-event .detail[data-sted="Tromsøbadet"] .story p,body.page-event .detail[data-sted="Tromsøbadet"] .facts dd{color:#F7E8CB}
+body.page-event .detail[data-sted="Tromsøbadet"] .story a{color:#FBEFDB;text-decoration:underline;text-underline-offset:3px}
 /* Tromsø Kulturhus (Bob 2026-11-12): signatur — rosewood_1 frå Koofr
    (~/Koofr/Assets/rosewood_1.png). Mørk raud palisander (p50 lum 0,014,
    p99.9 0,034) — mørk nok utan vask: krem #F7E8CB 13,5:1 mot p50,
@@ -391,11 +399,13 @@ body.page-event .detail[data-sted="Tromsøbadet"] .facts dt{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-kicker{color:#FBEFDB}
 .event-card[data-sted^="Tromsø Kulturhus"] .card-meta{color:#F7E8CB}
 .event-card[data-sted^="Tromsø Kulturhus"] .free{color:#DDEFC0}
-.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood-1.webp");background-color:#341710;color:#F7E8CB}
-.detail[data-sted^="Tromsø Kulturhus"] h1{color:#F7E8CB}
-.detail[data-sted^="Tromsø Kulturhus"] .eyebrow{color:#FBEFDB}
-.detail[data-sted^="Tromsø Kulturhus"] .lead{color:#F7E8CB}
-.detail[data-sted^="Tromsø Kulturhus"] .source-note{color:#F7E8CB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood-1.webp");background-color:#341710;color:#F7E8CB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] h1{color:#F7E8CB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] .eyebrow{color:#FBEFDB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] .lead{color:#F7E8CB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] .source-note{color:#F7E8CB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] .story p,body.page-event .detail[data-sted^="Tromsø Kulturhus"] .facts dd{color:#F7E8CB}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] .story a{color:#FBEFDB;text-decoration:underline;text-underline-offset:3px}
 /* Utsnitt og helning følgjer arrangementet (data-variant), ikkje plass i lista */
 .event-card[data-variant="1"]{--tilt:-.5deg}
 .event-card[data-variant="1"]::before{background-position:0 0}
@@ -447,8 +457,8 @@ body.page-event .detail[data-sted="Tromsøbadet"] .facts dt{color:#F7E8CB}
 .facts{background:transparent}
 /* På mørke flater (nattkort) må etikettane (dt) også vera lyse:
    #E8D9BC 4,5:1 mot marble-101b+vask p50, #F7E8CB 13,5:1 mot rosewood-1 p50. */
-.detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
-.detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
+body.page-event .detail[data-sted="Aurora kino Fokus"] .facts dt{color:#E8D9BC}
+body.page-event .detail[data-sted^="Tromsø Kulturhus"] .facts dt{color:#F7E8CB}
 /* «Billettar og mer info»: hover til kastanjebrun, same varme som den valde fana */
 .ticket-link{color:var(--light-ink)}
 .ticket-link:hover,.ticket-link:focus-visible{background:#4A2A1C;color:#F7E8CB}
@@ -472,9 +482,19 @@ body.page-event{
   background-size:100% 100%,512px 512px;
   background-color:#91684B;
 }
+/* Standard .detail på arrangementsida (Bob 2026-11-23): same papirtekstur
+   som korta har — ingen lokale utan signatur skal stå transparent med
+   vedveggen synande bak. Signaturstoffa overstyrer denne regelen
+   (body.page-event-prefiksa per-sted-regler har høgare specificity). */
+body.page-event .detail{background-image:url("/assets/textures/paper.webp");background-repeat:no-repeat;background-size:cover;background-color:var(--paper)}
 body.page-event .detail h1,
-body.page-event .detail .eyebrow{color:#fff}
-body.page-event .detail .facts dt{color:rgba(255,255,255,.92)}
+body.page-event .detail .eyebrow{color:#25180E}
+body.page-event .detail .lead,
+body.page-event .detail .story p,
+body.page-event .detail .source-note{color:#25180E}
+body.page-event .detail .facts dt,
+body.page-event .detail .facts dd{color:#25180E}
+body.page-event .detail .story a{color:#7A2E1C;text-decoration:underline;text-underline-offset:3px}
 
 @media(max-width:639px){
   /* telefon: mindre luft i mastheaden */
