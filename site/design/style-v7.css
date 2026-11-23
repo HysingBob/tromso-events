@@ -4,7 +4,7 @@
 
    Spek 2026-11-23 («event colour spec»):
    Bakgrunn   = wood-plank-2-dark.webp (mørk blågrøn planke) på heile sida,
-                planke 32 tinta per kategori på arrangementssidene;
+                woodplank_32_adjusted (djup brun planke) på arrangementssidene;
    Masthead   = panorama.webp på framsida og arrangementssider (v8)
    Kort/.detail = kvile/blomstre-kategorifargar, bein-kant 1,5 px
    Oppslag    = paper.webp   (kraftpapir, lysast)
@@ -331,13 +331,18 @@ body.page-front .empty-state p{color:rgba(255,255,255,.92)}
    døgnrytmen i lista med luft mellom dagane. */
 .day-group{margin:0 0 22px}
 .day-group:last-child{margin-bottom:0}
-/* 5c — Arrangementssida (spek 2026-11-23): planke 32 tinta i kategorien sin
-   komplementærfarge, styrt av data-category på <body>. */
-body.page-event[data-category="concert"]{background-image:url("/assets/textures/woodplank-32-concert.webp");background-repeat:repeat;background-size:512px 512px;background-color:#2F444C}
-body.page-event[data-category="stage"]{background-image:url("/assets/textures/woodplank-32-stage.webp");background-repeat:repeat;background-size:512px 512px;background-color:#2F4C37}
-body.page-event[data-category="activity"]{background-image:url("/assets/textures/woodplank-32-activity.webp");background-repeat:repeat;background-size:512px 512px;background-color:#362F4C}
-body.page-event[data-category="film"]{background-image:url("/assets/textures/woodplank-32-film.webp");background-repeat:repeat;background-size:512px 512px;background-color:#4C3E2F}
-body.page-event[data-category="annet"]{background-image:url("/assets/textures/woodplank-32-other.webp");background-repeat:repeat;background-size:512px 512px;background-color:#2F384C}
+/* 5c — Arrangementssida (Bob 2026-11-23: «for mykje fargar og forvirrande»):
+   attende til woodplank_32_adjusted som éiaste sidebakgrunn — dei tinta
+   planke-32-flatene per kategori er tekne ut. Kortet/panelet beheld
+   kategorifargane sine. Planka er djup brun (snitt #695041): beintekst
+   7,9:1 rett på flata. */
+body.page-event{
+  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32-adjusted.webp");
+  background-repeat:no-repeat,repeat;
+  background-attachment:fixed,scroll;
+  background-size:100% 100%,512px 512px;
+  background-color:#695041;
+}
 /* .detail står alltid i blomstrarfargen sin (spek regel 5) med bein-kant 1,5 px. */
 body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}
 body.page-event .detail h1,body.page-event .detail .eyebrow,body.page-event .detail .lead,body.page-event .detail .source-note,body.page-event .detail .facts dt,body.page-event .detail .facts dd,body.page-event .detail .story p,body.page-event .detail .ticket-link{color:var(--txt)}

@@ -146,23 +146,17 @@ test('heile sida får wood-plank-2-dark som bakgrunn med #3C5150-fallback', () =
   }
 });
 
-// Arrangementssidene (spek 2026-11-23): planke 32 tinta i kategorien sin
-// komplementærfarge, 1024 px sømlaus flis, flat fallback per kategori.
-test('Arrangementssidene får planke-32-tinta bakgrunn per kategori', () => {
+// Arrangementssidene (Bob 2026-11-23: dei tinta kategoribakgrunnene var «for
+// mykje farger og forvirrande») — attende til woodplank_32_adjusted som
+// éiaste sidebakgrunn; dei tinta planke-32-flatene er tekne ut.
+test('Arrangementssidene får plank-32-adjusted som bakgrunn — kategoribakgrunnar ute', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  const SIDE = {
-    concert:  ['#2F444C', 'woodplank-32-concert.webp'],
-    stage:    ['#2F4C37', 'woodplank-32-stage.webp'],
-    activity: ['#362F4C', 'woodplank-32-activity.webp'],
-    film:     ['#4C3E2F', 'woodplank-32-film.webp'],
-    annet:    ['#2F384C', 'woodplank-32-other.webp'],
-  };
-  for (const [kat, [fallback, fil]] of Object.entries(SIDE)) {
-    assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', fil)), `${fil} manglar`);
-    assert.ok(css.includes(`body.page-event[data-category="${kat}"]{background-image:url("/assets/textures/${fil}");background-repeat:repeat;background-size:512px 512px;background-color:${fallback}}`), `${kat} manglar sidebakgrunnen`);
-  }
-  for (const gamal of ['plank-32.webp', 'textures/plank-32-adjusted']) {
-    assert.ok(!css.includes(gamal), `${gamal} skal vere ute av CSS-en`);
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-32-adjusted.webp')), 'plank-32-adjusted.webp manglar');
+  assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32-adjusted.webp")'), 'page-event manglar plank-32-adjusted-bakgrunn');
+  assert.ok(!css.includes('plank-32.webp'), 'plank-32 (utan adjusted) skal vere ute av CSS-en');
+  assert.doesNotMatch(css, /body\.page-event\[data-category/, 'per-kategori sidebakgrunnar skal vere ute');
+  for (const fil of ['woodplank-32-concert.webp','woodplank-32-stage.webp','woodplank-32-activity.webp','woodplank-32-film.webp','woodplank-32-other.webp']) {
+    assert.ok(!fs.existsSync(path.join(root, 'src', 'assets', 'textures', fil)), `${fil} skal vere ute av teksturmappa`);
   }
 });
 
