@@ -693,21 +693,21 @@
   "free": false
  },
  {
-  "title": "Markens Grode",
-  "start": "2026-11-27T12:00:00",
-  "venue": "Aurora Kino, Sal 4, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Focker In Law",
   "start": "2026-11-27T12:00:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/focker-in-law/1567",
   "image": "https://images.filmgrail.com/mediaserver/movies/focker-in-law-8388/backdrop/1793020518412?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Markens Grode",
+  "start": "2026-11-27T12:00:00",
+  "venue": "Aurora Kino, Sal 4, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/markens-grode/1574",
+  "image": "https://images.filmgrail.com/1793186397637-blob?optimizer=image&width=1200",
   "free": false
  },
  {
