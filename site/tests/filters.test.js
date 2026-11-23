@@ -113,6 +113,10 @@ test('kvart kort og arrangementsside får kvile/blomstre-para sine (spek 2026-11
   assert.match(css, /@media \(prefers-reduced-motion:reduce\)\{[^@]*\.event-card,\.event-card::before,\.event-card hr\{transition:none\}/);
   // Arrangementssida: kortet/panelet står ALLTID i blomstrarfarge med bein-kant.
   assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}'), '.detail manglar blomstre-standarden');
+  // Skiljestrekar inni .detail følgjer kategorien (sep-bloom — alltid blomstra der),
+  // ikkje det brune var(--rule) frå grunn-CSS-en (Bob 2026-11-23: «framleis brune»).
+  assert.ok(css.includes('body.page-event .detail .facts{border-top:2px solid var(--sep-bloom);border-bottom:2px solid var(--sep-bloom)}'), '.facts manglar kategoriskiljet');
+  assert.ok(css.includes('body.page-event .detail .source-note{border-top:1px solid var(--sep-bloom)}'), '.source-note manglar kategoriskiljet');
 });
 
 // Alle signaturteksturar per lokale er tekne ut (Bob 2026-11-23) —
