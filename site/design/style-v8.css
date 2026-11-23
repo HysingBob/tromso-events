@@ -17,7 +17,7 @@
 /* --- bakgrunnen på framsida (Bob 2026-11-12): woodplank_2 (grå-grøn planke,
    snitt #7BA7A1 lum 0,344) i staden for plank-16 — berre v8-framsida,
    kategorisidene held same mørke planke (v7 body.page-front). --- */
-body.page-front{background-image:url("/assets/textures/plank-2-dark.webp");background-color:#3A4E4C}
+body.page-front{background-image:url("/assets/textures/wood-plank-2-dark.webp");background-color:#3C5150}
 
 /* --- filterknappane (Bob 2026-11-12): rektangulære (radius 0 — eleganse),
    fargar i tune med panorama-banneret. Analysen: blåtime-Tromsø, skiferblå

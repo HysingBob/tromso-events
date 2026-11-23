@@ -51,9 +51,20 @@ test('forsida har éi klynge knappar utan radoverskrifter, og kvart kort ber dat
   assert.ok(cards.length);
   for (const card of list.match(/<a class="event-card"[^>]*>/g) || []) {
     assert.match(card, /data-categories="/);
+    assert.match(card, /data-category="(concert|stage|activity|film|annet)"/);
     assert.match(card, /data-audience="/);
     assert.match(card, /data-free="[01]"/);
   }
+});
+
+// Spek 2026-11-23: hr-skilje på kvart kort, data-category på kort og <body>.
+test('korta har hr-skilje og arrangementsida har data-category på <body>', () => {
+  const list = html('no/hva-skjer/');
+  assert.ok((list.match(/<div class="card-kicker">[\s\S]*?<\/div><hr>/g) || []).length > 0, 'korta manglar hr under kickeren');
+  const events = fs.readdirSync(path.join(output, 'no', 'hendelse'));
+  const sample = fs.readFileSync(path.join(output, 'no', 'hendelse', events[0], 'index.html'), 'utf8');
+  assert.match(sample, /<body class="page-event" data-category="(concert|stage|activity|film|annet)">/);
+  assert.match(sample, /<article class="detail"[^>]*data-category=/);
 });
 
 test('alle fem kategoriar får knapp sjølv utan arrangement i kategorien', () => {
@@ -76,29 +87,32 @@ test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
   assert.doesNotMatch(list, /Tromsø IL – Viking/);
   assert.match(list, /Tromsø IL – Start/);
 });
-// Kategorifargar (Bob 2026-11-23): rette fargar i staden for teksturar —
-// éi farge per kategori på korta OG arrangementssida (.detail).
-// Kontrastar: Spruce 7,6 · Slate 4,7 · Brick 4,7 mot #EDE4D3;
-// Ochre 7,4 mot #2A1E0C; Bone 9,7 mot #24393A.
-test('kvart kort og arrangementsside får kategorifargen sin (rette fargar, ingen tekstur)', () => {
+// Kategorifargar (spek 2026-11-23 «event colour spec»): kvile/blomstre-par
+// per kategori — korta kviler i dempa kategorifarge og blomstrar på hover/fokus,
+// éi tekstfarge i begge tilstandar, hr-skilje som skifter, bein-kant 1,5 px.
+test('kvart kort og arrangementsside får kvile/blomstre-para sine (spek 2026-11-23)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  // Skiljefargen er kategorifargen sjølv mørka ~35 % (Bob 2026-11-23) — ikkje brune tonar.
   const FARGAR = {
-    Konsert:   ['#6B6359', '#EDE4D3', '#454039'],
-    Scene:     ['#94533D', '#EDE4D3', '#603527'],
-    Film:      ['#2F4A4A', '#EDE4D3', '#1E3030'],
-    Aktivitet: ['#D4A84B', '#2A1E0C', '#896D30'],
-    Annet:     ['#EDE4D3', '#24393A', '#9A9489'],
+    Konsert:   ['#755B52', '#94533D', '#E7E2D9', '#9B7D73', '#B96E55'],
+    Scene:     ['#755C6E', '#884975', '#E7E2D9', '#96798D', '#AB6396'],
+    Aktivitet: ['#525841', '#5B6A2F', '#E7E2D9', '#737B5B', '#7F9442'],
+    Film:      ['#586574', '#42648A', '#E7E2D9', '#738396', '#5A82AF'],
+    Annet:     ['#AB9974', '#D4A84B', '#221C14', '#847554', '#A9832F'],
   };
-  for (const [kat, [bg, tekst, skilje]] of Object.entries(FARGAR)) {
-    assert.ok(css.includes(`.event-card[data-categories="${kat}"]::before{background-image:none;background-color:${bg}}`), `${kat} manglar kortfargen ${bg}`);
-    assert.ok(css.includes(`.event-card[data-categories="${kat}"]{border:1px solid ${skilje};color:${tekst}}`), `${kat} manglar tekst/skilje-fargane`);
-    assert.ok(css.includes(`.event-card[data-categories="${kat}"]:hover{border-color:${skilje}}`), `${kat} manglar hover-skiljefarge`);
-    assert.ok(css.includes(`body.page-event .detail[data-categories="${kat}"]{background-color:${bg};color:${tekst};border:2px solid #EDE4D3}`), `${kat} mangnar arrangementside-fargen`);
+  for (const [kat, [rest, bloom, tekst, sep, sepBloom]] of Object.entries(FARGAR)) {
+    assert.ok(css.includes(`[data-categories="${kat}"]{--rest:${rest};--bloom:${bloom};--txt:${tekst};--sep:${sep};--sep-bloom:${sepBloom}}`), `${kat} manglar kvile/blomstre-para`);
   }
-  // Standard .detail (utan kategori) = Annet/Bone med mørkt blekk.
-  // Bone-kant (2px #EDE4D3) skil korfargen frå den brune planken (Bob 2026-11-23).
-  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A;border:2px solid #EDE4D3}'), '.detail manglar Bone-standarden');
+  // Bein-kant 1,5 px på kvart kort, i begge tilstandar; hr-skilje følgjer blomstringa.
+  assert.ok(css.includes('.event-card{border:1.5px solid var(--edge);color:var(--txt)}'), 'korta manglar bein-kanten');
+  assert.ok(css.includes('.event-card::before{background-image:none;background-color:var(--rest);transition:background-color .5s ease}'), '::before manglar kvilefargen');
+  assert.ok(css.includes('.event-card:hover::before,.event-card:focus-visible::before{background-color:var(--bloom)}'), 'manglar blomstrarfarge på hover/fokus');
+  assert.ok(css.includes('.event-card hr{border:0;border-top:1px solid var(--sep);margin:8px 0;transition:border-color .5s ease}'), 'manglar hr-skilje i hvile');
+  assert.ok(css.includes('.event-card:hover hr,.event-card:focus-visible hr{border-top-color:var(--sep-bloom)}'), 'manglar hr-skilje i blomstrande tilstand');
+  // Touch (ingen hover) og redusert rørsle.
+  assert.match(css, /@media \(hover:none\)\{[^}]*\.event-card::before\{background-color:var\(--bloom\)\}/);
+  assert.match(css, /@media \(prefers-reduced-motion:reduce\)\{[^@]*\.event-card,\.event-card::before,\.event-card hr\{transition:none\}/);
+  // Arrangementssida: kortet/panelet står ALLTID i blomstrarfarge med bein-kant.
+  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:var(--bloom);color:var(--txt);border:1.5px solid var(--edge)}'), '.detail manglar blomstre-standarden');
 });
 
 // Alle signaturteksturar per lokale er tekne ut (Bob 2026-11-23) —
@@ -111,33 +125,45 @@ test('ingen signatur-teksturar per lokale står att i CSS-en', () => {
   }
 });
 
-// Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på
-// listesidene (page-front), berre der — marmoren står att som standard-body.
-test('Listesidene får mørk plank-2-dark som bakgrunn, marmoren står att elles', () => {
+// Sidebakgrunn (spek 2026-11-23): heile sida på mørk blågrøn planke
+// (wood_plank_2_dark), flat fallback #3C5150 under teksturen.
+test('heile sida får wood-plank-2-dark som bakgrunn med #3C5150-fallback', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2-dark.webp')), 'plank-2-dark.webp manglar');
-  // Bob 2026-11-23: «sida er for lys» — plank-30/plank-2 ut, wood_plank_2_dark inn.
-  assert.ok(css.includes('body.page-front{\n  background-image:url("/assets/textures/plank-2-dark.webp")'), 'page-front manglar plank-2-dark-bakgrunn');
-  // Mørk planke = lyst blekk att på alt som står rett på planka.
-  assert.ok(css.includes('body.page-front .page-heading h1{color:#F7E8CB}'), 'page-heading får ikkje krem på den mørke planka');
-  assert.match(css, /body\{[^}]*linear-gradient\(rgba\(0,0,0,\.28\),rgba\(0,0,0,\.28\)\),url\("\/assets\/textures\/marble-82\.webp"\)/);
-  for (const gamal of ['plank-30', 'plank-2.webp']) {
-    assert.ok(!css.includes(gamal), `${gamal} skal vere ute av v7/v8-CSS-en`);
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'wood-plank-2-dark.webp')), 'wood-plank-2-dark.webp manglar');
+  assert.ok(css.includes('background-image:url("/assets/textures/wood-plank-2-dark.webp")'), 'body manglar wood-plank-2-dark-bakgrunn');
+  assert.ok(css.includes('--body-bg:#3C5150'), 'manglar #3C5150-fallback');
+  // Globale flater frå speket.
+  assert.ok(css.includes('--edge:#E7E2D9'), 'manglar bein-kanten --edge');
+  assert.ok(css.includes('--text-light:#E7E2D9'), 'manglar --text-light');
+  assert.ok(css.includes('--text-dark:#221C14'), 'manglar --text-dark');
+  assert.ok(css.includes('--panel:#1E3030'), 'manglar --panel');
+  for (const gamal of ['plank-30', 'plank-2.webp', 'textures/plank-2-dark', 'marble-82']) {
+    assert.ok(!css.includes(gamal), `${gamal} skal vere ute av v7-CSS-en`);
   }
 });
 
-// Arrangementssidene (Bob 2026-11-23): woodplank_32_adjusted som
-// body-bakgrunn — mørkare enn plank_32 (p50 lum 0,341): kvit 7,2:1,
-// krem 6,0:1.
-test('Arrangementssidene får plank-32-adjusted som bakgrunn', () => {
+// Arrangementssidene (spek 2026-11-23): planke 32 tinta i kategorien sin
+// komplementærfarge, 1024 px sømlaus flis, flat fallback per kategori.
+test('Arrangementssidene får planke-32-tinta bakgrunn per kategori', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-32-adjusted.webp')), 'plank-32-adjusted.webp manglar');
-  assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32-adjusted.webp")'), 'page-event manglar plank-32-adjusted-bakgrunn');
-  assert.ok(!css.includes('plank-32.webp'), 'plank-32 (utan adjusted) skal vere ute av CSS-en');
+  const SIDE = {
+    concert:  ['#2F444C', 'woodplank-32-concert.webp'],
+    stage:    ['#2F4C37', 'woodplank-32-stage.webp'],
+    activity: ['#362F4C', 'woodplank-32-activity.webp'],
+    film:     ['#4C3E2F', 'woodplank-32-film.webp'],
+    annet:    ['#2F384C', 'woodplank-32-other.webp'],
+  };
+  for (const [kat, [fallback, fil]] of Object.entries(SIDE)) {
+    assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', fil)), `${fil} manglar`);
+    assert.ok(css.includes(`body.page-event[data-category="${kat}"]{background-image:url("/assets/textures/${fil}");background-repeat:repeat;background-size:512px 512px;background-color:${fallback}}`), `${kat} manglar sidebakgrunnen`);
+  }
+  for (const gamal of ['plank-32.webp', 'textures/plank-32-adjusted']) {
+    assert.ok(!css.includes(gamal), `${gamal} skal vere ute av CSS-en`);
+  }
 });
 
-test('v8-framsida får plank-2-dark som bakgrunn (Bob 2026-11-23)', () => {
+test('v8-framsida får wood-plank-2-dark som bakgrunn (spek 2026-11-23)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v8.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2-dark.webp')), 'plank-2-dark.webp manglar');
-  assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/plank-2-dark.webp");background-color:#3A4E4C}'), 'v8-framsida manglar plank-2-dark-bakgrunn');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'wood-plank-2-dark.webp')), 'wood-plank-2-dark.webp manglar');
+  assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/wood-plank-2-dark.webp");background-color:#3C5150}'), 'v8-framsida manglar wood-plank-2-dark-bakgrunn');
 });
