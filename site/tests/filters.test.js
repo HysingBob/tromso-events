@@ -175,6 +175,10 @@ test('Arrangementssidene får plank-32 som bakgrunn, .detail får papirtekstur +
   assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32.webp")'), 'page-event manglar plank-32-bakgrunn');
   assert.ok(css.includes('body.page-event .detail{background-image:url("/assets/textures/paper.webp");background-repeat:no-repeat;background-size:cover;background-color:var(--paper)}'), '.detail manglar papirtekstur som standard');
   assert.ok(css.includes('body.page-event .detail h1,\nbody.page-event .detail .eyebrow{color:#25180E}'), '.detail-teksten er ikkje mørk på papiret');
+  // Same category wallpaper on the event page as on the card (Bob 2026-11-23).
+  for (const [kat, vegg] of [['Konsert','wall-a'],['Scene','wall-b'],['Film','wall-c'],['Aktivitet','wall-d']]) {
+    assert.ok(css.includes(`body.page-event .detail[data-categories="${kat}"]{background-image:url("/assets/textures/${vegg}.webp")}`), `${kat} manglar ${vegg}-regelen på .detail`);
+  }
 });
 
 test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
