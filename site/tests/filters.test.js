@@ -76,111 +76,40 @@ test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
   assert.doesNotMatch(list, /Tromsø IL – Viking/);
   assert.match(list, /Tromsø IL – Start/);
 });
-
-// Kategoriveggen sit på papirlaget (::before med eigen tekstur), ikkje på
-// kortet sjølv — elles ville filteret tatt blekkteksten òg (Bob 2026-11-11).
-test('kvart kort får kategorivegg (Wallpaper A–D) på papirlaget; Annet står urørt', () => {
+// Kategorifargar (Bob 2026-11-23): rette fargar i staden for teksturar —
+// éi farge per kategori på korta OG arrangementssida (.detail).
+// Kontrastar: Spruce 7,6 · Slate 4,7 · Brick 4,7 mot #EDE4D3;
+// Ochre 7,4 mot #2A1E0C; Bone 9,7 mot #24393A.
+test('kvart kort og arrangementsside får kategorifargen sin (rette fargar, ingen tekstur)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  const wall = { Konsert: 'a', Scene: 'b', Film: 'c', Aktivitet: 'd' };
-  for (const [k, w] of Object.entries(wall)) {
-    assert.ok(new RegExp(`\\.event-card\\[data-categories="${k}"\\]::before\\{background-image:url\\("/assets/textures/wall-${w}\\.webp"\\)`).test(css), `${k} manglar wall-${w}`);
-    if (w !== 'd') {
-      assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', `wall-${w}.webp`)), `wall-${w}.webp manglar`);
-    }
+  const FARGAR = {
+    Konsert:   ['#6B6359', '#EDE4D3', '#8C8275'],
+    Scene:     ['#94533D', '#EDE4D3', '#B96E55'],
+    Film:      ['#2F4A4A', '#EDE4D3', '#5A7B77'],
+    Aktivitet: ['#D4A84B', '#2A1E0C', '#A9832F'],
+    Annet:     ['#EDE4D3', '#24393A', '#C4B8A1'],
+  };
+  for (const [kat, [bg, tekst, skilje]] of Object.entries(FARGAR)) {
+    assert.ok(css.includes(`.event-card[data-categories="${kat}"]::before{background-image:none;background-color:${bg}}`), `${kat} manglar kortfargen ${bg}`);
+    assert.ok(css.includes(`.event-card[data-categories="${kat}"]{color:${tekst};border-color:${skilje}}`), `${kat} manglar tekst/skilje-fargane`);
+    assert.ok(css.includes(`body.page-event .detail[data-categories="${kat}"]{background-color:${bg};color:${tekst}}`), `${kat} mangnar arrangementside-fargen`);
   }
-  // wall-d er framleis på ventetrå hjå Bob — kravd fyrst når fila finst.
-  if (fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'wall-d.webp'))) {
-    assert.ok(css.includes('.event-card[data-categories="Aktivitet"]::before{background-image:url("/assets/textures/wall-d.webp")'));
+  // Standard .detail (utan kategori) = Annet/Bone med mørkt blekk.
+  assert.ok(css.includes('body.page-event .detail{background-image:none;background-color:#EDE4D3;color:#24393A}'), '.detail manglar Bone-standarden');
+});
+
+// Alle signaturteksturar per lokale er tekne ut (Bob 2026-11-23) —
+// kategorifargane er alt. Ingen data-sted-reglar i CSS-en lenger.
+test('ingen signatur-teksturar per lokale står att i CSS-en', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.doesNotMatch(css, /data-sted/, 'data-sted-reglar skal vere ute av CSS-en');
+  for (const gamal of ['marble-101b', 'teak-2', 'woodfine-21', 'ishavswall-38', 'rosewood-1', 'wallpaper-2', 'mahogany-1', 'marble-83', 'marble-66', 'wall-a', 'wall-b', 'wall-c', 'wall-d']) {
+    assert.ok(!css.includes(gamal), `${gamal} skal vere ute av CSS-en`);
   }
-  assert.doesNotMatch(css, /\.event-card\[data-categories="Annet"\]::before\{(filter|background-image)/);
-  assert.match(css, /\.event-card::before\{[^}]*paper\.webp/);
-  assert.match(css, /\.event-card\{[^}]*position:relative/);
-});
-
-// Aurora kino Fokus-signatur (Bob 2026-11-12): Marble_101b (opplasta av Bob
-// i Koofr) som tekstur på korta OG arrangementssida — mørk grøn marmor med
-// 20 % mørkvask: krem 6,8:1 mot p50.
-test('Aurora kino Fokus får Marble_101b som signurflate (kort + arrangementside)', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'marble-101b.webp')), 'marble-101b.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Aurora kino Fokus"]::before{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp")'), 'kortet manglar marble-101b-regelen');
-  assert.ok(css.includes('.detail[data-sted="Aurora kino Fokus"]{background-image:linear-gradient(rgba(36,51,58,.20),rgba(36,51,58,.20)),url("/assets/textures/marble-101b.webp")'), 'arrangementssida manglar marble-101b-regelen');
-  assert.match(css, /\.event-card\[data-sted="Aurora kino Fokus"\]\{color:#F7E8CB\}/);
-  assert.match(css, /\.detail\[data-sted="Aurora kino Fokus"\]\{[^}]*color:#F7E8CB\}/);
-  assert.ok(!css.includes('marble-101.webp'), 'marble-101.webp (utan b) skal vere ute av CSS-en');
-});
-
-// Løvetann Studio-signatur (Bob 2026-11-12): teak_2 frå Koofr som eitt lag
-// på korta OG arrangementssida. Midtmørk honningteak — nattkort med krem
-// og 25 % mørkvask (krem 5,9:1 mot p50). Var Wallpaper_23 (dagkort).
-test('Løvetann Studio får teak_2 som signaturflate (kort + arrangementside)', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'teak-2.webp')), 'teak-2.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Løvetann Studio"]::before{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp")'), 'kortet manglar teak-2-regelen');
-  assert.ok(css.includes('.detail[data-sted="Løvetann Studio"]{background-image:linear-gradient(rgba(40,19,22,.25),rgba(40,19,22,.25)),url("/assets/textures/teak-2.webp")'), 'arrangementssida manglar teak-2-regelen');
-  // Nattkort: teaken er midtmørk, så alt blekk inni .detail vert krem
-  assert.match(css, /\.detail\[data-sted="Løvetann Studio"\]\{[^}]*color:#F7E8CB\}/, 'arrangementssida manglar kremblekk (mørk tekstur)');
-  assert.ok(!css.includes('lovewall-23'), 'lovewall-23 skal vere ute av CSS-en');
-});
-
-// PUST Lavvo-signatur (Bob 2026-11-12): wood_fine_21 frå Koofr som eitt lag
-// på korta OG arrangementssida. Lys oransje finved — 30 % mørkvask,
-// kremblekk (nattkort) 5,5:1 mot p50. Var rosewood_2.
-test('PUST Lavvo får wood_fine_21 som signaturflate (kort + arrangementside)', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'woodfine-21.webp')), 'woodfine-21.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="PUST Lavvo, Tromsø"]::before{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp")'), 'kortet manglar woodfine-21-regelen');
-  assert.ok(css.includes('.detail[data-sted="PUST Lavvo, Tromsø"]{background-image:linear-gradient(rgba(40,19,22,.30),rgba(40,19,22,.30)),url("/assets/textures/woodfine-21.webp")'), 'arrangementssida manglar woodfine-21-regelen');
-  assert.match(css, /\.event-card\[data-sted="PUST Lavvo, Tromsø"\]\{color:#F7E8CB\}/);
-  assert.match(css, /\.detail\[data-sted="PUST Lavvo, Tromsø"\]\{[^}]*color:#F7E8CB\}/);
-  assert.ok(!css.includes('rosewood-2'), 'rosewood-2 skal vere ute av CSS-en');
-});
-
-// Ishavskatedralen-signatur (Bob 2026-11-11): wallpaper_38 frå Koofr som
-// eitt lag på korta OG arrangementssida — lys off-white mural = «dagkort»,
-// standard mørkt blekk, og mørkt blekk-overstyringar inni .detail.
-test('Ishavskatedralen får wallpaper_38 som signaturflate (kort + arrangementside)', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'ishavswall-38.webp')), 'ishavswall-38.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="Ishavskatedralen"]::before{background-image:url("/assets/textures/ishavswall-38.webp")'), 'kortet manglar ishavswall-38-regelen');
-  assert.ok(css.includes('.detail[data-sted="Ishavskatedralen"]{background-image:url("/assets/textures/ishavswall-38.webp")'), 'arrangementssida manglar ishavswall-38-regelen');
-  assert.match(css, /\.detail\[data-sted="Ishavskatedralen"\]\{color:#3A2A1E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
-});
-
-// Tromsø Kulturhus-signatur (Bob 2026-11-11): fabric_192 frå Koofr som
-// eige papirlag på korta OG arrangementssida — alle tre scenene treffast
-// med prefixet ^=. Alt blekk i krem (veven er mørk, p99.9 lum 0.144).
-// Tromsø Kulturhus (Bob 2026-11-12): rosewood_1 som signatur (var wood_fine_24).
-// Mørk raud palisander (p50 0,014) — krem #F7E8CB 13,5:1, ingen vask.
-test('Tromsø Kulturhus får rosewood_1 som signaturflate (kort + arrangementside)', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'rosewood-1.webp')), 'rosewood-1.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted^="Tromsø Kulturhus"]::before{background-image:url("/assets/textures/rosewood-1.webp")'), 'kortet manglar rosewood-1-regelen');
-  assert.ok(css.includes('.detail[data-sted^="Tromsø Kulturhus"]{background-image:url("/assets/textures/rosewood-1.webp")'), 'arrangementssida manglar rosewood-1-regelen');
-  assert.match(css, /\.event-card\[data-sted\^="Tromsø Kulturhus"\]\{color:#F7E8CB\}/);
-  assert.match(css, /\.detail\[data-sted\^="Tromsø Kulturhus"\]\{[^}]*color:#F7E8CB\}/);
-  assert.ok(!css.includes('woodfine-24'), 'woodfine-24 skal vere ute av CSS-en');
 });
 
 // Sidebakgrunn (Bob 2026-11-12): woodplank_30 som body-bakgrunn på
-// listesidene (page-front), berre der — marmoren står att som
-// standard-body. Tekst rett på planka = mørkt blekk #2A1D12.
-// Arrangementssidene (Bob 2026-11-12): woodplank_32 som body-bakgrunn på
-// page-event — varmare enn plank_30 på framsida. Standard .detail (Bob
-// 2026-11-23): same papirtekstur som korta + mørkt blekk — ingen lokale
-// utan signatur står transparent med vedveggen synande bak.
-test('Arrangementssidene får plank-32 som bakgrunn, .detail får papirtekstur + mørkt blekk som standard', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-32.webp')), 'plank-32.webp manglar');
-  assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32.webp")'), 'page-event manglar plank-32-bakgrunn');
-  assert.ok(css.includes('body.page-event .detail{background-image:url("/assets/textures/paper.webp");background-repeat:no-repeat;background-size:cover;background-color:var(--paper)}'), '.detail manglar papirtekstur som standard');
-  assert.ok(css.includes('body.page-event .detail h1,\nbody.page-event .detail .eyebrow{color:#25180E}'), '.detail-teksten er ikkje mørk på papiret');
-  // Same category wallpaper on the event page as on the card (Bob 2026-11-23).
-  for (const [kat, vegg] of [['Konsert','wall-a'],['Scene','wall-b'],['Film','wall-c'],['Aktivitet','wall-d']]) {
-    assert.ok(css.includes(`body.page-event .detail[data-categories="${kat}"]{background-image:url("/assets/textures/${vegg}.webp")}`), `${kat} manglar ${vegg}-regelen på .detail`);
-  }
-});
-
+// listesidene (page-front), berre der — marmoren står att som standard-body.
 test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
   assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-30.webp')), 'plank-30.webp manglar');
@@ -190,37 +119,18 @@ test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
   assert.match(css, /body\{[^}]*linear-gradient\(rgba\(0,0,0,\.28\),rgba\(0,0,0,\.28\)\),url\("\/assets\/textures\/marble-82\.webp"\)/);
 });
 
+// Arrangementssidene (Bob 2026-11-23): woodplank_32_adjusted som
+// body-bakgrunn — mørkare enn plank_32 (p50 lum 0,341): kvit 7,2:1,
+// krem 6,0:1.
+test('Arrangementssidene får plank-32-adjusted som bakgrunn', () => {
+  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-32-adjusted.webp')), 'plank-32-adjusted.webp manglar');
+  assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32-adjusted.webp")'), 'page-event manglar plank-32-adjusted-bakgrunn');
+  assert.ok(!css.includes('plank-32.webp'), 'plank-32 (utan adjusted) skal vere ute av CSS-en');
+});
+
 test('v8-framsida får woodplank_2 som bakgrunn (Bob 2026-11-12)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v8.css'), 'utf8');
   assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-2.webp')), 'plank-2.webp manglar');
   assert.ok(css.includes('body.page-front{background-image:url("/assets/textures/plank-2.webp");background-color:#7BA7A1}'), 'v8-framsida manglar plank-2-bakgrunn');
-});
-
-// FINT Kafé & Bar-signatur (Bob 2026-11-12): wallpaper_2 frå Koofr som
-// tekstur på korta OG arrangementssida — lys rosa mural = «dagkort»,
-// mørkt blekk #25180E 7,5:1 mot p50.
-test('FINT Kafé & Bar får wallpaper_2 som signaturflate (kort + arrangementside)', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'wallpaper-2.webp')), 'wallpaper-2.webp manglar');
-  assert.ok(css.includes('.event-card[data-sted="FINT Kafé & Bar"]::before{background-image:url("/assets/textures/wallpaper-2.webp")'), 'kortet manglar wallpaper-2-regelen');
-  assert.ok(css.includes('.detail[data-sted="FINT Kafé & Bar"]{background-image:url("/assets/textures/wallpaper-2.webp")'), 'arrangementssida manglar wallpaper-2-regelen');
-  assert.match(css, /\.detail\[data-sted="FINT Kafé & Bar"\]\{[^}]*color:#25180E\}/, 'arrangementssida manglar mørkt blekk (lys tekstur)');
-});
-
-// Tre stader på ein gong (Bob 2026-11-12): Rådstua mahogny_1 (nattkort, 20 % vask),
-// Filmklubben (Bakrommet hos Amtmandens) marble_83 (dagkort), Tromsøbadet marble_66 (nattkort, 30 % vask).
-test('Rådstua, Filmklubben og Tromsøbadet får sine signaturflater', () => {
-  const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
-  for (const [tex, sted, wash] of [
-    ['mahogany-1', 'Provisoriet, Rådstua', true],
-    ['marble-83', 'Bakrommet hos Amtmandens', false],
-    ['marble-66', 'Tromsøbadet', true],
-  ]) {
-    assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', tex + '.webp')), tex + '.webp manglar');
-    assert.ok(css.includes(`url("/assets/textures/${tex}.webp")`), `${sted} manglar ${tex}-regelen`);
-  }
-  // Dagkortet (marble_83) må ha mørkt blekk, ikkje den generelle kvite h1-en.
-  assert.ok(/body\.page-event \.detail\[data-sted="Bakrommet hos Amtmandens"\][\s\S]{0,400}?h1[\s\S]{0,600}?#25180E/.test(css), 'Filmklubb-h1 er ikkje mørk');
-  // Nattkorta må slå den generelle kvite h1-en.
-  assert.ok(css.includes('body.page-event .detail[data-sted="Tromsøbadet"] h1{color:#F7E8CB}'), 'Tromsøbad-h1 er ikkje krem');
 });
