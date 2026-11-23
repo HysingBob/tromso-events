@@ -82,12 +82,13 @@ test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
 // Ochre 7,4 mot #2A1E0C; Bone 9,7 mot #24393A.
 test('kvart kort og arrangementsside får kategorifargen sin (rette fargar, ingen tekstur)', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
+  // Skiljefargen er kategorifargen sjølv mørka ~35 % (Bob 2026-11-23) — ikkje brune tonar.
   const FARGAR = {
-    Konsert:   ['#6B6359', '#EDE4D3', '#8C8275'],
-    Scene:     ['#94533D', '#EDE4D3', '#B96E55'],
-    Film:      ['#2F4A4A', '#EDE4D3', '#5A7B77'],
-    Aktivitet: ['#D4A84B', '#2A1E0C', '#A9832F'],
-    Annet:     ['#EDE4D3', '#24393A', '#C4B8A1'],
+    Konsert:   ['#6B6359', '#EDE4D3', '#454039'],
+    Scene:     ['#94533D', '#EDE4D3', '#603527'],
+    Film:      ['#2F4A4A', '#EDE4D3', '#1E3030'],
+    Aktivitet: ['#D4A84B', '#2A1E0C', '#896D30'],
+    Annet:     ['#EDE4D3', '#24393A', '#9A9489'],
   };
   for (const [kat, [bg, tekst, skilje]] of Object.entries(FARGAR)) {
     assert.ok(css.includes(`.event-card[data-categories="${kat}"]::before{background-image:none;background-color:${bg}}`), `${kat} manglar kortfargen ${bg}`);

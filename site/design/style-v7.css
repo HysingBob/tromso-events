@@ -239,22 +239,24 @@ body.page-front .empty-state p{color:rgba(255,255,255,.92)}
 .event-card>*{position:relative;z-index:1}
 /* Kategorifargar (Bob 2026-11-23): rette fargar i staden for teksturar —
    éi farge per kategori, likt på korta OG arrangementssida.
-     Konsert   Slate       #6B6359  tekst #EDE4D3 (4,7:1)  skilje #8C8275
-     Scene     Brick       #94533D  tekst #EDE4D3 (4,7:1)  skilje #B96E55
-     Film      Deep spruce #2F4A4A  tekst #EDE4D3 (7,6:1)  skilje #5A7B77
-     Aktivitet Ochre       #D4A84B  tekst #2A1E0C (7,4:1)  skilje #A9832F
-     Annet     Bone        #EDE4D3  tekst #24393A (9,7:1)  skilje #C4B8A1
+     Konsert   Slate       #6B6359  tekst #EDE4D3 (4,7:1)  skilje #454039
+     Scene     Brick       #94533D  tekst #EDE4D3 (4,7:1)  skilje #603527
+     Film      Deep spruce #2F4A4A  tekst #EDE4D3 (7,6:1)  skilje #1E3030
+     Aktivitet Ochre       #D4A84B  tekst #2A1E0C (7,4:1)  skilje #896D30
+     Annet     Bone        #EDE4D3  tekst #24393A (9,7:1)  skilje #9A9489
+   Skiljefargen er KATEGORIFARGEN SJØLV MØRKA ~35 % (Bob 2026-11-23) —
+   ikkje brune tonar.
    Alle signaturteksturar per lokale er tekne ut same dag. */
 .event-card[data-categories="Konsert"]::before{background-image:none;background-color:#6B6359}
 .event-card[data-categories="Scene"]::before{background-image:none;background-color:#94533D}
 .event-card[data-categories="Film"]::before{background-image:none;background-color:#2F4A4A}
 .event-card[data-categories="Aktivitet"]::before{background-image:none;background-color:#D4A84B}
 .event-card[data-categories="Annet"]::before{background-image:none;background-color:#EDE4D3}
-.event-card[data-categories="Konsert"]{border:1px solid #8C8275;color:#EDE4D3}
-.event-card[data-categories="Scene"]{border:1px solid #B96E55;color:#EDE4D3}
-.event-card[data-categories="Film"]{border:1px solid #5A7B77;color:#EDE4D3}
-.event-card[data-categories="Aktivitet"]{border:1px solid #A9832F;color:#2A1E0C}
-.event-card[data-categories="Annet"]{border:1px solid #C4B8A1;color:#24393A}
+.event-card[data-categories="Konsert"]{border:1px solid #454039;color:#EDE4D3}
+.event-card[data-categories="Scene"]{border:1px solid #603527;color:#EDE4D3}
+.event-card[data-categories="Film"]{border:1px solid #1E3030;color:#EDE4D3}
+.event-card[data-categories="Aktivitet"]{border:1px solid #896D30;color:#2A1E0C}
+.event-card[data-categories="Annet"]{border:1px solid #9A9489;color:#24393A}
 .event-card[data-categories="Konsert"] h3,.event-card[data-categories="Konsert"] .card-kicker,.event-card[data-categories="Konsert"] .card-meta,.event-card[data-categories="Konsert"] .free{color:#EDE4D3}
 .event-card[data-categories="Scene"] h3,.event-card[data-categories="Scene"] .card-kicker,.event-card[data-categories="Scene"] .card-meta,.event-card[data-categories="Scene"] .free{color:#EDE4D3}
 .event-card[data-categories="Film"] h3,.event-card[data-categories="Film"] .card-kicker,.event-card[data-categories="Film"] .card-meta,.event-card[data-categories="Film"] .free{color:#EDE4D3}
@@ -388,9 +390,9 @@ body.page-event .detail[data-categories="Aktivitet"] .story a{color:#2A1E0C;text
 }
 
 /* Hover-held: katgorifargen sin skiljefarge står att (leather sets var(--sea)) */
-.event-card[data-categories="Konsert"]:hover{border-color:#8C8275}
-.event-card[data-categories="Scene"]:hover{border-color:#B96E55}
-.event-card[data-categories="Film"]:hover{border-color:#5A7B77}
-.event-card[data-categories="Aktivitet"]:hover{border-color:#A9832F}
-.event-card[data-categories="Annet"]:hover{border-color:#C4B8A1}
+.event-card[data-categories="Konsert"]:hover{border-color:#454039}
+.event-card[data-categories="Scene"]:hover{border-color:#603527}
+.event-card[data-categories="Film"]:hover{border-color:#1E3030}
+.event-card[data-categories="Aktivitet"]:hover{border-color:#896D30}
+.event-card[data-categories="Annet"]:hover{border-color:#9A9489}
 body.page-event .detail[data-categories]{border:2px solid #EDE4D3}
