@@ -71,7 +71,9 @@ test('Annet-knappen viser TIL-kampene som er publisert i kategorien', () => {
   assert.ok(publishedSports.some(e => e.id === '2026-11-21-til-viking'));
   assert.ok(publishedSports.some(e => e.id === '2026-12-06-til-start'));
   assert.match(list, /data-category-filter="Annet"/);
-  assert.match(list, /Tromsø IL – Viking/);
+  // Viking-kampen (21.11) er passert og skal ute av oversikten — berre
+  // kommande kampar står i lista. Start-kampen (06.12) står att.
+  assert.doesNotMatch(list, /Tromsø IL – Viking/);
   assert.match(list, /Tromsø IL – Start/);
 });
 
@@ -164,13 +166,15 @@ test('Tromsø Kulturhus får rosewood_1 som signaturflate (kort + arrangementsid
 // listesidene (page-front), berre der — marmoren står att som
 // standard-body. Tekst rett på planka = mørkt blekk #2A1D12.
 // Arrangementssidene (Bob 2026-11-12): woodplank_32 som body-bakgrunn på
-// page-event — varmare enn plank_30 på framsida. Kremtonane på .detail
-// kvitast ut (planka er midtmørk); marmoren står att på default body.
-test('Arrangementssidene får plank-32 som bakgrunn, krem kvitast ut', () => {
+// page-event — varmare enn plank_30 på framsida. Standard .detail (Bob
+// 2026-11-23): same papirtekstur som korta + mørkt blekk — ingen lokale
+// utan signatur står transparent med vedveggen synande bak.
+test('Arrangementssidene får plank-32 som bakgrunn, .detail får papirtekstur + mørkt blekk som standard', () => {
   const css = fs.readFileSync(path.join(root, 'design', 'style-v7.css'), 'utf8');
   assert.ok(fs.existsSync(path.join(root, 'src', 'assets', 'textures', 'plank-32.webp')), 'plank-32.webp manglar');
   assert.ok(css.includes('body.page-event{\n  background-image:radial-gradient(ellipse at 50% 45%,transparent 40%,rgba(0,0,0,.35) 100%),url("/assets/textures/plank-32.webp")'), 'page-event manglar plank-32-bakgrunn');
-  assert.ok(css.includes('body.page-event .detail h1,\nbody.page-event .detail .eyebrow{color:#fff}'), '.detail-teksten er ikkje kvita på planka');
+  assert.ok(css.includes('body.page-event .detail{background-image:url("/assets/textures/paper.webp");background-repeat:no-repeat;background-size:cover;background-color:var(--paper)}'), '.detail manglar papirtekstur som standard');
+  assert.ok(css.includes('body.page-event .detail h1,\nbody.page-event .detail .eyebrow{color:#25180E}'), '.detail-teksten er ikkje mørk på papiret');
 });
 
 test('Listesidene får plank-30 som bakgrunn, marmoren står att elles', () => {
