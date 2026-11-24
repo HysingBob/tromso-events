@@ -6,7 +6,9 @@
   "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
   "pris": "479 kr (inkl. 30 kr gebyr)",
   "gratis": false,
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Julekonsert med Aurora Borealis og Lisa Stokke",
     "ingress": "Koret Aurora Borealis inviterer til julekonsert med gjestesolist Lisa Stokke i Ishavskatedralen.",
@@ -17,7 +19,7 @@
     "lead": "Koret Aurora Borealis presents a Christmas concert with guest soloist Lisa Stokke at the Arctic Cathedral.",
     "text": "Koret Aurora Borealis performs a Christmas concert with guest soloist Lisa Stokke. The choir is joined by pianist Håvard Hotvedt, guitarist Henrik Skog and bassist Morten Steene; conductor Amanda Antonsen also performs on saxophone. The concert lasts approximately 75 minutes. Wheelchair access is good; contact the organiser about specific needs."
   },
-  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/10/ab-768x450.jpg",
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/10/ab.jpg",
   "bildetekst_no": "Koret Aurora Borealis opptrer på en scene med fiolett lys.",
   "bildetekst_en": "Koret Aurora Borealis performs on a stage under purple lighting.",
   "kilde_navn": "Ishavskatedralen",

@@ -5,7 +5,9 @@
   "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
   "pris": "150 kr (voksen) — salg ved inngangen",
   "gratis": false,
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Konsert med Tromsø Brass",
     "ingress": "Tromsø Brass spiller julemusikk i Ishavskatedralen.",
@@ -16,7 +18,7 @@
     "lead": "Tromsø Brass performs Christmas music at the Arctic Cathedral.",
     "text": "Tromsø Brass performs classic Christmas favourites, festive pieces and newer Christmas music. Adult tickets: NOK 150, sold at the door by Vipps or cash."
   },
-  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/11/juleplakat2026-instagram-819x1024.png",
+  "bilde": "https://ishavskatedralen.no/wp-content/uploads/2026/11/juleplakat2026-instagram.png",
   "bildetekst_no": "Plakat for Tromsø Brass’ julekonsert med noter og en stilisert Ishavskatedral.",
   "bildetekst_en": "Poster for Tromsø Brass’ Christmas concert, with musical notes and a stylised Arctic Cathedral.",
   "kilde_navn": "Ishavskatedralen",
