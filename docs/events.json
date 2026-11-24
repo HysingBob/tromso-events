@@ -9,15 +9,6 @@
   "free": true
  },
  {
-  "title": "Vår Jul 2026",
-  "start": "2026-11-24T18:00:00",
-  "venue": "Hovedscenen, Kulturhuset Tromsø",
-  "source": "kulturhuset",
-  "url": "https://kulturhuset.tr.no/arrangement/var-jul-2026/",
-  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Var-Jul-26-1.jpg",
-  "free": false
- },
- {
   "title": "pust & piano - full moon ceremony 🌕",
   "start": "2026-11-24T18:00:00",
   "venue": "Løvetann, Grønnegata 118A, Tromsø",
@@ -43,6 +34,15 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/hvordan-pavirker-ki-kulturen-og-samfunnet-vart",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/Hvordan%20p%C3%A5virker%20KI%20kulturen%20og%20samfunnet%20v%C3%A5rt-16-9.png.webp?itok=el5RMppz",
   "free": true
+ },
+ {
+  "title": "Vår Jul 2026",
+  "start": "2026-11-24T20:30:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/var-jul-2026/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2025/11/Digital-Plakat-liggende-1360-x-768-Var-Jul-26-1.jpg",
+  "free": false
  },
  {
   "title": "MARIE ANTOINETTE",
@@ -1512,15 +1512,6 @@
   "free": false
  },
  {
-  "title": "IntSemUNG:Norsk overforbruk - hvordan påvirker det resten av verden og hva må Norge gjøre for å bli bærekraftig?",
-  "start": "2027-10-15T17:00:00",
-  "venue": "Hovedbiblioteket, plan 2, Tromsø",
-  "source": "tromso_bibliotek",
-  "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/10/intsemung-norsk-overforbruk-hvordan-pavirker-det-resten-av-verden-og-hva",
-  "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-10/Norsk%20overforburk.jpeg.webp?itok=qANWXiAF",
-  "free": true
- },
- {
   "title": "Foregangskvinner i nord 2027",
   "start": "2027-10-15T18:00:00",
   "venue": "Hovedbiblioteket, undervisningsrommet, Tromsø",
@@ -1798,6 +1789,15 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/11/lansering-kulturkart-tromso",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2026-11/1.png.webp?itok=LyuOJG-h",
   "free": true
+ },
+ {
+  "title": "Vår Jul 2027",
+  "start": "2027-11-20T18:00:00",
+  "venue": "Hovedscenen, Kulturhuset Tromsø",
+  "source": "kulturhuset",
+  "url": "https://kulturhuset.tr.no/arrangement/var-jul-2027/",
+  "image": "https://kulturhuset.tr.no/wp-content/uploads/2026/11/Digital-Plakat-liggende-1360-x-768-Var-Jul-27.jpg",
+  "free": false
  },
  {
   "title": "Nordic Tenors 2027",
