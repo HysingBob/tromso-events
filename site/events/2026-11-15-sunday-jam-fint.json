@@ -5,9 +5,8 @@
   "adresse": "Skippergata 1c, 9008 Tromsø",
   "pris": "Gratis inngang",
   "gratis": true,
-  "kategori": [
-    "Konsert"
-  ],
+  "kategori": ["Konsert"],
+  "malgruppe": ["18+"],
   "no": {
     "tittel": "Søndagsjam på FINT",
     "ingress": "Søndagsjam med live musikk og åpen scene på FINT – ta med instrument eller bli med på scenen.",

@@ -23,10 +23,13 @@ function timeBucket(start, now = new Date()) {
   if (days <= 7) return 'week';
   return 'later';
 }
+function _tzo(s) { return s.replace(/^(.*T\d{2}:\d{2}).*$/,'$1'); }
 function loadEvents(directory = path.join(__dirname,'../events')) {
   return fs.readdirSync(directory).filter(f=>f.endsWith('.json')).map(file=>{
     const e = JSON.parse(fs.readFileSync(path.join(directory,file),'utf8'));
-    if (file !== `${e.id}.json` || !/^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$/.test(e.id) || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(e.start) || !['venter','publisert'].includes(e.status)) throw new Error(`Ugyldig eventfil: ${file}`);
+    if (file !== `${e.id}.json` || !/^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$/.test(e.id) || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(e.start) || !['venter','publisert'].includes(e.status)) throw new Error(`Ugyldig eventfil: ${file}`);
+    e.start = _tzo(e.start);
+    if (e.slutt) e.slutt = _tzo(e.slutt);
     return e;
   });
 }

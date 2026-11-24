@@ -1,7 +1,7 @@
 {
   "id": "2026-11-27-espen-lind",
   "tittel": "Espen Lind",
-  "start": "2026-11-27T18:00",
+  "start": "2026-11-27T18:00:00+01:00",
   "visningstider": [
     "18:00",
     "21:00"
@@ -10,6 +10,9 @@
   "pris": "655 kr (arrangørens oppgitte ordinærpris; billettleverandøren kunne ikke verifiseres)",
   "kategori": [
     "Konsert"
+  ],
+  "malgruppe": [
+    "18+"
   ],
   "gratis": false,
   "no": {

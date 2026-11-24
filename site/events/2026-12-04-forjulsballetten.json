@@ -6,7 +6,8 @@
   "pris": "Se billetter hos arrangør",
   "gratis": false,
   "kategori": [
-    "Scene"
+    "Scene",
+    "Konsert"
   ],
   "no": {
     "tittel": "Førjulsballetten 2026",

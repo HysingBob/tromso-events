@@ -8,6 +8,9 @@
     "Film"
   ],
   "aldersgrense": "12 år",
+  "malgruppe": [
+    "Ungdom"
+  ],
   "gratis": false,
   "no": {
     "tittel": "Markens grøde",

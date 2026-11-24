@@ -6,7 +6,10 @@
   "adresse": "Skippergata 1C, 9008 Tromsø",
   "aldersgrense": "18 år",
   "kategori": [
-    "Annet"
+    "Prat"
+  ],
+  "malgruppe": [
+    "18+"
   ],
   "gratis": false,
   "no": {

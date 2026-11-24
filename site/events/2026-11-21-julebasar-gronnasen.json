@@ -4,9 +4,8 @@
   "slutt": "2026-11-21T14:00",
   "sted": "Grønnåsen kirke",
   "adresse": "Dramsvegen 203, 9010 Tromsø",
-  "kategori": [
-    "Aktivitet"
-  ],
+  "kategori": ["Aktivitet"],
+  "malgruppe": ["18+"],
   "gratis": false,
   "no": {
     "tittel": "Julebasar i Grønnåsen kirke",

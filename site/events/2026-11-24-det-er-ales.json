@@ -1,10 +1,13 @@
 {
   "id": "2026-11-24-det-er-ales",
   "tittel": "Det er Ales",
-  "start": "2026-11-24T19:00",
+  "start": "2026-11-24T19:00:00+01:00",
   "sted": "Hålogaland Teater",
   "kategori": [
     "Scene"
+  ],
+  "malgruppe": [
+    "18+"
   ],
   "gratis": false,
   "no": {
