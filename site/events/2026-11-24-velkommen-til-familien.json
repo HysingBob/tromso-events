@@ -1,14 +1,11 @@
 {
   "id": "2026-11-24-velkommen-til-familien",
-  "start": "2026-11-24T14:30:00+01:00",
+  "start": "2026-11-24T14:30",
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "165 kr (ordinærbillett)",
   "kategori": [
     "Film"
-  ],
-  "malgruppe": [
-    "Ungdom"
   ],
   "gratis": false,
   "aldersgrense": "9 år",
