@@ -5,7 +5,9 @@
   "adresse": "Hans Nilsens vei 41, 9020 Tromsdalen",
   "pris": "595 kr (inkl. 35 kr gebyr)",
   "gratis": false,
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Julekonsert med Arctic Voices",
     "ingress": "Arctic Voices feirer 30-årsjubileum med julekonsert i Ishavskatedralen.",

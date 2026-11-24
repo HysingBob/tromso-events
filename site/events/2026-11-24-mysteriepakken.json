@@ -7,6 +7,9 @@
   "kategori": [
     "Film"
   ],
+  "malgruppe": [
+    "Familie"
+  ],
   "gratis": false,
   "aldersgrense": "Tillatt for alle",
   "no": {
@@ -24,5 +27,5 @@
   "bildetekst_en": "Aurora poster for Mysteriepakken, showing two children and objects connected with the mystery.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "status": "publisert"
+  "status": "venter"
 }

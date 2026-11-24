@@ -1,0 +1,27 @@
+{
+  "id": "2026-12-08-kreativ-tirsdag",
+  "start": "2026-12-08T17:00",
+  "slutt": "2026-12-08T18:00",
+  "sted": "Tvibit",
+  "adresse": "Parkgata 27/29, 9008 Tromsø",
+  "kategori": [
+    "Aktivitet"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Kreativ Tirsdag",
+    "ingress": "Prøv nye kreative uttrykk og møt andre i et uformelt fellesskap.",
+    "tekst": "Kreativ Tirsdag er et sted for å utforske nye kunstneriske uttrykk og gjøre kreative aktiviteter sammen. Tvibit oppgir at detaljer om kveldens innhold kommer senere."
+  },
+  "en": {
+    "title": "Creative Tuesday",
+    "lead": "Try new creative activities and meet others in an informal community.",
+    "text": "Creative Tuesday is a space to explore new artistic expressions and take part in creative activities together. Tvibit says details of the evening's programme will follow."
+  },
+  "bilde": "https://static1.squarespace.com/static/571895b7356fb0279228bcdc/57c43714e4fcb561cb8c7b0a/6a0b1facc0379804c07d7dfc/1790154018558/Kateryna+Div+Nettsidekalender+%2840%29.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde for Kreativ Tirsdag",
+  "bildetekst_en": "Event image for Kreativ Tirsdag",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/2025/9/30/kreativ-tirsdag-coming-soon-j4hk7-6c6cn",
+  "status": "venter"
+}

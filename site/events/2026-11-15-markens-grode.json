@@ -4,7 +4,9 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "165 kr (ordinærbillett)",
-  "kategori": ["Film"],
+  "kategori": [
+    "Film"
+  ],
   "aldersgrense": "12 år",
   "gratis": false,
   "no": {
@@ -22,6 +24,9 @@
   "bildetekst_en": "Film still from Markens grøde, published by Aurora Kino.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/markens-grode/1574",
-  "status": "publisert",
-  "visningstider": ["11:15", "18:00"]
+  "status": "venter",
+  "visningstider": [
+    "11:15",
+    "18:00"
+  ]
 }

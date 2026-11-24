@@ -4,8 +4,9 @@
   "sted": "Tromsø Kulturhus, Galleriet",
   "adresse": "Erling Bangsunds plass 1, 9008 Tromsø",
   "gratis": true,
-  "kategori": ["Annet"],
-  "malgruppe": ["Familie"],
+  "kategori": [
+    "Annet"
+  ],
   "no": {
     "tittel": "DiasporA Tamil Archives – utstilling",
     "ingress": "En utstilling markerer 70 år med tamilsk migrasjonshistorie i Norge.",

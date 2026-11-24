@@ -7,6 +7,9 @@
   "kategori": [
     "Film"
   ],
+  "malgruppe": [
+    "Familie"
+  ],
   "gratis": false,
   "aldersgrense": "6 år (barn ned til 1,5 år sammen med voksne)",
   "no": {
@@ -24,5 +27,5 @@
   "bildetekst_en": "Film still from Málagagaten, published by Aurora Kino.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/malagagaten/1562",
-  "status": "publisert"
+  "status": "venter"
 }

@@ -4,7 +4,9 @@
   "slutt": "2026-11-20T18:00",
   "sted": "Backbeat",
   "adresse": "Vestregata 3, Tromsø",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "gratis": false,
   "no": {
     "tittel": "Rosebunny at Backbeat",

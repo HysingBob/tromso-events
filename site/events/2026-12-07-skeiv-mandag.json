@@ -1,0 +1,27 @@
+{
+  "id": "2026-12-07-skeiv-mandag",
+  "start": "2026-12-07T16:00",
+  "slutt": "2026-12-07T19:00",
+  "sted": "Tvibit",
+  "adresse": "Parkgata 27/29, 9008 Tromsø",
+  "kategori": [
+    "Aktivitet"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Skeiv mandag",
+    "ingress": "En rusfri møteplass for skeiv ungdom og allierte.",
+    "tekst": "Skeiv Ungdom Troms inviterer, sammen med Arctic Pride og Tvibit, til en lavterskel møteplass for unge mellom 13 og 30 år. Bli kjent med nye folk, spis snacks og pizza, og spill om du har lyst."
+  },
+  "en": {
+    "title": "Queer Monday",
+    "lead": "An alcohol-free social space for queer youth and allies.",
+    "text": "Queer Youth Troms, together with Arctic Pride and Tvibit, invite young people aged 13–30 to a relaxed, low-threshold social gathering. Meet new people, enjoy snacks and pizza, and play games if you like."
+  },
+  "bilde": "https://static1.squarespace.com/static/571895b7356fb0279228bcdc/57c43714e4fcb561cb8c7b0a/6ac4bd0e2378ba37838af413/1792050360765/Skeiv+mandag.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde for Skeiv mandag",
+  "bildetekst_en": "Event image for Skeiv mandag",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/2026/12/7/skeiv-mandag",
+  "status": "venter"
+}

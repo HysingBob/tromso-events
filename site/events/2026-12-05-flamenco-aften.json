@@ -5,7 +5,9 @@
   "sted": "Rådstua Teaterhus",
   "pris": "Voksen 320 kr; barn 80 kr",
   "gratis": false,
-  "kategori": ["Scene"],
+  "kategori": [
+    "Scene"
+  ],
   "no": {
     "tittel": "Flamenco Aften i Tromsø",
     "ingress": "To flamencoforestillinger på én kveld: El Amor Brujo og Zambomba Flamenca.",

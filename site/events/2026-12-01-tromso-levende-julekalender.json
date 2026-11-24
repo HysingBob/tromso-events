@@ -6,6 +6,9 @@
   "kategori": [
     "Scene"
   ],
+  "malgruppe": [
+    "Familie"
+  ],
   "gratis": true,
   "no": {
     "tittel": "Tromsø levende julekalender",
@@ -17,10 +20,10 @@
     "lead": "A free, family-friendly calendar window opens in central Tromsø.",
     "text": "The Tromsø Living Advent Calendar opens a new window on Tuesday 1 December at 18:00. The central Tromsø location is kept secret until the opening. The event is free and family-friendly."
   },
-  "bilde": "http://static1.squarespace.com/static/621200c047615a2259122496/62120f1371ce8c4017078cb4/6ae1e98eb8854a1610d035ea/1793267653738/MAL%C2%A0%281%29.png?format=1500w",
+  "bilde": "https://static1.squarespace.com/static/621200c047615a2259122496/62120f1371ce8c4017078cb4/6ae1e98eb8854a1610d035ea/1793267653738/MAL%C2%A0%281%29.png?format=1500w",
   "bildetekst_no": "Illustrasjon for Tromsø levende julekalender.",
   "bildetekst_en": "Artwork for the Tromsø Living Advent Calendar.",
   "kilde_navn": "Rådstua Teaterhus",
   "kilde_url": "https://www.radstua.no/aktuelt-program/tromsolevendejulekalender26",
-  "status": "publisert"
+  "status": "venter"
 }

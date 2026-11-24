@@ -1,0 +1,28 @@
+{
+  "id": "2026-12-04-pitch-a-crew",
+  "start": "2026-12-04T19:00",
+  "slutt": "2026-12-04T22:00",
+  "sted": "FINT kafé & bar",
+  "adresse": "Skippergata 1C, 9008 Tromsø",
+  "aldersgrense": "18 år",
+  "kategori": [
+    "Annet"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Pitch A Crew",
+    "ingress": "Møt filmfolk fra nord og finn samarbeid til ditt neste prosjekt.",
+    "tekst": "Har du et filmprosjekt og trenger crew, eller leter du etter et prosjekt å bli med på? Pitch prosjektet ditt eller deg selv, eller meld deg på for å bygge nettverk. Arrangementet er for både nybegynnere og etablerte filmarbeidere. Det serveres lett fingermat, og drikke kan kjøpes. Aldersgrense 18 år. Påmeldingsfristen var 22. november; sjekk med arrangøren om det fortsatt er mulig å delta."
+  },
+  "en": {
+    "title": "Pitch A Crew",
+    "lead": "Meet film professionals from the north and find collaborators for your next project.",
+    "text": "Have a film project and need a crew, or are you crew looking for a project? Pitch your project or yourself, or sign up to build your network. Beginners and established film workers are welcome. Light finger food will be served and drinks are available to buy. Age limit: 18. The registration deadline was 22 November; check with the organiser whether joining is still possible."
+  },
+  "bilde": "https://static1.squarespace.com/static/571895b7356fb0279228bcdc/57c43714e4fcb561cb8c7b0a/6aeb199e4001d163503670b0/1794301570824/PITCH+A+CREW+%283%29.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde for Pitch A Crew",
+  "bildetekst_en": "Event image for Pitch A Crew",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/2026/12/4/pitch-a-crew",
+  "status": "venter"
+}

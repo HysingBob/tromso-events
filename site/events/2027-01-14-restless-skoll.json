@@ -1,0 +1,27 @@
+{
+  "id": "2027-01-14-restless-skoll",
+  "start": "2027-01-14T18:00",
+  "slutt": "2027-01-14T19:00",
+  "sted": "Tvibit Scene",
+  "adresse": "Parkgata 27/29, 9008 Tromsø",
+  "kategori": [
+    "Konsert"
+  ],
+  "gratis": true,
+  "no": {
+    "tittel": "Konsert med Restless og SKØLL",
+    "ingress": "Gratis konsert med nordnorsk punk, metal og hardcore.",
+    "tekst": "Restless og SKØLL spiller på Tvibit Scene. SKØLL blander hardcore-punk, poppunk og proto-garagepunk, mens Restless kombinerer metal og punk. Arrangementet er gratis og åpent for alle."
+  },
+  "en": {
+    "title": "Restless and SKØLL – Live",
+    "lead": "A free concert of northern Norwegian punk, metal and hardcore.",
+    "text": "Restless and SKØLL play at Tvibit Scene. SKØLL blends hardcore punk, pop punk and proto-garage punk, while Restless combines metal and punk. The event is free and open to everyone."
+  },
+  "bilde": "https://static1.squarespace.com/static/571895b7356fb0279228bcdc/57c43714e4fcb561cb8c7b0a/6aec45f2950a4b39230a8b52/1793869695890/Konsert+-+Restless+og+Bestial+Nettside+%281%29.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde for Konsert med Restless og SKØLL",
+  "bildetekst_en": "Event image for Konsert med Restless og SKØLL",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/2027/1/14/konsert-med-restless-og-skll",
+  "status": "venter"
+}

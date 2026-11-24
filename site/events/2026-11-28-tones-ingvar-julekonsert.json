@@ -6,7 +6,9 @@
   "pris": "580 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Ein slags julekonsert med Tønes og Ingvar Hovland",
     "ingress": "Julesanger, små hverdagskriser og lun humor med Tønes og Ingvar Hovland.",

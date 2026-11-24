@@ -4,9 +4,13 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "165 kr (ordinærbillett)",
-  "kategori": ["Film"],
+  "kategori": [
+    "Film"
+  ],
   "aldersgrense": "9 år (barn ned til 6 år sammen med voksne)",
-  "malgruppe": ["Familie"],
+  "malgruppe": [
+    "Familie"
+  ],
   "gratis": false,
   "no": {
     "tittel": "Pensjonskuppet",
@@ -24,5 +28,8 @@
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
   "status": "publisert",
-  "visningstider": ["18:00", "20:30"]
+  "visningstider": [
+    "18:00",
+    "20:30"
+  ]
 }

@@ -4,8 +4,9 @@
   "sted": "Provisoriet, Rådstua Teaterhus",
   "pris": "100/50 kr",
   "gratis": false,
-  "kategori": ["Konsert"],
-  "malgruppe": ["Familie"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Big Bang Fiesta!",
     "ingress": "Tromsø Kulturskoles ungdomsstorband byr på karibiske og søramerikanske rytmer i møte med jazz.",

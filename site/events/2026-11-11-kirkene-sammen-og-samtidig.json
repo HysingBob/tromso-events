@@ -4,7 +4,9 @@
   "sted": "Tromsø domkirke",
   "pris": "Gratis",
   "gratis": true,
-  "kategori": ["Aktivitet"],
+  "kategori": [
+    "Aktivitet"
+  ],
   "no": {
     "tittel": "Kirkene sammen og samtidig mot moderne slaveri",
     "ingress": "En gratis markering av Global uke med musikk, bønn, appell og Global kafé i Tromsø domkirke.",

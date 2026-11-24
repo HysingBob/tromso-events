@@ -1,10 +1,11 @@
 {
   "id": "2026-11-12-brokeback-live-dub",
   "start": "2026-11-12T20:00",
-  "slutt": "2026-11-12T22:15",
   "sted": "Bakrommet hos Amtmandens",
   "pris": "200 kr (ordinærbillett)",
-  "kategori": ["Film"],
+  "kategori": [
+    "Film"
+  ],
   "gratis": false,
   "no": {
     "tittel": "Brokeback Mountain – live dub med Jon Hauge",
@@ -21,5 +22,5 @@
   "bildetekst_en": "Event image showing two men in cowboy hats beside a pickup truck.",
   "kilde_navn": "Tromsø Filmklubb",
   "kilde_url": "https://www.tromsofilmklubb.com/kalender/2026/11/12/brokeback-mountain-live-dub-med-jon-hauge",
-  "status": "publisert"
+  "status": "venter"
 }

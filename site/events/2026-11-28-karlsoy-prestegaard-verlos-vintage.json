@@ -5,7 +5,9 @@
   "adresse": "Lars Thøringsveg 10, Tromsø",
   "pris": "Voksen 130 kr; honnør/studenter/vernepliktige 100 kr; barn under 18 år og UiT-studenter gratis",
   "gratis": false,
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Karlsøy Prestegaard og Verlos Vintage",
     "ingress": "Konsert i Museumssalen i forbindelse med GLIMT 2026.",

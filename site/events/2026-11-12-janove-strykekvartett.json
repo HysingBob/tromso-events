@@ -6,7 +6,9 @@
   "pris": "595 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Janove med strykekvartett",
     "ingress": "Janove gir låtene sine et symfonisk uttrykk sammen med en lokal strykekvartett.",

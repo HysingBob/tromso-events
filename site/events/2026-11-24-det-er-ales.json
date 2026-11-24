@@ -1,25 +1,26 @@
 {
   "id": "2026-11-24-det-er-ales",
+  "tittel": "Det er Ales",
   "start": "2026-11-24T19:00",
-  "sted": "Hålogaland Teater, Scene Øst",
-  "adresse": "Teaterplassen 1, 9258 Tromsø",
-  "kategori": ["Scene"],
+  "sted": "Hålogaland Teater",
+  "kategori": [
+    "Scene"
+  ],
   "gratis": false,
   "no": {
     "tittel": "Det er Ales",
-    "ingress": "Signe står igjen alene i huset der mannen hennes ikke kom hjem fra havet.",
-    "tekst": "Signe står igjen alene i huset der mannen hennes ikke kom hjem fra havet. Jon Fosses fortelling utforsker savn, minner og spørsmålet om hvordan man kan leve videre etter et slikt tap. Forestillingen spilles på Scene Øst.\n\nForestillingen varer i 80 minutter."
+    "ingress": "Jon Fosses fortelling om Signe settes opp i nordnorsk oversettelse.",
+    "tekst": "I «Det er Ales» møter vi Signe, som lever med savnet etter mannen som ikke kom hjem fra havet. Jon Fosses tekst er dramatisert for scenen av Maria Sand og oversatt til nordnorsk av Ragnar Olsen. Forestillingen varer i 80 minutter. Tirsdag 24. november kl. 19.00."
   },
   "en": {
     "title": "Det er Ales",
-    "lead": "Signe is left alone in the house where her husband never returned from the sea.",
-    "text": "Signe is left alone in the house where her husband never returned from the sea. Jon Fosse’s story explores grief, memory and how to go on living after such a loss. Performed at Scene Øst.\n\nThe performance lasts 80 minutes."
+    "lead": "Jon Fosse’s story of Signe is performed in a Northern Norwegian translation.",
+    "text": "In “Det er Ales”, we meet Signe, living with the loss of the husband who never returned from the sea. Jon Fosse’s text is adapted for the stage by Maria Sand and translated into Northern Norwegian by Ragnar Olsen. The performance lasts 80 minutes. Tuesday 24 November at 19:00."
   },
-  "bilde": "https://halogalandteater.no/sites/default/files/styles/hero_image_xlarge/public/cover-images/2026-11/Det-er-Ales-26-webbanner-1920x1200-261106b.png.webp?itok=grC4be4p",
-  "bildetekst_no": "Arrangementsbilde fra Hålogaland Teater for Det er Ales.",
-  "bildetekst_en": "Event image from Hålogaland Teater for Det er Ales.",
+  "bilde": "https://halogalandteater.no/sites/default/files/cover-images/2026-11/Det-er-Ales-26-webbanner-1920x1200-261106b.png",
+  "bildetekst_no": "Arrangørbilde fra Det er Ales.",
+  "bildetekst_en": "Organizer image from Det er Ales.",
   "kilde_navn": "Hålogaland Teater",
   "kilde_url": "https://halogalandteater.no/produksjon/2026/det-er-ales",
-  "status": "publisert",
-  "slutt": null
+  "status": "venter"
 }

@@ -4,7 +4,9 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "185 kr",
-  "kategori": ["Film"],
+  "kategori": [
+    "Film"
+  ],
   "aldersgrense": "12 år",
   "no": {
     "tittel": "The Hunger Games: Sunrise on the Reaping",
@@ -22,6 +24,5 @@
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/1398",
   "status": "publisert",
-  "gratis": false,
-  "visningstider": ["17:30", "20:30"]
+  "gratis": false
 }

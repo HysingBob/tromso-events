@@ -6,7 +6,9 @@
   "pris": "690 kr",
   "gratis": false,
   "aldersgrense": "18 år",
-  "kategori": ["Konsert"],
+  "kategori": [
+    "Konsert"
+  ],
   "no": {
     "tittel": "Christmas with Nordic Tenors",
     "ingress": "Juleklassikere, varme og humor med Nordic Tenors og pianist Torgeir Koppang.",

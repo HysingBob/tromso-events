@@ -1,0 +1,27 @@
+{
+  "id": "2026-12-01-kreativ-tirsdag-pimp-a-pepp",
+  "start": "2026-12-01T17:00",
+  "slutt": "2026-12-01T18:00",
+  "sted": "Tvibit",
+  "adresse": "Parkgata 27/29, 9008 Tromsø",
+  "kategori": [
+    "Aktivitet"
+  ],
+  "gratis": false,
+  "no": {
+    "tittel": "Kreativ Tirsdag – Pimp a Pepp",
+    "ingress": "Kom i julestemning og pynt pepperkaker.",
+    "tekst": "Vi stiller med pepperkaker, glasur og pynt, så du kan lage dine egne dekorerte pepperkaker."
+  },
+  "en": {
+    "title": "Creative Tuesday – Decorate Gingerbread",
+    "lead": "Get into the Christmas spirit by decorating gingerbread.",
+    "text": "Gingerbread, icing and decorations will be provided so you can decorate your own gingerbread."
+  },
+  "bilde": "https://static1.squarespace.com/static/571895b7356fb0279228bcdc/57c43714e4fcb561cb8c7b0a/6a9a947240b95e18c7651e46/1788521032837/Nettsidekalender.png?format=1500w",
+  "bildetekst_no": "Arrangementsbilde for Kreativ Tirsdag – Pimp a Pepp",
+  "bildetekst_en": "Event image for Kreativ Tirsdag – Pimp a Pepp",
+  "kilde_navn": "Tvibit",
+  "kilde_url": "https://tvibit.net/aktivitetskalender/h3626abfd9r8bjf-43rns-tbfc2-366e3-afffe-exzj7-hw939-jjstc-h2wnh-kdjp8-hkn7a",
+  "status": "venter"
+}

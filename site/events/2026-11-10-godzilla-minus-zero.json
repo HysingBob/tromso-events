@@ -4,7 +4,9 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "165 kr (ordinærbillett)",
-  "kategori": ["Film"],
+  "kategori": [
+    "Film"
+  ],
   "aldersgrense": "15 år",
   "gratis": false,
   "no": {
@@ -22,6 +24,5 @@
   "bildetekst_en": "Film still for Godzilla Minus Zero, published by Aurora Kino.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/godzilla-minus-zero/1670",
-  "status": "publisert",
-  "visningstider": ["20:15"]
+  "status": "venter"
 }
