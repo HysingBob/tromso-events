@@ -4,8 +4,12 @@
   "sted": "Aurora kino Fokus",
   "adresse": "Grønnegata 100, 9008 Tromsø",
   "pris": "165 kr (ordinærbillett)",
-  "kategori": ["Film"],
-  "malgruppe": ["Familie"],
+  "kategori": [
+    "Film"
+  ],
+  "malgruppe": [
+    "Familie"
+  ],
   "gratis": false,
   "aldersgrense": "Tillatt for alle",
   "no": {
@@ -23,5 +27,5 @@
   "bildetekst_en": "Aurora poster for Mysteriepakken, showing two children and objects connected with the mystery.",
   "kilde_navn": "Aurora kino Fokus",
   "kilde_url": "https://fokus.aurorakino.no/f/mysteriepakken/1605",
-  "status": "venter"
+  "status": "publisert"
 }
