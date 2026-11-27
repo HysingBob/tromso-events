@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Espen Lind
 DTSTART;TZID=Europe/Oslo:20261127T180000
 DTEND;TZID=Europe/Oslo:20261127T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:espen-lind-20261127T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/espen-lind/
@@ -38,7 +38,7 @@ SUMMARY:I år gjør me det heilt enkelt: Ein slags julekonsert med Tønes
  og Ingvar Hovland
 DTSTART;TZID=Europe/Oslo:20261128T180000
 DTEND;TZID=Europe/Oslo:20261128T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:i-ar-gjor-me-det-heilt-enkelt-ein-slags-julekonsert-med-tones-og-ingva
  r-hovland-20261128T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -52,7 +52,7 @@ BEGIN:VEVENT
 SUMMARY:DiasporA Tamil Archives – utstilling
 DTSTART;TZID=Europe/Oslo:20261130T140000
 DTEND;TZID=Europe/Oslo:20261130T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:diaspora-tamil-archives-utstilling-20261130T1400@kulturhuset.tr.no
 LOCATION:Galleriet\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/diaspora-tamil-archives-utstilli
@@ -65,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:Arktisk Filharmoni – Førjulsballetten
 DTSTART;TZID=Europe/Oslo:20261204T180000
 DTEND;TZID=Europe/Oslo:20261204T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:arktisk-filharmoni-forjulsballetten-20261204T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballet
@@ -78,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:Arktisk Filharmoni – Førjulsballetten
 DTSTART;TZID=Europe/Oslo:20261205T140000
 DTEND;TZID=Europe/Oslo:20261205T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:arktisk-filharmoni-forjulsballetten-20261205T1400@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballet
@@ -91,7 +91,7 @@ BEGIN:VEVENT
 SUMMARY:Arktisk Filharmoni – Førjulsballetten
 DTSTART;TZID=Europe/Oslo:20261206T140000
 DTEND;TZID=Europe/Oslo:20261206T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:arktisk-filharmoni-forjulsballetten-20261206T1400@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/arktisk-filharmoni-forjulsballet
@@ -104,7 +104,7 @@ BEGIN:VEVENT
 SUMMARY:Riksteatret: Apestjernen
 DTSTART;TZID=Europe/Oslo:20261208T170000
 DTEND;TZID=Europe/Oslo:20261208T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:riksteatret-apestjernen-20261208T1700@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/riksteatret-apestjernen/
@@ -116,7 +116,7 @@ BEGIN:VEVENT
 SUMMARY:Inge Bremnes – Mot Lys – Juleturné 2026
 DTSTART;TZID=Europe/Oslo:20261211T200000
 DTEND;TZID=Europe/Oslo:20261211T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:mot-lys-en-middels-jul-med-inge-bremnes-20261211T2000@kulturhuset.tr.n
  o
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:Swingende Jul med Ishavsbyen Storband
 DTSTART;TZID=Europe/Oslo:20261212T130000
 DTEND;TZID=Europe/Oslo:20261212T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:swingende-jul-med-ishavsbyen-storband-20261212T1300@kulturhuset.tr.no
 LOCATION:Forum\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/swingende-jul-med-ishavsbyen-sto
@@ -143,7 +143,7 @@ BEGIN:VEVENT
 SUMMARY:Vin til jul – vinsmaking med Kjell-Gabriel Hendrichs
 DTSTART;TZID=Europe/Oslo:20261212T160000
 DTEND;TZID=Europe/Oslo:20261212T180000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:vin-til-jul-vinsmaking-med-kjell-gabriel-hendrichs-20261212T1600@kultu
  rhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
@@ -154,10 +154,10 @@ X-IMAGE:https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plaka
 X-TROMSO-SOURCE:kulturhuset
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JAN GUNNAR HOFF – STILLE LYS -special guest JØRN HOEL
+SUMMARY:JAN GUNNAR HOFF – STILLE LYS – special guest JØRN HOEL
 DTSTART;TZID=Europe/Oslo:20261212T190000
 DTEND;TZID=Europe/Oslo:20261212T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:jan-gunnar-hoff-stille-lys-20261212T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/jan-gunnar-hoff-stille-lys/
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:Cheza Dansestudio – New Era
 DTSTART;TZID=Europe/Oslo:20261213T180000
 DTEND;TZID=Europe/Oslo:20261213T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:cheza-dansestudio-new-era-20261213T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/cheza-dansestudio-new-era/
@@ -181,7 +181,7 @@ BEGIN:VEVENT
 SUMMARY:Anders Jektvik
 DTSTART;TZID=Europe/Oslo:20261218T200000
 DTEND;TZID=Europe/Oslo:20261218T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:anders-jektvik-20261218T2000@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/anders-jektvik/
@@ -193,7 +193,7 @@ BEGIN:VEVENT
 SUMMARY:Jula er her – Alexandra Rotan & venner
 DTSTART;TZID=Europe/Oslo:20261219T190000
 DTEND;TZID=Europe/Oslo:20261219T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:jula-er-her-alexandra-rotan-venner-2-20261219T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/jula-er-her-alexandra-rotan-venn
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:Adam Douglas – An American Holiday 2026
 DTSTART;TZID=Europe/Oslo:20261220T190000
 DTEND;TZID=Europe/Oslo:20261220T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:adam-douglas-an-american-holiday-2026-20261220T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/adam-douglas-an-american-holiday
@@ -219,7 +219,7 @@ BEGIN:VEVENT
 SUMMARY:Du ser ut som meg – utstilling
 DTSTART;TZID=Europe/Oslo:20261221T180000
 DTEND;TZID=Europe/Oslo:20261221T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:du-ser-ut-som-meg-utstilling-20261221T1800@kulturhuset.tr.no
 LOCATION:Galleriet\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/du-ser-ut-som-meg-utstilling/
@@ -231,7 +231,7 @@ BEGIN:VEVENT
 SUMMARY:Christel Alsos – I den kalde vinter
 DTSTART;TZID=Europe/Oslo:20261221T190000
 DTEND;TZID=Europe/Oslo:20261221T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:christel-alsos-i-den-kalde-vinter-20261221T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/christel-alsos-i-den-kalde-vinte
@@ -244,7 +244,7 @@ BEGIN:VEVENT
 SUMMARY:Operagalla – Musikalsk festaften
 DTSTART;TZID=Europe/Oslo:20270109T180000
 DTEND;TZID=Europe/Oslo:20270109T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:operagalla-musikalsk-festaften-20270109T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/operagalla-musikalsk-festaften/
@@ -256,7 +256,7 @@ BEGIN:VEVENT
 SUMMARY:Operagalla – Musikalsk festaften
 DTSTART;TZID=Europe/Oslo:20270110T180000
 DTEND;TZID=Europe/Oslo:20270110T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:operagalla-musikalsk-festaften-20270110T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/operagalla-musikalsk-festaften/
@@ -268,7 +268,7 @@ BEGIN:VEVENT
 SUMMARY:Erik Bye i 100!
 DTSTART;TZID=Europe/Oslo:20270114T180000
 DTEND;TZID=Europe/Oslo:20270114T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:erik-bye-i-100-20270114T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/erik-bye-i-100/
@@ -280,7 +280,7 @@ BEGIN:VEVENT
 SUMMARY:Dora Thorallsdottir – FØKK
 DTSTART;TZID=Europe/Oslo:20270115T190000
 DTEND;TZID=Europe/Oslo:20270115T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:dora-thorallsdottir-fokk-20270115T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/dora-thorallsdottir-fokk/
@@ -292,7 +292,7 @@ BEGIN:VEVENT
 SUMMARY:Musikkhistorien sykt fort
 DTSTART;TZID=Europe/Oslo:20270127T180000
 DTEND;TZID=Europe/Oslo:20270127T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:musikkhistorien-sykt-fort-20270127T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/musikkhistorien-sykt-fort/
@@ -305,7 +305,7 @@ SUMMARY:Jørn Hoel & Steinar Albrigtsen -70+70\, to stemmer fra et levd li
  v
 DTSTART;TZID=Europe/Oslo:20270129T190000
 DTEND;TZID=Europe/Oslo:20270129T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:jorn-hoel-steinar-albrigtsen-7070-to-stemmer-fra-et-levd-liv-20270129T
  1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -319,7 +319,7 @@ BEGIN:VEVENT
 SUMMARY:Simple Music Ensemble – Spirited Away
 DTSTART;TZID=Europe/Oslo:20270130T190000
 DTEND;TZID=Europe/Oslo:20270130T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:simple-music-ensemble-spirited-away-20270130T1900@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/simple-music-ensemble-spirited-a
@@ -332,7 +332,7 @@ BEGIN:VEVENT
 SUMMARY:Riksteatret: Kakejazz
 DTSTART;TZID=Europe/Oslo:20270203T180000
 DTEND;TZID=Europe/Oslo:20270203T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:riksteatret-kakejazz-20270203T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/riksteatret-kakejazz/
@@ -344,7 +344,7 @@ BEGIN:VEVENT
 SUMMARY:Emil Kárlsen
 DTSTART;TZID=Europe/Oslo:20270204T200000
 DTEND;TZID=Europe/Oslo:20270204T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:emil-karlsen-20270204T2000@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/emil-karlsen/
@@ -356,7 +356,7 @@ BEGIN:VEVENT
 SUMMARY:The Wall – performed by Friends of Floyd
 DTSTART;TZID=Europe/Oslo:20270205T180000
 DTEND;TZID=Europe/Oslo:20270205T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:pink-floyds-the-wall-in-concert-20270205T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/pink-floyds-the-wall-in-concert/
@@ -368,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:The Wall – performed by Friends of Floyd
 DTSTART;TZID=Europe/Oslo:20270206T170000
 DTEND;TZID=Europe/Oslo:20270206T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:pink-floyds-the-wall-in-concert-20270206T1700@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/pink-floyds-the-wall-in-concert/
@@ -380,7 +380,7 @@ BEGIN:VEVENT
 SUMMARY:The Dark Side of the Moon – performed by Friends of Floyd
 DTSTART;TZID=Europe/Oslo:20270205T210000
 DTEND;TZID=Europe/Oslo:20270205T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:pink-floyds-dark-side-of-the-moon-in-concert-20270205T2100@kulturhuset
  .tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -394,7 +394,7 @@ BEGIN:VEVENT
 SUMMARY:The Dark Side of the Moon – performed by Friends of Floyd
 DTSTART;TZID=Europe/Oslo:20270206T200000
 DTEND;TZID=Europe/Oslo:20270206T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:pink-floyds-dark-side-of-the-moon-in-concert-20270206T2000@kulturhuset
  .tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -409,7 +409,7 @@ SUMMARY:Nordlysfestivalen – Tognetti\, Vänskä og Arktisk Filharmoni
  – Fra Bach til Pink Floyd
 DTSTART;TZID=Europe/Oslo:20270212T190000
 DTEND;TZID=Europe/Oslo:20270212T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-tognetti-vanska-og-arktisk-filharmoni-fra-bach-til-p
  ink-floyd-20270212T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -423,7 +423,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – Trio Oro
 DTSTART;TZID=Europe/Oslo:20270213T120000
 DTEND;TZID=Europe/Oslo:20270213T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-trio-oro-20270213T1200@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordlysfestivalen-trio-oro/
@@ -435,7 +435,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – Stormnatt – Habaneroz
 DTSTART;TZID=Europe/Oslo:20270213T210000
 DTEND;TZID=Europe/Oslo:20270213T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-stormnatt-habaneroz-20270213T2100@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordlysfestivalen-stormnatt-haba
@@ -447,7 +447,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – Ad Astra
 DTSTART;TZID=Europe/Oslo:20270214T160000
 DTEND;TZID=Europe/Oslo:20270214T180000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-ad-astra-20270214T1600@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordlysfestivalen-ad-astra/
@@ -459,7 +459,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – UngSy
 DTSTART;TZID=Europe/Oslo:20270216T180000
 DTEND;TZID=Europe/Oslo:20270216T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-ungsy-3-20270216T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordlysfestivalen-ungsy-3/
@@ -471,7 +471,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – Æ e her
 DTSTART;TZID=Europe/Oslo:20270217T193000
 DTEND;TZID=Europe/Oslo:20270217T213000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-ae-e-her-20270217T1930@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordlysfestivalen-ae-e-her/
@@ -483,7 +483,7 @@ BEGIN:VEVENT
 SUMMARY:Per Henrik Stenstrøm – Slik takler du idiotene på jobben! 2
 DTSTART;TZID=Europe/Oslo:20270218T190000
 DTEND;TZID=Europe/Oslo:20270218T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:per-henrik-stenstrom-slik-takler-du-idiotene-pa-jobben-2-20270218T1900
  @kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -497,7 +497,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen: Tungrodd – Rahčamuš – Raataminen
 DTSTART;TZID=Europe/Oslo:20270219T190000
 DTEND;TZID=Europe/Oslo:20270219T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-tungrodd-rahcamus-raataminen-20270219T1900@kulturhus
  et.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -511,7 +511,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – Čuovgamáinnas
 DTSTART;TZID=Europe/Oslo:20270220T140000
 DTEND;TZID=Europe/Oslo:20270220T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-cuovgamainnas-20270220T1400@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordlysfestivalen-cuovgamainnas/
@@ -523,7 +523,7 @@ BEGIN:VEVENT
 SUMMARY:Nordlysfestivalen – Vaapstenjeanoe – Big River
 DTSTART;TZID=Europe/Oslo:20270220T190000
 DTEND;TZID=Europe/Oslo:20270220T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordlysfestivalen-vaapstenjeanoe-big-river-20270220T1900@kulturhuset.t
  r.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -537,7 +537,7 @@ BEGIN:VEVENT
 SUMMARY:Tee Productions – 30th anniversary
 DTSTART;TZID=Europe/Oslo:20270226T200000
 DTEND;TZID=Europe/Oslo:20270226T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tee-productions-30th-aniversary-20270226T2000@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/tee-productions-30th-aniversary/
@@ -549,7 +549,7 @@ BEGIN:VEVENT
 SUMMARY:Latterlig gøy Humorgalla
 DTSTART;TZID=Europe/Oslo:20270227T190000
 DTEND;TZID=Europe/Oslo:20270227T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:latterlig-goy-humorgalla-20270227T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/latterlig-goy-humorgalla/
@@ -561,7 +561,7 @@ BEGIN:VEVENT
 SUMMARY:Grieg – i full symfoni To norske mesterverk
 DTSTART;TZID=Europe/Oslo:20270304T190000
 DTEND;TZID=Europe/Oslo:20270304T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:grieg-i-full-symfoni-to-norske-mesterverk-20270304T1900@kulturhuset.tr
  .no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -575,7 +575,7 @@ BEGIN:VEVENT
 SUMMARY:Knut Reiersrud og Geir Sundstøl spiller Purcell
 DTSTART;TZID=Europe/Oslo:20270305T200000
 DTEND;TZID=Europe/Oslo:20270305T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:knut-reiersurd-og-geir-sundstol-spiller-purcell-20270305T2000@kulturhu
  set.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -590,7 +590,7 @@ BEGIN:VEVENT
 SUMMARY:Men har du prøvd Yoga? Et standupshow om å skli på isen
 DTSTART;TZID=Europe/Oslo:20270306T190000
 DTEND;TZID=Europe/Oslo:20270306T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:men-har-du-provd-yoga-et-standupshow-om-a-skli-pa-isen-20270306T1900@k
  ulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
@@ -604,7 +604,7 @@ BEGIN:VEVENT
 SUMMARY:Hvis Gud Vil – En standupforestilling av Galvan Mehidi
 DTSTART;TZID=Europe/Oslo:20270306T210000
 DTEND;TZID=Europe/Oslo:20270306T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:hvis-gud-vil-en-standupforestilling-av-galvan-mehidi-20270306T2100@kul
  turhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -618,7 +618,7 @@ BEGIN:VEVENT
 SUMMARY:Evig Ung
 DTSTART;TZID=Europe/Oslo:20270312T190000
 DTEND;TZID=Europe/Oslo:20270312T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:evig-ung-20270312T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/evig-ung/
@@ -630,7 +630,7 @@ BEGIN:VEVENT
 SUMMARY:Evig Ung
 DTSTART;TZID=Europe/Oslo:20270313T163000
 DTEND;TZID=Europe/Oslo:20270313T183000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:evig-ung-20270313T1630@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/evig-ung/
@@ -642,7 +642,7 @@ BEGIN:VEVENT
 SUMMARY:Erik Mogeno – en buktaler kommer sjelden alene
 DTSTART;TZID=Europe/Oslo:20270314T140000
 DTEND;TZID=Europe/Oslo:20270314T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:erik-mogeno-en-buktaler-kommer-sjelden-alene-20270314T1400@kulturhuset
  .tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -657,7 +657,7 @@ SUMMARY:«Balletak på bransjen» – Et stand up show av og med Henrik Fl
  adseth
 DTSTART;TZID=Europe/Oslo:20270320T210000
 DTEND;TZID=Europe/Oslo:20270320T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:balletak-pa-bransjen-et-stand-up-show-av-og-med-henrik-fladseth-202703
  20T2100@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -671,7 +671,7 @@ BEGIN:VEVENT
 SUMMARY:Raske menn – 19-års jubileum
 DTSTART;TZID=Europe/Oslo:20270403T183000
 DTEND;TZID=Europe/Oslo:20270403T203000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:raske-menn-19-ars-jubileum-20270403T1830@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/raske-menn-19-ars-jubileum/
@@ -683,7 +683,7 @@ BEGIN:VEVENT
 SUMMARY:Arktisk Filharmoni – Barbereren i Sevilla
 DTSTART;TZID=Europe/Oslo:20270409T190000
 DTEND;TZID=Europe/Oslo:20270409T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:arktisk-filharmoni-barbereren-i-sevilla-20270409T1900@kulturhuset.tr.n
  o
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -697,7 +697,7 @@ BEGIN:VEVENT
 SUMMARY:Kristian Valen – Bare visvas
 DTSTART;TZID=Europe/Oslo:20270410T183000
 DTEND;TZID=Europe/Oslo:20270410T203000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:kristian-valen-bare-visvas-20270410T1830@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/kristian-valen-bare-visvas/
@@ -709,7 +709,7 @@ BEGIN:VEVENT
 SUMMARY:Klatremus og de andre dyrene i Hakkebakkeskogen
 DTSTART;TZID=Europe/Oslo:20270411T120000
 DTEND;TZID=Europe/Oslo:20270411T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:klatremus-og-de-andre-dyrene-i-hakkebakkeskogen-20270411T1200@kulturhu
  set.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -723,7 +723,7 @@ BEGIN:VEVENT
 SUMMARY:Japansk vår & Dvořák 8. symfoni
 DTSTART;TZID=Europe/Oslo:20270421T190000
 DTEND;TZID=Europe/Oslo:20270421T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:japansk-var-dvorak-8-symfoni-20270421T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/japansk-var-dvorak-8-symfoni/
@@ -735,7 +735,7 @@ BEGIN:VEVENT
 SUMMARY:Så nære vi var – En hyllest til Lillebjørn Nilsen
 DTSTART;TZID=Europe/Oslo:20270422T190000
 DTEND;TZID=Europe/Oslo:20270422T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:sa-naere-vi-var-en-hyllest-til-lillebjorn-nilsen-20270422T1900@kulturh
  uset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -749,7 +749,7 @@ BEGIN:VEVENT
 SUMMARY:Nils-Ingar Aadne – Tenk det
 DTSTART;TZID=Europe/Oslo:20270424T190000
 DTEND;TZID=Europe/Oslo:20270424T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nils-ingar-aadne-tenk-det-20270424T1900@kulturhuset.tr.no
 LOCATION:Lillescenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nils-ingar-aadne-tenk-det/
@@ -758,10 +758,22 @@ X-IMAGE:https://kulturhuset.tr.no/wp-content/uploads/2026/08/Digital-Plaka
 X-TROMSO-SOURCE:kulturhuset
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Iran Mayen
+DTSTART;TZID=Europe/Oslo:20270424T203000
+DTEND;TZID=Europe/Oslo:20270424T223000
+DTSTAMP:20261127T162851Z
+UID:iran-mayen-20270424T2030@kulturhuset.tr.no
+LOCATION:Hovedscenen\, Kulturhuset Tromsø
+URL:https://kulturhuset.tr.no/arrangement/iran-mayen/
+X-IMAGE:https://kulturhuset.tr.no/wp-content/uploads/2026/11/Digital-Plaka
+ t-liggende-1360-x-768-Iran-Mayen.png
+X-TROMSO-SOURCE:kulturhuset
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Vidar Hansen – Kunsten å lese kroppsspråk
 DTSTART;TZID=Europe/Oslo:20270426T190000
 DTEND;TZID=Europe/Oslo:20270426T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:vidar-hansen-kunsten-a-lese-kroppssprak-20270426T1900@kulturhuset.tr.n
  o
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -775,7 +787,7 @@ BEGIN:VEVENT
 SUMMARY:Odyssé
 DTSTART;TZID=Europe/Oslo:20270429T190000
 DTEND;TZID=Europe/Oslo:20270429T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:odysse-20270429T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/odysse/
@@ -787,7 +799,7 @@ BEGIN:VEVENT
 SUMMARY:Terje Sporsem & John Brungot – Høy og mørk
 DTSTART;TZID=Europe/Oslo:20270430T183000
 DTEND;TZID=Europe/Oslo:20270430T203000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:terje-sporsem-john-brungot-hoy-og-mork-20270430T1830@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/terje-sporsem-john-brungot-hoy-o
@@ -800,7 +812,7 @@ BEGIN:VEVENT
 SUMMARY:Sangskatten Relæxt
 DTSTART;TZID=Europe/Oslo:20270504T180000
 DTEND;TZID=Europe/Oslo:20270504T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:sangskatten-relaext-3-20270504T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/sangskatten-relaext-3/
@@ -812,7 +824,7 @@ BEGIN:VEVENT
 SUMMARY:Riksteatret: 1984 dub
 DTSTART;TZID=Europe/Oslo:20270508T180000
 DTEND;TZID=Europe/Oslo:20270508T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:riksteatret-1984-dub-20270508T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/riksteatret-1984-dub/
@@ -824,7 +836,7 @@ BEGIN:VEVENT
 SUMMARY:Shrek – The Musical
 DTSTART;TZID=Europe/Oslo:20270520T180000
 DTEND;TZID=Europe/Oslo:20270520T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:shrek-the-musical-20270520T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/shrek-the-musical/
@@ -836,7 +848,7 @@ BEGIN:VEVENT
 SUMMARY:Shrek – The Musical
 DTSTART;TZID=Europe/Oslo:20270521T180000
 DTEND;TZID=Europe/Oslo:20270521T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:shrek-the-musical-20270521T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/shrek-the-musical/
@@ -848,7 +860,7 @@ BEGIN:VEVENT
 SUMMARY:Shrek – The Musical
 DTSTART;TZID=Europe/Oslo:20270522T130000
 DTEND;TZID=Europe/Oslo:20270522T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:shrek-the-musical-20270522T1300@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/shrek-the-musical/
@@ -860,7 +872,7 @@ BEGIN:VEVENT
 SUMMARY:Griegs a-mollkonsert
 DTSTART;TZID=Europe/Oslo:20270527T190000
 DTEND;TZID=Europe/Oslo:20270527T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:griegs-a-mollkonsert-20270527T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/griegs-a-mollkonsert/
@@ -872,7 +884,7 @@ BEGIN:VEVENT
 SUMMARY:ISELIN GUTTORMSEN – KOMMER – Jakten på org*asmen
 DTSTART;TZID=Europe/Oslo:20270529T183000
 DTEND;TZID=Europe/Oslo:20270529T203000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:iselin-guttormsen-kommer-20270529T1830@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/iselin-guttormsen-kommer/
@@ -884,7 +896,7 @@ BEGIN:VEVENT
 SUMMARY:HELDIGvis – Veronica Simoné aka YummyMummy
 DTSTART;TZID=Europe/Oslo:20270904T190000
 DTEND;TZID=Europe/Oslo:20270904T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:heldigvis-veronica-simone-aka-yummymummy-20270904T1900@kulturhuset.tr.
  no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -898,7 +910,7 @@ BEGIN:VEVENT
 SUMMARY:Erlend Osnes – Fire bokstaver
 DTSTART;TZID=Europe/Oslo:20270910T190000
 DTEND;TZID=Europe/Oslo:20270910T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:erlend-osnes-fire-bokstaver-20270910T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/erlend-osnes-fire-bokstaver/
@@ -910,7 +922,7 @@ BEGIN:VEVENT
 SUMMARY:Erlend Osnes – Fire bokstaver
 DTSTART;TZID=Europe/Oslo:20270911T190000
 DTEND;TZID=Europe/Oslo:20270911T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:erlend-osnes-fire-bokstaver-20270911T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/erlend-osnes-fire-bokstaver/
@@ -922,7 +934,7 @@ BEGIN:VEVENT
 SUMMARY:Verdiløse Menn
 DTSTART;TZID=Europe/Oslo:20270924T190000
 DTEND;TZID=Europe/Oslo:20270924T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:verdilose-menn-2-20270924T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/verdilose-menn-2/
@@ -934,7 +946,7 @@ BEGIN:VEVENT
 SUMMARY:Tro\, håp og hælvete – Per Kjerstad
 DTSTART;TZID=Europe/Oslo:20271023T190000
 DTEND;TZID=Europe/Oslo:20271023T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tro-hap-og-haelvete-per-kjerstad-20271023T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/tro-hap-og-haelvete-per-kjerstad
@@ -948,7 +960,7 @@ SUMMARY:The Johnny Cash & June Carter Show – 15 years from Jackson to Fo
  lsom
 DTSTART;TZID=Europe/Oslo:20271106T190000
 DTEND;TZID=Europe/Oslo:20271106T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:the-johnny-cash-june-carter-show-15-years-from-jackson-to-folsom-20271
  106T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
@@ -962,7 +974,7 @@ BEGIN:VEVENT
 SUMMARY:Fredrik Fornes – Mitt liv som ansatt
 DTSTART;TZID=Europe/Oslo:20271112T190000
 DTEND;TZID=Europe/Oslo:20271112T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:fredrik-fornes-mitt-liv-som-ansatt-20271112T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/fredrik-fornes-mitt-liv-som-ansa
@@ -975,7 +987,7 @@ BEGIN:VEVENT
 SUMMARY:Vår Jul 2027
 DTSTART;TZID=Europe/Oslo:20271120T180000
 DTEND;TZID=Europe/Oslo:20271120T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:var-jul-2027-20271120T1800@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/var-jul-2027/
@@ -987,7 +999,7 @@ BEGIN:VEVENT
 SUMMARY:Nordic Tenors 2027
 DTSTART;TZID=Europe/Oslo:20271216T190000
 DTEND;TZID=Europe/Oslo:20271216T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:nordic-tenors-2027-20271216T1900@kulturhuset.tr.no
 LOCATION:Hovedscenen\, Kulturhuset Tromsø
 URL:https://kulturhuset.tr.no/arrangement/nordic-tenors-2027/
@@ -999,7 +1011,7 @@ BEGIN:VEVENT
 SUMMARY:TIL — Start
 DTSTART;TZID=Europe/Oslo:20261206T170000
 DTEND;TZID=Europe/Oslo:20261206T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:til-20261206T1700-start@til.no
 LOCATION:Romssa Arena
 URL:https://www.til.no/terminliste
@@ -1010,107 +1022,10 @@ X-TROMSO-SOURCE:til
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
-DTSTART;TZID=Europe/Oslo:20261126T173000
-DTEND;TZID=Europe/Oslo:20261126T193000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-115690-34619@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 2\, Tromsø
-URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
- 1398
-X-IMAGE:https://images.filmgrail.com/1793188381320-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:You Can See Everything
-DTSTART;TZID=Europe/Oslo:20261126T204000
-DTEND;TZID=Europe/Oslo:20261126T224000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116758-34866@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 4\, Tromsø
-URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
-X-IMAGE:https://images.filmgrail.com/1793796023868-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ebenezer
-DTSTART;TZID=Europe/Oslo:20261126T171500
-DTEND;TZID=Europe/Oslo:20261126T191500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-114847-34617@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 1\, Tromsø
-URL:https://fokus.aurorakino.no/f/ebenezer/1588
-X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Markens Grode
-DTSTART;TZID=Europe/Oslo:20261126T180000
-DTEND;TZID=Europe/Oslo:20261126T200000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-111977-34631@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/markens-grode/1574
-X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pensjonskuppet
-DTSTART;TZID=Europe/Oslo:20261126T180000
-DTEND;TZID=Europe/Oslo:20261126T200000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112150-34629@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
-X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Nightborn
-DTSTART;TZID=Europe/Oslo:20261126T211500
-DTEND;TZID=Europe/Oslo:20261126T231500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112635-34622@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/nightborn/1682
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
- kdrop/1794318018539?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:I Play Rocky
-DTSTART;TZID=Europe/Oslo:20261126T180000
-DTEND;TZID=Europe/Oslo:20261126T200000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116240-34471@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 4\, Tromsø
-URL:https://fokus.aurorakino.no/f/i-play-rocky/1694
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/i-play-rocky-9688/
- backdrop/1795439712355?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Godzilla Minus Zero
-DTSTART;TZID=Europe/Oslo:20261126T203000
-DTEND;TZID=Europe/Oslo:20261126T223000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-113711-34632@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/godzilla-minus-zero/1670
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/godzilla-minus-zer
- o-9569/backdrop/1794230110726?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:The Hunger Games Sunrise On The Reaping
-DTSTART;TZID=Europe/Oslo:20261127T120000
-DTEND;TZID=Europe/Oslo:20261127T140000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-115690-34650@fokus.aurorakino.no
+DTSTART;TZID=Europe/Oslo:20261127T170000
+DTEND;TZID=Europe/Oslo:20261127T190000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115690-34652@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
  1398
@@ -1122,7 +1037,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261127T170000
 DTEND;TZID=Europe/Oslo:20261127T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34483@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -1134,7 +1049,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261127T164500
 DTEND;TZID=Europe/Oslo:20261127T184500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34668@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -1144,10 +1059,10 @@ X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:You Can See Everything
-DTSTART;TZID=Europe/Oslo:20261127T120000
-DTEND;TZID=Europe/Oslo:20261127T140000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116758-34653@fokus.aurorakino.no
+DTSTART;TZID=Europe/Oslo:20261127T193000
+DTEND;TZID=Europe/Oslo:20261127T213000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116758-34666@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
 X-IMAGE:https://images.filmgrail.com/1793796023868-blob?optimizer=image&wi
@@ -1158,7 +1073,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261127T203000
 DTEND;TZID=Europe/Oslo:20261127T223000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34649@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -1168,10 +1083,10 @@ X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Focker In Law
-DTSTART;TZID=Europe/Oslo:20261127T120000
-DTEND;TZID=Europe/Oslo:20261127T140000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-114632-34671@fokus.aurorakino.no
+DTSTART;TZID=Europe/Oslo:20261127T184500
+DTEND;TZID=Europe/Oslo:20261127T204500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114632-34667@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/focker-in-law/1567
 X-IMAGE:https://images.filmgrail.com/mediaserver/movies/focker-in-law-8388
@@ -1179,22 +1094,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/focker-in-law-8388
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Markens Grode
-DTSTART;TZID=Europe/Oslo:20261127T120000
-DTEND;TZID=Europe/Oslo:20261127T140000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-111977-34659@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 4\, Tromsø
-URL:https://fokus.aurorakino.no/f/markens-grode/1574
-X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261127T143000
 DTEND;TZID=Europe/Oslo:20261127T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34672@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -1206,7 +1109,7 @@ BEGIN:VEVENT
 SUMMARY:November 1963
 DTSTART;TZID=Europe/Oslo:20261127T211500
 DTEND;TZID=Europe/Oslo:20261127T231500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116657-34669@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/november-1963/1677
@@ -1215,10 +1118,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/november-1963-9438
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261127T210000
+DTEND;TZID=Europe/Oslo:20261127T230000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34673@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261127T180000
 DTEND;TZID=Europe/Oslo:20261127T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34665@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -1230,19 +1145,19 @@ BEGIN:VEVENT
 SUMMARY:Hope
 DTSTART;TZID=Europe/Oslo:20261127T143000
 DTEND;TZID=Europe/Oslo:20261127T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116345-34670@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/hope/1691
 X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
- /1795181408323?optimizer=image&width=1200
+ /1795775211679?optimizer=image&width=1200
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Velkommen Til Familien
 DTSTART;TZID=Europe/Oslo:20261127T143000
 DTEND;TZID=Europe/Oslo:20261127T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115366-34655@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
@@ -1251,46 +1166,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/velkommen-til-fami
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Buddy
-DTSTART;TZID=Europe/Oslo:20261127T210000
-DTEND;TZID=Europe/Oslo:20261127T230000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116872-34673@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/buddy/1737
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
- op/1795090417080?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sangen Fra Skogene
-DTSTART;TZID=Europe/Oslo:20261127T120000
-DTEND;TZID=Europe/Oslo:20261127T140000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112854-34661@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 5\, Tromsø
-URL:https://fokus.aurorakino.no/f/sangen-fra-skogene/1668
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene
- -9492/backdrop/1792144599385?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Paper Tiger
-DTSTART;TZID=Europe/Oslo:20261127T120000
-DTEND;TZID=Europe/Oslo:20261127T140000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-113356-34674@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/paper-tiger/1739
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/paper-tiger-9466/b
- ackdrop/1795433806554?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Kaizers Orchestra Live Dine Gamle Dager Er Na
 DTSTART;TZID=Europe/Oslo:20261127T190000
 DTEND;TZID=Europe/Oslo:20261127T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116944-34256@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/kaizers-orchestra-live-dine-gamle-dager-
@@ -1301,22 +1180,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/kaizers-orchestra-
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kjarast
-DTSTART;TZID=Europe/Oslo:20261127T083000
-DTEND;TZID=Europe/Oslo:20261127T103000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112463-33811@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 1\, Tromsø
-URL:https://fokus.aurorakino.no/f/kjarast/1547
-X-IMAGE:https://images.filmgrail.com/1789723941304-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261128T143000
 DTEND;TZID=Europe/Oslo:20261128T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34675@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -1329,7 +1196,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261128T110000
 DTEND;TZID=Europe/Oslo:20261128T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34678@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -1341,7 +1208,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261128T114500
 DTEND;TZID=Europe/Oslo:20261128T134500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34679@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -1353,7 +1220,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261128T134500
 DTEND;TZID=Europe/Oslo:20261128T154500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34686@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -1365,7 +1232,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261128T190000
 DTEND;TZID=Europe/Oslo:20261128T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34695@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -1377,7 +1244,7 @@ BEGIN:VEVENT
 SUMMARY:Focker In Law
 DTSTART;TZID=Europe/Oslo:20261128T181500
 DTEND;TZID=Europe/Oslo:20261128T201500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114632-34691@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/focker-in-law/1567
@@ -1389,7 +1256,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261128T110000
 DTEND;TZID=Europe/Oslo:20261128T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34688@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -1401,7 +1268,7 @@ BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261128T163000
 DTEND;TZID=Europe/Oslo:20261128T183000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34692@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -1413,7 +1280,7 @@ BEGIN:VEVENT
 SUMMARY:November 1963
 DTSTART;TZID=Europe/Oslo:20261128T111500
 DTEND;TZID=Europe/Oslo:20261128T131500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116657-34690@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/november-1963/1677
@@ -1425,7 +1292,7 @@ BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261128T133000
 DTEND;TZID=Europe/Oslo:20261128T153000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34687@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -1434,10 +1301,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/wildwood-9440/back
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hope
+DTSTART;TZID=Europe/Oslo:20261128T201000
+DTEND;TZID=Europe/Oslo:20261128T221000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116345-34696@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/hope/1691
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
+ /1795775211679?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nightborn
 DTSTART;TZID=Europe/Oslo:20261128T213000
 DTEND;TZID=Europe/Oslo:20261128T233000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112635-34698@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/nightborn/1682
@@ -1446,22 +1325,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hope
-DTSTART;TZID=Europe/Oslo:20261128T201000
-DTEND;TZID=Europe/Oslo:20261128T221000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116345-34696@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/hope/1691
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
- /1795181408323?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mysteriepakken
 DTSTART;TZID=Europe/Oslo:20261128T111500
 DTEND;TZID=Europe/Oslo:20261128T131500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112847-34684@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/mysteriepakken/1605
@@ -1473,7 +1340,7 @@ BEGIN:VEVENT
 SUMMARY:Paper Tiger
 DTSTART;TZID=Europe/Oslo:20261128T204500
 DTEND;TZID=Europe/Oslo:20261128T224500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-113356-34699@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/paper-tiger/1739
@@ -1485,7 +1352,7 @@ BEGIN:VEVENT
 SUMMARY:Clayface
 DTSTART;TZID=Europe/Oslo:20261128T211500
 DTEND;TZID=Europe/Oslo:20261128T231500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115151-34697@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/clayface/1666
@@ -1497,7 +1364,7 @@ BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261129T133000
 DTEND;TZID=Europe/Oslo:20261129T153000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34709@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -1510,7 +1377,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261129T130000
 DTEND;TZID=Europe/Oslo:20261129T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34642@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -1522,7 +1389,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261129T110000
 DTEND;TZID=Europe/Oslo:20261129T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34643@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -1534,7 +1401,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261129T110000
 DTEND;TZID=Europe/Oslo:20261129T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34727@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -1546,7 +1413,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261129T180000
 DTEND;TZID=Europe/Oslo:20261129T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34713@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -1558,7 +1425,7 @@ BEGIN:VEVENT
 SUMMARY:Katten Med Hatten
 DTSTART;TZID=Europe/Oslo:20261129T113000
 DTEND;TZID=Europe/Oslo:20261129T133000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115703-34724@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/katten-med-hatten/1541
@@ -1570,7 +1437,7 @@ BEGIN:VEVENT
 SUMMARY:Focker In Law
 DTSTART;TZID=Europe/Oslo:20261129T153000
 DTEND;TZID=Europe/Oslo:20261129T173000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114632-34728@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/focker-in-law/1567
@@ -1582,7 +1449,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261129T180000
 DTEND;TZID=Europe/Oslo:20261129T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34721@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -1594,7 +1461,7 @@ BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261129T110000
 DTEND;TZID=Europe/Oslo:20261129T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34715@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -1603,10 +1470,22 @@ X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261129T211500
+DTEND;TZID=Europe/Oslo:20261129T231500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34720@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261129T171500
 DTEND;TZID=Europe/Oslo:20261129T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34976@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -1618,7 +1497,7 @@ BEGIN:VEVENT
 SUMMARY:Nightborn
 DTSTART;TZID=Europe/Oslo:20261129T210000
 DTEND;TZID=Europe/Oslo:20261129T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112635-34732@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/nightborn/1682
@@ -1627,22 +1506,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Buddy
-DTSTART;TZID=Europe/Oslo:20261129T211500
-DTEND;TZID=Europe/Oslo:20261129T231500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116872-34720@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/buddy/1737
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
- op/1795090417080?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Reisen Til Julestjernen
 DTSTART;TZID=Europe/Oslo:20261129T111500
 DTEND;TZID=Europe/Oslo:20261129T131500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117483-34723@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/reisen-til-julestjernen/1738
@@ -1654,7 +1521,7 @@ BEGIN:VEVENT
 SUMMARY:Mysteriepakken
 DTSTART;TZID=Europe/Oslo:20261129T124500
 DTEND;TZID=Europe/Oslo:20261129T144500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112847-34706@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/mysteriepakken/1605
@@ -1666,7 +1533,7 @@ BEGIN:VEVENT
 SUMMARY:Lille Spokelset Laban Skoyer Igjen
 DTSTART;TZID=Europe/Oslo:20261129T110000
 DTEND;TZID=Europe/Oslo:20261129T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115150-34725@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/lille-spokelset-laban-skoyer-igjen/1667
@@ -1678,7 +1545,7 @@ BEGIN:VEVENT
 SUMMARY:Sauen Shaun Gardens Farbannelse
 DTSTART;TZID=Europe/Oslo:20261129T131500
 DTEND;TZID=Europe/Oslo:20261129T151500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110761-34726@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/sauen-shaun-gardens-farbannelse/1450
@@ -1690,7 +1557,7 @@ BEGIN:VEVENT
 SUMMARY:Naza
 DTSTART;TZID=Europe/Oslo:20261129T190000
 DTEND;TZID=Europe/Oslo:20261129T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115691-34469@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/naza/1722
@@ -1702,7 +1569,7 @@ BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261130T171500
 DTEND;TZID=Europe/Oslo:20261130T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34792@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -1715,7 +1582,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261130T170000
 DTEND;TZID=Europe/Oslo:20261130T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34793@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -1727,7 +1594,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261130T164500
 DTEND;TZID=Europe/Oslo:20261130T184500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34795@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -1739,7 +1606,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261130T194500
 DTEND;TZID=Europe/Oslo:20261130T214500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34794@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -1751,7 +1618,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261130T204500
 DTEND;TZID=Europe/Oslo:20261130T224500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34791@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -1763,7 +1630,7 @@ BEGIN:VEVENT
 SUMMARY:Focker In Law
 DTSTART;TZID=Europe/Oslo:20261130T210000
 DTEND;TZID=Europe/Oslo:20261130T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114632-34798@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/focker-in-law/1567
@@ -1775,7 +1642,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261130T174500
 DTEND;TZID=Europe/Oslo:20261130T194500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34799@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -1787,7 +1654,7 @@ BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261130T171500
 DTEND;TZID=Europe/Oslo:20261130T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34797@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -1799,7 +1666,7 @@ BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261130T171500
 DTEND;TZID=Europe/Oslo:20261130T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34800@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -1808,10 +1675,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/wildwood-9440/back
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hope
+DTSTART;TZID=Europe/Oslo:20261130T200000
+DTEND;TZID=Europe/Oslo:20261130T220000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116345-34977@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/hope/1691
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
+ /1795775211679?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nightborn
 DTSTART;TZID=Europe/Oslo:20261130T211000
 DTEND;TZID=Europe/Oslo:20261130T231000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112635-34802@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/nightborn/1682
@@ -1820,22 +1699,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Hope
-DTSTART;TZID=Europe/Oslo:20261130T200000
-DTEND;TZID=Europe/Oslo:20261130T220000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116345-34977@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/hope/1691
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
- /1795181408323?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:No Good Men
 DTSTART;TZID=Europe/Oslo:20261130T184500
 DTEND;TZID=Europe/Oslo:20261130T204500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114630-34803@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/no-good-men/1683
@@ -1847,7 +1714,7 @@ BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34734@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -1860,7 +1727,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261201T171500
 DTEND;TZID=Europe/Oslo:20261201T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34752@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -1872,7 +1739,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261201T164500
 DTEND;TZID=Europe/Oslo:20261201T184500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34741@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -1884,7 +1751,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261201T143000
 DTEND;TZID=Europe/Oslo:20261201T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34737@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -1896,7 +1763,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261201T143000
 DTEND;TZID=Europe/Oslo:20261201T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34756@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -1908,7 +1775,7 @@ BEGIN:VEVENT
 SUMMARY:Focker In Law
 DTSTART;TZID=Europe/Oslo:20261201T211500
 DTEND;TZID=Europe/Oslo:20261201T231500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114632-34740@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/focker-in-law/1567
@@ -1920,7 +1787,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34745@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -1932,7 +1799,7 @@ BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34747@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -1944,7 +1811,7 @@ BEGIN:VEVENT
 SUMMARY:November 1963
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116657-34742@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/november-1963/1677
@@ -1953,10 +1820,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/november-1963-9438
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261201T211500
+DTEND;TZID=Europe/Oslo:20261201T231500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34750@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261201T171500
 DTEND;TZID=Europe/Oslo:20261201T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34758@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -1968,7 +1847,7 @@ BEGIN:VEVENT
 SUMMARY:Velkommen Til Familien
 DTSTART;TZID=Europe/Oslo:20261201T184500
 DTEND;TZID=Europe/Oslo:20261201T204500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115366-34818@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
@@ -1977,22 +1856,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/velkommen-til-fami
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Buddy
-DTSTART;TZID=Europe/Oslo:20261201T211500
-DTEND;TZID=Europe/Oslo:20261201T231500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116872-34750@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/buddy/1737
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
- op/1795090417080?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Paper Tiger
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-113356-34751@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/paper-tiger/1739
@@ -2001,22 +1868,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/paper-tiger-9466/b
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sangen Fra Skogene
-DTSTART;TZID=Europe/Oslo:20261201T143000
-DTEND;TZID=Europe/Oslo:20261201T163000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112854-34746@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/sangen-fra-skogene/1668
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene
- -9492/backdrop/1792144599385?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rose
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112622-34821@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/rose/1626
@@ -2028,7 +1883,7 @@ BEGIN:VEVENT
 SUMMARY:Malagagaten
 DTSTART;TZID=Europe/Oslo:20261201T143000
 DTEND;TZID=Europe/Oslo:20261201T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-107369-34822@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/malagagaten/1562
@@ -2037,22 +1892,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/malagagaten-8424/b
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kjarast
-DTSTART;TZID=Europe/Oslo:20261201T083000
-DTEND;TZID=Europe/Oslo:20261201T103000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112463-34733@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 1\, Tromsø
-URL:https://fokus.aurorakino.no/f/kjarast/1547
-X-IMAGE:https://images.filmgrail.com/1789723941304-blob?optimizer=image&wi
- dth=1200
+SUMMARY:Sangen Fra Skogene
+DTSTART;TZID=Europe/Oslo:20261201T143000
+DTEND;TZID=Europe/Oslo:20261201T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112854-34746@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/sangen-fra-skogene/1668
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene
+ -9492/backdrop/1792144599385?optimizer=image&width=1200
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261202T140000
 DTEND;TZID=Europe/Oslo:20261202T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34771@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -2065,7 +1920,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261202T170000
 DTEND;TZID=Europe/Oslo:20261202T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34773@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -2077,7 +1932,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261202T164500
 DTEND;TZID=Europe/Oslo:20261202T184500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34774@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -2089,7 +1944,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261202T120000
 DTEND;TZID=Europe/Oslo:20261202T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34790@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -2101,7 +1956,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261202T143000
 DTEND;TZID=Europe/Oslo:20261202T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34783@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -2113,7 +1968,7 @@ BEGIN:VEVENT
 SUMMARY:Focker In Law
 DTSTART;TZID=Europe/Oslo:20261202T210000
 DTEND;TZID=Europe/Oslo:20261202T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114632-34779@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/focker-in-law/1567
@@ -2125,7 +1980,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261202T120000
 DTEND;TZID=Europe/Oslo:20261202T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34778@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -2137,7 +1992,7 @@ BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261202T171500
 DTEND;TZID=Europe/Oslo:20261202T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34777@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -2149,7 +2004,7 @@ BEGIN:VEVENT
 SUMMARY:November 1963
 DTSTART;TZID=Europe/Oslo:20261202T120000
 DTEND;TZID=Europe/Oslo:20261202T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116657-34782@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/november-1963/1677
@@ -2158,10 +2013,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/november-1963-9438
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261202T143000
+DTEND;TZID=Europe/Oslo:20261202T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34789@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261202T171500
 DTEND;TZID=Europe/Oslo:20261202T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34784@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -2173,31 +2040,19 @@ BEGIN:VEVENT
 SUMMARY:Hope
 DTSTART;TZID=Europe/Oslo:20261202T200000
 DTEND;TZID=Europe/Oslo:20261202T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116345-34978@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/hope/1691
 X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
- /1795181408323?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Buddy
-DTSTART;TZID=Europe/Oslo:20261202T143000
-DTEND;TZID=Europe/Oslo:20261202T163000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-116872-34789@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/buddy/1737
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
- op/1795090417080?optimizer=image&width=1200
+ /1795775211679?optimizer=image&width=1200
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bitter Jul
 DTSTART;TZID=Europe/Oslo:20261202T120000
 DTEND;TZID=Europe/Oslo:20261202T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112155-34786@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/bitter-jul/1580
@@ -2209,7 +2064,7 @@ BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261203T120000
 DTEND;TZID=Europe/Oslo:20261203T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34805@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -2222,7 +2077,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261203T171500
 DTEND;TZID=Europe/Oslo:20261203T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34807@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -2234,7 +2089,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261203T120000
 DTEND;TZID=Europe/Oslo:20261203T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34647@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -2246,7 +2101,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261203T120000
 DTEND;TZID=Europe/Oslo:20261203T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34811@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -2258,7 +2113,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261203T140000
 DTEND;TZID=Europe/Oslo:20261203T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34816@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -2270,7 +2125,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261203T120000
 DTEND;TZID=Europe/Oslo:20261203T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34808@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -2282,19 +2137,19 @@ BEGIN:VEVENT
 SUMMARY:Hope
 DTSTART;TZID=Europe/Oslo:20261203T200000
 DTEND;TZID=Europe/Oslo:20261203T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116345-34813@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/hope/1691
 X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
- /1795181408323?optimizer=image&width=1200
+ /1795775211679?optimizer=image&width=1200
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Velkommen Til Familien
 DTSTART;TZID=Europe/Oslo:20261203T203000
 DTEND;TZID=Europe/Oslo:20261203T223000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115366-34819@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
@@ -2306,7 +2161,7 @@ BEGIN:VEVENT
 SUMMARY:A Talent For Murder
 DTSTART;TZID=Europe/Oslo:20261203T140000
 DTEND;TZID=Europe/Oslo:20261203T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115264-34815@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/a-talent-for-murder/1719
@@ -2318,7 +2173,7 @@ BEGIN:VEVENT
 SUMMARY:Violent Night
 DTSTART;TZID=Europe/Oslo:20261203T180000
 DTEND;TZID=Europe/Oslo:20261203T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-83047-34404@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/violent-night/497
@@ -2330,7 +2185,7 @@ BEGIN:VEVENT
 SUMMARY:The Phoenix Of Stoke
 DTSTART;TZID=Europe/Oslo:20261203T193000
 DTEND;TZID=Europe/Oslo:20261203T213000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115165-34237@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-phoenix-of-stoke/1727
@@ -2342,7 +2197,7 @@ BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261204T143000
 DTEND;TZID=Europe/Oslo:20261204T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34827@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -2355,7 +2210,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261204T164500
 DTEND;TZID=Europe/Oslo:20261204T184500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34836@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -2367,7 +2222,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261204T120000
 DTEND;TZID=Europe/Oslo:20261204T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34830@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -2379,7 +2234,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261204T184000
 DTEND;TZID=Europe/Oslo:20261204T204000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34838@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -2388,10 +2243,22 @@ X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261204T180000
+DTEND;TZID=Europe/Oslo:20261204T200000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-34868@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Katten Med Hatten
 DTSTART;TZID=Europe/Oslo:20261204T170000
 DTEND;TZID=Europe/Oslo:20261204T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115703-34863@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/katten-med-hatten/1541
@@ -2403,7 +2270,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261204T120000
 DTEND;TZID=Europe/Oslo:20261204T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34839@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -2412,34 +2279,10 @@ X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Violent Night 2
-DTSTART;TZID=Europe/Oslo:20261204T180000
-DTEND;TZID=Europe/Oslo:20261204T200000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-115933-34868@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/violent-night-2/1569
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
- 73/backdrop/1793020523900?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Pensjonskuppet
-DTSTART;TZID=Europe/Oslo:20261204T143000
-DTEND;TZID=Europe/Oslo:20261204T163000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112150-34841@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
-X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
- dth=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wild Horse Nine
 DTSTART;TZID=Europe/Oslo:20261204T120000
 DTEND;TZID=Europe/Oslo:20261204T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-113932-34864@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/wild-horse-nine/1568
@@ -2448,10 +2291,22 @@ X-IMAGE:https://images.filmgrail.com/1793881615325-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Pensjonskuppet
+DTSTART;TZID=Europe/Oslo:20261204T143000
+DTEND;TZID=Europe/Oslo:20261204T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112150-34841@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
+X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Asterix Kongeriket Nubia
 DTSTART;TZID=Europe/Oslo:20261204T164500
 DTEND;TZID=Europe/Oslo:20261204T184500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117126-34862@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/asterix-kongeriket-nubia/1684
@@ -2463,7 +2318,7 @@ BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261204T171500
 DTEND;TZID=Europe/Oslo:20261204T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34870@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -2472,22 +2327,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/wildwood-9440/back
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nightborn
-DTSTART;TZID=Europe/Oslo:20261204T213000
-DTEND;TZID=Europe/Oslo:20261204T233000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112635-34871@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 5\, Tromsø
-URL:https://fokus.aurorakino.no/f/nightborn/1682
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
- kdrop/1794318018539?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Velkommen Til Familien
 DTSTART;TZID=Europe/Oslo:20261204T143000
 DTEND;TZID=Europe/Oslo:20261204T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115366-34833@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
@@ -2499,7 +2342,7 @@ BEGIN:VEVENT
 SUMMARY:Ray Gunn
 DTSTART;TZID=Europe/Oslo:20261204T203000
 DTEND;TZID=Europe/Oslo:20261204T223000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117417-34927@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/ray-gunn/1742
@@ -2508,22 +2351,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/ray-gunn-10121/bac
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sangen Fra Skogene
-DTSTART;TZID=Europe/Oslo:20261204T211500
-DTEND;TZID=Europe/Oslo:20261204T231500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112854-34869@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 3\, Tromsø
-URL:https://fokus.aurorakino.no/f/sangen-fra-skogene/1668
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene
- -9492/backdrop/1792144599385?optimizer=image&width=1200
+SUMMARY:Nightborn
+DTSTART;TZID=Europe/Oslo:20261204T213000
+DTEND;TZID=Europe/Oslo:20261204T233000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112635-34871@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/nightborn/1682
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
+ kdrop/1794318018539?optimizer=image&width=1200
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Rose
 DTSTART;TZID=Europe/Oslo:20261204T143000
 DTEND;TZID=Europe/Oslo:20261204T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112622-34872@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/rose/1626
@@ -2532,10 +2375,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/rose-9485/backdrop
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Sangen Fra Skogene
+DTSTART;TZID=Europe/Oslo:20261204T211500
+DTEND;TZID=Europe/Oslo:20261204T231500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112854-34869@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/sangen-fra-skogene/1668
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/sangen-fra-skogene
+ -9492/backdrop/1792144599385?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Everybody Digs Bill Evans
 DTSTART;TZID=Europe/Oslo:20261204T120000
 DTEND;TZID=Europe/Oslo:20261204T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112624-34825@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/everybody-digs-bill-evans/1679
@@ -2547,7 +2402,7 @@ BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261205T143000
 DTEND;TZID=Europe/Oslo:20261205T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34909@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -2560,7 +2415,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261205T110000
 DTEND;TZID=Europe/Oslo:20261205T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34894@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -2572,7 +2427,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261205T120000
 DTEND;TZID=Europe/Oslo:20261205T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34899@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -2584,7 +2439,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261205T140000
 DTEND;TZID=Europe/Oslo:20261205T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34913@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -2596,7 +2451,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261205T180000
 DTEND;TZID=Europe/Oslo:20261205T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34910@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -2605,10 +2460,22 @@ X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261205T180000
+DTEND;TZID=Europe/Oslo:20261205T200000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-34920@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Katten Med Hatten
 DTSTART;TZID=Europe/Oslo:20261205T110000
 DTEND;TZID=Europe/Oslo:20261205T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115703-34916@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/katten-med-hatten/1541
@@ -2620,7 +2487,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261205T110000
 DTEND;TZID=Europe/Oslo:20261205T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34907@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -2629,22 +2496,10 @@ X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Violent Night 2
-DTSTART;TZID=Europe/Oslo:20261205T180000
-DTEND;TZID=Europe/Oslo:20261205T200000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-115933-34920@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/violent-night-2/1569
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
- 73/backdrop/1793020523900?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Pensjonskuppet
 DTSTART;TZID=Europe/Oslo:20261205T114500
 DTEND;TZID=Europe/Oslo:20261205T134500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-112150-34917@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
@@ -2656,7 +2511,7 @@ BEGIN:VEVENT
 SUMMARY:Wild Horse Nine
 DTSTART;TZID=Europe/Oslo:20261205T203000
 DTEND;TZID=Europe/Oslo:20261205T223000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-113932-34923@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/wild-horse-nine/1568
@@ -2668,7 +2523,7 @@ BEGIN:VEVENT
 SUMMARY:Asterix Kongeriket Nubia
 DTSTART;TZID=Europe/Oslo:20261205T140000
 DTEND;TZID=Europe/Oslo:20261205T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117126-34974@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/asterix-kongeriket-nubia/1684
@@ -2677,22 +2532,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/asterix-kongeriket
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Nightborn
-DTSTART;TZID=Europe/Oslo:20261205T211500
-DTEND;TZID=Europe/Oslo:20261205T231500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112635-34926@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 4\, Tromsø
-URL:https://fokus.aurorakino.no/f/nightborn/1682
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
- kdrop/1794318018539?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Velkommen Til Familien
 DTSTART;TZID=Europe/Oslo:20261205T181500
 DTEND;TZID=Europe/Oslo:20261205T201500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115366-34918@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
@@ -2701,10 +2544,34 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/velkommen-til-fami
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Nightborn
+DTSTART;TZID=Europe/Oslo:20261205T211500
+DTEND;TZID=Europe/Oslo:20261205T231500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112635-34926@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/nightborn/1682
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/nightborn-9531/bac
+ kdrop/1794318018539?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bitter Jul
+DTSTART;TZID=Europe/Oslo:20261205T110000
+DTEND;TZID=Europe/Oslo:20261205T130000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112155-34925@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/bitter-jul/1580
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/bitter-jul-9209/ba
+ ckdrop/1794126608665?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Andre Rieus 2026 Christmas Concert Let It Snow
 DTSTART;TZID=Europe/Oslo:20261205T143000
 DTEND;TZID=Europe/Oslo:20261205T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117088-34405@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/andre-rieus-2026-christmas-concert-let-i
@@ -2714,22 +2581,10 @@ X-IMAGE:https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bitter Jul
-DTSTART;TZID=Europe/Oslo:20261205T110000
-DTEND;TZID=Europe/Oslo:20261205T130000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-112155-34925@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
-URL:https://fokus.aurorakino.no/f/bitter-jul/1580
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/bitter-jul-9209/ba
- ckdrop/1794126608665?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:The Hunger Games Sunrise On The Reaping
 DTSTART;TZID=Europe/Oslo:20261206T140000
 DTEND;TZID=Europe/Oslo:20261206T160000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115690-34939@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
@@ -2742,7 +2597,7 @@ BEGIN:VEVENT
 SUMMARY:Hexe Det Magiske Riket
 DTSTART;TZID=Europe/Oslo:20261206T111500
 DTEND;TZID=Europe/Oslo:20261206T131500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116060-34929@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
@@ -2754,7 +2609,7 @@ BEGIN:VEVENT
 SUMMARY:Julenissens Verksted
 DTSTART;TZID=Europe/Oslo:20261206T110000
 DTEND;TZID=Europe/Oslo:20261206T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-110763-34952@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 1\, Tromsø
 URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
@@ -2766,7 +2621,7 @@ BEGIN:VEVENT
 SUMMARY:You Can See Everything
 DTSTART;TZID=Europe/Oslo:20261206T110000
 DTEND;TZID=Europe/Oslo:20261206T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-116758-34948@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
@@ -2778,7 +2633,7 @@ BEGIN:VEVENT
 SUMMARY:Ebenezer
 DTSTART;TZID=Europe/Oslo:20261206T141500
 DTEND;TZID=Europe/Oslo:20261206T161500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-114847-34946@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/ebenezer/1588
@@ -2787,10 +2642,22 @@ X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261206T211500
+DTEND;TZID=Europe/Oslo:20261206T231500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-34930@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 1\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Katten Med Hatten
 DTSTART;TZID=Europe/Oslo:20261206T141500
 DTEND;TZID=Europe/Oslo:20261206T161500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115703-34937@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/katten-med-hatten/1541
@@ -2802,7 +2669,7 @@ BEGIN:VEVENT
 SUMMARY:Markens Grode
 DTSTART;TZID=Europe/Oslo:20261206T110000
 DTEND;TZID=Europe/Oslo:20261206T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-111977-34951@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 3\, Tromsø
 URL:https://fokus.aurorakino.no/f/markens-grode/1574
@@ -2811,22 +2678,10 @@ X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Violent Night 2
-DTSTART;TZID=Europe/Oslo:20261206T211500
-DTEND;TZID=Europe/Oslo:20261206T231500
-DTSTAMP:20261126T173316Z
-UID:aurora-8-115933-34930@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 1\, Tromsø
-URL:https://fokus.aurorakino.no/f/violent-night-2/1569
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
- 73/backdrop/1793020523900?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Wild Horse Nine
 DTSTART;TZID=Europe/Oslo:20261206T210000
 DTEND;TZID=Europe/Oslo:20261206T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-113932-34938@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 2\, Tromsø
 URL:https://fokus.aurorakino.no/f/wild-horse-nine/1568
@@ -2838,7 +2693,7 @@ BEGIN:VEVENT
 SUMMARY:Asterix Kongeriket Nubia
 DTSTART;TZID=Europe/Oslo:20261206T111500
 DTEND;TZID=Europe/Oslo:20261206T131500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117126-34975@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/asterix-kongeriket-nubia/1684
@@ -2850,7 +2705,7 @@ BEGIN:VEVENT
 SUMMARY:Wildwood
 DTSTART;TZID=Europe/Oslo:20261206T173000
 DTEND;TZID=Europe/Oslo:20261206T193000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-115498-34935@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
 URL:https://fokus.aurorakino.no/f/wildwood/1669
@@ -2859,22 +2714,10 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/wildwood-9440/back
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Velkommen Til Familien
-DTSTART;TZID=Europe/Oslo:20261206T210000
-DTEND;TZID=Europe/Oslo:20261206T230000
-DTSTAMP:20261126T173316Z
-UID:aurora-8-115366-34954@fokus.aurorakino.no
-LOCATION:Aurora Kino\, Sal 5\, Tromsø
-URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
-X-IMAGE:https://images.filmgrail.com/mediaserver/movies/velkommen-til-fami
- lien-9682/backdrop/1794305709358?optimizer=image&width=1200
-X-TROMSO-SOURCE:aurora
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ray Gunn
 DTSTART;TZID=Europe/Oslo:20261206T171500
 DTEND;TZID=Europe/Oslo:20261206T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117417-34945@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 4\, Tromsø
 URL:https://fokus.aurorakino.no/f/ray-gunn/1742
@@ -2883,10 +2726,22 @@ X-IMAGE:https://images.filmgrail.com/mediaserver/movies/ray-gunn-10121/bac
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Velkommen Til Familien
+DTSTART;TZID=Europe/Oslo:20261206T210000
+DTEND;TZID=Europe/Oslo:20261206T230000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115366-34954@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/velkommen-til-familien/1733
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/velkommen-til-fami
+ lien-9682/backdrop/1794305709358?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Andre Rieus 2026 Christmas Concert Let It Snow
 DTSTART;TZID=Europe/Oslo:20261206T143000
 DTEND;TZID=Europe/Oslo:20261206T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-117088-34534@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/andre-rieus-2026-christmas-concert-let-i
@@ -2896,10 +2751,481 @@ X-IMAGE:https://images.filmgrail.com/aurora%20fokus%20backdrop%20stub.png?
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:The Hunger Games Sunrise On The Reaping
+DTSTART;TZID=Europe/Oslo:20261207T171500
+DTEND;TZID=Europe/Oslo:20261207T191500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115690-34987@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 1\, Tromsø
+URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
+ 1398
+X-IMAGE:https://images.filmgrail.com/1793188381320-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julenissens Verksted
+DTSTART;TZID=Europe/Oslo:20261207T170000
+DTEND;TZID=Europe/Oslo:20261207T190000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-110763-34990@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/julenissens-verkst
+ ed-8297/backdrop/1792077315334?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;TZID=Europe/Oslo:20261207T193000
+DTEND;TZID=Europe/Oslo:20261207T213000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116758-34992@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
+X-IMAGE:https://images.filmgrail.com/1793796023868-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ebenezer
+DTSTART;TZID=Europe/Oslo:20261207T180000
+DTEND;TZID=Europe/Oslo:20261207T200000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114847-34995@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/ebenezer/1588
+X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261207T204500
+DTEND;TZID=Europe/Oslo:20261207T224500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-34993@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 1\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Katten Med Hatten
+DTSTART;TZID=Europe/Oslo:20261207T170000
+DTEND;TZID=Europe/Oslo:20261207T190000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115703-34996@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/katten-med-hatten/1541
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/katten-med-hatten-
+ 7500/backdrop/1794831311036?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Focker In Law
+DTSTART;TZID=Europe/Oslo:20261207T203000
+DTEND;TZID=Europe/Oslo:20261207T223000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114632-34998@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/focker-in-law/1567
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/focker-in-law-8388
+ /backdrop/1793020518412?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Markens Grode
+DTSTART;TZID=Europe/Oslo:20261207T174500
+DTEND;TZID=Europe/Oslo:20261207T194500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-111977-34991@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/markens-grode/1574
+X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:November 1963
+DTSTART;TZID=Europe/Oslo:20261207T204500
+DTEND;TZID=Europe/Oslo:20261207T224500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116657-34997@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/november-1963/1677
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/november-1963-9438
+ /backdrop/1795497309650?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261207T210000
+DTEND;TZID=Europe/Oslo:20261207T230000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34994@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ray Gunn
+DTSTART;TZID=Europe/Oslo:20261207T173000
+DTEND;TZID=Europe/Oslo:20261207T193000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-117417-34989@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/ray-gunn/1742
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/ray-gunn-10121/bac
+ kdrop/1795086915879?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hunger Games Sunrise On The Reaping
+DTSTART;TZID=Europe/Oslo:20261208T143000
+DTEND;TZID=Europe/Oslo:20261208T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115690-34874@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 1\, Tromsø
+URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
+ 1398
+X-IMAGE:https://images.filmgrail.com/1793188381320-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hexe Det Magiske Riket
+DTSTART;TZID=Europe/Oslo:20261208T170000
+DTEND;TZID=Europe/Oslo:20261208T190000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116060-34888@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
+X-IMAGE:https://images.filmgrail.com/1795697043368-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julenissens Verksted
+DTSTART;TZID=Europe/Oslo:20261208T164500
+DTEND;TZID=Europe/Oslo:20261208T184500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-110763-34878@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/julenissens-verkst
+ ed-8297/backdrop/1792077315334?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;TZID=Europe/Oslo:20261208T120000
+DTEND;TZID=Europe/Oslo:20261208T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116758-34876@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
+X-IMAGE:https://images.filmgrail.com/1793796023868-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ebenezer
+DTSTART;TZID=Europe/Oslo:20261208T210000
+DTEND;TZID=Europe/Oslo:20261208T230000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114847-34879@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/ebenezer/1588
+X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261208T120000
+DTEND;TZID=Europe/Oslo:20261208T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-34886@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Focker In Law
+DTSTART;TZID=Europe/Oslo:20261208T191000
+DTEND;TZID=Europe/Oslo:20261208T211000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114632-34891@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/focker-in-law/1567
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/focker-in-law-8388
+ /backdrop/1793020518412?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Markens Grode
+DTSTART;TZID=Europe/Oslo:20261208T120000
+DTEND;TZID=Europe/Oslo:20261208T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-111977-34881@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/markens-grode/1574
+X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wild Horse Nine
+DTSTART;TZID=Europe/Oslo:20261208T120000
+DTEND;TZID=Europe/Oslo:20261208T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-113932-34883@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/wild-horse-nine/1568
+X-IMAGE:https://images.filmgrail.com/1793881615325-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pensjonskuppet
+DTSTART;TZID=Europe/Oslo:20261208T120000
+DTEND;TZID=Europe/Oslo:20261208T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112150-34884@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
+X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:November 1963
+DTSTART;TZID=Europe/Oslo:20261208T143000
+DTEND;TZID=Europe/Oslo:20261208T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116657-34892@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/november-1963/1677
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/november-1963-9438
+ /backdrop/1795497309650?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261208T143000
+DTEND;TZID=Europe/Oslo:20261208T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34893@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Asterix Kongeriket Nubia
+DTSTART;TZID=Europe/Oslo:20261208T170000
+DTEND;TZID=Europe/Oslo:20261208T190000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-117126-34882@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/asterix-kongeriket-nubia/1684
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/asterix-kongeriket
+ -nubia-9437/backdrop/1795433835796?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hope
+DTSTART;TZID=Europe/Oslo:20261208T201500
+DTEND;TZID=Europe/Oslo:20261208T221500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116345-34890@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/hope/1691
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop
+ /1795775211679?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bitter Jul
+DTSTART;TZID=Europe/Oslo:20261208T174500
+DTEND;TZID=Europe/Oslo:20261208T194500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112155-34889@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/bitter-jul/1580
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/bitter-jul-9209/ba
+ ckdrop/1794126608665?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:No Good Men
+DTSTART;TZID=Europe/Oslo:20261208T143000
+DTEND;TZID=Europe/Oslo:20261208T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114630-34887@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/no-good-men/1683
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/no-good-men-8717/b
+ ackdrop/1795177808598?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hunger Games Sunrise On The Reaping
+DTSTART;TZID=Europe/Oslo:20261209T143000
+DTEND;TZID=Europe/Oslo:20261209T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115690-34956@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 1\, Tromsø
+URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
+ 1398
+X-IMAGE:https://images.filmgrail.com/1793188381320-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hexe Det Magiske Riket
+DTSTART;TZID=Europe/Oslo:20261209T171500
+DTEND;TZID=Europe/Oslo:20261209T191500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116060-34984@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/hexe-det-magiske-riket/1590
+X-IMAGE:https://images.filmgrail.com/1795697043368-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julenissens Verksted
+DTSTART;TZID=Europe/Oslo:20261209T170000
+DTEND;TZID=Europe/Oslo:20261209T190000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-110763-34981@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/julenissens-verkst
+ ed-8297/backdrop/1792077315334?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;TZID=Europe/Oslo:20261209T120000
+DTEND;TZID=Europe/Oslo:20261209T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116758-34958@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
+X-IMAGE:https://images.filmgrail.com/1793796023868-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ebenezer
+DTSTART;TZID=Europe/Oslo:20261209T181500
+DTEND;TZID=Europe/Oslo:20261209T201500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114847-34965@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/ebenezer/1588
+X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261209T143000
+DTEND;TZID=Europe/Oslo:20261209T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-34970@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Markens Grode
+DTSTART;TZID=Europe/Oslo:20261209T120000
+DTEND;TZID=Europe/Oslo:20261209T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-111977-34967@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/markens-grode/1574
+X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wild Horse Nine
+DTSTART;TZID=Europe/Oslo:20261209T120000
+DTEND;TZID=Europe/Oslo:20261209T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-113932-34961@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/wild-horse-nine/1568
+X-IMAGE:https://images.filmgrail.com/1793881615325-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pensjonskuppet
+DTSTART;TZID=Europe/Oslo:20261209T120000
+DTEND;TZID=Europe/Oslo:20261209T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112150-34968@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
+X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddy
+DTSTART;TZID=Europe/Oslo:20261209T143000
+DTEND;TZID=Europe/Oslo:20261209T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116872-34964@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/buddy/1737
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/buddy-10099/backdr
+ op/1795090417080?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wildwood
+DTSTART;TZID=Europe/Oslo:20261209T143000
+DTEND;TZID=Europe/Oslo:20261209T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115498-34986@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/wildwood/1669
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/wildwood-9440/back
+ drop/1793639584102?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ray Gunn
+DTSTART;TZID=Europe/Oslo:20261209T200000
+DTEND;TZID=Europe/Oslo:20261209T220000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-117417-34983@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/ray-gunn/1742
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/ray-gunn-10121/bac
+ kdrop/1795086915879?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Love Actually
 DTSTART;TZID=Europe/Oslo:20261209T180000
 DTEND;TZID=Europe/Oslo:20261209T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:aurora-8-82724-34465@fokus.aurorakino.no
 LOCATION:Aurora Kino\, Sal 5\, Tromsø
 URL:https://fokus.aurorakino.no/f/love-actually/182
@@ -2908,10 +3234,167 @@ X-IMAGE:https://images.filmgrail.com/1670583754045?optimizer=image&width=1
 X-TROMSO-SOURCE:aurora
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Paper Tiger
+DTSTART;TZID=Europe/Oslo:20261209T120000
+DTEND;TZID=Europe/Oslo:20261209T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-113356-34982@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/paper-tiger/1739
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/paper-tiger-9466/b
+ ackdrop/1795433806554?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Hunger Games Sunrise On The Reaping
+DTSTART;TZID=Europe/Oslo:20261210T143000
+DTEND;TZID=Europe/Oslo:20261210T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115690-35011@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/the-hunger-games-sunrise-on-the-reaping/
+ 1398
+X-IMAGE:https://images.filmgrail.com/1793188381320-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Julenissens Verksted
+DTSTART;TZID=Europe/Oslo:20261210T143000
+DTEND;TZID=Europe/Oslo:20261210T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-110763-35014@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 5\, Tromsø
+URL:https://fokus.aurorakino.no/f/julenissens-verksted/1451
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/julenissens-verkst
+ ed-8297/backdrop/1792077315334?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:You Can See Everything
+DTSTART;TZID=Europe/Oslo:20261210T120000
+DTEND;TZID=Europe/Oslo:20261210T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-116758-34844@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 1\, Tromsø
+URL:https://fokus.aurorakino.no/f/you-can-see-everything/1726
+X-IMAGE:https://images.filmgrail.com/1793796023868-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ebenezer
+DTSTART;TZID=Europe/Oslo:20261210T204500
+DTEND;TZID=Europe/Oslo:20261210T224500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114847-35006@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 4\, Tromsø
+URL:https://fokus.aurorakino.no/f/ebenezer/1588
+X-IMAGE:https://images.filmgrail.com/1794496346576-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Violent Night 2
+DTSTART;TZID=Europe/Oslo:20261210T120000
+DTEND;TZID=Europe/Oslo:20261210T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115933-35010@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/violent-night-2/1569
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/violent-night-2-93
+ 73/backdrop/1793020523900?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Katten Med Hatten
+DTSTART;TZID=Europe/Oslo:20261210T171500
+DTEND;TZID=Europe/Oslo:20261210T191500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-115703-35019@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/katten-med-hatten/1541
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/katten-med-hatten-
+ 7500/backdrop/1794831311036?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Focker In Law
+DTSTART;TZID=Europe/Oslo:20261210T143000
+DTEND;TZID=Europe/Oslo:20261210T163000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-114632-35002@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/focker-in-law/1567
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/focker-in-law-8388
+ /backdrop/1793020518412?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Markens Grode
+DTSTART;TZID=Europe/Oslo:20261210T120000
+DTEND;TZID=Europe/Oslo:20261210T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-111977-35017@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/markens-grode/1574
+X-IMAGE:https://images.filmgrail.com/1793186397637-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wild Horse Nine
+DTSTART;TZID=Europe/Oslo:20261210T120000
+DTEND;TZID=Europe/Oslo:20261210T140000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-113932-35003@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 3\, Tromsø
+URL:https://fokus.aurorakino.no/f/wild-horse-nine/1568
+X-IMAGE:https://images.filmgrail.com/1793881615325-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pensjonskuppet
+DTSTART;TZID=Europe/Oslo:20261210T204500
+DTEND;TZID=Europe/Oslo:20261210T224500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112150-35015@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/pensjonskuppet/1550
+X-IMAGE:https://images.filmgrail.com/1792763345445-blob?optimizer=image&wi
+ dth=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Love Actually
+DTSTART;TZID=Europe/Oslo:20261210T180000
+DTEND;TZID=Europe/Oslo:20261210T200000
+DTSTAMP:20261127T162851Z
+UID:aurora-8-82724-34402@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 2\, Tromsø
+URL:https://fokus.aurorakino.no/f/love-actually/182
+X-IMAGE:https://images.filmgrail.com/1670583754045?optimizer=image&width=1
+ 200&optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bitter Jul
+DTSTART;TZID=Europe/Oslo:20261210T181500
+DTEND;TZID=Europe/Oslo:20261210T201500
+DTSTAMP:20261127T162851Z
+UID:aurora-8-112155-35018@fokus.aurorakino.no
+LOCATION:Aurora Kino\, Sal 6 - LUXUS by LEXUS\, Tromsø
+URL:https://fokus.aurorakino.no/f/bitter-jul/1580
+X-IMAGE:https://images.filmgrail.com/mediaserver/movies/bitter-jul-9209/ba
+ ckdrop/1794126608665?optimizer=image&width=1200
+X-TROMSO-SOURCE:aurora
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Førjulsballetten 2026
 DTSTART;TZID=Europe/Oslo:20261204T180000
 DTEND;TZID=Europe/Oslo:20261204T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:kulturskolen-36593-20261204T1800@kulturskolentromso.no
 LOCATION:Kulturskolen Tromsø
 URL:https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?
@@ -2926,7 +3409,7 @@ BEGIN:VEVENT
 SUMMARY:Julekonsert i Kroken kirke
 DTSTART;TZID=Europe/Oslo:20261210T180000
 DTEND;TZID=Europe/Oslo:20261210T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:kulturskolen-36671-20261210T1800@kulturskolentromso.no
 LOCATION:Kulturskolen Tromsø
 URL:https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?
@@ -2941,7 +3424,7 @@ BEGIN:VEVENT
 SUMMARY:Den Store Julereisa
 DTSTART;TZID=Europe/Oslo:20261211T180000
 DTEND;TZID=Europe/Oslo:20261211T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:kulturskolen-36930-20261211T1800@kulturskolentromso.no
 LOCATION:Kulturskolen Tromsø
 URL:https://www.kulturskolentromso.no/praktisk-info/kommende-aktiviteter/?
@@ -2956,7 +3439,7 @@ BEGIN:VEVENT
 SUMMARY:monday meditation
 DTSTART;TZID=Europe/Oslo:20261130T100000
 DTEND;TZID=Europe/Oslo:20261130T120000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:lovetann-2550410@tickettailor.com
 LOCATION:Løvetann\, Grønnegata 118A\, Tromsø
 URL:https://www.tickettailor.com/events/lovetann/2550410
@@ -2966,7 +3449,7 @@ BEGIN:VEVENT
 SUMMARY:pust & piano w/ Theresa
 DTSTART;TZID=Europe/Oslo:20261201T180000
 DTEND;TZID=Europe/Oslo:20261201T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:lovetann-2550483@tickettailor.com
 LOCATION:Løvetann\, Grønnegata 118A\, Tromsø
 URL:https://www.tickettailor.com/events/lovetann/2550483
@@ -2976,7 +3459,7 @@ BEGIN:VEVENT
 SUMMARY:Jivamukti Yoga SPIRITUAL WARRIOR w/ Olivia
 DTSTART;TZID=Europe/Oslo:20261202T170000
 DTEND;TZID=Europe/Oslo:20261202T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:lovetann-2554612@tickettailor.com
 LOCATION:Løvetann\, Grønnegata 118A\, Tromsø
 URL:https://www.tickettailor.com/events/lovetann/2554612
@@ -2986,45 +3469,18 @@ BEGIN:VEVENT
 SUMMARY:familiekonstellasjon m/ Steffen Rostock
 DTSTART;TZID=Europe/Oslo:20261216T180000
 DTEND;TZID=Europe/Oslo:20261216T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:lovetann-2543561@tickettailor.com
 LOCATION:Løvetann\, Grønnegata 118A\, Tromsø
 URL:https://www.tickettailor.com/events/lovetann/2543561
 X-TROMSO-SOURCE:lovetann
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Shut Up and Write - and Read!
-DTSTART;TZID=Europe/Oslo:20261127T101500
-DTEND;TZID=Europe/Oslo:20261127T121500
-DTSTAMP:20261126T173316Z
-UID:uit-941463@uit.no
-LOCATION:UB 244 (Universitetsbiblioteket\, 2. etasje)\, UiT Tromsø
-URL:https://uit.no/tavla/artikkel/941463/shut_up_and_write_-_and_read
-X-IMAGE:https://uit.no/Content/862029/cache=20240110150533/transformation=
- scale10000x560/Shut%20Up%20and%20Write%20Copy%20%281%29.jpg
-X-TROMSO-FREE:TRUE
-X-TROMSO-SOURCE:uit
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Disputas – cand.med. Stephanie Lindgård Knudtzon
-DTSTART;TZID=Europe/Oslo:20261127T143000
-DTEND;TZID=Europe/Oslo:20261127T163000
-DTSTAMP:20261126T173316Z
-UID:uit-945457@uit.no
-LOCATION:Auditorium Cortex\, MH2- plan7\, UiT Tromsø
-URL:https://uit.no/tavla/artikkel/945457/disputas_cand_med_stephanie_lindg
- ard_knudtzon
-X-IMAGE:https://uit.no/Content/945456/cache=20261611092321/transformation=
- scale10000x560/Stephanie.jpg
-X-TROMSO-FREE:TRUE
-X-TROMSO-SOURCE:uit
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Natt på museet | Gratis filmvisning i samarbeid med Tromsø barne
  filmklubb
 DTSTART;TZID=Europe/Oslo:20261128T160000
 DTEND;TZID=Europe/Oslo:20261128T180000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-943563@uit.no
 LOCATION:Norges arktiske universitetsmuseum\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/943563/natt_pa_museet_gratis_filmvisning
@@ -3038,7 +3494,7 @@ BEGIN:VEVENT
 SUMMARY:Natt på museet
 DTSTART;TZID=Europe/Oslo:20261128T160000
 DTEND;TZID=Europe/Oslo:20261128T180000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-943583@uit.no
 LOCATION:Norges arktiske universitetsmuseum\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/943583/natt_pa_museet
@@ -3051,7 +3507,7 @@ BEGIN:VEVENT
 SUMMARY:Utendørs utstillingsåpning: GLIMT 2026 - Det Lille Kulturhus
 DTSTART;TZID=Europe/Oslo:20261128T200000
 DTEND;TZID=Europe/Oslo:20261128T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-943272@uit.no
 LOCATION:Norges arktiske universitetsmuseum\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/943272/utendors_utstillingsapning_glimt_
@@ -3067,7 +3523,7 @@ SUMMARY:Fra Det Lille Kulturhus til museum: Konsert med Karlsøy Prestegaa
  rd og Verlos Vintage
 DTSTART;TZID=Europe/Oslo:20261128T210000
 DTEND;TZID=Europe/Oslo:20261128T230000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-943683@uit.no
 LOCATION:Norges arktiske universitetsmuseum\, Lars Thøringsveg 10\, UiT T
  romsø
@@ -3082,7 +3538,7 @@ BEGIN:VEVENT
 SUMMARY:INCP2 Bioscopy workshop Tromsø – 2026
 DTSTART;TZID=Europe/Oslo:20261130T100000
 DTEND;TZID=Europe/Oslo:20261130T120000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-946050@uit.no
 LOCATION:Tek 2.019\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/946050/incp2_bioscopy_workshop_tromso_20
@@ -3096,7 +3552,7 @@ BEGIN:VEVENT
 SUMMARY:Research innovation Bootcamp
 DTSTART;TZID=Europe/Oslo:20261130T120000
 DTEND;TZID=Europe/Oslo:20261130T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-940651@uit.no
 LOCATION:InnoHub (by the MH library)\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/940651/research_innovation_bootcamp
@@ -3110,7 +3566,7 @@ SUMMARY:Outside the Syllabus II: Who Rules? Rethinking Democracy – Quest
  ioning Power and Sovereignty
 DTSTART;TZID=Europe/Oslo:20261130T133000
 DTEND;TZID=Europe/Oslo:20261130T153000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945693@uit.no
 LOCATION:SVHUM E-0105\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945693/outside_the_syllabus_ii_who_rules
@@ -3125,7 +3581,7 @@ SUMMARY:Environmental Humanities gathering #89: Kristin Harila x AMAP Arct
  ic Youth Expedition\, screening and discussion
 DTSTART;TZID=Europe/Oslo:20261130T141500
 DTEND;TZID=Europe/Oslo:20261130T161500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945167@uit.no
 LOCATION:Teo-H6.222 Kino\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945167/environmental_humanities_gatherin
@@ -3139,7 +3595,7 @@ BEGIN:VEVENT
 SUMMARY:Artist talk with Dora García
 DTSTART;TZID=Europe/Oslo:20261130T151500
 DTEND;TZID=Europe/Oslo:20261130T171500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945966@uit.no
 LOCATION:Grønnegata 1\, Black Box\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945966/artist_talk_with_dora_garc_a
@@ -3152,7 +3608,7 @@ BEGIN:VEVENT
 SUMMARY:Trial Lecture and Thesis Defense - Aqsa Rahim
 DTSTART;TZID=Europe/Oslo:20261201T101500
 DTEND;TZID=Europe/Oslo:20261201T121500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945714@uit.no
 LOCATION:Auditorium 1.022\, Teknologibygget\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945714/trial_lecture_and_thesis_defense_
@@ -3166,7 +3622,7 @@ BEGIN:VEVENT
 SUMMARY:Hjelp biblioteket med nye nettsider - premiering for deltakelse!
 DTSTART;TZID=Europe/Oslo:20261201T120000
 DTEND;TZID=Europe/Oslo:20261201T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-943912@uit.no
 LOCATION:Online\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/943912/hjelp_biblioteket_med_nye_nettsid
@@ -3181,7 +3637,7 @@ SUMMARY:Environmental Humanities gathering #90: End-of-semester skills cir
  cle on non-traditional research outputs
 DTSTART;TZID=Europe/Oslo:20261201T143000
 DTEND;TZID=Europe/Oslo:20261201T163000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945992@uit.no
 LOCATION:TEO-H1 1.545 Møterom Utsikten\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945992/environmental_humanities_gatherin
@@ -3195,7 +3651,7 @@ BEGIN:VEVENT
 SUMMARY:BirdLife Tromsø - julemøte 2026
 DTSTART;TZID=Europe/Oslo:20261201T183000
 DTEND;TZID=Europe/Oslo:20261201T203000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945928@uit.no
 LOCATION:Norges arktiske universitetsmusuem\, Lars Thøringsveg 10\, UiT T
  romsø
@@ -3209,7 +3665,7 @@ BEGIN:VEVENT
 SUMMARY:Trial Lecture and Thesis Defense - Abhinanda Ranjit Punnakkal
 DTSTART;TZID=Europe/Oslo:20261202T101500
 DTEND;TZID=Europe/Oslo:20261202T121500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945786@uit.no
 LOCATION:Auditorium 1.022\, Teknologibygget\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945786/trial_lecture_and_thesis_defense_
@@ -3224,7 +3680,7 @@ SUMMARY:Research data management – why\, how and AI – UiT Data Day 202
  6
 DTSTART;TZID=Europe/Oslo:20261202T121500
 DTEND;TZID=Europe/Oslo:20261202T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945855@uit.no
 LOCATION:Universitetsbiblioteket (UB 132-Aud)\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945855/research_data_management_why_how_
@@ -3235,25 +3691,10 @@ X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:uit
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ArcHum Research Seminar: Mapping changes to traditional use of lan
- ds\, waters and seascapes in Sápmi
-DTSTART;TZID=Europe/Oslo:20261203T091500
-DTEND;TZID=Europe/Oslo:20261203T111500
-DTSTAMP:20261126T173316Z
-UID:uit-945479@uit.no
-LOCATION:ILP 1.007\, UiT Tromsø
-URL:https://uit.no/tavla/artikkel/945479/archum_research_seminar_mapping_c
- hanges_to_tradi
-X-IMAGE:https://uit.no/Content/945478/cache=20261611112740/transformation=
- scale10000x560/archum-research-seminar-kvadrat.png
-X-TROMSO-FREE:TRUE
-X-TROMSO-SOURCE:uit
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Disputas – Master i folkehelse Linn Nilsen
 DTSTART;TZID=Europe/Oslo:20261203T101500
 DTEND;TZID=Europe/Oslo:20261203T121500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945735@uit.no
 LOCATION:Auditorium Cortex\, plan 7\, MH Vest\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945735/disputas_master_i_folkehelse_linn
@@ -3267,7 +3708,7 @@ BEGIN:VEVENT
 SUMMARY:SHE-NORs Juleseminar om kvinnehelse
 DTSTART;TZID=Europe/Oslo:20261203T123000
 DTEND;TZID=Europe/Oslo:20261203T143000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945876@uit.no
 LOCATION:U.08.316\, Aud. Cerebrum\, HelseFak\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945876/she-nors_juleseminar_om_kvinnehel
@@ -3281,7 +3722,7 @@ BEGIN:VEVENT
 SUMMARY:SHE-NOR Women's Health Network Christmas Seminar
 DTSTART;TZID=Europe/Oslo:20261203T123000
 DTEND;TZID=Europe/Oslo:20261203T143000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945880@uit.no
 LOCATION:U.08.316\, Aud. Cerebrum\, HelseFak\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945880/she-nor_women_s_health_network_ch
@@ -3295,7 +3736,7 @@ BEGIN:VEVENT
 SUMMARY:Utstillingsåpning | Amundsen: Menneskets triumf over naturen
 DTSTART;TZID=Europe/Oslo:20261203T190000
 DTEND;TZID=Europe/Oslo:20261203T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945572@uit.no
 LOCATION:Polarmuseet\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945572/utstillingsapning_amundsen_mennes
@@ -3309,7 +3750,7 @@ BEGIN:VEVENT
 SUMMARY:Disputas - Lars-Jøran Andersson
 DTSTART;TZID=Europe/Oslo:20261204T121500
 DTEND;TZID=Europe/Oslo:20261204T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945799@uit.no
 LOCATION:Auditorium Cortex\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945799/disputas_-_lars-joran_andersson
@@ -3323,7 +3764,7 @@ SUMMARY:Beredskapsseminaret på ISK: "Great Again: Gjenreisningsmyte og ko
  dede bilder i MAGA-bevegelsens visuelle retorikk"
 DTSTART;TZID=Europe/Oslo:20261204T131500
 DTEND;TZID=Europe/Oslo:20261204T151500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-www.arcticvoices.space@uit.no
 LOCATION:Teams\, UiT Tromsø
 URL:https://www.arcticvoices.space/sondre_beredskapsseminaret
@@ -3337,7 +3778,7 @@ SUMMARY:Lørdagsuniversitetet: Fra dommedag til utopi: Hvor er vi på vei
  med kunstig intelligens?
 DTSTART;TZID=Europe/Oslo:20261205T130000
 DTEND;TZID=Europe/Oslo:20261205T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945652@uit.no
 LOCATION:Rødbanken\, Tromsø\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945652/lordagsuniversitetet_fra_dommedag
@@ -3351,7 +3792,7 @@ BEGIN:VEVENT
 SUMMARY:How to turn your research into NVA?
 DTSTART;TZID=Europe/Oslo:20261207T121500
 DTEND;TZID=Europe/Oslo:20261207T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-941685@uit.no
 LOCATION:Café ArcHum\, FI/SKK\, 5. etasje\, Teorifagbygget hus 1\, UiT Tr
  omsø
@@ -3367,7 +3808,7 @@ SUMMARY:ENCODE seminar & debate: How I Learned to Stop Worrying and Love G
  eopolitics
 DTSTART;TZID=Europe/Oslo:20261207T131500
 DTEND;TZID=Europe/Oslo:20261207T151500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-944794@uit.no
 LOCATION:C-1007\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/944794/encode_seminar_debate_how_i_learn
@@ -3382,13 +3823,13 @@ SUMMARY:Philosophical Perspectives on Homelessness\, Home-making and Belon
  ging
 DTSTART;TZID=Europe/Oslo:20261208T094500
 DTEND;TZID=Europe/Oslo:20261208T114500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945824@uit.no
 LOCATION:HUM-SV Aud. E0101\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945824/philosophical_perspectives_on_hom
  elessness_home-
-X-IMAGE:https://uit.no/Content/945834/cache=20262311131633/transformation=
- scale10000x560/Homelessness%20poster.JPG
+X-IMAGE:https://uit.no/Content/946247/cache=20262711150041/transformation=
+ scale10000x560/Homelessness%20program.JPG
 X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:uit
 END:VEVENT
@@ -3397,7 +3838,7 @@ SUMMARY:Læring fra den andre. Mellom undring\, fortelling og generøsitet
   i kvalitativ forskning
 DTSTART;TZID=Europe/Oslo:20261209T121500
 DTEND;TZID=Europe/Oslo:20261209T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-944564@uit.no
 LOCATION:Handelshøyskolen Rom 2.414\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/944564/laering_fra_den_andre_mellom_undr
@@ -3408,10 +3849,24 @@ X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:uit
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Disputas - Master of Science i psykologi Malin Gullsvåg
+DTSTART;TZID=Europe/Oslo:20261209T121500
+DTEND;TZID=Europe/Oslo:20261209T141500
+DTSTAMP:20261127T162851Z
+UID:uit-946229@uit.no
+LOCATION:Auditorium Cortex\, UiT Tromsø
+URL:https://uit.no/tavla/artikkel/946229/disputas_-_master_of_science_i_ps
+ ykologi_malin_gu
+X-IMAGE:https://uit.no/Content/946230/cache=20262711122342/transformation=
+ scale10000x560/Disputas%20Malin%20Gulv%C3%A5g.jpg
+X-TROMSO-FREE:TRUE
+X-TROMSO-SOURCE:uit
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:GBIF-OBIS FAIR data publishing workshop
 DTSTART;TZID=Europe/Oslo:20261210T090000
 DTEND;TZID=Europe/Oslo:20261210T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-944170@uit.no
 LOCATION:The Arctic University Museum of Norway\, Lars Thøringsveg 10\, T
  romsø\, UiT Tromsø
@@ -3426,7 +3881,7 @@ BEGIN:VEVENT
 SUMMARY:Ope seminar - Med naturen som arena for helsebringande arbeid
 DTSTART;TZID=Europe/Oslo:20261210T091500
 DTEND;TZID=Europe/Oslo:20261210T111500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-943529@uit.no
 LOCATION:Panopto\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/943529/ope_seminar_-_med_naturen_som_are
@@ -3440,7 +3895,7 @@ BEGIN:VEVENT
 SUMMARY:Renewable Energy at the North (Academia meets Industry)
 DTSTART;TZID=Europe/Oslo:20261210T100000
 DTEND;TZID=Europe/Oslo:20261210T120000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-946146@uit.no
 LOCATION:Auditorium Didaktikken (1.059) ILP bygget\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/946146/renewable_energy_at_the_north_aca
@@ -3454,7 +3909,7 @@ BEGIN:VEVENT
 SUMMARY:Avslutning for sykepleiestudenter (desentralisert\, deltid) D23
 DTSTART;TZID=Europe/Oslo:20261210T110000
 DTEND;TZID=Europe/Oslo:20261210T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945316@uit.no
 LOCATION:Aud Cerebrum\, MH2\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945316/avslutning_for_sykepleiestudenter
@@ -3470,7 +3925,7 @@ SUMMARY:IFF Research Seminar: Jørgen Pedersen (Høgskulen på Vestlandet)
  \, "Naturtap og global rettferdighet"
 DTSTART;TZID=Europe/Oslo:20261210T121500
 DTEND;TZID=Europe/Oslo:20261210T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-942307@uit.no
 LOCATION:Teorifagbygget HUS1\, Innsikten 1.524 and on Teams\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/942307/iff_research_seminar_jorgen_peder
@@ -3485,7 +3940,7 @@ SUMMARY:Arctic Institute for AI Seminar: On the Potential of Large Languag
  e Models for Youth Mental Health
 DTSTART;TZID=Europe/Oslo:20261210T131500
 DTEND;TZID=Europe/Oslo:20261210T151500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945969@uit.no
 LOCATION:Teknologibygget\, Auditorium 1.022 / Online\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945969/arctic_institute_for_ai_seminar_o
@@ -3499,7 +3954,7 @@ BEGIN:VEVENT
 SUMMARY:Helsefak Research Seminar - Maria Arlèn Larsen
 DTSTART;TZID=Europe/Oslo:20261214T121500
 DTEND;TZID=Europe/Oslo:20261214T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-932070@uit.no
 LOCATION:MH1 Store auditorium\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/932070/helsefak_research_seminar_-_maria
@@ -3513,7 +3968,7 @@ BEGIN:VEVENT
 SUMMARY:The English Book Club
 DTSTART;TZID=Europe/Oslo:20261214T171500
 DTEND;TZID=Europe/Oslo:20261214T191500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-917965@uit.no
 LOCATION:In person at Tromsdalen Library\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/917965/the_english_book_club
@@ -3526,7 +3981,7 @@ BEGIN:VEVENT
 SUMMARY:Northern Lights Deep Learning Conference 2027
 DTSTART;TZID=Europe/Oslo:20270111T080000
 DTEND;TZID=Europe/Oslo:20270111T100000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-921577@uit.no
 LOCATION:Teorifagbygget hus 1\, Auditorium 1\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/921577/northern_lights_deep_learning_con
@@ -3540,7 +3995,7 @@ BEGIN:VEVENT
 SUMMARY:Nasjonal Fagkonferanse i Statsvitenskap 2027 i Tromsø
 DTSTART;TZID=Europe/Oslo:20270112T130000
 DTEND;TZID=Europe/Oslo:20270112T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-924914@uit.no
 LOCATION:Tromsø\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/924914/nasjonal_fagkonferanse_i_statsvit
@@ -3551,10 +4006,26 @@ X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:uit
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Åpent innspillsmøte om fremtidens utdanningsstøtte
+DTSTART;TZID=Europe/Oslo:20270112T150000
+DTEND;TZID=Europe/Oslo:20270112T170000
+DTSTAMP:20261127T162851Z
+UID:uit-946224@uit.no
+LOCATION:Hiet. B.124\, Administrasjonsbygget \, Campus Breivika - MazeMap\
+ , UiT Tromsø
+URL:https://uit.no/tavla/artikkel/946224/apent_innspillsmote_om_fremtidens
+ _utdanningsstotte
+X-IMAGE:https://uit.no/Content/946220/cache=20262711105519/transformation=
+ scale10000x560/Solveig%20Mel%C3%B8y%2C%20Cecilia%20Bergland%20Kr%C3%B8t%C3
+ %B8%20og%20Sandra%20Pedersen%20Anthi-08605.jpg
+X-TROMSO-FREE:TRUE
+X-TROMSO-SOURCE:uit
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Fremtidens utdanning ved UiT
 DTSTART;TZID=Europe/Oslo:20270121T090000
 DTEND;TZID=Europe/Oslo:20270121T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945270@uit.no
 LOCATION:TEO-H1 Auditorium 2\, UiT studiested Tromsø\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945270/fremtidens_utdanning_ved_uit
@@ -3567,7 +4038,7 @@ BEGIN:VEVENT
 SUMMARY:ERC Masterclass - inspirational seminar
 DTSTART;TZID=Europe/Oslo:20270121T091500
 DTEND;TZID=Europe/Oslo:20270121T111500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945650@uit.no
 LOCATION:tbc\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945650/erc_masterclass_-_inspirational_s
@@ -3581,7 +4052,7 @@ BEGIN:VEVENT
 SUMMARY:Special curriculum in Agentic AI
 DTSTART;TZID=Europe/Oslo:20270125T090000
 DTEND;TZID=Europe/Oslo:20270125T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-944847@uit.no
 LOCATION:UiT\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/944847/special_curriculum_in_agentic_ai
@@ -3594,7 +4065,7 @@ BEGIN:VEVENT
 SUMMARY:TEKdagen 2027
 DTSTART;TZID=Europe/Oslo:20270210T090000
 DTEND;TZID=Europe/Oslo:20270210T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-@uit.no
 LOCATION:Lysgården\, Medisin og helsefagbygget\, UiT Tromsø
 URL:https://tekdagen.no/
@@ -3607,7 +4078,7 @@ BEGIN:VEVENT
 SUMMARY:ERC Masterclass - ERC course (AdG/SyG)
 DTSTART;TZID=Europe/Oslo:20270210T090000
 DTEND;TZID=Europe/Oslo:20270210T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945886@uit.no
 LOCATION:TBC\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945886/erc_masterclass_-_erc_course_adg_
@@ -3621,7 +4092,7 @@ BEGIN:VEVENT
 SUMMARY:Hold av dagen: MOKTA 2027
 DTSTART;TZID=Europe/Oslo:20270302T100000
 DTEND;TZID=Europe/Oslo:20270302T120000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945381@uit.no
 LOCATION:Campus Tromsø - nærmere informasjon kommer\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945381/hold_av_dagen_mokta_2027
@@ -3635,7 +4106,7 @@ SUMMARY:NERA 2027: Navigating Change\, Risk and Resilience in Uncertain Ti
  mes
 DTSTART;TZID=Europe/Oslo:20270310T080000
 DTEND;TZID=Europe/Oslo:20270310T100000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-site.uit.no@uit.no
 LOCATION:Teorifagbygget og SVHUM\, UiT Tromsø
 URL:https://site.uit.no/nera2027/
@@ -3648,7 +4119,7 @@ BEGIN:VEVENT
 SUMMARY:How to write a successful proposal for ERC StG/CoG
 DTSTART;TZID=Europe/Oslo:20270429T090000
 DTEND;TZID=Europe/Oslo:20270429T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-945887@uit.no
 LOCATION:UiT\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/945887/how_to_write_a_successful_proposa
@@ -3662,7 +4133,7 @@ BEGIN:VEVENT
 SUMMARY:Nettverkssamling for kombinerte stillinger 2027
 DTSTART;TZID=Europe/Oslo:20270511T083000
 DTEND;TZID=Europe/Oslo:20270511T103000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-929753@uit.no
 LOCATION:kommer\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/929753/nettverkssamling_for_kombinerte_s
@@ -3676,7 +4147,7 @@ BEGIN:VEVENT
 SUMMARY:Experimental Health Research Conference EHRC 2027
 DTSTART;TZID=Europe/Oslo:20270609T083000
 DTEND;TZID=Europe/Oslo:20270609T103000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-944912@uit.no
 LOCATION:Teorifagbygget Hus 1\, Auditorium 1\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/944912/experimental_health_research_conf
@@ -3690,7 +4161,7 @@ BEGIN:VEVENT
 SUMMARY:Conference on Language\, Brain & Learning
 DTSTART;TZID=Europe/Oslo:20270624T080000
 DTEND;TZID=Europe/Oslo:20270624T100000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-931267@uit.no
 LOCATION:UiT The Arctic University of Norway\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/931267/conference_on_language_brain_lear
@@ -3704,7 +4175,7 @@ BEGIN:VEVENT
 SUMMARY:Fysikermøtet 2027
 DTSTART;TZID=Europe/Oslo:20270809T120000
 DTEND;TZID=Europe/Oslo:20270809T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-944036@uit.no
 LOCATION:Campus Breivika\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/944036/fysikermotet_2027
@@ -3717,7 +4188,7 @@ BEGIN:VEVENT
 SUMMARY:31st EU-US Transport Task Force Workshop
 DTSTART;TZID=Europe/Oslo:20270907T081500
 DTEND;TZID=Europe/Oslo:20270907T101500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:uit-936431@uit.no
 LOCATION:Radisson Blu Hotel Tromsø\, UiT Tromsø
 URL:https://uit.no/tavla/artikkel/936431/31st_eu-us_transport_task_force_w
@@ -3728,63 +4199,10 @@ X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:uit
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kunnskapsdag i medisinsk og helsefaglig utdanningsforskning - 16.n
- ovember 2026
-DTSTART;TZID=Europe/Oslo:20371116T091500
-DTEND;TZID=Europe/Oslo:20371116T111500
-DTSTAMP:20261126T173316Z
-UID:uit-941579@uit.no
-LOCATION:Sted: MH2 L12.346. Møterom Aorta\, UiT Tromsø
-URL:https://uit.no/tavla/artikkel/941579/kunnskapsdag_i_medisinsk_og_helse
- faglig_utdanning
-X-IMAGE:https://uit.no/Content/941703/cache=20262409120137/transformation=
- scale10000x560/Group%20concept%20mapping_illustrasjon.png
-X-TROMSO-FREE:TRUE
-X-TROMSO-SOURCE:uit
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STRANGE DAYS
-DTSTART;TZID=Europe/Oslo:20261126T173000
-DTEND;TZID=Europe/Oslo:20261126T193000
-DTSTAMP:20261126T173316Z
-UID:verdensteatret-strange-days-craft-encode-20261126T1730@verdensteatret.
- no
-LOCATION:Verdensteatret\, Tromsø
-URL:https://www.verdensteatret.no/movie/strange-days-craft-encode
-X-IMAGE:https://www.verdensteatret.no/img/_movieThumb/strange-days-08c_231
- 206_102614.jpg
-X-TROMSO-SOURCE:verdensteatret
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ROCKY
-DTSTART;TZID=Europe/Oslo:20261126T204500
-DTEND;TZID=Europe/Oslo:20261126T224500
-DTSTAMP:20261126T173316Z
-UID:verdensteatret-rocky-20261126T2045@verdensteatret.no
-LOCATION:Verdensteatret\, Tromsø
-URL:https://www.verdensteatret.no/movie/rocky
-X-IMAGE:https://www.verdensteatret.no/img/_movieThumb/42710/5000017_crop.p
- ng
-X-TROMSO-SOURCE:verdensteatret
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:OPERA FRA THE MET | MACBETH (Guiseppe Verdi)
-DTSTART;TZID=Europe/Oslo:20261128T140000
-DTEND;TZID=Europe/Oslo:20261128T160000
-DTSTAMP:20261126T173316Z
-UID:verdensteatret-opera-fra-the-met-macbeth-guiseppe-verdi-20261128T1400@
- verdensteatret.no
-LOCATION:Verdensteatret\, Tromsø
-URL:https://www.verdensteatret.no/arrangement/opera-fra-the-met-macbeth-gu
- iseppe-verdi
-X-IMAGE:https://www.verdensteatret.no/img/_movieThumb/MACBETH_798-1.jpg
-X-TROMSO-SOURCE:verdensteatret
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Vin til Jul
 DTSTART;TZID=Europe/Oslo:20261203T193000
 DTEND;TZID=Europe/Oslo:20261203T213000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3MVc31p0Z1Nggk6UADtLrDq4ABx@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://amtmandens.antitickets.com/event/vin-til-jul
@@ -3800,7 +4218,7 @@ BEGIN:VEVENT
 SUMMARY:Skifilmkveld på Bakrommet
 DTSTART;TZID=Europe/Oslo:20261209T183000
 DTEND;TZID=Europe/Oslo:20261209T203000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3MBbRGDZ1qx58iHfFjYabKsH8Pm@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://amtmandens.antitickets.com/event/skifilmkveld-paa-bakrommet
@@ -3816,7 +4234,7 @@ BEGIN:VEVENT
 SUMMARY:TROMSØ: Torils alternative juleverksted
 DTSTART;TZID=Europe/Oslo:20261209T193000
 DTEND;TZID=Europe/Oslo:20261209T213000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3LWKo7Wnu583xgPB6Is9vUoVyB1@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://nordavin.antitickets.com/event/torils-alternative-juleverksted
@@ -3833,7 +4251,7 @@ BEGIN:VEVENT
 SUMMARY:ROMJULSJAZZ
 DTSTART;TZID=Europe/Oslo:20261227T180000
 DTEND;TZID=Europe/Oslo:20261227T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3IeSnwCK8eu7mTo756agnVY4lyW@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://tromsojazz.antitickets.com/event/romjulsjazz
@@ -3849,7 +4267,7 @@ BEGIN:VEVENT
 SUMMARY:Lær å smake vin - usnobbet vinopplæring
 DTSTART;TZID=Europe/Oslo:20270128T193000
 DTEND;TZID=Europe/Oslo:20270128T213000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3Me1qCeVQVbpFXMj6sIwE4BOYkb@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://nordavin.antitickets.com/event/laer-aa-smake-vin-usnobbet-vino
@@ -3866,7 +4284,7 @@ BEGIN:VEVENT
 SUMMARY:Stillhouse Duo - Steinar Raknes og Unni Wilhelmsen
 DTSTART;TZID=Europe/Oslo:20270213T170000
 DTEND;TZID=Europe/Oslo:20270213T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3KNcjantupuzhq7jQHaYdLRJW36@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://nordlysfestivalen.antitickets.com/event/stillhouse-duo
@@ -3882,7 +4300,7 @@ BEGIN:VEVENT
 SUMMARY:Emma Elliane
 DTSTART;TZID=Europe/Oslo:20270214T200000
 DTEND;TZID=Europe/Oslo:20270214T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3MJzQn3SNI1v6gnK2hkHWgQb597@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://nordlysfestivalen.antitickets.com/event/emma-elliane
@@ -3898,7 +4316,7 @@ BEGIN:VEVENT
 SUMMARY:Trio no Treble - Quizkonsert!
 DTSTART;TZID=Europe/Oslo:20270215T200000
 DTEND;TZID=Europe/Oslo:20270215T220000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:amtmandens-3JzvNb4GUjQa23bh3Cj3VEuhHPc@antitickets.com
 LOCATION:Amtmandens\, Tromsø
 URL:https://nordlysfestivalen.antitickets.com/event/trio-no-treble
@@ -3911,29 +4329,17 @@ X-IMAGE:https://cdn3.antitickets.com/eyJidWNrZXQiOiJhbnRpdGlja2V0cy1pbWFnZ
 X-TROMSO-SOURCE:amtmandens
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Brettspilltorsdag
-DTSTART;TZID=Europe/Oslo:20261126T170000
-DTEND;TZID=Europe/Oslo:20261126T190000
-DTSTAMP:20261126T173316Z
-UID:tromso-bibliotek-brettspilltorsdag-20261126T1700@tromso.kommune.no
-LOCATION:Hovedbiblioteket\, barneavdelingen\, Tromsø
-URL:https://tromso.kommune.no/bibliotek/hendelse/2026/11/brettspilltorsdag
+SUMMARY:Åpent møte med besøk fra Island
+DTSTART;TZID=Europe/Oslo:20261128T113000
+DTEND;TZID=Europe/Oslo:20261128T133000
+DTSTAMP:20261127T162851Z
+UID:tromso-bibliotek-apent-mote-med-besok-fra-island-20261128T1130@tromso.
+ kommune.no
+LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
+URL:https://tromso.kommune.no/bibliotek/hendelse/2026/11/apent-mote-med-be
+ sok-fra-island
 X-IMAGE:https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420
- px_/public/2026-11/Brettspill.png.webp?itok=brs651GY
-X-TROMSO-FREE:TRUE
-X-TROMSO-SOURCE:tromso_bibliotek
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Fredagseventyret
-DTSTART;TZID=Europe/Oslo:20261127T110000
-DTEND;TZID=Europe/Oslo:20261127T130000
-DTSTAMP:20261126T173316Z
-UID:tromso-bibliotek-fredagseventyret-20261127T1100@tromso.kommune.no
-LOCATION:Hovedbiblioteket\, Eventyrrommet\, Tromsø
-URL:https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret
-X-IMAGE:https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420
- px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp
- ?itok=mb6PtbQx
+ px_/public/2026-11/Nei%20til%20EU.jpg.webp?itok=K1r3Qy4P
 X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:tromso_bibliotek
 END:VEVENT
@@ -3941,7 +4347,7 @@ BEGIN:VEVENT
 SUMMARY:Kreativ lørdag
 DTSTART;TZID=Europe/Oslo:20261128T120000
 DTEND;TZID=Europe/Oslo:20261128T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-kreativ-lordag-20261128T1200@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, barneavdelingen\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/07/kreativ-lordag
@@ -3954,7 +4360,7 @@ BEGIN:VEVENT
 SUMMARY:Lohkkanboddu sámegillii - Lesestund på samisk
 DTSTART;TZID=Europe/Oslo:20261129T120000
 DTEND;TZID=Europe/Oslo:20261129T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-lohkkanboddu-samegillii-lesestund-pa-samisk-20261129T
  1200@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, Eventyrrommet\, Tromsø
@@ -3969,7 +4375,7 @@ BEGIN:VEVENT
 SUMMARY:Søndagsfilm
 DTSTART;TZID=Europe/Oslo:20261129T130000
 DTEND;TZID=Europe/Oslo:20261129T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-sondagsfilm-20261129T1300@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, undervisningsrommet\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/07/sondagsfilm
@@ -3982,7 +4388,7 @@ BEGIN:VEVENT
 SUMMARY:Babytreff på biblioteket
 DTSTART;TZID=Europe/Oslo:20261201T130000
 DTEND;TZID=Europe/Oslo:20261201T150000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-babytreff-pa-biblioteket-20261201T1300@tromso.kommune
  .no
 LOCATION:Hovedbiblioteket\, Eventyrrommet\, Tromsø
@@ -3998,7 +4404,7 @@ BEGIN:VEVENT
 SUMMARY:Lesesirkel: Kjøtt
 DTSTART;TZID=Europe/Oslo:20261201T173000
 DTEND;TZID=Europe/Oslo:20261201T193000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-lesesirkel-kjott-20261201T1730@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, møterommet\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/05/lesesirkel-kjott
@@ -4011,7 +4417,7 @@ BEGIN:VEVENT
 SUMMARY:Strikkekafé
 DTSTART;TZID=Europe/Oslo:20261202T170000
 DTEND;TZID=Europe/Oslo:20261202T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-strikkekafe-20261202T1700@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, møterommet\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/07/strikkekafe
@@ -4024,7 +4430,7 @@ BEGIN:VEVENT
 SUMMARY:Drop-in lesesirkel med Heidi Elisabeth
 DTSTART;TZID=Europe/Oslo:20261203T120000
 DTEND;TZID=Europe/Oslo:20261203T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-drop-lesesirkel-med-heidi-elisabeth-20261203T1200@tro
  mso.kommune.no
 LOCATION:Hovedbiblioteket\, Isbjørnrommet\, Tromsø
@@ -4039,7 +4445,7 @@ BEGIN:VEVENT
 SUMMARY:Tromsø bokklubb
 DTSTART;TZID=Europe/Oslo:20261207T180000
 DTEND;TZID=Europe/Oslo:20261207T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-tromso-bokklubb-20261207T1800@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, Isbjørnrommet\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/08/tromso-bokklubb
@@ -4052,7 +4458,7 @@ BEGIN:VEVENT
 SUMMARY:Advokatvakta
 DTSTART;TZID=Europe/Oslo:20261210T163000
 DTEND;TZID=Europe/Oslo:20261210T183000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-advokatvakta-20261210T1630@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/08/advokatvakta
@@ -4062,28 +4468,40 @@ X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:tromso_bibliotek
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Drop-in lesesirkel - formiddag
-DTSTART;TZID=Europe/Oslo:20261126T103000
-DTEND;TZID=Europe/Oslo:20261126T123000
-DTSTAMP:20261126T173316Z
-UID:tromso-bibliotek-drop-lesesirkel-formiddag-20261126T1030@tromso.kommun
- e.no
-LOCATION:Hovedbiblioteket\, Isbjørnrommet\, Tromsø
-URL:https://tromso.kommune.no/bibliotek/hendelse/2026/11/drop-lesesirkel-f
- ormiddag
+SUMMARY:Brettspilltorsdag
+DTSTART;TZID=Europe/Oslo:20270128T170000
+DTEND;TZID=Europe/Oslo:20270128T190000
+DTSTAMP:20261127T162851Z
+UID:tromso-bibliotek-brettspilltorsdag-20270128T1700@tromso.kommune.no
+LOCATION:Hovedbiblioteket\, barneavdelingen\, Tromsø
+URL:https://tromso.kommune.no/bibliotek/hendelse/2026/11/brettspilltorsdag
 X-IMAGE:https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420
- px_/public/2023-06/Drop-in%20lesesirkel%20formiddag.jpg.webp?itok=gzl5Umt3
+ px_/public/2026-11/Brettspill.png.webp?itok=brs651GY
+X-TROMSO-FREE:TRUE
+X-TROMSO-SOURCE:tromso_bibliotek
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Fredagseventyret
+DTSTART;TZID=Europe/Oslo:20261127T110000
+DTEND;TZID=Europe/Oslo:20261127T130000
+DTSTAMP:20261127T162851Z
+UID:tromso-bibliotek-fredagseventyret-20261127T1100@tromso.kommune.no
+LOCATION:Hovedbiblioteket\, Eventyrrommet\, Tromsø
+URL:https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret
+X-IMAGE:https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420
+ px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp
+ ?itok=mb6PtbQx
 X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:tromso_bibliotek
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Internasjonalt seminar:1178 netter – historien om et tvangsektes
  kap
-DTSTART;TZID=Europe/Oslo:20261125T190000
-DTEND;TZID=Europe/Oslo:20261125T210000
-DTSTAMP:20261126T173316Z
+DTSTART;TZID=Europe/Oslo:20271125T190000
+DTEND;TZID=Europe/Oslo:20271125T210000
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-internasjonalt-seminar-1178-netter-historien-om-et-tv
- angsekteskap-20261125T1900@tromso.kommune.no
+ angsekteskap-20271125T1900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
 URL:https://tromso.kommune.no/bibliotek/hendelse/2026/11/internasjonalt-se
  minar-1178-netter-historien-om-et-tvangsekteskap
@@ -4096,7 +4514,7 @@ BEGIN:VEVENT
 SUMMARY:Hvordan påvirker KI kulturen og samfunnet vårt?
 DTSTART;TZID=Europe/Oslo:20271124T190000
 DTEND;TZID=Europe/Oslo:20271124T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-hvordan-pavirker-ki-kulturen-og-samfunnet-vart-202711
  24T1900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4112,7 +4530,7 @@ BEGIN:VEVENT
 SUMMARY:Drop-in lesesirkel - ettermiddag
 DTSTART;TZID=Europe/Oslo:20271124T173000
 DTEND;TZID=Europe/Oslo:20271124T193000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-drop-lesesirkel-ettermiddag-20271124T1730@tromso.komm
  une.no
 LOCATION:Hovedbiblioteket\, møterommet\, Tromsø
@@ -4128,7 +4546,7 @@ BEGIN:VEVENT
 SUMMARY:Lansering: Kulturkart Tromsø
 DTSTART;TZID=Europe/Oslo:20271119T120000
 DTEND;TZID=Europe/Oslo:20271119T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-lansering-kulturkart-tromso-20271119T1200@tromso.komm
  une.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4143,7 +4561,7 @@ BEGIN:VEVENT
 SUMMARY:HVORFOR SER NORDLANDSBÅTEN UT SOM DEN GJØR?
 DTSTART;TZID=Europe/Oslo:20271117T190000
 DTEND;TZID=Europe/Oslo:20271117T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-hvorfor-ser-nordlandsbaten-ut-som-den-gjor-20271117T1
  900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4158,7 +4576,7 @@ BEGIN:VEVENT
 SUMMARY:Åpen barnehage på Tromsø bibliotek
 DTSTART;TZID=Europe/Oslo:20271117T110000
 DTEND;TZID=Europe/Oslo:20271117T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-apen-barnehage-pa-tromso-bibliotek-20271117T1100@trom
  so.kommune.no
 LOCATION:Hovedbiblioteket\, Eventyrrommet\, Tromsø
@@ -4175,7 +4593,7 @@ SUMMARY:Internasjonalt seminar:Geopolitisk spenning i Arktis– Hva med sa
  meksistens\, fred og miljø?
 DTSTART;TZID=Europe/Oslo:20271112T190000
 DTEND;TZID=Europe/Oslo:20271112T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-internasjonalt-seminar-geopolitisk-spenning-i-arktis-
  hva-med-20271112T1900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4191,7 +4609,7 @@ BEGIN:VEVENT
 SUMMARY:Bli med på bokklubb - vi leser Alberte og Jakob! (fulltegnet)
 DTSTART;TZID=Europe/Oslo:20271112T173000
 DTEND;TZID=Europe/Oslo:20271112T193000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-bli-med-pa-bokklubb-vi-leser-alberte-og-jakob-fullteg
  net-20271112T1730@tromso.kommune.no
 LOCATION:Hovedbiblioteket ++\, Tromsø
@@ -4206,7 +4624,7 @@ BEGIN:VEVENT
 SUMMARY:TO KJØNN?Fortellinger om mangfold fra historien og biologien
 DTSTART;TZID=Europe/Oslo:20271112T170000
 DTEND;TZID=Europe/Oslo:20271112T190000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-kjonn-fortellinger-om-mangfold-fra-historien-og-biolo
  gien-20271112T1700@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4221,7 +4639,7 @@ BEGIN:VEVENT
 SUMMARY:Sensur av bøker: amerikanske tilstander også i Norge?
 DTSTART;TZID=Europe/Oslo:20271112T120000
 DTEND;TZID=Europe/Oslo:20271112T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-sensur-av-boker-amerikanske-tilstander-ogsa-i-norge-2
  0271112T1200@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4237,7 +4655,7 @@ BEGIN:VEVENT
 SUMMARY:DKS: Arktiske mysterier
 DTSTART;TZID=Europe/Oslo:20271112T090000
 DTEND;TZID=Europe/Oslo:20271112T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-dks-arktiske-mysterier-20271112T0900@tromso.kommune.n
  o
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4252,7 +4670,7 @@ BEGIN:VEVENT
 SUMMARY:Avspark for Ibsen200 (påmelding)
 DTSTART;TZID=Europe/Oslo:20271111T110000
 DTEND;TZID=Europe/Oslo:20271111T130000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-avspark-ibsen200-pamelding-20271111T1100@tromso.kommu
  ne.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4267,7 +4685,7 @@ BEGIN:VEVENT
 SUMMARY:Arctic Pride: Forfattermøte med Mari Grydeland
 DTSTART;TZID=Europe/Oslo:20271111T090000
 DTEND;TZID=Europe/Oslo:20271111T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-arctic-pride-forfattermote-med-mari-grydeland-2027111
  1T0900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4283,7 +4701,7 @@ BEGIN:VEVENT
 SUMMARY:BANG! - Litteraturfestival for barn
 DTSTART;TZID=Europe/Oslo:20271107T100000
 DTEND;TZID=Europe/Oslo:20271107T120000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-bang-litteraturfestival-barn-20271107T1000@tromso.kom
  mune.no
 LOCATION:Hovedbiblioteket\, Tromsø
@@ -4299,7 +4717,7 @@ BEGIN:VEVENT
 SUMMARY:Forfattersamtale med April Alexandersdottir
 DTSTART;TZID=Europe/Oslo:20271106T120000
 DTEND;TZID=Europe/Oslo:20271106T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-forfattersamtale-med-april-alexandersdottir-20271106T
  1200@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4314,7 +4732,7 @@ BEGIN:VEVENT
 SUMMARY:Ordkalotten:Forfatterstudentene leser
 DTSTART;TZID=Europe/Oslo:20271106T100000
 DTEND;TZID=Europe/Oslo:20271106T120000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-ordkalotten-forfatterstudentene-leser-20271106T1000@t
  romso.kommune.no
 LOCATION:Tromsø bibliotek
@@ -4329,7 +4747,7 @@ BEGIN:VEVENT
 SUMMARY:Ordkalotten:Poetikkseminar med Kristin Vego
 DTSTART;TZID=Europe/Oslo:20271106T090000
 DTEND;TZID=Europe/Oslo:20271106T110000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-ordkalotten-poetikkseminar-med-kristin-vego-20271106T
  0900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4345,7 +4763,7 @@ SUMMARY:Internasjonalt seminar:Helse på naturens bekostning– Hvordan ka
  n helsetjenesten helbrede uten å skade?
 DTSTART;TZID=Europe/Oslo:20271105T190000
 DTEND;TZID=Europe/Oslo:20271105T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-internasjonalt-seminar-helse-pa-naturens-bekostning-h
  vordan-kan-20271105T1900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4361,7 +4779,7 @@ BEGIN:VEVENT
 SUMMARY:Ordkalotten:Festivalåpning
 DTSTART;TZID=Europe/Oslo:20271105T160000
 DTEND;TZID=Europe/Oslo:20271105T180000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-ordkalotten-festivalapning-20271105T1600@tromso.kommu
  ne.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4376,7 +4794,7 @@ BEGIN:VEVENT
 SUMMARY:Bibliotekets litteraturpris 2026 – utdeling!
 DTSTART;TZID=Europe/Oslo:20271104T190000
 DTEND;TZID=Europe/Oslo:20271104T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-bibliotekets-litteraturpris-2026-utdeling-20271104T19
  00@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4391,7 +4809,7 @@ BEGIN:VEVENT
 SUMMARY:Lesesirkel: Tenk for en jubel
 DTSTART;TZID=Europe/Oslo:20271103T173000
 DTEND;TZID=Europe/Oslo:20271103T193000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-lesesirkel-tenk-en-jubel-20271103T1730@tromso.kommune
  .no
 LOCATION:Hovedbiblioteket\, møterommet\, Tromsø
@@ -4408,7 +4826,7 @@ SUMMARY:Tromsø World Festival:CULTURE AND CLIMATE: BUILDING A SUSTAINABLE
   FESTIVAL SECTOR
 DTSTART;TZID=Europe/Oslo:20271031T121500
 DTEND;TZID=Europe/Oslo:20271031T141500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-tromso-world-festival-culture-and-climate-building-su
  stainable-festival-20271031T1215@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4424,7 +4842,7 @@ SUMMARY:Tromsø World Festival:TOURISM VS. LOCAL CULTURE: BUILDING PLACES
  WITHOUT LOSING IDENTITY
 DTSTART;TZID=Europe/Oslo:20271031T111500
 DTEND;TZID=Europe/Oslo:20271031T131500
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-tromso-world-festival-tourism-vs-local-culture-buildi
  ng-places-without-20271031T1115@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4439,7 +4857,7 @@ BEGIN:VEVENT
 SUMMARY:Internasjonalt seminar:Palestinsk motstand- håp\, mål og midler
 DTSTART;TZID=Europe/Oslo:20271029T190000
 DTEND;TZID=Europe/Oslo:20271029T210000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-internasjonalt-seminar-palestinsk-motstand-hap-mal-og
  -midler-20271029T1900@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4455,7 +4873,7 @@ SUMMARY:Foredrag:Jürgen Habermas – etterkrigstidens viktigste europeisk
  e intellektuelle
 DTSTART;TZID=Europe/Oslo:20271028T180000
 DTEND;TZID=Europe/Oslo:20271028T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-foredrag-jurgen-habermas-etterkrigstidens-viktigste-e
  uropeiske-20271028T1800@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4471,7 +4889,7 @@ SUMMARY:Panelsamtale: Alberte og Jakob – 100 år med frihetslengsel og s
  osial kontroll
 DTSTART;TZID=Europe/Oslo:20271026T180000
 DTEND;TZID=Europe/Oslo:20271026T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-panelsamtale-alberte-og-jakob-100-ar-med-frihetslengs
  el-og-sosial-20271026T1800@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4488,7 +4906,7 @@ SUMMARY:Barnevernet og flerkulturelle familier - dialog\, tillit og samarb
  eid
 DTSTART;TZID=Europe/Oslo:20271024T120000
 DTEND;TZID=Europe/Oslo:20271024T140000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:tromso-bibliotek-barnevernet-og-flerkulturelle-familier-dialog-tillit-
  og-samarbeid-20271024T1200@tromso.kommune.no
 LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
@@ -4500,25 +4918,10 @@ X-TROMSO-FREE:TRUE
 X-TROMSO-SOURCE:tromso_bibliotek
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kunsten å kommunisere med en tenåring om gutta!
-DTSTART;TZID=Europe/Oslo:20271021T190000
-DTEND;TZID=Europe/Oslo:20271021T210000
-DTSTAMP:20261126T173316Z
-UID:tromso-bibliotek-kunsten-kommunisere-med-en-tenaring-om-gutta-20271021
- T1900@tromso.kommune.no
-LOCATION:Hovedbiblioteket\, plan 2\, Tromsø
-URL:https://tromso.kommune.no/bibliotek/hendelse/2026/09/kunsten-kommunise
- re-med-en-tenaring-om-gutta
-X-IMAGE:https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420
- px_/public/2026-09/Gutta%20pp.jpg.webp?itok=tH-OUj4a
-X-TROMSO-FREE:TRUE
-X-TROMSO-SOURCE:tromso_bibliotek
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Flamenco Aften i Tromsø
 DTSTART;TZID=Europe/Oslo:20261205T180000
 DTEND;TZID=Europe/Oslo:20261205T200000
-DTSTAMP:20261126T173316Z
+DTSTAMP:20261127T162851Z
 UID:radstua-flamenco-aften-i-tromso-20261205T1800@radstua.no
 LOCATION:Rådstua Teaterhus\, Tromsø
 URL:https://www.radstua.no/aktuelt-program/flamenco-aften-i-tromso
