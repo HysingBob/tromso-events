@@ -1,5 +1,23 @@
 [
  {
+  "title": "STRANGE DAYS",
+  "start": "2026-11-26T17:30:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/strange-days-craft-encode",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/strange-days-08c_231206_102614.jpg",
+  "free": false
+ },
+ {
+  "title": "ROCKY",
+  "start": "2026-11-26T20:45:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/movie/rocky",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/42710/5000017_crop.png",
+  "free": false
+ },
+ {
   "title": "Fredagseventyret",
   "start": "2026-11-27T11:00:00",
   "venue": "Hovedbiblioteket, Eventyrrommet, Tromsø",
@@ -7,33 +25,6 @@
   "url": "https://tromso.kommune.no/bibliotek/hendelse/2026/07/fredagseventyret",
   "image": "https://tromso.kommune.no/sites/default/files/styles/mobile_x1_420px_/public/2025-01/4%20by%20DMITRIY%20MUKHIN-39%20liten%20%281%29.jpg.webp?itok=mb6PtbQx",
   "free": true
- },
- {
-  "title": "Pensjonskuppet",
-  "start": "2026-11-27T14:30:00",
-  "venue": "Aurora Kino, Sal 5, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/pensjonskuppet/1550",
-  "image": "https://images.filmgrail.com/1792763345445-blob?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Hope",
-  "start": "2026-11-27T14:30:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/hope/1691",
-  "image": "https://images.filmgrail.com/mediaserver/movies/hope-9731/backdrop/1795775211679?optimizer=image&width=1200",
-  "free": false
- },
- {
-  "title": "Velkommen Til Familien",
-  "start": "2026-11-27T14:30:00",
-  "venue": "Aurora Kino, Sal 3, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/velkommen-til-familien/1733",
-  "image": "https://images.filmgrail.com/mediaserver/movies/velkommen-til-familien-9682/backdrop/1794305709358?optimizer=image&width=1200",
-  "free": false
  },
  {
   "title": "Julenissens Verksted",
@@ -213,6 +204,15 @@
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/you-can-see-everything/1726",
   "image": "https://images.filmgrail.com/1793796023868-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "OPERA FRA THE MET | MACBETH (Guiseppe Verdi)",
+  "start": "2026-11-28T14:00:00",
+  "venue": "Verdensteatret, Tromsø",
+  "source": "verdensteatret",
+  "url": "https://www.verdensteatret.no/arrangement/opera-fra-the-met-macbeth-guiseppe-verdi",
+  "image": "https://www.verdensteatret.no/img/_movieThumb/MACBETH_798-1.jpg",
   "free": false
  },
  {
