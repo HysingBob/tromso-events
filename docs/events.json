@@ -1314,21 +1314,21 @@
   "free": false
  },
  {
-  "title": "Violent Night 2",
-  "start": "2026-12-05T18:00:00",
-  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/violent-night-2/1569",
-  "image": "https://images.filmgrail.com/mediaserver/movies/violent-night-2-9373/backdrop/1793020523900?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Ebenezer",
   "start": "2026-12-05T18:00:00",
   "venue": "Aurora Kino, Sal 5, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
   "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Violent Night 2",
+  "start": "2026-12-05T18:00:00",
+  "venue": "Aurora Kino, Sal 6 - LUXUS by LEXUS, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/violent-night-2/1569",
+  "image": "https://images.filmgrail.com/mediaserver/movies/violent-night-2-9373/backdrop/1793020523900?optimizer=image&width=1200",
   "free": false
  },
  {
@@ -1431,21 +1431,21 @@
   "free": false
  },
  {
-  "title": "Katten Med Hatten",
-  "start": "2026-12-06T14:15:00",
-  "venue": "Aurora Kino, Sal 2, Tromsø",
-  "source": "aurora",
-  "url": "https://fokus.aurorakino.no/f/katten-med-hatten/1541",
-  "image": "https://images.filmgrail.com/mediaserver/movies/katten-med-hatten-7500/backdrop/1794831311036?optimizer=image&width=1200",
-  "free": false
- },
- {
   "title": "Ebenezer",
   "start": "2026-12-06T14:15:00",
   "venue": "Aurora Kino, Sal 3, Tromsø",
   "source": "aurora",
   "url": "https://fokus.aurorakino.no/f/ebenezer/1588",
   "image": "https://images.filmgrail.com/1794496346576-blob?optimizer=image&width=1200",
+  "free": false
+ },
+ {
+  "title": "Katten Med Hatten",
+  "start": "2026-12-06T14:15:00",
+  "venue": "Aurora Kino, Sal 2, Tromsø",
+  "source": "aurora",
+  "url": "https://fokus.aurorakino.no/f/katten-med-hatten/1541",
+  "image": "https://images.filmgrail.com/mediaserver/movies/katten-med-hatten-7500/backdrop/1794831311036?optimizer=image&width=1200",
   "free": false
  },
  {
